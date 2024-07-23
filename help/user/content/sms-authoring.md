@@ -3,9 +3,9 @@ title: SMS-authoring
 description: Leer hoe u SMS-berichten naar uw klanten op hun mobiele apparaten kunt verzenden en hoe u berichten in tekstindeling kunt personaliseren en voorvertonen vanuit de SMS-editor.
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: e0d9359560f31b3e66f593426c66e64d31044d54
+source-git-commit: a5f3f5533adefeb2daa6fc93e9cdef094aee9d37
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1768'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Gebruik Adobe Journey Optimizer B2B Edition om SMS-berichten (text messages) naa
 
 ## SMS-configuraties
 
-Adobe Journey Optimizer B2B Edition verzendt tekstberichten via SMS-serviceproviders (of SMS-gatewayproviders). Voordat u uw SMS-bericht maakt, configureert u uw serviceprovider via de beheerdersinstellingen.
+Adobe Journey Optimizer B2B Edition verzendt tekstberichten via SMS-serviceproviders (of SMS-gatewayproviders). Alvorens uw bericht van SMS te creëren, vorm uw dienstverlener van de _montages van de Beheerder_.
 
 ### SMS-gatewayserviceproviders
 
@@ -162,26 +162,26 @@ U kunt tekstberichtenleveringen instellen in een Account Journey wanneer u een _
 
    Wanneer uw personalisatietokens worden geplaatst, klik **[!UICONTROL Save]** om veranderingen te bewaren en aan de belangrijkste het auteurswerkruimte van SMS terug te keren. U kunt het bericht desgewenst blijven bewerken met de tokens.
 
-<!-- 1. **Add URLs to text message**.
+1. **voegt URLs aan het tekstbericht** toe.
 
-   After defining your content, you can add URLs to your message by clicking the _Link_ icon.
-   
-   You can add two types of URLs: 
+   Na het bepalen van uw inhoud, kunt u URLs aan uw bericht toevoegen door het _pictogram van de Verbinding_ te klikken.
 
-   External URLs - This is ANY external URL that can be directly typed into/ pasted into the input text box
-   Adobe Marketo Engage Design Studio Landing Pages - Selecting this option, you will see a 'Landing Page picker' from which you can select any of the listed approved Landing Pages from Marketo Engage
+   Met deze handeling wordt een dialoogvenster geopend waarin u een van de volgende twee typen URL&#39;s kunt kiezen:
 
-   You can choose to 'shorten' either of these URLs by selecting the checkbox
-   Note that the URL shortening function, uses the Marketo subdomain for shortening
-   The shortened URL appears as a read-only field within the modal
-   You can optionally track clicks on the URL
-   You can also choose to include 'mkt_tok' for tracking activity against a user
-   Click on Add to save changes & add the chosen URL to the SMS message
--->
+   * **[!UICONTROL External URL]** - Dit type is een externe URL die u in het tekstvak invoert.
+   * **[!UICONTROL Landing Page]** - Kies deze optie als u een van de goedgekeurde Adobe Marketo Engage Design Studio-bestemmingspagina&#39;s van uw Marketo Engage wilt selecteren.
+
+   Het dialoogvenster bevat ook opties voor de URL-koppelingen:
+
+   * **[!UICONTROL Shorten URL]** - selecteer dit checkbox aan _verkort_ URL, die voor het volgen noodzakelijk is. Voor een landingspagina wordt het subdomein Marketo Engage gebruikt voor de verkorte URL. Er wordt een voorbeeld van de verkorte URL-indeling weergegeven. De daadwerkelijke URL wordt gecreeerd wanneer SMS wordt verzonden naar de ontvanger.
+
+   * **[!UICONTROL Include mkt_tok]** - Schakel dit selectievakje in om de activiteit van een gebruiker bij te houden.
+
+   Wanneer de koppelingsopties zijn voltooid, klikt u op **[!UICONTROL Add]** om de wijzigingen op te slaan en de URL-koppeling toe te voegen aan het SMS-bericht.
 
 ## De SMS-eigenschappen instellen
 
-1. Voer in de sectie _[!UICONTROL SMS properties]_een **[!UICONTROL Name]**(vereist, maximaal 100 cha\racter) en **[!UICONTROL Description]**(optioneel, maximaal 300 tekens) in voor uw bericht.
+1. Voer in de sectie _[!UICONTROL SMS properties]_een **[!UICONTROL Name]**(vereist, maximaal 100 tekens) en **[!UICONTROL Description]**(optioneel, maximaal 300 tekens) voor uw bericht in.
 
    Alpha, numerieke, speciale tekens zijn toegestaan voor deze velden. De volgende gereserveerde tekens zijn **niet toegestaan** : `\` , `/` , `:` , `*`, `?` , `"` , `<` , `>` en `|` .
 
@@ -198,32 +198,48 @@ U kunt tekstberichtenleveringen instellen in een Account Journey wanneer u een _
 
    ![ neem een actie - verzend sms ](./assets/sms-properties.png){width="700" zoomable="yes"}
 
-   Het nummer van de ontvanger wordt altijd toegewezen aan het veld `Lead.MainPhone` in het Marketo Engage.
+   Het nummer van de ontvanger wordt altijd toegewezen aan het veld `Lead.mobilePhone` in het Marketo Engage.
 
-<!-- ## Preview the text message content
+## Inhoud van tekstberichten simuleren
 
-When your message content is defined, you can use test profiles to preview its content. If you inserted personalized content, you can check how this content is displayed in the message, using test profile data.
+Wanneer de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken om de inhoud ervan te simuleren (voor een voorvertoning). Als u persoonlijke inhoud hebt ingevoegd, kunt u met testprofielgegevens controleren hoe deze inhoud in het bericht wordt weergegeven.
 
-1. Click **[!UICONTROL Simulate Content]** at the top of the SMS authoring workspace.
+>[!IMPORTANT]
+>
+>Sla uw SMS-bericht op voordat u het tekstbericht gaat simuleren.
 
-1. From the _[!UICONTROL Simulate Content]_ page, click **[!UICONTROL Add People]**.
+1. Klik op **[!UICONTROL Simulate Content]** boven aan de werkruimte voor het schrijven van SMS.
 
-1. Use the # page to manage the leads used for your test profile.
+1. Klik op **[!UICONTROL Add People]** op de pagina _[!UICONTROL Simulate Content]_.
 
-   In the displayed list, you can search for and add any of the leads (up to 10 leads at a time) from the Marketo Engage lead database.
+1. Gebruik de _Simulate Inhoud_ pagina om de lood te beheren die voor uw testprofiel worden gebruikt.
 
-   To search, enter the whole email address and click enter. The corresponding lead profile shows up for selection.
+   In de getoonde lijst, kunt u naar om het even welke lood zoeken en toevoegen (tot 10 lood tegelijk) van het Marketo Engage loodgegevensbestand.
 
-   The preview updated to the personalization fields for the selected profile.
+   Om te zoeken, ga het volledige e-mailadres in en het drukken _gaat_ binnen. Het bijbehorende hoofdprofiel wordt weergegeven voor selectie.
 
-   All the added leads appear on the left rail of the 'Simulate Content' page
+   De voorvertoning wordt bijgewerkt naar de aanpassingsvelden voor het geselecteerde profiel.
 
-   You can manage this list by adding more people and deleting individual leads from the profile listing (it does not remove them from the database).
+   Alle toegevoegde leads worden links weergegeven.
 
-1. Simulate content for a lead.
+   U kunt deze lijst beheren door meer personen toe te voegen en afzonderlijke leads te verwijderen uit de profiellijst (deze worden niet verwijderd uit de database).
 
-   Select any of the leads listed on the left rail of the Simulate Content page and the SMS preview on the page updates for the corresponding lead.
+1. Inhoud voor een geselecteerde lead simuleren.
 
-   You can also select a lead from the 'drop-down' box above the preview space and the SMS preview on the page updates for the corresponding lead
+   Selecteer een van de links vermelde leads en de SMS-voorvertoning op de pagina-updates voor de bijbehorende lead.
 
-1. To exit the _[!UICONTROL Simulate Content]_ page and return back to the SMS authoring workspace, click Close. -->
+   U kunt ook een lead selecteren in de kiezer boven de voorvertoningsruimte om de SMS-voorvertoning op de pagina voor de bijbehorende lead bij te werken.
+
+1. Als u de pagina _[!UICONTROL Simulate Content]_wilt afsluiten en wilt terugkeren naar de werkruimte voor het schrijven van SMS, klikt u op **[!UICONTROL Close]**rechtsboven.
+
+## Beheer van SMS-toestemmingen
+
+Het is een wettelijke vereiste om ontvangers de mogelijkheid te bieden zich niet meer te abonneren op het ontvangen van communicatie van een merk en deze keuze te respecteren. Als u deze regels niet naleeft, brengt u juridische risico&#39;s met zich mee voor uw merk. Deze functie helpt u ook vermijden verzendend ongevraagde mededelingen naar uw ontvangers, die hen kunnen veroorzaken om uw berichten als spam te merken en uw reputatie te schaden.
+
+Wanneer u deze optie aanbiedt, kunnen SMS-ontvangers reageren met de trefwoorden opt-in en opt-out. Alle standaard opt-in en opt-out sleutelwoorden worden gesteund en gehonoreerd, en om het even welke douanesleutelwoorden die bij de dienstverlener van SMS worden gevormd. Als u geen abonnement hebt, worden de profielen automatisch verwijderd uit het publiek van toekomstige marketingberichten.
+
+Journey Optimizer B2B Edition biedt de mogelijkheid om de optie om te weigeren in SMS-berichten te beheren met behulp van de volgende logica:
+
+* Als een lead ervoor heeft gekozen geen communicatie van u te ontvangen, wordt het bijbehorende profiel standaard uitgesloten van daaropvolgende SMS-leveringen
+
+* Deze toestemming voor leads die afkomstig is van verschillende bronnen (zoals AEP of de SMS-serviceprovider) wordt gesynchroniseerd met Journey Optimizer B2B Edition. Momenteel ondersteunt het slechts één enkele toestemmingsstaat per lood op instantieniveau (een lood &quot;Jan Smit&quot; wordt geabonneerd op of afgemeld van alle promotionele SMS in het geval). Momenteel biedt het geen ondersteuning voor dubbele opt-in op merkniveau/toestemming op het niveau van individuele abonnementenlijsten.

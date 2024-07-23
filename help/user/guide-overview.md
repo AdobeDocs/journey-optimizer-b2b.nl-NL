@@ -2,9 +2,9 @@
 title: Documentatie Adobe Journey Optimizer B2B Edition
 description: Leer hoe u de Adobe Journey Optimizer B2B Edition-functies kunt gebruiken.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: dc8301ba755aaf457b955ffbb9c6f0eff6d5a295
+source-git-commit: f8b8f2a4ee813094389d1f262f729a9e95502c6a
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
@@ -88,24 +88,25 @@ Maak op maat gemaakte reizen voor het kopen van groepen binnen doelaccounts die 
       <strong> het Kopen groepen </strong><br/> <a href="./buying-groups/buying-groups-overview.md"> het Kopen groepen overzicht </a><br/> <a href="./buying-groups/buying-groups-role-templates.md"> de malplaatjes van de Rol </a><br/> <a href="./buying-groups/solution-interests.md"> de belangen van de Oplossing </a><br/> <a href="./buying-groups/buying-groups-create.md"> creeer het kopen groepen </a>
     </td>
     <td>
-      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px"><br/>
-      <strong> de inhoud van de Reis </strong><br/> <a href="./content/email-authoring.md"> E-mail authoring </a><br/> <a href="./content/ai-assistant-emails.md"> AI Medewerker voor e-mail </a><br/> <a href="./content/sms-authoring.md"> het auteursrecht van SMS </a>
+      <img src="../assets/do-not-localize/icon-paths.svg" width="35px"><br/>
+      <strong> de reizen van de Rekening </strong><br/> <a href="./journeys/journey-overview.md"> Overzicht van de Reizen </a><br/> <a href="./journeys/journey-nodes.md"> knopen van de Rang </a><br/> <a href="./journeys/journey-overview.md#create-an-account-journey"> creeer een rekeningsreis </a>
     </td>
   </tr>
   <tr style="border: 0;">
+    <td>
+      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px"><br/>
+      <strong> de inhoud van de Reis </strong><br/> <a href="./content/email-authoring.md"> E-mail authoring </a><br/> <a href="./content/ai-assistant-emails.md"> AI Medewerker voor e-mail </a><br/> <a href="./content/sms-authoring.md"> het auteursrecht van SMS </a>
+    </td>
         <td>
-      <img src="../assets/do-not-localize/icon-paths.svg" width="35px"><br/>
-      <strong> de reizen van de Rekening </strong><br/> <a href="./journeys/journey-overview.md"> Overzicht van de Reizen </a><br/> <a href="./journeys/journey-nodes.md"> knopen van de Rang </a><br/> <a href="./journeys/journey-overview.md#create-an-account-journey"> creeer een rekeningsreis </a>
+      <img src="../assets/do-not-localize/icon_assets.svg" width="35px"><br/>
+      <strong> Assets </strong><br/> <a href="./content/assets-overview.md"> Overzicht </a><br/> <a href="./content/marketo-engage-design-studio.md"> Studio van het Ontwerp van het Marketo Engage </a><br/> <a href="./content/aem-assets.md"> Adobe Experience Manager Assets </a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px"><br/>
       <strong> Inzichten </strong><br/> <a href="./dashboards/buying-groups-dashboard.md"> Buying groepering dashboard </a><br/> <a href="./dashboards/journeys-dashboard.md"> het dashboard van de Reizen </a><br/> <a href="./dashboards/engagement-dashboard.md"> het dashboard van de Betrokkenheid </a>
     </td>
-    <td>
-      <img src="../assets/do-not-localize/icon-configure.svg" width="35px"><br/>
-      <strong> Integraties </strong><br/> <a href="./integrations/experience-manager-assets-integration.md"> Adobe Experience Manager Assets </a>
-    </td>
-  </tr>
+
+</tr>
 </table>
 
 <!-- 

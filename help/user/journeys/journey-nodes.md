@@ -3,52 +3,22 @@ title: Rekeningknooppunten
 description: Leer over de knooppunttypes die u kunt gebruiken om uw rekeningsreizen te construeren.
 feature: Account Journeys
 exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
-source-git-commit: dc8301ba755aaf457b955ffbb9c6f0eff6d5a295
+source-git-commit: 90946e472ba4757a2594e4303495a20ceb4fc890
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1692'
 ht-degree: 0%
 
 ---
 
 # Rekeningknooppunten
 
-Nadat u [ een rekeningsreis ](journey-overview.md#create-an-account-journey) creeert en [ het publiek ](journey-overview.md#add-the-account-audience-for-your-journey) toevoegt, bouwt de reis uit gebruikend knopen.
+Nadat u [ een rekeningsreis ](journey-overview.md#create-an-account-journey) creeert en [ het publiek ](journey-overview.md#add-the-account-audience-for-your-journey) toevoegt, bouwt de reis uit gebruikend knopen. De reiskaart biedt een canvas waar u meerdere stappen B2B-marketinggebruiksscenario&#39;s kunt maken.
 
-## Knooppunttypen
+Bouw de reis van uw rekening door de verschillende actie, gebeurtenis, en orchestration knopen als multi-step, dwars-kanaalscenario te combineren. Elk knooppunt van een puzzel vertegenwoordigt een stap langs een logisch pad.
 
-| Knooppunttype | Functie |
-| --------- | ------- |
-| [ Publiek van de Rekening ](journey-overview.md#add-the-account-audience-for-your-journey) | Het publiek van de rekening van de input voor de reis. Dit knooppunt is altijd het eerste knooppunt en wordt standaard automatisch gemaakt |
-| [ Actie op mensen ](#add-a-people-action) | E-mail verzenden |
-| | Score wijzigen |
-| | Persoon toewijzen aan kopersgroep |
-| | Persoon uit kopersgroep verwijderen |
-| | Toevoegen aan Marketo-campagne |
-| | Interessant moment voor leads maken |
-| [ Actie op rekeningen ](#add-an-account-action) | Gegevenswaarde wijzigen |
-| | Account verwijderen uit (huidige) reis |
-| | Account toevoegen aan (andere) reis |
-| | Maak een interessant moment voor uw account |
-| | Toevoegen aan Marketo-accountlijst (impliciet) |
-| [ Gebeurtenissen voor mensen ](#add-a-people-event) | Wijzigingen gegevenswaarde |
-| | Score-wijziging |
-| | Hiermee opent u e-mail |
-| | Klik op de koppeling in e-mail |
-| | Klik op koppeling op webpagina |
-| | Toegewezen aan kopersgroep |
-| | Verwijderd uit kopersgroep |
-| [ Gebeurtenissen voor rekeningen ](#add-an-account-event) | Waarde van accountgegevens wijzigen |
-| | Heeft interessant moment |
-| [ Splitst door mensen ](#add-a-split-path-by-people-node) | Kenmerken lead |
-| | Gewijzigde gegevenswaarde (zoals filter op activiteitengeschiedenis) |
-| | Geopende e-mail |
-| | Op koppeling in e-mail klikken |
-| | Klikte koppeling op webpagina |
-| | Interessant moment |
-| | Lid van de kopersgroep |
-| [ Splitst door rekeningen ](#add-a-split-path-by-account-node) | Verandering in de Waarde van de Gegevens van de Rekening (zoals filter op activiteitengeschiedenis) |
-| [ wacht ](#wait) | Beschikbaar op accountniveau |
-| [ de wegen van de Fusie ](#merge-paths) | |
+## Account Audience-knooppunt
+
+De ](journey-overview.md#add-the-account-audience-for-your-journey) knoop van het Publiek van de Rekening [ bepaalt het publiek van de inputrekening (die in Adobe Experience Platform wordt gecreeerd en wordt geleid) voor de reis. Dit knooppunt is altijd het eerste knooppunt en wordt standaard automatisch gemaakt.
 
 ## Handeling uitvoeren
 
@@ -57,6 +27,23 @@ Voer een handeling uit zoals een e-mail verzenden, de score wijzigen, enzovoort.
 **Actie op rekeningen**: De actie wordt toegepast op alle mensen die deel van rekeningen op deze weg uitmaken.
 
 **Actie op mensen**: De actie wordt toegepast op alle mensen op deze weg. Een handeling voor personen kan binnen het splitsingspad door personen worden gebruikt of door accounts worden gesplitst.
+
+| Knooppuntcontext | Functie | Restricties |
+| ------------ | -------- | ----------- |
+| [ Mensen ](#add-a-people-action) | Toewijzen aan kopersgroep | Selecteer oplossingsrente <br/> Uitgezochte rol |
+| | Verwijderen uit kopersgroep | Belang van oplossing selecteren |
+| | SMS verzenden | SMS maken |
+| | Toevoegen aan Marketo Engage-aanvraagcampagne | Selecteer de werkruimte van het Marketo Engage <br/> Uitgezochte campagne van het Verzoek |
+| | Partitie met personen in Marketo Engage wijzigen | Nieuwe partitie |
+| | Interessant moment persoon | Type <br/> Beschrijving |
+| | Score wijzigen | Score naam <br/> Verandering |
+| | E-mail verzenden | Creeer nieuwe e-mail <br/> Uitgezochte e-mail van Marketo Engage |
+| [ Rekeningen ](#add-an-account-action) | Waarschuwing over verkoop verzenden | Selecteer oplossingsrente <br/> verzendt e-mail naar |
+| | Account toevoegen aan (andere) reis | Reis live account selecteren |
+| | Status van kopersgroep bijwerken | De Rente van de oplossing <br/> Status (vereist, maximaal 50 karakters) |
+| | Account verwijderen uit (huidige) reis | Reis live account selecteren |
+| | Interessant moment voor account | Het type (e-mail, mijlpaal, of Web) <br/> Beschrijving (facultatief) |
+| | Gegevenswaarde account wijzigen | Selecteer attribuut <br/> Nieuwe waarde |
 
 ### Een accounthandeling toevoegen
 
@@ -94,6 +81,20 @@ Verplaats uw publiek naar de volgende stap in de reis wanneer een gebeurtenis pl
 **luistert aan gebeurtenissen op rekeningen**: Als minstens één persoon van een rekening een gebeurtenis teweegbrengt, gaat de rekening vooruit naar de volgende stap op de reis.
 
 **luistert aan gebeurtenissen op mensen**: De gebeurtenissen op mensen kunnen slechts op een rekeningsweg worden toegepast; het is niet beschikbaar voor een spleet door personenknoop.
+
+| Knooppuntcontext | Functie | Restricties |
+| ------------ | -------- | ----------- |
+| [ Mensen ](#add-a-people-event) | Wijzigingen gegevenswaarde | Attribuut <br/> Extra beperkingen (facultatief) <br/> Onderbreking (facultatief) |
+| | Klik op de koppeling in e-mail | E-mail <br/> Extra beperkingen (facultatief) <br/> Onderbreking (facultatief) |
+| | Toegewezen aan kopersgroep | De rente van de oplossing <br/> Aanvullende beperkingen (facultatieve) <br/> (facultatieve) Onderbreking |
+| | Hiermee opent u e-mail | E-mail <br/> Extra beperkingen (facultatief) <br/> Onderbreking (facultatief) |
+| | Score is gewijzigd | De naam van de score <br/> Extra beperkingen (facultatieve) <br/> (facultatieve) Onderbreking van de score |
+| | Verwijderd uit kopersgroep | De rente van de oplossing <br/> Datum van activiteit (facultatief) <br/> (facultatieve) Onderbreking |
+| [ Rekeningen ](#add-an-account-event) | Status van kopersgroep wijzigen | De rente van de oplossing <br/> Aanvullende beperkingen (facultatieve) <br/> (facultatieve) Onderbreking |
+| | Wijziging in de score Volledigheid | De rente van de oplossing <br/> Aanvullende beperkingen (facultatieve) <br/> (facultatieve) Onderbreking |
+| | Account had interessant moment | Het type <br/> Extra beperkingen (facultatief) <br/> Onderbreking (facultatief) |
+| | Wijziging van de betrokkenheidsscore | De rente van de oplossing <br/> Aanvullende beperkingen (facultatieve) <br/> (facultatieve) Onderbreking |
+| | Waarde van accountgegevens wijzigen | Attribuut <br/> Extra beperkingen (facultatief) <br/> Onderbreking (facultatief) |
 
 ### Een accountgebeurtenis toevoegen
 
@@ -141,6 +142,10 @@ Indien nodig, bepaal de hoeveelheid tijd de reis op de gebeurtenis wacht. De rei
 
 Splits de doelgroep op basis van filtervoorwaarden.
 
+>[!NOTE]
+>
+>Er worden maximaal 25 paden ondersteund.
+
 **Gesplitste wegen door rekeningen**: De wegen die door rekeningen worden gesplitst kunnen zowel rekening als menselijke acties en gebeurtenissen omvatten, en deze wegen kunnen verder worden gesplitst.
 
 _hoe werkt een gespleten weg door rekeningsknoop?_
@@ -162,9 +167,16 @@ _hoe werkt een gespleten weg door mensen knoop?_
 
 ![ knoop van de Reis - gespleten wegen door mensen ](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
->[!NOTE]
->
->Er worden maximaal 25 paden ondersteund.
+| Knooppuntcontext | Padvoorwaarden | Beschrijving |
+| ------------ | -------- | ----------- |
+| [ Mensen ](#add-a-split-path-by-people-node) | Persoonskenmerken | |
+| | Gewijzigde gegevenswaarde (zoals filter op activiteitengeschiedenis) | |
+| | Geopende e-mail | |
+| | Op koppeling in e-mail klikken | |
+| | Klikte koppeling op webpagina | |
+| | Interessant moment | |
+| | Lid van de kopersgroep | |
+| [ Rekeningen ](#add-a-split-path-by-account-node) | Verandering in de Waarde van de Gegevens van de Rekening (zoals filter op activiteitengeschiedenis) | |
 
 ### Een gesplitst pad toevoegen per accountknooppunt
 
@@ -267,4 +279,3 @@ Met dit knooppunt kunt u verschillende paden samenvoegen en samenvoegen.
    U zou nu moeten zien dat de wegen worden samengevoegd zodat de rekeningen van de geselecteerde wegen aan één enkele weg combineren en door de reis kunnen blijven voortgaan.
 
 1. Indien nodig, kunt u wegen unmerge door terug naar de eigenschappen van de fusieknoop te navigeren en checkbox voor om het even welke wegen te ontruimen die u wilt verwijderen.
-

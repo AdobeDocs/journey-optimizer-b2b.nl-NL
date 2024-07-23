@@ -3,9 +3,9 @@ title: Accountreizen
 description: Leer meer over accountreizen en hoe u deze kunt maken en beheren.
 feature: Account Journeys
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: 59407f21319ff1b84e4fd001c4e92cfff61c57c9
+source-git-commit: 07198448d168e66023fada332f38099890ba4a1b
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1068'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Bepaal verkoop-gedreven overeenkomst die e-mail, SMS, en meer binnenrekeningreiz
 
 Deze tabel bevat de mogelijkheid te zoeken op naam en is gemaakt door. Sorteren is momenteel niet beschikbaar.
 
-U kunt de weergegeven tabel aanpassen door te klikken op het pictogram Kolommen in de rechterbovenhoek en de selectievakjes te selecteren of te wissen.
+U kunt de getoonde lijst aanpassen door het _pictogram van Kolommen_ in de hoger-juiste hoek te klikken en checkboxes te selecteren of te ontruimen.
 
 ![ kies de kolommen in de lijst van de rekenentransporten ](./assets/account-journeys-list-columns.png){width="800" zoomable="yes"} te tonen
 
@@ -46,7 +46,7 @@ Klik op de naam (weergegeven als een koppeling) in de lijst van _[!UICONTROL Acc
 
 ![ de werkruimte van de de reisreis van de Rekening ](./assets/account-journey-workspace.png){width="800" zoomable="yes"}
 
-De kopbal van de redacteur van elke reis omvat:
+De koptekst van de editor voor elke accountreis bevat:
 
 * Naam reis
 * Mogelijkheid om de naam uit te geven (_geeft_ pictogram uit)

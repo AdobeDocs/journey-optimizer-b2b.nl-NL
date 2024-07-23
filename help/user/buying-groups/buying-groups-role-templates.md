@@ -3,9 +3,9 @@ title: Rolinesjablonen voor groepen kopen
 description: Meer informatie over het definiëren van een rolsjabloon die moet worden gebruikt als onderdeel van een inkoopgroep.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 8afc432e7caeb2bf7e632276a7432d0a010f9ab2
+source-git-commit: 099b515ac91e37c90421cf92f7a724257b07f42e
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
@@ -55,13 +55,23 @@ Op een B2B-markt worden aankoopbeslissingen meestal door meerdere personen genom
 
 1. Voeg een regel toe voor elke rol die u voor het malplaatje wilt bepalen.
 
-   Voor de huidige release zijn er zes rollen: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` en `Other` .
+* Kies de **[!UICONTROL Buying group role]** in de lijst.
 
-   ![ het Kopen lijst van groepsrollen ](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
+  Voor de huidige release zijn er zes rollen: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` en `Other` .
 
-   * Kies een rol in de lijst.
+![ het Kopen lijst van groepsrollen ](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
-   * Klik op **[!UICONTROL Add Condition]**.
+* Stel de **[!UICONTROL Weighting]** in voor de rol, die wordt gebruikt om de betrokkenheidsscore te berekenen.
+
+  De waarde voor elke optie wordt omgezet in een percentage voor de berekening van de score: [!UICONTROL Trivial] = 20, [!UICONTROL Minor] = 40, [!UICONTROL Normal] = 60, [!UICONTROL Important] = 80 en [!UICONTROL Vital] = 100.
+
+  Bijvoorbeeld, wordt een rolmalplaatje met rollen gebruikend Vital, Belangrijk, en Normaal, dan omgezet als 100/240, 80/240, 60/240.
+
+* **[!UICONTROL Add conditions for auto-assignment]** - Schakel dit selectievakje in om voorwaarden toe te voegen waaraan automatisch leden worden toegewezen aan de kopende groep die aan de voorwaarde voldoet. Als het selectievakje niet is ingeschakeld, is het NIET nodig voorwaarden toe te voegen.
+
+* **[!UICONTROL Required for completeness score]** - Selecteer dit selectievakje voor de rol als u wilt dat dit een vereiste is voor het berekenen van een volledigheidsscore. —>
+
+* Klik op **[!UICONTROL Add Condition]**.
 
    * Vouw in het dialoogvenster Voorwaarde de lijst met **[!UICONTROL Person attributes]** uit en zoek een kenmerk dat u wilt gebruiken om de rol aan te passen. Sleep het naar rechts en zet het neer in de filterruimte.
 
@@ -77,19 +87,15 @@ Op een B2B-markt worden aankoopbeslissingen meestal door meerdere personen genom
 
    * Klik op **[!UICONTROL Done]**.
 
-   Voor elke aanvullende rol die u voor de sjabloon wilt opnemen, klikt u op **[!UICONTROL Add another role]** en definieert u een of meer voorwaarden die met de rol moeten overeenkomen.
+Voor elke aanvullende rol die u voor de sjabloon wilt opnemen, klikt u op **[!UICONTROL Add another role]** en definieert u een of meer voorwaarden die met de rol moeten overeenkomen.
 
-   ![ het malplaatje van Rollen met veelvoudige bepaalde rollen ](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
+![ het malplaatje van Rollen met veelvoudige bepaalde rollen ](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
 1. Als de sjabloon gereed is voor gebruik, klikt u op **[!UICONTROL Publish]** rechtsboven.
 
    Het publiceren van het malplaatje plaatst het aan a _Levende_ status en maakt het beschikbaar om met een Rente van de Oplossing te associëren. Er moet minstens één bepaalde rol zijn om het rolmalplaatje te publiceren.
 
    Uw veranderingen worden auto-bewaard in de _status van het Ontwerp_. Als u niet bereid bent om het rolmalplaatje te publiceren, klik de linker (rug) pijl bij de bovenkant van de pagina en terugkeer aan de lijst van de Malplaatjes van Roles.
-<!-- 
-< PM -- the Required for completion checkbox is not available to clear. Is this functional for Beta? >
-
-Required for completion checkbox - select this for a role if it is required to calculate the completeness score. -->
 
 ## Een sjabloon voor conceptrollen bewerken
 

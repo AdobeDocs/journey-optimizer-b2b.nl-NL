@@ -3,16 +3,16 @@ title: Dagboek overzicht
 description: Leer meer over de informatie die wordt geleverd door het dashboard Overzicht van de Reis en hoe u hiermee uw strategie voor de Reis van de Rekening kunt volgen en beheren.
 feature: Dashboards, Account Journeys
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
-source-git-commit: 3223a1379fad0da8b46af8c2f3929e79fafbd256
+source-git-commit: d1505512a45b2e47f8d867a8c1abe28ddc2565f0
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
 
 # Dagboek overzicht
 
-Dit dashboard biedt een uitgebreide weergave van betrokkenheid en toont real-time metriek van account en individuele interacties via schenkingsgrafieken en trendonthullende lijngrafieken in de loop der tijd. Het helpt u om uw inspanningen voor betrokkenheid effectief te controleren en te strategisch.
+Dit dashboard biedt een uitgebreid overzicht van een geselecteerde accountreis, met een gedetailleerd overzicht van de voortgang van de account met donut- en lijngrafieken waarmee voltooide accounts, lopende activiteiten en afbrekingen in de loop der tijd worden gecategoriseerd en gekwantificeerd. Het helpt marketers de doeltreffendheid van e-mail en SMS kanalen door zeer belangrijke levering en betrokkenheidsmetriek te evalueren.
 
 ## Reisstatus
 
@@ -85,7 +85,3 @@ Klik op de knop in de rechterbovenhoek om de beschikbare kolommen te verbergen o
 * [!UICONTROL Entry Date]
 * [!UICONTROL Exit Date]
 * [!UICONTROL Number of Days in Journey]
-
-Globaal filter:
-
-Datumfilter
