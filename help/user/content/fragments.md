@@ -146,7 +146,7 @@ Fragmenten zijn ontworpen voor hergebruik en kunnen worden ingevoegd voor het on
 
 >[!BEGINTABS]
 
->[!TAB  voegt fragmenten aan e-mail ] toe
+>[!TAB  voegt fragmenten aan e-mail  toe]
 
 1. Navigeer naar Rekeningreizen en open een bestaande reis of maak een nieuwe reis.
 
@@ -174,7 +174,7 @@ Als u het fragment wilt toevoegen zodat het de volledige horizontale lay-out bin
 
 Nadat het e-mailbericht is opgeslagen, wordt het weergegeven op de pagina met fragmentdetails > Gebruikt door sectie. Fragmenten die aan een e-mailbericht worden toegevoegd, kunnen niet worden bewerkt in de e-mail. De inhoud wordt gedefinieerd door het bronfragment.
 
->[!TAB  voegt fragmenten aan een e-mailmalplaatje ] toe
+>[!TAB  voegt fragmenten aan een e-mailmalplaatje  toe]
 
 1. Klik in de linkernavigatie op **[!UICONTROL Content Management]** > **[!UICONTROL Templates]** .
 
