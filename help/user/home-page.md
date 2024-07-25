@@ -2,9 +2,9 @@
 title: Aanmelden en homepage
 description: Leer hoe u de Journey Optimizer B2B Edition-app kunt openen en de homepage-informatie kunt gebruiken.
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
-source-git-commit: d5712562beb6038601bea6b91c511a796bc6ddd7
+source-git-commit: 13c25bf654c4cbc35589866d817de224065ab861
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -17,52 +17,63 @@ Met Adobe Journey Optimizer B2B Edition kunt u met behulp van geïntegreerde gen
 -->
 Als u toegang wilt tot [!DNL Adobe Journey Optimizer B2B Edition] , maakt u verbinding met Adobe Experience Cloud met uw Adobe ID en selecteert u [!DNL Journey Optimizer B2B Edition] .
 
-![ Kopende groep doorbladert pagina ](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}
+![ Adobe Experience Platform apps ](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}
 
 De startpagina wordt weergegeven wanneer u zich aanmeldt bij de Adobe Experience Platform en de app Adobe Journey Optimizer B2B Edition selecteert. Deze pagina biedt een overzicht van de huidige stand van zaken van de B2B-initiatieven van Journey Optimizer in de vorm van verfijnde inzichten en snelle toegang tot de desbetreffende modules. Het biedt ook informatie over de ideale volgende actie die moet worden ondernomen en waar de uitgebreide reeks zelfstudies en documentatie moet worden gevonden.
 
-De Journey Optimizer B2B Edition heeft twee primaire gebruikersvoorkeuren: een markeerteken en een beheerder. Elke persoon heeft een specifieke homepage voor verschillende (nieuwe of geavanceerde) looptijdstadia. De pagina-inhoud is gebaseerd op wat elk individu nodig heeft op het gebied van informatie en de volgende acties die moeten worden ondernomen. Deze pagina&#39;s omvatten ook toegang tot **AI Medewerker**, die gebruikers helpt om snelle informatie over om het even welke specifieke vragen of onderwerpen te krijgen die zij <!-- and to obtain specific recommendations for their challenges or objectives--> nodig hebben.
+De Journey Optimizer B2B Edition heeft twee primaire gebruikersvoorkeuren: een markeerteken en een beheerder. Elke persoon heeft een specifieke homepage voor verschillende (nieuwe of geavanceerde) looptijdstadia. De pagina-inhoud is gebaseerd op wat elk individu nodig heeft op het gebied van informatie en de volgende acties die moeten worden ondernomen. Deze pagina&#39;s omvatten ook toegang tot [ AI Medewerker ](./start/ai-assistant.md), die gebruikers helpt om snelle informatie over om het even welke specifieke vragen of onderwerpen te krijgen die zij <!-- and to obtain specific recommendations for their challenges or objectives--> nodig hebben.
 
-## Markering - nieuwe gebruiker
+![ Journey Optimizer B2B de homepage van de Uitgave ](./assets/home-page.png){width="800" zoomable="yes"}
 
-De introductiepagina van Markering voor een nieuwe gebruiker bestaat uit drie rijen die de markator helpen gewend te raken aan Journey Optimizer B2B en zijn mogelijkheden. Het biedt ook een overzicht van de laatste reizen die zijn gemaakt en die als uitgangspunt kunnen dienen voor een nieuwe gebruiker.
+* **Markering - nieuwe gebruiker** - de _de homepage van de Markering_ voor een nieuwe gebruiker helpt hen in het worden gewend aan Journey Optimizer B2B en zijn mogelijkheden. Het omvat een geleide analyse voor de nieuwe marktleider om een onboarding analyse te verkrijgen zodat zij de nuances van het systeem kunnen begrijpen en efficiënt in het ontwikkelen van B2B marketing strategieën en initiatieven kunnen worden.
+* **Markering - Geavanceerde gebruiker** - de _de homepage van de Markering_ voor een geavanceerde marktspeler staat hen bij in het verkrijgen van meer informatie over de huidige vooruitgang van de initiatieven en over specifieke acties en over de volgende beste actie die samen met snelle toegang tot relevante secties moet worden genomen.
+* **Beheerder - nieuwe gebruiker** - de _Admin_ homepage voor een nieuwe beheerder helpt hen in het worden gewend aan de Uitgave van Journey Optimizer B2B en zijn mogelijkheden. Het omvat een geleide analyse voor de nieuwe beheerder om een stap-voor-stap reis op instapreis te verkrijgen om de nuances van het systeem te begrijpen en efficiënt te worden in het ontwikkelen van B2B marketing strategieën en initiatieven.
+* **Beheerder - gevorderde gebruiker** - de _Admin_ homepage voor een gevorderde beheerder helpt hen in het verkrijgen van meer informatie over het huidige statuut van de instantie en op specifieke acties die kunnen worden genomen om het efficiënter en effectiever voor de marketers te maken.
 
-De eerste rij bestaat uit een begeleide analyse voor de nieuwe marktleider om een onboarding analyse te verkrijgen zodat zij de nuances van het systeem kunnen begrijpen en efficiënt in het ontwikkelen van B2B marketing strategieën en initiatieven kunnen worden.
+<!-- 
 
-De tweede rij bestaat uit de recente AJO B2B-reizen die op het hele platform zijn gemaakt, zodat de marketeer inspiratie kan krijgen voor de beste praktijken om een rekeningreis te maken.
+## Marketer - new user
 
-De derde rij bestaat uit de het leren middelen die een teler kunnen helpen meer informatie over een specifiek onderwerp verkrijgen.
+The Marketer home page for a new user consists of three rows that assist the marketer in getting accustomed to Journey Optimizer B2B and its capabilities. It also provides a view of the latest journeys that have been created, which can serve as a starting point for a new user.
 
-## Marketer - gevorderde gebruiker
+The first row consists of a guided walkthrough for the new marketer to obtain an onboarding walkthrough so that they can understand the nuances of the system and become efficient in developing B2B marketing strategies and initiatives.
 
-De introductiepagina Marketer voor een geavanceerde marketer bestaat uit vier rijen die de markator helpen meer informatie te verkrijgen over de huidige voortgang van de initiatieven en over specifieke acties en over de volgende beste actie die samen met snelle toegang tot relevante secties moet worden ondernomen.
+The second row consists of the recent AJO B2B journeys that have been created across the platform so that the marketer can get inspiration for the best practices to create an account journey.
 
-De eerste rij bestaat uit de volgende reeks acties die een markering B2B kan nemen gebaseerd op de vorige genomen acties en de huidige staat van het initiatief, die een herinnering voor de gebruiker verstrekt om de volgende beweging te maken die aan het doel van de initiatieven zou richten en hen zou helpen de doelstellingen snel bereiken.
+The third row consists of the learning resources that can help a marketer gain more information on a specific topic.
 
-De tweede rij bestaat uit de meest recente elementen die door de markeerteken worden benaderd, zodat de markeertekenaar deze gemakkelijker kan vinden en er wijzigingen in kan aanbrengen.
+## Marketer - advanced user
 
-De derde rij bestaat uit de belangrijkste prestatie-indicatoren die de markeerstitel kunnen helpen de algemene prestaties van de marketinginitiatieven te meten.
+The Marketer home page for an advanced marketer consists of four rows that assists the marketer in obtaining more information on the current progress of the initiatives and on specific actions and on the next best action to be taken along with quick access to relevant sections.
 
-De vierde rij bestaat uit de het leren middelen die een teler kunnen helpen meer informatie over een specifiek onderwerp verkrijgen.
+The first row consists of the next set of actions that a B2B marketer can take based on the previous actions taken and the current state of the initiative, which provides a prompt for the user to make the next move that would align to the objective of the initiatives and help them reach the goals quickly.
 
-## Beheerder - nieuwe gebruiker
+The second row consists of the most recent assets accessed by the marketer to make it easier for the marketer to locate them and make updates to the same.
 
-De _Admin_ homepage voor een nieuwe beheerder bestaat uit drie rijen die de beheerder in het worden gewend aan de Uitgave van Journey Optimizer B2B en zijn mogelijkheden bijstaan, en verstrekt een mening van de recentste reizen die zijn gecreeerd die als uitgangspunt voor een nieuwe gebruiker kunnen dienen.
+The third row consists of the Key Performance Indicators that can help the marketer gauge the overall performance of the marketing initiatives.
 
-De eerste rij bestaat uit een begeleide doortocht voor de nieuwe markator om een stap-voor-stap reis op instapniveau te verkrijgen om de nuances van het systeem te begrijpen en efficiënt te worden in het ontwikkelen van B2B-marketingstrategieën en -initiatieven met AJO B2B.
+The fourth row consists of the learning resources that can help a marketer gain more information on a specific topic.
 
-De tweede rij bestaat uit de recente activa die door de B2B-marketers in één tabel worden gebruikt om het voor de beheerder gemakkelijker te maken om te weten welke activa momenteel onder focus zijn.
+## Administrator - new user
 
-De derde rij bestaat uit de het leren middelen die een beheerder meer informatie over een specifiek onderwerp zouden helpen verkrijgen.
+The _Admin_ home page for a new administrator consists of three rows that assists the administrator in getting accustomed to Journey Optimizer B2B Edition and its capabilities, and provides a view of the latest journeys that have been created that can serve as a starting point for a new user.
 
-## Beheerder - gevorderde gebruiker
+The first row consists of a guided walkthrough for the new marketer to obtain a step-by-step onboarding journey to understand the nuances of the system and become efficient in developing B2B marketing strategies and initiatives with AJO B2B.
 
-De _Admin_ homepage voor een geavanceerde beheerder bestaat uit vier rijen die de beheerder in het verkrijgen van meer informatie over het huidige statuut van de instantie en op specifieke acties bijstaan die kunnen worden genomen om het efficiënter en effectiever voor de marketers te maken.
+The second row consists of the recent assets used by the B2B marketers in a single table to make it easier for the administrator to know which assets are currently under focus.
 
-De eerste rij bestaat uit de volgende set handelingen die een beheerder kan uitvoeren op basis van de vorige handelingen die zijn uitgevoerd en de huidige status van de instantie. Het dient als herinnering voor de beheerder om de noodzakelijke updates aan de parameters van de instanties zoals gebruikerstoestemmingen of om het even welke specifieke moduleconfiguraties te maken.
+The third row consists of the learning resources that would help an administrator gain more information on a specific topic.
 
-De tweede rij bestaat uit de recente activa die door de B2B-marketers in één tabel worden gebruikt om het voor de beheerder gemakkelijker te maken om te weten welke activa momenteel onder focus zijn.
+## Administrator - advanced user
 
-De derde rij bestaat uit de belangrijkste prestatie-indicatoren die de beheerders zouden helpen de voortgang van de instantie in termen van operationele parameters zoals gebruikers en gebruik te meten.
+The _Admin_ home page for an advanced administrator consists of four rows that assists the administrator in obtaining more information about the current status of the instance and on specific actions that can be taken to make it more efficient and effective for the marketers.
 
-De vierde rij bestaat uit de het leren middelen die de beheerder meer informatie over een specifiek onderwerp zouden helpen krijgen.
+The first row consists of the next set of actions that an administrator can take based on the previous actions taken and the current state of the instance. It serves as a prompt for the administrator to make the necessary updates to the parameters of the instances such as user permissions or any specific module configurations.
+
+The second row consists of the recent assets used by the B2B marketers in a single table to make it easier for the administrator to know which assets are currently under focus.
+
+The third row consists of the Key Performance Indicators that would help the administrators gauge the progress of the instance in terms of operational parameters such as users and usage.
+
+The fourth row consists of the learning resources that would help the administrator gain more information on a specific topic.
+
+-->

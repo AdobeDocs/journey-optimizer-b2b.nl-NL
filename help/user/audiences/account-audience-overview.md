@@ -1,15 +1,15 @@
 ---
-title: Accountsoorten
+title: Accountpubliek
 description: Leer meer over het publiek van uw account en hoe u op uw account gebaseerde reizen mogelijk maakt.
-source-git-commit: 3d3f0e4d6e62aa7126e915cfd5b54151d1bf9186
+exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
+source-git-commit: 7103e4f6666482a72511661dfaed1392d4eb16b1
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 0%
 
 ---
 
-
-# Accountsoorten
+# Accountpubliek
 
 Een publiek is een groep personen die vergelijkbare gedragingen en/of kenmerken delen. Journey Optimizer B2B Edition gebruikt de functies voor de segmentatie van de account die in Adobe Real-time Customer Data Platform B2B- en B2P-edities zijn gevonden. Met accountsegmentatie kunnen gebruikers een publiek voor de account genereren door gegevens van een van de B2B-entiteiten in het systeem te gebruiken. Dit accountpubliek fungeert als input voor Journey Optimizer B2B Edition-accountreizen, waardoor u naadloze activering en personalisatie mogelijk maakt.
 

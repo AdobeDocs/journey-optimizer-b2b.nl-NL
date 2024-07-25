@@ -1,11 +1,11 @@
 ---
 title: Documentatie Adobe Journey Optimizer B2B Edition
-description: Leer hoe u de Adobe Journey Optimizer B2B Edition-functies kunt gebruiken.
+description: Leer hoe u de Adobe Journey Optimizer B2B Edition-functies kunt gebruiken voor het ordenen van accounts en het kopen van groepsreizen met behulp van ingebouwde generatieve AI en toonaangevende automatisering.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: f8b8f2a4ee813094389d1f262f729a9e95502c6a
+source-git-commit: 595eb7fcf982370cc733f566ea2f51fb02362926
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 0%
+source-wordcount: '404'
+ht-degree: 2%
 
 ---
 
@@ -19,29 +19,33 @@ Hier volgt een voorbeeld van de nieuwste verbeteringen in het Journey Optimizer 
 
 >[!BEGINTABS]
 
->[!TAB  de versie van Beta is beschikbaar ]
+>[!TAB  AI Medewerker ]
 
-Sluit u aan bij het Beta-programma en ontdek de vele functies van de Adobe Journey Optimizer B2B Edition Beta-release.
+Ga snel aan snelheid met op account-gebaseerde marketing concepten en leer over de Journey Optimizer B2B Edition-functies die ontworpen zijn om de strategieën van uw team te maximaliseren.
 
-[!BADGE  Leer meer ]{type=Informative url="https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4epuYNI0IWZLgH1mr3nTaPdURThPQjFWR0VaWk9XNjJQTjFER1pYT0lWWi4u" tooltip="Journey Optimizer B2B Edition Beta-release"}
+[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/ai-assistant" tooltip="Meer informatie over AI Assistant"}
 
->[!TAB  AI Medewerker voor e-mailinhoud ]
+Verhoog uw inhoud naar het volgende niveau met AI Assistant voor e-mailinhoud in Adobe Journey Optimizer B2B Edition, aangedreven door generatieve AI. Met AI Assistant kunt u de impact van uw leveringen optimaliseren door volledige e-mails, doelgerichte tekstinhoud en zelfs afbeeldingen te genereren die specifiek op maat van uw publiek zijn gemaakt.
 
-Verhoog uw inhoud naar het volgende niveau met AI Assistant in Adobe Journey Optimizer B2B Edition, aangedreven door generatieve AI. Met AI Assistant kunt u de impact van uw leveringen optimaliseren door volledige e-mails, doelgerichte tekstinhoud en zelfs afbeeldingen te genereren die specifiek op maat van uw publiek zijn gemaakt.
+[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/ai-assistant-emails" tooltip="Meer informatie over AI Assistant voor e-mail"}
 
-[!BADGE  Leer meer ]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/ai-assistant-emails" tooltip="Meer informatie over AI Assistant voor e-mail"}
+>[!TAB  Visuele fragmenten ]
+
+Maak herbruikbare componenten als blokken met aangepaste inhoud die uw leden van uw marketingteam kunnen gebruiken voor het samenstellen van e-mailinhoud voor een verbeterd ontwerpproces.
+
+[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/fragments" tooltip="Informatie over visuele fragmenten"}
 
 >[!TAB  het Kopen groepen ]
 
-Creeer het kopen groepen van verenigde B2B- gegevens van over uw onderneming, richt hen aan het dienstenaanbod van uw bedrijf, en automatiseer hoe u bepaalt, identificeert en, richt de juiste leden voor elke rol om het meest nauwkeurige richten voor uw klantenreizen te schrapen.
+Maak inkoopgroepen op basis van verenigde B2B-gegevens van uw onderneming. Richt hen aan het dienstenaanbod van uw bedrijf, en automatiseer hoe u, de juiste leden voor elke rol bepaalt identificeren en richt om het meest nauwkeurige richten voor uw klantenreizen te schrapen.
 
-[!BADGE  Leer meer ]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview" tooltip="Meer informatie over kopersgroepen"}
+[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview" tooltip="Meer informatie over inkoopgroepen"}
 
 >[!TAB  reizen van de Rekening ]
 
 Maak op maat gemaakte reizen voor het kopen van groepen binnen doelaccounts die op hyperpersonaliteit gebaseerde verkoop- en marketingactiviteiten automatiseren om de productie, kwalificatie en een naadloze, gecoördineerde ervaring met inkoopgroepen te stroomlijnen.
 
-[!BADGE  Leer meer ]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-overview" tooltip="Meer informatie over accountreizen"}
+[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-overview" tooltip="Meer informatie over accountreizen"}
 
 >[!ENDTABS]
 
@@ -55,7 +59,7 @@ Maak op maat gemaakte reizen voor het kopen van groepen binnen doelaccounts die 
     </td>
       <td>
     <a href="buying-groups/buying-groups-overview.md"><img width="120px" src="./assets/communication.png"></a>
-    <div><strong> bouwt uw eerste het Kopen Groep </strong><br/> tot uw eerste het Kopen Groep in de Uitgave van Journey Optimizer B2B om het proces te automatiseren om en gekwalificeerde contacten in te schakelen.</div>
+    <div><strong> bouwt uw eerste het Kopen Groep </strong><br/> tot uw eerste het kopen groep in de Uitgave van Journey Optimizer B2B om het proces te automatiseren om en gekwalificeerde contacten in te schakelen.</div>
     </td>
     <td>
     <a href="journeys/journey-overview.md"><img width="120px" src="./assets/flow.png"></a>
@@ -76,7 +80,7 @@ Maak op maat gemaakte reizen voor het kopen van groepen binnen doelaccounts die 
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px"><br/>
-      <strong> Login en homepage </strong><br/> <a href="home-page.md#marketer---new-user"> Markering - nieuwe gebruiker </a><br/> <a href="home-page.md#marketer---advanced-user"> Marketer - geavanceerd </a> <br/><a href="home-page.md#administrator---new-user"> Beheerder - nieuwe gebruiker </a> <br/><a href="home-page.md#administrator---advanced-user"> Beheerder - geavanceerd </a>
+      <strong> krijgen begonnen </strong><br/> <a href="home-page.md"> Login en homepage </a><br/> <a href="./start/get-started.md"> Snelle startbegeleiding </a> <br/><a href="./start/ai-assistant.md"> AI Medewerker </a>
     </td>
     <!--
     <td>
@@ -99,7 +103,7 @@ Maak op maat gemaakte reizen voor het kopen van groepen binnen doelaccounts die 
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px"><br/>
-      <strong> Assets </strong><br/> <a href="./content/assets-overview.md"> Overzicht </a><br/> <a href="./content/marketo-engage-design-studio.md"> Studio van het Ontwerp van het Marketo Engage </a><br/> <a href="./content/aem-assets.md"> Adobe Experience Manager Assets </a>
+      <strong> het beheer van de Inhoud </strong><br/> <a href="./content/assets-overview.md"> overzicht van Assets </a><br/> <a href="./content/email-templates.md"> E-mailmalplaatjes </a><br/> <a href="./content/fragments.md"> Visuele fragmenten </a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px"><br/>

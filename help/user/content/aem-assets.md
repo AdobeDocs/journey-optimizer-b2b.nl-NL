@@ -2,7 +2,8 @@
 title: Werken met Experience Manager Assets
 description: Leer hoe u afbeeldingselementen van een verbonden AEM Assets-opslagplaats kunt gebruiken bij het ontwerpen van inhoud in Adobe Journey Optimizer B2B Edition.
 feature: Assets, Content
-source-git-commit: 0bdf0da4db0cbfc781d16f1c50716b1fc8ea4db9
+exl-id: c6864981-209c-4123-8d3f-24deb07026a0
+source-git-commit: 7103e4f6666482a72511661dfaed1392d4eb16b1
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 0%
@@ -15,7 +16,7 @@ Wanneer Adobe Experience Manager Assets as a Cloud Service is geïntegreerd met 
 
 >[!NOTE]
 >
->Momenteel worden alleen afbeeldingselementen van Adobe Experience Manager Assets ondersteund in Adobe Journey Optimizer B2B Edition. Wijzigingen in de activa moeten worden aangebracht vanuit de centrale gegevensbank van Adobe Experience Manager Assets. [ Leer meer ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets)
+>Momenteel worden alleen afbeeldingselementen van Adobe Experience Manager Assets ondersteund in Adobe Journey Optimizer B2B Edition. Wijzigingen in de activa moeten worden aangebracht vanuit de centrale gegevensbank van Adobe Experience Manager Assets. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets)
 
 Als u deze digitale elementen gebruikt, worden de meest recente wijzigingen in Assets as a Cloud Service automatisch doorgegeven aan live e-mailcampagnes via gekoppelde verwijzingen. Als afbeeldingen worden verwijderd in Adobe Experience Manager Assets as a Cloud Service, worden de afbeeldingen weergegeven met een verbroken verwijzing in de e-mails. Wanneer de activa die momenteel binnen rekeningreizen worden gebruikt worden gewijzigd of geschrapt, worden de reisauteurs op de hoogte gebracht van de beeldveranderingen en de lijst van reizen die het beeld gebruiken. Alle wijzigingen in de activa moeten plaatsvinden in de centrale gegevensbank van Adobe Experience Manager Assets.
 
@@ -25,7 +26,7 @@ Als uw milieu één of meerdere [ de bewaarplaatsen van Assets verbindingen ](..
 
 * Wanneer u nieuwe inhoud maakt, kiest u `AEM Assets` als het **[!UICONTROL Image Source]** -item in het dialoogvenster.
 
-  ![ Uitgezochte AEM Assets als beeldbron in creeer dialoog ](./assets/create-dialog-aem-assets.png){width="500"}
+  ![ Uitgezochte AEM Assets als beeldbron in creeer dialoog ](./assets/create-dialog-aem-assets.png){width="400"}
 
 * Wanneer u een bestaande inhoudsbron opent, kiest u `AEM Assets` in het _[!UICONTROL Body]_-deelvenster aan de rechterkant.
 
@@ -35,7 +36,7 @@ Als uw milieu één of meerdere [ de bewaarplaatsen van Assets verbindingen ](..
 
 >[!IMPORTANT]
 >
->Een beheerder moet gebruikers die toegang tot Assets nodig hebben, toevoegen aan de profielen Assets Consumer Users of/and Assets Users Product. [ Leer meer ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console)
+>Een beheerder moet gebruikers die toegang tot Assets nodig hebben, toevoegen aan de profielen Assets Consumer Users of/and Assets Users Product. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console)
 
 In de visuele inhoudsredacteur, klik het _selecteur van Activa_ pictogram in linkerzijbalk. Hiermee wijzigt u het deelvenster Gereedschappen in een lijst met beschikbare middelen in de geselecteerde opslagplaats.
 

@@ -3,7 +3,7 @@ title: Rolinesjablonen voor groepen kopen
 description: Meer informatie over het definiëren van een rolsjabloon die moet worden gebruikt als onderdeel van een inkoopgroep.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 099b515ac91e37c90421cf92f7a724257b07f42e
+source-git-commit: 19633e2676c3e9d747a1e65bfc48a3ba421674b9
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 0%
@@ -55,41 +55,41 @@ Op een B2B-markt worden aankoopbeslissingen meestal door meerdere personen genom
 
 1. Voeg een regel toe voor elke rol die u voor het malplaatje wilt bepalen.
 
-* Kies de **[!UICONTROL Buying group role]** in de lijst.
+   * Kies de **[!UICONTROL Buying group role]** in de lijst.
 
-  Voor de huidige release zijn er zes rollen: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` en `Other` .
+     Voor de huidige release zijn er zes rollen: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` en `Other` .
 
-![ het Kopen lijst van groepsrollen ](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
+     ![ het Kopen lijst van groepsrollen ](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
-* Stel de **[!UICONTROL Weighting]** in voor de rol, die wordt gebruikt om de betrokkenheidsscore te berekenen.
+   * Stel de **[!UICONTROL Weighting]** in voor de rol, die wordt gebruikt om de betrokkenheidsscore te berekenen.
 
-  De waarde voor elke optie wordt omgezet in een percentage voor de berekening van de score: [!UICONTROL Trivial] = 20, [!UICONTROL Minor] = 40, [!UICONTROL Normal] = 60, [!UICONTROL Important] = 80 en [!UICONTROL Vital] = 100.
+     De waarde voor elke optie wordt omgezet in een percentage voor de berekening van de score: [!UICONTROL Trivial] = 20, [!UICONTROL Minor] = 40, [!UICONTROL Normal] = 60, [!UICONTROL Important] = 80 en [!UICONTROL Vital] = 100.
 
-  Bijvoorbeeld, wordt een rolmalplaatje met rollen gebruikend Vital, Belangrijk, en Normaal, dan omgezet als 100/240, 80/240, 60/240.
+     Bijvoorbeeld, wordt een rolmalplaatje met rollen gebruikend Vital, Belangrijk, en Normaal, dan omgezet als 100/240, 80/240, 60/240.
 
-* **[!UICONTROL Add conditions for auto-assignment]** - Schakel dit selectievakje in om voorwaarden toe te voegen waaraan automatisch leden worden toegewezen aan de kopende groep die aan de voorwaarde voldoet. Als het selectievakje niet is ingeschakeld, is het NIET nodig voorwaarden toe te voegen.
+   * **[!UICONTROL Add conditions for auto-assignment]** - Schakel dit selectievakje in om voorwaarden toe te voegen waaraan automatisch leden worden toegewezen aan de kopende groep die aan de voorwaarde voldoet. Als het selectievakje niet is ingeschakeld, is het NIET nodig voorwaarden toe te voegen.
 
-* **[!UICONTROL Required for completeness score]** - Selecteer dit selectievakje voor de rol als u wilt dat dit een vereiste is voor het berekenen van een volledigheidsscore. —>
+   * **[!UICONTROL Required for completeness score]** - Selecteer dit selectievakje voor de rol als u wilt dat dit een vereiste is voor het berekenen van een volledigheidsscore. —>
 
-* Klik op **[!UICONTROL Add Condition]**.
+   * Klik op **[!UICONTROL Add Condition]**.
 
-   * Vouw in het dialoogvenster Voorwaarde de lijst met **[!UICONTROL Person attributes]** uit en zoek een kenmerk dat u wilt gebruiken om de rol aan te passen. Sleep het naar rechts en zet het neer in de filterruimte.
+      * Vouw in het dialoogvenster Voorwaarde de lijst met **[!UICONTROL Person attributes]** uit en zoek een kenmerk dat u wilt gebruiken om de rol aan te passen. Sleep het naar rechts en zet het neer in de filterruimte.
 
-     ![ het malplaatje van Rollen voegt voorwaarde belemmeringsattributen toe ](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
+        ![ het malplaatje van Rollen voegt voorwaarde belemmeringsattributen toe ](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
 
-   * Gebruik het kenmerk om een overeenkomend filter te maken met een of meer waarden.
+      * Gebruik het kenmerk om een overeenkomend filter te maken met een of meer waarden.
 
-     In het volgende voorbeeld, wordt het attribuut van de Titel van de Baan gebruikt om een gelijke voor de Maker van het Besluit te identificeren. Elke waarde voor een titel die begint met `Director` of `Sr Director` wordt als true beschouwd voor de voorwaarde.
+        In het volgende voorbeeld, wordt het attribuut van de Titel van de Baan gebruikt om een gelijke voor de Maker van het Besluit te identificeren. Elke waarde voor een titel die begint met `Director` of `Sr Director` wordt als true beschouwd voor de voorwaarde.
 
-     ![ het voorbeeld van de het malplaatjevoorwaarde van Rollen gebruikend baantitel ](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}
+        ![ het voorbeeld van de het malplaatjevoorwaarde van Rollen gebruikend baantitel ](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}
 
-   * Voeg zo nodig een ander kenmerk en een andere voorwaarde toe die de criteria voor een overeenkomst met de rol verder verfijnen.
+      * Voeg zo nodig een ander kenmerk en een andere voorwaarde toe die de criteria voor een overeenkomst met de rol verder verfijnen.
 
-   * Klik op **[!UICONTROL Done]**.
+      * Klik op **[!UICONTROL Done]**.
 
-Voor elke aanvullende rol die u voor de sjabloon wilt opnemen, klikt u op **[!UICONTROL Add another role]** en definieert u een of meer voorwaarden die met de rol moeten overeenkomen.
+   Voor elke aanvullende rol die u voor de sjabloon wilt opnemen, klikt u op **[!UICONTROL Add another role]** en definieert u een of meer voorwaarden die met de rol moeten overeenkomen.
 
-![ het malplaatje van Rollen met veelvoudige bepaalde rollen ](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
+   ![ het malplaatje van Rollen met veelvoudige bepaalde rollen ](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
 1. Als de sjabloon gereed is voor gebruik, klikt u op **[!UICONTROL Publish]** rechtsboven.
 
