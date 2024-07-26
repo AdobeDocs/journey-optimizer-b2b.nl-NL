@@ -3,7 +3,7 @@ title: Rolinesjablonen voor groepen kopen
 description: Meer informatie over het definiëren van een rolsjabloon die moet worden gebruikt als onderdeel van een inkoopgroep.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 19633e2676c3e9d747a1e65bfc48a3ba421674b9
+source-git-commit: 164a038ecce64cbf113c50b9328f84a95aa7b201
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 0%
@@ -69,7 +69,7 @@ Op een B2B-markt worden aankoopbeslissingen meestal door meerdere personen genom
 
    * **[!UICONTROL Add conditions for auto-assignment]** - Schakel dit selectievakje in om voorwaarden toe te voegen waaraan automatisch leden worden toegewezen aan de kopende groep die aan de voorwaarde voldoet. Als het selectievakje niet is ingeschakeld, is het NIET nodig voorwaarden toe te voegen.
 
-   * **[!UICONTROL Required for completeness score]** - Selecteer dit selectievakje voor de rol als u wilt dat dit een vereiste is voor het berekenen van een volledigheidsscore. —>
+   * **[!UICONTROL Required for completeness score]** - Selecteer dit selectievakje voor de rol als u wilt dat dit een vereiste is voor het berekenen van een volledigheidsscore.
 
    * Klik op **[!UICONTROL Add Condition]**.
 

@@ -3,9 +3,9 @@ title: Het overzichtdashboard voor groepen kopen
 description: Leer over het het Overzicht dashboard van Groepen van het Kopen en hoe het de Afhandeling van de Verkoop van het team van de Marketing toelaat.
 feature: Dashboards, Buying Groups
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-source-git-commit: 1c2f6d6836c95be619ed3b35dd7248ab279a410c
+source-git-commit: c5fe3f1530b2c3d9b9eab8ad089dbab9a2c74e99
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
@@ -19,26 +19,52 @@ De verkoopoverdracht omvat:
 * **Gegevens Handoff**: De marketing identificeert _klaar_ doelgegevens en maakt het toegankelijk aan Verkoop in het formaat CSV. 
 * **Acceptatie van de Verkoop**: De verkoop herziet manueel en neemt _klaar_ doelstellingen in hun pijpleiding op.
 
-![ het Kopen overzicht van Groepen ](./assets/buying-groups-overview.png){width="800" zoomable="yes"}
-
 ## Status van kopersgroep
 
 Bekijk de voortgang van je inkoopgroepen in de weergave Status van kopersgroep. Deze visualisatie laat de distributie zien van uw inkoopgroepen die zijn gecategoriseerd door hun meest recente statusupdate binnen een opgegeven tijdsperiode.
 
+![ het Kopen overzicht van Groepen ](./assets/buying-groups-overview.png){width="800" zoomable="yes"}
+
 **[!UICONTROL Status]** (y-as): volg de reis van het kopen van groepen door diverse stadia.
 **[!UICONTROL Number of Buying Groups]** (x-as): kwantificeer het aantal inkoopgroepen bij elke status en geef een duidelijke metrische waarde op van de gezondheid en activiteit van de trechter.
+<!-- To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top-right corner of the page. -->
 
-Als u een deelbare PDF van de huidige weergave wilt genereren, klikt u op **[!UICONTROL Export]** in de rechterbovenhoek van de pagina. Als u gegevens wilt gebruiken, gebruikt u het actiemenu in de rechterbovenhoek.
+### Gegevens filteren
+
+* **de filter van Gegevens** - gebruik _[!UICONTROL Date filter]_, die op de het Kopen datum van de statusverandering van de Groep wijst. De begindatum kan worden aangepast. De einddatum wordt standaard ingesteld op de huidige dag.
+
+  ![ Filtrerend de het kopen gegevens van de groepsstatus door datumwaaier ](./assets//buying-group-status-filter-date.png){width="400"}
+
+* **de filter van Attributen** - klik het _3} pictogram van de Filter {bij de bovenkant verlaten om de gegevensvertoning te filtreren gebruikend om het even welk van deze attributen:_
+
+   * Belang van oplossing
+   * Status
+   * statussen van kopersgroepen
+   * Accountregio
+   * Accountsector
+  <!-- * Account's Industry -->
+
+  ![ Filtrerend de het kopen gegevens van de groepsstatus door attribuut ](./assets/buying-group-status-drill-through-filters.png){width="500"}
+
+## Betrokkenheid bij de gegevens
+
+Als u gegevens wilt gebruiken, gebruikt u het actiemenu in de rechterbovenhoek.
+
+![ klik het pictogram om tot het actiemenu ](./assets/buying-group-more-menu.png){width="400"} toegang te hebben
 
 ### [!UICONTROL Drill through]
 
 Kies **[!UICONTROL Drill through]** voor een diepgaande analyse van individuele groepsstatussen.
 
-De algemene filters die op het dashboard worden toegepast, worden overgenomen en kunnen niet vanaf deze pagina worden gewijzigd.
-De toegepaste filters worden weergegeven. 
-De enige beschikbare filter die wordt toegelaten is _Naam van de Rekening_.
+![ de boor door voor de grafiekgegevens ](./assets/buying-group-status-drill-through-view.png){width="600" zoomable="yes"}
 
-Als u beschikbare kolommen wilt weergeven of verbergen, klikt u op **[!UICONTROL View more]** in de rechterbovenhoek:
+De algemene filters die op het dashboard worden toegepast, worden overgenomen en kunnen niet vanaf deze pagina worden gewijzigd.
+
+Klik het pictogram van het actiemenu op het hoogste recht en kies **[!UICONTROL View more]** aan [ mening uitgebreide gegevens en inzichten ](#view-more).
+
+### [!UICONTROL View more]
+
+Kies **[!UICONTROL View more]** voor uitgebreide gegevens en inzichten. Het weergegeven pop-upvenster bevat een diagram en een tabel met de indeling van de status van de inkoopgroep:
 
 * [!UICONTROL Account ID ]
 * [!UICONTROL Account Name]
@@ -58,21 +84,6 @@ Als u beschikbare kolommen wilt weergeven of verbergen, klikt u op **[!UICONTROL
 * [!UICONTROL Number of Inbound Engagement Activities]
 * [!UICONTROL Last engagement date]
 
-### Filter
+![ Mening uitgebreide gegevens ](./assets/buying-group-status-view-more.png){width="600" zoomable="yes"}
 
-Globale filter: **[!UICONTROL Date filter]** , die de laatste statuswijzigingsdatum van de kopersgroep weerspiegelt. De begindatum kan worden aangepast. De einddatum wordt standaard ingesteld op de huidige dag.
-
-U kunt de weergave ook filteren met een van de volgende kenmerken:
-
-* Belang van oplossing
-* Lijst van de Belangen van de Oplossing
-* Status
-* statussen van kopersgroepen
-* Accountregio
-* Regio van account
-* Accountsector
-* Accountsector
-
-### [!UICONTROL View more]
-
-Kies **[!UICONTROL View more]** voor uitgebreide gegevens en inzichten. Het weergegeven pop-upvenster bevat een diagram en een tabel met de uitsplitsing van de status van de inkoopgroep en de knop _[!UICONTROL Download CSV]_rechtsboven in de tabel.
+Klik op **[!UICONTROL Download CSV]** in de rechterbovenhoek om de gegevens te downloaden.

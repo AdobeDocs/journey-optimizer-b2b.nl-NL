@@ -1,7 +1,8 @@
 ---
 title: Overzicht van Adobe Journey Optimizer B2B Edition
 description: Belangrijke functies, gebruiksscenario's en architecturen van Adobe Journey Optimizer B2B Edition ontdekken.
-source-git-commit: b9fc31ed31cf05370f1370510d966b8151e14695
+exl-id: fdfbafdf-826f-44e9-bbb6-5e729d0e18ef
+source-git-commit: 164a038ecce64cbf113c50b9328f84a95aa7b201
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 0%
@@ -20,7 +21,7 @@ Bij het vergelijken van Adobe Journey Optimizer B2B Edition met de norm Marketo 
 
 De Uitgave van Adobe Journey Optimizer B2B gebruikt _Soorten van de Rekening_ en 2} Soorten publiek van de Mensen van de rekening _van Adobe Experience Platform aan macht een rekeningsreis, die binnen van Marketo Engage in werking wordt gesteld._ Experience Platform is altijd de bron van de waarheid voor deze gegevens, maar alle uitvoering en verwerking van de rekeningreis gebeurt binnen de marketinginfrastructuur van Marketo Engage B2B. Het orchestration brengt gegevens terug naar Experience Platform in bijna echt - tijd door het bestaande Marketo Engage - Adobe Real-Time CDP B2B de bronschakelaar van de Uitgave, die gegevensveranderingen van Marketo Engage aan Experience Platform stroomt.
 
-![ de architectuur van Gegevens op hoog niveau ](./assets/high-level-data-architecture.png){width="600" zoomable="yes"}
+![ de architectuur van Gegevens op hoog niveau ](./assets/high-level-data-architecture.png){width="500" zoomable="yes"}
 
 ### Abonnementsmodel
 
@@ -41,4 +42,3 @@ Nadat de reis van de rekening wordt gecreeerd, moet het worden gepubliceerd. Op 
 Journey Optimizer B2B Edition gebruikt de Real-Time CDP-accountsegmentatie voor zowel het definiëren als uitvoeren van accountsegmenten en gerelateerde accountpersoonsegmenten die vereist zijn voor reizen. Tijdens een gepubliceerde reis kunnen gegevens over mensen en accounts veranderen. Er worden gegevens verzameld over de mensen die met de reis communiceren. Journey Optimizer B2B Edition vertrouwt op de Marketo Engage bronaansluiting voor Real-Time CDP B2B Edition om gegevenswijzigingen terug te sturen naar de Experience Platform sandbox, de bron van de waarheid.  Deze gegevens worden in real time aan AEP verstrekt.
 
 Alleen de bestaande gegevenstypen die worden ondersteund door de bronaansluiting van het Marketo Engage (accounts, mensen en mogelijkheden) vloeien terug naar Real-Time CDP. Dit betekent dat het kopen van groepsgegevens niet naar AEP stroomt en in plaats daarvan in de instantie van het Marketo Engage verblijft die door het abonnement van de Uitgave van Journey Optimizer B2B wordt gebruikt.
-
