@@ -3,9 +3,9 @@ title: Het overzichtdashboard voor groepen kopen
 description: Leer over het het Overzicht dashboard van Groepen van het Kopen en hoe het de Afhandeling van de Verkoop van het team van de Marketing toelaat.
 feature: Dashboards, Buying Groups
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-source-git-commit: c5fe3f1530b2c3d9b9eab8ad089dbab9a2c74e99
+source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Bekijk de voortgang van je inkoopgroepen in de weergave Status van kopersgroep. 
 
 Als u gegevens wilt gebruiken, gebruikt u het actiemenu in de rechterbovenhoek.
 
-![ klik het pictogram om tot het actiemenu ](./assets/buying-group-more-menu.png){width="400"} toegang te hebben
+![ klik het pictogram om tot het actiemenu ](./assets/buying-group-more-menu.png){width="300"} toegang te hebben
 
 ### [!UICONTROL Drill through]
 
@@ -58,7 +58,7 @@ Kies **[!UICONTROL Drill through]** voor een diepgaande analyse van individuele 
 
 ![ de boor door voor de grafiekgegevens ](./assets/buying-group-status-drill-through-view.png){width="600" zoomable="yes"}
 
-De algemene filters die op het dashboard worden toegepast, worden overgenomen en kunnen niet vanaf deze pagina worden gewijzigd.
+De algemene filters die op het dashboard worden toegepast, worden overgenomen.
 
 Klik het pictogram van het actiemenu op het hoogste recht en kies **[!UICONTROL View more]** aan [ mening uitgebreide gegevens en inzichten ](#view-more).
 
@@ -86,4 +86,4 @@ Kies **[!UICONTROL View more]** voor uitgebreide gegevens en inzichten. Het weer
 
 ![ Mening uitgebreide gegevens ](./assets/buying-group-status-view-more.png){width="600" zoomable="yes"}
 
-Klik op **[!UICONTROL Download CSV]** in de rechterbovenhoek om de gegevens te downloaden.
+Klik op **[!UICONTROL Download CSV]** rechtsboven om de gegevens te downloaden.

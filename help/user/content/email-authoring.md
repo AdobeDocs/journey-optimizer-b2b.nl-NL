@@ -3,7 +3,7 @@ title: E-mailontwerp
 description: Leer hoe u persoonlijke e-mailinhoud maakt die wordt gebruikt in Accountreizen.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: cae7aa7faa67bd1888b85051ff247848b6c3c072
+source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
 workflow-type: tm+mt
 source-wordcount: '1231'
 ht-degree: 0%
@@ -22,7 +22,7 @@ U kunt e-mailleveringen instellen in een Account Journey wanneer u een _[!UICONT
 1. Kies **[!UICONTROL Send email]** bij _[!UICONTROL Action on people]_.
 1. Kies **[!UICONTROL Create new email]** bij _[!UICONTROL Email source]_.
 
-   U kunt ook de optie `Select email from Adobe Marketo Engage` selecteren om een van de vooraf geschreven e-mails in het Marketo Engage te gebruiken en te verzenden als onderdeel van de Account Journey.
+   U kunt ook de optie _[!UICONTROL Select email from Adobe Marketo Engage]_selecteren om een van de vooraf geschreven e-mails in het Marketo Engage te gebruiken en te verzenden als onderdeel van de Account Journey.
 
    >[!NOTE]
    >
@@ -60,7 +60,7 @@ Nadat u de e-mailinhoud hebt gemaakt en aangepast, kunt u de inhoud exporteren v
 
 >[!TIP]
 >
->Gebruik AI Assistant in Adobe Journey Optimizer B2B Edition, aangedreven door generatieve AI om uw inhoud naar het volgende niveau te tillen. Met AI Assistant kunt u de impact van uw leveringen optimaliseren door volledige e-mails, gerichte tekstinhoud en aanbevelingen voor AI Assistant te genereren voor afbeeldingen die op uw publiek zijn afgestemd. [ Leer meer ](./ai-assistant-emails.md)
+>Gebruik AI Assistant in Adobe Journey Optimizer B2B Edition, aangedreven door generatieve AI om uw inhoud naar het volgende niveau te tillen. Met AI Assistant kunt u de impact van uw leveringen optimaliseren door volledige e-mails, gerichte tekstinhoud en aanbevelingen voor AI Assistant te genereren voor afbeeldingen die op uw publiek zijn afgestemd. [Meer informatie](./ai-assistant-emails.md)
 
 ### Ontwerp uw e-mail helemaal zelf
 
@@ -92,7 +92,7 @@ Nadat u de e-mailinhoud hebt gemaakt en aangepast, kunt u de inhoud exporteren v
 
 1. Selecteer het tabblad **[!UICONTROL Links]** in het linkerdeelvenster om alle URL&#39;s van de inhoud weer te geven die worden bijgehouden.
 
-   U kunt het Type of Etiket van het Spoor wijzigen en markeringen toevoegen indien nodig.
+   U kunt het _Volgend Type_ of _Etiket_ wijzigen en markeringen toevoegen indien nodig.
 
 Indien nodig kunt u uw e-mail verder aanpassen door in het geavanceerde menu op **[!UICONTROL Switch to code editor]** te klikken. In de code-editor kunt u de broncode van de e-mail bewerken, bijvoorbeeld door tags voor bijhouden of aangepaste HTML toe te voegen.
 

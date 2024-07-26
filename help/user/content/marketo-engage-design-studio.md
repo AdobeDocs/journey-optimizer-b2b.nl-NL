@@ -2,7 +2,8 @@
 title: Werken met Marketo's Engage
 description: Leer over het gebruiken van de Marketo Engage Design Studio integratie van het activabeheer in de Uitgave van Journey Optimizer B2B.
 feature: Assets, Content
-source-git-commit: dcd8ab2820d60654e8970944054142fc296ed54f
+exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
+source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
 workflow-type: tm+mt
 source-wordcount: '1604'
 ht-degree: 0%
@@ -95,7 +96,7 @@ U kunt een element op een van de volgende manieren vervangen:
 
 Sleep het vervangende bestand van uw systeem naar het bestandsvak in het dialoogvenster _[!UICONTROL Replace asset]_. U kunt ook op de koppeling_[!UICONTROL Select a file from your computer]_ klikken om een bestand te selecteren met uw lokale bestandssysteem. (Als u meerdere bestanden op uw lokale systeem selecteert, wordt het eerste geselecteerde bestand gebruikt voor de vervanging.)
 
-![ vervang activadialoog ](./assets/assets-replace-dialog.png){width="500" zoomable="yes"}
+![ vervang activadialoog ](./assets/assets-replace-dialog.png){width="520" zoomable="yes"}
 
 Klik op **[!UICONTROL Replace]** om door te gaan. U kunt het proces afbreken door op **[!UICONTROL Cancel]** te klikken.
 
