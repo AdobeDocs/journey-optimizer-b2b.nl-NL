@@ -3,9 +3,9 @@ title: Assets
 description: Meer informatie over middelenbeheer in Journey Optimizer B2B Edition.
 feature: Assets, Content
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: dcd8ab2820d60654e8970944054142fc296ed54f
+source-git-commit: 16b798f18f72eeb63e68a8d32e69164930aa1e22
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '977'
 ht-degree: 0%
 
 ---
@@ -51,9 +51,9 @@ Gebruik elementen bij het ontwerpen van uw e-mails, e-mailsjablonen en visuele f
 
 Als u een abonnement op Experience Manager Assets as a Cloud Service hebt samen met de standaard Adobe Marketo Engage Design Studio, kunt u afbeeldingselementen kiezen uit een van beide bronnen. Hiervoor moet u de afbeeldingsbron selecteren op het moment dat u het bestand maakt voor een nieuw e-mailbericht, een e-mailsjabloon of een visueel fragment. U kunt ook de afbeeldingsbron selecteren wanneer u de inhoud bewerkt. De selectie is alleen van toepassing voor bewerking en u kunt de afbeeldingsbron zo nodig wijzigen dat deze toegang heeft tot elementen uit een andere bibliotheek.
 
-Een e-mail maken
+_**Creërend een inhoudsmiddel**_ - om een beeldbron te kiezen wanneer u een e-mail, een e-mailmalplaatje, of een fragment creeert, plaats **[!UICONTROL Image source]** in de dialoog wanneer u het creeert.
 
-Een e-mail bewerken - Als u een bron van afbeeldingselementen in de visuele editor wilt kiezen, gebruikt u de kiezer **[!UICONTROL Select image source]** boven aan het canvas.
+_**Uitgevend een inhoudsmiddel**_ - om een bron van de beeldactiva in de visuele redacteur te kiezen, gebruik de **[!UICONTROL Select image source]** selecteur bij de bovenkant van het canvas.
 
 ### Elementen toevoegen aan uw inhoud
 
@@ -72,7 +72,7 @@ U kunt de activa van de Studio van het Ontwerp van het Marketo Engage toevoegen 
 
 Als u de afbeelding wilt wijzigen, kunt u de bron-URL voor de afbeelding bijwerken in de eigenschappen aan de rechterkant.
 
->[!TAB  voeg de beelden van Experience Manager Assets  toe]
+>[!TAB  voeg de beelden van Experience Manager Assets ] toe
 
 1. Tijdens het ontwerpen van uw e-mailinhoud in de e-mailontwerper sleept u een afbeeldingselement naar het canvas.
 
