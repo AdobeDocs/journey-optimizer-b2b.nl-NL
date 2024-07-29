@@ -72,7 +72,7 @@ U kunt de activa van de Studio van het Ontwerp van het Marketo Engage toevoegen 
 
 Als u de afbeelding wilt wijzigen, kunt u de bron-URL voor de afbeelding bijwerken in de eigenschappen aan de rechterkant.
 
->[!TAB  voeg de beelden van Experience Manager Assets ] toe
+>[!TAB  voeg de beelden van Experience Manager Assets toe]
 
 1. Tijdens het ontwerpen van uw e-mailinhoud in de e-mailontwerper sleept u een afbeeldingselement naar het canvas.
 
