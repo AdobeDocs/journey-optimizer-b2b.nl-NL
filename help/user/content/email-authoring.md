@@ -3,9 +3,9 @@ title: E-mailontwerp
 description: Leer hoe u persoonlijke e-mailinhoud maakt die wordt gebruikt in Accountreizen.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
+source-git-commit: ce38e378ad316fb379cb649a4592ed831250296d
 workflow-type: tm+mt
-source-wordcount: '1231'
+source-wordcount: '1214'
 ht-degree: 0%
 
 ---
@@ -88,8 +88,8 @@ Nadat u de e-mailinhoud hebt gemaakt en aangepast, kunt u de inhoud exporteren v
 
 1. Voeg verpersoonlijkingsgebieden in om uw inhoud van profielattributen, publiekslidmaatschappen, Contextuele attributen, en meer aan te passen.
 
-1. Klik op **[!UICONTROL Enable condition content]** om dynamische inhoud toe te voegen en de inhoud aan te passen aan de doelprofielen op basis van voorwaardelijke regels.
-
+<!-- 1. Click **[!UICONTROL Enable condition content]** to add dynamic content and adapt the content to the targeted profiles based on conditional rules.
+-->
 1. Selecteer het tabblad **[!UICONTROL Links]** in het linkerdeelvenster om alle URL&#39;s van de inhoud weer te geven die worden bijgehouden.
 
    U kunt het _Volgend Type_ of _Etiket_ wijzigen en markeringen toevoegen indien nodig.
