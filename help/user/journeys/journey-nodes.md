@@ -1,9 +1,9 @@
 ---
-title: Rekeningknooppunten
+title: Rekeningjournalen
 description: Leer over de knooppunttypes die u kunt gebruiken om uw rekeningsreizen te construeren.
 feature: Account Journeys
 exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
-source-git-commit: 90946e472ba4757a2594e4303495a20ceb4fc890
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '1692'
 ht-degree: 0%

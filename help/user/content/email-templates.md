@@ -3,7 +3,7 @@ title: E-mailsjablonen
 description: Leer hoe u e-mailsjablonen kunt maken en bewerken die u kunt gebruiken voor het eenvoudig en efficiënt maken van e-mails over een accountreis.
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 16b798f18f72eeb63e68a8d32e69164930aa1e22
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '2523'
 ht-degree: 0%

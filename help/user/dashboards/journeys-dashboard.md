@@ -1,9 +1,9 @@
 ---
-title: Dagboek overzicht
+title: Dashboard Reisoverzicht
 description: Leer meer over de informatie die wordt geleverd door het dashboard Overzicht van de Reis en hoe u hiermee uw strategie voor het bijhouden en beheren van uw accountriseizen kunt volgen.
 feature: Dashboards, Account Journeys
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
-source-git-commit: 18e22383c9f9294d209f4c8a6f9f04f074881186
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 0%

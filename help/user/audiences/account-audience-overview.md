@@ -1,8 +1,8 @@
 ---
-title: Accountpubliek
+title: Accountsoorten
 description: Leer meer over het publiek van uw account en hoe u op uw account gebaseerde reizen mogelijk maakt.
 exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
-source-git-commit: 7103e4f6666482a72511661dfaed1392d4eb16b1
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 0%

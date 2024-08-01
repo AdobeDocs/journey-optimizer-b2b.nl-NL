@@ -1,9 +1,9 @@
 ---
-title: Koopgroepen
+title: Groepen kopen
 description: Leer meer over het kopen van groepen en hun componenten.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: e107c4c7c4e86c57b70d90e0f42d71454bc832a9
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 4%

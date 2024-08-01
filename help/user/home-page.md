@@ -1,8 +1,8 @@
 ---
-title: Aanmelden en homepage
+title: Aanmelden en startpagina
 description: Leer hoe u de Journey Optimizer B2B Edition-app kunt openen en de homepage-informatie kunt gebruiken.
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
-source-git-commit: 13c25bf654c4cbc35589866d817de224065ab861
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%

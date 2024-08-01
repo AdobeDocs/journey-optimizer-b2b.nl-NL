@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentatie Journey Optimizer B2B Edition
 user-guide-description: Leer meer over Adobe Journey Optimizer B2B Edition en hoe u dit kunt gebruiken om accounts te organiseren en groepsreizen te kopen met behulp van ingebouwde generatieve AI en toonaangevende automatisering.
-source-git-commit: 3d3f0e4d6e62aa7126e915cfd5b54151d1bf9186
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 3%
+source-wordcount: '128'
+ht-degree: 4%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 3%
    + [Overzicht van Journey Optimizer B2B Edition](about-journey-optimizer-b2b-edition.md)
    + [Aanmelden en homepage](home-page.md)
    + [Richtlijnen voor snel starten](./start/get-started.md)
-   + [De AI-assistent gebruiken](./start/ai-assistant.md)
+   + [AI-assistent gebruiken](./start/ai-assistant.md)
 + Accountsoorten {#account-audiences}
    + [Overzicht](./audiences/account-audience-overview.md)
    + [XDM-veldtoewijzing](./data/field-mapping.md)
@@ -26,12 +26,12 @@ ht-degree: 3%
    + [Rolsjablonen](./buying-groups/buying-groups-role-templates.md)
    + [Koopgroepen maken](./buying-groups/buying-groups-create.md)
 + Accountreizen {#account-journeys}
-   + [Overzicht van reizen](./journeys/journey-overview.md)
+   + [Overzicht](./journeys/journey-overview.md)
    + [Transparante knooppunten van account](./journeys/journey-nodes.md)
 + Reisinhoud {#journey-content}
    + [E-mailontwerp](./content/email-authoring.md)
-   + [E-mail met verkoopwaarschuwing](./content/sales-alert-email.md)
    + [AI Assistant voor het schrijven van e-mail](./content/ai-assistant-emails.md)
+   + [E-mail met verkoopwaarschuwing](./content/sales-alert-email.md)
    + [SMS-authoring](./content/sms-authoring.md)
 + Inhoudsbeheer {#content-management}
    + Assets {#assets}
