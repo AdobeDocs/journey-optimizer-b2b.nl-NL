@@ -3,9 +3,9 @@ title: Groepen kopen
 description: Leer meer over het kopen van groepen en hun componenten.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 43fc83e70c4916c6367374a76a63e29110712a36
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '1165'
 ht-degree: 4%
 
 ---
@@ -17,7 +17,7 @@ Voor B2B-verkoop- en marketingactiviteiten zijn rekeningen van essentieel belang
 
 ![ diagram van de rollen van de Rekening ](assets/account-roles-diagram.png){width="800"}
 
-Binnen de rekening, zou er een ondergroep van mensen kunnen zijn die uit de _het kopen groep_ bestaan. Deze mensen zijn degenen die uiteindelijk het aankoopbesluit nemen, dus hebben ze speciale aandacht van de markteur nodig en hebben wellicht andere informatie nodig dan de andere mensen die bij de rekening horen. Kopersgroepen kunnen een verschillende groep personen voor verschillende productlijnen of aanbiedingen omvatten. Een product voor cyberbeveiliging kan bijvoorbeeld doorgaans een Chief Information Officer of Chief Security Officer en een vertegenwoordiger van de juridische afdeling vragen een aankoop goed te keuren, maar een product voor het opsporen van fouten kan doorgaans een VP van Engineering en een IT Director als leden van de inkoopgroep hebben.
+Binnen de rekening, zou er een ondergroep van mensen kunnen zijn die uit de _het kopen groep_ bestaan. Dit zijn de mensen die uiteindelijk het aankoopbesluit nemen, dus ze hebben speciale aandacht van de marketeer nodig en hebben mogelijk andere informatie nodig die ze krijgen dan de andere mensen die bij de rekening horen. Kopersgroepen kunnen een verschillende groep personen voor verschillende productlijnen of aanbiedingen omvatten. Een product voor cyberbeveiliging kan bijvoorbeeld doorgaans een Chief Information Officer of Chief Security Officer en een vertegenwoordiger van de juridische afdeling vragen een aankoop goed te keuren, maar een product voor het opsporen van fouten kan doorgaans een VP van Engineering en een IT Director als leden van de inkoopgroep hebben.
 
 ## Belangrijkste componenten
 
@@ -52,7 +52,7 @@ U kunt de doeltreffendheid van de marketing verhogen door koopgroepen in Journey
 
 1. Gebruik in een rekeningsreis door het bijbehorende oplossingsbelang.
 
-## Toegang tot inkoopgroepen en componenten
+## Koopgroepen en componenten weergeven
 
 Vouw **[!UICONTROL Accounts]** uit in de linkernavigatie en klik op **[!UICONTROL Buying groups]** .
 
@@ -87,28 +87,68 @@ De volledigheidsscore van de inkoopgroep wordt telkens opnieuw berekend wanneer 
 
 ### Betrokkenheidsscore voor groep kopen
 
-De betrokkenheidsscore wordt gebruikt om de effectiviteit van uw marketingprogramma&#39;s te evalueren op basis van groepsgedragsactiviteiten die over reizen worden bijgehouden. Deze score is afgeleid van activiteit in de afgelopen 30 dagen. Om het even welke rolverandering in een malplaatje vereist herberekening van de betrokkenheidsscore voor alle koopgroepen die gebruikend dat malplaatje worden gecreeerd. Alleen binnenkomende activiteiten worden geëvalueerd bij het berekenen van een betrokkenheidsscore.
+De score voor groepsbetrokkenheid kopen is een getal om de betrokkenheid van de leden van een inkoopgroep te bepalen op basis van de activiteiten die zij uitvoeren. Voor de berekening van de score wordt gebruik gemaakt van binnenkomende activiteiten die de leden van de kopende groep in de laatste 30 dagen hebben uitgevoerd.
 
-De weergegeven score is afgerond (een score van 75,89999 wordt weergegeven als 76), er is geen bovengrens voor de score voor GA en er is een dagelijkse frequentiegrens van 20.
+Voor elke activiteit geldt een dagelijkse maximale frequentie van 20. Als een lid van een inkoopgroep meer dan 20 keer per dag dezelfde activiteit uitoefent, wordt het aantal activiteiten beperkt tot 20 en niet tot een hoger aantal.
 
-De volgende voorbeelden demonstreren de berekening van de betrokkenheidsscore:
+De weergegeven score wordt afgerond. Een score van 75,89999 wordt bijvoorbeeld weergegeven als 76.
 
-**het Kopen groep 1** - betrokkenheidsscore = 22.15
+#### Weging
 
-| Gebruiker | Functie | Rolgewicht | Handeling | Vandaag | Gisteren | Dikte van handeling | Score |
-| ---- | ---- | ----------- | ------ | ----- | --------- | ------------- | ----- |
-| Adam | Beslissingsmaker | 80% | Bezochte website | 1000 | 2 | 1 | 22 |
-| | | | Op e-mail geklikt | 1 | 0 | 1 | 1 |
-| | | | Gedownloade Pub | 1 | 3 | 1 | 4 |
-| Bob | Influencer | 15% | Bezochte website | 1 | 2 | 1 | 3 |
-| Calvin | Praktijkster | 5% | Bezochte website | 1 | 1 | 1 | 2 |
+De gebruikers kunnen _weging_ aan elke rol in het rolmalplaatje toewijzen om verschillende gewichten voor een rol toe te wijzen om de betrokkenheidsscore te berekenen.
 
-**het Kopen groep 2** - betrokkenheidsscore = 8.55
+![ plaats weging aan elke rol in het rolmalplaatje ](./assets/roles-templates-weighting.png){width="700" zoomable="yes"}
 
-| Gebruiker | Functie | Rolgewicht | Handeling | Vandaag | Gisteren | Dikte van handeling | Score |
-| ---- | ---- | ----------- | ------ | ----- | --------- | ------------- | ----- |
-| Alvin | Beslissingsmaker | 80% | Bezochte website | 3 | 2 | 1 | 5 |
-| | | | Op e-mail geklikt | 1 | 0 | 1 | 1 |
-| | | | Gedownloade Pub | 1 | 3 | 1 | 4 |
-| Bret | Influencer | 15% | Bezochte website | 1 | 2 | 1 | 3 |
-| Cam | Praktijkster | 5% | Bezochte website | 1 | 1 | 1 | 2 |
+Elk wegingsniveau wordt omgezet in een waarde die wordt gebruikt voor het berekenen van de betrokkenheidsscore:
+
+* [!UICONTROL Trivial] = 20
+* [!UICONTROL Minor] = 40
+* [!UICONTROL Normal] = 60
+* [!UICONTROL Important] = 80
+* [!UICONTROL Vital] = 100
+
+Een rolmalplaatje met drie rollen gewogen zoals _[!UICONTROL Vital]_,_[!UICONTROL Important]_, en _[!UICONTROL Normal]_zet in de volgende gewogen percentages om:
+
+| Functie | Weging | Waarde voor achtergrond | Waarde berekenen | Percentage |
+|-------------- |--------- |------------- |------------------ |---------- |
+|               |          |              |                   |           |
+| Beslissingsmaker | Vital | 100 | 240-100 | 41,67% |
+| Influencer | Belangrijk | 80 | 240-80 | 33,33% |
+| Praktijkster | Normaal | 60 | 240-60 | 25% |
+|               | Totaal | 240 |                   |           |
+
+#### Berekeningsvoorbeeld
+
+In het volgende voorbeeld wordt de berekening van de betrokkenheidsscore weergegeven aan de hand van het gewichtspercentage van de omgezette rol, het aantal inkomende activiteiten voor elk lid van de inkoopgroep en een dagelijks maximum van 20 graden voor elke gebeurtenis (als dit meerdere keren is gebeurd).
+
+| Functie | Lid | Type activiteit | Aantal van gisteren | Aantal vandaag | Berekening | Totale score |
+|-------------- |--------- |-------------|-----------------|-------------|------|-----------|
+|               |          |             |                 |             |      |           |
+| Beslissingsmaker | Adam | Bezochte website | 37 | 15 | 20 + 15 | 35 |
+|               |          | Geplikte e-mail | 1 | 1 | 1 + 1 | 2 |
+|               |          |             |                 |             |      |           |
+|               | Markeren | Bezochte website | 5 | 3 | 5 + 3 | 8 |
+|               |          | Geplikte e-mail | 1 | 1 | 1 + 1 | 2 |
+|               |          | Gedownloade publicatie | 3 | 2 | 3 + 2 | 5 |
+| **Totale score van Makers van het Besluit** |         |             |                 |             |      | **52** |
+|               |          |             |                 |             |      |           |
+| Influencer | John | Bezochte website | 19 | 9 | 19 + 9 | 28 |
+| **totale score van Influencers** |         |             |                 |             |      | **28** |
+|               |          |             |                 |             |      |           |
+| Praktijkster | Bob | Geplikte e-mail | 1 | 1 | 1 + 1 | 2 |
+|               |          |             |                 |             |      |           |
+|               | Paul | Geplikte e-mail | 1 | 1 | 1 + 1 | 2 |
+|               |          |             |                 |             |      |           |
+|               | Calvin | Geplikte e-mail | 1 | 1 | 1 + 1 | 2 |
+|               |          | Bezochte website | 1 | 7 | 1 + 7 | 8 |
+|               |          | Gedownloade publicatie | 1 | 2 | 1 + 2 | 3 |
+| **totale score van Praktijken** |         |             |                 |             |      | **17** |
+
+De uiteindelijke betrokkenheidsscore wordt berekend door de weging toe te passen voor elk van de rolscores:
+
+| Functie | Rol totale score | Rolgewicht % | Score X-gewicht % |
+|-------------- |---------------- |------------- |---------------- |
+| Beslissingsmakers | 52 | 41,67% | 21,67 |
+| Influencers | 28 | 33,33% | 9,33 |
+| Praktijken | 17 | 25% | 4,25 |
+| **Definitieve betrokkenheidsscore** |                |             | **35.25** |
