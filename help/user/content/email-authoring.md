@@ -3,9 +3,9 @@ title: E-mailontwerp
 description: Leer hoe u persoonlijke e-mailinhoud maakt die wordt gebruikt in Accountreizen.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 9eb664edbfe1561e2946a94775c78554dfca74a2
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1243'
 ht-degree: 0%
 
 ---
@@ -179,7 +179,12 @@ Er kunnen twee soorten waarschuwingen worden gedetecteerd:
 
    * `The email version of the message is empty`: deze fout wordt weergegeven wanneer de e-mailinhoud niet is geconfigureerd.
 
-## E-mail controleren en testen
+## E-mail controleren en testen {#preview-test}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_preview_simulate"
+>title="Controleren hoe uw inhoud wordt gerenderd"
+>abstract="Wanneer uw inhoud is gedefinieerd, kunt u deze voorvertonen en controleren of de rendering correct is voor het kanaal dat u gebruikt."
 
 Wanneer de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken om deze voor te vertonen, proefdrukken te verzenden en de weergave ervan in populaire desktops, mobiele clients en webclients te beheren. Als u persoonlijke inhoud hebt ingevoegd, kunt u met testprofielgegevens een voorvertoning weergeven van de weergave van deze inhoud in het bericht.
 
