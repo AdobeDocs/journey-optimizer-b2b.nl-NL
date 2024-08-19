@@ -3,9 +3,9 @@ title: E-mailontwerp
 description: Leer hoe u persoonlijke e-mailinhoud maakt die wordt gebruikt in Accountreizen.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 9eb664edbfe1561e2946a94775c78554dfca74a2
+source-git-commit: 3bdfdd8484063400f385120be87e6c460ef46d02
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1388'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,37 @@ Nadat u de e-mailinhoud hebt gemaakt en aangepast, kunt u de inhoud exporteren v
 >
 >Gebruik AI Assistant in Adobe Journey Optimizer B2B Edition, aangedreven door generatieve AI om uw inhoud naar het volgende niveau te tillen. Met AI Assistant kunt u de impact van uw leveringen optimaliseren door volledige e-mails, gerichte tekstinhoud en aanbevelingen voor AI Assistant te genereren voor afbeeldingen die op uw publiek zijn afgestemd. [Meer informatie](./ai-assistant-emails.md)
 
-### Ontwerp uw e-mail helemaal zelf
+### Ontwerp uw e-mail helemaal zelf {#design-from-scratch}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_email"
+>title="Structuurcomponenten toevoegen"
+>abstract="Structuurelementen definiëren de indeling van de e-mail. De belemmering en laat vallen component van de a **Structuur** in het canvas beginnen uw e-mailinhoud te ontwerpen."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_landing_page"
+>title="Structuurcomponenten toevoegen"
+>abstract="Structuurcomponenten definiëren de indeling van de bestemmingspagina. De belemmering en laat vallen component van de a **Structuur** in het canvas beginnen de inhoud van uw het landen pagina te ontwerpen."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_fragment"
+>title="Structuurcomponenten toevoegen"
+>abstract="Structuurcomponenten definiëren de indeling van het fragment. De belemmering en laat vallen component van de a **Structuur** in het canvas beginnen de inhoud van uw fragment te ontwerpen."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_email"
+>title="Informatie over inhoudscomponenten"
+>abstract="Inhoudscomponenten zijn lege plaatsaanduidingen voor inhoud die u kunt gebruiken om de lay-out van een e-mail te maken."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_landing_page"
+>title="Informatie over inhoudscomponenten"
+>abstract="Inhoudscomponenten zijn lege plaatsaanduidingen voor inhoud die u kunt gebruiken om de lay-out van een bestemmingspagina te maken."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_fragment"
+>title="Informatie over inhoudscomponenten"
+>abstract="Inhoudscomponenten zijn lege plaatsaanduidingen voor inhoud die u kunt gebruiken om de lay-out van een fragment te maken."
 
 1. Selecteer de optie **[!UICONTROL Design from scratch]** op de startpagina van Designer.
 
@@ -182,7 +212,7 @@ Er kunnen twee soorten waarschuwingen worden gedetecteerd:
 ## E-mail controleren en testen {#preview-test}
 
 >[!CONTEXTUALHELP]
->id="ajo-b2b_preview_simulate"
+>id="ajo-b2b_email_preview_simulate"
 >title="Controleren hoe uw inhoud wordt gerenderd"
 >abstract="Wanneer uw inhoud is gedefinieerd, kunt u deze voorvertonen en controleren of de rendering correct is voor het kanaal dat u gebruikt."
 

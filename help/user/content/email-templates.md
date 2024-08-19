@@ -3,9 +3,9 @@ title: E-mailsjablonen
 description: Leer hoe u e-mailsjablonen kunt maken en bewerken die u kunt gebruiken voor het eenvoudig en efficiënt maken van e-mails over een accountreis.
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: f3677c275971c9a438d2d63ef72c6a99fa7d3d8a
 workflow-type: tm+mt
-source-wordcount: '2523'
+source-wordcount: '2571'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,17 @@ De pagina _[!UICONTROL Design your template]_wordt geopend en bevat meerdere opt
 
 ![ kies hoe u met uw ontwerp van het e-mailmalplaatje wilt beginnen ](./assets/templates-create-design.png){width="800" zoomable="yes"}
 
-### Ontwerpen vanaf nul
+### Ontwerpen vanaf nul {#design-from-scratch}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_template"
+>title="Structuurcomponenten toevoegen"
+>abstract="Structuurelementen definiëren de lay-out van de sjabloon. De belemmering en laat vallen component van de a **Structuur** in het canvas beginnen de inhoud van uw malplaatje te ontwerpen."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_template"
+>title="Informatie over inhoudscomponenten"
+>abstract="Inhoudscomponenten zijn lege plaatsaanduidingen voor inhoud die u kunt gebruiken om de lay-out van een sjabloon te maken."
 
 Gebruik de e-mailontwerper om de structuur van uw e-mailinhoud te definiëren. Door structurele componenten toe te voegen en te bewegen met eenvoudige belemmering-en-dalingsacties, kunt u de vorm van de herbruikbare e-mailinhoud binnen seconden ontwerpen.
 

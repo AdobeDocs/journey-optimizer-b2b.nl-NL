@@ -3,9 +3,9 @@ title: SMS Authoring
 description: Leer hoe u SMS-berichten naar uw klanten op hun mobiele apparaten kunt verzenden en hoe u berichten in tekstindeling kunt personaliseren en voorvertonen vanuit de SMS-editor.
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: eea4afcf352eeefbd5a67c4bfff6a4c2ec559319
 workflow-type: tm+mt
-source-wordcount: '1768'
+source-wordcount: '1797'
 ht-degree: 0%
 
 ---
@@ -200,7 +200,12 @@ U kunt tekstberichtenleveringen instellen in een Account Journey wanneer u een _
 
    Het nummer van de ontvanger wordt altijd toegewezen aan het veld `Lead.mobilePhone` in het Marketo Engage.
 
-## Inhoud van tekstberichten simuleren
+## Inhoud van tekstberichten simuleren {#preview-test}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_sms_preview_simulate"
+>title="Controleren hoe uw inhoud wordt gerenderd"
+>abstract="Wanneer uw inhoud is gedefinieerd, kunt u deze voorvertonen en controleren of de rendering correct is voor het kanaal dat u gebruikt."
 
 Wanneer de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken om de inhoud ervan te simuleren (voor een voorvertoning). Als u persoonlijke inhoud hebt ingevoegd, kunt u met testprofielgegevens controleren hoe deze inhoud in het bericht wordt weergegeven.
 
