@@ -1,11 +1,9 @@
 ---
 title: LinkedIn-account met passend publiek
 description: Leer hoe u verbinding maakt met een LinkedIn-account en een gegevensstroom activeert voor inkoopgroepen.
-hidefromtoc: true
-hide: true
-source-git-commit: 63bf202e179895d72cd8b3f40e1bf5333bcd4c48
+source-git-commit: aa286aa7b0dbead59b3cec3b6c21ee3f332ad814
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '639'
 ht-degree: 0%
 
 ---
@@ -25,15 +23,29 @@ Alvorens u een dataflow van de Uitgave van Journey Optimizer B2B in werking stel
 
 1. Ga in het Experience Platform naar **[!UICONTROL Connections]** > **[!UICONTROL Destinations]** in de linkernavigatie en selecteer de tab **[!UICONTROL Catalog]** .
 
-1. Zoek in de catalogus de **[!UICONTROL (Companies) LinkedIn Matched Audience]** -connector en klik op **[!UICONTROL Set Up]** .
+1. Zoek in de catalogus de **[!UICONTROL (Companies) LinkedIn Matched Audience]** -connector.
+
+   >[!TIP]
+   >
+   >U kunt de connector snel vinden door `LinkedIn` in te voeren in het zoekvak.
+
+1. In de schakelaarkaart, klik _Meer_ (**..**) pictogram en kies **[!UICONTROL Configure new destination]**.
 
    ![ heb toegang tot de (Bedrijven) LinkedIn Verwante schakelaar van het Publiek ](./assets/aep-destinations-catalog-linkedin.png){width="800" zoomable="yes"}
 
-1. Selecteer **[!UICONTROL New Account]** > **[!UICONTROL Connect to LinkedIn]** .
+1. Selecteer **[!UICONTROL New Account]** en klik op **[!UICONTROL Connect to destination]** .
+
+   ![ verbind een nieuwe rekening van LinkedIn ](./assets/aep-destinations-catalog-linkedin-new-account.png){width="500"}
 
 1. Geef uw LinkedIn-gegevens op en meld u aan.
 
-   De LinkedIn-account is verbonden als een doel.
+   Na verificatie wordt de LinkedIn-account verbonden als een doel in Experience Platform.
+
+   ![ de verbindingsbevestiging van de Rekening wordt getoond ](./assets/aep-destinations-catalog-linkedin-connected.png){width="400"}
+
+   >[!IMPORTANT]
+   >
+   >Op dit punt, **ga** niet _[!UICONTROL Destination details]_in. Alleen de verbinding is nodig.
 
 ## Accountgegevens bijwerken
 

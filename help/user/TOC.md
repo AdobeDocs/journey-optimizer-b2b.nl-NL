@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentatie Journey Optimizer B2B Edition
 user-guide-description: Leer meer over Adobe Journey Optimizer B2B Edition en hoe u dit kunt gebruiken om accounts te organiseren en groepsreizen te kopen met behulp van ingebouwde generatieve AI en toonaangevende automatisering.
-source-git-commit: 92a4dd9ace81c69750b39e49c63e1385fa33cc1a
+source-git-commit: aa286aa7b0dbead59b3cec3b6c21ee3f332ad814
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 4%
+source-wordcount: '133'
+ht-degree: 6%
 
 ---
 
@@ -12,6 +12,7 @@ ht-degree: 4%
 # Gebruikershandleiding voor Journey Optimizer B2B Edition {#user}
 
 + [Documentatie Adobe Journey Optimizer B2B Edition](guide-overview.md)
++ [Aanvullende informatie](./release-notes/release-notes.md)
 + Aan de slag {#get-started}
    + [Overzicht van Journey Optimizer B2B Edition](about-journey-optimizer-b2b-edition.md)
    + [Aanmelden en homepage](home-page.md)

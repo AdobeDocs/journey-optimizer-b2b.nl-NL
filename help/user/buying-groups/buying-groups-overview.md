@@ -3,7 +3,7 @@ title: Groepen kopen
 description: Leer meer over het kopen van groepen en hun componenten.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 43fc83e70c4916c6367374a76a63e29110712a36
+source-git-commit: 5e500f616dcbbebcdfacfead9ae386b523a4d1a4
 workflow-type: tm+mt
 source-wordcount: '1165'
 ht-degree: 4%
@@ -109,7 +109,7 @@ Elk wegingsniveau wordt omgezet in een waarde die wordt gebruikt voor het bereke
 
 Een rolmalplaatje met drie rollen gewogen zoals _[!UICONTROL Vital]_,_[!UICONTROL Important]_, en _[!UICONTROL Normal]_zet in de volgende gewogen percentages om:
 
-| Functie | Weging | Waarde voor achtergrond | Waarde berekenen | Percentage |
+| Functie | Weging | Systeemwaarde | Waarde berekenen | Percentage |
 |-------------- |--------- |------------- |------------------ |---------- |
 |               |          |              |                   |           |
 | Beslissingsmaker | Vital | 100 | 240-100 | 41,67% |

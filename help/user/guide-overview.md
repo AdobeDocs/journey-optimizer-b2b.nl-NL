@@ -2,9 +2,9 @@
 title: Documentatie Adobe Journey Optimizer B2B Edition
 description: Leer hoe u de Adobe Journey Optimizer B2B Edition-functies kunt gebruiken voor het ordenen van accounts en het kopen van groepsreizen met behulp van ingebouwde generatieve AI en toonaangevende automatisering.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 8a27ab8d1c0849b9ed0e921874cb1e5260647e40
+source-git-commit: aa286aa7b0dbead59b3cec3b6c21ee3f332ad814
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '490'
 ht-degree: 2%
 
 ---
@@ -18,6 +18,12 @@ Hier volgt een voorbeeld van de nieuwste verbeteringen in het Journey Optimizer 
 <!-- For a comprehensive list of features, improvements, and fixes, check out the detailed < Release Notes >. Stay up-to-date with the latest changes in our documentation by visiting the , < documentation updates page >. -->
 
 >[!BEGINTABS]
+
+>[!TAB  de Rekening van LinkedIn stemde Soorten publiek ] aan
+
+Genereer LinkedIn Ad-publiek via accountgroepen die aan bod komen, zodat u lege rollen in uw inkoopgroepen kunt vullen. Als u een set koopgroepsfilters definieert, kunt u een met LinkedIn overeenstemmende doelgroep bijhouden voor de doelvooruitzichten die overeenkomen met de parameters van uw inkoopgroep. Deze functie gebruikt Experience Platform Doelen om sommige aspecten van de integratie te beheren.
+
+[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-audiences/linkedin-account-matched-audiences" tooltip="Meer informatie over vergelijkbaar publiek voor LinkedIn-account"}
 
 >[!TAB  AI Medewerker ]
 
