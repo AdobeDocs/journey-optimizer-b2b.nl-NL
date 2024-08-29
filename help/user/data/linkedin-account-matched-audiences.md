@@ -1,9 +1,8 @@
 ---
 title: LinkedIn-account met passend publiek
 description: Leer hoe u verbinding maakt met een LinkedIn-account en een gegevensstroom activeert voor inkoopgroepen.
-hidefromtoc: true
-hide: true
-source-git-commit: fdaf71355aa77d73f5e30d468b05d48046fb6ae2
+exl-id: d2303529-16c4-4b0b-b8c8-404dff8ec63d
+source-git-commit: 00315c9d245d8d19954643e4dd51920ae2baafbe
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 0%
