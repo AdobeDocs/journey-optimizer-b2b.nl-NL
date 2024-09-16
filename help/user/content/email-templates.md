@@ -3,9 +3,9 @@ title: E-mailsjablonen
 description: Leer hoe u e-mailsjablonen kunt maken en bewerken die u kunt gebruiken voor het eenvoudig en efficiënt maken van e-mails over een accountreis.
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: f3677c275971c9a438d2d63ef72c6a99fa7d3d8a
+source-git-commit: 5f53f4156c670d1c7b751844ab0bda0aef352973
 workflow-type: tm+mt
-source-wordcount: '2571'
+source-wordcount: '1763'
 ht-degree: 0%
 
 ---
@@ -48,46 +48,25 @@ De pagina _[!UICONTROL Design your template]_wordt geopend en bevat meerdere opt
 
 ![ kies hoe u met uw ontwerp van het e-mailmalplaatje wilt beginnen ](./assets/templates-create-design.png){width="800" zoomable="yes"}
 
-### Ontwerpen vanaf nul {#design-from-scratch}
+### Ontwerpen vanaf nul
 
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_template"
->title="Structuurcomponenten toevoegen"
->abstract="Structuurelementen definiëren de lay-out van de sjabloon. De belemmering en laat vallen component van de a **Structuur** in het canvas beginnen de inhoud van uw malplaatje te ontwerpen."
+Gebruik de visuele inhoudeditor om de structuur van de e-mailinhoud te definiëren. Door structurele componenten toe te voegen en te bewegen met eenvoudige belemmering-en-dalingsacties, kunt u de vorm van de herbruikbare e-mailinhoud binnen seconden ontwerpen.
 
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_template"
->title="Informatie over inhoudscomponenten"
->abstract="Inhoudscomponenten zijn lege plaatsaanduidingen voor inhoud die u kunt gebruiken om de lay-out van een sjabloon te maken."
-
-Gebruik de e-mailontwerper om de structuur van uw e-mailinhoud te definiëren. Door structurele componenten toe te voegen en te bewegen met eenvoudige belemmering-en-dalingsacties, kunt u de vorm van de herbruikbare e-mailinhoud binnen seconden ontwerpen.
+>[!NOTE]
+>
+>De beschikbare ontwerphulpmiddelen zijn gelijkwaardig aan de hulpmiddelen die voor [ worden gebruikt e-mailauthoring ](./email-authoring.md). Het verschil is dat deze inhoud vervolgens wordt opgeslagen als een sjabloon die opnieuw kan worden gebruikt voor meerdere verzendknooppunten in een accountreis.
 
 1. Selecteer de optie **[!UICONTROL Design from scratch]** op de startpagina van _[!UICONTROL Design your template]_.
 
-1. Begin met het ontwerpen van uw inhoud door componenten naar het canvas te slepen en neer te zetten om de structurele lay-out van de e-mail te bepalen.
-
-   De beschikbare ontwerphulpmiddelen zijn gelijkwaardig aan de hulpmiddelen die voor [ worden gebruikt e-mailauthoring ](./email-authoring.md). Het verschil is dat deze inhoud vervolgens wordt opgeslagen als een sjabloon die opnieuw kan worden gebruikt voor meerdere verzendknooppunten in een accountreis.
+1. [ voegt structuur en inhoud ](#add-structure-and-content) aan het malplaatje toe.
 
 ### HTML importeren
 
-Met Adobe Journey Optimizer B2B Edition kunt u bestaande HTML-inhoud importeren om uw e-mailsjablonen te ontwerpen. Deze inhoud kan:
+Met Adobe Journey Optimizer B2B Edition kunt u bestaande HTML-inhoud importeren om uw e-mailsjablonen te ontwerpen.
 
-* Een HTML-bestand met een opgenomen stijlblad.
-* Een ZIP-bestand dat een HTML-bestand, de stijlpagina (.css) en afbeeldingen bevat
+{{$include /help/_includes/content-design-import.md}}
 
-  >[!NOTE]
-  >
-  >Er gelden geen beperkingen voor de .zip-bestandsstructuur. Verwijzingen moeten echter relatief zijn en passen bij de boomstructuur van de ZIP-map.
-
-_om een dossier in te voeren dat de inhoud van HTML bevat:_
-
-1. Selecteer de optie **[!UICONTROL Import HTML]** op de startpagina van _[!UICONTROL Design your template]_.
-
-1. Sleep het HTML- of ZIP-bestand met de inhoud van uw HTML en klik op **[!UICONTROL Import]** .
-
-   Nadat de inhoud van de HTML wordt geupload, is uw inhoud op _wijze van de Verenigbaarheid_. In deze modus kunt u alleen uw tekst aanpassen, koppelingen toevoegen of elementen aan uw inhoud toevoegen.
-
-1. Als u de inhoudcomponenten van de e-mailontwerper wilt gebruiken, klikt u op het tabblad **[!UICONTROL HTML converter]** en klikt u op **[!UICONTROL Convert]** .
+![ de invoer HTML- inhoud in een ZIP dossier ](./assets/templates-import-zip-file.png){width="500"}
 
 >[!NOTE]
 >
@@ -97,91 +76,21 @@ U kunt de geïmporteerde inhoud naar wens aanpassen met de gereedschappen in de 
 
 ### Een ontwerpsjabloon selecteren
 
-Op de startpagina van _[!UICONTROL Design your template]_gebruikt u de sectie Ontwerpsjabloon selecteren om uw inhoud op te bouwen op basis van een sjabloon. U kunt een voorbeeldsjabloon of een opgeslagen e-mailsjabloon uit uw Journey Optimizer B2B Edition-exemplaar gebruiken.
+{{$include /help/_includes/content-design-select-template.md}}
 
->[!BEGINTABS]
+## Structuur en inhoud toevoegen {#structure-content}
 
->[!TAB  Bewaarde malplaatjes ]
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_template"
+>title="Structuurcomponenten toevoegen"
+>abstract="Structuurelementen definiëren de lay-out van de sjabloon. De belemmering en laat vallen component van de a **Structuur** in het canvas beginnen de inhoud voor uw malplaatje te ontwerpen."
 
-Op het _Ontwerp uw malplaatje_ homepage, wordt het _malplaatjes van de Steekproef_ lusje geselecteerd door gebrek. Als u een aangepaste sjabloon wilt gebruiken, selecteert u de tab **[!UICONTROL Saved templates]** .
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_template"
+>title="Informatie over inhoudscomponenten"
+>abstract="Inhoudscomponenten zijn lege plaatsaanduidingen voor inhoud die u kunt gebruiken om de lay-out van een sjabloon te maken."
 
-De lijst met alle e-mailsjablonen die in de huidige sandbox zijn gemaakt, wordt weergegeven. U kunt ze sorteren op _[!UICONTROL Name]_,_[!UICONTROL Last modified]_ en _[!UICONTROL Last created]_.
-
-![ kies een bewaard malplaatje ](./assets/templates-design-saved-sort-by.png){width="800" zoomable="yes"}
-
-Selecteer de gewenste sjabloon in de lijst.
-
-Na de selectie wordt een voorbeeld van de sjabloon weergegeven. In de voorvertoningsmodus kunt u met de rechter- en linkerpijltoets navigeren tussen alle sjablonen van één categorie (voorbeeld of opgeslagen, afhankelijk van uw selectie).
-
-![ Voorproef het bewaarde malplaatje ](./assets/templates-design-saved-preview.png){width="800" zoomable="yes"}
-
-Wanneer de weergave overeenkomt met wat u wilt gebruiken, klikt u op **[!UICONTROL Use this template]** rechtsboven in het voorvertoningsvenster.
-
-Met deze actie kopieert u de inhoud naar de visuele ontwerper van de inhoud, waar u de inhoud desgewenst kunt bewerken.
-
->[!TAB  malplaatje van de Steekproef ]
-
-De Uitgave van Adobe Journey Optimizer B2B biedt een selectie van e-mailmalplaatjes aan die _worden aangeboden uit-van-de-doos_, die voor het creëren van e-mails en e-mailmalplaatjes kan worden gebruikt.
-
-![ kies een malplaatje dat door Adobe ](./assets/templates-design-samples.png){width="800" zoomable="yes"} wordt verstrekt
-
->[!ENDTABS]
-
-## Structuur en inhoud toevoegen
-
-Begin met het ontwerpen van uw inhoud door structuren van het menu **[!UICONTROL Components]** naar het canvas te slepen om de lay-out van uw e-mail te definiëren.
-
-Voeg zoveel structuren toe als u nodig hebt en bewerk de instellingen in de elementeigenschappen aan de rechterkant.
-
-Selecteer de component _[!UICONTROL n:n column]_om het aantal kolommen van uw keuze (tussen drie en 10) te definiëren. Definieer de breedte van elke kolom door de pijlen onderaan te verplaatsen.
-
->[!NOTE]
->
->Elke kolomgrootte mag niet kleiner zijn dan 10% van de totale breedte van de structuurcomponent. U kunt alleen lege kolommen verwijderen.
-
-Vouw de sectie **[!UICONTROL Contents]** uit en voeg zoveel elementen toe als u nodig hebt in een of meer structuurcomponenten.
-
-
-
-Elke component kan verder worden aangepast met de tabbladen _[!UICONTROL Settings]_of_[!UICONTROL Style]_ in het rechterdeelvenster. U kunt bijvoorbeeld de tekststijl, opvulling of marge van elke component wijzigen.
-
-### Navigeren door de lagen, instellingen en stijl
-
-In het volgende voorbeeld worden de stappen beschreven voor het aanpassen van de opvulling en de verticale uitlijning binnen een structuurcomponent die uit drie kolommen bestaat.
-
-1. Selecteer de structuurcomponent rechtstreeks in de e-mail of met behulp van de navigatiestructuur die beschikbaar is in het linkermenu.
-
-1. Klik in de werkbalk op **[!UICONTROL Select a column]** en kies de werkbalk die u wilt bewerken.
-
-   ![ n:n kolomcomponent die in het canvas ](./assets/visual-designer-n-n-column.png){width="800" zoomable="yes"} wordt getoond
-
-   U kunt deze ook selecteren in de boomstructuur. De bewerkbare parameters voor die kolom worden weergegeven op het tabblad _[!UICONTROL Styles]_.
-
-1. Onder **[!UICONTROL Alignment]**, selecteer de _Hoogste_, _Midden_, of _Onderste_ pictogram.
-
-1. Definieer onder **[!UICONTROL Padding]** de opvulling voor alle zijden.
-
-   Selecteer **[!UICONTROL Different padding for each side]** als u de opvulling wilt verfijnen. Klik op het vergrendelingspictogram om de synchronisatie te verbreken.
-
-1. Pas indien nodig de uitlijning en opvulling voor de andere kolommen aan.
-
-1. Sla uw wijzigingen op.
-
-### Inhoud personaliseren
-
-In het volgende voorbeeld worden stappen beschreven voor het aanpassen van sjablooninhoud met behulp van lood-/accountkenmerken en systeemtokens.
-
-1. Selecteer de tekstcomponent en klik _verpersoonlijking_ pictogram in de toolbar toevoegen.
-
-   ![ klik het Persoonlijke pictogram ](./assets/visual-designer-personalize-icon.png){width="500"}
-
-   Deze actie opent _geeft Personalization_ dialoog uit.
-
-1. Klik **+** of **..** om een teken aan de lege ruimte toe te voegen.
-
-   ![ construeert gepersonaliseerde tekst gebruikend tokens ](./assets/visual-designer-personalize-dialog.png){width="700" zoomable="yes"}
-
-1. Klik op **[!UICONTROL Save]**.
+{{$include /help/_includes/content-design-components.md}}
 
 ### Fragmenten toevoegen
 
@@ -198,43 +107,33 @@ In de visuele inhoudsredacteur, wordt het _pictogram van Fragmenten_ getoond op 
 
    ![ selecteer een fragment van de lijst ](./assets/visual-designer-fragments.png){width="700" zoomable="yes"}
 
-1. Sleep een van de fragmenten naar de tijdelijke aanduiding voor het structuuronderdeel.
+1. Sleep een van de fragmenten naar de tijdelijke aanduiding voor het structurele onderdeel.
 
    De editor geeft het fragment weer binnen de sectie/het element van de e-mailstructuur.
 
-De inhoud van het fragment wordt dynamisch bijgewerkt binnen de structuur om een visuele weergave te geven van hoe de inhoud in de e-mail wordt weergegeven.
+De inhoud van het fragment wordt dynamisch bijgewerkt in de structuur om te tonen hoe de inhoud in de e-mail wordt weergegeven.
 
-Als u het fragment wilt toevoegen zodat het de volledige horizontale lay-out binnen e-mail bezet, voeg een 1:1 kolomstructuur toe en sleep en zet dan het fragment in het.
+>[!TIP]
+>
+>Als u het fragment wilt toevoegen zodat het de volledige horizontale lay-out binnen e-mail bezet, voeg een 1:1 kolomstructuur toe en sleep en zet dan het fragment in het.
 
 Nadat het e-mailbericht is opgeslagen, wordt het weergegeven op de pagina met fragmentdetails wanneer u het tabblad _[!UICONTROL Used By]_in het overzicht selecteert. Fragmenten die aan een e-mailsjabloon worden toegevoegd, kunnen niet worden bewerkt in de sjabloon. De inhoud wordt gedefinieerd door het bronfragment.
 
 ### Elementen toevoegen
 
-In de visuele inhoudsredacteur, selecteer het _Assets_ pictogram dat op de linkerzijde wordt getoond.
+{{$include /help/_includes/content-design-assets.md}}
 
->[!NOTE]
->
->Als u een abonnement op Experience Manager Assets as a Cloud Service hebt samen met de standaard Adobe Marketo Engage Design Studio, kunt u afbeeldingselementen kiezen uit de bron die is geselecteerd op de pagina met sjabloondetails.
+### Navigeren door de lagen, instellingen en stijlen
 
-In het volgende voorbeeld worden de stappen beschreven waarmee elementen aan de sjablooninhoud worden toegevoegd:
+{{$include /help/_includes/content-design-navigation.md}}
 
-1. Om de activa bibliotheek te openen, klik het _Assets_ pictogram.
+### Inhoud personaliseren
 
-   Vanuit de elementenkiezer kunt u rechtstreeks in de bronbibliotheek opgeslagen elementen selecteren.
+{{$include /help/_includes/content-design-personalization.md}}
 
-1. Voeg een nieuw element toe door het afbeeldingselement naar een structuurcomponent te slepen.
+### Gekoppelde URL-tracking bewerken
 
-1. Vervang een afbeeldingselement door dit op het canvas te selecteren en klik op **[!UICONTROL Select an asset]** in de brongereedschappen van de afbeelding.
-
-   ![ Uitgezocht een middel van de bronbibliotheek ](./assets/visual-designer-select-an-asset.png){width="700" zoomable="yes"}
-
-### URL&#39;s voorvertonen en bewerken
-
-1. Klik op het pictogram _[!UICONTROL Links]_aan de linkerkant om alle URL&#39;s weer te geven van de inhoud die u wilt bijhouden.
-
-1. Indien nodig, klik _uitgeven_ (potlood) pictogram en wijzig het _Volgend Type_ of _Etiket_ en voeg _Markeringen_ voor een verbinding toe.
-
-![ klik Meer om tot malplaatjeacties ](./assets/visual-designer-links.png){width="500"} toegang te hebben
+{{$include /help/_includes/content-design-links.md}}
 
 ### Weergaveopties
 

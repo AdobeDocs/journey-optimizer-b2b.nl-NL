@@ -1,11 +1,11 @@
 ---
 title: E-mailontwerp
-description: Leer hoe u persoonlijke e-mailinhoud maakt die wordt gebruikt in Accountreizen.
+description: Leer hoe u persoonlijke e-mailinhoud kunt maken die wordt gebruikt in een accountreis.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 3bdfdd8484063400f385120be87e6c460ef46d02
+source-git-commit: 5f53f4156c670d1c7b751844ab0bda0aef352973
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1161'
 ht-degree: 0%
 
 ---
@@ -65,121 +65,116 @@ Nadat u de e-mailinhoud hebt gemaakt en aangepast, kunt u de inhoud exporteren v
 ### Ontwerp uw e-mail helemaal zelf {#design-from-scratch}
 
 >[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_email"
->title="Structuurcomponenten toevoegen"
->abstract="Structuurelementen definiëren de indeling van de e-mail. De belemmering en laat vallen component van de a **Structuur** in het canvas beginnen uw e-mailinhoud te ontwerpen."
-
->[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_landing_page"
 >title="Structuurcomponenten toevoegen"
 >abstract="Structuurcomponenten definiëren de indeling van de bestemmingspagina. De belemmering en laat vallen component van de a **Structuur** in het canvas beginnen de inhoud van uw het landen pagina te ontwerpen."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_fragment"
->title="Structuurcomponenten toevoegen"
->abstract="Structuurcomponenten definiëren de indeling van het fragment. De belemmering en laat vallen component van de a **Structuur** in het canvas beginnen de inhoud van uw fragment te ontwerpen."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_email"
->title="Informatie over inhoudscomponenten"
->abstract="Inhoudscomponenten zijn lege plaatsaanduidingen voor inhoud die u kunt gebruiken om de lay-out van een e-mail te maken."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_landing_page"
 >title="Informatie over inhoudscomponenten"
 >abstract="Inhoudscomponenten zijn lege plaatsaanduidingen voor inhoud die u kunt gebruiken om de lay-out van een bestemmingspagina te maken."
 
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_fragment"
->title="Informatie over inhoudscomponenten"
->abstract="Inhoudscomponenten zijn lege plaatsaanduidingen voor inhoud die u kunt gebruiken om de lay-out van een fragment te maken."
+Gebruik de visuele inhoudeditor om de structuur van de e-mailinhoud te definiëren. Door structurele componenten toe te voegen en te bewegen met eenvoudige belemmering-en-dalingsacties, kunt u de vorm van de herbruikbare e-mailinhoud binnen seconden ontwerpen.
 
-1. Selecteer de optie **[!UICONTROL Design from scratch]** op de startpagina van Designer.
+1. Selecteer de optie **[!UICONTROL Design from scratch]** op de startpagina van _[!UICONTROL Design your template]_.
 
-1. Als u het inhoudsontwerp wilt starten, sleept u een item van de **[!UICONTROL Structures]** naar het canvas.
+1. [ voegt structuur en inhoud ](#add-structure-and-content) aan het e-mailbericht toe.
+1. [ voeg beeldactiva ](#add-assets) aan het e-mailbericht toe.
+1. [ personaliseer de e-mailinhoud ](#personalize-content).
+1. [ Overzicht en werk verbindingen ](#preview-and-edit-linked-urls) bij.
 
-   Herhaal deze stap voor elke structuurcomponent om de lay-out van uw e-mail samen te stellen.
-
-1. Voeg zo vele punten van _Structuren_ toe aangezien u de montages voor elk in de ruit op het recht nodig hebt en uitgeeft.
-
-   Selecteer de n:n kolomcomponent om het aantal kolommen van uw keus (tussen drie en 10) te bepalen. U kunt ook de breedte van elke kolom definiëren door de pijlen onder de kolom te verplaatsen.
-
-   Elke kolomgrootte mag niet kleiner zijn dan 10% van de totale breedte van de structuurcomponent. Alleen lege kolommen kunnen worden verwijderd.
-
-1. Vouw de sectie **[!UICONTROL Contents]** uit en voeg zoveel elementen toe als u nodig hebt in een of meer structuurcomponenten.
-
-1. Indien nodig kunt u aanvullende aanpassingen aanbrengen voor elke component op de tabbladen _[!UICONTROL Settings]_of_[!UICONTROL Style]_ .
-
-   U kunt bijvoorbeeld de tekststijl, opvulling of marge van elke component wijzigen.
-
-1. Vanuit de elementkiezer kunt u rechtstreeks elementen selecteren die zijn opgeslagen in de Assets-bibliotheek.
-
-   Dubbelklik op de map die uw elementen bevat. Sleep de items naar een structuurcomponent.
-
-1. Voeg verpersoonlijkingsgebieden in om uw inhoud van profielattributen, publiekslidmaatschappen, Contextuele attributen, en meer aan te passen.
-
-<!-- 1. Click **[!UICONTROL Enable condition content]** to add dynamic content and adapt the content to the targeted profiles based on conditional rules.
--->
-1. Selecteer het tabblad **[!UICONTROL Links]** in het linkerdeelvenster om alle URL&#39;s van de inhoud weer te geven die worden bijgehouden.
-
-   U kunt het _Volgend Type_ of _Etiket_ wijzigen en markeringen toevoegen indien nodig.
-
-Indien nodig kunt u uw e-mail verder aanpassen door in het geavanceerde menu op **[!UICONTROL Switch to code editor]** te klikken. In de code-editor kunt u de broncode van de e-mail bewerken, bijvoorbeeld door tags voor bijhouden of aangepaste HTML toe te voegen.
+<!-- If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
 
 >[!CAUTION]
 >
->U kunt niet terugkeren naar de visuele ontwerper voor deze e-mail na het schakelen naar de coderedacteur.
+>You cannot revert back to the visual designer for this email after switching to the code editor. -->
 
 Wanneer de inhoud gereed is, klikt u op **[!UICONTROL Simulate content]** boven om de rendering te controleren. U kunt kiezen voor de weergave Computer of Mobiel.
 
-Klik op Opslaan als u klaar bent.
+Als u tevreden bent met de inhoud, klikt u op **[!UICONTROL Save]** .
 
 ### Bestaande HTML-inhoud importeren
 
-Geïmporteerde inhoud kan:
+{{$include /help/_includes/content-design-import.md}}
 
-* Een HTML-bestand met een opgenomen stijlblad
-* Een ZIP-map met een HTML-bestand, de stijlpagina (.css) en afbeeldingsbestanden
+![ de invoer HTML- inhoud in een ZIP dossier ](./assets/email-import-zip-file.png){width="500"}
 
 >[!NOTE]
 >
->Er gelden geen beperkingen voor de .zip-bestandsstructuur. Verwijzingen moeten echter relatief zijn en passen bij de boomstructuur van de ZIP-map.
+>Als u een `<table>` -tag als eerste laag in een HTML-bestand gebruikt, kan dit leiden tot stijlverlies, zoals de achtergrond- en breedte-instellingen in de bovenste laagtag.
 
-_om een dossier in te voeren dat de inhoud van HTML bevat:_
-
-1. Selecteer **[!UICONTROL Import HTML]** op de homepage van E-mail Designer.
-
-1. Sleep het HTML- of ZIP-bestand met de inhoud van uw HTML en klik op [!UICONTROL Import] .
-
-   Wanneer de HTML inhoud uploadt volledig is, is uw inhoud op _wijze van de Verenigbaarheid_. In deze modus kunt u alleen uw tekst aanpassen, koppelingen toevoegen of elementen aan uw inhoud toevoegen.
+U kunt de geïmporteerde inhoud naar wens aanpassen met de gereedschappen in de visuele e-maileditor.
 
 ### Een sjabloon selecteren
 
-U kunt kiezen uit:
+{{$include /help/_includes/content-design-select-template.md}}
 
-* Voorbeeldsjablonen. De Journey Optimizer-interface bevat 20 e-mailsjablonen die u kunt kiezen.
+## Structuur en inhoud toevoegen {#structure-content}
 
-* Opgeslagen sjablonen.
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_email"
+>title="Structuurcomponenten toevoegen"
+>abstract="Structuurelementen definiëren de indeling van de e-mail. De belemmering en laat vallen component van de a **Structuur** in het canvas beginnen uw e-mailinhoud te ontwerpen."
 
-* Een douanemalplaatje dat u of van kras gebruikend het _menu van Malplaatjes_ of van een e-mail in een reis gebruikend de _[!UICONTROL Save as content template]_optie creeerde.
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_email"
+>title="Informatie over inhoudscomponenten"
+>abstract="Inhoudscomponenten zijn lege plaatsaanduidingen voor inhoud die u kunt gebruiken om de lay-out van een e-mail te maken."
 
-_beginnen uw inhoud met één van de steekproef of bewaarde malplaatjes te bouwen:_
+{{$include /help/_includes/content-design-components.md}}
 
-1. Heb toegang tot _E-mail Designer_ van de e-mailinhoud die werkruimte uitgeeft.
+### Fragmenten toevoegen
 
-   Op de pagina _[!UICONTROL Create your email]_is de tab **[!UICONTROL Sample templates]**standaard geselecteerd.
+In de visuele inhoudsredacteur, wordt het _pictogram van Fragmenten_ getoond op de linkerzijde. In het volgende voorbeeld worden de stappen beschreven die moeten worden uitgevoerd om fragmenten toe te voegen aan de sjablooninhoud.
 
-1. Als u een aangepaste sjabloon wilt gebruiken, selecteert u de tab **[!UICONTROL Saved templates]** .
+1. Om de fragmenten lijst te openen, klik het _pictogram van Fragmenten_.
 
-   De lijst met alle inhoudssjablonen die in de huidige sandbox zijn gemaakt, wordt weergegeven. U kunt ze sorteren op naam, Laatst gewijzigd of Laatst gemaakt.
+   U kunt:
 
-1. Selecteer de gewenste sjabloon in de lijst.
+   * Sorteer de aanbieding.
+   * Blader door de lijst, zoek de lijst of filter deze.
+   * Schakelen tussen de miniatuur- en lijstweergave.
+   * Vernieuw de lijst om een van de onlangs gemaakte fragmenten weer te geven.
 
-1. Nadat u een categorie hebt geselecteerd, kunt u met de rechter- en linkerpijltoetsen navigeren tussen alle sjablonen van die categorie (voorbeeld of opgeslagen, afhankelijk van uw selectie).
+   ![ selecteer een fragment van de lijst ](./assets/visual-designer-fragments.png){width="700" zoomable="yes"}
 
-1. Klik op **[!UICONTROL Use this template]** rechtsboven op de pagina.
+1. Sleep een van de fragmenten naar de tijdelijke aanduiding voor het structurele onderdeel.
 
-1. Bewerk de inhoud zoals nodig in _E-mail Designer_.
+   De editor geeft het fragment weer binnen de sectie/het element van de e-mailstructuur.
+
+De inhoud van het fragment wordt dynamisch bijgewerkt in de structuur om te tonen hoe de inhoud in de e-mail wordt weergegeven.
+
+>[!TIP]
+>
+>Als u het fragment wilt toevoegen zodat het de volledige horizontale lay-out binnen e-mail bezet, voeg een 1:1 kolomstructuur toe en sleep en zet dan het fragment in het.
+
+Nadat het e-mailbericht is opgeslagen, wordt het weergegeven op de pagina met fragmentdetails wanneer u het tabblad _[!UICONTROL Used By]_in het overzicht selecteert. Fragmenten die aan een e-mailsjabloon worden toegevoegd, kunnen niet worden bewerkt in de sjabloon. De inhoud wordt gedefinieerd door het bronfragment.
+
+### Elementen toevoegen
+
+{{$include /help/_includes/content-design-assets.md}}
+
+### Navigeren door de lagen, instellingen en stijlen
+
+{{$include /help/_includes/content-design-navigation.md}}
+
+### Inhoud personaliseren
+
+{{$include /help/_includes/content-design-personalization.md}}
+
+### Gekoppelde URL-tracking bewerken
+
+{{$include /help/_includes/content-design-links.md}}
+
+### Weergaveopties
+
+Gebruik de opties voor weergave- en inhoudsvalidatie die beschikbaar zijn in de visuele e-maileditor.
+
+* Zoom in of uit op de inhoud met de vooraf ingestelde zoomopties.
+
+* Schakel de weergave van de inhoud in op Desktop, Mobiel of Alleen tekst/Onbewerkte tekst.
+   * Klik het _Oog_ pictogram voor inhoudsvoorproef over apparaten.
+   * Selecteer een van de apparaten die buiten het vak vallen of voer aangepaste afmetingen in om een voorvertoning van de inhoud weer te geven.
 
 ## Waarschuwingen controleren
 
