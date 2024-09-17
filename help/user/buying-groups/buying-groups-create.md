@@ -3,9 +3,9 @@ title: Koopgroepen maken
 description: Leer hoe u inkoopgroepen maakt.
 feature: Buying Groups
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Nadat de het kopen groep wordt gecreeerd, is het beschikbaar voor gebruik in een
    ![ klik creeer het kopen groepen ](./assets/buying-groups-create.png){width="700" zoomable="yes"}
 
 1. Volg de aanwijzingen op elke pagina en klik op **[!UICONTROL Next]** om door te gaan.
+
+![ Video ](../../assets/do-not-localize/icon-video.svg){width="30"} [ bekijk hoe te video ](#how-to-video)
 
 ## Richtlijnen, pagina
 
@@ -58,3 +60,7 @@ U kunt gebruiker aan het lusje van de rente van de Oplossing navigeren en de tel
 Member of buying group.
 Assign a member of the buying group.
 Remove a member of the buying group. -->
+
+## Hoe kan ik-video
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433081/?learn=on)

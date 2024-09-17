@@ -3,9 +3,9 @@ title: Groepen kopen
 description: Leer meer over het kopen van groepen en hun componenten.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 5e500f616dcbbebcdfacfead9ae386b523a4d1a4
+source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1172'
 ht-degree: 4%
 
 ---
@@ -18,6 +18,8 @@ Voor B2B-verkoop- en marketingactiviteiten zijn rekeningen van essentieel belang
 ![ diagram van de rollen van de Rekening ](assets/account-roles-diagram.png){width="800"}
 
 Binnen de rekening, zou er een ondergroep van mensen kunnen zijn die uit de _het kopen groep_ bestaan. Dit zijn de mensen die uiteindelijk het aankoopbesluit nemen, dus ze hebben speciale aandacht van de marketeer nodig en hebben mogelijk andere informatie nodig die ze krijgen dan de andere mensen die bij de rekening horen. Kopersgroepen kunnen een verschillende groep personen voor verschillende productlijnen of aanbiedingen omvatten. Een product voor cyberbeveiliging kan bijvoorbeeld doorgaans een Chief Information Officer of Chief Security Officer en een vertegenwoordiger van de juridische afdeling vragen een aankoop goed te keuren, maar een product voor het opsporen van fouten kan doorgaans een VP van Engineering en een IT Director als leden van de inkoopgroep hebben.
+
+![ Video ](../../assets/do-not-localize/icon-video.svg){width="30"} [ bekijk het videooverzicht ](#overview-video)
 
 ## Belangrijkste componenten
 
@@ -152,3 +154,7 @@ De uiteindelijke betrokkenheidsscore wordt berekend door de weging toe te passen
 | Influencers | 28 | 33,33% | 9,33 |
 | Praktijken | 17 | 25% | 4,25 |
 | **Definitieve betrokkenheidsscore** |                |             | **35.25** |
+
+## Video over overzicht
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

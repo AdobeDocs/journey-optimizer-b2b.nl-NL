@@ -3,9 +3,9 @@ title: Oplossingsbelangen
 description: Leer over oplossingsbelangen en hoe u hen voor gebruik binnen uw het Kopen Groepen kunt bepalen.
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 92f28ab633cc1f6e5e0172dff69869fcc718e2e8
+source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,8 @@ ht-degree: 0%
 # Oplossingsbelangen
 
 Voordat je kopersgroepen maakt, moet je weten wat je verkoopt en wie je als doel wilt instellen. Uw marketing en verkoopstrategie zou moeten worden gericht zodat u de Interesse van de Oplossing voor de het Kopen Groepen kunt toevoegen.
+
+![ Video ](../../assets/do-not-localize/icon-video.svg){width="30"} [ bekijk de overzichtsvideo ](#overview-video)
 
 ## De toegang en doorbladeren van oplossingsbelangen
 
@@ -84,3 +86,7 @@ Eventuele interesse voor oplossingen die momenteel wordt gebruikt door een inkoo
    Als de interesse van de oplossing momenteel wordt gebruikt door een accountreis of het kopen van groepsbaan, opent de actie een informatiedialoog die u waarschuwt dat het niet kan worden geschrapt. Klik op [!UICONTROL OK] , die het verwijderen afbreekt.
 
 1. Klik op **[!UICONTROL Delete]** om het verwijderen te bevestigen of u kunt het proces afbreken door op _[!UICONTROL Cancel]_te klikken.
+
+## Video over overzicht
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)

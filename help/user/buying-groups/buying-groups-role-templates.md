@@ -3,9 +3,9 @@ title: Rolsjablonen voor inkoopgroep
 description: Meer informatie over het definiëren van een rolsjabloon die moet worden gebruikt als onderdeel van een inkoopgroep.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,8 @@ ht-degree: 0%
 # Rolinesjablonen voor groepen kopen
 
 Op een B2B-markt worden aankoopbeslissingen meestal door meerdere personen genomen. Deze personen nemen deel aan het besluitvormingsproces overeenkomstig hun rol binnen de organisatie. Creëer de rolmalplaatjes van de Groep van de Koophandel die deze roldefinities volgens elk product bevatten die type of rekeningsgebruik aanbieden geval.
+
+![ Video ](../../assets/do-not-localize/icon-video.svg){width="30"} [ bekijk de overzichtsvideo ](#overview-video)
 
 ## Rolsjablonen openen en doorbladeren
 
@@ -130,3 +132,7 @@ U kunt een rolmalplaatje schrappen als het in de _status van het Ontwerp_ is.
    ![ de rolprioriteit van de Verandering ](./assets/roles-template-delete.png){width="700"}
 
 1. Klik in het dialoogvenster op **[!UICONTROL Delete]** om te bevestigen.
+
+## Video over overzicht
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
