@@ -2,9 +2,9 @@
 title: Governance-functies
 description: Meer informatie over de governancefuncties die momenteel beschikbaar zijn in Journey Optimizer B2B Edition.
 exl-id: 2845272b-987c-4a37-adf4-6ee5bfd59fc0
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 8c191cd86a9aa9e7094b7d3464b3179cfdb4789e
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Met Journey Optimizer B2B Edition kunt u abonnements- en niet-geabonneerde gebru
 
 ## Nog niet beschikbaar
 
-De volgende governancefuncties zijn nog niet beschikbaar, maar zijn opgenomen in de routekaart voor producten:
+De volgende governancefuncties zijn nog niet beschikbaar:
 
 * Beleid voor gegevensgebruikslabels (DULE) / gebruiksbeleid
 * Gegevenshygiëne
