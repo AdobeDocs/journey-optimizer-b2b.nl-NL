@@ -1,11 +1,11 @@
 ---
 title: Aan de slag met Journey Optimizer B2B Edition
-description: Als nieuwe gebruiker in Journey Optimizer B2B Edition, leer over de belangrijkste gebieden om aan de slag te gaan.
+description: Meer informatie over de belangrijkste aandachtspunten om als nieuwe gebruiker aan de slag te gaan met de B2B-editie van Journey Optimizer.
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
 source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '623'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
