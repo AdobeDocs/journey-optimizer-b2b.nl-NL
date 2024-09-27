@@ -2,7 +2,7 @@
 title: Aanvullende informatie
 description: Nieuwste aanvullende informatie voor de B2B-editie van Adobe Journey Optimizer
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 1161afedadaf4ed16d895599ba2b6330b6bf7fa5
+source-git-commit: 9a7550b3e25adeab2918368c4fb5b4c640012baf
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 7%
@@ -47,7 +47,7 @@ Deze release bevat de volgende nieuwe mogelijkheden en verbeteringen:
 <tbody>
 <tr>
 <td>
-<p>Visuele fragmenten worden beheerd met behulp van een statuslevenscyclus, waarin de fragmentstatus bepaalt hoe deze in een e-mail- of e-mailsjabloon kan worden gebruikt en welke wijzigingen u in de fragmentstatus kunt aanbrengen. Zo kunt u hergebruikte inhoud eenvoudig beheren op basis van uw promotie- en communicatieschema. <a href="../content/fragments#fragment-status-and-lifecycle">Meer informatie</a>
+<p>Visuele fragmenten worden beheerd met behulp van een statuslevenscyclus, waarin de fragmentstatus bepaalt hoe deze in een e-mail- of e-mailsjabloon kan worden gebruikt en welke wijzigingen u in de fragmentstatus kunt aanbrengen. Zo kunt u hergebruikte inhoud eenvoudig beheren op basis van uw promotie- en communicatieschema. <a href="../content/fragments.md#fragment-status-and-lifecycle">Meer informatie</a>
 </td>
 </tr>
 </tbody>
