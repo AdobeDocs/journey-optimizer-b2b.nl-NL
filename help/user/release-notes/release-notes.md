@@ -2,10 +2,10 @@
 title: Aanvullende informatie
 description: Nieuwste aanvullende informatie voor de B2B-editie van Adobe Journey Optimizer
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 1618ecba01718aeadc4c97c906e259c1a588eca0
+source-git-commit: 192080e0cea6eb3deaea24ac89ec17113bc75af5
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 5%
+source-wordcount: '264'
+ht-degree: 4%
 
 ---
 
@@ -32,7 +32,22 @@ Deze release bevat de volgende nieuwe mogelijkheden en verbeteringen:
 <tbody>
 <tr>
 <td>
-<p>Genereer LinkedIn Ad-publiek via accountgroepen die aan bod komen, zodat u lege rollen in uw inkoopgroepen kunt vullen. Als u een set koopgroepsfilters definieert, kunt u een met LinkedIn overeenstemmende doelgroep bijhouden voor de doelvooruitzichten die overeenkomen met de parameters van uw inkoopgroep. Deze functie gebruikt Experience Platform Doelen om sommige aspecten van de integratie te beheren. [Meer informatie](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-audiences/linkedin-account-matched-audiences)</p>
+<p>Genereer LinkedIn Ad-publiek via accountgroepen die aan bod komen, zodat u lege rollen in uw inkoopgroepen kunt vullen. Als u een set koopgroepsfilters definieert, kunt u een met LinkedIn overeenstemmende doelgroep bijhouden voor de doelvooruitzichten die overeenkomen met de parameters van uw inkoopgroep. Deze functie gebruikt Experience Platform Doelen om sommige aspecten van de integratie te beheren. [Meer informatie](../data/linkedin-account-matched-audiences.md)</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>De levenscyclus van de status voor visuele fragmenten</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Visuele fragmenten worden beheerd met behulp van een statuslevenscyclus, waarin de fragmentstatus bepaalt hoe deze in een e-mail- of e-mailsjabloon kan worden gebruikt en welke wijzigingen u in de fragmentstatus kunt aanbrengen. Zo kunt u hergebruikte inhoud eenvoudig beheren op basis van uw promotie- en communicatieschema. [Meer informatie](../content/fragments.md#fragment-status-and-lifecycle)</p>
 </td>
 </tr>
 </tbody>
