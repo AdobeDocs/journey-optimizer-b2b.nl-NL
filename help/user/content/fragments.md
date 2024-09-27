@@ -3,9 +3,9 @@ title: Fragmenten
 description: Leer hoe u visuele inhoudsfragmenten maakt en gebruikt als herbruikbare onderdelen voor e-mails en e-mailsjablonen in Adobe Journey Optimizer B2B Edition.
 feature: Content, Email Authoring
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: 8e55e4444a363a5699574c2fa1ed256fdb690dd0
+source-git-commit: d0bf71dd1503d824391df7d7a7c59e3c2c925f03
 workflow-type: tm+mt
-source-wordcount: '1784'
+source-wordcount: '2594'
 ht-degree: 0%
 
 ---
@@ -31,11 +31,35 @@ Ga naar de linkernavigatie en klik op **[!UICONTROL Content Management]** > **[!
 
 De tabel wordt gesorteerd op de kolom _[!UICONTROL Modified]_, waarbij de meest recente bijgewerkte fragmenten standaard bovenaan staan. Klik op de kolomtitel om te schakelen tussen oplopend en aflopend.
 
-Als u naar een fragment op naam wilt zoeken, voert u in de zoekbalk een tekenreeks in voor een overeenkomst. Klik het _pictogram van de Filter_ om de getoonde punten volgens uw gespecificeerde criteria te filtreren.
+### Fragmentstatus en levenscyclus
+
+De fragmentstatus bepaalt de beschikbaarheid voor gebruik in een e-mail- of e-mailsjabloon en de wijzigingen die u daarin kunt aanbrengen.
+
+| Status | Beschrijving |
+| -------------------- | ----------- |
+| Concept | Wanneer u een fragment maakt, bevindt het zich in de conceptstatus. Deze status blijft behouden wanneer u de visuele inhoud definieert of bewerkt totdat u deze publiceert voor gebruik in een e-mailsjabloon of e-mailsjabloon. Beschikbare handelingen: <br/><ul><li>Alle details bewerken<li>Bewerken in visuele ontwerper<li>Publish<li>Dupliceren<li>Verwijderen |
+| Gepubliceerd | Wanneer u een fragment publiceert, wordt dit beschikbaar voor gebruik in een e-mail- of e-mailsjabloon. Een gepubliceerde fragmentinhoud kan niet worden gewijzigd in de visuele ontwerper. Beschikbare handelingen: <br/><ul><li>Beschrijving bewerken<li>Toevoegen aan een e-mail of sjabloon<li>Conceptversie maken<li>Dupliceren<li>Verwijderen (indien niet in gebruik) |
+| Gepubliceerd met concept | Wanneer u een concept maakt op basis van een gepubliceerd fragment, blijft de gepubliceerde versie beschikbaar voor gebruik in een e-mail- of e-mailsjabloon en kan de conceptinhoud worden gewijzigd in de visuele ontwerper. Als u de conceptversie publiceert, vervangt deze de huidige gepubliceerde versie en wordt de inhoud bijgewerkt in de e-mails en e-mailsjablonen waar deze wordt gebruikt. Beschikbare handelingen: <br/><ul><li>Beschrijving bewerken<li>Toevoegen aan een e-mail of sjabloon<li>Conceptenversie bewerken in visuele ontwerper<li>Publish-conceptversie<li>Dupliceren<li>Verwijderen (indien niet in gebruik) |
+
+![ Levenscyclus van de fragmentstatus ](./assets/status-lifecycle-diagram.png){width="800" zoomable="yes"}
+
+>[!IMPORTANT]
+>
+>Fragmentstatus is geïntroduceerd in de Journey Optimizer B2B Edition-release van augustus. Alle fragmenten die vóór deze versie worden gecreeerd hebben de _status van het Ontwerp_, zelfs als zij in een e-mail of een malplaatje worden gebruikt. Als u wijzigingen aanbrengt in deze fragmenten, moet u het fragment publiceren om de wijzigingen door te geven.
+
+### De lijst met fragmenten filteren
+
+Als u naar een fragment op naam wilt zoeken, voert u in de zoekbalk een tekenreeks in voor een overeenkomst. Klik het _pictogram van de Filter_ ( ![ tonen of verbergen filterpictogram ](../assets/do-not-localize/icon-filter.svg)) om de beschikbare filteropties te tonen en de montages te veranderen om de getoonde punten volgens uw gespecificeerde criteria te filtreren.
 
 ![ filter de getoonde fragmenten ](./assets/fragments-list-filtered.png){width="700" zoomable="yes"}
 
-Pas de kolommen aan die u in de lijst wilt tonen door _te klikken aanpassen lijst_ pictogram op het hoogste recht. Selecteer de kolommen die u wilt weergeven en klik op **[!UICONTROL Apply]** .
+### De kolomweergave aanpassen
+
+Pas de kolommen aan die u in de lijst wilt tonen door _te klikken aanpassen lijst_ pictogram ( ![ aanpassen lijstpictogram ](../assets/do-not-localize/icon-column-settings.svg)) bij het hoogste recht.
+
+Selecteer in het dialoogvenster de kolommen die u wilt weergeven en klik op **[!UICONTROL Apply]** .
+
+![ selecteer de kolommen die u ](./assets/fragments-customize-table-dialog.png){width="300"} wilt tonen
 
 ## Fragmenten maken
 
@@ -57,16 +81,19 @@ U kunt nieuwe visuele fragmenten maken in Journey Optimizer B2B Edition door op 
 
 1. Klik op **[!UICONTROL Create]**.
 
-   De visuele inhoudeditor wordt geopend met een leeg canvas.
+   De visuele ontwerper wordt geopend met een leeg canvas.
 
-<!-- To be linked to the corresponding sections on this page: Adobe Journey Optimizer B2B Edition - Email Templates
+1. Gebruik de gereedschappen voor inhoudsontwerp om de visuele fragmentinhoud te maken:
 
-Adding structure and content
-Adding assets
-Navigating the layers
-Previewing & editing URLs
-View options
-More options -->
+   * [Structuur en inhoud toevoegen](#add-structure-and-content)
+   * [Assets toevoegen](#add-assets)
+   * [Navigeren door de lagen, instellingen en stijlen](#navigate-the-layers-settings-and-styles)
+   * [Inhoud personaliseren](#personalize-content)
+   * [Gekoppelde URL-tracking bewerken](#edit-linked-url-tracking)
+
+1. Klik op **[!UICONTROL Save]** om het conceptfragment op te slaan.
+
+1. Als u het fragment beschikbaar wilt maken voor gebruik in een e-mailsjabloon of e-mailsjabloon, klikt u op **[!UICONTROL Publish]** .
 
 ### Structuur en inhoud toevoegen {#design-fragment}
 
@@ -145,18 +172,103 @@ Als het fragment momenteel in gebruik is, wordt een informatief dialoogvenster g
 
 ## Fragmenten bewerken
 
-U kunt een fragment op een van de volgende manieren bewerken:
+Bewerkingen aan een fragment zijn afhankelijk van de huidige status:
 
-* Klik op **[!UICONTROL Edit]** in de fragmentdetails aan de rechterkant.
-* Klik op de aanbiedingspagina van _[!UICONTROL Fragments]_op de ovaal naast het fragment en kies **[!UICONTROL Edit]**.
+* Wanneer een fragment in _de status van het Ontwerp_ is, kunt u om het even welk van zijn details en de visuele inhoud uitgeven.
+* Wanneer een fragment in _Gepubliceerde_ status is, kunt u de fragmentbeschrijving uitgeven, maar niet de naam. U kunt de visuele inhoud niet bewerken.
+* Wanneer een fragment in _met ontwerp_ status wordt gepubliceerd, is het uitgeven van de details beperkt tot de beschrijving. U kunt ook de visuele inhoud van de conceptversie bewerken.
 
-Deze actie opent het fragment in een visuele inhoudsredacteur, waar u het fragment kunt uitgeven gebruikend om het even welke eigenschappen voor [ creërend een fragment ](#create-fragments).
+>[!BEGINTABS]
+
+>[!TAB  Ontwerp ]
+
+1. Klik op de aanbiedingspagina van _[!UICONTROL Fragments]_op de fragmentnaam om deze te openen.
+
+   Er wordt een voorvertoning van de visuele inhoud weergegeven, met de fragmentdetails aan de rechterkant.
+
+1. Wijzig de gewenste details, zoals de naam en beschrijving.
+
+   ![ Details voor kader met de status van het Ontwerp ](./assets/fragment-draft-details.png){width="600" zoomable="yes"}
+
+1. Als u de inhoud in de visuele ontwerper wilt wijzigen, klikt u op **[!UICONTROL Edit fragment]** .
+
+   Gebruik de gereedschappen voor visuele ontwerpen naar wens:
+
+   * [Structuur en inhoud toevoegen](#add-structure-and-content)
+   * [Assets toevoegen](#add-assets)
+   * [Navigeren door de lagen, instellingen en stijlen](#navigate-the-layers-settings-and-styles)
+   * [Inhoud personaliseren](#personalize-content)
+   * [Gekoppelde URL-tracking bewerken](#edit-linked-url-tracking)
+
+   Klik op **[!UICONTROL Save]** of **[!UICONTROL Save & close]** om terug te keren naar de fragmentdetails.
+
+1. Als het fragment voldoet aan de criteria en u wilt het beschikbaar maken voor gebruik in een e-mailsjabloon of e-mailsjabloon, klikt u op **[!UICONTROL Publish]** .
+
+>[!TAB  Gepubliceerd ]
+
+1. Klik op de aanbiedingspagina van _[!UICONTROL Fragments]_op de fragmentnaam om deze te openen.
+
+   Er wordt een voorvertoning van de visuele inhoud weergegeven, met de fragmentdetails aan de rechterkant.
+
+1. Wijzig, indien nodig, de beschrijving.
+
+   Voor een gepubliceerd fragment kunnen niet alle andere details worden gewijzigd.
+
+1. Als u de inhoud wilt bijwerken, klikt u op **[!UICONTROL Create draft version]** rechtsboven.
+
+   Klik op **[!UICONTROL OK]** in het dialoogvenster om de conceptversie te openen in de visuele ontwerper. U kunt de [ beeldbron ](./assets-overview.md#choose-an-asset-source) veranderen indien nodig.
+
+   ![ creeer de dialoog van de ontwerp versie ](./assets/fragments-create-draft-version.png){width="300"}
+
+   Gebruik de gereedschappen voor visuele ontwerpen naar wens:
+
+   * [Structuur en inhoud toevoegen](#add-structure-and-content)
+   * [Assets toevoegen](#add-assets)
+   * [Navigeren door de lagen, instellingen en stijlen](#navigate-the-layers-settings-and-styles)
+   * [Inhoud personaliseren](#personalize-content)
+   * [Gekoppelde URL-tracking bewerken](#edit-linked-url-tracking)
+
+   Klik op **[!UICONTROL Save]** of **[!UICONTROL Save & close]** om terug te keren naar de fragmentdetails.
+
+1. Als het concept van het fragment voldoet aan de criteria en u wilt de wijzigingen beschikbaar maken voor gebruik in een e-mailsjabloon of e-mailsjabloon, klikt u op **[!UICONTROL Publish]** .
+
+   Wanneer u de conceptversie publiceert, vervangt deze de huidige gepubliceerde versie en wordt de inhoud bijgewerkt in de e-mails en e-mailsjablonen waar deze al in gebruik is.
+
+>[!TAB  Gepubliceerd met ontwerp ]
+
+U kunt de conceptversie op twee manieren openen om te bewerken op de pagina met _[!UICONTROL Fragments]_-aanbiedingen:
+
+* Klik het _Meer_ pictogram (**..**) naast de fragmentnaam en kies **[!UICONTROL Open draft version]**.
+
+  ![ Open ontwerp versie ](./assets/fragments-create-draft-version.png){width="300"}
+
+* Klik op de fragmentnaam om deze te openen. Klik vervolgens rechtsboven op **[!UICONTROL Open draft version]** .
+
+  Er wordt een voorbeeld van de visuele inhoud voor de conceptversie weergegeven, met de fragmentdetails aan de rechterkant.
+
+De inhoud bijwerken:
+
+1. Klik op **[!UICONTROL Edit fragment]** rechtsboven. Gebruik de gereedschappen voor visuele ontwerpen naar wens:
+
+   * [Structuur en inhoud toevoegen](#add-structure-and-content)
+   * [Assets toevoegen](#add-assets)
+   * [Navigeren door de lagen, instellingen en stijlen](#navigate-the-layers-settings-and-styles)
+   * [Inhoud personaliseren](#personalize-content)
+   * [Gekoppelde URL-tracking bewerken](#edit-linked-url-tracking)
+
+   Klik op **[!UICONTROL Save]** of **[!UICONTROL Save & close]** om terug te keren naar de fragmentdetails.
+
+1. Als het concept van het fragment voldoet aan de criteria en u wilt de wijzigingen beschikbaar maken voor gebruik in een e-mailsjabloon of e-mailsjabloon, klikt u op **[!UICONTROL Publish]** .
+
+   Wanneer u de conceptversie publiceert, vervangt deze de huidige gepubliceerde versie en wordt de inhoud bijgewerkt in de e-mails en e-mailsjablonen waar deze al in gebruik is.
+
+>[!ENDTABS]
 
 ## Fragmenten dupliceren
 
 U kunt een fragment op een van de volgende manieren dupliceren:
 
-* Van de _[!UICONTROL Fragments]_lijstpagina, klik_ Meer _(**...**) pictogram naast de fragmentnaam en kies **[!UICONTROL Duplicate]**.
+* Van de _[!UICONTROL Fragments]_lijstpagina, klik het_ Meer _pictogram (**...**) naast de fragmentnaam en kies **[!UICONTROL Duplicate]**.
 * Klik rechtsboven op de pagina met fragmentdetails op **[!UICONTROL ... More]** en kies **[!UICONTROL Duplicate]** .
 
 ![ dupliceer het fragment ](./assets/fragment-details-duplicate.png){width="600" zoomable="yes"}
@@ -167,7 +279,7 @@ Voer in het dialoogvenster een nuttige naam (uniek) en beschrijving in. Klik op 
 
 Het gedupliceerde (nieuwe) fragment verschijnt dan in de _lijst van Fragmenten_.
 
-## Een fragment opslaan vanuit e-mail- of sjablooninhoud
+## Een nieuw fragment opslaan vanuit e-mail- of sjablooninhoud
 
 Wanneer u een e-mail- of e-mailsjabloon maakt/bewerkt in de visuele inhoudeditor, kunt u de inhoud geheel of gedeeltelijk opslaan als een fragment, zodat deze opnieuw kan worden gebruikt.
 
