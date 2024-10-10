@@ -3,7 +3,7 @@ title: E-mail verkoopwaarschuwing
 description: Leer hoe u een e-mail met een automatische verkoopwaarschuwing opneemt in uw accountreizen.
 feature: Email Authoring, Content
 exl-id: 01bffbce-6c73-483a-8731-de4e5569cf61
-source-git-commit: 33bd8f68ae581d974fc52f94df6f2249d9493325
+source-git-commit: 28685802d677ed844e95499d7db6e1f754eb46c9
 workflow-type: tm+mt
 source-wordcount: '476'
 ht-degree: 0%
@@ -60,4 +60,4 @@ U kunt e-mailleveringen voor meldingen bij verkoop instellen in een accountreis 
 
    ![ creeer nieuwe e-maildialoog ](assets/sales-alert-email-journey-node.png){width="600" zoomable="yes"}
 
-   Nadat de accountreis is gepubliceerd, wordt de verkoopwaarschuwing geleverd volgens deze parameters.
+   Nadat de rekeningreis is gepubliceerd, wordt de verkoopwaarschuwing geleverd volgens deze parameters.
