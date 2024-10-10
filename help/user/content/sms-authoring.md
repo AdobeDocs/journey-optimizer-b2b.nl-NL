@@ -3,30 +3,30 @@ title: SMS Authoring
 description: Leer hoe u SMS-berichten naar uw klanten op hun mobiele apparaten kunt verzenden en hoe u berichten in tekstindeling kunt personaliseren en voorvertonen vanuit de SMS-editor.
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: eea4afcf352eeefbd5a67c4bfff6a4c2ec559319
+source-git-commit: e38ec0f128e811fd4ac21c624d9018854b91c78b
 workflow-type: tm+mt
-source-wordcount: '1797'
+source-wordcount: '1927'
 ht-degree: 0%
 
 ---
 
 # SMS-authoring
 
-Gebruik Adobe Journey Optimizer B2B Edition om SMS-berichten (text messages) naar uw klanten op hun mobiele apparaten te verzenden. U kunt berichten in tekstformaat van de redacteur van SMS tot stand brengen, personaliseren en voorproef.
+Met Adobe Journey Optimizer B2B edition kunt u SMS-berichten (text messages) naar uw klanten verzenden op hun mobiele apparaten. U kunt berichten in tekstformaat van de redacteur van SMS tot stand brengen, personaliseren en voorproef.
 
 ## SMS-configuraties
 
-Adobe Journey Optimizer B2B Edition verzendt tekstberichten via SMS-serviceproviders (of SMS-gatewayproviders). Alvorens uw bericht van SMS te creëren, vorm uw dienstverlener van de _montages van de Beheerder_.
+Adobe Journey Optimizer B2B edition verzendt tekstberichten via SMS-serviceproviders (of SMS-gatewayproviders). Alvorens uw bericht van SMS te creëren, vorm uw dienstverlener van de _montages van de Beheerder_.
 
 ### SMS-gatewayserviceproviders
 
 Adobe Journey Optimizer B2B Edition is momenteel geïntegreerd met externe providers die services voor tekstberichten onafhankelijk aanbieden. Ondersteunde providers voor tekstberichten zijn Sinch, Twilio en Infobip.
 
-Voordat u een SMS-kanaal configureert in Adobe Journey Optimizer B2B Edition, moet u een account met een van deze providers maken om uw API-token en service-id op te halen. Deze referenties zijn vereist om de verbinding tussen Adobe Journey Optimizer B2B Edition en de toepasselijke provider te configureren.
+Voordat u een SMS-kanaal configureert in Adobe Journey Optimizer B2B Edition, moet u een account met een van deze providers maken om uw API-token en service-id op te halen. Deze gegevens zijn vereist om de verbinding tussen Adobe Journey Optimizer B2B edition en de toepasselijke provider te configureren.
 
 >[!IMPORTANT]
 >
->Voor het gebruik van services voor tekstberichten gelden aanvullende voorwaarden van de betreffende provider. Als oplossingen van derden zijn Sinch, Twilio en Infobip via integratie beschikbaar voor Adobe Journey Optimizer B2B Edition-gebruikers. Adobe heeft geen betrekking op producten van derden en is niet verantwoordelijk voor deze producten. Neem contact op met uw provider voor problemen met of verzoeken om assistentie met betrekking tot de SMS-services.
+>Voor het gebruik van services voor tekstberichten gelden aanvullende voorwaarden van de betreffende provider. Als oplossingen van derden zijn Sinch, Twilio en Infobip via integratie beschikbaar voor Adobe Journey Optimizer B2B edition-gebruikers. Adobe heeft geen betrekking op producten van derden en is niet verantwoordelijk voor deze producten. Neem contact op met uw provider voor problemen met of verzoeken om assistentie met betrekking tot de SMS-services.
 
 ### Een bestaande API-configuratie voor SMS controleren
 
@@ -34,13 +34,17 @@ Voordat u een SMS-kanaal configureert in Adobe Journey Optimizer B2B Edition, mo
 >
 >De beschreven instellingen zijn alleen toegankelijk voor gebruikers met SMS-beheerdersrechten.
 
-Vouw de sectie **[!UICONTROL Administrator]** in de linkernavigatie uit en klik op **[!UICONTROL Configuration]** .
+1. Vouw de sectie **[!UICONTROL Administrator]** in de linkernavigatie uit en klik op **[!UICONTROL Channels]** .
 
-![ heb toegang tot de configuratie van AMA API geloofsbrieven ](./assets/config-sms-api.png){width="800" zoomable="yes"}
+   ![ heb toegang tot de configuratie van de geloofsbrieven van SMS API ](./assets/config-sms-api.png){width="800" zoomable="yes"}
 
-De pagina bevat de beschikbare API-configuraties voor uw instantie. U kunt de weergegeven API-referenties filteren door de SMS-serviceprovider of maker.
+1. Selecteer **[!UICONTROL API Credentials]** in het navigatievenster.
 
-![ klik het filterpictogram om de lijst van API geloofsbrieven te filtreren ](./assets/config-sms-api-filter.png){width="500"}
+   De pagina bevat de beschikbare API-configuraties voor uw instantie.
+
+1. Indien nodig, klik het _pictogram van de Filter_ ( ![ toon of verberg filterpictogram ](../assets/do-not-localize/icon-filter.svg)) en selecteer opties om de lijst van gevormde API geloofsbrieven door de dienstverlener of de schepper van SMS te tonen.
+
+   ![ klik het pictogram van de Filter om de lijst van API geloofsbrieven te verfijnen ](./assets/config-sms-api-filter.png){width="600" zoomable="yes"}
 
 ### Nieuwe API-referenties maken voor een SMS-serviceprovider
 
@@ -48,7 +52,7 @@ De pagina bevat de beschikbare API-configuraties voor uw instantie. U kunt de we
 
 >[!TAB  Sinch ]
 
-_om Sinch als uw leverancier van SMS met de Uitgave van Adobe Journey Optimizer te vormen B2B:_
+_om Sinch als uw leverancier van SMS met Adobe Journey Optimizer B2B edition te vormen:_
 
 1. Vouw de sectie **[!UICONTROL Administrator]** in de linkernavigatie uit en klik op **[!UICONTROL Configuration]** .
 
@@ -92,7 +96,7 @@ _om Twilio als uw leverancier van SMS met de Uitgave van Adobe Journey Optimizer
 
 >[!TAB  Infobip ]
 
-_om Infobip als uw leverancier van SMS met de Uitgave van Adobe Journey Optimizer te vormen B2B:_
+_om Infobip als uw leverancier van SMS met Adobe Journey Optimizer B2B edition te vormen:_
 
 1. Vouw de sectie **[!UICONTROL Administrator]** in de linkernavigatie uit en klik op **[!UICONTROL Configuration]** .
 
@@ -128,58 +132,76 @@ U kunt tekstberichtenleveringen instellen in een Account Journey wanneer u een _
 
 1. Klik onder aan het deelvenster _[!UICONTROL Take an action]_op **[!UICONTROL Create SMS]**.
 
-1. Voer in het dialoogvenster een unieke **[!UICONTROL Name]** in voor de e-mail en een **[!UICONTROL Subject line]** .
+1. Voer in het dialoogvenster een unieke **[!UICONTROL Name]** voor het SMS-bericht in.
 
-   ![ creeer nieuwe dialoog van SMS ](assets/create-new-sms.png){width="500"}
+   ![ creeer nieuwe dialoog van SMS ](assets/create-new-sms.png){width="400"}
 
-## Het SMS-bericht maken
+1. Klik op **[!UICONTROL Create]**.
+
+   De _ontwerper van de Inhoud van de Reis_ opent en u kunt het bericht tot stand brengen en de eigenschappen van SMS plaatsen voor het verzenden van het bericht.
+
+### Het SMS-bericht maken
 
 >[!IMPORTANT]
 >
 >**de toestemmingsbeheer van SMS**<br/>
-><br/>
+>
 >In overeenstemming met de normen en voorschriften van de branche moeten alle SMS-marketingberichten een manier bevatten om de abonnees gemakkelijk af te melden. Om dit te doen, kunnen de ontvangers van SMS met opt-in en opt-out sleutelwoorden antwoorden. Alle standaardtrefwoorden voor aanmelden en weigeren worden ondersteund en gerespecteerd. Daarnaast worden aangepaste trefwoorden die voor uw SMS-serviceprovider zijn geconfigureerd, ondersteund en gerespecteerd.
 
-1. Voer in het veld **[!UICONTROL Message]** de tekst in die u wilt verzenden.
+Voer in het veld **[!UICONTROL Message]** de tekst in die u wilt verzenden.
 
-   U kunt een bericht van maximaal 1600 karakters tot stand brengen, met elke 160 karakters die als één enkel SMS-bericht worden beschouwd.
+U kunt een bericht van maximaal 1600 karakters tot stand brengen, met elke 160 karakters die als één enkel SMS-bericht worden beschouwd.
 
-1. **Personaliseer het tekstbericht**.
+![ klik het Persoonlijke pictogram om tokens aan het bericht toe te voegen ](./assets/sms-message-compose.png){width="800" zoomable="yes"}
 
-   Op om het even welk ogenblik terwijl het ontwerpen van het tekstbericht, klik _personaliseren_ pictogram rechts van het tekstberichtvakje.
+#### Het tekstbericht aanpassen
 
-   ![ klik het Persoonlijke pictogram om tokens aan het bericht toe te voegen ](./assets/sms-message-personalize-icon.png){width="800" zoomable="yes"}
+1. Op om het even welk ogenblik terwijl het ontwerpen van het tekstbericht, klik _personaliseren_ pictogram ( ![ aanpassen pictogram ](../assets/do-not-localize/icon-personalize.svg)) rechts van het tekstberichtvakje.
 
-   De weergegeven pagina biedt toegang tot uw Adobe Marketo Engage Lead- en System-tokens. Zowel standaard als aangepaste tokens zijn inbegrepen. U kunt de bar van het Onderzoek gebruiken om van het teken de plaats te bepalen u wenst, of door de omslagboom navigeren om het even welke lood/systeemtekenen te vinden en te selecteren.
+   De weergegeven pagina biedt toegang tot uw Adobe Marketo Engage Lead- en System-tokens. Zowel standaard als aangepaste tokens zijn inbegrepen. U kunt de _bar van het Onderzoek_ gebruiken om van het teken de plaats te bepalen u nodig hebt, of door de omslagboom te navigeren om het even welke lood/systeemtekenen te vinden en te selecteren.
 
-   Plaats de cursor op de locatie in het bericht waar u het token wilt toevoegen. Voeg een token toe door op de plusknop ( **+** ) naast de token te klikken. Als u het token wilt toevoegen met een fallback (standaardwaarde die wordt weergegeven als dat veld niet beschikbaar is voor een lead), klikt u op de ellips ( **...** ) en kiest u **[!UICONTROL Insert with fallback text]** .
+1. Plaats de cursor op de locatie in het bericht waar u het token wilt toevoegen.
+
+1. Voeg een token toe door op de plusknop ( **+** ) naast de token te klikken.
+
+   Als u het teken met een reserve (gebrek wilt toevoegen dat in het geval verschijnt dat het gebied niet beschikbaar voor een lood) is, klik het _Meer_ pictogram ( **..**) en kies **[!UICONTROL Insert with fallback text]**.
 
    ![ klik de ellipsen om een reserve voor het teken ](./assets/sms-message-personalize-ellipsis-fallback.png){width="700" zoomable="yes"} te gebruiken
 
-   Voer in het dialoogvenster _[!UICONTROL Enter fallback value]_de tekst in die als fallback wordt weergegeven en klik op **[!UICONTROL Add]**.
+1. Voer in het dialoogvenster _[!UICONTROL Enter fallback value]_de tekst in die als fallback wordt weergegeven en klik op **[!UICONTROL Add]**.
 
    ![ ga de reservetekst voor het teken ](./assets/sms-message-personalize-fallback-text.png){width="400"} in
 
-   Wanneer uw personalisatietokens worden geplaatst, klik **[!UICONTROL Save]** om veranderingen te bewaren en aan de belangrijkste het auteurswerkruimte van SMS terug te keren. U kunt het bericht desgewenst blijven bewerken met de tokens.
+1. Wanneer uw personalisatietokens worden geplaatst, klik **[!UICONTROL Save]** om veranderingen te bewaren en aan de belangrijkste het auteurswerkruimte van SMS terug te keren.
 
-1. **voegt URLs aan het tekstbericht** toe.
+   U kunt het bericht desgewenst blijven bewerken met de tokens.
 
-   Na het bepalen van uw inhoud, kunt u URLs aan uw bericht toevoegen door het _pictogram van de Verbinding_ te klikken.
+#### Koppelingen (URL&#39;s) toevoegen aan het tekstbericht
 
-   Met deze handeling wordt een dialoogvenster geopend waarin u een van de volgende twee typen URL&#39;s kunt kiezen:
+1. Na het ingaan van uw berichttekst, klik het _pictogram van de Verbinding_ ( ![ pictogram van de Verbinding ](../assets/do-not-localize/icon-link.svg)) rechts van het tekstberichtvakje.
+
+1. Kies in het dialoogvenster het type URL&#39;s dat u wilt koppelen:
+
+   * **[!UICONTROL Landing Page]** - Kies deze optie als u een van de goedgekeurde Adobe Marketo Engage Design Studio-bestemmingspagina&#39;s van uw Marketo Engage wilt selecteren. Selecteer de werkruimte en selecteer vervolgens de bestemmingspagina.
 
    * **[!UICONTROL External URL]** - Dit type is een externe URL die u in het tekstvak invoert.
-   * **[!UICONTROL Landing Page]** - Kies deze optie als u een van de goedgekeurde Adobe Marketo Engage Design Studio-bestemmingspagina&#39;s van uw Marketo Engage wilt selecteren.
 
-   Het dialoogvenster bevat ook opties voor de URL-koppelingen:
+1. Als u een openingspagina wilt gebruiken, stelt u de volgende opties in.
 
-   * **[!UICONTROL Shorten URL]** - selecteer dit checkbox aan _verkort_ URL, die voor het volgen noodzakelijk is. Voor een landingspagina wordt het subdomein Marketo Engage gebruikt voor de verkorte URL. Er wordt een voorbeeld van de verkorte URL-indeling weergegeven. De daadwerkelijke URL wordt gecreeerd wanneer SMS wordt verzonden naar de ontvanger.
+   * **[!UICONTROL Enable tracking]** - selecteer dit checkbox om het volgen toe te laten, die _het verkorten_ URL vereist. Voor een landingspagina wordt het subdomein Marketo Engage gebruikt voor de verkorte URL. Er wordt een voorbeeld van de verkorte URL-indeling weergegeven. De daadwerkelijke URL wordt gecreeerd wanneer SMS wordt verzonden naar de ontvanger.
 
    * **[!UICONTROL Include mkt_tok]** - Schakel dit selectievakje in om de activiteit van een gebruiker bij te houden.
 
-   Wanneer de koppelingsopties zijn voltooid, klikt u op **[!UICONTROL Add]** om de wijzigingen op te slaan en de URL-koppeling toe te voegen aan het SMS-bericht.
+     >[!NOTE]
+     >
+     >Wanneer u tekstspatiëring toestaat maar _[!UICONTROL Include mkt_tok]_uitschakelt, bevat de doel-URL na omleiding niet de parameter voor de `mkt_tok` querytekenreeks. Deze parameter wordt gebruikt door Marketo Engage landingspagina&#39;s en Munchkin om ervoor te zorgen dat het volgen van persoonactiviteiten (zoals wanneer een persoon van een e-mail afmeldt). Schakel deze optie alleen uit als de parameter problemen veroorzaakt op uw website.<br/>
+     >Voor meer informatie over het gebruiken van Munchkin die codes volgen op uw website, verwijs naar de [ documentatie van het Marketo Engage ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website) {target="_blank"}.
 
-## De SMS-eigenschappen instellen
+   ![ voeg verbindingsdialoog voor SMS bericht toe ](./assets/sms-add-link-dialog.png){width="470"}
+
+1. Wanneer de koppelingsopties zijn voltooid, klikt u op **[!UICONTROL Add]** om de wijzigingen op te slaan en de URL-koppeling toe te voegen aan het SMS-bericht.
+
+### De SMS-eigenschappen instellen
 
 1. Voer in de sectie _[!UICONTROL SMS properties]_een **[!UICONTROL Name]**(vereist, maximaal 100 tekens) en **[!UICONTROL Description]**(optioneel, maximaal 300 tekens) voor uw bericht in.
 
@@ -200,12 +222,12 @@ U kunt tekstberichtenleveringen instellen in een Account Journey wanneer u een _
 
    Het nummer van de ontvanger wordt altijd toegewezen aan het veld `Lead.mobilePhone` in het Marketo Engage.
 
-## Inhoud van tekstberichten simuleren {#preview-test}
+### Inhoud van tekstberichten simuleren {#preview-test}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_sms_preview_simulate"
 >title="Controleren hoe uw inhoud wordt gerenderd"
->abstract="Wanneer uw inhoud is gedefinieerd, kunt u deze voorvertonen en controleren of de rendering correct is voor het kanaal dat u gebruikt."
+>abstract="Wanneer de inhoud is gedefinieerd, kunt u deze voorvertonen en de rendering controleren voor het kanaal dat u gebruikt."
 
 Wanneer de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken om de inhoud ervan te simuleren (voor een voorvertoning). Als u persoonlijke inhoud hebt ingevoegd, kunt u met testprofielgegevens controleren hoe deze inhoud in het bericht wordt weergegeven.
 
@@ -231,7 +253,7 @@ Wanneer de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken
 
 1. Inhoud voor een geselecteerde lead simuleren.
 
-   Selecteer een van de links vermelde leads en de SMS-voorvertoning op de pagina-updates voor de bijbehorende lead.
+   Selecteer een van de links vermelde leads. De SMS-voorvertoning op de pagina wordt bijgewerkt voor de geselecteerde lead.
 
    U kunt ook een lead selecteren in de kiezer boven de voorvertoningsruimte om de SMS-voorvertoning op de pagina voor de bijbehorende lead bij te werken.
 
@@ -243,8 +265,8 @@ Het is een wettelijke vereiste om ontvangers de mogelijkheid te bieden zich niet
 
 Wanneer u deze optie aanbiedt, kunnen SMS-ontvangers reageren met de trefwoorden opt-in en opt-out. Alle standaard opt-in en opt-out sleutelwoorden worden gesteund en gehonoreerd, en om het even welke douanesleutelwoorden die bij de dienstverlener van SMS worden gevormd. Als u geen abonnement hebt, worden de profielen automatisch verwijderd uit het publiek van toekomstige marketingberichten.
 
-Journey Optimizer B2B Edition biedt de mogelijkheid om de optie om te weigeren in SMS-berichten te beheren met behulp van de volgende logica:
+Journey Optimizer B2B edition biedt de mogelijkheid om de optie om te weigeren in SMS-berichten te beheren aan de hand van de volgende logica:
 
 * Als een lead ervoor heeft gekozen geen communicatie van u te ontvangen, wordt het bijbehorende profiel standaard uitgesloten van daaropvolgende SMS-leveringen
 
-* Deze toestemming voor leads die afkomstig is van verschillende bronnen (zoals AEP of de SMS-serviceprovider) wordt gesynchroniseerd met Journey Optimizer B2B Edition. Momenteel ondersteunt het slechts één enkele toestemmingsstaat per lood op instantieniveau (een lood &quot;Jan Smit&quot; wordt geabonneerd op of afgemeld van alle promotionele SMS in het geval). Momenteel biedt het geen ondersteuning voor dubbele opt-in op merkniveau/toestemming op het niveau van individuele abonnementenlijsten.
+* Deze leidende toestemming uit verschillende bronnen (zoals AEP of de dienstverlener van SMS) wordt gesynchroniseerd aan Journey Optimizer B2B edition. Momenteel ondersteunt het slechts één enkele toestemmingsstaat per lood op instantieniveau (een lood &quot;Jan Smit&quot; wordt geabonneerd op of afgemeld van alle promotionele SMS in het geval). Momenteel biedt het geen ondersteuning voor dubbele opt-in op merkniveau/toestemming op het niveau van individuele abonnementenlijsten.
