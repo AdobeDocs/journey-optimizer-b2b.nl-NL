@@ -2,10 +2,10 @@
 title: Aanvullende informatie
 description: Nieuwste aanvullende informatie voor de B2B-editie van Adobe Journey Optimizer
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 9a7550b3e25adeab2918368c4fb5b4c640012baf
+source-git-commit: cdb6ddac25e3457a5baff3976b7e3181ad2c50e0
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 7%
+source-wordcount: '399'
+ht-degree: 4%
 
 ---
 
@@ -16,6 +16,42 @@ Adobe Journey Optimizer B2B Edition biedt voortdurend nieuwe functies, verbeteri
 Journey Optimizer B2B Edition is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest) {target="_blank"}.
 
 Herzie de [ productbeschrijving ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html) {target="_blank"} voor informatie over rechten, prestatiegaranties, en beperkingen.
+
+## Opmerkingen bij de release september 2024 {#Sept-2024}
+
+**de datum van de Versie**: 7 Oktober, 2024
+
+Deze release bevat de volgende nieuwe mogelijkheden en verbeteringen:
+
+<table>
+<thead>
+<tr>
+<th><strong>Verbeterde bibliotheek met centrale elementen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Met de verbeterde _central assets library_ kunt u alle afbeeldingselementen in uw Marketo Engage-instantie gebruiken, in alle Design Studio-werkruimten. Er zijn ingebouwde instructies die voorkomen dat de Marketo's Engage van Journey Optimizer B2B edition worden bewerkt en dat bewerkingen worden verwijderd en verplaatst. Deze bescherming zorgt ervoor dat de bronactiva (de Studio van het Ontwerp van het Marketo Engage) worden gehandhaafd terwijl het toestaan van naadloos lees en hergebruik in Journey Optimizer B2B edition. <a href="../content/marketo-engage-design-studio.md">Meer informatie</a>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Onlangs geopende elementen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>De homepage in Journey Optimizer B2B edition app omvat nu de _[!UICONTROL Recently accessed]_ sectie, die een lijst van de onlangs betreden activa voor de teller of de beheerder verstrekt. Met deze lijst kunt u rechtstreeks naar het element gaan waarmee u onlangs hebt gewerkt, zonder door een reeks elementpagina's te navigeren en te zoeken. Het verstrekt extra informatie betreffende de wijziging zodat u het besluit kunt nemen over welke van de activa verdere wijziging van de laatste zitting nodig hebben. Voor e-mailmiddelen wordt de accountreis weergegeven waar het e-mailmiddel wordt gebruikt. <a href="../home-page.md">Meer informatie</a>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Opmerkingen bij de release augustus 2024 {#Aug-2024}
 
@@ -47,7 +83,7 @@ Deze release bevat de volgende nieuwe mogelijkheden en verbeteringen:
 <tbody>
 <tr>
 <td>
-<p>Visuele fragmenten worden beheerd met behulp van een statuslevenscyclus, waarin de fragmentstatus bepaalt hoe deze in een e-mail- of e-mailsjabloon kan worden gebruikt en welke wijzigingen u in de fragmentstatus kunt aanbrengen. Zo kunt u hergebruikte inhoud eenvoudig beheren op basis van uw promotie- en communicatieschema. <a href="../content/fragments.md#fragment-status-and-lifecycle">Meer informatie</a>
+<p>Visuele fragmenten worden nu beheerd met behulp van een levenscyclus van de status. De fragmentstatus bepaalt de beschikbaarheid voor gebruik in een e-mail- of e-mailsjabloon en de wijzigingen die u daarin kunt aanbrengen. Met deze workflow kunt u hergebruikte inhoud eenvoudig beheren volgens uw promotiemalender en communicatieschema. <a href="../content/fragments.md#fragment-status-and-lifecycle">Meer informatie</a>
 </td>
 </tr>
 </tbody>
