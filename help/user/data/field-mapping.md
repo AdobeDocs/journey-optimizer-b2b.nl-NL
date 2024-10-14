@@ -1,19 +1,23 @@
 ---
 title: XDM-velden
-description: Controleer de standaardkenmerkvelden die zijn gesynchroniseerd tussen de Adobe Experience Platform en Journey Optimizer B2B Edition.
+description: Controleer de standaardkenmerkvelden die zijn gesynchroniseerd tussen de Adobe Experience Platform en Journey Optimizer B2B edition.
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: b38878ca063967e6c1ae56617674af52c10913df
+source-git-commit: 6578fdf35ec565ba315c00eeb3d2466c925cf816
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 8%
+source-wordcount: '965'
+ht-degree: 7%
 
 ---
 
 # XDM-velden
 
-Accountpublieksgegevens worden opgeslagen als kenmerken in zowel de XDM Business Account- als de XDM Business Person-klassen. De gegevens worden periodiek gesynchroniseerd tussen Adobe Experience Platform en Journey Optimizer B2B Edition. In de volgende secties worden de standaardsets met kenmerken weergegeven.
+Accountpublieksgegevens worden opgeslagen als kenmerken in zowel de XDM Business Account- als de XDM Business Person-klassen. De gegevens worden periodiek gesynchroniseerd tussen Adobe Experience Platform en Journey Optimizer B2B edition. In de volgende secties worden de standaardsets met kenmerken weergegeven.
 
 ## Kenmerken XDM-bedrijfsnaam
+
+>[!IMPORTANT]
+>
+>Het attribuut `workEmail.Address` is vereist. Als het voor een lid van het rekeningspubliek leeg is, wordt die persoon niet gegeten en weggelaten van rekeningsreizen en het kopen groepen die het publiek van verwijzingen voorzien.
 
 | [ Bezit ](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md) | Weergavenaam | Journey Optimizer B2B-weergavenaam | Gegevenstype | Beschrijving |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
@@ -37,11 +41,15 @@ Accountpublieksgegevens worden opgeslagen als kenmerken in zowel de XDM Business
 | `workAddress.postalCode` | Postcode | Postcode | String | De postcode van de locatie. Postcodes zijn niet voor alle landen beschikbaar. In sommige landen bevat het slechts een deel van de postcode. |
 | `workAddress.state` | Staat | Staat | String | De naam van de staat voor het adres. Het is een veld met vrije vorm. |
 | `workAddress.street1` | Adres 1 | Adres | String | Primaire straatinformatie, appartementnummer, straatnummer en straatnaam. |
-| `workEmail.address` | Adres | E-mailadres | String | Het technische adres, bijvoorbeeld, `<name@domain.com>` zoals algemeen bepaald in RFC2822 en verdere normen. |
+| `workEmail.address` | Adres | E-mailadres | String | **Vereist gebied** <br/> het technische adres, bijvoorbeeld, `<name@domain.com>` zoals algemeen bepaald in RFC2822 en verdere normen. |
 | `workEmail.status` | Status | E-mail opgeschort | String | Een indicatie van de mogelijkheid om het e-mailadres te gebruiken. |
 | `workPhone.number` | Getal | Telefoonnummer | String | Telefoonnummer zakelijk. |
 
 ## Kenmerken van XDM Business Account
+
+>[!IMPORTANT]
+>
+>Het attribuut `accountName` is vereist. Als de account voor een account in een accountpubliek leeg is, wordt dat account niet opgenomen en weggelaten voor reizen naar en het kopen van groepen die naar het publiek verwijzen.
 
 | [ Bezit ](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/account/account-details.schema.md) | Weergavenaam | Journey Optimizer B2B-weergavenaam | Gegevenstype | Beschrijving |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
@@ -51,7 +59,7 @@ Accountpublieksgegevens worden opgeslagen als kenmerken in zowel de XDM Business
 | `accountBillingAddress.region` | Regio | Adresregio | String | Het gebied, het graafschap, of het districtsgedeelte van het factureringsadres. |
 | `accountBillingAddress.state` | Staat | Staat | String | De naam van de staat voor het factureringsadres. Het is een veld met vrije vorm. |
 | `accountBillingAddress.street1` | Adres 1 | Adres 1 | String | Informatie op het primaire straatniveau voor het factuuradres, die typisch het flatnummer, straatnummer en straatnaam zou omvatten. |
-| `accountName` | Naam | Naam | String | Naam van de onderneming. Dit veld mag maximaal 255 tekens bevatten. |
+| `accountName` | Naam | Naam | **Vereist gebied** <br/> Koord | Naam van de onderneming. Dit veld mag maximaal 255 tekens bevatten. |
 | `accountOrganization.annualRevenue.amount` | Jaaromzet | Jaaromzet | Getal | Geraamde jaarlijkse inkomsten van de organisatie. |
 | `accountOrganization.industry` | Marktsegment | Marktsegment | String | De bedrijfstak die aan de organisatie is toegeschreven. Het is een vrij-vormgebied, en het is raadzaam om een gestructureerde waarde voor vragen te gebruiken of het `xdm:classifier` bezit te gebruiken. |
 | `accountOrganization.logoUrl` | Logo URL | Logo URL | String | Pad dat moet worden gecombineerd met de URL van een Salesforce-instantie (bijvoorbeeld `https://yourInstance.salesforce.com/` ) om een URL te genereren voor het aanvragen van de afbeelding van het profiel van het sociale netwerk die aan de account is gekoppeld. De gegenereerde URL retourneert een HTTP-omleiding (code 302) naar de afbeelding van het sociale netwerkprofiel voor de account. |
