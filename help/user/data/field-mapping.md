@@ -2,7 +2,7 @@
 title: XDM-velden
 description: Controleer de standaardkenmerkvelden die zijn gesynchroniseerd tussen de Adobe Experience Platform en Journey Optimizer B2B edition.
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: 6578fdf35ec565ba315c00eeb3d2466c925cf816
+source-git-commit: 69312f48bdbe9f366a8e6adfb4736c20d04739f8
 workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 7%
@@ -59,7 +59,7 @@ Accountpublieksgegevens worden opgeslagen als kenmerken in zowel de XDM Business
 | `accountBillingAddress.region` | Regio | Adresregio | String | Het gebied, het graafschap, of het districtsgedeelte van het factureringsadres. |
 | `accountBillingAddress.state` | Staat | Staat | String | De naam van de staat voor het factureringsadres. Het is een veld met vrije vorm. |
 | `accountBillingAddress.street1` | Adres 1 | Adres 1 | String | Informatie op het primaire straatniveau voor het factuuradres, die typisch het flatnummer, straatnummer en straatnaam zou omvatten. |
-| `accountName` | Naam | Naam | **Vereist gebied** <br/> Koord | Naam van de onderneming. Dit veld mag maximaal 255 tekens bevatten. |
+| `accountName` | Naam | Naam | String | **Vereiste gebied** <br/> Naam van het bedrijf. Dit veld mag maximaal 255 tekens bevatten. |
 | `accountOrganization.annualRevenue.amount` | Jaaromzet | Jaaromzet | Getal | Geraamde jaarlijkse inkomsten van de organisatie. |
 | `accountOrganization.industry` | Marktsegment | Marktsegment | String | De bedrijfstak die aan de organisatie is toegeschreven. Het is een vrij-vormgebied, en het is raadzaam om een gestructureerde waarde voor vragen te gebruiken of het `xdm:classifier` bezit te gebruiken. |
 | `accountOrganization.logoUrl` | Logo URL | Logo URL | String | Pad dat moet worden gecombineerd met de URL van een Salesforce-instantie (bijvoorbeeld `https://yourInstance.salesforce.com/` ) om een URL te genereren voor het aanvragen van de afbeelding van het profiel van het sociale netwerk die aan de account is gekoppeld. De gegenereerde URL retourneert een HTTP-omleiding (code 302) naar de afbeelding van het sociale netwerkprofiel voor de account. |
