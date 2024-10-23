@@ -2,9 +2,9 @@
 title: Aanvullende informatie
 description: Nieuwste aanvullende informatie voor de B2B-editie van Adobe Journey Optimizer
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: cdb6ddac25e3457a5baff3976b7e3181ad2c50e0
+source-git-commit: 235f54e4db84554f83076070b0d549e29141ba6e
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '417'
 ht-degree: 4%
 
 ---
@@ -32,7 +32,8 @@ Deze release bevat de volgende nieuwe mogelijkheden en verbeteringen:
 <tbody>
 <tr>
 <td>
-<p>Met de verbeterde _central assets library_ kunt u alle afbeeldingselementen in uw Marketo Engage-instantie gebruiken, in alle Design Studio-werkruimten. Er zijn ingebouwde instructies die voorkomen dat de Marketo's Engage van Journey Optimizer B2B edition worden bewerkt en dat bewerkingen worden verwijderd en verplaatst. Deze bescherming zorgt ervoor dat de bronactiva (de Studio van het Ontwerp van het Marketo Engage) worden gehandhaafd terwijl het toestaan van naadloos lees en hergebruik in Journey Optimizer B2B edition. <a href="../content/marketo-engage-design-studio.md">Meer informatie</a>
+<p>De verbeterde <i> centrale activa bibliotheek </i> staat u toe om alle beeldactiva in uw instantie van het Marketo Engage, over de werkruimten van de Studio van het Ontwerp te gebruiken. Er zijn ingebouwde instructies die voorkomen dat de Marketo's Engage van Journey Optimizer B2B edition worden bewerkt en dat bewerkingen worden verwijderd en verplaatst. Deze bescherming zorgt ervoor dat de bronactiva (de Studio van het Ontwerp van het Marketo Engage) worden gehandhaafd terwijl het toestaan van naadloos lees en hergebruik in Journey Optimizer B2B edition. </p>
+<p>Voor elementen die uitsluitend voor gebruik in Journey Optimizer B2B edition bestemd zijn, biedt een specifieke werkruimte volledige functies voor middelenbeheer. <a href="../content/marketo-engage-design-studio.md">Meer informatie</a></p>
 </td>
 </tr>
 </tbody>
@@ -47,7 +48,7 @@ Deze release bevat de volgende nieuwe mogelijkheden en verbeteringen:
 <tbody>
 <tr>
 <td>
-<p>De homepage in Journey Optimizer B2B edition app omvat nu de _[!UICONTROL Recently accessed]_ sectie, die een lijst van de onlangs betreden activa voor de teller of de beheerder verstrekt. Met deze lijst kunt u rechtstreeks naar het element gaan waarmee u onlangs hebt gewerkt, zonder door een reeks elementpagina's te navigeren en te zoeken. Het verstrekt extra informatie betreffende de wijziging zodat u het besluit kunt nemen over welke van de activa verdere wijziging van de laatste zitting nodig hebben. Voor e-mailmiddelen wordt de accountreis weergegeven waar het e-mailmiddel wordt gebruikt. <a href="../home-page.md">Meer informatie</a>
+<p>De startpagina in de Journey Optimizer B2B edition-app bevat nu de sectie <i>[!UICONTROL Recently accessed]</i> , die een lijst bevat met de meest recent geopende elementen voor de markator of de beheerder. Met deze lijst kunt u rechtstreeks naar het element gaan waarmee u onlangs hebt gewerkt, zonder door een reeks elementpagina's te navigeren en te zoeken. Het verstrekt extra informatie betreffende de wijziging zodat u het besluit kunt nemen over welke van de activa verdere wijziging van de laatste zitting nodig hebben. Voor e-mailmiddelen wordt de accountreis weergegeven waar het e-mailmiddel wordt gebruikt. <a href="../home-page.md">Meer informatie</a>
 </td>
 </tr>
 </tbody>
