@@ -1,11 +1,11 @@
 ---
 title: Koopgroepen maken
-description: Leer hoe u inkoopgroepen maakt.
+description: Leer hoe u inkoopgroepen maakt met de vereiste componenten.
 feature: Buying Groups
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
+source-git-commit: a514dcdce95b6ef2a134c9882cd6b6936d473609
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
