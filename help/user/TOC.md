@@ -1,20 +1,20 @@
 ---
 user-guide-title: Documentatie voor de B2B-editie van Journey Optimizer
 user-guide-description: Meer informatie over de B2B-editie van Adobe Journey Optimizer en hoe u deze kunt gebruiken om account- en inkoopgroeptrajecten te orkestreren met behulp van ingebouwde generatieve AI en toonaangevende automatisering.
-source-git-commit: aa286aa7b0dbead59b3cec3b6c21ee3f332ad814
+source-git-commit: 93b21240182843543dc439ba2844ab8c3c3b6013
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 29%
+source-wordcount: '135'
+ht-degree: 28%
 
 ---
 
 
-# Gebruikershandleiding voor Journey Optimizer B2B Edition {#user}
+# Journey Optimizer B2B edition Handboek {#user}
 
-+ [Documentatie Adobe Journey Optimizer B2B Edition](guide-overview.md)
++ [Adobe Journey Optimizer B2B edition-documentatie](guide-overview.md)
 + [Aanvullende informatie](./release-notes/release-notes.md)
 + Aan de slag {#get-started}
-   + [Overzicht van Journey Optimizer B2B Edition](about-journey-optimizer-b2b-edition.md)
+   + [Journey Optimizer B2B edition - overzicht](about-journey-optimizer-b2b-edition.md)
    + [Aanmelden en homepage](home-page.md)
    + [Richtlijnen voor snel starten](./start/get-started.md)
    + [AI-assistent gebruiken](./start/ai-assistant.md)
@@ -43,6 +43,7 @@ ht-degree: 29%
    + [Sjablonen](./content/email-templates.md)
    + [Fragmenten](./content/fragments.md)
 + Inhoudsdashboards {#dashboards}
+   + [Intelligent dashboard](./dashboards/intelligent-dashboard.md)
    + [Groepen kopen](./dashboards/buying-groups-dashboard.md)
    + [Overzicht van betrokkenheid](./dashboards/engagement-dashboard.md)
    + [Reisoverzicht](./dashboards/journeys-dashboard.md)
