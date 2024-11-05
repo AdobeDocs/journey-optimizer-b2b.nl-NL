@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentatie voor de B2B-editie van Journey Optimizer
 user-guide-description: Meer informatie over de B2B-editie van Adobe Journey Optimizer en hoe u deze kunt gebruiken om account- en inkoopgroeptrajecten te orkestreren met behulp van ingebouwde generatieve AI en toonaangevende automatisering.
-source-git-commit: 93b21240182843543dc439ba2844ab8c3c3b6013
+source-git-commit: 2fad420eb5d0511acff5509a424b9ed100cdb151
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 28%
+source-wordcount: '154'
+ht-degree: 25%
 
 ---
 
@@ -31,17 +31,23 @@ ht-degree: 28%
    + [Overzicht](./journeys/journey-overview.md)
    + [Transparante knooppunten van account](./journeys/journey-nodes.md)
 + Reisinhoud {#journey-content}
-   + [E-mailontwerp](./content/email-authoring.md)
-   + [AI Assistant voor het schrijven van e-mail](./content/ai-assistant-emails.md)
-   + [E-mail met verkoopwaarschuwing](./content/sales-alert-email.md)
+   + E-mailkanaal {#email-channel}
+      + [E-mailontwerp](./content/email-authoring.md)
+      + [AI Assistant voor het schrijven van e-mail](./content/ai-assistant-emails.md)
+      + [Beheerde sjablonen](./content/email-authoring-governance.md)
+      + [E-mail met verkoopwaarschuwing](./content/sales-alert-email.md)
    + [SMS-authoring](./content/sms-authoring.md)
 + Inhoudsbeheer {#content-management}
    + Assets {#assets}
       + [Overzicht](./content/assets-overview.md)
       + [Werken met Marketo&#39;s Engage](./content/marketo-engage-design-studio.md)
       + [Werken met AEM Assets-afbeeldingen](./content/aem-assets.md)
-   + [Sjablonen](./content/email-templates.md)
+   + Sjablonen {#templates}
+      + [E-mailsjablonen beheren](./content/email-templates.md)
+      + [E-mailsjabloonontwerp](./content/email-template-authoring.md)
+      + [Inhoud beheren](./content/template-content-governance.md)
    + [Fragmenten](./content/fragments.md)
+   + [Voorwaardelijke inhoud](./content/conditional-content.md)
 + Inhoudsdashboards {#dashboards}
    + [Intelligent dashboard](./dashboards/intelligent-dashboard.md)
    + [Groepen kopen](./dashboards/buying-groups-dashboard.md)
@@ -49,5 +55,8 @@ ht-degree: 28%
    + [Reisoverzicht](./dashboards/journeys-dashboard.md)
 + Beheer {#admin}
    + [Gebruikersbeheer](./admin/user-management.md)
+   + Kanalen {#channels}
+      + [E-mailconfiguraties](./admin/configure-channels-emails.md)
+      + [SMS-configuraties](./admin/configure-channels-sms.md)
    + [AEM Assets-opslagruimten configureren](./admin/configure-aem-repositories.md)
    + [Bestuur](./admin/governance.md)

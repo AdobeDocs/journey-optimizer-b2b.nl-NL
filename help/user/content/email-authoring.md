@@ -3,16 +3,16 @@ title: E-mailontwerp
 description: Leer hoe u persoonlijke e-mailinhoud kunt maken die wordt gebruikt in een accountreis.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 5f53f4156c670d1c7b751844ab0bda0aef352973
+source-git-commit: 8315c760e573aa36819652798a400206e6268ccc
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1353'
 ht-degree: 0%
 
 ---
 
 # E-mailontwerp
 
-Gebruik Adobe Journey Optimizer B2B Edition om e-mailberichten naar uw klanten te verzenden. U kunt berichten maken, personaliseren en voorvertonen in de e-mailtoepassing van Designer.
+Adobe Journey Optimizer B2B edition gebruiken om e-mailberichten naar uw klanten te sturen. U kunt berichten in de visuele ontwerper maken, personaliseren en voorvertonen.
 
 ## Een e-mailactie toevoegen aan een accountreis
 
@@ -60,7 +60,7 @@ Nadat u de e-mailinhoud hebt gemaakt en aangepast, kunt u de inhoud exporteren v
 
 >[!TIP]
 >
->Gebruik AI Assistant in Adobe Journey Optimizer B2B Edition, aangedreven door generatieve AI om uw inhoud naar het volgende niveau te tillen. Met AI Assistant kunt u de impact van uw leveringen optimaliseren door volledige e-mails, gerichte tekstinhoud en aanbevelingen voor AI Assistant te genereren voor afbeeldingen die op uw publiek zijn afgestemd. [Meer informatie](./ai-assistant-emails.md)
+>Gebruik AI Assistant in Adobe Journey Optimizer B2B edition, aangedreven door generatieve AI om uw inhoud naar het volgende niveau te tillen. Met AI Assistant kunt u de impact van uw leveringen optimaliseren door volledige e-mails, gerichte tekstinhoud en aanbevelingen voor AI Assistant te genereren voor afbeeldingen die op uw publiek zijn afgestemd. [Meer informatie](./ai-assistant-emails.md)
 
 ### Ontwerp uw e-mail helemaal zelf {#design-from-scratch}
 
@@ -109,6 +109,10 @@ U kunt de geïmporteerde inhoud naar wens aanpassen met de gereedschappen in de 
 
 {{$include /help/_includes/content-design-select-template.md}}
 
+>[!NOTE]
+>
+> Op opgeslagen sjablonen kunnen governance-instellingen (inhoudvergrendeling) zijn toegepast op een of meer componenten. De visuele ontwerper verstrekt richtlijnen over gesloten componenten wanneer u [ auteur een e-mail van een geregeerd malplaatje ](./email-authoring-governance.md).
+
 ## Structuur en inhoud toevoegen {#structure-content}
 
 >[!CONTEXTUALHELP]
@@ -146,9 +150,9 @@ De inhoud van het fragment wordt dynamisch bijgewerkt in de structuur om te tone
 
 >[!TIP]
 >
->Als u het fragment wilt toevoegen zodat het de volledige horizontale lay-out binnen e-mail bezet, voeg een 1:1 kolomstructuur toe en sleep en zet dan het fragment in het.
+>Als u het fragment wilt toevoegen zodat het de volledige horizontale lay-out binnen de e-mail in beslag neemt, voegt u een 1:1-kolomstructuur toe en sleept u het fragment naar het fragment.
 
-Nadat het e-mailbericht is opgeslagen, wordt het weergegeven op de pagina met fragmentdetails wanneer u het tabblad _[!UICONTROL Used By]_in het overzicht selecteert. Fragmenten die aan een e-mailsjabloon worden toegevoegd, kunnen niet worden bewerkt in de sjabloon. De inhoud wordt gedefinieerd door het bronfragment.
+Nadat het e-mailbericht is opgeslagen, wordt het weergegeven op de pagina met fragmentdetails wanneer u het tabblad _[!UICONTROL Used By]_in het overzicht selecteert. Fragmenten die aan een e-mailsjabloon zijn toegevoegd, kunnen niet worden bewerkt in de sjabloon. Het bronfragment definieert de inhoud.
 
 ### Elementen toevoegen
 
@@ -173,8 +177,20 @@ Gebruik de opties voor weergave- en inhoudsvalidatie die beschikbaar zijn in de 
 * Zoom in of uit op de inhoud met de vooraf ingestelde zoomopties.
 
 * Schakel de weergave van de inhoud in op Desktop, Mobiel of Alleen tekst/Onbewerkte tekst.
-   * Klik het _Oog_ pictogram voor inhoudsvoorproef over apparaten.
+   * Klik het _pictogram van de Mening_ voor inhoudsvoorproef over apparaten.
    * Selecteer een van de apparaten die buiten het vak vallen of voer aangepaste afmetingen in om een voorvertoning van de inhoud weer te geven.
+
+### Meer opties
+
+Vanuit het menu _[!UICONTROL More ...]_boven aan de e-mailontwerper kunt u de volgende handelingen uitvoeren:
+
+![ klik Meer om tot malplaatjeacties ](./assets/email-designer-more-menu.png){width="500"} toegang te hebben
+
+* **[!UICONTROL Reset email]** - Klik op deze optie om het canvas van de visuele e-mailontwerper op een lege site te wissen en de opbouw van de inhoud opnieuw te starten.
+* **[!UICONTROL Save as fragment]** - Sla alle e-mailberichten of delen ervan op als een fragment dat opnieuw moet worden gebruikt in meerdere e-mailsjablonen of e-mailsjablonen. U geeft een naam en beschrijving voor het fragment op en slaat het op in de lijst met beschikbare fragmenten.
+* **[!UICONTROL Change your design]** - terugkeer aan het _Ontwerp uw e-mailpagina_. Van daar, kunt u een andere malplaatje kiezen om het ontwerpproces opnieuw te beginnen, of verkiezen om de inhoud van kras op een zwarte canvas te ontwerpen.\
+* **[!UICONTROL Save as content template]** - Sla de e-mailtekst op als een e-mailsjabloon die opnieuw moet worden gebruikt in meerdere e-mails of e-mailsjablonen. U geeft een naam en beschrijving voor de sjabloon op en slaat deze op in de lijst met opgeslagen e-mailsjablonen.
+* **[!UICONTROL Export HTML]** - Download de inhoud in het visuele canvas naar uw lokale systeem in de HTML-indeling die is verpakt als een zip-bestand.
 
 ## Waarschuwingen controleren
 

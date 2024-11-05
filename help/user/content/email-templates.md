@@ -1,22 +1,22 @@
 ---
 title: E-mailsjablonen
-description: Leer hoe u e-mailsjablonen kunt maken en bewerken die u kunt gebruiken voor het eenvoudig en efficiënt maken van e-mails over een accountreis.
+description: Leer hoe u e-mailsjablonen beheert en maakt die u kunt gebruiken om gemakkelijk en efficiënt e-mails over een accountreis te maken.
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 5f53f4156c670d1c7b751844ab0bda0aef352973
+source-git-commit: 10f8f254f49bb5dfb498758a4f39b23112c123a0
 workflow-type: tm+mt
-source-wordcount: '1763'
+source-wordcount: '1344'
 ht-degree: 0%
 
 ---
 
 # E-mailsjablonen
 
-Voor een versnelde en verbeterde ontwerpprocedure kunt u zelfstandige e-mailsjablonen maken om aangepaste inhoud te hergebruiken voor alle Adobe Journey Optimizer B2B Edition-accountreizen. Via sjablonen kunnen leden van uw inhoudgerichte team buiten de reis aan e-mailinhoud werken. Marketing strategen kunnen deze standalone sjablonen vervolgens hergebruiken en aanpassen binnen hun accountreizen. Eén teamlid is bijvoorbeeld alleen verantwoordelijk voor de inhoud, zonder toegang tot reizen naar de account. Ze kunnen echter een e-mailsjabloon maken die marketers kunnen selecteren als beginpunt voor e-mailcommunicatie en deze kunnen aanpassen aan de vereisten voor de reis.
+Voor een versnelde en verbeterde ontwerpprocedure kunt u zelfstandige e-mailsjablonen maken om aangepaste inhoud te hergebruiken voor alle Adobe Journey Optimizer B2B edition-reizen. Via sjablonen kunnen leden van uw inhoudgerichte team buiten de reis aan e-mailinhoud werken. Marketing strategen kunnen deze standalone sjablonen vervolgens hergebruiken en aanpassen binnen hun accountreizen. Eén teamlid is bijvoorbeeld alleen verantwoordelijk voor de inhoud, zonder toegang tot reizen naar de account. Ze kunnen echter een e-mailsjabloon maken die marketers kunnen selecteren als beginpunt voor e-mailcommunicatie en deze kunnen aanpassen aan de vereisten voor de reis.
 
 ## E-mailsjablonen openen en beheren
 
-Ga naar de linkernavigatie en klik op **[!UICONTROL Content Management]** > **[!UICONTROL Templates]** om e-mailsjablonen te openen in Adobe Journey Optimizer B2B Edition. Met deze handeling wordt een aanbiedingspagina geopend met alle e-mailsjablonen die zijn gemaakt in het exemplaar dat in een tabel wordt vermeld.
+Ga naar de linkernavigatie en klik op **[!UICONTROL Content Management]** > **[!UICONTROL Templates]** om e-mailsjablonen te openen in Adobe Journey Optimizer B2B edition. Met deze handeling wordt een aanbiedingspagina geopend met alle e-mailsjablonen die zijn gemaakt in het exemplaar dat in een tabel wordt vermeld.
 
 De tabel wordt gesorteerd op de kolom _[!UICONTROL Modified]_. Standaard staan de laatst bijgewerkte sjablonen boven aan de lijst. Klik op de kolomtitel om te schakelen tussen oplopend en aflopend.
 
@@ -28,9 +28,9 @@ Pas de kolommen aan die u in de lijst wilt tonen door _te klikken aanpassen lijs
 
 Vanaf de aanbiedingspagina kun je de in de volgende secties beschreven acties uitvoeren.
 
-## E-mailsjablonen maken
+## Een e-mailsjabloon maken
 
-U kunt een nieuwe e-mailsjabloon maken op basis van de pagina met e-mailsjablonen door rechtsboven op **[!UICONTROL Create template]** te klikken.
+U kunt een e-mailsjabloon maken op basis van de pagina met e-mailsjablonen door rechtsboven op **[!UICONTROL Create template]** te klikken.
 
 1. Voer in het dialoogvenster een handige **[!UICONTROL Name]** en **[!UICONTROL Description]** (optioneel) in.
 
@@ -48,21 +48,23 @@ De pagina _[!UICONTROL Design your template]_wordt geopend en bevat meerdere opt
 
 ![ kies hoe u met uw ontwerp van het e-mailmalplaatje wilt beginnen ](./assets/templates-create-design.png){width="800" zoomable="yes"}
 
+Nadat u de methode selecteert die u wilt gebruiken om uw ontwerp van het e-mailmalplaatje te beginnen, gebruik de visuele ontwerper aan [ auteur uw inhoud van het e-mailmalplaatje ](./email-template-authoring.md).
+
 ### Ontwerpen vanaf nul
 
 Gebruik de visuele inhoudeditor om de structuur van de e-mailinhoud te definiëren. Door structurele componenten toe te voegen en te bewegen met eenvoudige belemmering-en-dalingsacties, kunt u de vorm van de herbruikbare e-mailinhoud binnen seconden ontwerpen.
 
 >[!NOTE]
 >
->De beschikbare ontwerphulpmiddelen zijn gelijkwaardig aan de hulpmiddelen die voor [ worden gebruikt e-mailauthoring ](./email-authoring.md). Het verschil is dat deze inhoud vervolgens wordt opgeslagen als een sjabloon die opnieuw kan worden gebruikt voor meerdere verzendknooppunten in een accountreis.
+>De beschikbare ontwerphulpmiddelen zijn gelijkwaardig aan de hulpmiddelen die voor [ worden gebruikt e-mailauthoring ](./email-authoring.md). Het verschil is dat deze inhoud dan als malplaatje wordt bewaard dat over veelvoudige _kan worden opnieuw gebruikt verzendt e-mail_ knopen binnen rekeningsreizen.
 
 1. Selecteer de optie **[!UICONTROL Design from scratch]** op de startpagina van _[!UICONTROL Design your template]_.
 
-1. [ voegt structuur en inhoud ](#add-structure-and-content) aan het malplaatje toe.
+1. [ voegt structuur en inhoud ](./email-authoring.md#add-structure-and-content) aan het malplaatje toe.
 
 ### HTML importeren
 
-Met Adobe Journey Optimizer B2B Edition kunt u bestaande HTML-inhoud importeren om uw e-mailsjablonen te ontwerpen.
+Met Adobe Journey Optimizer B2B edition kunt u bestaande HTML-inhoud importeren om uw e-mailsjablonen te ontwerpen.
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -72,89 +74,11 @@ Met Adobe Journey Optimizer B2B Edition kunt u bestaande HTML-inhoud importeren 
 >
 >Als u een `<table>` -tag als eerste laag in een HTML-bestand gebruikt, kan dit leiden tot stijlverlies, zoals de achtergrond- en breedte-instellingen in de bovenste laagtag.
 
-U kunt de geïmporteerde inhoud naar wens aanpassen met de gereedschappen in de visuele e-maileditor.
+U kunt de geïmporteerde inhoud naar wens aanpassen met de visuele ontwerper.
 
 ### Een ontwerpsjabloon selecteren
 
 {{$include /help/_includes/content-design-select-template.md}}
-
-## Structuur en inhoud toevoegen {#structure-content}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_template"
->title="Structuurcomponenten toevoegen"
->abstract="Structuurelementen definiëren de lay-out van de sjabloon. De belemmering en laat vallen component van de a **Structuur** in het canvas beginnen de inhoud voor uw malplaatje te ontwerpen."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_template"
->title="Informatie over inhoudscomponenten"
->abstract="Inhoudscomponenten zijn lege plaatsaanduidingen voor inhoud die u kunt gebruiken om de lay-out van een sjabloon te maken."
-
-{{$include /help/_includes/content-design-components.md}}
-
-### Fragmenten toevoegen
-
-In de visuele inhoudsredacteur, wordt het _pictogram van Fragmenten_ getoond op de linkerzijde. In het volgende voorbeeld worden de stappen beschreven die moeten worden uitgevoerd om fragmenten toe te voegen aan de sjablooninhoud.
-
-1. Om de fragmenten lijst te openen, klik het _pictogram van Fragmenten_.
-
-   U kunt:
-
-   * Sorteer de aanbieding.
-   * Blader door de lijst, zoek de lijst of filter deze.
-   * Schakelen tussen de miniatuur- en lijstweergave.
-   * Vernieuw de lijst om een van de onlangs gemaakte fragmenten weer te geven.
-
-   ![ selecteer een fragment van de lijst ](./assets/visual-designer-fragments.png){width="700" zoomable="yes"}
-
-1. Sleep een van de fragmenten naar de tijdelijke aanduiding voor het structurele onderdeel.
-
-   De editor geeft het fragment weer binnen de sectie/het element van de e-mailstructuur.
-
-De inhoud van het fragment wordt dynamisch bijgewerkt in de structuur om te tonen hoe de inhoud in de e-mail wordt weergegeven.
-
->[!TIP]
->
->Als u het fragment wilt toevoegen zodat het de volledige horizontale lay-out binnen e-mail bezet, voeg een 1:1 kolomstructuur toe en sleep en zet dan het fragment in het.
-
-Nadat het e-mailbericht is opgeslagen, wordt het weergegeven op de pagina met fragmentdetails wanneer u het tabblad _[!UICONTROL Used By]_in het overzicht selecteert. Fragmenten die aan een e-mailsjabloon worden toegevoegd, kunnen niet worden bewerkt in de sjabloon. De inhoud wordt gedefinieerd door het bronfragment.
-
-### Elementen toevoegen
-
-{{$include /help/_includes/content-design-assets.md}}
-
-### Navigeren door de lagen, instellingen en stijlen
-
-{{$include /help/_includes/content-design-navigation.md}}
-
-### Inhoud personaliseren
-
-{{$include /help/_includes/content-design-personalization.md}}
-
-### Gekoppelde URL-tracking bewerken
-
-{{$include /help/_includes/content-design-links.md}}
-
-### Weergaveopties
-
-Gebruik de opties voor weergave- en inhoudsvalidatie die beschikbaar zijn in de visuele e-maileditor.
-
-* Zoom in of uit op de inhoud met de vooraf ingestelde zoomopties.
-
-* Schakel de weergave van de inhoud in op Desktop, Mobiel of Alleen tekst/Onbewerkte tekst.
-   * Klik het _Oog_ pictogram voor inhoudsvoorproef over apparaten.
-   * Selecteer een van de apparaten die buiten het vak vallen of voer aangepaste afmetingen in om een voorvertoning van de inhoud weer te geven.
-
-### Meer opties
-
-Van _Meer opties_ selecteur in de visuele inhoudsredacteur, kunt u de volgende acties nemen:
-
-![ klik Meer om tot malplaatjeacties ](./assets/visual-designer-more-menu.png){width="500"} toegang te hebben
-
-* **malplaatje van het Terugstellen** - klik deze optie om het visuele e-maildesigner canvas aan een lege lei te ontruimen en de bouwende inhoud opnieuw te beginnen.
-* **sparen als Fragment** - sparen alles of gedeelten van het als fragment dat over veelvoudige e-mail of e-mailmalplaatjes moet worden opnieuw gebruikt. U geeft een naam en een beschrijving voor de fragmenten op en geeft deze aan in de lijst met beschikbare fragmenten.
-* **verander uw ontwerp** - terugkeer aan het _Ontwerp uw malplaatje_ pagina. Vanaf hier kunt u elke gewenste actie ondernemen zoals beschreven in de sectie &#39;E-mailsjablonen maken&#39;.
-* **de HTML van de Uitvoer** - Download de inhoud in het visuele canvas aan uw lokaal systeem in HTML formaat dat als zip dossier wordt verpakt.
 
 ## E-mailsjabloondetails weergeven
 
@@ -178,7 +102,7 @@ Klik op het tabblad **[!UICONTROL Used By]** op de pagina met details over e-mai
 
 ![ klik Gebruikt door lusje om malplaatjegebruik ](./assets/template-details-used-by.png){width="400"} te controleren
 
-E-mails in Journey Optimizer B2B Edition worden ingesloten en geschreven binnen reizen, zodat de bovenliggende reis van de e-mail die de sjabloon gebruikt, in verwijzingen wordt weergegeven.
+E-mails in Journey Optimizer B2B edition worden ingesloten en geschreven binnen reizen. De bovenliggende reis van de e-mail die de sjabloon gebruikt, wordt dus weergegeven in verwijzingen.
 
 * Als u op de koppeling klikt, gaat u naar het bijbehorende e-mailadres waar de e-mailsjabloon wordt gebruikt.
 

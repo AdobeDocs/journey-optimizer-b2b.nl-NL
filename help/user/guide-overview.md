@@ -1,15 +1,15 @@
 ---
-title: Documentatie Adobe Journey Optimizer B2B Edition
+title: Adobe Journey Optimizer B2B edition-documentatie
 description: Leer hoe u de Adobe Journey Optimizer B2B edition-functies kunt gebruiken voor het ordenen van accounts en het kopen van groepsreizen met behulp van ingebouwde generatieve AI en toonaangevende automatisering.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: a1cbb0270f5174b8a16b783aaef7a890abb81a32
+source-git-commit: 30075a1804e520b9908ef6b2217a8a91e33e0a84
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '683'
 ht-degree: 2%
 
 ---
 
-# Documentatie Adobe Journey Optimizer B2B Edition
+# Adobe Journey Optimizer B2B edition-documentatie
 
 ## Wat is nieuw?
 
@@ -17,9 +17,21 @@ Hier volgt een voorbeeld van de nieuwste verbeteringen in het Journey Optimizer 
 
 >[!BEGINTABS]
 
+>[!TAB  Voorwaardelijke inhoud ]
+
+Gebruik voorwaardelijke inhoud om uw e-mailinhoud aan te passen op basis van voorwaardelijke regels. Definieer de regels met profielkenmerken of contextuele gebeurtenissen. U kunt voorwaardelijke regels maken in de builder van regels en deze opslaan voor hergebruik tijdens uw accountreizen.
+
+[!BADGE Meer informatie]{type=Informative url="/help/user/content/conditional-content.md" tooltip="Meer informatie over voorwaardelijke inhoud"}
+
+>[!TAB  Actie van Mensen - voeg toe/verwijder uit lijst ]
+
+In een rekeningsreis, gebruik _toevoegen aan lijst_ actieknooppunt om mensen aan een Marketo Engage statische lijst toe te voegen. Deze lijsten geven u volledige flexibiliteit voor het hergebruiken en richten van specifieke doelgroepen. U kunt een lijst bouwen en dan een campagne rond het tot stand brengen, of een persoon toevoegen direct aan een bestaande campagne. Bovendien, gebruik _verwijderen uit lijst_ personenactie om uw het richten in Marketo Engage te verfijnen en te veranderen dat op de vooruitgang van de rekeningsreis wordt gebaseerd.
+
+[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes#action-nodes" tooltip="Meer informatie over toevoegen aan lijst en verwijderen uit lijst"}
+
 >[!TAB  Centrale activa bibliotheek ]
 
-Gebruik alle beeldactiva in uw instantie van het Marketo Engage, over de werkruimten van de Studio van het Ontwerp. Ingebouwde garanties voorkomen dat de Marketo&#39;s Engage van Journey Optimizer B2B edition worden bewerkt. Deze bescherming zorgt ervoor dat de bronelementen van het Marketo Engage behouden blijven en maakt het mogelijk om de gegevens naadloos te lezen en opnieuw te gebruiken in Journey Optimizer B2B edition. Voor elementen die uitsluitend voor gebruik in Journey Optimizer B2B edition bestemd zijn, biedt een specifieke werkruimte volledige functies voor middelenbeheer.
+Gebruik de beeldactiva in uw instantie van het Marketo Engage, over de werkruimten van de Studio van het Ontwerp. Ingebouwde garanties voorkomen dat de Marketo&#39;s Engage van Journey Optimizer B2B edition worden bewerkt. Deze bescherming zorgt ervoor dat de bronelementen van het Marketo Engage behouden blijven en maakt het mogelijk om de gegevens naadloos te lezen en opnieuw te gebruiken in Journey Optimizer B2B edition. Voor elementen die uitsluitend voor gebruik in Journey Optimizer B2B edition bestemd zijn, biedt een specifieke werkruimte volledige functies voor middelenbeheer.
 
 [!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/marketo-engage-design-studio" tooltip="Meer informatie over centraal middelenbeheer"}
 
@@ -31,19 +43,13 @@ Genereer LinkedIn Ad-publiek via accountgroepen die aan bod komen, zodat u lege 
 
 >[!TAB  AI Medewerker ]
 
-Ga snel aan snelheid met op account-gebaseerde marketing concepten en leer over de Journey Optimizer B2B Edition-functies die ontworpen zijn om de strategieën van uw team te maximaliseren.
+Ga snel aan snelheid met op account-gebaseerde marketing concepten en leer over de Journey Optimizer B2B edition eigenschappen die worden ontworpen om de strategieën van uw team te maximaliseren.
 
 [!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/ai-assistant" tooltip="Meer informatie over AI Assistant"}
 
 Verhoog uw inhoud naar het volgende niveau met AI Assistant voor e-mailinhoud in Adobe Journey Optimizer B2B edition, aangedreven door generatieve AI. Met AI Assistant kunt u de impact van uw leveringen optimaliseren door volledige e-mails, doelgerichte tekstinhoud en zelfs afbeeldingen te genereren die specifiek op maat van uw publiek zijn gemaakt.
 
 [!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/ai-assistant-emails" tooltip="Meer informatie over AI Assistant voor e-mail"}
-
->[!TAB  Visuele fragmenten ]
-
-Maak herbruikbare componenten als blokken met aangepaste inhoud die uw leden van uw marketingteam kunnen gebruiken voor het samenstellen van e-mailinhoud voor een verbeterd ontwerpproces.
-
-[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/fragments" tooltip="Informatie over visuele fragmenten"}
 
 >[!ENDTABS]
 
@@ -104,12 +110,12 @@ Ontdek de onderdelen van een inkoopgroep en begrijp de basisbeginselen van het m
   </tr>
   <tr style="border: 0;">
     <td>
-      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="Inhoud ontwerpen"><br/>
-      <strong> de inhoud van de Reis </strong><br/> <a href="./content/email-authoring.md"> E-mail authoring </a><br/> <a href="./content/ai-assistant-emails.md"> AI Medewerker voor e-mail </a><br/> <a href="./content/sms-authoring.md"> het auteursrecht van SMS </a>
+      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="Reisinhoud"><br/>
+      <strong> de inhoud van de Reis </strong><br/> <a href="./content/email-authoring.md"> E-mail authoring </a><br/> <a href="./content/ai-assistant-emails.md"> AI Medewerker voor e-mail </a><br/> <a href="./content/sales-alert-email.md"> de waakzame e-mail van de Verkoop </a><br/> <a href="./content/sms-authoring.md"> SMS authoring </a>
     </td>
         <td>
-      <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="Inhoud-elementen"><br/>
-      <strong> het beheer van de Inhoud </strong><br/> <a href="./content/assets-overview.md"> overzicht van Assets </a><br/> <a href="./content/email-templates.md"> E-mailmalplaatjes </a><br/> <a href="./content/fragments.md"> Visuele fragmenten </a>
+      <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="Inhoudsbeheer"><br/>
+      <strong> Inhoudsbeheer </strong><br/> <a href="./content/assets-overview.md"> het overzicht van Assets </a><br/> <a href="./content/email-templates.md"> E-mailmalplaatjes </a><br/> <a href="./content/fragments.md"> Visuele fragmenten </a><br/> <a href="./content/conditional-content.md"> Voorwaardelijke inhoud </a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px" alt="Inzichten en dashboards"><br/>
@@ -126,7 +132,7 @@ Ontdek de onderdelen van een inkoopgroep en begrijp de basisbeginselen van het m
 <a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank"> Video's en leerprogramma's </a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank"> beschrijving van het Product </a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong> Adobe Experience Platform </strong><br/>
-<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html" target="_blank"> Documentatie </a> - <a href="https://www.adobe.com/nl/experience-platform/documentation-and-developer-resources.html" target="_blank"> middelen van de Ontwikkelaar </a>
+<a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/home" target="_blank"> Documentatie </a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank"> middelen van de Ontwikkelaar </a>
 </td></tr>
 <tr><td><strong> Adobe Real-time Customer Data Platform </strong><br/>
 <a href="https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home" target="_blank"> Documentatie </a> - <a href="https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank"> zelfstudies van de Ontwikkelaar </a>

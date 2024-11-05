@@ -1,9 +1,9 @@
 ---
 title: Inhoud ontwerpen - componenten
 description: Doorgevoerde sectie over het gebruik van componenten en inhoudselementen voor het ontwerpen van inhoud
-source-git-commit: 8e55e4444a363a5699574c2fa1ed256fdb690dd0
+source-git-commit: b41a32710f872e4935077a01b91b691f5dbeaeeb
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,12 @@ ht-degree: 0%
 
    ![ sleep een inhoudselement op het canvas en pas de montages ](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"} aan
    <!--
-   reference to the contents elements--->
+   reference to the contents elements when we have a completed reference for each.--->
 
 1. Indien nodig kunt u aanvullende aanpassingen aanbrengen voor elke component op de tabbladen _[!UICONTROL Settings]_of_[!UICONTROL Style]_ .
 
    U kunt bijvoorbeeld de tekststijl, opvulling of marge van elke component wijzigen.
 
-<!-- 1. Click **[!UICONTROL Enable condition content]** to add dynamic content and adapt the content to the targeted profiles based on conditional rules.
--->
+1. Als u voorwaardelijke inhoud wilt toevoegen en de inhoud wilt aanpassen aan de doelprofielen op basis van voorwaardelijke regels, selecteert u een inhoudscomponent en klikt u op het pictogram **[!UICONTROL Enable conditional content]** op de werkbalk van de component.
+
+   Voor meer informatie, zie [_Voorwaardelijke inhoud_](../user/content/conditional-content.md).
