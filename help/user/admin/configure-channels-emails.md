@@ -2,16 +2,17 @@
 title: E-mailconfiguraties
 description: Leer om tot de e-mailmontages toegang te hebben en te herzien die in Marketo Engage worden gevormd.
 feature: Setup
-source-git-commit: f097f535237fe6b27322e2c325e59daa8a54ee2f
+exl-id: fb16b5e5-f1a5-4e59-b8c6-56985f03225a
+source-git-commit: 796cb86f81aa18d8e616af527c22b3160df4f1b5
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1126'
 ht-degree: 0%
 
 ---
 
 # E-mailconfiguraties
 
-Adobe Journey Optimizer B2B edition gebruikt de kanaalfuncties en gebeurtenistracering in Market Engage. De beheerders zouden moeten ervoor zorgen dat de levering en het volgen configuraties op zijn plaats zijn om kanaallevering voor Marketers toe te laten.
+Adobe Journey Optimizer B2B edition gebruikt de kanaalfuncties en gebeurtenistracering in Market Engage. De beheerders zouden moeten ervoor zorgen dat de levering en het volgen configuraties op zijn plaats zijn om kanaallevering voor Marketers toe te laten. Voor informatie over de protocollen nodig voor e-maillevering en het volgen door Marketo Engage, zie [ Protocollen voor het volgen en e-maillevering ](../start/email-protocols.md).
 
 ## Afleveringsinstellingen
 
@@ -54,7 +55,6 @@ Deze instelling definieert het primaire domein voor een of meer werkruimten in h
 >[!NOTE]
 >
 >Als u meerdere merken uit Journey Optimizer B2B edition en het aangesloten Marketo Engage-exemplaar op de markt brengt en u wilt dat elk merk een eigen merktraceringskoppeling heeft, kunt u een extra brandingdomein toevoegen. Voor meer informatie, verwijs naar de [ documentatie van het Marketo Engage ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain) {target="_blank"}.
-
 
 ### [!UICONTROL Custom header options] {#custom-header-options}
 
@@ -146,4 +146,3 @@ De instellingen zijn alleen-lezen in Journey Optimizer B2B edition. Klik op **[!
 >Voor toegang tot en het bewerken van deze instellingen in Adobe Marketo Engage hebt u productbeheerdersmachtigingen nodig.
 
 Voor meer informatie over het vormen van de opties van de beide activiteit, verwijs naar de [ documentatie van het Marketo Engage ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type) {target="_blank"}.
-

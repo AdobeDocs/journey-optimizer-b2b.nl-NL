@@ -3,9 +3,9 @@ title: E-mail verkoopwaarschuwing
 description: Leer hoe u een e-mail met een automatische verkoopwaarschuwing opneemt in uw accountreizen.
 feature: Email Authoring, Content
 exl-id: 01bffbce-6c73-483a-8731-de4e5569cf61
-source-git-commit: 28685802d677ed844e95499d7db6e1f754eb46c9
+source-git-commit: c4df46db3c7123636311c47be36de171de24e1be
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 A _de waakzame e-mail van de verkoop_ signaleert de aflevering van het kopen groepen aan Verkoop. Het e-mailbericht bevat een overzicht van de koopgroep en informatie over de leden van de koopgroep en hun activiteiten.
 
 Als marketeer kunt u een e-mailknooppunt voor een melding van verkopen configureren in uw accountreizen om uw verkoopteam te waarschuwen voor de voltooiing van de reis voor bepaalde inkoopgroepen. Binnen de knoop, kunt u de e-mailadressen van het verkoopteam of een distributie alias specificeren die een reeks rekeningen bereikt.
+
+>[!IMPORTANT]
+>
+>Zorg ervoor dat de lijst van gewenste personen van uw organisatie wordt bijgewerkt zodat een e-mail van het waakzaam bericht van de Verkoop kan worden geleverd. Voor meer informatie, zie [ Protocollen voor het volgen en e-maillevering ](../start/email-protocols.md).
 
 ## E-mailinhoud
 
