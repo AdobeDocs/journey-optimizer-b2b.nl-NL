@@ -3,9 +3,9 @@ title: Oplossingsbelangen
 description: Leer over oplossingsbelangen en hoe u hen voor gebruik binnen uw het Kopen Groepen kunt bepalen.
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
+source-git-commit: 02b0e1a50b75dc02afe1b11217729e17583d5f12
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '637'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Voordat je kopersgroepen maakt, moet je weten wat je verkoopt en wie je als doel
 
 ## De toegang en doorbladeren van oplossingsbelangen
 
-1. Klik op de startpagina van Adobe Experience Platform op Adobe Journey Optimizer B2B Edition.
+1. Klik op Adobe Journey Optimizer B2B edition op de startpagina van Adobe Experience Platform.
 
 1. Klik in de linkernavigatie op **[!UICONTROL Buying Groups]** .
 
@@ -48,13 +48,21 @@ Alvorens u een oplossingsbelang creeert, moet u een levende (gepubliceerde) rolm
 
 1. Kies een **[!UICONTROL Roles Template]** (vereist).
 
-   Klik op de kiezer en kies een sjabloon voor live rollen in de weergegeven lijst. U kunt slechts één levende Malplaatje van Rollen met een Belang van de Oplossing associëren.
+   Klik op **[!UICONTROL Select roles template]** en kies een sjabloon voor live rollen in de lijst in het dialoogvenster. U kunt slechts één levende Malplaatje van Rollen met een Belang van de Oplossing associëren. Klik op **[!UICONTROL Save]** om terug te keren naar de pagina _[!UICONTROL Create solution interest]_waar de sjabloon voor geselecteerde rollen wordt weergegeven.
 
-   ![ de Rente tabel van de Oplossing ](assets/solution-interest-create.png){width="700" zoomable="yes"}
+   ![ voeg een rolmalplaatje aan de oplossingsrente toe ](assets/solution-interest-create.png){width="700" zoomable="yes"}
+
+1. Selecteer de **[!UICONTROL Buying group stage model]** om de progressie van het koopgedrag-groepswerkgebied te gebruiken (optioneel).
+
+   Voor meer informatie over het gebruiken van het kopen groepsstadia voor het volgen van rekeningsprogressie, zie [ het Kopen groepsstadia ](./buying-group-stages.md).
+
+1. Schakel de instelling **[!UICONTROL Update existing buying groups]** (optioneel) in.
+
+   Als deze optie is ingeschakeld, worden alle bestaande inkoopgroepen die aan de interesse van de oplossing zijn gekoppeld, bijgewerkt via de synchronisatiecyclus van 24 uur.
 
 1. Klik op **[!UICONTROL Create]** in de rechterbovenhoek.
 
-   Uw nieuwe Interesse van de Oplossing wordt getoond in de Interesten van de Oplossing
+   Het belang van de nieuwe oplossing wordt weergegeven in de lijst _[!UICONTROL Solution Interests]_.
 
 ## Een belang voor een oplossing bewerken
 
@@ -68,6 +76,10 @@ Op elk ogenblik, kunt u de naam en de beschrijving voor een oplossingsbelang ver
    ![ de rente van de Oplossing meer menu ](assets/solution-interests-more-menu.png){width="500" zoomable="no"}
 
 1. Werk indien nodig de naam (vereist en uniek) en beschrijving (optioneel) bij.
+
+1. Selecteer indien nodig de **[!UICONTROL Buying group stage model]** voor het bijhouden van de voortgang van het inkoopgroepswerkgebied.
+
+   Voor meer informatie over het gebruiken van het kopen groepsstadia voor het volgen van reisvooruitgang tegen verkoop, zie [ het Kopen groepsstadia ](./buying-group-stages.md).
 
 1. Wijzig indien nodig de instelling voor **[!UICONTROL Update existing buying groups]** .
 

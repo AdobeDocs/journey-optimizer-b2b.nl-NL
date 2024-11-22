@@ -3,9 +3,9 @@ title: Rolsjablonen voor inkoopgroep
 description: Meer informatie over het definiëren van een rolsjabloon die moet worden gebruikt als onderdeel van een inkoopgroep.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
+source-git-commit: 492c4f5c326624e1713fb12289826c530384686a
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '868'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Op een B2B-markt worden aankoopbeslissingen meestal door meerdere personen genom
 
 ## Rolsjablonen openen en doorbladeren
 
-1. Klik op de startpagina van Adobe Experience Platform op Adobe Journey Optimizer B2B Edition.
+1. Klik op Adobe Journey Optimizer B2B edition op de startpagina van Adobe Experience Platform.
 
 1. Klik in de linkernavigatie op **[!UICONTROL Buying groups]** .
 
@@ -55,7 +55,13 @@ Op een B2B-markt worden aankoopbeslissingen meestal door meerdere personen genom
 
    ![ creeer de dialoog van het Malplaatje van Rollen ](assets/roles-template-create-dialog.png){width="400"}
 
-1. Voeg een regel toe voor elke rol die u voor het malplaatje wilt bepalen.
+1. Klik op **[!UICONTROL Create]**.
+
+### Sjabloonrollen toevoegen
+
+Nadat u het malplaatje creeert, opent het in de werkruimte en u wordt ertoe aangezet om de rollen te bepalen. De eerste rolkaart wordt standaard weergegeven.
+
+1. Voor de eerste rolkaart, bepaal de roleigenschappen.
 
    * Kies de **[!UICONTROL Buying group role]** in de lijst.
 
@@ -73,31 +79,37 @@ Op een B2B-markt worden aankoopbeslissingen meestal door meerdere personen genom
 
    * **[!UICONTROL Required for completeness score]** - Selecteer dit selectievakje voor de rol als u wilt dat dit een vereiste is voor het berekenen van een volledigheidsscore.
 
-   * Klik op **[!UICONTROL Add Condition]**.
+1. Klik op **[!UICONTROL Add Condition]** en definieer de voorwaardelijke regel voor de rol.
 
-      * Vouw in het dialoogvenster Voorwaarde de lijst met **[!UICONTROL Person attributes]** uit en zoek een kenmerk dat u wilt gebruiken om de rol aan te passen. Sleep het naar rechts en zet het neer in de filterruimte.
+   * Vouw in het dialoogvenster _[!UICONTROL Condition]_de lijst met **[!UICONTROL Person attributes]**uit en zoek een kenmerk dat u wilt gebruiken om de rol aan te passen. Sleep het naar rechts en zet het neer in de filterruimte.
 
-        ![ het malplaatje van Rollen voegt voorwaarde belemmeringsattributen toe ](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
+     ![ het malplaatje van Rollen voegt voorwaarde belemmeringsattributen toe ](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
 
-      * Gebruik het kenmerk om een overeenkomend filter te maken met een of meer waarden.
+     >[!NOTE]
+     >
+     >Als u aangepaste persoonvelden hebt gedefinieerd in het accountpublieksschema in het Experience Platform, zijn deze velden ook beschikbaar voor gebruik als persoonkenmerken onder bepaalde omstandigheden.
 
-        In het volgende voorbeeld, wordt het attribuut van de Titel van de Baan gebruikt om een gelijke voor de Maker van het Besluit te identificeren. Elke waarde voor een titel die begint met `Director` of `Sr Director` wordt als true beschouwd voor de voorwaarde.
+   * Gebruik het kenmerk om een overeenkomend filter te maken met een of meer waarden.
 
-        ![ het voorbeeld van de het malplaatjevoorwaarde van Rollen gebruikend baantitel ](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}
+     In het volgende voorbeeld, wordt het attribuut van de Titel van de Baan gebruikt om een gelijke voor de Maker van het Besluit te identificeren. Elke waarde voor een titel die begint met `Director` of `Sr Director` wordt als true beschouwd voor de voorwaarde.
 
-      * Voeg zo nodig een ander kenmerk en een andere voorwaarde toe die de criteria voor een overeenkomst met de rol verder verfijnen.
+     ![ het voorbeeld van de het malplaatjevoorwaarde van Rollen gebruikend baantitel ](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}
 
-      * Klik op **[!UICONTROL Done]**.
+   * Voeg zo nodig een ander kenmerk en een andere voorwaarde toe die de criteria voor een overeenkomst met de rol verder verfijnen.
 
-   Voor elke aanvullende rol die u voor de sjabloon wilt opnemen, klikt u op **[!UICONTROL Add another role]** en definieert u een of meer voorwaarden die met de rol moeten overeenkomen.
+   * Klik op **[!UICONTROL Done]**.
+
+1. Voor elke aanvullende rol die u voor de sjabloon wilt opnemen, klikt u op **[!UICONTROL Add another role]** en herhaalt u stap 1 en 2 om de rol te definiëren.
 
    ![ het malplaatje van Rollen met veelvoudige bepaalde rollen ](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
-1. Als de sjabloon gereed is voor gebruik, klikt u op **[!UICONTROL Publish]** rechtsboven.
+Uw veranderingen worden auto-bewaard in de _status van het Ontwerp_. Als u niet bereid bent om het rolmalplaatje te publiceren, klik de linker (rug) pijl bij de bovenkant van de pagina en terugkeer aan de _[!UICONTROL Roles templates]_lijst.
 
-   Het publiceren van het malplaatje plaatst het aan a _Levende_ status en maakt het beschikbaar om met een Rente van de Oplossing te associëren. Er moet minstens één bepaalde rol zijn om het rolmalplaatje te publiceren.
+### Publish de rolmalplaatje
 
-   Uw veranderingen worden auto-bewaard in de _status van het Ontwerp_. Als u niet bereid bent om het rolmalplaatje te publiceren, klik de linker (rug) pijl bij de bovenkant van de pagina en terugkeer aan de lijst van de Malplaatjes van Roles.
+Als de sjabloon gereed is voor gebruik, klikt u op **[!UICONTROL Publish]** rechtsboven.
+
+Het publiceren van het malplaatje plaatst de status aan _Levende_ status en maakt het beschikbaar voor vereniging met een oplossingsrente. Er moet minstens één bepaalde rol zijn om het rolmalplaatje te publiceren.
 
 ## Een sjabloon voor conceptrollen bewerken
 
@@ -107,13 +119,13 @@ Wijzig een van de instellingen in de koptekst van de rolkaart, inclusief de rol 
 
 ![ Verandering die de eigenschappen van de groepsrol koopt ](./assets/roles-template-role-properties.png){width="600"}
 
-### Filters voor een rol wijzigen
+### De voorwaarden voor een rol wijzigen
 
-Om de het filtreren logica voor om het even welke rollen te veranderen, klik _uitgeven_ (potlood) pictogram bij hoogste recht van de rolkaart. Met deze actie opent u de werkruimte van _[!UICONTROL Conditions]_waar u een bestaand filter kunt wijzigen, een ander filter kunt toevoegen, een filter kunt verwijderen of de filterlogica kunt wijzigen.
+Om de voorwaarde/het filtreren logica voor om het even welk van de rollen te veranderen, klik _uitgeven_ ( ![ geef pictogram ](../assets/do-not-localize/icon-edit.svg)) op hoogste recht van de rolkaart uit. Met deze actie opent u de werkruimte van _[!UICONTROL Conditions]_waar u een bestaand filter kunt wijzigen, een filter kunt toevoegen of verwijderen of de filterlogica kunt wijzigen.
 
 ### Een rolkaart verwijderen
 
-Als u een rol uit het malplaatje wilt verwijderen, klik _Schrapping_ (trashcan) pictogram in de rolkaart.
+Als u een rol uit het malplaatje wilt verwijderen, klik _Schrapping_ ( ![ pictogram van de Schrapping ](../assets/do-not-localize/icon-delete.svg)) pictogram in de rolkaart.
 
 ### De prioriteit voor rollen instellen
 

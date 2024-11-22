@@ -3,9 +3,9 @@ title: Rekeningjournalen
 description: Meer informatie over de knooppunttypen die u kunt gebruiken voor het maken van uw accountreizen in Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
-source-git-commit: 30075a1804e520b9908ef6b2217a8a91e33e0a84
+source-git-commit: af72f5183cb1de56804340cbc9148de82faeca35
 workflow-type: tm+mt
-source-wordcount: '2056'
+source-wordcount: '2337'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,7 @@ Voer een handeling uit zoals een e-mail verzenden, een score wijzigen, toewijzen
 | | Account toevoegen aan (andere) reis | Reis live account selecteren |
 | | Account verwijderen van reis | Reis live account selecteren |
 | | Waarschuwing over verkoop verzenden | Selecteer oplossingsrente <br/> verzendt e-mail naar |
+| | Het werkgebied van de kopersgroep bijwerken | Selecteer oplossingsrente <br/> Uitgezochte het kopen groepsstadium |
 | | Status van kopersgroep bijwerken | Selecteer oplossingsrente <br/> Status (vereist, maximaal 50 karakters) |
 
 ### Een accounthandeling toevoegen
@@ -62,7 +63,7 @@ Voer een handeling uit zoals een e-mail verzenden, een score wijzigen, toewijzen
 
 1. Klik op de plusknop ( **+** ) op een pad en kies **[!UICONTROL Take an action]** .
 
-   ![ voeg reisknoop toe - gespleten wegen ](./assets/add-node-action.png){width="400"}
+   ![ voeg reisknoop toe - neem een actie ](./assets/add-node-action.png){width="400"}
 
 1. In de knoopeigenschappen op het recht, kies **[!UICONTROL Accounts]** voor de actie.
 
@@ -97,19 +98,20 @@ Verplaats uw publiek naar de volgende stap in de reis wanneer een gebeurtenis pl
 
 | Knooppuntcontext | Gebeurtenis | Restricties |
 | ------------ | ----- | ----------- |
-| [ Mensen ](#add-a-people-event) | Toegewezen aan kopersgroep | De rente van de oplossing <br/> Aanvullende beperkingen (facultatief): <ul><li>Functie</li><li>Datum van activiteit</li></ul><br/> Onderbreking (facultatief) |
-| | Klik op de koppeling in e-mail | E-mail <br/> Extra beperkingen (facultatief): <ul><li>Koppeling</li><li>Koppelings-id</li><li>Is een mobiel apparaat</li><li>Apparaat</li><li>Platform</li><li>Browser</li><li>Is voorspelbare inhoud</li><li>Is beide activiteit</li><li>Bot-activiteitspatroon</li><li>Browser</li><li>Datum van activiteit</li><li>Min. aantal keren</li></ul><br/> Onderbreking (facultatief) |
-| | Klik op de koppeling in SMS | E-mail <br/> Extra beperkingen (facultatief):<ul><li>Koppeling</li><li>Apparaat</li><li>Platform</li><li>Datum van activiteit</li><li>Min. aantal keren</li></ul><br/> Onderbreking (facultatief) |
-| | Wijzigingen in gegevenswaarde | De attributen van de persoon <br/> Aanvullende beperkingen (facultatief):<ul><li>Nieuwe waarde</li><li>Vorige waarde</li><li>Reden</li><li>Bron</li><li>Datum van activiteit</li><li>Min. aantal keren</li></ul><br/> Onderbreking (facultatief) |
-| | E-mail wordt geopend | E-mail <br/> Extra beperkingen (facultatief): <ul><li>Koppeling</li><li>Koppelings-id</li><li>Is een mobiel apparaat</li><li>Apparaat</li><li>Platform</li><li>Browser</li><li>Is voorspelbare inhoud</li><li>Is beide activiteit</li><li>Bot-activiteitspatroon</li><li>Browser</li><li>Datum van activiteit</li><li>Min. aantal keren</li></ul><br/> Onderbreking (facultatief) |
+| [ Mensen ](#add-a-people-event) | Toegewezen aan kopersgroep | De rente van de oplossing <br/> Aanvullende beperkingen (facultatief): <li>Functie</li><li>Datum van activiteit</li><br/> Onderbreking (facultatief) |
+| | Klik op de koppeling in e-mail | E-mail <br/> Extra beperkingen (facultatief): <li>Koppeling</li><li>Koppelings-id</li><li>Is een mobiel apparaat</li><li>Apparaat</li><li>Platform</li><li>Browser</li><li>Is voorspelbare inhoud</li><li>Is beide activiteit</li><li>Bot-activiteitspatroon</li><li>Browser</li><li>Datum van activiteit</li><li>Min. aantal keren</li><br/> Onderbreking (facultatief) |
+| | Klik op de koppeling in SMS | E-mail <br/> Extra beperkingen (facultatief): <li>Koppeling</li><li>Apparaat</li><li>Platform</li><li>Datum van activiteit</li><li>Min. aantal keren</li><br/> Onderbreking (facultatief) |
+| | Wijzigingen in gegevenswaarde | De attributen van de persoon <br/> Aanvullende beperkingen (facultatief): <li>Nieuwe waarde</li><li>Vorige waarde</li><li>Reden</li><li>Bron</li><li>Datum van activiteit</li><li>Min. aantal keren</li><br/> Onderbreking (facultatief) |
+| | E-mail wordt geopend | E-mail <br/> Extra beperkingen (facultatief): <li>Koppeling</li><li>Koppelings-id</li><li>Is een mobiel apparaat</li><li>Apparaat</li><li>Platform</li><li>Browser</li><li>Is voorspelbare inhoud</li><li>Is beide activiteit</li><li>Bot-activiteitspatroon</li><li>Browser</li><li>Datum van activiteit</li><li>Min. aantal keren</li><br/> Onderbreking (facultatief) |
 | | Verwijderd uit kopersgroep | De rente van de oplossing <br/> Datum van activiteit (facultatief) <br/> (facultatieve) Onderbreking |
-| | Score is gewijzigd | De naam van de score <br/> Aanvullende beperkingen (facultatief):<ul><li>Wijzigen</li><li>Nieuwe score</li><li>Urgentie</li><li>Prioriteit</li><li>Relatieve score</li><li>Relatieve urgentie</li><li>Datum van activiteit</li><li>Min. aantal keren</li></ul><br/> Onderbreking (facultatief) |
-| | SMS Bounces | Het bericht van SMS <br/> Aanvullende beperkingen (facultatief):<ul><li>Datum van activiteit</li><li>Min. aantal keren</li></ul><br/> Onderbreking (facultatief) |
-| [ Rekeningen ](#add-an-account-event) | Account had interessant moment | Het type (E-mail, Mijlsteen, of Web) <br/> Extra beperkingen (facultatief):<ul><li>Beschrijving</li><li>Bron</li><li>Datum van activiteit</li></ul> <br/> Onderbreking (facultatief) |
-| | Waarde van accountgegevens wijzigen | Kenmerk <br/> Extra beperkingen (facultatief):<ul><li>Nieuwe waarde</li><li>Vorige waarde</li><li>Datum van activiteit</li></ul> <br/> Onderbreking (facultatief) |
-| | Status van kopersgroep wijzigen | De rente van de oplossing <br/> Aanvullende beperkingen (facultatief):<ul><li>Nieuwe status</li><li>Vorige status</li><li>Datum van activiteit</li></ul><br/> Time-out (optioneel) |
-| | Wijziging in de score Volledigheid | De rente van de oplossing <br/> Aanvullende beperkingen (facultatief):<ul><li>Nieuwe score</li><li>Vorige score</li><li>Datum van activiteit</li></ul><br/> Time-out (optioneel) |
-| | Wijziging van de betrokkenheidsscore | De rente van de oplossing <br/> Aanvullende beperkingen (facultatief):<ul><li>Nieuwe score</li><li>Vorige score</li><li>Datum van activiteit</li></ul><br/> Time-out (optioneel) |
+| | Score is gewijzigd | De naam van de score <br/> Aanvullende beperkingen (facultatief):<li>Wijzigen</li><li>Nieuwe score</li><li>Urgentie</li><li>Prioriteit</li><li>Relatieve score</li><li>Relatieve urgentie</li><li>Datum van activiteit</li><li>Min. aantal keren</li><br/> Onderbreking (facultatief) |
+| | SMS Bounces | Het bericht van SMS <br/> Aanvullende beperkingen (facultatief): <li>Datum van activiteit</li><li>Min. aantal keren</li><br/> Onderbreking (facultatief) |
+| [ Rekeningen ](#add-an-account-event) | Account had interessant moment | Het type (E-mail, Mijlsteen, of Web) <br/> Extra beperkingen (facultatief): <li>Beschrijving</li><li>Bron</li><li>Datum van activiteit</li> <br/> Onderbreking (facultatief) |
+| | Waarde van accountgegevens wijzigen | Kenmerk <br/> Extra beperkingen (facultatief): <li>Nieuwe waarde</li><li>Vorige waarde</li><li>Datum van activiteit</li> <br/> Onderbreking (facultatief) |
+| | Wijziging in het werkgebied voor kopersgroepen | De rente van de oplossing <br/> Aanvullende beperkingen (facultatief): <li>Nieuwe fase</li><li>Vorige fase</li><li>Datum van activiteit</li><br/> Time-out (optioneel) |
+| | Status van kopersgroep wijzigen | De rente van de oplossing <br/> Aanvullende beperkingen (facultatief): <li>Nieuwe status</li><li>Vorige status</li><li>Datum van activiteit</li><br/> Time-out (optioneel) |
+| | Wijziging in de score Volledigheid | De rente van de oplossing <br/> Aanvullende beperkingen (facultatief): <li>Nieuwe score</li><li>Vorige score</li><li>Datum van activiteit</li><br/> Time-out (optioneel) |
+| | Wijziging van de betrokkenheidsscore | De rente van de oplossing <br/> Aanvullende beperkingen (facultatief): <li>Nieuwe score</li><li>Vorige score</li><li>Datum van activiteit</li><br/> Time-out (optioneel) |
 
 ### Een accountgebeurtenis toevoegen
 
@@ -176,9 +178,10 @@ _hoe werkt een gespleten weg door rekeningsknoop?_
 
 _hoe werkt een gespleten weg door mensen knoop?_
 
-* Pad splitsen op basis van knooppunten is gegroepeerde knooppunten. Ze worden automatisch samengevoegd, zodat alle mensen in het publiek verder kunnen gaan naar de volgende stap zonder de context te verliezen van de accounts waartoe ze behoren.
+* Pad splitsen op basis van knooppunten is gegroepeerde knooppunten. De paden worden automatisch samengevoegd, zodat alle mensen in het publiek verder kunnen gaan naar de volgende stap zonder hun accountcontext te verliezen.
 * Pad splitsen voor personen kan niet worden genest. U kunt geen gesplitst pad toevoegen voor personen op een pad dat zich in dit gegroepeerde knooppunt bevindt.
-* Pad splitsen bevat een optie waarmee u geen standaardpad kunt toevoegen. Rekeningen/personen die niet in aanmerking komen, gaan niet verder op de reis.
+* Een pad splitsen bevat een optie waarmee u een standaardpad kunt weglaten. Accounts/people without a match for a defined path are not move forward in the Journey.
+* De gespleten weg door mensen steunt het gebruik van _rekening-persoon verhoudingen_, die u toestaat om mensen te filtreren die op hun rol (zoals contractant of voltijdwerknemer) worden gebaseerd zoals die in de rolmalplaatjes wordt bepaald.
 
 ![ knoop van de Reis - gespleten wegen door mensen ](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
@@ -186,13 +189,14 @@ _hoe werkt een gespleten weg door mensen knoop?_
 
 | Knooppuntcontext | Padvoorwaarden | Beschrijving |
 | ------------ | --------------- | ----------- |
-| [ Mensen ](#add-a-split-path-by-people-node) | [!UICONTROL Person Attributes] | Attributen van het profiel van de persoon, met inbegrip van: <ul><li>Stad</li><li>Land</li><li>Geboortedatum</li><li>E-mailadres</li><li>E-mail is ongeldig</li><li>E-mail is geschorst</li><li>Voornaam</li><li>Overgenomen deelstaatgebied</li><li>Functie</li><li>Achternaam</li><li>Mobiel telefoonnummer</li><li>Telefoonnummer</li><li>Postcode</li><li>Staat</li><li>Niet geabonneerd</li><li>Reden waarop geen abonnement is genomen</li></ul> |
-| | [!UICONTROL Activity history] > [!UICONTROL Email] | E-mailactiviteiten in verband met de reis: <ul><li>[!UICONTROL Clicked link in email]</li><li>Geopende e-mail</li><li>Is per e-mail verzonden</li><li>Is per e-mail verzonden</li></ul> Deze voorwaarden worden geëvalueerd aan de hand van een geselecteerd e-mailbericht uit een eerdere reis. |
-| | [!UICONTROL Activity history] > [!UICONTROL Data Value Changed] | Voor een geselecteerd persoonkenmerk is een waardewijziging opgetreden. Deze wijzigingstypen zijn onder meer: <ul><li>Nieuwe waarde</li><li>Vorige waarde</li><li>Reden</li><li>Bron</li><li>Datum van activiteit</li><li>Min. aantal keren</li></ul> |
-| | [!UICONTROL Activity history] > [!UICONTROL Had Interesting Moment] | Interesserende tijdactiviteit die in de bijbehorende instantie van het Marketo Engage wordt bepaald. Beperkingen zijn: ul><li>Mijlsteen</li><li>E-mail</li><li>Web</li></ul> |
-| | [!UICONTROL Special filters] > [!UICONTROL Member of Buying Group] | De persoon is al dan niet lid van de koopgroep, beoordeeld aan de hand van een of meer van de volgende criteria: <ul><li>Belang van oplossing</li><li>Status van kopersgroep</li><li>Complete score</li><li>Engagement Score</li><li>Functie</li></ul> |
-| [ Rekeningen ](#add-a-split-path-by-account-node) | Accountkenmerken | Attributen van het accountprofiel, waaronder: <ul><li>Jaarlijkse ontvangsten</li><li>Stad</li><li>Land</li><li>Werknemersgrootte</li><li>Marktsegment</li><li>Naam</li><li>SIC-code</li><li>Staat</li></ul> |
-| | [!UICONTROL Special filters] > [!UICONTROL Has Buying Group] | Op de rekening worden leden van inkoopgroepen al dan niet beoordeeld aan de hand van een of meer van de volgende criteria: <ul><li>Belang van oplossing</li><li>Status van kopersgroep</li><li>Complete score</li><li>Engagement Score</li></ul> |
+| [ Rekeningen ](#add-a-split-path-by-account-node) | Accountkenmerken | Attributen van het accountprofiel, waaronder: <li>Jaarlijkse ontvangsten</li><li>Stad</li><li>Land</li><li>Werknemersgrootte</li><li>Marktsegment</li><li>Naam</li><li>SIC-code</li><li>Staat</li> |
+| | [!UICONTROL Special filters] > [!UICONTROL Has Buying Group] | Op de rekening worden leden van inkoopgroepen al dan niet beoordeeld aan de hand van een of meer van de volgende criteria: <li>Belang van oplossing</li><li>Status van kopersgroep</li><li>Complete score</li><li>Engagement Score</li> |
+| [ Mensen ](#add-a-split-path-by-people-node) > [!UICONTROL People attributes only] | [!UICONTROL Person Attributes] | Attributen van het profiel van de persoon, met inbegrip van: <li>Stad</li><li>Land</li><li>Geboortedatum</li><li>E-mailadres</li><li>E-mail is ongeldig</li><li>E-mail is geschorst</li><li>Voornaam</li><li>Overgenomen deelstaatgebied</li><li>Functie</li><li>Achternaam</li><li>Mobiel telefoonnummer</li><li>Telefoonnummer</li><li>Postcode</li><li>Staat</li><li>Niet geabonneerd</li><li>Reden waarop geen abonnement is genomen</li> |
+| | [!UICONTROL Activity history] > [!UICONTROL Email] | E-mailactiviteiten in verband met de reis: <li>[!UICONTROL Clicked link in email]</li><li>Geopende e-mail</li><li>Is per e-mail verzonden</li><li>Is per e-mail verzonden</li> Deze voorwaarden worden geëvalueerd aan de hand van een geselecteerd e-mailbericht uit een eerdere reis. |
+| | [!UICONTROL Activity history] > [!UICONTROL Data Value Changed] | Voor een geselecteerd persoonkenmerk is een waardewijziging opgetreden. Deze wijzigingstypen zijn onder meer: <li>Nieuwe waarde</li><li>Vorige waarde</li><li>Reden</li><li>Bron</li><li>Datum van activiteit</li><li>Min. aantal keren</li> |
+| | [!UICONTROL Activity history] > [!UICONTROL Had Interesting Moment] | Interesserende tijdactiviteit die in de bijbehorende instantie van het Marketo Engage wordt bepaald. Beperkingen zijn: <li>Mijlsteen</li><li>E-mail</li><li>Web</li> |
+| | [!UICONTROL Special filters] > [!UICONTROL Member of Buying Group] | De persoon is al dan niet lid van de koopgroep, beoordeeld aan de hand van een of meer van de volgende criteria: <li>Belang van oplossing</li><li>Status van kopersgroep</li><li>Complete score</li><li>Engagement Score</li><li>Functie</li> |
+| [ Mensen ](#add-a-split-path-by-people-node) > [!UICONTROL Account-person attributes only] | Rol in accountkenmerken | Aan de persoon wordt al dan niet een rol in de account toegewezen. Optionele beperkingen: <li>Rolnaam invoeren</li> |
 
 ### Een gesplitst pad toevoegen per accountknooppunt
 
@@ -214,7 +218,7 @@ _hoe werkt een gespleten weg door mensen knoop?_
 
    * Pas de condities aan door de **[!UICONTROL Filter logic]** aan de bovenkant toe te passen. U kiest ervoor om alle kenmerkvoorwaarden of een voorwaarde aan te passen.
 
-     ![ Gesplitste wegknoop - logica van het voorwaardenfilter ](./assets/node-split-conditions.png){width="700" zoomable="yes"}
+     ![ Gesplitste wegknoop - de logica van de voorwaardenrekeningen ](./assets/node-split-conditions-accounts.png){width="700" zoomable="yes"}
 
    * Klik op **[!UICONTROL Done]**.
 
@@ -222,9 +226,15 @@ _hoe werkt een gespleten weg door mensen knoop?_
 
    U kunt ook elk pad labelen op basis van deze voorwaarden of de standaardlabels gebruiken.
 
-1. (Optioneel) Voeg een standaardpad toe voor accounts die niet voor de andere paden zijn gekwalificeerd. Zo niet, dan eindigt de reis voor deze rekeningen.
+1. Indien nodig wijzigt u de volgorde van de paden op basis van de gewenste prioriteit voor de splitsing.
 
-   ![ Gesplitste eigenschappen van de wegknoop - andere rekeningen ](./assets/node-split-properties-other-accounts.png){width="700" zoomable="yes"}
+   Het filtreren van de weg wordt geëvalueerd in top-down orde. Elke account gaat verder langs het eerste pad dat overeenkomt.
+
+   Klik op de pijl-omhoog of -omlaag rechtsboven in elke padkaart om deze hoger of lager in de lijst met paden te plaatsen.
+
+   ![ Gesplitste wegknoop - orde wegen ](./assets/node-split-reorder-paths-accounts.png){width="500" zoomable="yes"} opnieuw
+
+1. Schakel de optie **[!UICONTROL Other accounts]** in om een standaardpad toe te voegen voor accounts die niet overeenkomen met de gedefinieerde paden. Zo niet, dan eindigt de reis voor deze mensen.
 
 ### Een gesplitst pad toevoegen aan een knooppunt met personen
 
@@ -236,13 +246,24 @@ _hoe werkt een gespleten weg door mensen knoop?_
 
 1. In de knoopeigenschappen op het recht, kies **[!UICONTROL People]** voor de spleet.
 
+1. Stel de **[!UICONTROL Attributes used for conditions]** in.
+
+   * Kies **[!UICONTROL People attributes only]** om voorwaarden te gebruiken die betrekking hebben op het profiel van de persoon en de gebeurtenissen.
+   * Kies **[!UICONTROL Account-person attributes only]** om voorwaarden te gebruiken die betrekking hebben op het rollidmaatschap van een persoon binnen een account.
+
 1. Als u een voorwaarde wilt definiëren die van toepassing is op _[!UICONTROL Path 1]_, klikt u op **[!UICONTROL Apply condition]**.
 
 1. Voeg in de Conditions-editor een of meer filters toe om het gesplitste pad te definiëren.
 
-   * Filterkenmerken slepen en neerzetten vanuit de linkernavigatie en de overeenkomende definitie voltooien.
+   * Sleep een van de personentekenmerken van de linkernavigatie naar een andere plaats en voltooi de overeenkomende definitie.
+
+     >[!NOTE]
+     >
+     >Als u aangepaste persoonvelden hebt gedefinieerd in het accountpublieksschema in het Experience Platform, zijn deze velden ook beschikbaar voor gebruik als persoonkenmerken onder bepaalde omstandigheden.
 
    * Pas de condities aan door de **[!UICONTROL Filter logic]** aan de bovenkant toe te passen. U kiest ervoor om alle kenmerkvoorwaarden of een voorwaarde aan te passen.
+
+     ![ Gesplitste wegknoop - de logica van de voorwaardenfilter ](./assets/node-split-conditions-people.png){width="700" zoomable="yes"}
 
    * Klik op **[!UICONTROL Done]**.
 
@@ -250,13 +271,21 @@ _hoe werkt een gespleten weg door mensen knoop?_
 
    U kunt ook elk pad labelen op basis van deze voorwaarden of de standaardlabels gebruiken.
 
-1. Ten slotte kunt u een standaardpad toevoegen voor personen die niet zijn gekwalificeerd voor de bovenstaande paden. Zo niet, dan eindigt de reis voor deze mensen
+1. Indien nodig wijzigt u de volgorde van de paden op basis van de gewenste prioriteit voor de splitsing.
+
+   Het filtreren van de weg wordt geëvalueerd in top-down orde. Elke persoon gaat langs de eerste weg die aanpast.
+
+   Klik op de pijl-omhoog of -omlaag rechtsboven in elke padkaart om deze hoger of lager in de lijst met paden te plaatsen.
+
+   ![ Gesplitste wegknoop - orde wegen ](./assets/node-split-reorder-paths-people.png){width="500" zoomable="yes"} opnieuw
+
+1. Schakel de optie **[!UICONTROL Other people]** in om een standaardpad toe te voegen voor mensen die niet overeenkomen met de gedefinieerde paden. Zo niet, dan eindigt de reis voor deze mensen.
 
 Wanneer u voorwaarden voor elk pad hebt gedefinieerd om uw publiek op personenniveau te splitsen, kunt u acties toevoegen die u aan personen wilt overnemen.
 
 >[!NOTE]
 >
->Wanneer u het publiek splitst naar personen, kunt u alleen acties voor personen toevoegen.
+>Wanneer u het publiek splitst naar personen, kunt u alleen acties voor personen toevoegen totdat de paden worden gesloten of samengevoegd.
 
 ## Wachten
 
@@ -288,10 +317,10 @@ Met dit knooppunt kunt u verschillende paden samenvoegen en samenvoegen.
 
    ![ knoop van de Reis - fusiepaden ](./assets/node-plus-icon-merge-paths.png){width="400"}
 
-1. Selecteer in de eigenschappen van het samenvoegknooppunt de paden die u wilt samenvoegen.
+1. Selecteer in de eigenschappen van de knooppunt Paden samenvoegen de paden die u wilt samenvoegen.
 
    ![ knoop van de Reis - fusiepaden ](./assets/node-merge-select-paths.png){width="600" zoomable="yes"}
 
    Op dit punt worden de paden samengevoegd, zodat de accounts van de geselecteerde paden worden gecombineerd tot één pad dat door de rit kan gaan.
 
-1. Indien nodig, kunt u wegen unmerge door terug naar de eigenschappen van de fusieknoop te navigeren en checkbox voor om het even welke wegen te ontruimen die u wilt verwijderen.
+1. Indien nodig, kunt u de samenvoegen van wegen ongedaan maken door terug naar de eigenschappen van de de knooppunten van samenstellingswegen te navigeren en checkbox voor om het even welke wegen te ontruimen die u wilt verwijderen.

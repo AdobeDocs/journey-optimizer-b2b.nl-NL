@@ -3,9 +3,9 @@ title: Groepen kopen
 description: Leer hoe kopers in Journey Optimizer B2B edition de doeltreffendheid van marketing kunnen verhogen door leden voor je accountlijsten te identificeren en als doelgroep te kiezen.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: a514dcdce95b6ef2a134c9882cd6b6936d473609
+source-git-commit: 02b0e1a50b75dc02afe1b11217729e17583d5f12
 workflow-type: tm+mt
-source-wordcount: '1187'
+source-wordcount: '1235'
 ht-degree: 3%
 
 ---
@@ -23,13 +23,14 @@ Binnen de rekening, zou er een ondergroep van mensen kunnen zijn die uit de _het
 
 ## Belangrijkste componenten
 
-U kunt de doeltreffendheid van de marketing verhogen door koopgroepen in Journey Optimizer B2B Edition te vestigen die ontbrekende leden voor uw doelrekeningen lijsten identificeren die op de oplossingen worden gebaseerd die uw teams van de Verkoop verantwoordelijk voor het verkopen zijn. Voordat u en uw marketingteam beginnen met het maken van uw inkoopgroepen, moet u controleren of de belangrijkste componenten zijn gedefinieerd. Deze componenten zijn kritiek voor het ontmoeten van uw bedrijfsdoelstellingen en doelstellingen.
+U kunt de doeltreffendheid van de marketing verhogen door koopgroepen in Journey Optimizer B2B edition te vestigen die ontbrekende leden voor uw doelrekeningen lijsten identificeren die op de oplossingen worden gebaseerd die uw teams van de Verkoop voor de verkoop verantwoordelijk zijn. Voordat u en uw marketingteam beginnen met het maken van uw inkoopgroepen, moet u controleren of de belangrijkste componenten zijn gedefinieerd. Deze componenten zijn kritiek voor het ontmoeten van uw bedrijfsdoelstellingen en doelstellingen.
 
 | Component | Doel |
 | --------- | ------- |
 | Oplossingsrente | Deze component geeft het antwoord op: <ul><li>Wat verkoopt u als marketingorganisatie?</li><li>Welk product of welke inzameling van producten richt u om te verkopen?</li></ul>  **_Voorbeeld:_** Het dwars-verkopen van nieuw Product X aan bestaande klanten |
 | Accountpubliek | Deze component geeft het antwoord op: <ul><li>Aan wie verkoopt u?</li><li>Wat is de lijst van rekeningen die u richt?</li></ul> **_Voorbeeld:_** segment van de Rekening dat door rekeningen met Product Y wordt bepaald die opbrengst over 1M hebben |
 | Rolinesjablonen voor groepen kopen | Deze component geeft het antwoord op: <ul><li>Welke rollen richt u zich?</li><li>Welke reeks regels worden gebruikt om te bepalen wie aan het kopen van groepsrollen wordt toegewezen?</li></ul>  **_Voorbeeld:_** wijs een persoon met de titel van Com aan de rol van de Maker van het Besluit toe |
+| Groepsfasen voor kopen | (Optioneel) Deze component geeft het antwoord op: Hoe volgt de inkoopgroep op succes of falen? |
 
 ## Workflow voor groepen kopen
 
@@ -66,6 +67,7 @@ De pagina _[!UICONTROL Buying groups]_is ingedeeld als tabbladen:
 | [!UICONTROL Browse] | Dit tabblad biedt ondersteuning voor de volgende activiteiten: <ul><li>De lijst met bestaande inkoopgroepen weergeven. </li><li>Zoeken door groepsnaam te kopen. </li><li>Filteren op interesse van oplossing. </li><li>Meld u aan bij het kopen van groepsgegevens. </li><li>Maak een inkoopgroep. Verwijder een inkoopgroep.</li></ul> |
 | [!UICONTROL Solution interests] | Dit tabblad biedt ondersteuning voor de volgende activiteiten: <ul><li>De lijst met bestaande inkoopgroepen weergeven. </li><li>Zoeken door groepsnaam te kopen. </li><li>De toegang en geeft de eigenschappen van oplossingsbelang uit. </li><li>Creëer een oplossingsbelang. </li><li>Verwijder een belang voor de oplossing. </li><li>Groeptaken voor kopen weergeven en verwijderen. </li></ul> |
 | [!UICONTROL Roles Templates] | Dit tabblad biedt ondersteuning voor de volgende activiteiten: <ul><li>Bekijk de lijst met bestaande rolmalplaatjes. </li><li>Zoeken op naam van rolsjabloon. </li><li>Toegang tot en geef de eigenschappen en voorwaarden van het rolmalplaatje uit. </li><li>Een rolsjabloon maken. </li><li>Een rolsjabloon verwijderen. </li></ul> |
+| [!UICONTROL Stages] | Dit tabblad biedt ondersteuning voor de volgende activiteiten: <ul><li>Bekijk het bestaande model voor inkoopgroepen. </li><li>Open en bewerk het concept groepsfasemodel voor het kopen. </li><li>Maak het model voor de inkoopgroepfasen. </li></ul> |
 
 ## Zoeken en filteren van groepen
 
