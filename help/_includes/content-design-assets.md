@@ -1,33 +1,27 @@
 ---
 title: Inhoud ontwerpen - elementen
 description: Doorgevoerde sectie over het gebruik van elementen voor het ontwerpen van inhoud
-source-git-commit: 23fb478712f3c6df59e94432bdf16883e6acf70b
+source-git-commit: 361568a2d0f87f93e52a95c5afb7b7b8be0c264e
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
 
 # Inhoud ontwerpen - elementen
 
-In de visuele inhoudsredacteur, selecteer het _Assets_ pictogram ( ![ toon Assets ](../user/assets/do-not-localize/icon-assets-design.svg)) dat op de linkerzijde wordt getoond.
+In de visuele inhoudsredacteur, selecteer het _Marketo Engage Assets_ ( ![ het pictogram van Assets van het Marketo Engage ](../../help/assets/do-not-localize/icon-assets-me.svg) ) of _Experience Manager Assets_ ( ![ het pictogram van Assets van het Marketo Engage ](../../help/assets/do-not-localize/icon-assets-aem.svg) ) in de linkernavigatiebar. Vanuit de elementenkiezer kunt u rechtstreeks in de bronbibliotheek opgeslagen elementen selecteren.
 
 >[!NOTE]
 >
->Als u een abonnement voor Experience Manager Assets as a Cloud Service samen met het gebrek de Studio van het Ontwerp van Adobe Marketo Engage hebt, kiest u de [ beeldbron ](../user/content/assets-overview.md#choose-an-asset-source) op het tijdstip van verwezenlijking voor een e-mail, e-mailmalplaatje, of visueel fragment. U kunt ook de afbeeldingsbron selecteren voordat u de visuele ontwerper opent voor bewerking.
+>Als u van Adobe Experience Manager als Cloud Servicen voorzien bent, hebt u toegang tot de bewaarplaatsen voor zowel Marketo Engage Design Studio als Adobe Experience Manager Assets as a Cloud Service wanneer uw gebruikersrekening de vereiste toestemmingen heeft. Deze opslagruimten zijn gescheiden en niet gesynchroniseerd. U kunt afbeeldingselementen uit beide bronnen gebruiken.
 
-In het volgende voorbeeld worden de stappen beschreven waarmee elementen aan de sjablooninhoud worden toegevoegd:
+* Voeg een nieuw element toe door het afbeeldingselement naar een structuurcomponent te slepen.
 
-1. Om de activa bibliotheek te openen, klik het _Assets_ pictogram.
+  ![ sleep een Marketo Engage activa op het canvas en pas de montages ](../assets/content-design-shared/content-design-add-asset.png){width="800" zoomable="yes"} aan
 
-   Vanuit de elementenkiezer kunt u rechtstreeks in de bronbibliotheek opgeslagen elementen selecteren.
+* Vervang een bestaand afbeeldingselement door dit te selecteren op het canvas en op **[!UICONTROL Select an asset]** te klikken in de brongereedschappen van de afbeelding.
 
-1. Voeg een nieuw element toe door het afbeeldingselement naar een structuurcomponent te slepen.
+  ![ Uitgezocht een middel van de bronbibliotheek ](../assets/content-design-shared/visual-designer-select-an-asset.png){width="600" zoomable="yes"}
 
-   ![ sleep een Marketo Engage activa op het canvas en pas de montages ](../assets/content-design-shared/content-design-add-asset.png){width="800" zoomable="yes"} aan
-
-   Voor meer informatie over het gebruiken van activa van uw brontype, zie [ activa aan uw inhoud ](../user/content/assets-overview.md#add-assets-to-your-content) toevoegen.
-
-1. Vervang een bestaand afbeeldingselement door dit te selecteren op het canvas en op **[!UICONTROL Select an asset]** te klikken in de brongereedschappen van de afbeelding.
-
-   ![ Uitgezocht een middel van de bronbibliotheek ](../assets/content-design-shared/visual-designer-select-an-asset.png){width="600" zoomable="yes"}
+Voor meer informatie over het gebruiken van activa van uw brontype, zie [ activa van het Gebruik voor inhoud creatie ](../user/content/assets-overview.md#use-assets-for-content-authoring).

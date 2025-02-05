@@ -1,9 +1,9 @@
 ---
 title: Fragmenten
 description: Hergebruikte notities en visuele elementen om een functie of pagina te noteren die van toepassing is op een specifieke editie
-source-git-commit: 4facd14886cb21371ebbc3e0032cbf14cc322586
+source-git-commit: 8892aff0501a157006506663ef304be5ccc9695c
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
@@ -11,6 +11,19 @@ ht-degree: 0%
 # Fragmenten
 
 <!-- Content authoring steps for reuse -->
+
+## Intentgegevensconfiguratie {#intent-data-note}
+
+>[!NOTE]
+>Intentgegevens kunnen ook op de pagina worden opgenomen wanneer deze zijn geconfigureerd voor uw Journey Optimizer B2B edition-exemplaar. Voor meer informatie over het model van de Detectie van de Intentie en hoe te om sleutelwoorden voor te leggen, zie [ Gegevens van de Intentie ](../user/admin/intent-data.md).
+>
+
+## Licentieopmerking voor AEM middelen {#aem-assets-licensing-note}
+
+>[!NOTE]
+>
+>Licenties voor AEM Assets as a Cloud Service- en Dynamic Media-licenties zijn voorwaarden voor integratie. U zou moeten ervoor zorgen dat [ Dynamic Media met Open API ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview) {target="_blank"} wordt toegelaten.<br/>
+>Afhankelijk van uw contract en configuratie kunt u Adobe Experience Manager Assets as a Cloud Service rechtstreeks vanuit Adobe Journey Optimizer B2B edition openen bij het ontwerpen van visuele inhoud.
 
 ## Inhoud ontwerpen - componenten - stap Structuren {#structures-step}
 
@@ -46,11 +59,7 @@ ht-degree: 0%
 
    Dubbelklik op de map die uw elementen bevat. Sleep de items naar een structuurcomponent.
 
-   >[!NOTE]
-   >
-   >Als u een abonnement voor Experience Manager Assets as a Cloud Service samen met het gebrek de Studio van het Ontwerp van Adobe Marketo Engage hebt, moet u de [ beeldbron ](../user/content/assets-overview.md#choose-an-asset-source) op het tijdstip van verwezenlijking voor een e-mail, e-mailmalplaatje, of visueel fragment kiezen. U kunt echter ook de afbeeldingsbron selecteren voordat u de inhoudsontwerper opent voor bewerking.
-
-   Voor meer informatie over het gebruiken van activa van uw brontype, zie [ activa aan uw inhoud ](../user/content/assets-overview.md#add-assets-to-your-content) toevoegen.
+   Voor meer informatie over het gebruiken van activa van uw brontype, zie [ activa aan uw inhoud ](../user/content/assets-overview.md#use-assets-for-content-authoring) toevoegen.
 
    ![ sleep een Marketo Engage activa op het canvas en pas de montages ](../assets/content-design-shared/content-design-add-asset.png){width="800" zoomable="yes"} aan
 
@@ -64,6 +73,6 @@ ht-degree: 0%
 
 ## Inhoud ontwerpen - stap Koppelingen bijhouden {#links-tracking-step}
 
-1. Selecteer het tabblad **[!UICONTROL Links]** in het linkerdeelvenster om alle URL&#39;s van de inhoud weer te geven die worden bijgehouden.
+1. Selecteer de tab **[!UICONTROL Links]** in het linkerdeelvenster om alle URL&#39;s weer te geven van de inhoud die wordt bijgehouden.
 
    U kunt het _Volgend Type_ of _Etiket_ wijzigen en markeringen toevoegen indien nodig.

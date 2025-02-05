@@ -2,10 +2,10 @@
 title: Aan de slag met Journey Optimizer B2B edition
 description: Meer informatie over de belangrijkste aandachtspunten om als nieuwe gebruiker aan de slag te gaan met de B2B-editie van Journey Optimizer.
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: c4df46db3c7123636311c47be36de171de24e1be
+source-git-commit: b403ff764c002796953956379e33fec6eb8c0611
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 5%
+source-wordcount: '664'
+ht-degree: 6%
 
 ---
 
@@ -41,6 +41,8 @@ Meer informatie over toegangsbeheer vindt u op de volgende pagina&#39;s:
 
 1. **vorm en laat gebruik van Adobe Experience Manager Assets** voor teams toe die Assets as a Cloud Service voor gecentraliseerd digitaal activabeheer gebruiken. [Meer informatie](../admin/configure-aem-repositories.md)
 
+1. **de definities van de Gebeurtenis van de Ervaring van de Opstelling Adobe Experience Platform (AEP)** voor teams verantwoordelijk voor het creëren van rekeningsreizen die aan de Gebeurtenissen van de Ervaring van AEP luisteren. [Meer informatie](../admin/configure-aep-events.md)
+
 >[!TAB  Snel begin van de Markering ]
 
 Als marktleider, of een _Praktijk van de Reis van de Rekening_, bent u verantwoordelijk voor het ontwerpen van reizen en het creëren van inhoud. U kunt met Adobe Journey Optimizer B2B edition beginnen te werken nadat de systeembeheerder en de gegevensengineer uw omgeving hebben voorbereid en u toegang hebben verleend.
@@ -49,7 +51,7 @@ Raadpleeg de volgende secties voor het instellen van de eerste rit, het toevoege
 
 1. **voeg rekeningspubliek** toe. Met Journey Optimizer B2B edition kunt u accountpubliek maken via segmentdefinities direct vanuit de toepassing en deze gebruiken voor reizen naar uw account. [Meer informatie](../audiences/account-audience-overview.md)
 
-1. **creeer het kopen groepen**. Bepaal de belangrijkste componenten voor het voldoen van uw bedrijfsdoelstellingen en doelstellingen, en creeer het kopen groepen die de leden voor uw lijsten van doelrekeningen identificeren. [Meer informatie](../buying-groups/buying-groups-overview.md)
+1. **creeer het kopen groepen**. Definieer de belangrijkste componenten voor het bereiken van uw bedrijfsdoelstellingen en -doelstellingen en maak inkoopgroepen die de leden voor uw doelaccountlijsten identificeren. [Meer informatie](../buying-groups/buying-groups-overview.md)
 
 1. **creeer en beheer activa**. Adobe Experience Manager Assets biedt één gecentraliseerde opslagplaats voor middelen die u kunt gebruiken om uw berichten te vullen. [Meer informatie](../content/assets-overview.md)
 

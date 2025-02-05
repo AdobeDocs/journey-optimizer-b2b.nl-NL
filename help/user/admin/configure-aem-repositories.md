@@ -1,9 +1,9 @@
 ---
 title: Opslagplaatsen voor Experience Manager-middelen configureren
-description: Leer hoe u een verbinding met Experience Manager Assets-opslagruimten configureert voor gebruik in het ontwerpen van inhoud in Journey Optimizer B2B Edition.
+description: Leer hoe u een verbinding met Experience Manager Assets-opslagruimten configureert voor gebruik in Journey Optimizer B2B edition-inhoudsauthoring.
 feature: Assets, Integrations
 exl-id: 4cdfc8bc-823f-4320-a2c3-08226f26eec2
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 728d5316cfdeee92bd4f67277d299bbec2773a4f
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 0%
@@ -12,15 +12,17 @@ ht-degree: 0%
 
 # Middelen voor Experience Manager-elementen configureren
 
-Adobe Journey Optimizer B2B Edition kan worden geïntegreerd met Adobe Experience Manager Assets as a Cloud Service, zodat u niet alleen via e-mails, maar ook via een accountreis, middelen als e-mails kunt gebruiken. Het zorgt voor transparantie door informatie uit te wisselen met Experience Manager Assets. Configureer de verbinding met Adobe Experience Assets om deze mogelijkheid in te schakelen.
+Adobe Journey Optimizer B2B edition integreert met Adobe Experience Manager Assets as a Cloud Service, zodat u niet alleen maar middelen als e-mails kunt gebruiken voor een accountreis. Het zorgt voor transparantie door informatie uit te wisselen met Experience Manager Assets. Configureer de verbinding met Adobe Experience Assets om deze mogelijkheid in te schakelen.
 
-Adobe Experience Manager Cloud Manager wordt georganiseerd in programma&#39;s, en elk programma heeft veelvoudige milieu&#39;s en bewaarplaatsen ([ Leer meer ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types)). Wanneer u Adobe Experience Manager Assets configureert in Adobe Journey Optimizer B2B Edition, stelt u verbindingen in met elke opslagplaats die u wilt gebruiken om toegang te krijgen tot digitale middelen.
+Adobe Experience Manager Cloud Manager wordt georganiseerd in programma&#39;s, en elk programma heeft veelvoudige milieu&#39;s en bewaarplaatsen ([ Leer meer ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types)). Wanneer u Adobe Experience Manager Assets configureert in Adobe Journey Optimizer B2B edition, stelt u verbindingen in met elke repository die u wilt gebruiken voor toegang tot digitale middelen.
+
+{{aem-assets-licensing-note}}
 
 ## Vereisten
 
 * Produceer de dienstgeloofsbrieven voor het gewenste milieu op de AEM Zwaarteloze Developer Console ([ Leer meer ](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials)).
 * Verwerk de certificaten die nodig zijn voor de verbinding. Als beste praktijk, zorg ervoor dat de certificaten minstens zes maanden vóór afloop van de geldigheidsduur resteren. De certificaten verlopen elke 365 dagen.
-* Adobe Journey Optimizer B2B Edition ondersteunt de toegang tot één bron voor digitaal middelenbeheer tegelijk. Zorg ervoor dat de vereiste middelen beschikbaar zijn in Adobe Experience Manager voordat u overschakelt.
+* Adobe Journey Optimizer B2B edition ondersteunt de toegang tot één digitale bron voor middelenbeheer tegelijk. Zorg ervoor dat de vereiste middelen beschikbaar zijn in Adobe Experience Manager voordat u overschakelt.
 
 >[!IMPORTANT]
 >
@@ -66,7 +68,7 @@ Wanneer u klaar bent met het configureren van de opslagruimten, kunnen teamleden
 
 >[!NOTE]
 >
->Adobe Journey Optimizer B2B Edition biedt ondersteuning voor toegang tot één digitale bron voor middelenbeheer tegelijk wanneer u inhoud ontwerpt. 
+>Adobe Journey Optimizer B2B edition biedt ondersteuning voor toegang tot één digitale bron voor middelenbeheer tegelijk met het ontwerpen van inhoud. 
 
 ## Certificaten vervangen
 
@@ -74,7 +76,7 @@ Certificaten verlopen elke 365 dagen na de aanmaakdatum. Vervang het voor het ve
 
 >[!NOTE]
 >
->Adobe Journey Optimizer B2B Edition communiceert met Experience Manager-elementen voor gebruiksinformatie. De verbinding moet actief blijven voor betrouwbare gegevenssynchronisatie bij het gebruik en om gegevensdiscrepanties te voorkomen. Beheerders krijgen via de meldingen in de app een melding te zien over het verlopen van certificaten. Ze kunnen ook de vervaldatums noteren in de Assets-subsectie - Digitaal middelenbeheer in het beheergebied.
+>Adobe Journey Optimizer B2B edition communiceert met Experience Manager-elementen voor gebruiksinformatie. De verbinding moet actief blijven voor betrouwbare gegevenssynchronisatie bij het gebruik en om gegevensdiscrepanties te voorkomen. Beheerders krijgen via de meldingen in de app een melding te zien over het verlopen van certificaten. Ze kunnen ook de vervaldatums noteren in de Assets-subsectie - Digitaal middelenbeheer in het beheergebied.
 
 1. Zoek op de pagina voor beheer van digitale elementen de lijst met geconfigureerde opslagruimten.
 
@@ -110,7 +112,7 @@ U kunt het JSON-certificaatbestand weergeven dat is gekoppeld aan de gegevensops
 
 ## Een dataopslagverbinding verwijderen
 
-Als u een opslagplaats verwijdert, verwijdert u de toegang van gebruikers tot de Experience Manager Assets-omgeving in Journey Optimizer B2B Edition.
+Als u een opslagplaats verwijdert, verwijdert u de toegang van gebruikers tot de Experience Manager Assets-omgeving in Journey Optimizer B2B edition.
 
 1. Zoek op de pagina _[!UICONTROL Digital asset management]_de lijst met geconfigureerde opslagruimten voor elementen.
 

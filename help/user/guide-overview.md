@@ -1,15 +1,15 @@
 ---
-title: Adobe Journey Optimizer B2B edition-documentatie
+title: Documentatie voor Adobe Journey Optimizer B2B Edition
 description: Leer hoe u de Adobe Journey Optimizer B2B edition-functies kunt gebruiken voor het ordenen van accounts en het kopen van groepsreizen met behulp van ingebouwde generatieve AI en toonaangevende automatisering.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 30075a1804e520b9908ef6b2217a8a91e33e0a84
+source-git-commit: 279bc07b90da96c3d497f67a14596a3bed308984
 workflow-type: tm+mt
 source-wordcount: '683'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
-# Adobe Journey Optimizer B2B edition-documentatie
+# Documentatie voor Adobe Journey Optimizer B2B Edition
 
 ## Wat is nieuw?
 
@@ -27,7 +27,7 @@ Gebruik voorwaardelijke inhoud om uw e-mailinhoud aan te passen op basis van voo
 
 In een rekeningsreis, gebruik _toevoegen aan lijst_ actieknooppunt om mensen aan een Marketo Engage statische lijst toe te voegen. Deze lijsten geven u volledige flexibiliteit voor het hergebruiken en richten van specifieke doelgroepen. U kunt een lijst bouwen en dan een campagne rond het tot stand brengen, of een persoon toevoegen direct aan een bestaande campagne. Bovendien, gebruik _verwijderen uit lijst_ personenactie om uw het richten in Marketo Engage te verfijnen en te veranderen dat op de vooruitgang van de rekeningsreis wordt gebaseerd.
 
-[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes#action-nodes" tooltip="Meer informatie over toevoegen aan lijst en verwijderen uit lijst"}
+[!BADGE Meer informatie]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes/action-nodes" tooltip="Meer informatie over toevoegen aan lijst en verwijderen uit lijst"}
 
 >[!TAB  Centrale activa bibliotheek ]
 

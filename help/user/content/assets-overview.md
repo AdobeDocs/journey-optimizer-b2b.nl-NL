@@ -3,93 +3,93 @@ title: Assets
 description: Meer informatie over middelenbeheer in Journey Optimizer B2B edition.
 feature: Assets, Content
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: 23fb478712f3c6df59e94432bdf16883e6acf70b
+source-git-commit: 728d5316cfdeee92bd4f67277d299bbec2773a4f
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '963'
 ht-degree: 0%
 
 ---
 
 # Assets
 
-In Adobe Journey Optimizer B2B edition zijn middelen doorgaans de afbeeldingen die worden gebruikt bij het maken van uw reisinhoud. U kunt deze afbeeldingen gebruiken in de e-mails, e-mailsjablonen en fragmenten die zijn geschreven in Journey Optimizer B2B edition via een functie voor het selecteren van elementen of een eenvoudige interface voor slepen en neerzetten in de visuele inhoudeditor.
+In Adobe Journey Optimizer B2B edition zijn middelen doorgaans de afbeeldingen die worden gebruikt bij het ontwerpen van inhoud ter ondersteuning van reizen naar accounts. U kunt deze afbeeldingen in de e-mails, e-mailsjablonen en fragmenten gebruiken via een assetenselector of een eenvoudige interface voor slepen en neerzetten in de visuele inhoudeditor.
 
 Adobe Journey Optimizer B2B edition biedt marketers toegang tot twee typen assets bibliotheken: Adobe Marketo Engage Design Studio en Adobe Experience Manager Assets as a Cloud Service. U kunt alleen de Adobe Marketo Engage Design Studio gebruiken of beide bibliotheken gebruiken die tegelijkertijd zijn geconfigureerd (op basis van de AEM Assets-licentie die u hebt).
 
 ## Beheer van bedrijfsmiddelen
 
-Als u een Marketo Engage-account en Adobe Experience Manager als Cloud Servicen hebt ingericht, hebt u toegang tot de opslagruimten voor zowel Marketo Engage DAM als Adobe Experience Manager Assets as a Cloud Service wanneer uw gebruikersaccount de vereiste machtigingen heeft. Deze opslagruimten zijn gescheiden en niet gesynchroniseerd. U kunt afbeeldingen uit een van beide bronnen gebruiken, maar u kunt slechts één afbeelding tegelijk inschakelen in de inhoudseditor. Een beheerder kan de omschakeling van Marketo Engage DAM aan Adobe Experience Manager Assets as a Cloud Service maken. Het item _[!UICONTROL Assets]_in de linkernavigatie geeft de opslagplaats weer die momenteel is ingesteld.
+Als u van Adobe Experience Manager als Cloud Servicen voorzien bent, hebt u toegang tot de bewaarplaatsen voor zowel Marketo Engage Design Studio als Adobe Experience Manager Assets as a Cloud Service wanneer uw gebruikersrekening de vereiste toestemmingen heeft. Deze opslagruimten zijn gescheiden en niet gesynchroniseerd. U kunt afbeeldingen uit beide bronnen gebruiken.
 
 ### Adobe Marketo Engage-middelen
 
-De Adobe Marketo Engage Design Studio Asset-opslagplaats wordt standaard geleverd bij elk Journey Optimizer B2B edition-abonnement. Dit betekent dat u toegang hebt tot alle afbeeldingselementen die zijn opgeslagen in Adobe Marketo Engage > [!UICONTROL Design Studio] > [!UICONTROL Images & Files] . U kunt deze gegevensopslagruimte gebruiken als uw lokale bibliotheek met middelen, waaronder functies voor het uploaden en downloaden van middelen. U kunt deze middelen ook gebruiken binnen uw reisinhoud.
+De Adobe Marketo Engage Design Studio Asset-opslagplaats wordt standaard geleverd bij elk Journey Optimizer B2B edition-abonnement. Dit betekent dat u toegang hebt tot alle afbeeldingselementen die zijn opgeslagen in Adobe Marketo Engage ([!UICONTROL Design Studio] > [!UICONTROL Images & Files] ). U kunt deze gegevensopslagruimte gebruiken als uw lokale bibliotheek met middelen, waaronder functies voor het uploaden en downloaden van middelen. U kunt deze middelen ook gebruiken binnen uw reisinhoud.
 
 Er zijn ingebouwde instructies die voorkomen dat de Marketo&#39;s Engage van Journey Optimizer B2B edition worden bewerkt en bewerkingen worden verwijderd en verplaatst. Deze bescherming zorgt ervoor dat de bronactiva (de Studio van het Ontwerp van het Marketo Engage) worden gehandhaafd terwijl het toestaan van naadloos lees en hergebruik in Journey Optimizer B2B edition.
 
-Ondersteunde bestandsindelingen: JPG, JPEG, GIF, PNG, EPS, SVG, RGB
+Ondersteunde bestandsindelingen: JPG, JPEG, GIF, PNG, EPS, SVG en RGB
 
 ### Adobe Experience Manager Assets as a Cloud Service
 
 Maak gebruik van Adobe Experience Manager Assets om marketing- en creatieve workflows samen te brengen. Het is standaard geïntegreerd met Adobe Journey Optimizer B2B edition, zodat u eenvoudig toegang hebt tot Assets as a Cloud Service voor het detecteren en gebruiken van digitale middelen. Het biedt toegang tot uw Assets-opslagplaats voor elementen die u kunt gebruiken om uw berichten te vullen.
 
-Adobe Experience Manager Assets kan verbinding maken met Adobe Experience Manager Assets as a Cloud Service voor gecentraliseerde werkruimten voor bedrijfsmiddelen, die uw creatieve systeem uitbreiden en digitale middelen verenigen voor beleving. Adobe Experience Manager Assets as a Cloud Service biedt een gebruiksvriendelijke cloudoplossing voor efficiënt beheer van digitale bedrijfsmiddelen en Dynamic Media. Het omvat naadloos geavanceerde eigenschappen, met inbegrip van Kunstmatige Intelligentie en het Leren van de Machine.
+Adobe Journey Optimizer B2B edition kan verbinding maken met Adobe Experience Manager Assets as a Cloud Service voor gecentraliseerd beheer van bedrijfsmiddelen, waardoor uw creatieve systeem wordt uitgebreid en digitale middelen worden verenigd voor een betere ervaring. Adobe Experience Manager Assets as a Cloud Service biedt een gebruiksvriendelijke cloudoplossing voor efficiënt beheer van digitale bedrijfsmiddelen en Dynamic Media. Het omvat naadloos geavanceerde eigenschappen, met inbegrip van Kunstmatige Intelligentie en het Leren van de Machine.
 
 Leer meer in de [ documentatie van Adobe Experience Manager as a Cloud Service ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview).
 
-Adobe Experience Manager Assets is rechtstreeks vanuit het **[!UICONTROL Assets]** -item in de linkernavigatie toegankelijk in Adobe Journey Optimizer B2B edition. U kunt ook elementen en mappen openen tijdens het ontwerpen van e-mailinhoud.
+{{aem-assets-licensing-note}}
 
->[!NOTE]
->
->AEM Assets als Cloud Service, en de vergunningen van Dynamic Media zijn vereist voor deze integratie.<br/>
->Afhankelijk van uw contract en configuratie kunt u Adobe Experience Manager Assets as a Cloud Service rechtstreeks vanuit Adobe Journey Optimizer B2B edition openen via de sectie Assets links in het menu. U kunt ook elementen en mappen openen tijdens het ontwerpen van e-mailinhoud.
+Open Adobe Experience Manager Assets rechtstreeks in Journey Optimizer B2B edition vanuit het **[!UICONTROL Experience Manager Assets]** -item in het inhoudsontwerp, maar ga naar de linkernavigatie. U kunt ook elementen en mappen openen tijdens het ontwerpen van uw e-mail-, e-mailsjabloon en visuele fragmentinhoud.
 
-Op dit moment kunt u alleen afbeeldingen uit Adobe Experience Manager Assets gebruiken in Adobe Journey Optimizer B2B edition.
+U kunt momenteel alleen afbeeldingen uit Adobe Experience Manager Assets in Adobe Journey Optimizer B2B edition gebruiken.
 
 ## Elementen gebruiken voor het ontwerpen van inhoud
 
-Gebruik elementen bij het ontwerpen van uw e-mails, e-mailsjablonen en visuele fragmenten. De interface van de visuele inhoudeditor biedt toegang tot de afbeeldingen in de gekoppelde opslagruimten voor elementen.
+Gebruik elementen bij het ontwerpen van uw e-mails, e-mailsjablonen en visuele fragmenten. De visuele inhoudeditor biedt toegang tot de afbeeldingen in uw verbonden opslagruimten voor elementen. Als u een abonnement op Experience Manager Assets as a Cloud Service hebt samen met de standaard Adobe Marketo Engage Design Studio, kunt u afbeeldingselementen kiezen uit een van beide bronnen. U kunt ook een image-element uploaden, waarmee het in de Journey Optimizer B2B edition-werkruimte van de aangesloten Design Studio-opslagplaats van het Marketo Engage wordt geplaatst.
 
-### Een elementbron kiezen
+U kunt de afbeeldingsbron kiezen wanneer u de instellingen voor een afbeeldingscomponent bewerkt of rechtstreeks op het canvas.
 
-Als u een abonnement op Experience Manager Assets as a Cloud Service hebt samen met de standaard Adobe Marketo Engage Design Studio, kunt u afbeeldingselementen kiezen uit een van beide bronnen. Hiervoor moet u de afbeeldingsbron selecteren op het moment dat u het bestand maakt voor een nieuw e-mailbericht, een e-mailsjabloon of een visueel fragment. U kunt ook de afbeeldingsbron selecteren wanneer u de inhoud bewerkt. De selectie is alleen van toepassing voor bewerking en u kunt de afbeeldingsbron zo nodig wijzigen dat deze toegang heeft tot elementen uit een andere bibliotheek.
+* **_de componentenmontages van het Beeld_** - wanneer u een beeldcomponent hebt die in de visuele ontwerper wordt geselecteerd, kunt u de montages in het juiste paneel bekijken en uitgeven. Als u het afbeeldingsbestand dat in de component wordt weergegeven, wilt toevoegen of wijzigen, kiest u het brontype en selecteert u een afbeeldingsbestand.
 
-_**Creërend een inhoudsmiddel**_ - om een beeldbron te kiezen wanneer u een e-mail, een e-mailmalplaatje, of een fragment creeert, plaats **[!UICONTROL Image source]** in de dialoog.
+  ![ geef de montages van de beeldcomponent in het juiste paneel ](./assets/content-assets-image-settings.png){width="350"} uit
 
-_**het Uitgeven van een inhoudsmiddel**_ - om een bron van beeldactiva in de visuele voorproef te kiezen, gebruik **[!UICONTROL Image source]** het plaatsen in het paneel op het recht.
+* **_Lege component_** - wanneer u een beeldcomponent in de visuele ontwerper toevoegt, is het leeg en verleent gemakkelijke toegang om een bron te kiezen en een beelddossier te selecteren.
 
-### Elementen toevoegen aan uw inhoud
+  ![ kies een bron om een beelddossier voor de lege beeldcomponent te selecteren ](./assets/content-assets-image-component-empty.png){width="500"}
 
-U kunt een afbeeldingselement toevoegen terwijl u de inhoud ontwerpt, afhankelijk van de geselecteerde bron van afbeeldingselementen.
+* **_de componententoolbar van het Beeld_** - wanneer u een beeldcomponent hebt die in de visuele ontwerper wordt geselecteerd, verleent de toolbar gemakkelijke toegang om een bron te kiezen en het beelddossier te selecteren.
+
+  ![ Gebruik de toolbar om een bron te kiezen om een beelddossier voor de beeldcomponent te selecteren ](./assets/content-assets-image-toolbar-settings.png){width="500"}
+
+Afhankelijk van de bron van het afbeeldingselement kunt u tijdens het ontwerpen van de inhoud een afbeeldingselement toevoegen.
 
 >[!BEGINTABS]
 
->[!TAB  voeg de beeldactiva van het Marketo Engage ] toe
+>[!TAB  Marketo Engage Assets ]
 
-U kunt Marketo Engage-elementen toevoegen met een van de volgende methoden:
+Klik op **[!UICONTROL Marketo Engage Assets]** om de elementenkiezer te openen, waar u een afbeelding kunt kiezen in een werkruimte van een Marketo Engage of in de Journey Optimizer B2B edition-werkruimte.
 
-* Voeg een structuurelement toe en sleep vervolgens elementen van de linkernavigatie naar het visuele canvas.
-* Voeg een structureel element toe, dan belemmering-en-daling het _beeld_ inhoudstype in de structuur. In de eigenschappeninstellingen aan de rechterkant zijn er twee manieren om de afbeelding op te geven:
-   * Klik op **[!UICONTROL Browse]** om de elementenkiezer te openen, waar u een afbeelding kunt kiezen in de Adobe Marketo Engage Design Studio-middelenbibliotheek.
-   * Klik op **[!UICONTROL Import media]** om een element uit uw lokale systeem te importeren. Het geïmporteerde element wordt opgeslagen in de Assets-hoofdmap van uw Adobe Marketo Engage Design Studio-bibliotheek.
+![ selecteer een beeldactiva van de werkruimte ](./assets/content-assets-image-me-selected.png){width="700" zoomable="yes"}
 
-Zie [ activa van het Gebruik in uw inhoud ](./marketo-engage-design-studio.md#use-assets-in-your-content) voor meer informatie.
+U kunt zoeken en filters gebruiken om het gewenste afbeeldingselement te zoeken. Selecteer het element en klik op **[!UICONTROL Select]** om het te gebruiken voor de afbeeldingscomponent.
 
-Als u de afbeelding wilt wijzigen, kunt u de bron-URL voor de afbeelding bijwerken in de eigenschappen aan de rechterkant.
+Voor meer gedetailleerde informatie over het gebruiken van de activa van het beeldbeeld van het Marketo Engage, zie [ activa van het Gebruik in uw inhoud ](./marketo-engage-design-studio.md#use-assets-in-your-content).
 
->[!TAB  voeg de beelden van Experience Manager Assets ] toe
+>[!TAB  Experience Manager Assets ]
 
-1. Tijdens het ontwerpen van uw e-mailinhoud in de e-mailontwerper sleept u een afbeeldingselement naar het canvas.
+Klik op **[!UICONTROL Experience Manager Assets]** om de elementenkiezer te openen, waar u een afbeelding kunt kiezen in de Experience Manage Assets-opslagplaats.
 
-   De eigenschappen aan de rechterkant weerspiegelen de selectie van afbeeldingselementen.
+![ Uitgezocht een beeldactiva van de folder van AEM Assets ](./assets/content-assets-image-aem-selected.png){width="700" zoomable="yes"}
 
-1. Klik op **[!UICONTROL Select an asset]** om de Experience Manager Asset-kiezer te openen.
+U kunt zoeken en filters gebruiken om het gewenste afbeeldingselement te zoeken. Selecteer het element en klik op **[!UICONTROL Select]** om het te gebruiken voor de afbeeldingscomponent.
 
-   Hier kunt u zoeken, filteren en toegang krijgen tot uw gewenste inhoudselement om aan uw marketingmiddel toe te voegen. Op deze pagina vindt u meer informatie over het gebruik van de kiezer.
+Voor meer gedetailleerde informatie over het gebruiken van beelddossiers van Experience Manager Assets, zie [ de beelden van AEM Assets van de Toegang ](./aem-assets.md#access-aem-assets-images).
 
-   >[!NOTE]
-   >
-   >Als er meer dan één opslagplaats is geconfigureerd, kunt u de repository switch gebruiken op de Asset Selector
+>[!TAB  de media van de Invoer ]
 
-1. Selecteer het element dat u in de e-mail wilt invoegen.
+Klik op **[!UICONTROL Import media]** om een afbeeldingsbestand te selecteren en te importeren als een element dat kan worden gebruikt voor Journey Optimizer B2B edition-inhoud.
+
+![ selecteer uw eigen beelddossier om als activa ](./assets/content-assets-image-import-file-selected.png){width="500" zoomable="yes"} in te voeren
+
+Klik op **[!UICONTROL Import]** nadat u het bestand hebt gesleept en neergezet of vanuit het bestandssysteem hebt geselecteerd. Het geïmporteerde element wordt opgeslagen in de Journey Optimizer B2B edition-werkruimte van de Adobe Marketo Engage Design Studio-opslagplaats.
 
 >[!ENDTABS]

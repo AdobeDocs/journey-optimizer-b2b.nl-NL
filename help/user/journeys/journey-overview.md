@@ -3,9 +3,9 @@ title: Rekeningreizen
 description: Leer meer over accountreizen en hoe u deze kunt maken en beheren.
 feature: Account Journeys
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 279bc07b90da96c3d497f67a14596a3bed308984
 workflow-type: tm+mt
-source-wordcount: '1068'
+source-wordcount: '1095'
 ht-degree: 0%
 
 ---
@@ -13,11 +13,13 @@ ht-degree: 0%
 
 # Accountreizen
 
+Bouw en voer reizen uit die voor elke het kopen groep en het kopen groepslid worden gemaakt gebruikend geautomatiseerde betrokkenheid over e-mail, SMS, gebeurtenissen, en meer. Met accountreizen kunt u de productie van vraag en het kopen van groepskwalificaties stroomlijnen en een meer gekwalificeerde vraag naar uw aankoop-, upsell- en cross-sell-programma&#39;s stimuleren.
+
 Bepaal verkoop-gedreven overeenkomst die e-mail, SMS, en meer binnenrekeningreizen omvat om binnenkomende marketing met uitgaande verkoopactiviteiten voor elk het kopen groepslid te coördineren.
 
 ## Accountreizen openen en doorbladeren
 
-1. Klik op de startpagina van Adobe Experience Platform op Adobe Journey Optimizer B2B Edition.
+1. Klik op Adobe Journey Optimizer B2B edition op de startpagina van Adobe Experience Platform.
 
 1. Klik in de linkernavigatie op **[!UICONTROL Account journeys]** .
 
@@ -54,7 +56,7 @@ De koptekst van de editor voor elke accountreis bevat:
 
 De volgende acties zijn beschikbaar in de koptekst:
 
-* **Publish** - u kunt een reis publiceren als er geen blocker fouten zijn. Wanneer gepubliceerd, verandert de status van een Reis in _Levend_. Als de rit fouten bevat, wordt de knop grijs weergegeven met de inhoudsgegevens: `Resolve errors before publishing` .
+* **Publish** - u kunt een reis publiceren als er geen blocker fouten zijn. Wanneer gepubliceerd, verandert de reisstatus in _Levend_. Als de rit fouten bevat, wordt de knop grijs weergegeven met de inhoudsgegevens: `Resolve errors before publishing` .
 * **Dupliceer** - Deze actie is gelijkaardig aan een kloonfunctie, maar de gedupliceerde reis omvat geen activa.
 * **dicht bij nieuwe ingangen** - als u een reis sluit, zetten de rekeningen momenteel in de reis hun weg in de reis voort en geen verdere reisingang kan gebeuren. Een gesloten reis kan niet opnieuw worden gestart. U kunt een gesloten reis dupliceren.
 * **verlaat** - als u een reis tegenhoudt, de rekeningen in de reis onmiddellijk hun vooruitgang tegenhouden en geen verdere reisingang kan gebeuren. Een stopreis kan niet opnieuw worden gestart. Als je nieuwe ingangen blokkeert zonder de vooruitgang van mensen tegen te houden, kun je overwegen de reis te sluiten.
@@ -86,35 +88,19 @@ Om met een rekeningreis te beginnen, creeer de reis en bouw dan de knopen en de 
 
 1. Klik op **[!UICONTROL Create]**.
 
-### Voeg het accountpubliek toe voor uw reis
-
-Een accountreis begint altijd met Accountpubliek waar u input kunt toevoegen aan uw reis.
-
-1. Klik op het knooppunt **[!UICONTROL Account audience]** om de knoopeigenschappen aan de rechterkant weer te geven.
-
-   ![ de publieksknoop van de Rekening ](./assets/account-journey-account-audience-node.png){width="700" zoomable="yes"}
-
-1. Klik op **[!UICONTROL Add account audience]**.
-
-   U kunt een publiekssegment selecteren dat eerder is geselecteerd door op _[!UICONTROL Add audiences]_te klikken.
-
-1. Als u een nieuw publiekssegment wilt maken, selecteert u **[!UICONTROL Account audiences]** in de linkernavigatie.
-
-1. Klik **[!UICONTROL Create audience]** en volg de stappen die in de [ gids van de Dienst van de Segmentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences) worden beschreven {target="_blank"}.
-
 ### Bouwstenen van een reis
 
-Het _wegcanvas_ is de centrale streek in de reisontwerper. Het is in deze streek dat u reisknopen kunt toevoegen en hen vormen. Klik op een knooppunt om het deelvenster met eigenschappen rechts van het canvas te openen en stel de eigenschappen in op basis van uw ontwerp.
+De _reiskaart_ is de centrale streek in de reisontwerper. Het is in deze streek dat u reisknopen kunt toevoegen en hen vormen. Klik op een knooppunt om het deelvenster met eigenschappen rechts van het canvas te openen en stel de eigenschappen in op basis van uw ontwerp. Een rekeningsreis begint altijd met een [ knoop van het Publiek van de Rekening ](./account-audience-nodes.md) waar u input aan uw reis kunt toevoegen.
 
-U kunt uw reis bouwen gebruikend om het even welk van deze knooptypes:
+Nadat u een reis van de rekening creeert en het publiek toevoegt, bouwt de reis uit gebruikend knopen. De reiskaart verstrekt een canvas, waar u uw multi-step B2B het marketing gebruiksgevallen kunt bouwen gebruikend de volgende knooptypes om een rekeningsreis te construeren:
 
-* [Luisteren naar een gebeurtenis](journey-nodes.md#listen-for-an-event)
-* [Handeling uitvoeren](journey-nodes.md#take-an-action)
-* [Paden splitsen](journey-nodes.md#split-paths)
-* [Wachten](journey-nodes.md#wait)
-* [Paden samenvoegen](journey-nodes.md#merge-paths)
+* [Handeling uitvoeren](./action-nodes.md)
+* [Luisteren naar een gebeurtenis](./listen-for-event-nodes.md)
+* [Paden splitsen](./split-merge-paths-nodes.md)
+* [Wachten](./wait-nodes.md)
+* [Paden samenvoegen](./split-merge-paths-nodes.md)
 
-### Garrails
+### Guardrails
 
 Om u te helpen een reis bouwen zonder in fouten te lopen, zijn de volgende veiligheidstralen op zijn plaats:
 
@@ -134,7 +120,7 @@ Om u te helpen een reis bouwen zonder in fouten te lopen, zijn de volgende veili
 
 1. Navigeer naar de reiseditor.
 
-1. In de knoopeigenschappen op het recht, klik het _Schrapping_ (trashcan) pictogram.
+1. In de knoopeigenschappen op het recht, klik _Schrapping_ ( ![ pictogram van de Schrapping ](../assets/do-not-localize/icon-delete.svg)) pictogram.
 
 1. Klik op **[!UICONTROL Delete]** in het dialoogvenster Conformatie.
 
@@ -142,7 +128,7 @@ Om u te helpen een reis bouwen zonder in fouten te lopen, zijn de volgende veili
 
 1. Navigeer naar de reiseditor.
 
-1. Klik op de plusknop ( **+** ) op het pad en voeg de gesplitste padnode toe.
+1. Klik plus ( **+**) pictogram op de weg en voeg de [ gespleten wegknoop ](./split-merge-paths-nodes.md#split-paths) toe.
 
 1. Selecteer **[!UICONTROL Account]** in de knoopeigenschappen aan de rechterkant.
 
@@ -150,9 +136,9 @@ Om u te helpen een reis bouwen zonder in fouten te lopen, zijn de volgende veili
 
    Bij elk pad dat in de rit wordt gemaakt, wordt een nieuwe padkaart weergegeven in de eigenschappen.
 
-1. Navigeer naar een van de paden in de rit en voeg actie- of gebeurtenisknooppunten toe aan dit pad met het plusteken.
+1. Navigeer aan één van de wegen in de reis en voeg [ actie ](./action-nodes.md) of [ gebeurtenis ](./listen-for-event-nodes.md) knopen aan deze weg toe gebruikend het plus pictogram.
 
-1. Selecteer de gesplitste padnode om de eigenschappen aan de rechterkant te openen.
+1. Selecteer de [ gespleten weg ](./split-merge-paths-nodes.md) knoop om de eigenschappen op het recht te openen.
 
    De paden met knooppunten kunnen niet worden verwijderd.
 
@@ -181,3 +167,7 @@ Wanneer u een reis publiceert, kan het onmiddellijk of op een geplande toekomsti
 1. Klik op **[!UICONTROL Save]**.
 
    Wanneer u klaar bent om uw reis te publiceren, kunt u deze montages herzien wanneer u _[!UICONTROL Publish]_klikt.
+
+### Publish: een rekeningreis
+
+

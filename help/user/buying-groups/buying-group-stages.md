@@ -2,9 +2,10 @@
 title: Groepsfasen kopen
 description: Leer over het kopen van groepsstadia en hoe u hen voor het volgen van reisvooruitgang tegen verkoopdoelstellingen kunt bepalen.
 feature: Buying Groups, Account Journeys
-source-git-commit: 42d73cd2c1ead771205e5fdf188088fce7ca6f21
+exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
+source-git-commit: 3336a09a58d4c68418ffa1563b6c4c65097e1a49
 workflow-type: tm+mt
-source-wordcount: '2048'
+source-wordcount: '2075'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 De het kopen groepsstadia worden ontworpen om de vooruitgang van het kopen van groepen in het omzetten van kansen in klanten te volgen. Gebruik deze functie om de voortgang van de inkoopgroep te volgen en de volgende beste acties voor het kopen van groepsleden te identificeren.
 
-Definieer de fasen in één staging-model, waarbij u meerdere fasen definieert en de overgangsstroom tussen de fasen definieert. Een of meer fasen zijn bedoeld om in de levenscyclus te worden binnengebracht. Het model maakt ook niet-lineaire progressie mogelijk, waarbij u overgangen van de ene naar de andere fase kunt opgeven, zoals van fase A naar fase B, C of D. Er moet één fase worden aangewezen als de succesfase, zoals een aankoop of een ondertekend contract. Het is facultatief dat een andere fase als mislukkingsfase, zoals een verworpen contract of aankoop van een concurrerende oplossing van een andere verkoper wordt aangewezen.<!-- This is achieved through intelligent dashboards that show how buying groups are progressing in terms of completing a sale opportunity or converting an opportunity into a customer. -->
+Definieer de fasen in één staging-model, waarbij u meerdere fasen definieert en de overgangsstroom tussen de fasen definieert. Een of meer fasen zijn bedoeld om in de levenscyclus te worden binnengebracht. Het model maakt ook niet-lineaire progressie mogelijk, waarbij u overgangen van de ene naar de andere fase kunt opgeven, zoals van fase A naar fase B, C of D. Er moet één fase worden aangewezen als de succesfase, zoals een aankoop of een ondertekend contract. Het is facultatief dat een andere fase als een mislukkingsfase wordt aangewezen, zoals een afgewezen contract of de aankoop van een concurrerende oplossing van een andere verkoper. Dit wordt bereikt door [ intelligente dashboards ](../dashboards/intelligent-dashboard.md) die tonen hoe het kopen groepen in termen van het voltooien van een verkoopkans of het omzetten van een kans in een klant vooruitgaat.
 
 ![ het Kopen van de groepsstadia voorbeeld ](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
 

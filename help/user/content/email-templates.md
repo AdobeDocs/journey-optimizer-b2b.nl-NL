@@ -1,11 +1,11 @@
 ---
 title: E-mailsjablonen
-description: Leer hoe u e-mailsjablonen beheert en maakt die u kunt gebruiken om gemakkelijk en efficiënt e-mails over een accountreis te maken.
+description: Leer hoe u e-mailsjablonen beheert en maakt die worden gebruikt om gemakkelijk en efficiënt e-mails over een accountreis te maken.
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 10f8f254f49bb5dfb498758a4f39b23112c123a0
+source-git-commit: 81c2f7be29e3fdb0b279a2ec8b786e4cf68596da
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1266'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Voor een versnelde en verbeterde ontwerpprocedure kunt u zelfstandige e-mailsjab
 
 Ga naar de linkernavigatie en klik op **[!UICONTROL Content Management]** > **[!UICONTROL Templates]** om e-mailsjablonen te openen in Adobe Journey Optimizer B2B edition. Met deze handeling wordt een aanbiedingspagina geopend met alle e-mailsjablonen die zijn gemaakt in het exemplaar dat in een tabel wordt vermeld.
 
-De tabel wordt gesorteerd op de kolom _[!UICONTROL Modified]_. Standaard staan de laatst bijgewerkte sjablonen boven aan de lijst. Klik op de kolomtitel om te schakelen tussen oplopend en aflopend.
+De tabel wordt standaard gesorteerd op de kolom _[!UICONTROL Modified]_, met de laatst bijgewerkte sjablonen bovenaan. Klik op de kolomtitel om te schakelen tussen oplopend en aflopend.
 
 Als u naar een sjabloon op naam wilt zoeken, voert u een tekstreeks in de zoekbalk in. Klik het _pictogram van de Filter_ bij de bovenkant verlaten om de lijst volgens verwezenlijking of wijzigingsdata, en malplaatjes te filtreren die u hebt gecreeerd of gewijzigd.
 
@@ -26,7 +26,7 @@ Als u naar een sjabloon op naam wilt zoeken, voert u een tekstreeks in de zoekba
 
 Pas de kolommen aan die u in de lijst wilt tonen door _te klikken aanpassen lijst_ pictogram op het hoogste recht. Selecteer de kolommen die u wilt weergeven en klik op **[!UICONTROL Apply]** .
 
-Vanaf de aanbiedingspagina kun je de in de volgende secties beschreven acties uitvoeren.
+Vanuit de weergegeven lijst met sjablonen kunt u de in de volgende secties beschreven handelingen uitvoeren.
 
 ## Een e-mailsjabloon maken
 
@@ -35,12 +35,6 @@ U kunt een e-mailsjabloon maken op basis van de pagina met e-mailsjablonen door 
 1. Voer in het dialoogvenster een handige **[!UICONTROL Name]** en **[!UICONTROL Description]** (optioneel) in.
 
    ![ ga aanvankelijke eigenschappen voor het nieuwe e-mailmalplaatje ](./assets/templates-create-dialog.png){width="400"} in
-
-1. Stel het beginpunt in **[!UICONTROL Image source]** .
-
-   Als u een abonnement op Experience Manager Assets as a Cloud Service hebt samen met de standaard Adobe Marketo Engage Design Studio, kunt u afbeeldingselementen kiezen uit een van beide bronnen. U doet dit door de afbeeldingsbron te selecteren op het moment dat u het bestand maakt voor een e-mailsjabloon of een visueel fragment. U kunt de afbeeldingsbron echter ook selecteren wanneer u de inhoud bewerkt.
-
-   Voor meer informatie over beeldbronnen, zie [ Assets ](./assets-overview.md).
 
 1. Klik op **[!UICONTROL Create]**.
 
@@ -94,7 +88,7 @@ Klik in de pagina Sjablonen op de naam van een e-mailsjabloon om de pagina met d
 
 * Als er actieve waarschuwingen zijn (fouten en waarschuwingen voor de e-mailsjabloon), klikt u op **[!UICONTROL Alerts]** rechtsboven om de informatie weer te geven.
 
-  Hoewel deze waarschuwingen het gebruik van de e-mailsjabloon voor het maken van e-mailberichten niet verbieden, biedt deze informatie de marketers in uw team inzicht in wat mogelijk niet werkt en de vereiste updates voordat deze voor levering kunnen worden gebruikt.
+  Deze waarschuwingen staan het gebruik van de e-mailsjabloon voor het maken van e-mail niet toe. De informatie verstrekt zicht voor marketers op uw team over wat niet en de vereiste updates zou kunnen werken alvorens het voor levering kan worden gebruikt.
 
 ## E-mailsjabloon weergeven die wordt gebruikt door verwijzingen
 
@@ -115,7 +109,7 @@ Deze actie kan worden uitgevoerd op:
 * De detailpagina - klik **[!UICONTROL Edit email template]**.
 * De lijstpagina - klik de ellips (**...**) naast een e-mailmalplaatje en kies **[!UICONTROL Edit]**.
 
-Deze actie neemt u aan het _Ontwerp uw malplaatje_ pagina of de visuele pagina van de inhoudsredacteur die op het laatste bewaarde statuut van het e-mailmalplaatje wordt gebaseerd. Vanaf hier kunt u de inhoud van uw e-mailsjabloon naar wens bewerken. Zie [ E-mailmalplaatjes ](#create-email-templates) voor informatie over de het uitgeven opties creëren.
+Deze actie neemt u aan het _Ontwerp uw malplaatje_ pagina of de visuele pagina van de inhoudsredacteur (die op de laatste opgeslagen status van het e-mailmalplaatje wordt gebaseerd). Vanaf hier kunt u de inhoud van uw e-mailsjabloon naar wens bewerken. Zie [ E-mailmalplaatjes ](#create-email-templates) voor informatie over de het uitgeven opties creëren.
 
 ## E-mailsjablonen dupliceren
 
@@ -150,7 +144,7 @@ Selecteer meerdere sjablonen tegelijk in de aanbiedingspagina van e-mailsjablone
 
 **[!UICONTROL Delete]** — U kunt maximaal 20 sjablonen tegelijk verwijderen. In een bevestigingsvenster kunt u de handeling afbreken of bevestigen dat de sjablonen zijn verwijderd.
 
-## Een e-mail ontwerpen op basis van een opgeslagen sjabloon
+## Een e-mail vanuit een opgeslagen sjabloon maken
 
 Van _creeer uw e-mail_ scherm, gebruik _Uitgezochte ontwerpmalplaatje_ sectie beginnen uw inhoud van een malplaatje te bouwen.
 

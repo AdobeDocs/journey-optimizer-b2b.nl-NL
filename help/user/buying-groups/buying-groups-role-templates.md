@@ -3,9 +3,9 @@ title: Rolsjablonen voor inkoopgroep
 description: Meer informatie over het definiëren van een rolsjabloon die moet worden gebruikt als onderdeel van een inkoopgroep.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 492c4f5c326624e1713fb12289826c530384686a
+source-git-commit: 3ce0b2722e56ef46b84a55f097cd1e8a9d39ceb5
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '1057'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,14 @@ Op een B2B-markt worden aankoopbeslissingen meestal door meerdere personen genom
 
 Nadat u het malplaatje creeert, opent het in de werkruimte en u wordt ertoe aangezet om de rollen te bepalen. De eerste rolkaart wordt standaard weergegeven.
 
+Elke rol die u voor het malplaatje bepaalt gebruikt een reeks filters, of _voorwaarden_, om de leden te bepalen die aan de rol worden toegewezen. Gebruik de volgende filtertypen om de voorwaarden voor een rol te definiëren:
+
+| Type | Voorwaarde |
+| ---- | --------- |
+| Persoonskenmerken | <li>E-mailadres <li>E-mail is ongeldig <li>E-mail is geschorst <li>Fax <li>Voornaam <li>Overgenomen deelstaatgebied <li>Functie <li>Achternaam <li>Tweede voornaam <li>Mobiel telefoonnummer <li>Telefoonnummer <li>Postcode <li>Staat <li>Niet geabonneerd <li>Reden waarop geen abonnement is genomen |
+| Speciale filters | <li>Lid van de lijst |
+| Intentgegevens | Categorie-intentie <li>Productintentie <li>De intentie van het sleutelwoord <br/>[ leert over intentgegevens ](../admin/intent-data.md). |
+
 1. Voor de eerste rolkaart, bepaal de roleigenschappen.
 
    * Kies de **[!UICONTROL Buying group role]** in de lijst.
@@ -102,6 +110,16 @@ Nadat u het malplaatje creeert, opent het in de werkruimte en u wordt ertoe aang
 1. Voor elke aanvullende rol die u voor de sjabloon wilt opnemen, klikt u op **[!UICONTROL Add another role]** en herhaalt u stap 1 en 2 om de rol te definiëren.
 
    ![ het malplaatje van Rollen met veelvoudige bepaalde rollen ](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
+
+>[!BEGINSHADEBOX  het &quot;lidmaatschap van de lijst van Marketo&#39;s Engage&quot;]
+
+In Marketo Engage, _Slimme Campagnes_ controlelidmaatschap van programma&#39;s om ervoor te zorgen dat de leads geen dubbele e-mail ontvangen en geen leden van veelvoudige stromen van e-mails tezelfdertijd zijn. In Journey Optimizer B2B kunt u controleren op lidmaatschap van een lijst met Marketo&#39;s Engage als voorwaarde voor uw rolsjabloon om te helpen bij het voorkomen van dubbele aanschaf van groepslidmaatschap en reisactiviteiten.
+
+Vouw **[!UICONTROL Special Filters]** uit en sleep de voorwaarde **[!UICONTROL Member of List]** naar de filterruimte als u een lijstlidmaatschap als rolvoorwaarde wilt gebruiken. Voltooi vervolgens de filterdefinitie om het lidmaatschap in een of meer lijsten met Marketo&#39;s Engage te evalueren.
+
+![ het malplaatjevoorwaarde van Rollen voor het lidmaatschap van de lijst van Marketo&#39;s Engage ](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
+
+>[!ENDSHADEBOX]
 
 Uw veranderingen worden auto-bewaard in de _status van het Ontwerp_. Als u niet bereid bent om het rolmalplaatje te publiceren, klik de linker (rug) pijl bij de bovenkant van de pagina en terugkeer aan de _[!UICONTROL Roles templates]_lijst.
 

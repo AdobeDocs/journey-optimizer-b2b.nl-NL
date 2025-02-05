@@ -1,16 +1,16 @@
 ---
 title: Inhoud ontwerpen - personalisatie
 description: Geherbruikte sectie over het gebruiken van verpersoonlijking voor inhoudcreatie
-source-git-commit: 0a9c05ac2ddd95e1fa5321f44f5cbe8cfa595007
+source-git-commit: 3791beb98068a56882bb0a96fbc6b192e85130bb
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '134'
 ht-degree: 1%
 
 ---
 
 # Inhoud ontwerpen - personalisatie
 
-Journey Optimizer B2B Edition gebruikt een inline eenvoudige syntaxis waarmee u expressies kunt maken met gepersonaliseerde inhoud die wordt ingesloten door dubbele accolades `{}` . U kunt meerdere expressies zonder beperkingen toevoegen in dezelfde inhoud of hetzelfde veld.
+Journey Optimizer B2B edition gebruikt een inline eenvoudige syntaxis waarmee u expressies kunt maken met gepersonaliseerde inhoud die wordt ingesloten door dubbele accolades `{}` . U kunt meerdere expressies zonder beperkingen toevoegen in dezelfde inhoud of hetzelfde veld.
 
 Voorbeelden:
 
@@ -18,7 +18,7 @@ Voorbeelden:
 
 * `Hello {{profile.person.name.fullName}}`
 
-Bij het verwerken van het bericht (e-mail en SMS) vervangt Journey Optimizer B2B Edition de expressie door de gegevens in de database van het Experience Platform. Zo, wordt het eerste voorbeeld _Sint Smit van Hello_.
+Bij het verwerken van de inhoud vervangt Journey Optimizer B2B edition de expressie door de gegevens in de database van het Experience Platform. Zo, wordt het eerste voorbeeld _Sint Smit van Hello_.
 
 In het volgende voorbeeld worden stappen beschreven voor het aanpassen van inhoud met behulp van lood-/accountkenmerken en systeemtokens.
 

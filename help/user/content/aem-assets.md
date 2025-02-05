@@ -1,64 +1,62 @@
 ---
 title: Werken met Experience Manager Assets
-description: Leer hoe u afbeeldingselementen van een verbonden AEM Assets-opslagplaats kunt gebruiken bij het ontwerpen van inhoud in Adobe Journey Optimizer B2B Edition.
+description: Leer hoe u afbeeldingselementen van een verbonden AEM Assets-opslagplaats kunt gebruiken bij het ontwerpen van inhoud in Adobe Journey Optimizer B2B edition.
 feature: Assets, Content
 exl-id: c6864981-209c-4123-8d3f-24deb07026a0
-source-git-commit: 7103e4f6666482a72511661dfaed1392d4eb16b1
+source-git-commit: 728d5316cfdeee92bd4f67277d299bbec2773a4f
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
 
 # Werken met Experience Manager-elementen
 
-Wanneer Adobe Experience Manager Assets as a Cloud Service is geïntegreerd met Adobe Journey Optimizer B2B Edition, kunt u eenvoudig digitale middelen vinden en openen voor gebruik in uw marketinginhoud. Terwijl u de inhoud ontwerpt, zijn de elementen toegankelijk via het _[!UICONTROL Assets]_-item in de linkernavigatie en wanneer u e-mailinhoud ontwerpt voor een accountreis. U kunt ook rechtstreeks vanuit Adobe Journey Optimizer B2B Edition middelen uploaden naar een aangesloten AEM Assets as a Cloud Service-opslagplaats.
+Wanneer Adobe Experience Manager Assets as a Cloud Service is geïntegreerd met Adobe Journey Optimizer B2B edition, kunt u eenvoudig digitale middelen vinden en openen voor gebruik in uw marketinginhoud. Aangezien u uw inhoud ontwerpt, zijn de activa toegankelijk van het _Experience Manager Assets_ punt op de linkernavigatie, en wanneer het ontwerpen van e-mailinhoud voor een rekeningsreis.
 
->[!NOTE]
->
->Momenteel worden alleen afbeeldingselementen van Adobe Experience Manager Assets ondersteund in Adobe Journey Optimizer B2B Edition. Wijzigingen in de activa moeten worden aangebracht vanuit de centrale gegevensbank van Adobe Experience Manager Assets. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets)
+{{aem-assets-licensing-note}}
 
 Als u deze digitale elementen gebruikt, worden de meest recente wijzigingen in Assets as a Cloud Service automatisch doorgegeven aan live e-mailcampagnes via gekoppelde verwijzingen. Als afbeeldingen worden verwijderd in Adobe Experience Manager Assets as a Cloud Service, worden de afbeeldingen weergegeven met een verbroken verwijzing in de e-mails. Wanneer de activa die momenteel binnen rekeningreizen worden gebruikt worden gewijzigd of geschrapt, worden de reisauteurs op de hoogte gebracht van de beeldveranderingen en de lijst van reizen die het beeld gebruiken. Alle wijzigingen in de activa moeten plaatsvinden in de centrale gegevensbank van Adobe Experience Manager Assets.
 
-## AEM Assets gebruiken als afbeeldingsbron
-
-Als uw milieu één of meerdere [ de bewaarplaatsen van Assets verbindingen ](../admin/configure-aem-repositories.md) heeft, kunt u AEM Assets als bron voor activa aanwijzen wanneer u creeert of details voor een e-mail, e-mailmalplaatje, of visueel fragment bekijkt.
-
-* Wanneer u nieuwe inhoud maakt, kiest u `AEM Assets` als het **[!UICONTROL Image Source]** -item in het dialoogvenster.
-
-  ![ Uitgezochte AEM Assets als beeldbron in creeer dialoog ](./assets/create-dialog-aem-assets.png){width="400"}
-
-* Wanneer u een bestaande inhoudsbron opent, kiest u `AEM Assets` in het _[!UICONTROL Body]_-deelvenster aan de rechterkant.
-
-  ![ Uitgezochte AEM Assets als beeldbron in de eigenschappen ](./assets/content-source-aem-assets.png){width="700" zoomable="yes"}
-
-## Elementen openen voor ontwerpen
+Wanneer uw milieu één of meerdere [ Assets bewaart verbindingen ](../admin/configure-aem-repositories.md) heeft, kunnen de inhoudsauteurs AEM Assets als bron voor activa gebruiken wanneer het creëren van een e-mail, e-mailmalplaatje, of visueel fragment.
 
 >[!IMPORTANT]
 >
 >Een beheerder moet gebruikers die toegang tot Assets nodig hebben, toevoegen aan de profielen Assets Consumer Users of/and Assets Users Product. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console)
 
-In de visuele inhoudsredacteur, klik het _selecteur van Activa_ pictogram in linkerzijbalk. Hiermee wijzigt u het deelvenster Gereedschappen in een lijst met beschikbare middelen in de geselecteerde opslagplaats.
+## AEM Assets-afbeeldingen openen
+
+In de visuele inhoudsredacteur, klik het _Experience Manager Assets_ ( ![ het pictogram van Experience Manager Assets ](../../assets/do-not-localize/icon-assets-aem.svg)) pictogram in linkerzijbalk. Hiermee wijzigt u het deelvenster Gereedschappen in een lijst met beschikbare middelen in de geselecteerde opslagplaats.
 
 ![ klik het de selecteurspictogram van Assets om tot de beeldactiva ](./assets/content-assets-selector-aem-assets.png){width="700" zoomable="yes"} toegang te hebben
 
-Als u meer dan één aangesloten AEM opslagplaatsen hebt, klikt u op de menupijl voor **[!UICONTROL Repository]** om de opslagplaats te kiezen die u wilt gebruiken.
+>[!NOTE]
+>
+>Momenteel worden alleen afbeeldingselementen van Adobe Experience Manager Assets ondersteund in Adobe Journey Optimizer B2B edition. Wijzigingen in de activa moeten worden aangebracht vanuit de centrale gegevensbank van Adobe Experience Manager Assets. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets)
+
+### De weergegeven opslagplaats wijzigen
+
+Als u meer dan één aangesloten AEM opslagplaats hebt, klikt u op de menupijl voor **[!UICONTROL Repository]** om de opslagplaats te kiezen die u in het linkerpaneel wilt weergeven.
 
 ![ kies een bewaarplaats van AEM Assets om tot de beeldactiva ](./assets/content-assets-selector-aem-repo.png){width="700" zoomable="yes"} toegang te hebben
 
-Er zijn meerdere methoden om een afbeeldingselement toe te voegen aan het visuele canvas:
+Er zijn meerdere methoden om een afbeeldingselement toe te voegen aan het visuele canvas.
 
-* Sleep een afbeeldingsminiatuur vanuit de linkernavigatie en zet deze neer.
+### Een afbeelding slepen en neerzetten
 
-  ![ kies een bewaarplaats van AEM Assets om tot de beeldactiva ](./assets/content-drag-drop-image-aem-assets.png){width="700" zoomable="yes"} toegang te hebben
+1. Blader door de miniaturen van de afbeelding die in het linkerdeelvenster worden weergegeven.
 
-* Voeg een afbeeldingscomponent toe aan het canvas en klik op **[!UICONTROL Browse]** om het dialoogvenster _[!UICONTROL Select Assets]_te openen.
+1. Sleep de miniatuur van de afbeelding en zet deze neer op het canvas waar u de nieuwe afbeeldingscomponent wilt toevoegen.
 
-  In het dialoogvenster kunt u een afbeelding kiezen in de geselecteerde opslagplaats.
+   ![ belemmering en laat vallen een beeldactiva ](./assets/content-drag-drop-image-aem-assets.png){width="700" zoomable="yes"}
 
-  Er zijn meerdere gereedschappen beschikbaar om u te helpen de middelen te vinden die u nodig hebt.
+## Een afbeelding zoeken en selecteren
 
-  ![ gebruikshulpmiddel in de Uitgezochte dialoog van Assets om een beeldactiva ](./assets/content-select-assets-dialog-aem.png){width="700" zoomable="yes"} te vinden en te selecteren
+1. Voeg een afbeeldingscomponent toe aan het canvas en klik op **[!UICONTROL Experience Manager Assets]** om het dialoogvenster _[!UICONTROL Select Assets]_te openen.
+
+   ![ selecteer een activa voor de beeldcomponent ](./assets/content-image-component-empty.png){width="600" zoomable="yes"}
+
+1. Kies in het dialoogvenster een afbeelding met de beschikbare gereedschappen om te zoeken naar het element dat u nodig hebt:
 
    * Wijzig de **[!UICONTROL Repository]** rechtsboven.
 
@@ -68,15 +66,19 @@ Er zijn meerdere methoden om een afbeeldingselement toe te voegen aan het visuel
 
    * Klik het _pictogram van de Sorteervolgorde_ om de sorteervolgorde tussen het stijgen en het dalen te veranderen.
 
+     ![ hulpmiddelen van het Gebruik in de Uitgezochte dialoog van Assets om een beeldactiva ](./assets/content-select-assets-dialog-aem.png){width="700" zoomable="yes"} te vinden en te selecteren
+
    * Klik op de menupijl **[!UICONTROL Sort by]** om de sorteercriteria te wijzigen in **[!UICONTROL Name]** , **[!UICONTROL Size]** of **[!UICONTROL Modified]** .
 
    * Klik het _pictogram van de Filter_ op de bovenkant verlaten om de getoonde punten volgens uw criteria te filtreren.
 
    * Typ tekst in het veld Zoeken om de weergegeven items te filteren op een overeenkomst met de elementnaam.
 
-  ![ Gebruik de filters en het onderzoeksgebied om van de activa ](./assets/content-select-assets-dialog-aem-filter.png){width="700" zoomable="yes"} de plaats te bepalen
+   ![ Gebruik de filters en het onderzoeksgebied om van de activa ](./assets/content-select-assets-dialog-aem-filter.png){width="700" zoomable="yes"} de plaats te bepalen
 
+1. Klik op **[!UICONTROL Select]**.
 <!-- 
+
 ## Upload assets
 
 To import files to Assets as a Cloud Service, you first need to browse or create the folder to be used for storage. You can then import an asset and add it to your email content. After assets are uploaded, you can [use the image assets as you author content](./assets-overview.md#add-assets-to-your-content).
@@ -94,5 +96,4 @@ To import files to Assets as a Cloud Service, you first need to browse or create
    You can also click the **[!UICONTROL Select a file from your computer]** link and use your file system to locate and select the image file. Click Open and the image file is displayed in the box.
 
 1. Click **[!UICONTROL Import]**.
-
 -->

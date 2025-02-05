@@ -1,18 +1,18 @@
 ---
 title: Fragmenten
-description: Leer hoe u visuele inhoudsfragmenten maakt en gebruikt als herbruikbare onderdelen voor e-mails en e-mailsjablonen in Adobe Journey Optimizer B2B Edition.
+description: Leer hoe u in Adobe Journey Optimizer B2B edition fragmenten van visuele inhoud maakt en gebruikt als herbruikbare onderdelen voor e-mails en e-mailsjablonen.
 feature: Content, Email Authoring
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: d0bf71dd1503d824391df7d7a7c59e3c2c925f03
+source-git-commit: cd65d568c68f2f4ed85e1612a8f91d8343c9e2be
 workflow-type: tm+mt
-source-wordcount: '2594'
+source-wordcount: '2586'
 ht-degree: 0%
 
 ---
 
 # Fragmenten
 
-Een fragment is een herbruikbare component waarnaar in een of meer e-mailsjablonen in Adobe Journey Optimizer B2B Edition kan worden verwezen. Het is doorgaans een blok inhoud (tekst, afbeelding of beide) dat u vooraf kunt maken en snel kunt invoegen in een e-mailsjabloon. Met deze functionaliteit kunt u meerdere aangepaste inhoudsblokken vooraf samenstellen voor gebruik door uw leden van uw marketingteam om e-mailinhoud samen te stellen voor een verbeterd ontwerpproces. Veelvoorkomende gebruiksgevallen zijn inhoudsblokken voor kop- en voetteksten voor e-mail, uitnodigingsbanners voor gebeurtenissen en seizoensgebonden begroetingen.
+Een fragment is een herbruikbare component waarnaar in een of meer e-mailsjablonen in Adobe Journey Optimizer B2B edition kan worden verwezen. Het is doorgaans een blok inhoud (tekst, afbeelding of beide) dat u vooraf kunt maken en snel kunt invoegen in een e-mailsjabloon. Met deze functionaliteit kunt u meerdere aangepaste inhoudsblokken vooraf samenstellen voor gebruik door uw leden van uw marketingteam om e-mailinhoud samen te stellen voor een verbeterd ontwerpproces. Veelvoorkomende gebruiksgevallen zijn inhoudsblokken voor kop- en voetteksten voor e-mail, uitnodigingsbanners voor gebeurtenissen en seizoensgebonden begroetingen.
 
 U kunt zo veel mogelijk gebruikmaken van fragmenten in uw workflows:
 
@@ -21,11 +21,11 @@ U kunt zo veel mogelijk gebruikmaken van fragmenten in uw workflows:
 
 ## Visuele fragmenten
 
-Visuele fragmenten zijn vooraf gedefinieerde visuele blokken die zijn gemaakt met de visuele inhoudeditor die u kunt hergebruiken in meerdere e-mails of e-mailsjablonen. Het huidige bereik van Journey Optimizer B2B Edition en deze documentatie zijn alleen van visuele fragmenten. Op expressie gebaseerde fragmenten worden nog niet ondersteund in Journey Optimizer B2B Edition.
+Visuele fragmenten zijn vooraf gedefinieerde visuele blokken die zijn gemaakt met de visuele inhoudeditor die u kunt hergebruiken in meerdere e-mails of e-mailsjablonen. Het huidige bereik van Journey Optimizer B2B edition en deze documentatie zijn alleen die van visuele fragmenten. Op expressie gebaseerde fragmenten worden nog niet ondersteund in Journey Optimizer B2B edition.
 
 ## Fragmenten openen en beheren
 
-Ga naar de linkernavigatie en klik op **[!UICONTROL Content Management]** > **[!UICONTROL Fragments]** om visuele fragmenten te openen in Adobe Journey Optimizer B2B Edition. Met deze actie opent u een pagina met lijsten met alle fragmenten die in de instantie in een tabel zijn gemaakt.
+Ga naar de linkernavigatie en klik op **[!UICONTROL Content Management]** > **[!UICONTROL Fragments]** om visuele fragmenten te openen in Adobe Journey Optimizer B2B edition. Met deze actie opent u een pagina met lijsten met alle fragmenten die in de instantie in een tabel zijn gemaakt.
 
 ![ heb toegang tot de fragmentbibliotheek ](./assets/fragments-list.png){width="700" zoomable="yes"}
 
@@ -45,7 +45,7 @@ De fragmentstatus bepaalt de beschikbaarheid voor gebruik in een e-mail- of e-ma
 
 >[!IMPORTANT]
 >
->Fragmentstatus is geïntroduceerd in de Journey Optimizer B2B Edition-release van augustus. Alle fragmenten die vóór deze versie worden gecreeerd hebben de _status van het Ontwerp_, zelfs als zij in een e-mail of een malplaatje worden gebruikt. Als u wijzigingen aanbrengt in deze fragmenten, moet u het fragment publiceren om de wijzigingen door te geven.
+>Fragmentstatus is geïntroduceerd in de Journey Optimizer B2B edition Augustus release. Alle fragmenten die vóór deze versie worden gecreeerd hebben de _status van het Ontwerp_, zelfs als zij in een e-mail of een malplaatje worden gebruikt. Als u wijzigingen aanbrengt in deze fragmenten, moet u het fragment publiceren om de wijzigingen door te geven.
 
 ### De lijst met fragmenten filteren
 
@@ -63,7 +63,7 @@ Selecteer in het dialoogvenster de kolommen die u wilt weergeven en klik op **[!
 
 ## Fragmenten maken
 
-U kunt nieuwe visuele fragmenten maken in Journey Optimizer B2B Edition door op **[!UICONTROL Create fragment]** rechtsboven te klikken.
+U kunt nieuwe visuele fragmenten maken in Journey Optimizer B2B edition door op **[!UICONTROL Create fragment]** rechtsboven te klikken.
 
 1. Voer in het dialoogvenster _[!UICONTROL Create fragment]_een handige **[!UICONTROL Name]**en **[!UICONTROL Description]**(optioneel) in.
 
@@ -141,13 +141,13 @@ Ga de mening op elk ogenblik weg door de _Achter_ pijl bij de hoogste linkerzijd
 
 ## Fragment weergeven dat wordt gebruikt door verwijzingen
 
-Klik op het tabblad **[!UICONTROL Used By]** op de pagina met fragmentdetails om details weer te geven over waar het fragment momenteel wordt gebruikt in Journey Optimizer B2B Edition, in e-mails, e-mailsjablonen en fragmenten.
+Klik op het tabblad **[!UICONTROL Used By]** op de pagina met fragmentdetails om details weer te geven over waar het fragment momenteel wordt gebruikt in Journey Optimizer B2B edition, in e-mails, e-mailsjablonen en fragmenten.
 
 >[!IMPORTANT]
 >
 >Elk fragment dat momenteel wordt gebruikt door een e-mailsjabloon of e-mailsjabloon, kan niet worden verwijderd.
 
-De verwijzingen worden getoond volgens categorie: _E-mail_ of _E-mailmalplaatje_. E-mails in Journey Optimizer B2B Edition worden ingesloten en geschreven binnen accountreizen, zodat de bovenliggende reis van de e-mail die het fragment gebruikt, in verwijzingen wordt weergegeven.
+De verwijzingen worden getoond volgens categorie: _E-mail_ of _E-mailmalplaatje_. E-mails in Journey Optimizer B2B edition worden ingesloten en geschreven binnen accountreizen. De bovenliggende reis van de e-mail die het fragment gebruikt, wordt daarom weergegeven in verwijzingen.
 
 ![ Gebruikt door verwijzingen voor het fragment ](./assets/fragment-used-by-published.png){width="600" zoomable="yes"}
 
@@ -216,7 +216,7 @@ Bewerkingen aan een fragment zijn afhankelijk van de huidige status:
 
 1. Als u de inhoud wilt bijwerken, klikt u op **[!UICONTROL Create draft version]** rechtsboven.
 
-   Klik op **[!UICONTROL OK]** in het dialoogvenster om de conceptversie te openen in de visuele ontwerper. U kunt de [ beeldbron ](./assets-overview.md#choose-an-asset-source) veranderen indien nodig.
+   Klik op **[!UICONTROL OK]** in het dialoogvenster om de conceptversie te openen in de visuele ontwerper.
 
    ![ creeer de dialoog van de ontwerp versie ](./assets/fragments-create-draft-version.png){width="300"}
 

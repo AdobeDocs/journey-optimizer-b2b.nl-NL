@@ -3,16 +3,16 @@ title: Werken met Marketo Engage Assets
 description: Leer over het gebruiken van de Marketo Engage Design Studio integratie van het activabeheer in Journey Optimizer B2B edition.
 feature: Assets, Content
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: 80df6ffd84a51b9df0fbeab321cb2197f610a048
+source-git-commit: bfa6cc84c3c8757146b70933b91b53337203eb5d
 workflow-type: tm+mt
-source-wordcount: '1887'
+source-wordcount: '1896'
 ht-degree: 0%
 
 ---
 
 # Werken met Marketo&#39;s Engage
 
-Marketo Engage Design Studio is de standaardbron van middelen voor Journey Optimizer B2B edition, en u kunt de beschikbare middelen in inhoud voor uw rekeningsreizen gemakkelijk beheren en gebruiken.
+Marketo Engage Design Studio is de standaardbron van middelen voor Journey Optimizer B2B edition en u kunt de beschikbare middelen gemakkelijk beheren en gebruiken om inhoud te ontwerpen die uw rekeningsreizen steunt.
 
 In Marketo Engage, gebruiken de marketing organisaties werkruimten om hun inhoudsactiva te organiseren en teams te helpen om tot de correcte activa toegang te hebben. Goed gedefinieerde werkruimten zijn vooral handig voor grote bedrijven met een groot aanbod aan producten of die wereldwijd met verschillende vereisten voor marketing naar verschillende regio&#39;s werken.
 
@@ -20,15 +20,16 @@ In Marketo Engage, gebruiken de marketing organisaties werkruimten om hun inhoud
 
 Standaard is er een **_[!UICONTROL Journey Optimizer B2B Edition]_** -werkruimte die u specifiek kunt gebruiken voor de inhoud van uw accountreis. De elementen die u toevoegt aan deze werkruimte zijn niet zichtbaar of zijn niet beschikbaar voor gebruik in het Marketo Engage. Voor elementen die zich in deze werkruimte bevinden, beschikt u over alle functies voor middelenbeheer in Journey Optimizer B2B edition. Deze functies omvatten:
 
-* Vervangen
-* Verwijderen
-* Verplaatsen
+* [Vervangen](#replace-assets)
+* [Verwijderen](#delete-assets)
+* [Verplaatsen](#create-a-folder)
+* [Bewerken met Adobe Express](./image-edit-adobe-express.md)
 
 Assets dat zich in de werkruimten van het Marketo Engage bevindt, is beperkt tot alleen-lezen toegang voor gebruik in e-mails, e-mailsjablonen en fragmenten. U kunt nieuwe elementen toevoegen aan deze werkruimten en een kopie van een element downloaden.
 
 ## Bladeren en toegang krijgen tot elementen
 
-Ga naar de linkernavigatie en klik op **[!UICONTROL Content Management]** > **[!UICONTROL Assets]** om Adobe Marketo Engage-elementen vanuit Journey Optimizer B2B edition te openen. Met deze handeling wordt een aanbiedingspagina geopend met alle vermelde elementen.
+Ga naar de linkernavigatie en klik op **[!UICONTROL Content Management]** > **[!UICONTROL Assets]** om Adobe Marketo Engage-elementen van Journey Optimizer B2B edition te openen. Met deze handeling wordt een aanbiedingspagina geopend met alle vermelde elementen.
 
 ![ doorblader de activa van het Marketo Engage ](assets/assets-list-page.png){width="800" zoomable="yes"}
 
@@ -66,7 +67,7 @@ Als u op de koppeling klikt, wordt u naar het bijbehorende e-mailbericht, de bij
 
 ## Elementen toevoegen
 
-Vanuit de Assets-lijstpagina kunt u afbeeldingselementen toevoegen aan de Journey Optimizer B2B edition-werkruimte of een Marketo Engage-werkruimte.
+Van de _Assets_ lijstpagina, kunt u beeldactiva aan de werkruimte van Journey Optimizer B2B edition of een werkruimte van het Marketo Engage toevoegen.
 
 1. Klik op **[!UICONTROL Add Assets]** rechtsboven.
 
@@ -126,7 +127,7 @@ Sleep het vervangende bestand van uw systeem naar het bestandsvak in het dialoog
 
 Klik op **[!UICONTROL Replace]** om door te gaan. U kunt het proces afbreken door op **[!UICONTROL Cancel]** te klikken.
 
-Als het te vervangen bestand momenteel in gebruik is, wordt in een informatiedialoogvenster gemeld dat het nieuwe afbeeldingsbestand de afbeelding vervangt op alle plaatsen waar het wordt gebruikt (e-mails, e-mailsjablonen en fragmenten).
+Als het te vervangen bestand in gebruik is, wordt in een informatiedialoogvenster gemeld dat het nieuwe afbeeldingsbestand de afbeelding vervangt op alle plaatsen waar deze wordt gebruikt (e-mails, e-mailsjablonen en fragmenten).
 
 ## Elementen downloaden
 
@@ -154,7 +155,7 @@ U kunt de volgende bulkacties uitvoeren voor geselecteerde elementen die zich in
 
 1. Selecteer een map.
 
-   Het pad wordt bijgewerkt naast _[!UICONTROL Selected assets will move to:]_.
+   Het pad naast _[!UICONTROL Selected assets will move to:]_geeft de wijziging weer.
 
 1. Klik op **[!UICONTROL Move]**.
 
@@ -268,7 +269,7 @@ Als u een map archiveert, kunnen de bestanden in de map niet worden doorzocht. G
 
 Assets kan worden gebruikt in de e-mail-, e-mailsjabloon- of visuele fragmentauthoring van uw team vanuit de visuele inhoudeditor.
 
-Van visuele ontwerper UI, selecteer het _pictogram van de selecteur van Activa_ ( ![ de selectie van Assets ](../assets/do-not-localize/icon-assets-design.svg)) op linkerzijbalk.
+Van visuele ontwerper UI, selecteer het _Marketo Engage Assets_ pictogram ( ![ het pictogram van Assets van het Marketo Engage ](../../assets/do-not-localize/icon-assets-me.svg)) op linkerzijbalk.
 
 Met deze actie wijzigt u het deelvenster Gereedschappen waarin een gestructureerde lijst met beschikbare elementen in de geselecteerde werkruimte wordt weergegeven. Selecteer de werkruimte die u wilt weergeven voor het kiezen van een element.
 

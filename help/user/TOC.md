@@ -1,17 +1,17 @@
 ---
 user-guide-title: Documentatie voor de B2B-editie van Journey Optimizer
 user-guide-description: Meer informatie over de B2B-editie van Adobe Journey Optimizer en hoe u deze kunt gebruiken om account- en inkoopgroeptrajecten te orkestreren met behulp van ingebouwde generatieve AI en toonaangevende automatisering.
-source-git-commit: f599ae239b6979f766f97330b825503e70a13e50
+source-git-commit: bb2c790dbef3202b871e1362a1ca091666888368
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 23%
+source-wordcount: '218'
+ht-degree: 21%
 
 ---
 
 
 # Journey Optimizer B2B edition Handboek {#user}
 
-+ [Adobe Journey Optimizer B2B edition-documentatie](guide-overview.md)
++ [Documentatie voor Adobe Journey Optimizer B2B Edition](guide-overview.md)
 + [Aanvullende informatie](./release-notes/release-notes.md)
 + Aan de slag {#get-started}
    + [Journey Optimizer B2B edition - overzicht](about-journey-optimizer-b2b-edition.md)
@@ -19,19 +19,15 @@ ht-degree: 23%
    + [Richtlijnen voor snel starten](./start/get-started.md)
    + [Bijhoud- en e-mailprotocollen](./start/email-protocols.md)
    + [AI-assistent gebruiken](./start/ai-assistant.md)
-+ Accountsoorten {#account-audiences}
-   + [Overzicht](./audiences/account-audience-overview.md)
-   + [LinkedIn-account met passend publiek](./data/linkedin-account-matched-audiences.md)
-   + [XDM-velden](./data/field-mapping.md)
-+ Groepen kopen {#buying-groups}
-   + [Overzicht](./buying-groups/buying-groups-overview.md)
-   + [Oplossingsbelangen](./buying-groups/solution-interests.md)
-   + [Rolsjablonen](./buying-groups/buying-groups-role-templates.md)
-   + [Groepsfasen voor kopen](./buying-groups/buying-group-stages.md)
-   + [Koopgroepen maken](./buying-groups/buying-groups-create.md)
 + Accountreizen {#account-journeys}
    + [Overzicht](./journeys/journey-overview.md)
-   + [Transparante knooppunten van account](./journeys/journey-nodes.md)
+   + [Reisknooppunt](./journeys/journey-nodes.md)
+   + Reisknooppunten {#journey-nodes}
+      + [Accountpubliek](./journeys/account-audience-nodes.md)
+      + [Handeling uitvoeren](./journeys/action-nodes.md)
+      + [Luisteren naar een gebeurtenis](./journeys/listen-for-event-nodes.md)
+      + [Paden splitsen en samenvoegen](./journeys/split-merge-paths-nodes.md)
+      + [Wachten](./journeys/wait-nodes.md)
 + Reisinhoud {#journey-content}
    + E-mailkanaal {#email-channel}
       + [E-mailontwerp](./content/email-authoring.md)
@@ -39,28 +35,52 @@ ht-degree: 23%
       + [Beheerde sjablonen](./content/email-authoring-governance.md)
       + [E-mail met verkoopwaarschuwing](./content/sales-alert-email.md)
    + [SMS-authoring](./content/sms-authoring.md)
++ Accounts {#accounts}
+   + [Soorten publiek](./audiences/account-audience-overview.md)
+   + Groepen kopen {#buying-groups}
+      + [Overzicht](./buying-groups/buying-groups-overview.md)
+      + [Oplossingsbelangen](./buying-groups/solution-interests.md)
+      + [Rolsjablonen](./buying-groups/buying-groups-role-templates.md)
+      + [Groepsfasen voor kopen](./buying-groups/buying-group-stages.md)
+      + [Gegevens van groep kopen](./buying-groups/buying-group-details.md)
+      + [Koopgroepen maken](./buying-groups/buying-groups-create.md)
+      + [Accountlijst exporteren](./audiences/account-list-export.md)
+      + [LinkedIn-account met passend publiek](./data/linkedin-account-matched-audiences.md)
+      + [Groepsfilters kopen in Markt](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
+   + [Accountlijsten](./accounts/account-lists.md)
+   + [XDM-velden](./data/field-mapping.md)
 + Inhoudsbeheer {#content-management}
    + Assets {#assets}
       + [Overzicht](./content/assets-overview.md)
-      + [Werken met Marketo&#39;s Engage](./content/marketo-engage-design-studio.md)
-      + [Werken met AEM Assets-afbeeldingen](./content/aem-assets.md)
-      + [Afbeeldingen bewerken met Adobe Express](./content/image-edit-adobe-express.md)
+      + Elementen van Marketo&#39;s Engage {#marketo-engage-dam}
+         + [Werken met Marketo&#39;s Engage](./content/marketo-engage-design-studio.md)
+         + [Afbeeldingen bewerken met Adobe Express](./content/image-edit-adobe-express.md)
+      + [Afbeeldingselementen Experience Managers](./content/aem-assets.md)
    + Sjablonen {#templates}
-      + [E-mailsjablonen beheren](./content/email-templates.md)
-      + [E-mailsjabloonontwerp](./content/email-template-authoring.md)
       + [Inhoud beheren](./content/template-content-governance.md)
+      + E-mailsjablonen {#email-templates}
+         + [Overzicht](./content/email-templates.md)
+         + [E-mailsjabloonontwerp](./content/email-template-authoring.md)
+      + [Sjablonen voor bestemmingspagina](./content/landing-page-templates.md)
    + [Fragmenten](./content/fragments.md)
+   + [Forms](./content/forms.md)
+   + Openingspagina&#39;s {#landing-pages}
+      + [Overzicht](./content/landing-pages.md)
+      + [Ontwerp bestemmingspagina](./content/landing-page-design.md)
    + [Voorwaardelijke inhoud](./content/conditional-content.md)
 + Inhoudsdashboards {#dashboards}
    + [Intelligent dashboard](./dashboards/intelligent-dashboard.md)
-   + [Groepen kopen](./dashboards/buying-groups-dashboard.md)
+   + [Accountgegevens](./accounts/account-details.md)
+   + [Overzicht van kopersgroepen](./dashboards/buying-groups-dashboard.md)
    + [Overzicht van betrokkenheid](./dashboards/engagement-dashboard.md)
    + [Reisoverzicht](./dashboards/journeys-dashboard.md)
 + Beheer {#admin}
    + [Gebruikersbeheer](./admin/user-management.md)
+   + [Intentgegevens](./admin/intent-data.md)
    + Kanalen {#channels}
       + [E-mailconfiguraties](./admin/configure-channels-emails.md)
       + [SMS-configuraties](./admin/configure-channels-sms.md)
    + [AEM Assets-opslagruimten configureren](./admin/configure-aem-repositories.md)
+   + [AEP-gebeurtenisdefinities configureren](./admin/configure-aep-events.md)
    + [Instellingen voor bestemmingspagina](./admin/landing-page-settings.md)
    + [Bestuur](./admin/governance.md)

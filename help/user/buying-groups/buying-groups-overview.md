@@ -1,11 +1,11 @@
 ---
 title: Groepen kopen
-description: Leer hoe kopers in Journey Optimizer B2B edition de doeltreffendheid van marketing kunnen verhogen door leden voor je accountlijsten te identificeren en als doelgroep te kiezen.
+description: Leer hoe kopersgroepen in Journey Optimizer B2B edition de doeltreffendheid van marketing kunnen verhogen door leden voor uw accountlijsten te identificeren en te richten.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 02b0e1a50b75dc02afe1b11217729e17583d5f12
+source-git-commit: e2059726fbb7541dbe0e7ab9be4cd82f37f26cf8
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1237'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ Binnen de rekening, zou er een ondergroep van mensen kunnen zijn die uit de _het
 
 ## Belangrijkste componenten
 
-U kunt de doeltreffendheid van de marketing verhogen door koopgroepen in Journey Optimizer B2B edition te vestigen die ontbrekende leden voor uw doelrekeningen lijsten identificeren die op de oplossingen worden gebaseerd die uw teams van de Verkoop voor de verkoop verantwoordelijk zijn. Voordat u en uw marketingteam beginnen met het maken van uw inkoopgroepen, moet u controleren of de belangrijkste componenten zijn gedefinieerd. Deze componenten zijn kritiek voor het ontmoeten van uw bedrijfsdoelstellingen en doelstellingen.
+U kunt de doeltreffendheid van marketing verhogen door in Journey Optimizer B2B edition inkoopgroepen op te richten die ontbrekende leden voor uw doelaccountlijsten identificeren op basis van de oplossingen die uw verkoopteams verantwoordelijk zijn voor de verkoop. Voordat u en uw marketingteam beginnen met het maken van uw inkoopgroepen, moet u controleren of de belangrijkste componenten zijn gedefinieerd. Deze componenten zijn kritiek voor het ontmoeten van uw bedrijfsdoelstellingen en doelstellingen.
 
 | Component | Doel |
 | --------- | ------- |
@@ -77,7 +77,7 @@ Gebruik het tabblad _[!UICONTROL Browse]_om de lijst met inkoopgroepen weer te g
 
 ## Gegevens van groep kopen
 
-Klik op de naam van de inkoopgroep op het tabblad _[!UICONTROL Browse]_als u details voor een inkoopgroep wilt weergeven.
+Klik op de naam van de inkoopgroep op het tabblad _[!UICONTROL Browse]_als u details voor een inkoopgroep wilt weergeven. [Meer informatie](./buying-group-details.md)
 
 ![ het Kopen groepdetails ](assets/buying-group-details.png){width="600" zoomable="yes"}
 
