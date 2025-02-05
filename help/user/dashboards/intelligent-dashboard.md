@@ -1,89 +1,209 @@
 ---
 title: Intelligent dashboard
-description: Leer over het het Overzicht dashboard van Groepen van het Kopen en hoe het de Afhandeling van de Verkoop van het team van de Marketing toelaat.
+description: Meer informatie over het intelligente dashboard, dat een uitgebreide weergave biedt van de maatstaven voor inkoopgroepen en -accounts
 feature: Dashboards, Buying Groups
-hide: true
-hidefromtoc: true
-source-git-commit: f27b0247be252a655e7fb68ee637efdabea959fc
+exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
+source-git-commit: 74561c07ea8cc3a717f1e0f25a3c4326cb14ee36
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '1429'
 ht-degree: 0%
 
 ---
 
 # Intelligent dashboard
 
+Het intelligente dashboard biedt een uitgebreid overzicht van het kopen van maatstaven voor groepen en accounts, zodat u uw marketinginspanningen effectiever kunt volgen en strategisch kunt uitvoeren.
+
+Om tot het _Intelligente dashboard_ toegang te hebben, selecteer het **[!UICONTROL Dashboard]** punt in de linkernavigatie.
+
+![ toegang tot het Intelligente dashboard ](./assets/intelligent-dashboard.png){width="800" zoomable="yes"}
+
+Het intelligente dashboard biedt ook toegang tot detailpagina&#39;s van accounts en inkoopgroepen die twee typen generatieve AI-functies bevatten:
+
+* Samenvattingen voor accounts en koopgroepen
+* Intentiedetectie voor persoon, inkoopgroep en account
+
+{{intent-data-note}}
 
 ## Groepsfasen voor kopen {#buying-group-stages}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_stages"
 >title="Groepsfasen voor kopen"
->abstract="Dit diagram biedt een overzicht van de voortgang van inkoopgroepen in verschillende stadia op basis van de overgangsregels die zijn ingesteld in de beheerpagina. In de eerste balk wordt het aantal koopgroepen in een bepaald stadium op de eerste datum van het gekozen tijdsbestek aangegeven in vergelijking met het aantal koopgroepen op de laatste datum van het gekozen tijdpad."
+>abstract="Dit diagram biedt een overzicht van het aanschaffen van groepsprogressie in verschillende stadia op basis van de geconfigureerde overgangsregels. In de eerste balk wordt het aantal koopgroepen in een bepaald stadium op de eerste datum van het gekozen tijdsbestek aangegeven in vergelijking met het aantal koopgroepen op de laatste datum van het gekozen tijdpad."
 
-Plaatsaanduidingstekst voor een beschrijving van meer details/voorbeelden voor de sectie Oplossingsfasen.
+Het _[!UICONTROL Buying Group Stages]_diagram verstrekt een overzicht van het kopen van groepsvooruitgang over verschillende stadia ([ die op overgangsregels worden gebaseerd die door een beheerder ](../buying-groups/buying-group-stages.md) worden opstelling).
+
+![ het Kopen de visualisatie van groepsfasegegevens ](./assets/intelligent-dashboards-buying-group-stages.png){width="800" zoomable="yes"}
+
+In de grafiek worden de fasen van de inkoopgroep uit de meest recente gepubliceerde versie van het model van de inkoopgroepfasen gebruikt. Elk stadium wordt weerspiegeld door twee bars. De eerste balk geeft het aantal inkoopgroepen aan op de eerste datum van het geselecteerde tijdkader. En de tweede (in vergelijking) is het aantal koopgroepen op de laatste datum van de tijdsperiode. U kunt de muisaanwijzer boven elke balk houden om het aantal inkoopgroepen in elk stadium te zien.
+
+![ Beweeg over de bar om gedetailleerde aantallen ](./assets/intelligent-dashboard-buying-group-stages-hover-bar.png){width="400"} te bekijken
+
+### Samenvatting van algemene AI
+
+Klik op een balk om een generatieve AI-samenvatting weer te geven van de inkoopgroepen in dat stadium voor de geselecteerde tijdsperiode.
+
+![ klik de bar om een generatieve AI samenvatting ](./assets/intelligent-dashboard-buying-group-stages-click-bar.png){width="500"} te bekijken
+
+De gegenereerde samenvatting biedt een overzicht van de voortgang van de inkoopgroep in verschillende stadia op basis van de geconfigureerde overgangsregels.
+
+### Tijdsperiode {#time-period-stages}
+
+Gebruik het datumfilter rechtsboven om het datumbereik voor de gegevensvisualisatie te wijzigen. Klik op de pijl omlaag om een relatief datumbereik in te stellen of om aangepaste begin- en einddatums in te stellen.
+
+<!-- ![Filtering tdata by date range](./assets/intelligent-dashboard-date-filter.png){width="300"} -->
+
+### Kenmerk, filter {#attribute-filter-stages}
+
+Klik het _pictogram van de Filter_ ( ![ geef pictogram ](../assets/do-not-localize/icon-filter.svg) uit) bij de bovenkant verlaten om de gegevensvertoning te filtreren gebruikend om het even welk van deze attributen:
+
+* Belang van oplossing
+* Account
+* Werkgebiednaam
+
+<!-- Add screen when the UI is available ![Filtering the buying group status data by attribute](./assets/buying-group-status-drill-through-filters.png){width="500"} -->
 
 ## Hooglichten van kopersgroepen {#buying-group-highlights}
-
-Tijdelijke aanduiding voor overzicht van het kopen van groepen markeert secties
-
-### Beste 5 inkoopgroepen per service {#top-5-by-engagement}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_highlights_engagement"
 >title="Beste 5 inkoopgroepen per service"
 >abstract="Meest betrokken inkoopgroepen op basis van hun genormaliseerde betrokkenheidsscore."
 
-Plaatsaanduidingstekst voor een beschrijving van meer details/voorbeelden voor de bovenste 5 inkoopgroepen per betrokkenheidssectie.
-
-### Top 5 van aankoopgroepen met hoge snelheid {#top-5-by-velocity}
-
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_highlights_velocity"
 >title="Top 5 van aankoopgroepen met hoge snelheid"
 >abstract="Groepen kopen op basis van de snelheid waarmee ze door de fasen lopen."
-
-Plaatsaanduidingstekst voor een beschrijving van meer details/voorbeelden voor de bovenste sectie met inkoopgroepen voor hoge snelheid.
-
-### Top 5 van statische koopgroepen {#top-5-stagnant}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_highlights_stagnant"
 >title="Top 5 van statische koopgroepen"
 >abstract="Stagnant inkoopgroepen die ondanks een hoge volledigheidsscore niet geleidelijk door de verschillende fasen worden geleid."
 
-Plaatsaanduidingstekst voor een beschrijving van meer details/voorbeelden voor de sectie Top 5 van statische inkoopgroepen.
+De sectie _[!UICONTROL Buying group highlights]_is in drie rijen ingedeeld om informatie over de inkoopgroepen weer te geven die van belang zijn voor uw organisatie.
 
-## Accountopleving {#account-surge}
+![ het Kopen groepshoogtepunten ](./assets/intelligent-dashboard-buying-group-highlights.png){width="800" zoomable="yes"}
+
+* **Hoogste 5 die groepen door overeenkomst** kopen - Deze rij toont de hoogste betrokken koopgroepen die op hun genormaliseerde betrokkenheidsscore worden gebaseerd.
+* **Hoogste 5 Hoge snelheid die groepen** kopen - Deze rij toont de hoogste die groepen kopen die op de snelheid worden gebaseerd waarmee zij door de het kopen groepsstadia vorderen.
+* **Hoogste 5 Stagnant het kopen groepen** - Deze rij toont de meest stagnerende het kopen groepen die niet door stadia ondanks een hoge volledigheidsscore progressief zijn.
+
+Elke kaart bevat de volgende gegevens:
+
+* **_het Kopen groepsnaam_**. Klik op de naam om de detailpagina voor de inkoopgroep te openen.
+* **_naam van de Rekening_**. Klik op de naam om de pagina met accountdetails te openen (hyperlink naar de pagina met accountdetails).
+* **_Huidige stadium_** voor de het kopen groep.
+* **_score van de Betrokkenheid_** (genormaliseerd over alle het kopen groepen). Als alle inkoopgroepen dezelfde hoogste score hebben, wordt de laatst bijgewerkte score weergegeven.
+* **_score van de Voltooiing_** (die zich van 1-100 uitstrekken). Als alle inkoopgroepen dezelfde hoogste score hebben, wordt de laatst bijgewerkte score weergegeven.
+* **_intent van de Categorie_**. Klik op _[!UICONTROL View details]_om de intentgegevens weer te geven:
+
+  ![ het Kopen gegevens van de groepsintentie ](./assets/intelligent-dashboard-buying-group-intent-details.png){width="500" zoomable="yes"}
+
+   * De detailpopup toont de categorienaam met intentniveau bij de bovenkant.
+   * De gegevens voor elke rij worden in kolommen geordend: de productnaam, de sterkte van de productintentie en de bovenste trefwoorden op sterkte van de intentie.
+   * De sorteervolgorde is hoog tot laag voor categorie, product en trefwoorden. Als een of meer typen dezelfde intentsterkte hebben, wordt bij het sorteren de alfabetische volgorde gebruikt.
+
+Bij het hoogste recht van de _Kopen groep hoogtepunten_ paneel, klik **[!UICONTROL View All]** om aan de het Kopen pagina van de groepslijst te navigeren.
+
+### Kenmerk, filter {#attribute-filter-bg-highlights}
+
+Klik het _pictogram van de Filter_ ( ![ geef pictogram ](../assets/do-not-localize/icon-filter.svg) uit) bij de bovenkant verlaten om de gegevensvertoning te filtreren gebruikend om het even welk van deze attributen:
+
+* Oplossingsrente
+* Groep voor kopen
+* Account
+
+<!-- Add screen when the UI is available ![Filtering the buying group status data by attribute](./assets/buying-group-status-drill-through-filters.png){width="500"} -->
+
+### Tijdsperiode {#time-period-bg-highlights}
+
+Gebruik het datumfilter rechtsboven om het datumbereik voor de gegevensvisualisatie te wijzigen. Klik op de pijl omlaag om een relatief datumbereik in te stellen of om aangepaste begin- en einddatums in te stellen.
+
+<!-- ![Filtering tdata by date range](./assets/intelligent-dashboard-date-filter.png){width="300"} -->
+
+## Surplusrekeningen {#account-surge}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_account_surge"
 >title="Accountopleving"
 >abstract="Accounts met een significante wijziging in de aanstellingsdynamiek binnen het geselecteerde tijdkader."
 
-Plaatsaanduidingstekst voor meer details/voorbeelden voor de sectie Accountspiek.
+In de sectie _[!UICONTROL Surging accounts]_wordt een visualisatie van de accounts weergegeven met een aanzienlijke wijziging in de betrokkenheidsdynamiek binnen de geselecteerde tijdsperiode.
+
+![ de visualisatie van de de drukgegevens van de Rekening ](./assets/intelligent-dashboard-account-surge.png){width="800" zoomable="yes"}
+
+Houd de cursor boven elke balk om het aantal accounts in elke categorie weer te geven.
+
+![ Beweeg over de bar om de gedetailleerde aantallen ](./assets/intelligent-dashboard-account-surge-hover-bar.png){width="400"} te bekijken
+
+Klik op een balk om een generatieve AI-samenvatting weer te geven van de accounts in de categorie voor het geselecteerde tijdkader.
+
+![ klik de bar om een generatieve AI samenvatting ](./assets/intelligent-dashboard-account-surge-click-bar.png){width="500"} te bekijken
+
+### Kenmerk, filter {#attribute-filter-acct-surge}
+
+Klik het _pictogram van de Filter_ ( ![ geef pictogram ](../assets/do-not-localize/icon-filter.svg) uit) bij de bovenkant verlaten om de gegevensvertoning te filtreren gebruikend om het even welk van deze attributen:
+
+* Oplossingsrente
+* Marktsegment
+* Regio
+
+<!-- Add screen when the UI is available ![Filtering the buying group status data by attribute](./assets/buying-group-status-drill-through-filters.png){width="500"} -->
+
+### Tijdsperiode {#time-period-acct-surge}
+
+Gebruik het datumfilter rechtsboven om het datumbereik voor de gegevensvisualisatie te wijzigen. Klik op de pijl omlaag om een relatief datumbereik in te stellen of om aangepaste begin- en einddatums in te stellen.
+
+<!-- ![Filtering tdata by date range](./assets/intelligent-dashboard-date-filter.png){width="300"} -->
 
 ## Accountmarkeringen {#account-highlights}
-
-Tijdelijke aanduiding voor overzicht van het kopen van groepen markeert secties
-
-### Surplusrekeningen {#surging-accounts}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_account_highlights_surging"
 >title="Surplusrekeningen"
 >abstract="Accounts met een aanzienlijke toename in de aanstellingsdynamiek in het geselecteerde tijdkader "
 
-Plaatsaanduidingstekst voor een beschrijving van meer details/voorbeelden voor de sectie Surging accounts.
-
-### Risicorekeningen {#at-risk-accounts}
-
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_account_highlights_at_risk"
 >title="Risicorekeningen"
 >abstract="Accounts met een significante afname in de aanstellingsdynamiek in het geselecteerde tijdkader."
 
-Plaatsaanduidingstekst om meer details/voorbeelden te beschrijven voor de sectie Op-risicorekeningen.
+De sectie _[!UICONTROL Buying group highlights]_is in twee rijen geordend om informatie over de rekeningen van belang voor uw organisatie te tonen.
+
+![ de hoogtepunten van de Rekening ](./assets/intelligent-dashboard-account-highlights.png){width="800" zoomable="yes"}
+
+* **het Oplopen rekeningen** - Deze rij toont de rekeningen met een significante verhoging in betrokkenheidsdynamum over het geselecteerde tijdkader.
+* **Op risico rekeningen** - Deze rij toont de rekeningen met een significante daling in betrokkenheidsdynamum over het geselecteerde tijdkader.
+
+Elke kaart bevat de volgende gegevens:
+
+* **_naam van de Rekening_**. Klik op de naam om de pagina met accountdetails te openen.
+* **_Generatieve AI samenvatting_** van de rekening.
+* **_Intentie van het Sleutelwoord_**. Klik op _[!UICONTROL View details]_om de intentgegevens weer te geven:
+
+  ![ gegevens van de intentie van de Rekening ](./assets/intelligent-dashboard-account-intent-details.png){width="500" zoomable="yes"}
+
+   * De detailpopup toont de categorienaam met intentniveau bij de bovenkant.
+   * De gegevens voor elke rij worden in kolommen geordend: de productnaam, de sterkte van de productintentie en de bovenste trefwoorden op sterkte van de intentie.
+   * De sorteervolgorde is hoog tot laag voor categorie, product en trefwoorden. Als een of meer typen dezelfde intentsterkte hebben, wordt bij het sorteren de alfabetische volgorde gebruikt.
+<!-- 
+At the top right of the _Buying group highlights_ panel, click **[!UICONTROL View All]** to navigate to the Buying groups list page. -->
+
+### Kenmerk, filter {#attribute-filter-acct-highlights}
+
+Klik het _pictogram van de Filter_ ( ![ pictogram van de Filter ](../assets/do-not-localize/icon-filter.svg) ) bij de bovenkant verlaten om de gegevensvertoning te filtreren gebruikend om het even welk van deze attributen:
+
+* Oplossingsrente
+* Groep voor kopen
+
+<!-- Add screen when the UI is available ![Filtering the buying group status data by attribute](./assets/buying-group-status-drill-through-filters.png){width="500"} -->
+
+### Tijdsperiode {#time-period-acct-highlights}
+
+Gebruik het datumfilter rechtsboven om het datumbereik voor de gegevensvisualisatie te wijzigen. Klik op de pijl omlaag om een relatief datumbereik in te stellen of om aangepaste begin- en einddatums in te stellen.
+
+<!-- ![Filtering tdata by date range](./assets/intelligent-dashboard-date-filter.png){width="300"} -->
 
 ## Contact opnemen {#contact-coverage}
 
@@ -92,13 +212,54 @@ Plaatsaanduidingstekst om meer details/voorbeelden te beschrijven voor de sectie
 >title="Contact opnemen"
 >abstract="Toont het aantal contacten met een specifieke rol verbonden aan een oplossingsbelang. De toewijzing van rol en oplossingsrente is gebaseerd op het koopgegroeikalplaatje."
 
-Plaatsaanduidingstekst voor een beschrijving van meer details/voorbeelden voor de sectie Contactdekking.
+De _[!UICONTROL Contact coverage]_sectie toont een visualisatie van het aantal contacten met een specifieke rol verbonden aan een oplossingsbelang. De toewijzing van rol en oplossingsrente is gebaseerd op het koopgegroeikalplaatje.
+
+![ de visualisatie van de de drukgegevens van de Rekening ](./assets/intelligent-dashboard-contact-coverage.png){width="800" zoomable="yes"}
+
+Beweeg over elke cel om het aantal contacten in de rol/oplossingsrente te bekijken.
+
+![ Beweeg over de bar om de gedetailleerde aantallen ](./assets/intelligent-dashboard-contact-coverage-hover-cell.png){width="400"} te bekijken
+
+Klik een cel om gedetailleerde informatie voor de contacten in de rol/oplossingsbelang te bekijken.
+
+![ klik de cel om contactdetails ](./assets/intelligent-dashboard-contact-coverage-click-cell.png){width="700" zoomable="yes"} te bekijken
+
+### Kenmerk, filter {#attribute-filter-contact-coverage}
+
+Klik het _pictogram van de Filter_ ( ![ pictogram van de Filter ](../assets/do-not-localize/icon-filter.svg) ) bij de bovenkant verlaten om de gegevensvertoning te filtreren gebruikend om het even welk van deze attributen:
+
+* Oplossingsrente
+* Accounts
+
+<!-- Add screen when the UI is available ![Filtering the buying group status data by attribute](./assets/buying-group-status-drill-through-filters.png){width="500"} -->
 
 ## Contactoverlapping {#contact-overlap}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_contact_overlap"
 >title="Contactoverlapping"
->abstract="Lijst van contacten die deel van meer dan één het kopen groepen als resultaat van het worden verbonden met veelvoudige oplossingsbelangen uitmaken."
+>abstract="Lijst van contacten die deel van meer dan één het kopen groep als resultaat van het worden verbonden met veelvoudige oplossingsbelangen uitmaken."
 
-Plaatsaanduidingstekst voor een beschrijving van meer details/voorbeelden voor de sectie Contactoverlapping.
+De sectie _[!UICONTROL Contact overlap]_toont een lijst van contacten die deel van meer dan één het kopen groep als resultaat van het worden geassocieerd met veelvoudige oplossingsbelangen uitmaken.
+
+![ het contact overlapt lijst ](./assets/intelligent-dashboard-contact-overlap.png){width="800" zoomable="yes"}
+
+Klik de _Informatie_ ( ![ pictogram van de Informatie ](../assets/do-not-localize/icon-info.svg)) om een lijst met de volgende details te tonen:
+
+* Naam van groep kopen (klik op de naam om de pagina met gegevens over de koopgroep te openen)
+* Functie
+* Oplossingsrente
+* Productintentie
+* Product
+
+![ de overlappende details van het contact ](./assets/intelligent-dashboard-contact-overlap-detail-info.png){width="600" zoomable="yes"}
+
+### Kenmerk, filter {#attribute-filter-contact-overage}
+
+Klik het _pictogram van de Filter_ ( ![ pictogram van de Filter ](../assets/do-not-localize/icon-filter.svg) ) bij de bovenkant verlaten om de gegevensvertoning te filtreren gebruikend om het even welk van deze attributen:
+
+* Oplossingsrente
+* Rollen
+* Accounts
+
+<!-- Add screen when the UI is available ![Filtering the buying group status data by attribute](./assets/buying-group-status-drill-through-filters.png){width="500"} -->
