@@ -1,7 +1,10 @@
 ---
 title: Accountlijsten
 description: Meer informatie over accountlijsten en hoe markeertekens deze kunnen gebruiken om accounts te activeren via accountreizen.
-source-git-commit: c44721af93275297a90c6f7c0c3683ade6847658
+exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
+hidefromtoc: true
+hide: true
+source-git-commit: 44a3bb6d986726dbbd9d2854e4fce321eac56824
 workflow-type: tm+mt
 source-wordcount: '1523'
 ht-degree: 0%
@@ -232,4 +235,3 @@ U hebt bijvoorbeeld een reispad waar u een e-mail verzendt en sommige accounts v
 1. Kies bij **[!UICONTROL Select live static account list]** de accountlijst waarin u accounts wilt verwijderen.
 
    ![ Uitgezochte Add aan rekeningslijst ](../journeys/assets/node-action-account-remove-from-account-list-select.png){width="500"}
-

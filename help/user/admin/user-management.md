@@ -4,9 +4,9 @@ description: Leer hoe u teamleden toewijst aan Journey Optimizer B2B edition-pro
 feature: Setup
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-source-git-commit: 2d9a58182f8ca3aec9e806e343571b14f22456f1
+source-git-commit: 44a3bb6d986726dbbd9d2854e4fce321eac56824
 workflow-type: tm+mt
-source-wordcount: '1731'
+source-wordcount: '1221'
 ht-degree: 0%
 
 ---
@@ -150,77 +150,77 @@ Machtigingen zijn eenheidrechten waarmee u de machtigingen kunt definiëren die 
 Het _gebied van Toestemmingen_ van Adobe Experience Platform is waar de beheerders gebruikersrollen en toegangsbeleid kunnen bepalen om toegangstoestemmingen voor eigenschappen en voorwerpen binnen een producttoepassing te beheren. In deze app kunt u rollen maken en beheren en kunt u de gewenste resourcemachtigingen voor deze rollen toewijzen. Met machtigingen kunt u ook de sandboxen en gebruikers beheren die aan een specifieke rol zijn gekoppeld.
 
 Voor meer informatie over roltoestemmingen in Experience Platform, zie [ toestemmingen voor een rol ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions) beheren {target="_blank"} in de documentatie van het Experience Platform.
+<!-- 
+### B2B product permissions
 
-### B2B-productmachtigingen
+The following permissions govern access to Journey Optimizer B2B Edition capabilities:
 
-De volgende machtigingen zijn van toepassing op de toegang tot Journey Optimizer B2B edition-mogelijkheden:
-
-| Categorie | Beschrijving | Machtigingen |
+| Category | Description | Permissions |
 | -------- | ----------- | ---------- |
-| B2B-accountlijsten | Machtigingen voor B2B-accountlijsten configureren, beheren, weergeven en publiceren. Deze machtigingen omvatten handelingen zoals het toevoegen, verwijderen, importeren en verwijderen van accounts in accountlijsten. | <li>B2B-accountlijsten beheren |
-| B2B-beheerconfiguraties | Vorm, beheer, en meningstoestemmingen voor B2B administratieve configuraties. Deze machtigingen omvatten verbindingen voor digitaal middelenbeheer, opslagruimten voor middelen en gebeurtenissen. | <li>B2B-beheerconfiguraties beheren |
-| B2B Assets | Machtigingen voor B2B-elementen configureren, beheren en weergeven. Deze machtigingen zijn onder andere e-mails, sms, bestemmingspagina&#39;s, fragmenten, sjablonen en afbeeldingen. | <li>B2B Assets beheren <li>B2B-sjablonen beheren <li>B2B-fragmenten beheren |
-| B2B-kopersgroepen | Vorm, beheer, en meningstoestemmingen voor het kopen van B2B groepen. Deze toestemmingen omvatten oplossingsbelangen, rolmalplaatjes, en het kopen groepsstatus. | <li>B2B-kopersgroepen beheren |
-| B2B-kanaalconfiguraties | Vorm, beheer, en meningstoestemmingen voor B2B kanaalconfiguraties. Deze machtigingen omvatten instellingen voor communicatielimieten, API-referenties en beveiligingsinstellingen. | <li>B2B-kanaalconfiguraties beheren |
-| B2B-dashboards | Configureer en bekijk machtigingen voor B2B-dashboards. Deze machtigingen omvatten accountbetrokkenheid, het aanschaffen van groepsfasen, het doorlopen van accounts en contactdekking. | <li>B2B-dashboards beheren |
-| B2B-reizen | Configureer machtigingen voor beheren, weergeven en publiceren voor B2B-reizen. Deze machtigingen omvatten account- en persoonlijke handelingen, gebeurtenislisteners en gesplitste paden | <li>B2B-reizen beheren |
+| B2B Account Lists | Configure, manage, view, and publish permissions for B2B account lists. These permissions include actions such as add, remove, import, and delete accounts from account lists. | <li>Manage B2B Account Lists |
+| B2B Admin Configurations | Configure, manage, and view permissions for B2B administrative configurations. These permissions include digital asset management connections, asset repositories, and events. | <li>Manage B2B Admin Configurations |
+| B2B Assets | Configure, manage, and view permissions for B2B assets. These permissions include emails, SMS, landing pages, fragments, templates, and images. | <li>Manage B2B Assets <li>Manage B2B Templates <li>Manage B2B Fragments|
+| B2B Buying Groups | Configure, manage, and view permissions for B2B buying groups. These permissions include solution interests, roles templates, and buying group status. | <li>Manage B2B Buying Groups |
+| B2B Channel Configurations | Configure, manage, and view permissions for B2B channel configurations. These permissions include settings for communication limits, API credentials, and security settings. | <li>Manage B2B Channels Configurations |
+| B2B Dashboards |Configure and view permissions for B2B dashboards. These permissions include account engagement, buying group stages, surging accounts, and contact coverage. | <li>Manage B2B Dashboards |
+| B2B Journeys | Configure manage, view, and publish permissions for B2B journeys. These permissions include account and person actions, event listeners, and split paths | <li>Manage B2B Journeys |
 
-### B2B ingebouwde rollen
+### B2B built-in roles
 
-Wanneer het Journey Optimizer B2B edition-product in uw organisatie is voorzien, bevat het Experience Platform een set ingebouwde (standaard)rollen die u kunt gebruiken om de toegang tot de productmogelijkheden te beheren:
+When your organization has the Journey Optimizer B2B Edition product provisioned, Experience Platform includes a set of built-in (default) roles that you can use to manage access to the product capabilities:
 
-| Functie | Machtigingen |
+| Role | Permissions |
 | ---- | ----------- |
-| B2B-reismanager | <li>B2B-reizen beheren <li>B2B-kopersgroepen beheren <li>B2B-accountlijsten beheren <li>B2B Intelligent dashboard weergeven <li>B2B-dashboard met inzichten weergeven |
-| B2B-kanaalbeheer | <li>B2B Assets beheren <li>B2B-sjablonen beheren <li>B2B-fragmenten beheren |
-| B2B-systeembeheerder | <li>B2B-kanaalconfiguraties beheren <li>B2B-beheerconfiguraties beheren |
-| B2B-verkoopgebruiker | <li>Intelligent dashboard weergeven |
+| B2B Journey Manager | <li>Manage B2B Journeys <li>Manage B2B Buying Groups <li>Manage B2B Account Lists <li>View B2B Intelligent Dashboard <li>View B2B Insights Dashboard |
+| B2B Channel Manager | <li>Manage B2B Assets <li>Manage B2B Templates <li>Manage B2B Fragments |
+| B2B System Administrator | <li>Manage B2B Channels Configurations <li>Manage B2B Admin Configurations |
+| B2B Sales User | <li>View Intelligent Dashboard |
 
-### Rolmachtigingen bewerken
+### Edit role permissions
 
-Voor ingebouwde of douanrollen, kunt u op elk ogenblik besluiten om toestemmingen toe te voegen of te schrappen. Als u een standaard- of aangepaste rol wijzigt, heeft dit invloed op elke gebruiker die aan de rol is toegewezen.
+For built-in or custom roles, you can decide at any time to add or delete permissions. If you modify a default or custom role, it impacts every user assigned to the role.
 
-In het volgende voorbeeld, wilt u toestemmingen met betrekking tot het middel van de Reizen B2B voor gebruikers toevoegen die aan de B2B rol van de Manager van het Kanaal worden toegewezen. Dankzij deze wijziging kunnen gebruikers voor die rol ook accountreizen beheren.
+In the following example, you want to add permissions related to the B2B Journeys resource for users assigned to the B2B Channel Manager role. This change enables users for that role to manage account journeys also.
 
 >[!NOTE]
 >
->Een systeembeheerder van het systeem van de Admin Console kan deze stappen uitvoeren.
+>An Admin Console system administrator can perform these steps.
 
-_om de toestemmingen voor een rol te veranderen:_
+_To change the permissions for a role:_
 
-1. Ga naar [ experience.adobe.com ](https://experience.adobe.com/).
+1. Go to [experience.adobe.com](https://experience.adobe.com/).
 
-1. Selecteer **[!UICONTROL Permissions]** in het deelvenster _[!UICONTROL Quick access]_.
+1. In the _[!UICONTROL Quick access]_ panel, select **[!UICONTROL Permissions]**.
 
    >[!NOTE]
    >
-   >Als u _[!UICONTROL Permissions]_niet ziet, moet u mogelijk op **[!UICONTROL View all]**klikken en deze selecteren in de beschikbare toepassingen.
+   >If you don't see _[!UICONTROL Permissions]_, you may need to click **[!UICONTROL View all]** and select it from the available applications.
 
-   ![ Experience Platform - toegangstoestemmingen ](./assets/aep-permissions.png){width="700" zoomable="yes"}
+   ![Experience Platform - access Permissions](./assets/aep-permissions.png){width="700" zoomable="yes"}
 
-1. Selecteer **[!UICONTROL Roles]** in de linkernavigatie.
+1. Select **[!UICONTROL Roles]** in the left navigation.
 
-1. Klik de _**rolnaam van de Manager van het Kanaal 0} B2B.**_
+1. Click the **_B2B Channel Manager_** role name.
 
-1. Klik in de detailpagina op **[!UICONTROL Edit]** rechtsboven.
+1. In the details page, click **[!UICONTROL Edit]** at the top right.
 
-   ![ Experience Platform - geef de rol ](./assets/aep-permissions-role-edit.png){width="700" zoomable="yes"} uit
+   ![Experience Platform - edit the role](./assets/aep-permissions-role-edit.png){width="700" zoomable="yes"}
 
-   In de rolredacteur, toont het _[!UICONTROL Resources]_menu de lijst van middelen die op het Experience Cloud - Platform aangedreven toepassingsproducten van toepassing zijn.
+   In the role editor, the _[!UICONTROL Resources]_ menu displays the list of resources that apply to the Experience Cloud - Platform powered applications products.
 
-   U kunt _B2B_ in het onderzoekshulpmiddel ingaan om de lijst voor de B2B producttoestemmingen te filtreren.
+   You can enter _B2B_ in the search tool to filter the list for the B2B product permissions. 
+   
+1. Click the _Add_ icon (**+**) for the B2B Journeys resource.
 
-1. Klik _toevoegen_ pictogram (**+**) voor het middel van de Reizen B2B.
+   ![Experience Platform - edit the role](./assets/aep-permissions-role-edit-b2b-journeys-add.png){width="700" zoomable="yes"}
 
-   ![ Experience Platform - geef de rol ](./assets/aep-permissions-role-edit-b2b-journeys-add.png){width="700" zoomable="yes"} uit
+1. In the _[!UICONTROL B2B Journeys]_ permissions card, select **[!UICONTROL Manage B2B Account Journeys]**.
 
-1. Selecteer **[!UICONTROL Manage B2B Account Journeys]** op de _[!UICONTROL B2B Journeys]_machtigingskaart.
+1. Click **[!UICONTROL Save]**.
 
-1. Klik op **[!UICONTROL Save]**.
+   ![Experience Platform - edit the role](./assets/aep-permissions-role-edit-b2b-journeys-done.png){width="700" zoomable="yes"}
 
-   ![ Experience Platform - geef de rol ](./assets/aep-permissions-role-edit-b2b-journeys-done.png){width="700" zoomable="yes"} uit
-
-1. Klik op **[!UICONTROL Close]** om terug te keren naar de detailpagina.
+1. Click **[!UICONTROL Close]** to return to the details page. -->
 
 ### Gebruikers aan een rol toevoegen
 
