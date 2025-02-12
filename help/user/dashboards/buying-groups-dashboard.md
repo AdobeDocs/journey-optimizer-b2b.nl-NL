@@ -3,87 +3,94 @@ title: Het overzichtdashboard voor inkoopgroepen
 description: Leer over het het Overzicht dashboard van Groepen van het Kopen en hoe het de Afhandeling van de Verkoop van het team van de Marketing toelaat.
 feature: Dashboards, Buying Groups
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 1713f3284bc030d44ae910015b24d4e5e099813f
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
 
 # Het overzichtdashboard voor groepen kopen
 
-Het het overzichtdashboard van de Groep van de Kopen wordt ontworpen voor het proces van de Afhandeling van de Verkoop B2B. Het laat het Marketing team toe om _klaar_ te delen die groepen en hun leden samen met essentiële gegevens aan het team van de Verkoop voor uitvoering kopen. Dit proces zorgt voor een gestroomlijnde overgang van marketing naar verkoop.
+Het overzichtdashboard voor inkoopgroepen is ontworpen voor het B2B-verkoopafhandelingsproces. Het laat het Marketing team toe om _klaar_ te delen die groepen en hun leden samen met essentiële gegevens aan het team van de Verkoop voor uitvoering kopen. Dit proces zorgt voor een gestroomlijnde overgang van marketing naar verkoop.
 
-De verkoopoverdracht omvat:
+De verkoopoverdracht bestaat uit:
 
-* **Gegevens Handoff**: De marketing identificeert _klaar_ doelgegevens en maakt het toegankelijk aan Verkoop in het formaat CSV. 
-* **Acceptatie van de Verkoop**: De verkoop herziet manueel en neemt _klaar_ doelstellingen in hun pijpleiding op.
+* **Gegevensoverdracht**: De marketing identificeert _klaar_ doelgegevens en maakt het toegankelijk aan Verkoop in het formaat CSV. 
+* **de aanvaarding van de Verkoop**: De verkoop herziet manueel en neemt _klaar_ doelstellingen in hun pijpleiding op.
 
-## Status van kopersgroep
-
-Bekijk de voortgang van je inkoopgroepen in de weergave Status van kopersgroep. Deze visualisatie laat de distributie zien van uw inkoopgroepen die zijn gecategoriseerd door hun meest recente statusupdate binnen een opgegeven tijdsperiode.
+Als u dit dashboard wilt openen, vouwt u **[!UICONTROL Accounts]** uit in de linkernavigatie en selecteert u **[!UICONTROL Buying groups]** . Selecteer de tab **[!UICONTROL Overview]** als deze niet standaard wordt weergegeven.
 
 ![ het Kopen overzicht van Groepen ](./assets/buying-groups-overview.png){width="800" zoomable="yes"}
+<!--
+## Buying Group Status
 
-**[!UICONTROL Status]** (y-as): volg de reis van het kopen van groepen door diverse stadia.
-**[!UICONTROL Number of Buying Groups]** (x-as): kwantificeer het aantal inkoopgroepen bij elke status en geef een duidelijke metrische waarde op van de gezondheid en activiteit van de trechter.
-<!-- To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top-right corner of the page. -->
+Gain insights into your buying groups' progression with the Buying Group Status view. This visualization showcases the distribution of your buying groups categorized by their most recent status update within a specified time frame.
 
-### Gegevens filteren
+![Buying Groups overview](./assets/buying-groups-overview.png){width="800" zoomable="yes"}
 
-* **de filter van Gegevens** - gebruik _[!UICONTROL Date filter]_, die op de het Kopen datum van de statusverandering van de Groep wijst. De begindatum kan worden aangepast. De einddatum wordt standaard ingesteld op de huidige dag.
+**[!UICONTROL Status]** (y-axis): Track the journey of buying groups through various stages.
+**[!UICONTROL Number of Buying Groups]** (x-axis): Quantify the number of buying groups at each status, providing a clear metric of your funnel's health and activity.
 
-  ![ Filtrerend de het kopen gegevens van de groepsstatus door datumwaaier ](./assets//buying-group-status-filter-date.png){width="400"}
+To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top-right corner of the page. -->
 
-* **de filter van Attributen** - klik het _3} pictogram van de Filter {bij de bovenkant verlaten om de gegevensvertoning te filtreren gebruikend om het even welk van deze attributen:_
+## Verspreiding van voltooiingsscore voor groep kopen
 
-   * Belang van oplossing
-   * Status
-   * statussen van kopersgroepen
-   * Accountregio
-   * Accountsector
-  <!-- * Account's Industry -->
+Deze visualisatie illustreert de verdeling van koopgroepen op basis van de voltooiingsscores, en is gecategoriseerd in vier verschillende muziekbanden. Het centrale cijfer vertegenwoordigt het totale aantal koopgroepen, en verstrekt een snelle momentopname van algemene vooruitgang. De gesegmenteerde kleuren geven het aandeel van inkoopgroepen binnen elk bereik aan, zodat u de voltooiingstrends in één oogopslag kunt beoordelen.
 
-  ![ Filtrerend de het kopen gegevens van de groepsstatus door attribuut ](./assets/buying-group-status-drill-through-filters.png){width="500"}
+Als u meer gedetailleerde informatie wilt weergeven, klikt u op het menupictogram **..** rechtsboven.
+
+![ het Kopen de score van de groepsvoltooiing visualisatie ](./assets/buying-group-completion-score-chart.png){width="500"}
+
+## Distributie van betrokkenheidsscore voor groepen kopen
+
+Deze visualisatie illustreert de verdeling van inkoopgroepen op basis van hun betrokkenheidsscores en is gecategoriseerd in vier verschillende muziekbanden. Het centrale cijfer vertegenwoordigt het totale aantal koopgroepen, en verstrekt een snelle momentopname van algemene vooruitgang. De gesegmenteerde kleuren geven het aandeel van inkoopgroepen binnen elk bereik aan, zodat u de voltooiingstrends in één oogopslag kunt beoordelen.
+
+Als u meer gedetailleerde informatie wilt weergeven, klikt u op het menupictogram **..** rechtsboven.
+
+![ het Kopen de score van de groepsovereenkomst visualisatie ](./assets/buying-group-completion-score-chart.png){width="500"}
+
+## Groepen kopen op basis van interesse voor oplossing
+
+Deze visualisatie illustreert de distributie van het kopen groepen door oplossingsrente, en helpt u om te identificeren welke oplossingen de meeste interesse produceren. Elke bar vertegenwoordigt een specifieke oplossing, met zijn lengte die op het aantal koopgroepen wijst verbonden aan dat belang. Dit staafdiagram biedt een duidelijk en direct inzicht in trends in de vraag naar oplossingen.
+
+Als u meer gedetailleerde informatie wilt weergeven, klikt u op het menupictogram **..** rechtsboven. Kies **Boor door** of **Meer Mening**.
+
+![ het Kopen de score van de groepsovereenkomst visualisatie ](./assets/buying-group-by-solution-interest-chart.png){width="500"}
+
+## De gegevens filteren
+
+Klik het _pictogram van de Filter_ ( ![ pictogram van de Filter ](../assets/do-not-localize/icon-filter.svg) ) bij de bovenkant verlaten om de getoonde gegevens te filtreren gebruikend om het even welk van deze attributen:
+
+* Huidige fase
+* Marktsegment
+* Regio
+* Oplossingsrente
+
+![ filter de getoonde gegevens door attributen ](./assets/buying-group-overview-filters.png){width="500"}
+
+Selecteer zoveel waarden voor elk kenmerk dat u wilt gebruiken om de gegevens te filteren en klik op **[!UICONTROL Apply]** .
 
 ## Betrokkenheid bij de gegevens
 
-Als u gegevens wilt gebruiken, gebruikt u het actiemenu in de rechterbovenhoek.
-
-![ klik het pictogram om tot het actiemenu ](./assets/buying-group-more-menu.png){width="300"} toegang te hebben
+Om met de gegevens in werking te stellen, gebruik _Meer_ (**..**) menu bij top-right van elke grafiek.
 
 ### [!UICONTROL Drill through]
 
-Kies **[!UICONTROL Drill through]** voor een diepgaande analyse van individuele groepsstatussen.
+Kies **[!UICONTROL Drill through]** voor een diepgaande analyse van individuele groepsscores of distributies.
 
-![ de boor door voor de grafiekgegevens ](./assets/buying-group-status-drill-through-view.png){width="600" zoomable="yes"}
+![ Boor door om tot de grafiekgegevens toegang te hebben ](./assets/buying-group-completion-score-drill-through-view.png){width="700" zoomable="yes"}
 
-De algemene filters die op het dashboard worden toegepast, worden overgenomen.
+De algemene filters die op het dashboard worden toegepast, worden overgenomen. Klik het _pictogram van de Filter_ ( ![ pictogram van de Filter ](../assets/do-not-localize/icon-filter.svg) ) bij de bovenkant verlaten aan [ verandering de attributenfilters ](#filter-the-data) voor de boor-door mening.
 
-Klik het pictogram van het actiemenu op het hoogste recht en kies **[!UICONTROL View more]** aan [ mening uitgebreide gegevens en inzichten ](#view-more).
+U kunt _klikken Meer_ (**..**) menu bij top-right en kiezen **[!UICONTROL View more]** aan [ mening uitgebreide gegevens ](#view-more).
 
 ### [!UICONTROL View more]
 
-Kies **[!UICONTROL View more]** voor uitgebreide gegevens en inzichten. Het weergegeven pop-upvenster bevat een diagram en een tabel met de indeling van de status van de inkoopgroep:
+Kies **[!UICONTROL View more]** om uitgebreide gegevens en inzichten weer te geven.
 
-* [!UICONTROL Account ID ]
-* [!UICONTROL Account Name]
-* [!UICONTROL Account Region]
-* [!UICONTROL Account Industry]
-* [!UICONTROL Buying Group Name]
-* [!UICONTROL Solution Interest]
-* [!UICONTROL Status]
-* [!UICONTROL Engagement Score]
-* [!UICONTROL Completeness Score]
-* [!UICONTROL Member Role]
-* [!UICONTROL Member Enrolled / Created Date]
-* [!UICONTROL Person ID]
-* [!UICONTROL Name]
-* [!UICONTROL Email]
-* [!UICONTROL Title]
-* [!UICONTROL Number of Inbound Engagement Activities]
-* [!UICONTROL Last engagement date]
+![ Mening uitgebreide gegevens ](./assets/buying-group-engagement-score-view-more.png){width="700" zoomable="yes"}
 
-![ Mening uitgebreide gegevens ](./assets/buying-group-status-view-more.png){width="600" zoomable="yes"}
+Het weergegeven pop-upvenster bevat een diagram en een tabel die de uitsplitsing van de distributie van de inkoopgroep weergeven.
 
-Klik op **[!UICONTROL Download CSV]** rechtsboven om de gegevens te downloaden.
+Als u de gegevens wilt downloaden, klikt u op **[!UICONTROL Download CSV]** rechtsboven in de datatabel. Klik op **[!UICONTROL Close]** om terug te keren naar het dashboard Overzicht.

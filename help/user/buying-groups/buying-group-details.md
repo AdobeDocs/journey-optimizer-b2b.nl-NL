@@ -2,7 +2,8 @@
 title: Gegevens van kopersgroep
 description: Meer informatie over uitgebreide informatie en algemene AI-overzichten voor het kopen van groepen in Journey Optimizer B2B edition.
 feature: Buying Groups
-source-git-commit: 55c157483f7b5c5340bc3e0e2cfde29de45a5cc2
+exl-id: f14301dc-d605-4ed2-8867-6a49675019de
+source-git-commit: cfebf3d3a91733261417e338b3ce3c1b80495e5b
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 1%
@@ -11,7 +12,7 @@ ht-degree: 1%
 
 # Gegevens van groep kopen
 
-Als u ergens in Journey Optimizer B2B edition op de naam van een inkoopgroep klikt, worden de gegevens van de inkoopgroep weergegeven. Deze informatie bevat nuttige informatie over de inkoopgroep, waaronder generatieve AI-overzichten.
+Als u ergens in Journey Optimizer B2B edition op de naam van een inkoopgroep klikt, worden de gegevens van de inkoopgroep weergegeven. Dit overzicht bevat nuttige informatie over de inkoopgroep, waaronder generatieve AI-overzichten.
 
 ![ heb toegang tot de het kopen groepdetails ](./assets/buying-group-details.png){width="800" zoomable="yes"}
 

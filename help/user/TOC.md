@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentatie voor de B2B-editie van Journey Optimizer
 user-guide-description: Meer informatie over de B2B-editie van Adobe Journey Optimizer en hoe u deze kunt gebruiken om account- en inkoopgroeptrajecten te orkestreren met behulp van ingebouwde generatieve AI en toonaangevende automatisering.
-source-git-commit: bb2c790dbef3202b871e1362a1ca091666888368
+source-git-commit: 04656fde343ac613e98608ff6b68ddac38ec9a6d
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 21%
+source-wordcount: '221'
+ht-degree: 20%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 21%
    + [AI-assistent gebruiken](./start/ai-assistant.md)
 + Accountreizen {#account-journeys}
    + [Overzicht](./journeys/journey-overview.md)
+   + [Reisgegevens](./journeys/journey-details.md)
    + [Reisknooppunt](./journeys/journey-nodes.md)
    + Reisknooppunten {#journey-nodes}
       + [Accountpubliek](./journeys/account-audience-nodes.md)
@@ -45,17 +46,18 @@ ht-degree: 21%
       + [Gegevens van groep kopen](./buying-groups/buying-group-details.md)
       + [Koopgroepen maken](./buying-groups/buying-groups-create.md)
       + [Accountlijst exporteren](./audiences/account-list-export.md)
-      + [LinkedIn-account met passend publiek](./data/linkedin-account-matched-audiences.md)
+      + [Gekoppeld publiek voor account gekoppeld](./data/linkedin-account-matched-audiences.md)
       + [Groepsfilters kopen in Markt](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
    + [Accountlijsten](./accounts/account-lists.md)
+   + [Accountgegevens](./accounts/account-details.md)
    + [XDM-velden](./data/field-mapping.md)
 + Inhoudsbeheer {#content-management}
    + Assets {#assets}
       + [Overzicht](./content/assets-overview.md)
-      + Elementen van Marketo&#39;s Engage {#marketo-engage-dam}
-         + [Werken met Marketo&#39;s Engage](./content/marketo-engage-design-studio.md)
+      + Marketo Engage-elementen {#marketo-engage-dam}
+         + [Werken met Marketo Engage-middelen](./content/marketo-engage-design-studio.md)
          + [Afbeeldingen bewerken met Adobe Express](./content/image-edit-adobe-express.md)
-      + [Afbeeldingselementen Experience Managers](./content/aem-assets.md)
+      + [Experience Manager-afbeeldingselementen](./content/aem-assets.md)
    + Sjablonen {#templates}
       + [Inhoud beheren](./content/template-content-governance.md)
       + E-mailsjablonen {#email-templates}
@@ -70,10 +72,9 @@ ht-degree: 21%
    + [Voorwaardelijke inhoud](./content/conditional-content.md)
 + Inhoudsdashboards {#dashboards}
    + [Intelligent dashboard](./dashboards/intelligent-dashboard.md)
-   + [Accountgegevens](./accounts/account-details.md)
-   + [Overzicht van kopersgroepen](./dashboards/buying-groups-dashboard.md)
    + [Overzicht van betrokkenheid](./dashboards/engagement-dashboard.md)
-   + [Reisoverzicht](./dashboards/journeys-dashboard.md)
+   + [Overzicht van kopersgroepen](./dashboards/buying-groups-dashboard.md)
+   + [Overzicht van rekeningreizen](./dashboards/journeys-dashboard.md)
 + Beheer {#admin}
    + [Gebruikersbeheer](./admin/user-management.md)
    + [Intentgegevens](./admin/intent-data.md)

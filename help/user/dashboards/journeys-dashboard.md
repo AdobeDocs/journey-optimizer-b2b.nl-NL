@@ -1,75 +1,57 @@
 ---
-title: Dashboard Reisoverzicht
+title: Rekeningjournaal - overzicht dashboard
 description: Leer meer over de informatie die wordt geleverd door het dashboard Overzicht van de Reis en hoe u hiermee uw strategie voor het bijhouden en beheren van uw accountriseizen kunt volgen.
 feature: Dashboards, Account Journeys
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 8df1e44d5d978249ffc6e95b3a383644358d1d66
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
 
-# Dagboek overzicht
+# Rekeningoverzicht - dashboard
 
-Dit dashboard biedt een uitgebreid overzicht van een geselecteerde accountreis, met een gedetailleerd overzicht van de voortgang van de account met donut- en lijngrafieken waarmee voltooide accounts, lopende activiteiten en afbrekingen in de loop der tijd worden gecategoriseerd en gekwantificeerd. Het helpt marketers de doeltreffendheid van e-mail en SMS kanalen door zeer belangrijke levering en betrokkenheidsmetriek te evalueren.
+Dit dashboard biedt een uitgebreid overzicht van uw actieve accountreizen, waarin de voortgang van uw account wordt beschreven aan de hand van cirkeldiagrammen en staafdiagrammen die voltooide accounts categoriseren en kwantificeren, en betrokkenheidsactiviteiten. Het helpt Marketers de doeltreffendheid van e-mail en de kanalen van SMS door zeer belangrijke levering en betrokkenheidsmetriek evalueren.
 
 Dit overzicht is beschikbaar voor gepubliceerde accountreizen en het duurt ongeveer vier uur voordat gegevens de diagrammen en tabellen invullen.
 
 ![ Overzicht van de Reis ](./assets/journey-overview.png){width="700" zoomable="yes"}
 
-## Reisstatus
+## Distributie van voltooiingssnelheden voor reizen
 
-Dit donutdiagram bevat een uitsplitsing van de status van de rit, waarbij accounts worden ingedeeld in `Completed` , `In Progress` en `Aborted` . Elk segment wordt duidelijk geëtiketteerd met overeenkomstige percentages en rekeningsaantallen op de buitenrand van de grafiek.
+Dit diagram illustreert de verdeling van reizen op basis van hun voltooiingspercentage en wordt ingedeeld in vier verschillende scorereeksen. Het centrale cijfer vertegenwoordigt het totale aantal reizen en verstrekt een snelle momentopname van algemene vooruitgang. De gesegmenteerde kleuren geven het aandeel van reizen binnen elk scorebereik aan, zodat u de voltooiingstrends in één oogopslag kunt beoordelen.
 
-## Reisvoltooiing in de loop der tijd
+Als u meer gedetailleerde informatie wilt weergeven, klikt u op het menupictogram **..** rechtsboven.
 
-Deze lijngrafiek volgt het aantal rekeningen die hun reis in tijd hebben voltooid. De horizontale as wijst de tijdlijn toe terwijl de verticale as de rekeningen kwantificeert, die een duidelijke mening van voltooiingstrends verstrekken.
+![ de distributie van het de voltooiingstarief van de Reis ](./assets/journey-completion-rate-distribution.png){width="500"}
 
-## Reisprestatiewidgets
+## Reizen per betrokkenheidstype
 
-In deze sectie worden twee belangrijke meetgegevens beschreven:
+Dit staafdiagram toont de verdeling van reizen op basis van het soort service en helpt u te bepalen welke overeenkomsten het meest werden gebruikt tijdens reizen. Elke staaf vertegenwoordigt een specifiek soort overeenkomst, waarvan de lengte het aantal reizen met activiteiten van dat type aangeeft. Deze visualisatie biedt een duidelijk en direct inzicht in de trends in uw betrokkenheid tijdens uw accountreizen.
 
-* **[!UICONTROL Journey completion rate]** - Het percentage accounts waarmee de rit is voltooid.
-* **[!UICONTROL Journey duration]** - De gemiddelde tijdsduur voor accounts om hun reis te voltooien.
+Als u meer gedetailleerde informatie wilt weergeven, klikt u op het menupictogram **..** rechtsboven.
 
-## Prestatietabellen voor e-mail en SMS
+![ de distributie van het de voltooiingstarief van de Reis ](./assets/journeys-by-engagement-type.png){width="500"}
 
-De prestatietabellen verstrekken een gedetailleerd overzicht van de doeltreffendheid van e-mail en SMS kanalen. Elke tabel toont de meetgegevens, zoals leveringstarieven en doorkliktarieven, om het effect van elk communicatie aanraakpunt te beoordelen.
+## Betrokkenheid bij de gegevens
 
-**[!UICONTROL Email performance]** tabelkolommen:
+Als u gegevens wilt gebruiken, gebruikt u het menu **..** rechtsboven in elk diagram.
 
-* _[!UICONTROL Asset name]_- naam van het element
-* _[!UICONTROL Sent]_- aantal verzonden e-mailberichten
-* _[!UICONTROL Delivery rate]_- aantal geleverde e-mails gedeeld door het verzonden aantal
-* _[!UICONTROL Open Rate]_- nummer geopende e-mailberichten gedeeld door het geleverde nummer
-* _[!UICONTROL Click-through rate]_- aantal geklikte e-mails gedeeld door het geleverde aantal
+### [!UICONTROL Drill through]
 
-**[!UICONTROL SMS performance]** tabelkolommen:
+Kies **[!UICONTROL Drill through]** voor een diepgaande analyse van de gegevens in het cirkeldiagram.
 
-* _[!UICONTROL Asset name]_- naam van het element
-* _[!UICONTROL Sent]_- aantal verzonden SMS-berichten
-* _[!UICONTROL Delivery rate]_- aantal geleverde SMS-berichten gedeeld door het verzonden nummer
-* _[!UICONTROL Click-through rate]_- aantal aangeklikte SMS-berichten gedeeld door het geleverde aantal
-<!-- 
-To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top right of the page. -->
+![ Boor door om tot de grafiekgegevens toegang te hebben ](./assets/journey-completion-rate-drill-through.png){width="700" zoomable="yes"}
 
-## Verbeterde interactie
+U kunt _klikken Meer_ (**..**) menu bij top-right en kiezen **[!UICONTROL View more]** aan [ mening uitgebreide gegevens ](#view-more).
 
-Bouw verder met de gegevens door het actiepictogram (**...**) in het hoogste recht van elke grafiek of lijst te gebruiken.
+### [!UICONTROL View more]
 
-### Doorboor
+Kies **[!UICONTROL View more]** om uitgebreide gegevens en inzichten weer te geven.
 
-Kies bij de grafiek _[!UICONTROL Journey status]_de optie **[!UICONTROL Drill through]**voor een diepgaande analyse van de status van afzonderlijke accounts.
+![ Mening uitgebreide gegevens ](./assets/journeys-by-engagement-view-more.png){width="700" zoomable="yes"}
 
-![ de boor door voor de grafiekgegevens ](./assets/journey-status-drill-through.png){width="600" zoomable="yes"}
-<!--
-The applied global filters are carried over to the view and displayed at the top. Click the _Filter_ icon at the top left to filter the data display by journey.-->
+Het weergegeven pop-upvenster bevat een diagram en een tabel met de uitsplitsing van de reisgegevens.
 
-### Meer weergeven
-
-Kies **[!UICONTROL View more]** voor toegang tot uitgebreide gegevens en inzichten. Het weergegeven pop-upvenster bevat een uitsplitsing van de gegevens.
-
-Klik op **[!UICONTROL Download CSV]** rechtsboven om de gegevens te downloaden.
-
-![ Mening uitgebreide gegevens ](./assets/journey-email-performance-view-more.png){width="600" zoomable="yes"}
+Als u de gegevens wilt downloaden, klikt u op **[!UICONTROL Download CSV]** rechtsboven in de datatabel. Om aan het _Overzicht_ dashboard terug te keren, klik **[!UICONTROL Close]**.

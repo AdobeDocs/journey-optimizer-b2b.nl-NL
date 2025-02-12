@@ -3,9 +3,9 @@ title: Dashboard Betrokkenheid overzicht
 description: Leer hoe u het dashboard Betrokkenheid overzicht kunt gebruiken om uw betrokkenheidsinspanningen te controleren.
 feature: Dashboards, Engagement
 exl-id: 46363ed8-755a-4368-b53c-0b3629b64934
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 8de3fea2ffd5de54ec7c8dd94307f1de09101b98
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -14,66 +14,82 @@ ht-degree: 0%
 
 Dit dashboard biedt een uitgebreide weergave van betrokkenheid en toont real-time metriek van account en individuele interacties via schenkingsgrafieken en trendonthullende lijngrafieken in de loop der tijd. Het helpt u om uw inspanningen voor betrokkenheid effectief te controleren en te strategisch.
 
+Om tot het _dashboard van de Betrokkenheid_ toegang te hebben, selecteer het **[!UICONTROL Dashboard]** punt in de linkernavigatie. Selecteer vervolgens de tab **[!UICONTROL Engagement]** boven aan de pagina.
+
 <!-- To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top-right corner of the page. To engage with the data, use the action menu in the top-right corner. -->
 
-## Betrokkenheid van accounts/Betrokkenheid van mensen
+![ dashboard van de Betrokkenheid ](./assets/engagement-dashboard.png){width="800" zoomable="yes"}
 
-In de donut-grafieken wordt duidelijk onderscheid gemaakt tussen rekeningen of personen in categorieën die in dienst zijn of niet in dienst zijn genomen. Het centrale cijfer geeft het totale aantal binnen elke categorie aan, waardoor in één oogopslag inzicht wordt verkregen in de totale betrokkenheid.
+## Betrokkenheid van accounts/groep kopen/mensen
 
-![ Betrokkenheid door rekeningen en door mensen ](assets/engagement-accounts-people.png){width="700" zoomable="yes"}
+De cirkeldiagrammen verdelen rekeningen, koopgroepen, of mensen in geëngageerde en niet-aangeworven categorieën. Het centrale cijfer toont het totale aantal binnen elke categorie, die een in één oogopslag inzicht van algemene betrokkenheid verstrekt.
 
-## Rekeningen die in de loop der tijd zijn aangeworven / Personen die in de loop der tijd zijn betrokken
+![ Betrokkenheid door rekeningen en door mensen ](assets/engagement-accounts.png){width="500"}
+
+## Rekeningen/koopgroepen/personen die in de loop der tijd betrokken zijn
 
 Deze lijngrafieken geven de betrokkenheidsniveaus van accounts of mensen in de loop van de tijd weer. Met duidelijke regels voor &#39;Engaged&#39; en &#39;Not Engaged&#39; die naast een horizontale as met tijdstempels worden weergegeven, kunt u trends en patronen vaststellen. U kunt de muisaanwijzer op een regel plaatsen om de precieze meetwaarden voor een bepaalde datum weer te geven.
 
-![ Betrokkenheid door rekeningen en door mensen in tijd ](assets/engagement-accounts-people-over-time.png){width="700" zoomable="yes"}
+![ Betrokkenheid door rekeningen en door mensen in tijd ](assets/engagement-accounts-over-time.png){width="500"}
 
-## Verbeterde interacties
+## De gegevens filteren
 
-U kunt meer doen met de gegevens door het actiepictogram ( **...** ) in de rechterbovenhoek van elke grafiek te gebruiken.
+U kunt de weergegeven gegevens filteren op datumbereik en kenmerken.
+
+### Filter datumbereik
+
+Gebruik _[!UICONTROL Date range filter]_in de rechterbovenhoek om de gegevens te filteren op basis van het datumbereik.
+
+![ filter de getoonde gegevens door datumwaaier ](./assets/engagement-date-filter.png){width="380"}
+
+Voor het bereik **[!UICONTROL Custom]** kunt u het gereedschap Kalender gebruiken om een begin- en einddatum op te geven. De einddatum wordt standaard ingesteld op de huidige dag.
+
+![ filter de getoonde gegevens door attributen ](./assets/engagement-date-filter-custom.png){width="380"}
+
+### Kenmerk, filter
+
+Klik het _pictogram van de Filter_ ( ![ pictogram van de Filter ](../assets/do-not-localize/icon-filter.svg) ) bij de bovenkant verlaten om de getoonde gegevens te filtreren gebruikend om het even welk van deze attributen:
+
+* Oplossingsrente
+* Type betrokkenheid
+* Regio
+* Marktsegment
+* Rol van groepslid kopen
+
+![ filter de getoonde gegevens door attributen ](./assets/engagement-dashboard-filters.png){width="500"}
+
+Selecteer zoveel waarden voor elk kenmerk dat u wilt gebruiken om de gegevens te filteren en klik op **[!UICONTROL Apply]** .
+
+## Betrokkenheid bij de gegevens
+
+Als u gegevens wilt gebruiken, gebruikt u het menu **..** rechtsboven in elk diagram.
 
 ![ dashboardgegevens van de Betrokkenheid - actiemenu ](assets/engagement-action-menu.png){width="300"}
 
-### Meer weergeven
-
-**[!UICONTROL View More]**: voor alle dashboardweergaven wordt een pop-up weergegeven met het diagram en een tabel met de indeling van de betrokkenheid per account/persoon.
-
-Als u de uitgebreide gegevens wilt kopiëren, klikt u op **[!UICONTROL Download CSV]** rechtsboven.
-
 ### Doorboor
 
-Kies **[!UICONTROL Drill through]** voor een diepgaande analyse van individuele groepsstatussen.
+Kies **[!UICONTROL Drill through]** voor een cirkeldiagram voor een diepgaande analyse van de afzonderlijke gegevens over de groepsbetrokkenheid.
 
-De algemene filters die op het dashboard worden toegepast, worden naar deze pagina overgedragen.
+De algemene filters (gegevensbereik en kenmerken) worden toegepast op het dashboard. Klik het _pictogram van de Filter_ ( ![ pictogram van de Filter ](../assets/do-not-localize/icon-filter.svg) ) bij de bovenkant verlaten aan [ verandering de attributenfilters ](#filter-the-data) voor de boor-door mening. Gebruik de selecteur van de datumwaaier bij het hoogste recht om [ de datumwaaier ](#date-range-filter) voor de boor-door mening te veranderen.
 
-Kies **[!UICONTROL View more]** voor uitgebreide gegevens en inzichten. Afhankelijk van de grafiek, zijn er uitgebreide gegevens voor het volgende:
+![ Boor door om tot de grafiekgegevens toegang te hebben ](./assets/engagement-buying-groups-drill-through.png){width="700" zoomable="yes"}
 
-* [!UICONTROL Accounts]
-* [!UICONTROL People]
-* [!UICONTROL Date]
-* [!UICONTROL Status]
-* [!UICONTROL Engaged]
-* [!UICONTROL Not Engaged]
-<!-- 
-* [!UICONTROL Engagement activities]
-* [!UICONTROL Last engagement date]
-* [!UICONTROL Region]
-* [!UICONTROL Industry]
-* [!UICONTROL People]
-* [!UICONTROL Name]
-* [!UICONTROL Person ID]
-* [!UICONTROL Status]
-* [!UICONTROL Email]
---->
+| Betrokkenheid per rekening | Betrokkenheid bij het kopen van groepen | Betrokkenheid van mensen |
+| ---------------------- | --------------------------- | -------------------- |
+| <li>Accountnaam <li>Status <li>Personen in dienst (getal)<li>Betrokkenheid (nummer) <li>Laatste betrokkenheid (datum) | <li>Groep voor kopen <li>Account <li>Oplossingsrente <li>Status <li>Betrokkenheid (nummer) | <li>Naam <li>Status <li>E-mail (adres) <li>Betrokkenheid (nummer) <li>Laatste service (datum) |
 
-### Gegevens filteren
+U kunt **klikken...** menupictogram bij top-right en kiezen **[!UICONTROL View more]** aan [ mening uitgebreide gegevens en inzichten ](#view-more).
 
-* **de filter van Gegevens** - gebruik _[!UICONTROL Date filter]_, die op de laatste betrokkenheidsdatum wijst. De begindatum kan worden aangepast. De einddatum wordt standaard ingesteld op de huidige dag.
+### Meer weergeven
 
-* **de filter van Attributen** - klik het _3} pictogram van de Filter {bij de bovenkant verlaten om de gegevensvertoning te filtreren gebruikend om het even welk van deze attributen:_
+Kies **[!UICONTROL View more]** voor uitgebreide gegevens en inzichten.
 
-   * Oplossingsrente
-   * Type betrokkenheid
-   * Regio
-   * Marktsegment
-  <!-- * Account's Industry -->
+![ Betrokkenheid door rekeningen en door mensen ](./assets/engagement-buying-groups-time-view-more.png){width="700" zoomable="yes"}
+
+Afhankelijk van de grafiek, zijn er uitgebreide gegevens voor het volgende:
+
+| Betrokkenheid van accounts/inkoopgroepen/mensen | Rekeningen/inkoopgroepen/personen die in de loop der tijd betrokken zijn |
+| ----------------------------------------------- | -------------------------------------------------- | 
+| <li>Betrokken <li>Niet opgenomen | <li>Datum <li>Accounts/Buying groups / People (number) <li>Betrokken / Niet ingeschakeld |
+
+Als u de uitgebreide gegevens wilt kopiëren, klikt u op **[!UICONTROL Download CSV]** rechtsboven.
