@@ -2,9 +2,10 @@
 title: Een handeling uitvoeren
 description: Meer informatie over het type Actie-knooppunt nemen dat u kunt gebruiken voor het orchestreren van uw accountreizen in Journey Optimizer B2B edition.
 feature: Account Journeys
-source-git-commit: ac7d498de05a492751bc40682467c3a76d74d912
+exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
+source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1045'
 ht-degree: 0%
 
 ---
@@ -12,6 +13,8 @@ ht-degree: 0%
 # Handeling uitvoeren
 
 In uw accountreis kunt u een _[!UICONTROL Take an action]_-knooppunt toevoegen om een handeling uit te voeren, zoals een e-mail verzenden, een score wijzigen, toewijzen aan een inkoopgroep, enzovoort. Handelingen zijn doorgaans de handelingen die u wilt uitvoeren als gevolg van een of andere trigger, zoals een gebeurtenis of een vorige handeling.
+
+![ Video ](../../assets/do-not-localize/icon-video.svg){width="30"} [ bekijk de overzichtsvideo ](#overview-video)
 
 ## Accountacties
 
@@ -61,10 +64,10 @@ Gebruik een handeling op personen wanneer u een wijziging wilt toepassen op alle
 | | [!UICONTROL Remove from Buying Group] | Belang van oplossing selecteren |
 | | [!UICONTROL Send email] | Creeer nieuwe e-mail <br/> Uitgezochte e-mail van Marketo Engage |
 | | [!UICONTROL Send SMS] | SMS maken |
-| [ Marketo Engage ](#marketo-engage-actions) | [!UICONTROL Add to List] | Selecteer de werkruimte van het Marketo Engage <br/> Naam van de Lijst |
-| | [!UICONTROL Add to Marketo Engage Request campaign] | Selecteer de werkruimte van het Marketo Engage <br/> Uitgezochte campagne van het Verzoek |
+| [ Marketo Engage ](#marketo-engage-actions) | [!UICONTROL Add to List] | Selecteer de werkruimte van Marketo Engage <br/> Naam van de Lijst |
+| | [!UICONTROL Add to Marketo Engage Request campaign] | Selecteer de werkruimte van Marketo Engage <br/> Uitgezochte campagne van het Verzoek |
 | | [!UICONTROL Change People Partition in Marketo Engage] | Nieuwe partitie |
-| | [!UICONTROL Remove from List] | Selecteer de werkruimte van het Marketo Engage <br/> Naam van de Lijst |
+| | [!UICONTROL Remove from List] | Selecteer de werkruimte van Marketo Engage <br/> Naam van de Lijst |
 
 ### Een op personen gebaseerde actie toevoegen
 
@@ -92,7 +95,7 @@ Met deze actie kunt u mensen naar een extern publiek duwen dat via een betaald m
 
 ![ neem een actie - voeg aan extern klantenpubliek toe ](./assets/node-action-add-to-external-audience-options.png){width="300"}
 
-Wanneer u deze op personen gebaseerde actie selecteert, kunt u een nieuw extern publiek maken of een bestaand extern publiek selecteren. Voor bestaande doelgroepen kunt u kiezen uit externe klantgroepen die alleen in Journey Optimizer B2B edition zijn gemaakt. Wanneer u een publiek creeert en het voor deze reisactie gebruikt, zorg ervoor dat u de bestemming verbindt. Voor meer informatie, zie [ een nieuwe bestemmingsverbinding ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination) creëren {target="_blank"} en [ Overzicht van de Activering ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog) {target="_blank"} in de documentatie van het Experience Platform).
+Wanneer u deze op personen gebaseerde actie selecteert, kunt u een nieuw extern publiek maken of een bestaand extern publiek selecteren. Voor bestaande doelgroepen kunt u kiezen uit externe klantgroepen die alleen in Journey Optimizer B2B edition zijn gemaakt. Wanneer u een publiek creeert en het voor deze reisactie gebruikt, zorg ervoor dat u de bestemming verbindt. Voor meer informatie, zie [ een nieuwe bestemmingsverbinding ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination) creëren {target="_blank"} en [ Overzicht van de Activering ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog) {target="_blank"} in de documentatie van Experience Platform).
 
 _om een extern publiek tot stand te brengen:_
 
@@ -138,7 +141,7 @@ Gebruik deze actie om de waarde van de attributen van het a [ personenprofiel ](
 
 +++[!UICONTROL Change Score]
 
-Gebruik deze handeling om de score van de persoon in het Marketo Engage te wijzigen. [ leer meer ](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn) {target="_blank"}
+Gebruik deze handeling om de score voor personen in Marketo Engage te wijzigen. [ leer meer ](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn) {target="_blank"}
 
 ![ neem een actie - de score van de Verandering ](./assets/node-action-change-score.png){width="300"}
 
@@ -162,7 +165,7 @@ Gebruik deze actie om personenprofielen uit a [ te verwijderen die groep ](../bu
 
 +++[!UICONTROL Send email]
 
-Gebruik deze handeling om een e-mail te verzenden. U kunt tot stand brengen, personaliseren, en voorproef e-mailberichten in de visuele ontwerper (zie [ E-mail creërend ](../content/email-authoring.md)). U kunt ook een [ e-mail van Marketo Engage ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email) verzenden {target="_blank"}. Selecteer de werkruimte van het Marketo Engage en selecteer vervolgens het e-mailbericht dat u wilt verzenden.
+Gebruik deze handeling om een e-mail te verzenden. U kunt tot stand brengen, personaliseren, en voorproef e-mailberichten in de visuele ontwerper (zie [ E-mail creërend ](../content/email-authoring.md)). U kunt ook een [ e-mail van Marketo Engage ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email) verzenden {target="_blank"}. Selecteer de Marketo Engage-werkruimte en selecteer vervolgens het e-mailbericht dat u wilt verzenden.
 
 ![ neem een actie - verzend email ](./assets/node-action-send-email-from-marketo.png){width="300"}
 
@@ -176,15 +179,15 @@ Gebruik deze actie om een SMS-bericht te verzenden. U kunt tot stand brengen, pe
 
 +++
 
-### Handelingen Marketo Engage
+### Marketo Engage-acties
 
-De Marketo Engage, gebaseerd op mensen, is ontworpen om uw op account gebaseerde marketingorganisatie in Journey Optimizer B2B edition te coördineren met uw op leads gebaseerde marketinginspanningen in Marketo Engage. Gebruik deze acties om lijstlidmaatschap, personenverdelingen, en verzoekcampagnes te ordenen.
+De Marketo Engage-basis voor mensen is ontworpen om uw marketingorganisatie op basis van account in Journey Optimizer B2B edition te coördineren met uw marketingactiviteiten op basis van leads in Marketo Engage. Gebruik deze acties om lijstlidmaatschap, personenverdelingen, en verzoekcampagnes te ordenen.
 
 +++[!UICONTROL Add to list]
 
 Gebruik deze actie om mensen uit a [ Slimme Lijst ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists) {target="_blank"} in Marketo Engage te verwijderen.
 
-Selecteer eerst de werkruimte in de instantie van het aangesloten Marketo Engage. Selecteer vervolgens de lijstnaam.
+Selecteer eerst de werkruimte in de verbonden Marketo Engage-instantie. Selecteer vervolgens de lijstnaam.
 
 ![ neem een actie - voeg aan lijst toe ](./assets/node-action-add-to-list-options.png){width="300"}
 
@@ -194,7 +197,7 @@ Selecteer eerst de werkruimte in de instantie van het aangesloten Marketo Engage
 
 Gebruik deze actie om personenprofielen aan de campagne van het a [ verzoek ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign) toe te voegen {target="_blank"} in Marketo Engage.
 
-Selecteer eerst de werkruimte in de instantie van het aangesloten Marketo Engage. Selecteer vervolgens de naam van de aanvraagcampagne.
+Selecteer eerst de werkruimte in de verbonden Marketo Engage-instantie. Selecteer vervolgens de naam van de aanvraagcampagne.
 
 ![ neem een actie - voeg aan de campagne van het Verzoek van Marketo toe ](./assets/node-action-add-to-request-campaign-options.png){width="300"}
 
@@ -210,10 +213,14 @@ Gebruik deze actie om de [ persoonverdeling ](https://experienceleague.adobe.com
 
 +++[!UICONTROL Remove from list]
 
-Gebruik deze actie om mensen uit a [ Slimme Lijst ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists) {target="_blank"} in Marketo Engage te verwijderen. Selecteer eerst de werkruimte in de instantie van het aangesloten Marketo Engage. Selecteer vervolgens de lijstnaam.
+Gebruik deze actie om mensen uit a [ Slimme Lijst ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists) {target="_blank"} in Marketo Engage te verwijderen. Selecteer eerst de werkruimte in de verbonden Marketo Engage-instantie. Selecteer vervolgens de lijstnaam.
 
 ![ neem een actie - verwijder uit lijst ](./assets/node-action-remove-from-list-options.png){width="300"}
 
 Als het profiel van de persoon geen lid was van de slimme lijst, wordt de actie genegeerd.
 
 +++
+
+## Video over overzicht
+
+>[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)

@@ -1,9 +1,9 @@
 ---
 user-guide-title: Documentatie voor de B2B-editie van Journey Optimizer
 user-guide-description: Meer informatie over de B2B-editie van Adobe Journey Optimizer en hoe u deze kunt gebruiken om account- en inkoopgroeptrajecten te orkestreren met behulp van ingebouwde generatieve AI en toonaangevende automatisering.
-source-git-commit: 04656fde343ac613e98608ff6b68ddac38ec9a6d
+source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '226'
 ht-degree: 20%
 
 ---
@@ -21,14 +21,15 @@ ht-degree: 20%
    + [AI-assistent gebruiken](./start/ai-assistant.md)
 + Accountreizen {#account-journeys}
    + [Overzicht](./journeys/journey-overview.md)
-   + [Reisgegevens](./journeys/journey-details.md)
-   + [Reisknooppunt](./journeys/journey-nodes.md)
+   + [Een reis maken en publiceren](./journeys/create-publish-journey.md)
+   + [Reisknooppunten](./journeys/journey-nodes.md)
    + Reisknooppunten {#journey-nodes}
       + [Accountpubliek](./journeys/account-audience-nodes.md)
       + [Handeling uitvoeren](./journeys/action-nodes.md)
       + [Luisteren naar een gebeurtenis](./journeys/listen-for-event-nodes.md)
       + [Paden splitsen en samenvoegen](./journeys/split-merge-paths-nodes.md)
       + [Wachten](./journeys/wait-nodes.md)
+   + [Reisgegevens](./journeys/journey-details.md)
 + Reisinhoud {#journey-content}
    + E-mailkanaal {#email-channel}
       + [E-mailontwerp](./content/email-authoring.md)

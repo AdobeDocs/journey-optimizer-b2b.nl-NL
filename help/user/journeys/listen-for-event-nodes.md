@@ -2,9 +2,10 @@
 title: Luisteren naar een gebeurtenis
 description: Meer informatie over het type Luisteren naar een gebeurtenisknooppunt dat u kunt gebruiken voor het orchestreren van uw accountreizen in Journey Optimizer B2B edition.
 feature: Account Journeys
-source-git-commit: a1247b0cdab586f2bca1c0e495d5db2069d2645b
+exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
+source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: '1297'
 ht-degree: 1%
 
 ---
@@ -12,6 +13,8 @@ ht-degree: 1%
 # Luisteren naar een gebeurtenis
 
 Voeg _toe luistert naar een gebeurtenis_ knoop om uw publiek naar de volgende stap in de rekeningsreis vooruit te bewegen wanneer een gebeurtenis voorkomt.
+
+![ Video ](../../assets/do-not-localize/icon-video.svg){width="30"} [ bekijk de overzichtsvideo ](#overview-video)
 
 >[!NOTE]
 >
@@ -62,8 +65,8 @@ Luister naar een gebeurtenis op basis van mensen wanneer u de account op de reis
 | | Verwijderd uit kopersgroep | De rente van de oplossing <br/> Datum van activiteit (facultatief) <br/> (facultatieve) Onderbreking |
 | | Score is gewijzigd | De naam van de score <br/><br/> Aanvullende beperkingen (facultatief):<li>Wijzigen</li><li>Nieuwe score</li><li>Urgentie</li><li>Prioriteit</li><li>Relatieve score</li><li>Relatieve urgentie</li><li>Datum van activiteit</li><li>Min. aantal keren</li><br/> Onderbreking (facultatief) |
 | | SMS Bounces | Het bericht van SMS <br/><br/> Aanvullende beperkingen (facultatief): <li>Datum van activiteit</li><li>Min. aantal keren</li><br/> Onderbreking (facultatief) |
-| Marketo Engage | Bezoek de webpagina | Webpagina <br/> Selecteer een of meer overeenkomende Marketo&#39;s Engage. <br/><br/> Extra beperkingen (facultatief): <li>Querystring</li><li>IP-adres client</li><li>Referenter</li><li>Gebruikersagent</li><li>Zoekmachine</li><li>Zoekquery</li><li>Token</li><li>Browser</li><li>Platform</li><li>Apparaat</li><li>Datum van activiteit</li> |
-| | Formulier invult | Formulier <br/> Selecteer een of meer Marketo&#39;s Engage die met elkaar overeenkomen.  <br/><br/> Extra beperkingen (facultatief): <li>Datum van activiteit</li><li>Querystring</li><li>IP-adres client</li><li>Referenter</li><li>Gebruikersagent</li><li>Platform</li><li>Apparaat</li><br/> Onderbreking (facultatief) |
+| Marketo Engage | Bezoek de webpagina | Webpagina <br/> Selecteer een of meer overeenkomende Marketo Engage-pagina&#39;s. <br/><br/> Extra beperkingen (facultatief): <li>Querystring</li><li>IP-adres client</li><li>Referenter</li><li>Gebruikersagent</li><li>Zoekmachine</li><li>Zoekquery</li><li>Token</li><li>Browser</li><li>Platform</li><li>Apparaat</li><li>Datum van activiteit</li> |
+| | Formulier invult | Formulier <br/> Selecteer een of meer Marketo Engage-formulieren die met elkaar overeenkomen.  <br/><br/> Extra beperkingen (facultatief): <li>Datum van activiteit</li><li>Querystring</li><li>IP-adres client</li><li>Referenter</li><li>Gebruikersagent</li><li>Platform</li><li>Apparaat</li><br/> Onderbreking (facultatief) |
 | Adobe Experience Platform | Gebeurtenisdefinitie | Het type van gebeurtenis <br/><br/> Aanvullende beperkingen (facultatief): <li>Velden</li> <br/> Extra beperkingen (niet gesteund): <li>Datum van activiteit</li><li>Min. aantal keren</li><br/> Time-out (optioneel) |
 
 ### Een gebeurtenis Personen toevoegen
@@ -82,7 +85,7 @@ Luister naar een gebeurtenis op basis van mensen wanneer u de account op de reis
 
 ### Luisteren naar Marketo Engage-gebeurtenis
 
-Als u webpagina&#39;s hebt gemaakt in de instantie van het aangesloten Marketo Engage, kunt u een gebeurtenis activeren op basis van een bezoek aan of geen bezoek aan webpagina&#39;s van Marketo&#39;s Engage en op basis van Marketo&#39;s Engage die niet zijn ingevuld.
+Als u webpagina&#39;s hebt gemaakt in uw verbonden Marketo Engage-exemplaar, kunt u een gebeurtenis activeren op basis van een bezoek aan of geen bezoek aan Marketo Engage-webpagina&#39;s en Marketo Engage-formulieren die niet zijn ingevuld.
 
 1. Selecteer een knooppunt **[!UICONTROL Listen for an event]** in de editor voor de rit.
 
@@ -99,7 +102,7 @@ Als u webpagina&#39;s hebt gemaakt in de instantie van het aangesloten Marketo E
 
 1. Klik op **[!UICONTROL Edit event]** en definieer een of meer webpagina&#39;s die moeten overeenkomen en eventuele extra beperkingen voor de gebeurtenis.
 
-   * (Vereist) Definieer in het dialoogvenster _[!UICONTROL Edit event]_de formulierbeperking **[!UICONTROL Web page]**of Vult uit. Gebruik **[!UICONTROL is]**(standaardwaarde) om overeen te komen op een of meer geselecteerde pagina&#39;s of formulieren. Gebruik **[!UICONTROL is not]**om overeen te komen op alle paginabezoeken/formulieren, met uitzondering van een of meer geselecteerde pagina&#39;s/formulieren. Of gebruik **[!UICONTROL is any]**om een overeenkomst te bereiken op een bezoek of ingevuld formulier op een webpagina van een Marketo Engage.
+   * (Vereist) Definieer in het dialoogvenster _[!UICONTROL Edit event]_de formulierbeperking **[!UICONTROL Web page]**of Vult uit. Gebruik **[!UICONTROL is]**(standaardwaarde) om overeen te komen op een of meer geselecteerde pagina&#39;s of formulieren. Gebruik **[!UICONTROL is not]**om overeen te komen op alle paginabezoeken/formulieren, met uitzondering van een of meer geselecteerde pagina&#39;s/formulieren. Of gebruik **[!UICONTROL is any]**om een overeenkomst te bereiken op een bezoek of ingevuld formulier op een Marketo Engage-webpagina.
 
    * (Optioneel) Klik op **[!UICONTROL Add constraint]** en kies het veld dat u voor de restrictie wilt gebruiken. Stel de operator en de waarde voor het veld in.
 
@@ -119,7 +122,7 @@ De beheerders kunnen op Adobe Experience Platform (AEP)-Gebaseerde gebeurtenisde
 
 1. [ creeer en publiceer een AEP gebeurtenisdefinitie ](../admin/configure-aep-events.md).
 
-2. In een rekeningsreis, voeg a _toe luistert naar een gebeurtenis_ knoop, en selecteert een de gebeurtenisdefinitie van het Experience Platform voor een op mensen-gebaseerde gebeurtenis.
+2. In een rekeningsreis, voeg a _toe luistert naar een gebeurtenis_ knoop, en selecteert een de gebeurtenisdefinitie van Experience Platform voor een op mensen-gebaseerde gebeurtenis.
 
 _om een Gebeurtenis van de Ervaring in uw reis te omvatten:_
 
@@ -175,5 +178,6 @@ Indien nodig, bepaal de hoeveelheid tijd de reis op de gebeurtenis wacht. De rei
 
    ![ de gebeurtenisknoop van de Reis - vastgestelde onderbrekingspad ](./assets/node-event-timeout-set-path.png){width="700" zoomable="yes"}
 
+## Video over overzicht
 
-
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on)

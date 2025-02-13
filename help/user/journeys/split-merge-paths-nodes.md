@@ -2,9 +2,10 @@
 title: Paden splitsen en samenvoegen
 description: In deze video ziet u de knooppunttypen die u kunt gebruiken voor het ordenen van uw accountreizen in Journey Optimizer B2B edition.
 feature: Account Journeys
-source-git-commit: af6e89b25ca20e14ec9a4c2ed4c8d632ad7c12dc
+exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
+source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
 workflow-type: tm+mt
-source-wordcount: '1423'
+source-wordcount: '1430'
 ht-degree: 1%
 
 ---
@@ -12,6 +13,8 @@ ht-degree: 1%
 # Paden splitsen en samenvoegen
 
 Gebruik knooppunten voor splitsen en samenvoegen in uw accountreis om uw accountreizen te ordenen. U kunt het publiek segmenteren volgens voorwaarden die u definieert en de segmenten combineert om door te gaan.
+
+![ Video ](../../assets/do-not-localize/icon-video.svg){width="30"} [ bekijk de overzichtsvideo ](#overview-video)
 
 ## Paden splitsen
 
@@ -52,9 +55,9 @@ _hoe werkt een gespleten weg door mensen knoop?_
 | [ Mensen ](#add-a-split-path-by-people-node) > [!UICONTROL People attributes only] | [!UICONTROL Person Attributes] | Attributen van het profiel van de persoon, met inbegrip van: <li>Stad</li><li>Land</li><li>Geboortedatum</li><li>E-mailadres</li><li>E-mail is ongeldig</li><li>E-mail is geschorst</li><li>Voornaam</li><li>Overgenomen deelstaatgebied</li><li>Functie</li><li>Achternaam</li><li>Mobiel telefoonnummer</li><li>Telefoonnummer</li><li>Postcode</li><li>Staat</li><li>Niet geabonneerd</li><li>Reden waarop geen abonnement is genomen</li> |
 | | [!UICONTROL Activity history] > [!UICONTROL Email] | E-mailactiviteiten in verband met de reis: <li>[!UICONTROL Clicked link in email]</li><li>Geopende e-mail</li><li>Is per e-mail verzonden</li><li>Is per e-mail verzonden</li> Deze voorwaarden worden geëvalueerd aan de hand van een geselecteerd e-mailbericht uit een eerdere reis. |
 | | [!UICONTROL Activity history] > [!UICONTROL Data Value Changed] | Voor een geselecteerd persoonkenmerk is een waardewijziging opgetreden. Deze wijzigingstypen zijn onder meer: <li>Nieuwe waarde</li><li>Vorige waarde</li><li>Reden</li><li>Bron</li><li>Datum van activiteit</li><li>Min. aantal keren</li> |
-| | [!UICONTROL Activity history] > [!UICONTROL Had Interesting Moment] | Interesserende tijdactiviteit die in de bijbehorende instantie van het Marketo Engage wordt bepaald. Beperkingen zijn: <li>Mijlsteen</li><li>E-mail</li><li>Web</li> |
+| | [!UICONTROL Activity history] > [!UICONTROL Had Interesting Moment] | Interesserende momentactiviteit die in de bijbehorende instantie van Marketo Engage wordt bepaald. Beperkingen zijn: <li>Mijlsteen</li><li>E-mail</li><li>Web</li> |
 | | [!UICONTROL Special filters] > [!UICONTROL Member of Buying Group] | De persoon is al dan niet lid van de koopgroep, beoordeeld aan de hand van een of meer van de volgende criteria: <li>Belang van oplossing</li><li>Status van kopersgroep</li><li>Complete score</li><li>Engagement Score</li><li>Functie</li> |
-| | [!UICONTROL Special filters] > [!UICONTROL Member of List] | De persoon is of is geen lid van één of meerdere lijsten van het Marketo Engage. |
+| | [!UICONTROL Special filters] > [!UICONTROL Member of List] | De persoon is al dan niet lid van een of meer Marketo Engage-lijsten. |
 | [ Mensen ](#add-a-split-path-by-people-node) > [!UICONTROL Account-person attributes only] | Rol in accountkenmerken | Aan de persoon wordt al dan niet een rol in de account toegewezen. Optionele beperkingen: <li>Rolnaam invoeren</li> |
 
 ### Een gesplitst pad toevoegen per accountknooppunt
@@ -122,7 +125,7 @@ _hoe werkt een gespleten weg door mensen knoop?_
 
      >[!NOTE]
      >
-     >Als u aangepaste persoonvelden hebt gedefinieerd in het accountpublieksschema in het Experience Platform, zijn deze velden ook beschikbaar voor gebruik als persoonkenmerken onder bepaalde omstandigheden.
+     >Als u aangepaste persoonvelden hebt gedefinieerd in het accountpublieksschema in Experience Platform, zijn deze velden ook beschikbaar voor gebruik als persoonkenmerken in voorwaarden.
 
    * Pas de condities aan door de **[!UICONTROL Filter logic]** aan de bovenkant toe te passen. U kiest ervoor om alle kenmerkvoorwaarden of een voorwaarde aan te passen.
 
@@ -144,13 +147,13 @@ _hoe werkt een gespleten weg door mensen knoop?_
 
 1. Schakel de optie **[!UICONTROL Other people]** in om een standaardpad toe te voegen voor mensen die niet overeenkomen met de gedefinieerde paden. Zo niet, dan eindigt de reis voor deze mensen.
 
->[!BEGINSHADEBOX  het &quot;lidmaatschap van de lijst van Marketo&#39;s Engage&quot;]
+>[!BEGINSHADEBOX  &quot;Marketo Engage list membership&quot;]
 
-In Marketo Engage, _Slimme Campagnes_ controlelidmaatschap van programma&#39;s om ervoor te zorgen dat de leads geen dubbele e-mail ontvangen en geen leden van veelvoudige stromen van e-mails tezelfdertijd zijn. In Journey Optimizer B2B kunt u controleren op lidmaatschap van een lijst met Marketo&#39;s Engage als voorwaarde voor uw gesplitste pad door mensen om dubbel werk in reisactiviteiten te voorkomen.
+In Marketo Engage, _Slimme Campagnes_ controlelidmaatschap van programma&#39;s om ervoor te zorgen dat de leads geen dubbele e-mail ontvangen en niet leden van veelvoudige stromen van e-mails tezelfdertijd zijn. In Journey Optimizer B2B kunt u controleren op Marketo Engage-lidmaatschap als voorwaarde voor uw gesplitste pad door mensen om dubbel werk in reisactiviteiten te voorkomen.
 
-Hiervoor vouwt u **[!UICONTROL Special Filters]** uit, sleept u de voorwaarde **[!UICONTROL Member of List]** naar de filterruimte en voltooit u de filterdefinitie om het lidmaatschap in een of meer lijsten met Marketo&#39;s Engage te evalueren.
+Hiervoor vouwt u **[!UICONTROL Special Filters]** uit, sleept u de voorwaarde **[!UICONTROL Member of List]** naar de filterruimte en vult u de filterdefinitie in om het lidmaatschap in een of meer Marketo Engage-lijsten te evalueren.
 
-![ Gesplitste weg door personenvoorwaarde voor het lidmaatschap van de lijst van het Marketo Engage ](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
+![ Gesplitste weg door personenvoorwaarde voor het lijstlidmaatschap van Marketo Engage ](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
 
 >[!ENDSHADEBOX]
 
@@ -185,3 +188,7 @@ Voeg de wegen van de a _Fusie_ knoop toe om verschillende gespleten wegen door r
    Op dit punt worden de paden samengevoegd, zodat de accounts van de geselecteerde paden worden gecombineerd tot één pad dat door de rit kan gaan.
 
 1. Indien nodig, kunt u de samenvoegen van wegen ongedaan maken door terug naar de eigenschappen van de de knooppunten van samenstellingswegen te navigeren en checkbox voor om het even welke wegen te ontruimen die u wilt verwijderen.
+
+## Video over overzicht
+
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
