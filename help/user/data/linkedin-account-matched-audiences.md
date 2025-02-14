@@ -1,6 +1,6 @@
 ---
-title: LinkedIn-account met passend publiek
-description: Leer hoe u verbinding maakt met een LinkedIn-account en een gegevensstroom activeert voor inkoopgroepen.
+title: Gekoppeld publiek voor account gekoppeld
+description: Leer hoe u een LinkedIn-account aansluit en een gegevensstroom activeert voor inkoopgroepen.
 exl-id: d2303529-16c4-4b0b-b8c8-404dff8ec63d
 source-git-commit: 00315c9d245d8d19954643e4dd51920ae2baafbe
 workflow-type: tm+mt
@@ -9,20 +9,20 @@ ht-degree: 0%
 
 ---
 
-# LinkedIn-account met passend publiek
+# Gekoppeld publiek voor account gekoppeld
 
-Journey Optimizer B2B Edition biedt de mogelijkheid om LinkedIn Ad-publiek te genereren via een accountgericht publiek en is ontworpen om u te helpen lege rollen in uw inkoopgroepen te vullen. Als u een set koopgroepsfilters definieert, kunt u een met LinkedIn overeenstemmende doelgroep bijhouden voor de doelvooruitzichten die overeenkomen met de parameters van uw inkoopgroep. Deze functie gebruikt Experience Platform Doelen om sommige aspecten van de integratie te beheren. Er geldt een limiet van tien gegevensstromen.
+Journey Optimizer B2B edition biedt de mogelijkheid om een publiek voor LinkedIn-advertenties te genereren via een publiek dat overeenkomt met een account en is ontworpen om u te helpen lege rollen in uw inkoopgroepen te vullen. Door een reeks het kopen groepsfilters te bepalen, kunt u een LinkedIn Gelijke Publiek aan doelvooruitzichten handhaven die uw het kopen groepsparameters aanpassen. Deze functie gebruikt Experience Platform Destination om bepaalde aspecten van de integratie te beheren. Er geldt een limiet van tien gegevensstromen.
 
-Alvorens u een dataflow van de Uitgave van Journey Optimizer B2B in werking stelt, moet u minstens één geval van de [ (Bedrijven) LinkedIn Gelijke de bestemmingsschakelaar van de Publiek ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect) met een rekening van de Manager van de Campagne van LinkedIn hebben die in uw Experience Platform toepassing wordt gevormd.
+Alvorens u een dataflow van Journey Optimizer B2B edition in werking stelt, moet u minstens één geval van [ (Bedrijven) LinkedIn Gelijke de bestemmingsschakelaar van de Publiek ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect) met een rekening hebben LinkedIn de Manager van de Campagne die in uw toepassing van Experience Platform wordt gevormd.
 
 ## Een nieuwe LinkedIn-accountverbinding configureren {#linkedin-destination-setup}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_linkedin_destination_setup"
->title="LinkedIn-doelinstelling is vereist"
+>title="LinkedIn bestemmings opstelling wordt vereist"
 >abstract="Verzend accounts die zijn gefilterd door groepen te kopen naar een LinkIn-bestemming om contact op te nemen met potentiële koopgroepsleden. U kunt maximaal 10 gegevensstromen voor 10 verschillende groepen gefilterde rekeningen tot stand brengen. Om met deze eigenschap te beginnen, voeg eerst een doel Linkedin toe."
 
-1. Ga in het Experience Platform naar **[!UICONTROL Connections]** > **[!UICONTROL Destinations]** in de linkernavigatie en selecteer de tab **[!UICONTROL Catalog]** .
+1. Ga in Experience Platform naar **[!UICONTROL Connections]** > **[!UICONTROL Destinations]** in de linkernavigatie en selecteer de tab **[!UICONTROL Catalog]** .
 
 1. Zoek in de catalogus de **[!UICONTROL (Companies) LinkedIn Matched Audience]** -connector.
 
@@ -32,15 +32,15 @@ Alvorens u een dataflow van de Uitgave van Journey Optimizer B2B in werking stel
 
 1. In de schakelaarkaart, klik _Meer_ (**..**) pictogram en kies **[!UICONTROL Configure new destination]**.
 
-   ![ heb toegang tot de (Bedrijven) LinkedIn Verwante schakelaar van het Publiek ](./assets/aep-destinations-catalog-linkedin.png){width="800" zoomable="yes"}
+   ![ toegang tot de (Bedrijven) LinkedIn Gelijke schakelaar van de Audience ](./assets/aep-destinations-catalog-linkedin.png){width="800" zoomable="yes"}
 
 1. Selecteer **[!UICONTROL New Account]** en klik op **[!UICONTROL Connect to destination]** .
 
-   ![ verbind een nieuwe rekening van LinkedIn ](./assets/aep-destinations-catalog-linkedin-new-account.png){width="500"}
+   ![ verbind een nieuwe LinkedIn rekening ](./assets/aep-destinations-catalog-linkedin-new-account.png){width="500"}
 
-1. Geef uw LinkedIn-gegevens op en meld u aan.
+1. Geef uw LinkedIn-referenties op en meld u aan.
 
-   Na verificatie wordt de LinkedIn-account verbonden als een doel in Experience Platform.
+   Na authentificatie, wordt LinkedIn rekening verbonden als bestemming in Experience Platform.
 
    ![ de verbindingsbevestiging van de Rekening wordt getoond ](./assets/aep-destinations-catalog-linkedin-connected.png){width="400"}
 
@@ -50,7 +50,7 @@ Alvorens u een dataflow van de Uitgave van Journey Optimizer B2B in werking stel
 
 ## Accountgegevens bijwerken
 
-De naam en beschrijving van de LinkedIn-account zijn zichtbaar voor inkoopgroepen in Journey Optimizer B2B Edition. Het is aan te raden deze gegevens bij te werken zodat ze gemakkelijk herkenbaar zijn voor kopers die met inkoopgroepen werken. U kunt de accountgegevens wijzigen in de gebruikersinterface van het Experience Platform of de Journey Optimizer B2B Edition.
+De naam en beschrijving van de LinkedIn-account zijn zichtbaar voor inkoopgroepen in Journey Optimizer B2B edition. Het is aan te raden deze gegevens bij te werken zodat ze gemakkelijk herkenbaar zijn voor kopers die met inkoopgroepen werken. U kunt de accountgegevens wijzigen in de gebruikersinterface van Experience Platform of Journey Optimizer B2B edition.
 
 1. Ga naar **[!UICONTROL Connections]** > **[!UICONTROL Destinations]** in de linkernavigatie en selecteer de tab **[!UICONTROL Accounts]** .
 
@@ -68,9 +68,9 @@ De naam en beschrijving van de LinkedIn-account zijn zichtbaar voor inkoopgroepe
 
 >[!NOTE]
 >
->Als u al tien gegevensstromen hebt, kunt u geen andere creëren. Als het maximale aantal Experience Platforms is bereikt, verwijdert u er een voordat u een nieuwe maakt in Journey Optimizer B2B Edition.
+>Als u al tien gegevensstromen hebt, kunt u geen andere creëren. Als het maximumaantal wordt bereikt, verwijdert u er een uit Experience Platform voordat u een nieuwe maakt in Journey Optimizer B2B edition.
 
-1. Ga in Journey Optimizer B2B Edition naar **[!UICONTROL Accounts]** > **[!UICONTROL Buying groups]** in de linkernavigatie.
+1. Ga in Journey Optimizer B2B edition naar **[!UICONTROL Accounts]** > **[!UICONTROL Buying groups]** in de linkernavigatie.
 
 1. Selecteer de tab **[!UICONTROL Browse]** .
 
@@ -82,7 +82,7 @@ De naam en beschrijving van de LinkedIn-account zijn zichtbaar voor inkoopgroepe
 
    Nadat u het bewaart, wordt de naam die u voor dataflow specificeert prepended met _AJOB2B_ aan hulp in het identificeren van dataflow in Experience Platform.
 
-1. Ga [ identiteitskaart van de Rekening van uw Rekening van de Manager van de Campagne van LinkedIn ](https://www.linkedin.com/help/lms/answer/a424270) in.
+1. Ga [ identiteitskaart van de Rekening van uw LinkedIn Rekening van de Manager van de Campagne ](https://www.linkedin.com/help/lms/answer/a424270) in.
 
    U kunt uw account-id vinden op basis van uw accountnaam in de gebruikersinterface van Campagnebeheer.
 
@@ -102,7 +102,7 @@ De naam en beschrijving van de LinkedIn-account zijn zichtbaar voor inkoopgroepe
 
    Klik op **[!UICONTROL Save]** om de opgegeven filters toe te voegen.
 
-1. Klik **[!UICONTROL Select LinkedIn destination]** en kies de gevormde bestemming van LinkedIn die u wilt gebruiken.
+1. Klik **[!UICONTROL Select LinkedIn destination]** en kies de gevormde bestemming LinkedIn die u wilt gebruiken.
 
    Op activering, leidt dit het plaatsen tot dataflow gebruikend de bestemmingsconfiguratie en een overeenkomstig virtueel segment.
 
@@ -110,4 +110,4 @@ De naam en beschrijving van de LinkedIn-account zijn zichtbaar voor inkoopgroepe
 
    Klik nogmaals op **[!UICONTROL Activate]** in het bevestigingsdialoogvenster.
 
-   Een banner wordt weergegeven met een koppeling naar het menu met gegevensstromen in het Experience Platform, zodat u de gegevensstroomrecord kunt controleren.
+   Er wordt een banner weergegeven met een koppeling naar het menu met gegevensstromen in Experience Platform, zodat u de gegevensstroomrecord kunt controleren.

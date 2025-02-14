@@ -55,7 +55,7 @@ Plaatsaanduidingstekst
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_configure_subdomain"
 >title="Subdomein van bestemmingspagina configureren"
->abstract="Een geconfigureerd subdomein is vereist om bestemmingspagina&#39;s te publiceren. U kunt een subdomein gebruiken dat al is gedelegeerd aan Adobe of een nieuw subdomein creëren."
+>abstract="Een geconfigureerd subdomein is vereist om bestemmingspagina&#39;s te publiceren. U kunt een subdomein gebruiken dat al is gedelegeerd aan Adobe of een nieuw subdomein maken."
 
 Plaatsaanduidingstekst
 

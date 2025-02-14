@@ -3,9 +3,9 @@ title: Intelligent dashboard
 description: Meer informatie over het intelligente dashboard, dat een uitgebreide weergave biedt van de maatstaven voor inkoopgroepen en -accounts
 feature: Dashboards, Buying Groups
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
-source-git-commit: 74561c07ea8cc3a717f1e0f25a3c4326cb14ee36
+source-git-commit: 561a6fe3a99e93e93e176f63572b260e621a4298
 workflow-type: tm+mt
-source-wordcount: '1429'
+source-wordcount: '1546'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,17 @@ Het intelligente dashboard biedt ook toegang tot detailpagina&#39;s van accounts
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_stages"
 >title="Groepsfasen voor kopen"
->abstract="Dit diagram biedt een overzicht van het aanschaffen van groepsprogressie in verschillende stadia op basis van de geconfigureerde overgangsregels. In de eerste balk wordt het aantal koopgroepen in een bepaald stadium op de eerste datum van het gekozen tijdsbestek aangegeven in vergelijking met het aantal koopgroepen op de laatste datum van het gekozen tijdpad."
+>abstract="Dit diagram biedt een overzicht van het aanschaffen van groepsprogressie in verschillende stadia op basis van de geconfigureerde overgangsregels. De eerste balk geeft het aantal inkoopgroepen in een specifiek stadium op de eerste datum van het geselecteerde tijdkader aan ten opzichte van de laatste datum van het geselecteerde tijdkader."
 
 Het _[!UICONTROL Buying Group Stages]_diagram verstrekt een overzicht van het kopen van groepsvooruitgang over verschillende stadia ([ die op overgangsregels worden gebaseerd die door een beheerder ](../buying-groups/buying-group-stages.md) worden opstelling).
 
+>[!NOTE]
+>
+>Voor de beschikbaarheid van de aankoopgroepsfasen moet de aankoopgroepsfase worden geconfigureerd. Zie [ het Kopen groepsstadia ](../buying-groups/buying-group-stages.md) voor gedetailleerde informatie over stadia en hoe te om stadia voor het kopen van groepen te bepalen en toe te laten.
+
 ![ het Kopen de visualisatie van groepsfasegegevens ](./assets/intelligent-dashboards-buying-group-stages.png){width="800" zoomable="yes"}
 
-In de grafiek worden de fasen van de inkoopgroep uit de meest recente gepubliceerde versie van het model van de inkoopgroepfasen gebruikt. Elk stadium wordt weerspiegeld door twee bars. De eerste balk geeft het aantal inkoopgroepen aan op de eerste datum van het geselecteerde tijdkader. En de tweede (in vergelijking) is het aantal koopgroepen op de laatste datum van de tijdsperiode. U kunt de muisaanwijzer boven elke balk houden om het aantal inkoopgroepen in elk stadium te zien.
+In de grafiek worden de fasen van de inkoopgroep uit de meest recente gepubliceerde versie van het model van de inkoopgroepfasen gebruikt. Er zijn twee balken voor elk werkgebied. De eerste balk geeft het aantal inkoopgroepen aan op de eerste datum van het geselecteerde tijdkader. En de tweede (in vergelijking) is het aantal koopgroepen op de laatste datum van de tijdsperiode. U kunt de muisaanwijzer boven elke balk houden om het aantal inkoopgroepen in elk stadium te zien.
 
 ![ Beweeg over de bar om gedetailleerde aantallen ](./assets/intelligent-dashboard-buying-group-stages-hover-bar.png){width="400"} te bekijken
 
@@ -50,7 +54,7 @@ De gegenereerde samenvatting biedt een overzicht van de voortgang van de inkoopg
 
 ### Tijdsperiode {#time-period-stages}
 
-Gebruik het datumfilter rechtsboven om het datumbereik voor de gegevensvisualisatie te wijzigen. Klik op de pijl omlaag om een relatief datumbereik in te stellen of om aangepaste begin- en einddatums in te stellen.
+Gebruik het datumfilter rechtsboven om het datumbereik voor de gegevensvisualisatie te wijzigen. Klik op de pijl-omlaag om een relatief datumbereik in te stellen of om aangepaste begin- en einddatums in te stellen.
 
 <!-- ![Filtering tdata by date range](./assets/intelligent-dashboard-date-filter.png){width="300"} -->
 
@@ -104,6 +108,8 @@ Elke kaart bevat de volgende gegevens:
    * De gegevens voor elke rij worden in kolommen geordend: de productnaam, de sterkte van de productintentie en de bovenste trefwoorden op sterkte van de intentie.
    * De sorteervolgorde is hoog tot laag voor categorie, product en trefwoorden. Als een of meer typen dezelfde intentsterkte hebben, wordt bij het sorteren de alfabetische volgorde gebruikt.
 
+  {{intent-data-note}}
+
 Bij het hoogste recht van de _Kopen groep hoogtepunten_ paneel, klik **[!UICONTROL View All]** om aan de het Kopen pagina van de groepslijst te navigeren.
 
 ### Kenmerk, filter {#attribute-filter-bg-highlights}
@@ -118,7 +124,7 @@ Klik het _pictogram van de Filter_ ( ![ geef pictogram ](../assets/do-not-locali
 
 ### Tijdsperiode {#time-period-bg-highlights}
 
-Gebruik het datumfilter rechtsboven om het datumbereik voor de gegevensvisualisatie te wijzigen. Klik op de pijl omlaag om een relatief datumbereik in te stellen of om aangepaste begin- en einddatums in te stellen.
+Gebruik het datumfilter rechtsboven om het datumbereik voor de gegevensvisualisatie te wijzigen. Klik op de pijl-omlaag om een relatief datumbereik in te stellen of om aangepaste begin- en einddatums in te stellen.
 
 <!-- ![Filtering tdata by date range](./assets/intelligent-dashboard-date-filter.png){width="300"} -->
 
@@ -130,6 +136,10 @@ Gebruik het datumfilter rechtsboven om het datumbereik voor de gegevensvisualisa
 >abstract="Accounts met een significante wijziging in de aanstellingsdynamiek binnen het geselecteerde tijdkader."
 
 In de sectie _[!UICONTROL Surging accounts]_wordt een visualisatie van de accounts weergegeven met een aanzienlijke wijziging in de betrokkenheidsdynamiek binnen de geselecteerde tijdsperiode.
+
+>[!NOTE]
+>
+>Accountschommelingsgegevens zijn beperkt tot accounts die door Journey Optimizer B2B edition voor een accountpubliek zijn gebruikt via een accountreis of inkoopgroep.
 
 ![ de visualisatie van de de drukgegevens van de Rekening ](./assets/intelligent-dashboard-account-surge.png){width="800" zoomable="yes"}
 
@@ -153,7 +163,7 @@ Klik het _pictogram van de Filter_ ( ![ geef pictogram ](../assets/do-not-locali
 
 ### Tijdsperiode {#time-period-acct-surge}
 
-Gebruik het datumfilter rechtsboven om het datumbereik voor de gegevensvisualisatie te wijzigen. Klik op de pijl omlaag om een relatief datumbereik in te stellen of om aangepaste begin- en einddatums in te stellen.
+Gebruik het datumfilter rechtsboven om het datumbereik voor de gegevensvisualisatie te wijzigen. Klik op de pijl-omlaag om een relatief datumbereik in te stellen of om aangepaste begin- en einddatums in te stellen.
 
 <!-- ![Filtering tdata by date range](./assets/intelligent-dashboard-date-filter.png){width="300"} -->
 
@@ -171,6 +181,10 @@ Gebruik het datumfilter rechtsboven om het datumbereik voor de gegevensvisualisa
 
 De sectie _[!UICONTROL Buying group highlights]_is in twee rijen geordend om informatie over de rekeningen van belang voor uw organisatie te tonen.
 
+>[!NOTE]
+>
+>De gegevens voor markeren van accounts zijn beperkt tot accounts die door Journey Optimizer B2B edition voor een accountpubliek zijn gebruikt via accountreizen of groepen die objecten kopen.
+
 ![ de hoogtepunten van de Rekening ](./assets/intelligent-dashboard-account-highlights.png){width="800" zoomable="yes"}
 
 * **het Oplopen rekeningen** - Deze rij toont de rekeningen met een significante verhoging in betrokkenheidsdynamum over het geselecteerde tijdkader.
@@ -187,6 +201,8 @@ Elke kaart bevat de volgende gegevens:
    * De detailpopup toont de categorienaam met intentniveau bij de bovenkant.
    * De gegevens voor elke rij worden in kolommen geordend: de productnaam, de sterkte van de productintentie en de bovenste trefwoorden op sterkte van de intentie.
    * De sorteervolgorde is hoog tot laag voor categorie, product en trefwoorden. Als een of meer typen dezelfde intentsterkte hebben, wordt bij het sorteren de alfabetische volgorde gebruikt.
+
+  {{intent-data-note}}
 <!-- 
 At the top right of the _Buying group highlights_ panel, click **[!UICONTROL View All]** to navigate to the Buying groups list page. -->
 
@@ -201,7 +217,7 @@ Klik het _pictogram van de Filter_ ( ![ pictogram van de Filter ](../assets/do-n
 
 ### Tijdsperiode {#time-period-acct-highlights}
 
-Gebruik het datumfilter rechtsboven om het datumbereik voor de gegevensvisualisatie te wijzigen. Klik op de pijl omlaag om een relatief datumbereik in te stellen of om aangepaste begin- en einddatums in te stellen.
+Gebruik het datumfilter rechtsboven om het datumbereik voor de gegevensvisualisatie te wijzigen. Klik op de pijl-omlaag om een relatief datumbereik in te stellen of om aangepaste begin- en einddatums in te stellen.
 
 <!-- ![Filtering tdata by date range](./assets/intelligent-dashboard-date-filter.png){width="300"} -->
 
@@ -213,6 +229,10 @@ Gebruik het datumfilter rechtsboven om het datumbereik voor de gegevensvisualisa
 >abstract="Toont het aantal contacten met een specifieke rol verbonden aan een oplossingsbelang. De toewijzing van rol en oplossingsrente is gebaseerd op het koopgegroeikalplaatje."
 
 De _[!UICONTROL Contact coverage]_sectie toont een visualisatie van het aantal contacten met een specifieke rol verbonden aan een oplossingsbelang. De toewijzing van rol en oplossingsrente is gebaseerd op het koopgegroeikalplaatje.
+
+>[!NOTE]
+>
+>De dekkingsgegevens van de contactpersoon zijn gebaseerd op de inkoopgroepen die zijn gemaakt in het Journey Optimizer B2B edition-exemplaar.
 
 ![ de visualisatie van de de drukgegevens van de Rekening ](./assets/intelligent-dashboard-contact-coverage.png){width="800" zoomable="yes"}
 
@@ -241,6 +261,10 @@ Klik het _pictogram van de Filter_ ( ![ pictogram van de Filter ](../assets/do-n
 >abstract="Lijst van contacten die deel van meer dan één het kopen groep als resultaat van het worden verbonden met veelvoudige oplossingsbelangen uitmaken."
 
 De sectie _[!UICONTROL Contact overlap]_toont een lijst van contacten die deel van meer dan één het kopen groep als resultaat van het worden geassocieerd met veelvoudige oplossingsbelangen uitmaken.
+
+>[!NOTE]
+>
+>De overlappende gegevens van de contactpersoon zijn gebaseerd op de inkoopgroepen die zijn gemaakt in het Journey Optimizer B2B edition-exemplaar.
 
 ![ het contact overlapt lijst ](./assets/intelligent-dashboard-contact-overlap.png){width="800" zoomable="yes"}
 
