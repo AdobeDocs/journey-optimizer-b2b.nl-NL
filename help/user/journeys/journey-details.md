@@ -2,9 +2,10 @@
 title: Details van reizen
 description: Meer informatie over de informatie op de pagina met reisgegevens en over hoe u hiermee de reis van uw gepubliceerde account kunt volgen en beheren.
 feature: Dashboards, Account Journeys
-source-git-commit: cbacc678d01850e3eb3901c44994ddf849a63d7c
+exl-id: 09a0e06a-1fd3-44da-9774-23f125f2823d
+source-git-commit: 7667478672de935abc4fda587ce4ba977a5a3168
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
@@ -25,6 +26,13 @@ Deze sectie bevat twee voltooiingsmetriek:
 
 * **[!UICONTROL Journey status]** - Dit cirkeldiagram biedt een verdeling van reisstatussen door rekeningen in _Voltooid_ aan te categoriseren, _Bezig_, en _Geaborteerd_. Elk segment wordt geëtiketteerd met overeenkomstige percentages en rekeningsaantallen op de buitenrand van de grafiek.
 * **[!UICONTROL Journey completion over time]** - Dit lijndiagram volgt het aantal accounts dat hun reis in de loop van de tijd heeft voltooid. De horizontale as wijst de tijdlijn toe terwijl de verticale as de rekeningen kwantificeert, die een duidelijke mening van voltooiingstrends verstrekken.
+
+## Journalistiek
+
+Deze sectie bevat twee voltooiingsmetriek:
+
+* **[!UICONTROL Engagement by accounts]** - Dit cirkeldiagram segmenteert de rekeningen in een reis in _Betrokken_ en _niet bezeten_ categorieën. Het centrale cijfer toont het totale aantal. Deze visualisatie biedt in één oogopslag inzicht in de totale betrokkenheid van uw account.
+* **Betrokkenheid door mensen** - Deze visualisatie toont het totale aantal mensen die als _worden gekwalificeerd geëngageerd_ in een reis.
 
 ## Reisprestaties
 
