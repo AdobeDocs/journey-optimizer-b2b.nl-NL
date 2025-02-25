@@ -3,7 +3,7 @@ title: Oplossingsbelangen
 description: Leer over oplossingsbelangen en hoe u hen voor gebruik binnen uw het Kopen Groepen kunt bepalen.
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 02b0e1a50b75dc02afe1b11217729e17583d5f12
+source-git-commit: c84b3e0b05581a630993077688b1dd3a3a95fcc5
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 0%
@@ -83,7 +83,7 @@ Op elk ogenblik, kunt u de naam en de beschrijving voor een oplossingsbelang ver
 
 1. Wijzig indien nodig de instelling voor **[!UICONTROL Update existing buying groups]** .
 
-   Als deze optie is ingeschakeld, worden alle bestaande inkoopgroepen die aan de interesse van de oplossing zijn gekoppeld, bijgewerkt via de synchronisatiecyclus van 24 uur.
+   Als deze optie is ingeschakeld, worden alle bestaande inkoopgroepen die aan de interesse van de oplossing zijn gekoppeld, bijgewerkt via de 7-dagen synchronisatiecyclus.
 
 1. Klik op **[!UICONTROL Save]**.
 
