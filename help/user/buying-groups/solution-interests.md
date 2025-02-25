@@ -1,18 +1,18 @@
 ---
 title: Oplossingsbelangen
-description: Leer over oplossingsbelangen en hoe u hen voor gebruik binnen uw het Kopen Groepen kunt bepalen.
+description: Meer informatie over de belangen van oplossingen en hoe u deze kunt definiëren voor gebruik in uw inkoopgroepen.
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: c84b3e0b05581a630993077688b1dd3a3a95fcc5
+source-git-commit: 5b2f80bd41a068c1c568e47cdefe4d9f83427c13
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
 
 # Oplossingsbelangen
 
-Voordat je kopersgroepen maakt, moet je weten wat je verkoopt en wie je als doel wilt instellen. Uw marketing en verkoopstrategie zou moeten worden gericht zodat u de Interesse van de Oplossing voor de het Kopen Groepen kunt toevoegen.
+Voordat je koopgroepen maakt, moet je weten wat je verkoopt en wie je als doel wilt instellen. Uw marketing en verkoopstrategie zou moeten worden gericht zodat u de oplossingsrente voor de het kopen groepen kunt toevoegen.
 
 ![ Video ](../../assets/do-not-localize/icon-video.svg){width="30"} [ bekijk de overzichtsvideo ](#overview-video)
 
@@ -22,17 +22,17 @@ Voordat je kopersgroepen maakt, moet je weten wat je verkoopt en wie je als doel
 
 1. Klik in de linkernavigatie op **[!UICONTROL Buying Groups]** .
 
-1. Selecteer de tab **[!UICONTROL Solution interest]** op de pagina Groepen kopen.
+1. Selecteer op de pagina _[!UICONTROL Buying Groups]_de tab **[!UICONTROL Solution interest]**.
 
    ![ de Rente tabel van de Oplossing ](assets/solution-interest-tab.png){width="700" zoomable="yes"}
 
-   Het tabblad bevat een inventarislijst met alle bestaande belangen voor oplossingen. Deze biedt informatie als _[!UICONTROL Name]_,_[!UICONTROL Roles template]_ , _[!UICONTROL Buying group creation jobs]_,_[!UICONTROL Last updated on]_ , _[!UICONTROL Updated by]_,_[!UICONTROL Created on]_ en _[!UICONTROL Created by]_in kolomindeling.
+   Het tabblad bevat een inventarislijst met alle bestaande belangen voor oplossingen. De klasse biedt de volgende informatie in kolomnotatie: _[!UICONTROL Name]_,_[!UICONTROL Roles template]_, _[!UICONTROL Buying group creation jobs]_,_[!UICONTROL Last updated on]_, _[!UICONTROL Updated by]_,_[!UICONTROL Created on]_ en _[!UICONTROL Created by]_
 
    De lijst wordt standaard gesorteerd op de kolom _[!UICONTROL Last updated on]_. Klik op de kolomtitel in de koptekst om te schakelen tussen oplopend en aflopend.
 
 ## Groeptaken voor kopen weergeven en verwijderen
 
-Op het tabblad _[!UICONTROL Solution interest]_geeft de kolom **[!UICONTROL Buying group creation jobs]**het aantal taken weer dat voor elke interesse in de oplossing is gemaakt. Het aantal is een verbinding en het klikken van het opent een dialoog die de lijst van banen toont die voor de oplossingsrente worden gecreeerd.
+Op het tabblad _[!UICONTROL Solution interest]_wordt in de kolom **[!UICONTROL Buying group creation jobs]**het aantal taken weergegeven dat voor elke interesse in de oplossing is gemaakt. Klik het aantal om een dialoog te openen die de lijst van banen toont die voor de oplossingsrente worden gecreeerd.
 
 ![ het Kopen groepsbanen voor oplossingsrente ](assets/buying-group-jobs-for-solution-interest.png){width="700" zoomable="yes"}
 
@@ -48,7 +48,7 @@ Alvorens u een oplossingsbelang creeert, moet u een levende (gepubliceerde) rolm
 
 1. Kies een **[!UICONTROL Roles Template]** (vereist).
 
-   Klik op **[!UICONTROL Select roles template]** en kies een sjabloon voor live rollen in de lijst in het dialoogvenster. U kunt slechts één levende Malplaatje van Rollen met een Belang van de Oplossing associëren. Klik op **[!UICONTROL Save]** om terug te keren naar de pagina _[!UICONTROL Create solution interest]_waar de sjabloon voor geselecteerde rollen wordt weergegeven.
+   Klik op **[!UICONTROL Select roles template]** en kies een sjabloon voor live rollen in de lijst in het dialoogvenster. U kunt slechts één levende rolmalplaatje met een oplossingsbelang associëren. Klik op **[!UICONTROL Save]** om terug te keren naar de pagina _[!UICONTROL Create solution interest]_waar de sjabloon voor geselecteerde rollen wordt weergegeven.
 
    ![ voeg een rolmalplaatje aan de oplossingsrente toe ](assets/solution-interest-create.png){width="700" zoomable="yes"}
 
@@ -75,15 +75,17 @@ Op elk ogenblik, kunt u de naam en de beschrijving voor een oplossingsbelang ver
 
    ![ de rente van de Oplossing meer menu ](assets/solution-interests-more-menu.png){width="500" zoomable="no"}
 
-1. Werk indien nodig de naam (vereist en uniek) en beschrijving (optioneel) bij.
+1. Breng de benodigde updates voor de interessemontages van de oplossing aan:
 
-1. Selecteer indien nodig de **[!UICONTROL Buying group stage model]** voor het bijhouden van de voortgang van het inkoopgroepswerkgebied.
+   * Werk **[!UICONTROL Name]** en **[!UICONTROL Description]** bij.
 
-   Voor meer informatie over het gebruiken van het kopen groepsstadia voor het volgen van reisvooruitgang tegen verkoop, zie [ het Kopen groepsstadia ](./buying-group-stages.md).
+   * Selecteer de **[!UICONTROL Buying group stage model]** die wordt gebruikt voor het bijhouden van de voortgang van het inkoopgroepswerkgebied.
 
-1. Wijzig indien nodig de instelling voor **[!UICONTROL Update existing buying groups]** .
+     Voor meer informatie over het gebruiken van het kopen groepsstadia voor het volgen van reisvooruitgang tegen verkoop, zie [ het Kopen groepsstadia ](./buying-group-stages.md).
 
-   Als deze optie is ingeschakeld, worden alle bestaande inkoopgroepen die aan de interesse van de oplossing zijn gekoppeld, bijgewerkt via de 7-dagen synchronisatiecyclus.
+   * Wijzig de instelling **[!UICONTROL Update existing buying groups]** .
+
+     Als deze optie is ingeschakeld, worden alle bestaande inkoopgroepen die aan de interesse van de oplossing zijn gekoppeld, bijgewerkt via de 7-dagen synchronisatiecyclus.
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -95,7 +97,7 @@ Eventuele interesse voor oplossingen die momenteel wordt gebruikt door een inkoo
 
    Met deze handeling wordt een bevestigingsvenster geopend.
 
-   Als de interesse van de oplossing momenteel wordt gebruikt door een accountreis of het kopen van groepsbaan, opent de actie een informatiedialoog die u waarschuwt dat het niet kan worden geschrapt. Klik op [!UICONTROL OK] , die het verwijderen afbreekt.
+   Als de oplossingsrente momenteel in gebruik door een rekeningsreis of het kopen groepsbaan is, resulteert de actie in een alarm dat het niet kan worden geschrapt. Klik op **[!UICONTROL OK]** , die het verwijderen afbreekt.
 
 1. Klik op **[!UICONTROL Delete]** om het verwijderen te bevestigen of u kunt het proces afbreken door op _[!UICONTROL Cancel]_te klikken.
 
