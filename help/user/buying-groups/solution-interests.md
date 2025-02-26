@@ -3,7 +3,7 @@ title: Oplossingsbelangen
 description: Meer informatie over de belangen van oplossingen en hoe u deze kunt definiëren voor gebruik in uw inkoopgroepen.
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 5b2f80bd41a068c1c568e47cdefe4d9f83427c13
+source-git-commit: d9cd89db1814cf606cbc57b0d7ae4d5309b5c7dc
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Voordat je koopgroepen maakt, moet je weten wat je verkoopt en wie je als doel w
 
    ![ de Rente tabel van de Oplossing ](assets/solution-interest-tab.png){width="700" zoomable="yes"}
 
-   Het tabblad bevat een inventarislijst met alle bestaande belangen voor oplossingen. De klasse biedt de volgende informatie in kolomnotatie: _[!UICONTROL Name]_,_[!UICONTROL Roles template]_, _[!UICONTROL Buying group creation jobs]_,_[!UICONTROL Last updated on]_, _[!UICONTROL Updated by]_,_[!UICONTROL Created on]_ en _[!UICONTROL Created by]_
+   Het tabblad bevat een inventarislijst met alle bestaande belangen voor oplossingen. De volgende informatie wordt weergegeven in kolomindeling: _[!UICONTROL Name]_,_[!UICONTROL Roles template]_ , _[!UICONTROL Buying group creation jobs]_,_[!UICONTROL Last updated on]_ , _[!UICONTROL Updated by]_,_[!UICONTROL Created on]_ en _[!UICONTROL Created by]_
 
    De lijst wordt standaard gesorteerd op de kolom _[!UICONTROL Last updated on]_. Klik op de kolomtitel in de koptekst om te schakelen tussen oplopend en aflopend.
 
@@ -58,7 +58,7 @@ Alvorens u een oplossingsbelang creeert, moet u een levende (gepubliceerde) rolm
 
 1. Schakel de instelling **[!UICONTROL Update existing buying groups]** (optioneel) in.
 
-   Als deze optie is ingeschakeld, worden alle bestaande inkoopgroepen die aan de interesse van de oplossing zijn gekoppeld, bijgewerkt via de synchronisatiecyclus van 24 uur.
+   Als deze optie is ingeschakeld, worden alle bestaande inkoopgroepen die aan de interesse van de oplossing zijn gekoppeld, bijgewerkt via de 7-dagen synchronisatiecyclus.
 
 1. Klik op **[!UICONTROL Create]** in de rechterbovenhoek.
 
