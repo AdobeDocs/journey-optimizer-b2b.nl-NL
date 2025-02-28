@@ -3,9 +3,9 @@ title: Intelligent dashboard
 description: Meer informatie over het intelligente dashboard, dat een uitgebreide weergave biedt van de maatstaven voor inkoopgroepen en -accounts
 feature: Dashboards, Buying Groups
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
-source-git-commit: 561a6fe3a99e93e93e176f63572b260e621a4298
+source-git-commit: d0b2f91754ce3c5e38c6aa2c49c816fd46510403
 workflow-type: tm+mt
-source-wordcount: '1546'
+source-wordcount: '1667'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,19 @@ Het intelligente dashboard biedt ook toegang tot detailpagina&#39;s van accounts
 * Intentiedetectie voor persoon, inkoopgroep en account
 
 {{intent-data-note}}
+
+Om gebruik te kunnen maken van de informatie en inzichten die door het Intelligente dashboard worden verschaft, moet uw Journey Optimizer B2B edition-exemplaar de vereiste items hebben:
+
+| Type | Vereiste |
+| ---- | ----------- |
+| [ het Kopen groepsstadia ](#buying-group-stages) | Opstelling die groepsstadia kopen **en** toevoegen aan gecreeerde het kopen groepen. |
+| [ het Kopen groepshoogtepunten ](#buying-group-highlights) | Opstelling die groepsstadia kopen **en** toevoegen aan gecreeerde het kopen groepen. |
+| [ de schommeling van de Rekening ](#surging-accounts) | Één of meerdere gepubliceerde reizen **of** creeerde het kopen groepen. |
+| [ de hoogtepunten van de Rekening ](#account-highlights) | Één of meerdere gepubliceerde reizen **of** creeerde het kopen groepen. |
+| [ dekking van het Contact ](#contact-coverage) | Een of meer gemaakte inkoopgroepen (fasen niet nodig). |
+| [ overlap van het contact ](#contact-overlap) | Een of meer gemaakte inkoopgroepen (fasen niet nodig). |
+| [ pagina van de Details van de Rekening ](../accounts/account-details.md) | Een of meer gepubliceerde ritten. |
+| [ het Kopen pagina van het groepsdetail ](../buying-groups/buying-group-details.md) | Een of meer gemaakte inkoopgroepen (fasen niet nodig). |
 
 ## Groepsfasen voor kopen {#buying-group-stages}
 
@@ -139,7 +152,7 @@ In de sectie _[!UICONTROL Surging accounts]_wordt een visualisatie van de accoun
 
 >[!NOTE]
 >
->Accountschommelingsgegevens zijn beperkt tot accounts die door Journey Optimizer B2B edition voor een accountpubliek zijn gebruikt via een accountreis of inkoopgroep.
+>Accountschommelingsgegevens zijn beperkt tot accounts die door Journey Optimizer B2B edition voor een accountpubliek worden gebruikt via rekeningreizen of inkoopgroepen.
 
 ![ de visualisatie van de de drukgegevens van de Rekening ](./assets/intelligent-dashboard-account-surge.png){width="800" zoomable="yes"}
 
@@ -179,11 +192,11 @@ Gebruik het datumfilter rechtsboven om het datumbereik voor de gegevensvisualisa
 >title="Risicorekeningen"
 >abstract="Accounts met een significante afname in de aanstellingsdynamiek in het geselecteerde tijdkader."
 
-De sectie _[!UICONTROL Buying group highlights]_is in twee rijen geordend om informatie over de rekeningen van belang voor uw organisatie te tonen.
+De sectie _[!UICONTROL Account highlights]_is in twee rijen geordend om informatie over de rekeningen van belang voor uw organisatie te tonen.
 
 >[!NOTE]
 >
->De gegevens voor markeren van accounts zijn beperkt tot accounts die door Journey Optimizer B2B edition voor een accountpubliek zijn gebruikt via accountreizen of groepen die objecten kopen.
+>De gegevens voor markeren van accounts zijn beperkt tot accounts die door Journey Optimizer B2B edition voor een accountpubliek worden gebruikt via accountreizen of groepen die objecten kopen.
 
 ![ de hoogtepunten van de Rekening ](./assets/intelligent-dashboard-account-highlights.png){width="800" zoomable="yes"}
 

@@ -1,9 +1,9 @@
 ---
 title: Fragmenten
 description: Hergebruikte notities en visuele elementen om een functie of pagina te noteren die van toepassing is op een specifieke editie
-source-git-commit: 561a6fe3a99e93e93e176f63572b260e621a4298
+source-git-commit: d0b2f91754ce3c5e38c6aa2c49c816fd46510403
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Intentgegevens worden op de pagina opgenomen wanneer deze worden geconfigureerd voor uw Journey Optimizer B2B edition-instantie. Voor meer informatie over het model van de Detectie van de Intentie en hoe te om sleutelwoorden, producten, en categorieën voor te leggen, zie [ Gegevens van de Intentie ](../user/admin/intent-data.md).
+>Intentgegevens worden opgenomen wanneer deze worden geconfigureerd voor uw Journey Optimizer B2B edition-instantie. Het vereist ook één of meerdere gepubliceerde reizen **of** creeerde het kopen groepen. Voor meer informatie over het model van de Detectie van de Intentie en hoe te om sleutelwoorden, producten, en categorieën voor te leggen, zie [ Gegevens van de Intentie ](../user/admin/intent-data.md).
 
 ## AEM Assets-licentiecode {#aem-assets-licensing-note}
 
