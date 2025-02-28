@@ -3,10 +3,10 @@ title: Groepen kopen
 description: Leer hoe kopersgroepen in Journey Optimizer B2B edition de doeltreffendheid van marketing kunnen verhogen door leden voor uw accountlijsten te identificeren en te richten.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: e2059726fbb7541dbe0e7ab9be4cd82f37f26cf8
+source-git-commit: 8b2cfac4785e95e4fb994ac87068f59add40171d
 workflow-type: tm+mt
-source-wordcount: '1237'
-ht-degree: 3%
+source-wordcount: '1766'
+ht-degree: 6%
 
 ---
 
@@ -17,7 +17,7 @@ Voor B2B-verkoop- en marketingactiviteiten zijn rekeningen van essentieel belang
 
 ![ diagram van de rollen van de Rekening ](assets/account-roles-diagram.png){width="800"}
 
-Binnen de rekening, zou er een ondergroep van mensen kunnen zijn die uit de _het kopen groep_ bestaan. Dit zijn de mensen die uiteindelijk het aankoopbesluit nemen, dus ze hebben speciale aandacht van de marketeer nodig en hebben mogelijk andere informatie nodig die ze krijgen dan de andere mensen die bij de rekening horen. Kopersgroepen kunnen een verschillende groep personen voor verschillende productlijnen of aanbiedingen omvatten. Een product voor cyberbeveiliging kan bijvoorbeeld doorgaans een Chief Information Officer of Chief Security Officer en een vertegenwoordiger van de juridische afdeling vragen een aankoop goed te keuren, maar een product voor het opsporen van fouten kan doorgaans een VP van Engineering en een IT Director als leden van de inkoopgroep hebben.
+Binnen de rekening, zou er een ondergroep van mensen kunnen zijn die uit de _het kopen groep_ bestaan. Dit zijn de mensen die uiteindelijk het aankoopbesluit nemen, dus ze hebben speciale aandacht van de marketeer nodig en hebben mogelijk andere informatie nodig die ze krijgen dan de andere mensen die bij de rekening horen. Kopersgroepen kunnen een verschillende groep personen voor verschillende productlijnen of aanbiedingen omvatten. Een product voor cyberbeveiliging kan bijvoorbeeld doorgaans een Chief Information Officer of Chief Security Officer en een vertegenwoordiger van de juridische afdeling vragen om een aankoop goed te keuren, maar een product voor het opsporen van fouten kan doorgaans een VP van Engineering en een IT Director hebben als leden van de inkoopgroep.
 
 ![ Video ](../../assets/do-not-localize/icon-video.svg){width="30"} [ bekijk het videooverzicht ](#overview-video)
 
@@ -91,11 +91,58 @@ De volledigheidsscore van de inkoopgroep wordt telkens opnieuw berekend wanneer 
 
 ### Betrokkenheidsscore voor groep kopen
 
-De score voor groepsbetrokkenheid kopen is een getal om de betrokkenheid van de leden van een inkoopgroep te bepalen op basis van de activiteiten die zij uitvoeren. Voor de berekening van de score wordt gebruik gemaakt van binnenkomende activiteiten die de leden van de kopende groep in de laatste 30 dagen hebben uitgevoerd.
+De score voor groepsbetrokkenheid kopen is een getal om de betrokkenheid van de leden van een inkoopgroep te bepalen op basis van de activiteiten die zij uitvoeren.
 
-Voor elke activiteit geldt een dagelijkse maximale frequentie van 20. Als een lid van een inkoopgroep meer dan 20 keer per dag dezelfde activiteit uitoefent, wordt het aantal activiteiten beperkt tot 20 en niet tot een hoger aantal.
+* De berekening van de betrokkenheidsscore begint zodra de inkoopgroep is gegenereerd.
+* Voor de berekening van de score wordt gebruik gemaakt van binnenkomende activiteiten die de leden van de kopende groep in de laatste 30 dagen hebben uitgevoerd.
+* Met het venster van 30 dagen en aangezien de activiteiten verlopen, kon de score dalen.
+* Voor elke activiteit geldt een dagelijkse maximale frequentie van 20. Als een lid van een inkoopgroep meer dan 20 keer per dag dezelfde activiteit uitoefent, wordt het aantal activiteiten beperkt tot 20 en niet tot een hoger aantal.
+* De weergegeven score wordt afgerond. Een score van 75,89999 wordt bijvoorbeeld weergegeven als 76.
 
-De weergegeven score wordt afgerond. Een score van 75,89999 wordt bijvoorbeeld weergegeven als 76.
++++Activiteiten die worden gebruikt voor scores
+
+| Naam activiteit | Beschrijving | Type betrokkenheid | Maximale dagelijkse frequentie | Activiteitsgewicht |
+| --- | --- | --- | --- | --- |
+| Registreren voor gebeurtenis | Registreert voor een gebeurtenis die aan een campagne is gekoppeld | Gebeurtenis | 20 | 60 |
+| Gebeurtenis bijwonen | Voert een campagnegebeurtenis bij | Gebeurtenis | 20 | 90 |
+| E-mail openen | Hiermee opent u een e-mail | E-mail | 20 | 30 |
+| Klik op E-mail | Klik op een koppeling in een e-mailbericht | E-mail | 20 | 30 |
+| Verkoopbericht openen | Hiermee wordt een e-mail geopend | E-mail | 20 | 30 |
+| Klik op E-mail verkoop | Klik op een koppeling in een e-mailbericht voor verkopen | E-mail | 20 | 30 |
+| Interessant moment | Heeft een interessant moment | Gekromd | 20 | 60 |
+| Tik op pushmelding | Hiermee wordt een pushmelding ontvangen | Mobiel | 20 | 30 |
+| Mobiele toepassingsactiviteit | Hiermee wordt een activiteit uitgevoerd op een mobiele app | Mobiel | 20 | 30 |
+| Mobiele App-sessie | Is actief op mobiele toepassingssessie | Mobiel | 20 | 30 |
+| Formulier Advertentie Facebook invullen | Vult een formulier voor advertentieplaatsen in en verzendt het op een Facebook-pagina | Sociaal | 20 | 30 |
+| Klik de Vraag van RTP aan Actie | Klik een gepersonaliseerde vraag aan actie | Web | 20 | 60 |
+| Bericht in app weergeven | Hiermee wordt een bericht in de app weergegeven | Mobiel | 20 | 30 |
+| Tik in-app-bericht | Tapt op een bericht in de app | Mobiel | 20 | 30 |
+| SMS abonneren | Abonneren op SMS-communicatie | SMS | 20 | 90 |
+| Reageren op e-mail over verkoop | Reageert op een e-mail met verkopen | E-mail | 20 | 30 |
+| Bij een dialoogvenster | Afbeeldingen met een Dynamic Chat-dialoogvenster | Chat | 20 | 90 |
+| Interactie met document in dialoogvenster | Interacties maken met een document in een Dynamic Chat-dialoogvenster | Chat | 20 | 90 |
+| Geplande vergadering in dialoogvenster | Hiermee wordt een afspraak in een Dynamic Chat-dialoogvenster opgenomen | Chat | 20 | 90 |
+| Dialoogvenster bereikt | Hiermee wordt een doel bereikt in een Dynamic Chat-dialoogvenster |  | 20 | 90 |
+| Reageerd op een opiniepeiling in webinar | Hiermee wordt gereageerd op een opiniepeiling in een webinar-gebeurtenis | Chat | 20 | 90 |
+| Aanroep van handeling geklikt in webinar | Klik een vraag-aan-actie verbinding in een webinar gebeurtenis | Bellen | 20 | 30 |
+| Downloads van bedrijfsmiddelen in webinar | Hiermee wordt een bestand/middel gedownload in een webinar-gebeurtenis | Gebeurtenis | 20 | 60 |
+| Vragen in webinar | Hiermee worden vragen gesteld in een webinar-gebeurtenis | Gebeurtenis | 20 | 60 |
+| Heeft gebeurtenis bijgewoond | Heeft een gebeurtenis bijgewoond | Gebeurtenis | 20 | 60 |
+| Betrokken met een Agent in Dialoog | Betrokkenen bij een agent in een Dynamic Chat-dialoogvenster | Chat | 20 | 90 |
+| Klikte koppeling in chatvenster | Klik op een koppeling in een Dynamic Chat-dialoogvenster | Chat | 20 | 90 |
+| Gegenereerd met een gespreksstroom | Beelden met een Dynamic Chat-gespreksstroom | Chat | 20 | 90 |
+| Geplande vergadering in Conversational Flow | Hiermee wordt een afspraak in een Dynamic Chat-gespreksstroom gepland | Chat | 20 | 90 |
+| Het bereikte doel van de discussiestroom | Hiermee wordt een doel bereikt in een Dynamic Chat-gespreksstroom | Chat | 20 | 90 |
+| Werkt met Document in Gesprek Stroom | Communiceert met een document in een Dynamic Chat-gespreksstroom | Chat | 20 | 90 |
+| Betrokken met een Agent in de Conversationele Stroom | Ondersteunt een agent in een Dynamic Chat-gespreksstroom | Chat | 20 | 90 |
+| Klikte koppeling in chat in omschakelingsstroom | Klik op een koppeling in een Dynamic Chat-gespreksstroom | Chat | 20 | 90 |
+| Klik op Koppeling in SMS V2 | Klik op een koppeling in een SMS-bericht | SMS | 20 | 90 |
+
+>[!NOTE]
+>
+>De de scoreactiviteiten van het engagement worden geregistreerd in het de activiteitenlogboek van Marketo Engage [ voor een persoon ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person) {target="_blank"}.
+
++++
 
 #### Weging
 
