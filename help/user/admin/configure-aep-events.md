@@ -2,22 +2,23 @@
 title: Experience Platform-gebeurtenissen configureren
 description: Meer informatie over het type Wachten dat u kunt gebruiken voor het ordenen van uw accountreizen in Journey Optimizer B2B edition.
 feature: Setup
-source-git-commit: e6f9be8ad43dfe4f314cb0462bc548a0957f5f0f
+exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
+source-git-commit: 95b57124806c4dac46e5deeb9d8310ddcc1b3c93
 workflow-type: tm+mt
-source-wordcount: '1669'
+source-wordcount: '1691'
 ht-degree: 0%
 
 ---
 
-# Gebeurtenisdefinities van Experience Platform configureren
+# Experience Platform-gebeurtenisdefinities configureren
 
-De beheerders kunnen op Adobe Experience Platform (AEP)-Gebaseerde gebeurtenisdefinities vormen, die Marketers toelaten om rekeningsreizen tot stand te brengen die op [ de Gebeurtenissen van de Ervaring van AEP ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent) reageren. Het gebruik van AEP-ervaringsgebeurtenissen voor reizen voor rekening is een proces in twee stappen:
+De beheerders kunnen op Adobe Experience Platform (AEP)-Gebaseerde gebeurtenisdefinities vormen, die Marketers toelaten om rekeningsreizen tot stand te brengen die aan [ de Gebeurtenissen van de Ervaring van AEP ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent) reageren. Het gebruik van AEP-ervaringsgebeurtenissen voor reizen voor rekening is een proces in twee stappen:
 
-1. Maak en publiceer een AEP-gebeurtenisdefinitie.
+1. Een AEP-gebeurtenisdefinitie maken en publiceren.
 
-2. In een rekeningsreis, voeg a _toe luistert naar een gebeurtenis_ knoop en [ selecteert een AEP gebeurtenisdefinitie als personengebeurtenis ](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
+2. In een rekeningsreis, voeg a _toe luistert naar een gebeurtenis_ knoop en [ selecteert een de gebeurtenisdefinitie van AEP als personengebeurtenis ](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
 
-Voor elke gebeurtenisdefinitie is de volgende invoer van het Experience Platform vereist:
+Voor elke gebeurtenisdefinitie is de volgende Experience Platform-invoer vereist:
 
 * **_Schema_** - XDM schema dat de de gegevensstructuur van de Gebeurtenis van de Ervaring bepaalt. De functie moet zijn gebaseerd op een Experience Event en moet voor het profiel zijn ingeschakeld.
 
@@ -39,11 +40,13 @@ Houd rekening met het volgende wanneer u gebeurtenisdefinities maakt en beheert 
 
 * Journey Optimizer B2B edition ondersteunt maximaal 50 gebeurtenisdefinities.
 
+* Accountreizen kunnen luisteren naar AEP Experience Events die worden ingeslikt met behulp van AEP-streamingmogelijkheden, zoals Web SDK of HTTP API.
+
 * Slechts één AEP-gebeurtenisdefinitie kan een gecombineerd schema en een set gebeurtenistypen gebruiken. Wanneer u een gebeurtenisdefinitie maakt met een schema (bijvoorbeeld `My Schema` ) en een gebeurtenistype (bijvoorbeeld `Web Webpagedetails Page Views` ), kan geen enkele andere gebeurtenisdefinitie de combinatie van `My Schema` en `Web Webpagedetails Page Views` gebruiken.
 
 * Een gebeurtenisdefinitie kan in meer dan één rekeningsreis worden gebruikt.
 
-* AEP Experience Events kunnen worden gebruikt voor beslissingsdoeleinden binnen een rekeningreis, maar worden niet bewaard. Daarom kan binnen Journey Optimizer B2B edition geen gebruik worden gemaakt van historische gegevens over AEP Experience Events.
+* AEP Experience Events kunnen worden gebruikt voor beslissingsdoeleinden binnen een accountreis, maar worden niet bewaard. Daarom kan er in Journey Optimizer B2B edition geen gebruik worden gemaakt van de historische staat van dienst van AEP Experience Events.
 
 * De beperkingen voor _datum van activiteit_ en _minimumaantal tijden_ worden niet gesteund.
 
@@ -71,9 +74,9 @@ In de lijst _[!UICONTROL Event definitions]_geeft de kolom **[!UICONTROL Status]
 
 | Status | Beschrijving |
 | -------------------- | ----------- |
-| Concept | Wanneer u een gebeurtenisdefinitie maakt, bevindt deze zich in de conceptstatus. Het blijft in deze status totdat u het publiceert voor gebruik tijdens reizen op account. Beschikbare handelingen: <br/><ul><li>Alle details bewerken<li>Publish<li>Verwijderen |
+| Concept | Wanneer u een gebeurtenisdefinitie maakt, bevindt deze zich in de conceptstatus. Het blijft in deze status totdat u het publiceert voor gebruik tijdens reizen op account. Beschikbare handelingen: <br/><ul><li>Alle details bewerken<li>Publiceren<li>Verwijderen |
 | Gepubliceerd | Wanneer u een gebeurtenisdefinitie publiceert, wordt deze beschikbaar voor gebruik in accountreizen. De details kunnen niet worden gewijzigd. Beschikbare handelingen: <br/><ul><li>Beschikbaar voor _luistert naar een gebeurtenis_ wegknooppunt<li>Conceptversie maken<li>Verwijderen (indien niet in gebruik) |
-| Gepubliceerd (met concept) | Wanneer u een concept maakt op basis van een gepubliceerde gebeurtenisdefinitie, blijft de gepubliceerde versie beschikbaar voor gebruik tijdens reizen van accounts en kan de conceptversie worden gewijzigd. Als u de conceptversie publiceert, vervangt deze de huidige gepubliceerde versie en wordt de gebeurtenisdefinitie bijgewerkt voor accountreizen waar deze nog niet is uitgevoerd. Beschikbare handelingen: <br/><ul><li>Alle details bewerken<li>Publish-conceptversie<li>Conceptversie negeren<li>Verwijderen (indien niet in gebruik) |
+| Gepubliceerd (met concept) | Wanneer u een concept maakt op basis van een gepubliceerde gebeurtenisdefinitie, blijft de gepubliceerde versie beschikbaar voor gebruik tijdens reizen van accounts en kan de conceptversie worden gewijzigd. Als u de conceptversie publiceert, vervangt deze de huidige gepubliceerde versie en wordt de gebeurtenisdefinitie bijgewerkt voor accountreizen waar deze nog niet is uitgevoerd. Beschikbare handelingen: <br/><ul><li>Alle details bewerken<li>Conceptversie publiceren<li>Conceptversie negeren<li>Verwijderen (indien niet in gebruik) |
 
 ![ Levenscyclus van de fragmentstatus ](../assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -135,7 +138,7 @@ Als u naar een gebeurtenisdefinitie op naam wilt zoeken, voert u een tekenreeks 
 
    ![ de nieuwe definitie van de ontwerpgebeurtenis is vermeld op de pagina ](./assets/configuration-events-create-new-draft.png){width="700" zoomable="yes"}
 
-## Publish een gebeurtenisdefinitie
+## Een gebeurtenisdefinitie publiceren
 
 Wanneer u ervan overtuigd bent dat de definitie van de conceptgebeurtenis naar wens is, kunt u deze publiceren om deze beschikbaar te maken voor gebruik tijdens reizen op account. Nadat de gebeurtenisdefinitie is gepubliceerd, kunt u een conceptversie maken als u er wijzigingen in wilt aanbrengen. U kunt het schema echter niet wijzigen en u kunt alleen gebeurtenistypen en velden toevoegen (u kunt deze niet verwijderen).
 
@@ -153,7 +156,7 @@ Wanneer u ervan overtuigd bent dat de definitie van de conceptgebeurtenis naar w
 
 1. Klik op **[!UICONTROL Publish]** in het bevestigingsdialoogvenster.
 
-   ![ de gebeurtenisdialoog van Publish ](./assets/configuration-events-publish-dialog.png){width="300"}
+   ![ publiceer gebeurtenisdialoog ](./assets/configuration-events-publish-dialog.png){width="300"}
 
    De status voor de gebeurtenisdefinitie verandert in _Gepubliceerd_ en het is nu [ beschikbaar voor gebruik in rekeningsreizen ](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
 
@@ -225,7 +228,7 @@ Voer de stappen uit op basis van de status:
 
 1. Klik op **[!UICONTROL Publish]** in het bevestigingsdialoogvenster.
 
-   ![ Publish- ontwerp dialoog ](./assets/configuration-events-publish-draft-dialog.png){width="300"}
+   ![ publiceer ontwerp dialoog ](./assets/configuration-events-publish-draft-dialog.png){width="300"}
 
    Wanneer u de conceptversie publiceert, vervangt deze de huidige gepubliceerde versie en wordt de gebeurtenisdefinitie bijgewerkt voor accountreizen waar deze al in gebruik is maar nog niet is uitgevoerd.
 
@@ -247,7 +250,7 @@ Wanneer u a _Gepubliceerde (met ontwerp)_ gebeurtenisdefinitie opent, wordt het 
 
 1. Klik op **[!UICONTROL Publish]** in het bevestigingsdialoogvenster.
 
-   ![ Publish- ontwerp dialoog ](./assets/configuration-events-publish-draft-dialog.png){width="300"}
+   ![ publiceer ontwerp dialoog ](./assets/configuration-events-publish-draft-dialog.png){width="300"}
 
    Wanneer u de conceptversie publiceert, vervangt deze de huidige gepubliceerde versie en wordt de gebeurtenisdefinitie bijgewerkt voor accountreizen waar deze al in gebruik is maar nog niet is uitgevoerd.
 
