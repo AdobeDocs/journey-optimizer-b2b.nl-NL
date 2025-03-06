@@ -3,9 +3,9 @@ title: E-mailontwerp
 description: Leer hoe u persoonlijke e-mailinhoud kunt maken die wordt gebruikt in een accountreis.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 8315c760e573aa36819652798a400206e6268ccc
+source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
 workflow-type: tm+mt
-source-wordcount: '1353'
+source-wordcount: '1193'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ U kunt e-mailleveringen instellen in een Account Journey wanneer u een _[!UICONT
 1. Kies **[!UICONTROL Send email]** bij _[!UICONTROL Action on people]_.
 1. Kies **[!UICONTROL Create new email]** bij _[!UICONTROL Email source]_.
 
-   U kunt ook de optie _[!UICONTROL Select email from Adobe Marketo Engage]_selecteren om een van de vooraf geschreven e-mails in het Marketo Engage te gebruiken en te verzenden als onderdeel van de Account Journey.
+   U kunt ook de optie _[!UICONTROL Select email from Adobe Marketo Engage]_selecteren om een van de vooraf geschreven e-mails in Marketo Engage te gebruiken en te verzenden als onderdeel van de Account Journey.
 
    >[!NOTE]
    >
-   >Als u voor het eerst een e-mailbericht maakt, controleert u of het e-mailkanaal is geconfigureerd vanuit Adobe Marketo Engage. Meer leren, zie [ E-mailLeverbaarheid ](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability) in de documentatie van het Marketo Engage verzekeren.
+   >Als u voor het eerst een e-mailbericht maakt, controleert u of het e-mailkanaal is geconfigureerd vanuit Adobe Marketo Engage. Om meer te leren, zie [ Verzekeren E-mailLeverbaarheid ](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability) in de documentatie van Marketo Engage.
 
    ![ neem een actie - verzend een e-mail ](assets/journey-node-send-email.png){width="700" zoomable="yes"}
 
@@ -50,11 +50,11 @@ Met deze actie start u de e-mailtoepassing Designer, waarin u kunt kiezen hoe u 
 
 * [ Ontwerp uw e-mail van kras ](#design-your-email-from-scratch) gebruikend de interface van Designer E-mail.
 
-* [ de Inhoud van de Invoer bestaande HTML ](#import-existing-html-content) van een dossier of een .zip omslag.
+* [ voer bestaande inhoud van HTML ](#import-existing-html-content) van een dossier of een .zip omslag in.
 
 * [ selecteer een bestaand malplaatje ](#select-a-template) van een lijst van ingebouwde of douane e-mailmalplaatjes.
 
-Om de onderwerpregel met de uitdrukkingsredacteur te vormen en te personaliseren, klik het _pictogram van Personalization_ en voeg om het even welke Marketo Engage tokens toe.
+Om de onderwerpregel met de uitdrukkingsredacteur te vormen en te personaliseren, klik het _Personalization_ pictogram en voeg om het even welke tokens van Marketo Engage toe.
 
 Nadat u de e-mailinhoud hebt gemaakt en aangepast, kunt u de inhoud exporteren voor validatie of later gebruik. Klik op **[!UICONTROL Export HTML]** om de inhoud op te slaan als een ZIP-bestand dat uw HTML en elementen bevat.
 
@@ -129,30 +129,9 @@ U kunt de geïmporteerde inhoud naar wens aanpassen met de gereedschappen in de 
 
 ### Fragmenten toevoegen
 
-In de visuele inhoudsredacteur, wordt het _pictogram van Fragmenten_ getoond op de linkerzijde. In het volgende voorbeeld worden de stappen beschreven die moeten worden uitgevoerd om fragmenten toe te voegen aan de sjablooninhoud.
+{{$include /help/_includes/content-design-use-fragments.md}}
 
-1. Om de fragmenten lijst te openen, klik het _pictogram van Fragmenten_.
-
-   U kunt:
-
-   * Sorteer de aanbieding.
-   * Blader door de lijst, zoek de lijst of filter deze.
-   * Schakelen tussen de miniatuur- en lijstweergave.
-   * Vernieuw de lijst om een van de onlangs gemaakte fragmenten weer te geven.
-
-   ![ selecteer een fragment van de lijst ](./assets/visual-designer-fragments.png){width="700" zoomable="yes"}
-
-1. Sleep een van de fragmenten naar de tijdelijke aanduiding voor het structurele onderdeel.
-
-   De editor geeft het fragment weer binnen de sectie/het element van de e-mailstructuur.
-
-De inhoud van het fragment wordt dynamisch bijgewerkt in de structuur om te tonen hoe de inhoud in de e-mail wordt weergegeven.
-
->[!TIP]
->
->Als u het fragment wilt toevoegen zodat het de volledige horizontale lay-out binnen de e-mail in beslag neemt, voegt u een 1:1-kolomstructuur toe en sleept u het fragment naar het fragment.
-
-Nadat het e-mailbericht is opgeslagen, wordt het weergegeven op de pagina met fragmentdetails wanneer u het tabblad _[!UICONTROL Used By]_in het overzicht selecteert. Fragmenten die aan een e-mailsjabloon zijn toegevoegd, kunnen niet worden bewerkt in de sjabloon. Het bronfragment definieert de inhoud.
+Nadat het e-mailbericht is opgeslagen, wordt het weergegeven op de pagina met fragmentdetails wanneer u het tabblad _[!UICONTROL Used By]_in het overzicht selecteert.
 
 ### Elementen toevoegen
 

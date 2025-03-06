@@ -2,9 +2,10 @@
 title: E-mailsjabloonontwerp
 description: Leer hoe u e-mailsjablonen voor inhoud kunt ontwerpen die u kunt gebruiken voor e-mails over een account, zodat u uw ontwerpen eenvoudig en efficiënt kunt hergebruiken.
 feature: Email Authoring, Content
-source-git-commit: 8315c760e573aa36819652798a400206e6268ccc
+exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
+source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -29,30 +30,9 @@ Nadat u [ een e-mailmalplaatje ](./email-templates.md#create-an-email-template) 
 
 ### Fragmenten toevoegen
 
-In de visuele inhoudsredacteur, wordt het _pictogram van Fragmenten_ getoond op de linkerzijde. In het volgende voorbeeld worden de stappen beschreven die moeten worden uitgevoerd om fragmenten toe te voegen aan de sjablooninhoud.
+{{$include /help/_includes/content-design-use-fragments.md}}
 
-1. Om de fragmenten lijst te openen, selecteer het _pictogram van Fragmenten_ ( ![ pictogram van Fragmenten ](../assets/do-not-localize/icon-fragments.svg)).
-
-   U kunt:
-
-   * Sorteer de aanbieding.
-   * Blader door de lijst, zoek de lijst of filter deze.
-   * Schakelen tussen de miniatuur- en lijstweergave.
-   * Vernieuw de lijst om een van de onlangs gemaakte fragmenten weer te geven.
-
-   ![ selecteer een fragment van de lijst ](./assets/visual-designer-fragments.png){width="700" zoomable="yes"}
-
-1. Sleep een van de fragmenten naar de tijdelijke aanduiding voor het structurele onderdeel.
-
-   De editor geeft het fragment weer binnen de sectie/het element van de e-mailstructuur.
-
-De inhoud van het fragment wordt dynamisch bijgewerkt in de structuur om te tonen hoe de inhoud in de e-mail wordt weergegeven.
-
->[!TIP]
->
->Als u wilt dat het fragment de volledige horizontale lay-out binnen de e-mail in beslag neemt, voegt u een 1:1-kolomstructuur toe en sleept u het fragment er vervolgens in.
-
-Nadat het e-mailbericht is opgeslagen, wordt het weergegeven op de pagina met fragmentdetails wanneer u het tabblad _[!UICONTROL Used By]_in het overzicht selecteert. Fragmenten die aan een e-mailsjabloon zijn toegevoegd, kunnen niet worden bewerkt in de sjabloon. Het bronfragment definieert de inhoud.
+Nadat de sjabloon is opgeslagen, wordt deze weergegeven op de pagina met fragmentdetails wanneer u het tabblad _[!UICONTROL Used By]_in het overzicht selecteert.
 
 ### Elementen toevoegen
 

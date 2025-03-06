@@ -3,9 +3,9 @@ title: Fragmenten
 description: Leer hoe u in Adobe Journey Optimizer B2B edition fragmenten van visuele inhoud maakt en gebruikt als herbruikbare onderdelen voor e-mails en e-mailsjablonen.
 feature: Content, Email Authoring
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: cd65d568c68f2f4ed85e1612a8f91d8343c9e2be
+source-git-commit: 7deb914dfb9d6979b4dc4a497ed2d15bbabd3011
 workflow-type: tm+mt
-source-wordcount: '2586'
+source-wordcount: '2531'
 ht-degree: 0%
 
 ---
@@ -14,14 +14,18 @@ ht-degree: 0%
 
 Een fragment is een herbruikbare component waarnaar in een of meer e-mailsjablonen in Adobe Journey Optimizer B2B edition kan worden verwezen. Het is doorgaans een blok inhoud (tekst, afbeelding of beide) dat u vooraf kunt maken en snel kunt invoegen in een e-mailsjabloon. Met deze functionaliteit kunt u meerdere aangepaste inhoudsblokken vooraf samenstellen voor gebruik door uw leden van uw marketingteam om e-mailinhoud samen te stellen voor een verbeterd ontwerpproces. Veelvoorkomende gebruiksgevallen zijn inhoudsblokken voor kop- en voetteksten voor e-mail, uitnodigingsbanners voor gebeurtenissen en seizoensgebonden begroetingen.
 
+>[!BEGINSHADEBOX]
+
+**Visuele fragmenten**
+
+Visuele fragmenten zijn vooraf gedefinieerde visuele blokken die zijn gemaakt met de visuele inhoudsontwerper die u kunt hergebruiken in meerdere e-mails of e-mailsjablonen. Het huidige bereik van Journey Optimizer B2B edition en deze documentatie zijn alleen die van visuele fragmenten. Op expressie gebaseerde fragmenten worden nog niet ondersteund in Journey Optimizer B2B edition.
+
+>[!ENDSHADEBOX]
+
 U kunt zo veel mogelijk gebruikmaken van fragmenten in uw workflows:
 
 * _creeer uw eigen fragmenten_ - creeer visuele fragmenten, of van kras of door inhoud als fragment van de visuele inhoudsredacteur op te slaan.
 * _hergebruik fragmenten_ - gebruik hen zo vele tijden zoals nodig in uw inhoud.
-
-## Visuele fragmenten
-
-Visuele fragmenten zijn vooraf gedefinieerde visuele blokken die zijn gemaakt met de visuele inhoudeditor die u kunt hergebruiken in meerdere e-mails of e-mailsjablonen. Het huidige bereik van Journey Optimizer B2B edition en deze documentatie zijn alleen die van visuele fragmenten. Op expressie gebaseerde fragmenten worden nog niet ondersteund in Journey Optimizer B2B edition.
 
 ## Fragmenten openen en beheren
 
@@ -37,11 +41,11 @@ De fragmentstatus bepaalt de beschikbaarheid voor gebruik in een e-mail- of e-ma
 
 | Status | Beschrijving |
 | -------------------- | ----------- |
-| Concept | Wanneer u een fragment maakt, bevindt het zich in de conceptstatus. Deze status blijft behouden wanneer u de visuele inhoud definieert of bewerkt totdat u deze publiceert voor gebruik in een e-mailsjabloon of e-mailsjabloon. Beschikbare handelingen: <br/><ul><li>Alle details bewerken<li>Bewerken in visuele ontwerper<li>Publish<li>Dupliceren<li>Verwijderen |
-| Gepubliceerd | Wanneer u een fragment publiceert, wordt dit beschikbaar voor gebruik in een e-mail- of e-mailsjabloon. Een gepubliceerde fragmentinhoud kan niet worden gewijzigd in de visuele ontwerper. Beschikbare handelingen: <br/><ul><li>Beschrijving bewerken<li>Toevoegen aan een e-mail of sjabloon<li>Conceptversie maken<li>Dupliceren<li>Verwijderen (indien niet in gebruik) |
-| Gepubliceerd met concept | Wanneer u een concept maakt op basis van een gepubliceerd fragment, blijft de gepubliceerde versie beschikbaar voor gebruik in een e-mail- of e-mailsjabloon en kan de conceptinhoud worden gewijzigd in de visuele ontwerper. Als u de conceptversie publiceert, vervangt deze de huidige gepubliceerde versie en wordt de inhoud bijgewerkt in de e-mails en e-mailsjablonen waar deze wordt gebruikt. Beschikbare handelingen: <br/><ul><li>Beschrijving bewerken<li>Toevoegen aan een e-mail of sjabloon<li>Conceptenversie bewerken in visuele ontwerper<li>Publish-conceptversie<li>Dupliceren<li>Verwijderen (indien niet in gebruik) |
+| Concept | Wanneer u een fragment maakt, bevindt het zich in de conceptstatus. Deze status blijft behouden wanneer u de visuele inhoud definieert of bewerkt totdat u deze publiceert voor gebruik in een e-mailsjabloon of e-mailsjabloon. Beschikbare handelingen: <br/><ul><li>Alle details bewerken<li>Bewerken in visuele ontwerper<li>Publiceren<li>Dupliceren<li>Verwijderen |
+| Gepubliceerd | Wanneer u een fragment publiceert, wordt dit beschikbaar voor gebruik in een e-mail- of e-mailsjabloon. Gepubliceerde fragmentinhoud kan niet worden gewijzigd in de visuele ontwerper. Beschikbare handelingen: <br/><ul><li>Beschrijving bewerken<li>Toevoegen aan een e-mail of sjabloon<li>Conceptversie maken<li>Dupliceren<li>Verwijderen (indien niet in gebruik) |
+| Gepubliceerd met concept | Wanneer u een concept maakt op basis van een gepubliceerd fragment, blijft de gepubliceerde versie beschikbaar voor gebruik in een e-mail- of e-mailsjabloon en kan de conceptinhoud worden gewijzigd in de visuele ontwerper. Als u de conceptversie publiceert, vervangt deze de huidige gepubliceerde versie en wordt de inhoud bijgewerkt in de e-mails en e-mailsjablonen waar deze wordt gebruikt. Beschikbare handelingen: <br/><ul><li>Beschrijving bewerken<li>Toevoegen aan een e-mail of sjabloon<li>Conceptenversie bewerken in visuele ontwerper<li>Conceptversie publiceren<li>Dupliceren<li>Verwijderen (indien niet in gebruik) |
 
-![ Levenscyclus van de fragmentstatus ](./assets/status-lifecycle-diagram.png){width="800" zoomable="yes"}
+![ Levenscyclus van de fragmentstatus ](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
@@ -73,7 +77,7 @@ U kunt nieuwe visuele fragmenten maken in Journey Optimizer B2B edition door op 
 
    * Beschrijving - Maximaal 300 tekens
 
-   * Alpha, numerieke tekens en speciale tekens zijn toegestaan
+   * Alpha, numerieke en speciale tekens zijn toegestaan
 
    * Gereserveerde karakters zijn **_niet toegestaan_**: `\ / : * ? " < > |`
 
@@ -85,45 +89,16 @@ U kunt nieuwe visuele fragmenten maken in Journey Optimizer B2B edition door op 
 
 1. Gebruik de gereedschappen voor inhoudsontwerp om de visuele fragmentinhoud te maken:
 
-   * [Structuur en inhoud toevoegen](#add-structure-and-content)
-   * [Assets toevoegen](#add-assets)
-   * [Navigeren door de lagen, instellingen en stijlen](#navigate-the-layers-settings-and-styles)
-   * [Inhoud personaliseren](#personalize-content)
-   * [Gekoppelde URL-tracking bewerken](#edit-linked-url-tracking)
+   * [Structuur en inhoud toevoegen](./fragment-authoring.md#add-structure-and-content)
+   * [Assets toevoegen](./fragment-authoring.md#add-assets)
+   * [Navigeren door de lagen, instellingen en stijlen](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
+   * [Inhoud personaliseren](./fragment-authoring.md#personalize-content)
+   * [Aangepaste velden inschakelen](./fragment-authoring.md#enable-custom-fields)
+   * [Gekoppelde URL-tracking bewerken](./fragment-authoring.md#edit-linked-url-tracking)
 
 1. Klik op **[!UICONTROL Save]** om het conceptfragment op te slaan.
 
 1. Als u het fragment beschikbaar wilt maken voor gebruik in een e-mailsjabloon of e-mailsjabloon, klikt u op **[!UICONTROL Publish]** .
-
-### Structuur en inhoud toevoegen {#design-fragment}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_fragment"
->title="Structuurcomponenten toevoegen"
->abstract="Structuurcomponenten definiëren de indeling van het fragment. De belemmering en laat vallen component van de a **Structuur** in het canvas beginnen de inhoud van uw fragment te ontwerpen."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_fragment"
->title="Informatie over inhoudscomponenten"
->abstract="Inhoudscomponenten zijn lege plaatsaanduidingen voor inhoud die u kunt gebruiken om de lay-out van een fragment te maken."
-
-{{$include /help/_includes/content-design-components.md}}
-
-### Elementen toevoegen
-
-{{$include /help/_includes/content-design-assets.md}}
-
-### Navigeren door de lagen, instellingen en stijlen
-
-{{$include /help/_includes/content-design-navigation.md}}
-
-### Inhoud personaliseren
-
-{{$include /help/_includes/content-design-personalization.md}}
-
-### Gekoppelde URL-tracking bewerken
-
-{{$include /help/_includes/content-design-links.md}}
 
 ## Fragmentdetails weergeven
 
@@ -194,11 +169,12 @@ Bewerkingen aan een fragment zijn afhankelijk van de huidige status:
 
    Gebruik de gereedschappen voor visuele ontwerpen naar wens:
 
-   * [Structuur en inhoud toevoegen](#add-structure-and-content)
-   * [Assets toevoegen](#add-assets)
-   * [Navigeren door de lagen, instellingen en stijlen](#navigate-the-layers-settings-and-styles)
-   * [Inhoud personaliseren](#personalize-content)
-   * [Gekoppelde URL-tracking bewerken](#edit-linked-url-tracking)
+   * [Structuur en inhoud toevoegen](./fragment-authoring.md#add-structure-and-content)
+   * [Assets toevoegen](./fragment-authoring.md#add-assets)
+   * [Navigeren door de lagen, instellingen en stijlen](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
+   * [Inhoud personaliseren](./fragment-authoring.md#personalize-content)
+   * [Aangepaste velden inschakelen](./fragment-authoring.md#enable-custom-fields)
+   * [Gekoppelde URL-tracking bewerken](./fragment-authoring.md#edit-linked-url-tracking)
 
    Klik op **[!UICONTROL Save]** of **[!UICONTROL Save & close]** om terug te keren naar de fragmentdetails.
 
@@ -222,11 +198,12 @@ Bewerkingen aan een fragment zijn afhankelijk van de huidige status:
 
    Gebruik de gereedschappen voor visuele ontwerpen naar wens:
 
-   * [Structuur en inhoud toevoegen](#add-structure-and-content)
-   * [Assets toevoegen](#add-assets)
-   * [Navigeren door de lagen, instellingen en stijlen](#navigate-the-layers-settings-and-styles)
-   * [Inhoud personaliseren](#personalize-content)
-   * [Gekoppelde URL-tracking bewerken](#edit-linked-url-tracking)
+   * [Structuur en inhoud toevoegen](./fragment-authoring.md#add-structure-and-content)
+   * [Assets toevoegen](./fragment-authoring.md#add-assets)
+   * [Navigeren door de lagen, instellingen en stijlen](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
+   * [Inhoud personaliseren](./fragment-authoring.md#personalize-content)
+   * [Aangepaste velden inschakelen](./fragment-authoring.md#enable-custom-fields)
+   * [Gekoppelde URL-tracking bewerken](./fragment-authoring.md#edit-linked-url-tracking)
 
    Klik op **[!UICONTROL Save]** of **[!UICONTROL Save & close]** om terug te keren naar de fragmentdetails.
 
@@ -250,11 +227,12 @@ De inhoud bijwerken:
 
 1. Klik op **[!UICONTROL Edit fragment]** rechtsboven. Gebruik de gereedschappen voor visuele ontwerpen naar wens:
 
-   * [Structuur en inhoud toevoegen](#add-structure-and-content)
-   * [Assets toevoegen](#add-assets)
-   * [Navigeren door de lagen, instellingen en stijlen](#navigate-the-layers-settings-and-styles)
-   * [Inhoud personaliseren](#personalize-content)
-   * [Gekoppelde URL-tracking bewerken](#edit-linked-url-tracking)
+   * [Structuur en inhoud toevoegen](./fragment-authoring.md#add-structure-and-content)
+   * [Assets toevoegen](./fragment-authoring.md#add-assets)
+   * [Navigeren door de lagen, instellingen en stijlen](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
+   * [Inhoud personaliseren](./fragment-authoring.md#personalize-content)
+   * [Aangepaste velden inschakelen](./fragment-authoring.md#enable-custom-fields)
+   * [Gekoppelde URL-tracking bewerken](./fragment-authoring.md#edit-linked-url-tracking)
 
    Klik op **[!UICONTROL Save]** of **[!UICONTROL Save & close]** om terug te keren naar de fragmentdetails.
 
