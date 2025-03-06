@@ -3,9 +3,9 @@ title: Paden splitsen en samenvoegen
 description: In deze video ziet u de knooppunttypen die u kunt gebruiken voor het ordenen van uw accountreizen in Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
+source-git-commit: e0fc061b55af4fd79248c2255db94280ee41e2c8
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1491'
 ht-degree: 1%
 
 ---
@@ -28,10 +28,11 @@ Voeg a _Gesplitste wegen_ knoop toe om één of meerdere gesegmenteerde die wege
 
 _hoe werkt een gespleten weg door rekeningsknoop?_
 
-* Wanneer u een gespleten wegknoop toevoegt en _Rekening_ kiest, omvat elke weg die wordt toegevoegd een eindknoop met de capaciteit om knopen aan elke rand toe te voegen.
-* Het pad kan herhaaldelijk worden opgesplitst op rekeningen, bijvoorbeeld op geneste wijze. Een gesplitst pad bevat een optie om het standaardpad niet toe te voegen.
-* Als een rekening/persoon niet in aanmerking komt voor een van de gesplitste paden, gaat hij niet verder op de reis.
-* Deze paden kunnen worden gecombineerd met een samenvoegknooppunt.
+* Elk pad dat u toevoegt, bevat een eindknooppunt met de mogelijkheid om knooppunten aan elke rand toe te voegen.
+* Splitsen op accountknooppunten kan worden genest. U kunt het pad herhaaldelijk splitsen op accounts.
+* Evalueert paden van boven naar beneden. Als een account overeenkomt met het eerste en tweede pad, gaat deze alleen door langs het eerste pad.
+* Twee of meer paden kunnen worden gecombineerd met een samenvoegknooppunt.
+* Ondersteunt de definitie van een _[!UICONTROL Other accounts]_-pad, waar u handelingen of gebeurtenissen kunt toevoegen voor accounts die niet overeenkomen met een van de gedefinieerde segmenten/paden.
 
 ![ knoop van de Reis - gespleten wegen door rekening ](./assets/node-split-paths-account.png){width="700" zoomable="yes"}
 
@@ -39,10 +40,11 @@ _hoe werkt een gespleten weg door rekeningsknoop?_
 
 _hoe werkt een gespleten weg door mensen knoop?_
 
-* _Gesplitste weg door mensen_ knopen zijn gegroepeerde knopen. De paden worden automatisch samengevoegd, zodat alle mensen in het publiek verder kunnen gaan naar de volgende stap zonder hun accountcontext te verliezen.
-* _de Gesplitste weg door mensen_ knopen kan niet worden genesteld-u kan geen gespleten weg voor mensen op een weg toevoegen die in deze gegroepeerde knoop is.
-* De gesplitste wegknopen omvatten een optie om een standaardweg weg weg weg te laten zodat de rekeningen/de mensen zonder een passende weg zich niet voorwaarts in de reis bewegen.
-* _Gesplitste weg door mensen_ knopen steunt het gebruik van _rekening-persoon verhoudingen_, die u toestaat om mensen te filtreren die op hun rol (zoals contractant of full-time werknemer) worden gebaseerd zoals die in de rolmalplaatjes wordt bepaald.
+* Functies binnen a _gegroepeerde knoop_ spleet-fusie combinatie. De gesplitste paden worden automatisch samengevoegd, zodat alle mensen in het publiek verder kunnen gaan naar de volgende stap zonder hun accountcontext te verliezen.
+* Splitsen op basis van knooppunten kan niet worden genest. U kunt geen gesplitst pad toevoegen voor personen op een pad dat zich in dit gegroepeerde knooppunt bevindt.
+* Evalueert paden van boven naar beneden. Als een persoon overeenkomt met het eerste en tweede pad, gaat hij alleen verder langs het eerste pad.
+* Steunt het gebruik van _rekening-persoon verhoudingen_, die u toestaat om mensen te filtreren die op hun rol (zoals contractant of voltijdwerknemer) worden gebaseerd zoals die in de rolmalplaatjes wordt bepaald.
+* Ondersteunt de definitie van een _[!UICONTROL Other people]_-pad, waar u handelingen of gebeurtenissen kunt toevoegen voor personen die niet overeenkomen met een van de gedefinieerde segmenten/paden.
 
 ![ knoop van de Reis - gespleten wegen door mensen ](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
@@ -96,7 +98,9 @@ _hoe werkt een gespleten weg door mensen knoop?_
 
    ![ Gesplitste wegknoop - orde wegen ](./assets/node-split-reorder-paths-accounts.png){width="500" zoomable="yes"} opnieuw
 
-1. Schakel de optie **[!UICONTROL Other accounts]** in om een standaardpad toe te voegen voor accounts die niet overeenkomen met de gedefinieerde paden. Zo niet, dan eindigt de reis voor deze mensen.
+1. Schakel de optie **[!UICONTROL Other accounts]** in om het standaardpad te definiëren voor accounts die niet overeenkomen met de gedefinieerde segmenten/paden.
+
+   Wanneer deze optie niet wordt toegelaten, eindigt de reis voor rekeningen die geen bepaald segment/weg binnen de splitsing aanpassen.
 
 ### Een gesplitst pad toevoegen aan een knooppunt met personen
 
@@ -145,13 +149,15 @@ _hoe werkt een gespleten weg door mensen knoop?_
 
    ![ Gesplitste wegknoop - orde wegen ](./assets/node-split-reorder-paths-people.png){width="500" zoomable="yes"} opnieuw
 
-1. Schakel de optie **[!UICONTROL Other people]** in om een standaardpad toe te voegen voor mensen die niet overeenkomen met de gedefinieerde paden. Zo niet, dan eindigt de reis voor deze mensen.
+1. Schakel de optie **[!UICONTROL Other people]** in om een standaardpad toe te voegen voor mensen die niet overeenkomen met de gedefinieerde paden.
+
+   Als deze optie niet is ingeschakeld, worden personen die niet overeenkomen met een gedefinieerd segment/pad, verplaatst na de splitsing en gaan ze verder met de volgende stap in de rit.
 
 >[!BEGINSHADEBOX  &quot;Marketo Engage list membership&quot;]
 
 In Marketo Engage, _Slimme Campagnes_ controlelidmaatschap van programma&#39;s om ervoor te zorgen dat de leads geen dubbele e-mail ontvangen en niet leden van veelvoudige stromen van e-mails tezelfdertijd zijn. In Journey Optimizer B2B kunt u controleren op Marketo Engage-lidmaatschap als voorwaarde voor uw gesplitste pad door mensen om dubbel werk in reisactiviteiten te voorkomen.
 
-Hiervoor vouwt u **[!UICONTROL Special Filters]** uit, sleept u de voorwaarde **[!UICONTROL Member of List]** naar de filterruimte en vult u de filterdefinitie in om het lidmaatschap in een of meer Marketo Engage-lijsten te evalueren.
+Als u een lidmaatschap van een lijst wilt gebruiken in een gesplitste voorwaarde, vouwt u **[!UICONTROL Special Filters]** uit en sleept u de voorwaarde **[!UICONTROL Member of List]** naar de filterruimte. Voltooi de filterdefinitie om lidmaatschap in één of meerdere lijsten van Marketo Engage te evalueren.
 
 ![ Gesplitste weg door personenvoorwaarde voor het lijstlidmaatschap van Marketo Engage ](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
 
