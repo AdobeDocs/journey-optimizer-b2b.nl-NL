@@ -2,17 +2,22 @@
 title: Experience Platform-gebeurtenissen configureren
 description: Meer informatie over het type Wachten dat u kunt gebruiken voor het ordenen van uw accountreizen in Journey Optimizer B2B edition.
 feature: Setup
+soultion: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: 95b57124806c4dac46e5deeb9d8310ddcc1b3c93
+source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
 workflow-type: tm+mt
-source-wordcount: '1691'
+source-wordcount: '1698'
 ht-degree: 0%
 
 ---
 
 # Experience Platform-gebeurtenisdefinities configureren
 
-De beheerders kunnen op Adobe Experience Platform (AEP)-Gebaseerde gebeurtenisdefinities vormen, die Marketers toelaten om rekeningsreizen tot stand te brengen die aan [ de Gebeurtenissen van de Ervaring van AEP ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent) reageren. Het gebruik van AEP-ervaringsgebeurtenissen voor reizen voor rekening is een proces in twee stappen:
+De beheerders kunnen op Adobe Experience Platform (AEP)-Gebaseerde gebeurtenisdefinities vormen, die Marketers toelaten om rekeningsreizen tot stand te brengen die aan [ de Gebeurtenissen van de Ervaring van AEP ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent) reageren.
+
+![ Video ](../../assets/do-not-localize/icon-video.svg){width="30"} [ bekijk het videooverzicht ](#overview-video)
+
+Het gebruik van AEP-ervaringsgebeurtenissen voor reizen voor rekening is een proces in twee stappen:
 
 1. Een AEP-gebeurtenisdefinitie maken en publiceren.
 
@@ -273,3 +278,7 @@ U kunt een gebeurtenisdefinitie verwijderen als deze niet wordt gebruikt door ee
 1. Klik op **[!UICONTROL Delete]** in het bevestigingsdialoogvenster.
 
    ![ Bevestig om de gebeurtenisdefinitie ](./assets/configuration-events-delete-confirm-dialog.png){width="300"} te schrappen
+
+## Video over overzicht
+
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)

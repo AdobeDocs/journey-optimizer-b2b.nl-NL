@@ -3,9 +3,9 @@ title: Groepsfasen kopen
 description: Leer over het kopen van groepsstadia en hoe u hen voor het volgen van reisvooruitgang tegen verkoopdoelstellingen kunt bepalen.
 feature: Buying Groups, Account Journeys
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 3336a09a58d4c68418ffa1563b6c4c65097e1a49
+source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
 workflow-type: tm+mt
-source-wordcount: '2075'
+source-wordcount: '2082'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ De het kopen groepsstadia worden ontworpen om de vooruitgang van het kopen van g
 Definieer de fasen in één staging-model, waarbij u meerdere fasen definieert en de overgangsstroom tussen de fasen definieert. Een of meer fasen zijn bedoeld om in de levenscyclus te worden binnengebracht. Het model maakt ook niet-lineaire progressie mogelijk, waarbij u overgangen van de ene naar de andere fase kunt opgeven, zoals van fase A naar fase B, C of D. Er moet één fase worden aangewezen als de succesfase, zoals een aankoop of een ondertekend contract. Het is facultatief dat een andere fase als een mislukkingsfase wordt aangewezen, zoals een afgewezen contract of de aankoop van een concurrerende oplossing van een andere verkoper. Dit wordt bereikt door [ intelligente dashboards ](../dashboards/intelligent-dashboard.md) die tonen hoe het kopen groepen in termen van het voltooien van een verkoopkans of het omzetten van een kans in een klant vooruitgaat.
 
 ![ het Kopen van de groepsstadia voorbeeld ](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
+
+![ Video ](../../assets/do-not-localize/icon-video.svg){width="30"} [ bekijk het videooverzicht ](#overview-video)
 
 ## Uw model voor inkoopgroepfasen definiëren
 
@@ -159,7 +161,7 @@ Het conceptmodel bekijken:
 
    U kunt ook op _[!UICONTROL Cancel]_klikken om het dialoogvenster te sluiten en zonder wijzigingen terug te keren naar de pagina met modeldetails.
 
-## Publish, model voor de inkoopgroep
+## Het model voor de inkoopgroepfasen publiceren
 
 Als er geen validatiefouten zijn, kan het model worden gepubliceerd. Wanneer het wordt gepubliceerd, verandert het in a _Levende_ staat en kan worden gebruikt om het kopen groepsstadia in rekeningsreizen te bevorderen.
 
@@ -345,3 +347,7 @@ Gebruik het optreden van een wijziging in de inkoopgroep om de account naar de v
    ![ knoop van de Reis - luister aan gebeurtenissen op rekening ](./assets/stages-event-node-stage-change-properties.png){width="700" zoomable="yes"}
 
 1. Blijf andere wijzigingen aanbrengen en sla de reis op.
+
+## Video over overzicht
+
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)

@@ -3,10 +3,10 @@ title: Luisteren naar een gebeurtenis
 description: Meer informatie over het type Luisteren naar een gebeurtenisknooppunt dat u kunt gebruiken voor het orchestreren van uw accountreizen in Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
+source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
 workflow-type: tm+mt
-source-wordcount: '1297'
-ht-degree: 1%
+source-wordcount: '1302'
+ht-degree: 0%
 
 ---
 
@@ -118,11 +118,13 @@ Als u webpagina&#39;s hebt gemaakt in uw verbonden Marketo Engage-exemplaar, kun
 
 ### Luisteren naar een Experience Event
 
-De beheerders kunnen op Adobe Experience Platform (AEP)-Gebaseerde gebeurtenisdefinities vormen, die Marketers toelaten om rekeningsreizen tot stand te brengen die op [ de Gebeurtenissen van de Ervaring van AEP ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent) reageren. Het gebruik van AEP-ervaringsgebeurtenissen voor reizen voor rekening is een proces in twee stappen:
+De beheerders kunnen op Adobe Experience Platform (AEP)-Gebaseerde gebeurtenisdefinities vormen, die Marketers toelaten om rekeningsreizen tot stand te brengen die aan [ de Gebeurtenissen van de Ervaring van AEP ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent) reageren. Het gebruik van AEP-ervaringsgebeurtenissen voor reizen voor rekening is een proces in twee stappen:
 
-1. [ creeer en publiceer een AEP gebeurtenisdefinitie ](../admin/configure-aep-events.md).
+1. [ creeer en publiceer een de gebeurtenisdefinitie van AEP ](../admin/configure-aep-events.md).
 
 2. In een rekeningsreis, voeg a _toe luistert naar een gebeurtenis_ knoop, en selecteert een de gebeurtenisdefinitie van Experience Platform voor een op mensen-gebaseerde gebeurtenis.
+
+![ Video ](../../assets/do-not-localize/icon-video.svg){width="30"} [ bekijk het videooverzicht ](../admin/configure-aep-events.md#overview-video)
 
 _om een Gebeurtenis van de Ervaring in uw reis te omvatten:_
 
@@ -162,7 +164,7 @@ _om een Gebeurtenis van de Ervaring in uw reis te omvatten:_
 
 1. Voltooi de resterende knopen voor uw reis en [ publiceer het ](./journey-overview.md).
 
-   Wanneer de reis (gepubliceerd) levend is en _bereikt luistert naar een gebeurtenis_ knoop, begint het luisteren naar de Gebeurtenissen van de Ervaring AEP.
+   Wanneer de reis (gepubliceerd) levend is en _bereikt luistert naar een gebeurtenis_ knoop, begint het luisteren naar de Gebeurtenissen van de Ervaring van AEP.
 
 ## Een time-out toevoegen aan een gebeurtenisknooppunt
 

@@ -2,9 +2,9 @@
 title: Gekoppeld publiek voor account gekoppeld
 description: Leer hoe u een LinkedIn-account aansluit en een gegevensstroom activeert voor inkoopgroepen.
 exl-id: d2303529-16c4-4b0b-b8c8-404dff8ec63d
-source-git-commit: 00315c9d245d8d19954643e4dd51920ae2baafbe
+source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '699'
 ht-degree: 0%
 
 ---
@@ -111,3 +111,9 @@ De naam en beschrijving van de LinkedIn-account zijn zichtbaar voor inkoopgroepe
    Klik nogmaals op **[!UICONTROL Activate]** in het bevestigingsdialoogvenster.
 
    Er wordt een banner weergegeven met een koppeling naar het menu met gegevensstromen in Experience Platform, zodat u de gegevensstroomrecord kunt controleren.
+
+## Betaalde betrokkenheid bij media ordenen
+
+U kunt via een betaald mediakanaal, zoals LinkedIn Addiences, contact opnemen met accountleden om hen aan te schaffen, te voeden en in aanmerking te laten komen voor Verkoop. Gebruik a _neemt een 1} knoop van de actie {in een rekeningsreis om overeenkomst met zeer belangrijke leden van een rekening door een extern kanaal te automatiseren dat best voor verschillende rekeningsleden past._
+
+>[!VIDEO](https://video.tv.adobe.com/v/3448649/?learn=on)
