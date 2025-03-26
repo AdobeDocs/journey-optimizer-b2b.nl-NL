@@ -2,9 +2,9 @@
 title: Aanvullende informatie
 description: Nieuwste aanvullende informatie voor de B2B-editie van Adobe Journey Optimizer
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 24e39a532903ae2ca389f7c1a761ec7b5e03157d
+source-git-commit: 943dd70a732f8dbcee5c5031c1bc3b15966d66f1
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1597'
 ht-degree: 4%
 
 ---
@@ -17,7 +17,21 @@ Journey Optimizer B2B edition is native gebaseerd op [!DNL Adobe Experience Plat
 
 Herzie de [ productbeschrijving ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html) {target="_blank"} voor informatie over rechten, prestatiegaranties, en beperkingen.
 
-## Release-aantekeningen januari 2025 {#Jan-2025}
+## Opmerkingen bij de release 2025.2
+
+**de datum van de Versie**: 11 Maart, 2025
+
+Deze release bevat de volgende nieuwe mogelijkheden en verbeteringen:
+
+| Type | Item | Beschrijving |
+| ---- | ---- | ----------- |
+| Nieuwe functie | Aanpasbare velden - inhoudsfragmenten | Als ontwerper van een inhoudsfragment kunt u een parameter voor een component in het fragment toewijzen als bewerkbaar. Hierdoor kan de auteur van een e-mail of sjabloon een aangepaste veldwaarde opgeven die specifiek is voor zijn of haar behoeften. Deze aanpassingsvlag is beperkt tot beeld, tekst, en knoop visuele componenten. <a href="../content/fragment-authoring.md#enable-custom-fields">Meer informatie</a> |
+| Nieuwe functie | B2B ingebouwde rollen en producttoestemmingen | Experience Platform bevat nu een set ingebouwde (standaard)rollen die u kunt gebruiken om de toegang tot de B2B-productmogelijkheden te beheren. <a href="../admin/user-management.md#b2b-built-in-roles">Meer informatie</a> <br/> de Beheerders kunnen douanerollen in Adobe Experience Platform nu bepalen om het producttoestemmingen van Journey Optimizer B2B edition te omvatten.  <a href="../admin/user-management.md#b2b-product-permissions">Meer informatie</a> |
+| Verbetering | Vier extra e-mailvoorbeeldsjablonen | De voorbeeldsjabloonbibliotheek voor e-mailsjablonen bevat nu vier SecureFinacial-sjablonen als voorbeelden voor het opnieuw toewijzen, informeren, voeden en feedback geven van inhoudsvoorbeelden |
+
+
+
+## Opmerkingen bij de release 2025.1 {#Jan-2025}
 
 **de datum van de Versie**: 6 Februari, 2025
 
@@ -46,7 +60,7 @@ Deze release bevat de volgende nieuwe mogelijkheden en verbeteringen:
 
 | Type | Item | Beschrijving |
 | ---- | ---- | ----------- |
-| Nieuwe functie | Voorwaardelijke inhoud in e-mailsjablonen | Pas uw e-mailinhoud aan op basis van de gedrags- en profielkenmerken van de ontvanger, zowel voor de account als voor de lead. <p>Terwijl u een e-mail voor uw accountreis in de e-mailontwerper ontwerpt, gebruikt u voorwaardelijke regels om meerdere varianten voor een inhoudcomponent te definiëren. <a href="../content/conditional-content.md">Meer informatie</a> |
+| Nieuwe functie | Voorwaardelijke inhoud in e-mailsjablonen | Pas uw e-mailinhoud aan op basis van de gedrags- en profielkenmerken van de ontvanger, zowel voor de account als voor de lead. <p>Terwijl u een e-mail voor uw accountreis in de visuele ontwerpruimte voor e-mail ontwerpt, gebruikt u voorwaardelijke regels om meerdere varianten voor een inhoudscomponent te definiëren. <a href="../content/conditional-content.md">Meer informatie</a> |
 | Nieuwe functie | _voeg aan Lijst_ toe en _verwijder uit lijst_ personenacties in reizen | Pas uw e-mailinhoud aan op basis van de gedrags- en profielkenmerken van de ontvanger, zowel voor de account als voor de lead. <a href="../journeys/action-nodes.md">Meer informatie</a> |
 | Nieuwe functie | Inhoud beheren en component vergrendelen | Gebruik de functies voor contentbeheer om de inhoudonderdelen van een e-mailsjabloon te vergrendelen, zodat u zich aan goedgekeurde inhoudsontwerpen kunt houden. Als contentbeheer is geactiveerd in de e-mailsjabloon, kunnen marketers alleen de toegestane elementen wijzigen om deze op één lijn te houden met de inhoudsstrategie. <a href="../content/template-content-governance.md">Meer informatie</a> |
 | Nieuwe functie | Groepsfasen voor kopen | Wanneer u een model voor het opvoeren van een aangepaste inkoopgroep definieert en publiceert, kunt u de voortgang van de inkoopgroep bijhouden in de fasen van de levenscyclus van de inkoopgroep. Gebruik deze stappen om de volgende beste acties voor het kopen van groepsleden te identificeren. U vormt de overgangsregels en de wegknopen die de vooruitgang van het werkgebied bepalen en acties teweegbrengen die op veranderingen worden gebaseerd. <a href="../buying-groups/buying-group-stages.md">Meer informatie</a> |

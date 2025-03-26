@@ -2,9 +2,9 @@
 title: Documentatie voor Adobe Journey Optimizer B2B Edition
 description: Leer hoe u de Adobe Journey Optimizer B2B edition-functies kunt gebruiken voor het ordenen van accounts en het kopen van groepsreizen met behulp van ingebouwde generatieve AI en toonaangevende automatisering.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 24e39a532903ae2ca389f7c1a761ec7b5e03157d
+source-git-commit: 9e19b8b22c237f43fef3a5ed4c093ad12ff41781
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '680'
 ht-degree: 4%
 
 ---
@@ -31,7 +31,13 @@ Met Adobe Express Enterprise-licenties kunt u een volledige reeks Adobe Express-
 
 [!BADGE Meer informatie]{type=Informative url="/help/user/content/image-edit-adobe-express.md" tooltip="Meer informatie over het bewerken van afbeeldingen met Adobe Express"}
 
->[!TAB  AEP gebeurtenis die ] door:sturen
+>[!TAB  Aanpasbare gebieden van het fragment ]
+
+Als inhoudsontwerper kunt u een parameter voor een component in het fragment toewijzen als bewerkbaar. Hierdoor kan de auteur van een e-mail of sjabloon een aangepaste veldwaarde opgeven die specifiek is voor zijn of haar behoeften. Deze aanpassingsvlag is beperkt tot beeld, tekst, en knoop visuele componenten.
+
+[!BADGE Meer informatie]{type=Informative url="/help/user/content/fragment-authoring.md#enable-custom-fields" tooltip="Informatie over aangepaste velden voor inhoudsfragmenten"}
+
+>[!TAB  gebeurtenis die van AEP ] door:sturen
 
 Beheerders kunnen nu op Adobe Experience Platform (AEP) gebaseerde gebeurtenisdefinities configureren. Met deze configuraties kunnen markeertekens accountreizen maken die reageren op AEP Experience Events.
 
