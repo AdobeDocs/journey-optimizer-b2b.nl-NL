@@ -3,7 +3,7 @@ title: Een handeling uitvoeren
 description: Meer informatie over het type Actie-knooppunt nemen dat u kunt gebruiken voor het orchestreren van uw accountreizen in Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
+source-git-commit: 73df89b39524a8622ec610a4ce531f68f0b9d98f
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 0%
@@ -25,10 +25,10 @@ Gebruik een handeling op accounts wanneer u een wijziging wilt toepassen op alle
 | Handeling | Restricties |
 | ------ | ----------- |
 | [!UICONTROL Account Change Data Value] | Selecteer attribuut <br/> Nieuwe waarde |
-| [!UICONTROL Account Interesting Moment] | Het type (E-mail, Mijlsteen, of Web) <br/> Beschrijving (facultatief) |
-| [!UICONTROL Add Account to (other) Journey] | Reis live account selecteren |
-| [!UICONTROL Add to account list] | Een lijst met live statische accounts selecteren |
-| [!UICONTROL Remove Account from Journey] | Reis live account selecteren |
+| [!UICONTROL Account Interesting Moment] | Het type (e-mail, mijlpaal, of Web) <br/> Beschrijving (facultatief) |
+| [!UICONTROL Add Account to (other) Journey] | Reis voor live account selecteren |
+| [!UICONTROL Add to account list] | Lijst met live statische accounts selecteren |
+| [!UICONTROL Remove Account from Journey] | Reis voor live account selecteren |
 | [!UICONTROL Remove from account list] | Een lijst met live statische accounts selecteren |
 | [!UICONTROL Send Sales Alert] | Selecteer oplossingsrente <br/> verzendt e-mail naar |
 | [!UICONTROL Update Buying Group Stage] | Selecteer oplossingsrente <br/> Uitgezochte het kopen groepsstadium |
@@ -183,7 +183,7 @@ Gebruik deze actie om een SMS-bericht te verzenden. U kunt tot stand brengen, pe
 
 ### Marketo Engage-acties
 
-De Marketo Engage-basis voor mensen is ontworpen om uw marketingorganisatie op basis van account in Journey Optimizer B2B edition te coördineren met uw marketingactiviteiten op basis van leads in Marketo Engage. Gebruik deze acties om lijstlidmaatschap, personenverdelingen, en verzoekcampagnes te ordenen.
+De Marketo Engage-acties op basis van personen zijn ontworpen om uw marketingorganisatie op basis van account in Journey Optimizer B2B edition te coördineren met uw marketingactiviteiten op basis van leads in Marketo Engage. Gebruik deze acties om lijstlidmaatschap, personenverdelingen, en verzoekcampagnes te ordenen.
 
 +++[!UICONTROL Add to list]
 

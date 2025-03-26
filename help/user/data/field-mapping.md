@@ -2,10 +2,10 @@
 title: XDM-velden
 description: Controleer de standaardkenmerkvelden die zijn gesynchroniseerd tussen de Adobe Experience Platform en Journey Optimizer B2B edition.
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: 332c25305377398c2338d4b1d4a61b7fcf814232
+source-git-commit: e2a802750ee221caf83989c5731e0daee64aa63e
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 7%
+source-wordcount: '1372'
+ht-degree: 5%
 
 ---
 
@@ -15,7 +15,7 @@ Accountpublieksgegevens worden opgeslagen als kenmerken in zowel de XDM Business
 
 >[!TIP]
 >
->U kunt de klassen van de Zakelijke Persoon XDM en van de Zakelijke Rekening XDM in een vele-aan-vele verhouding modelleren door de klasse van de Verhouding van de Person van de Onderneming XDM te gebruiken XDM zoals die in de [ Experience Platform XDM documentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b) wordt beschreven.
+>U kunt de klassen van de Zakelijke Persoon XDM en van de Zakelijke Rekening XDM in een vele-aan-vele verhouding modelleren door de klasse van de Verhouding van de Person van de Onderneming XDM te gebruiken XDM zoals die in de [ documentatie XDM van Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b) wordt beschreven.
 
 ## Kenmerken XDM Zakelijke account persoon relatie
 
@@ -79,26 +79,27 @@ Accountpublieksgegevens worden opgeslagen als kenmerken in zowel de XDM Business
 | `accountPhone.number` | NVT | Telefoonnummer account | String | Het telefoonnummer dat aan de account is gekoppeld. |
 | `accountSourceType` | NVT | Source-type | String | Source-type voor de account. |
 
-<!-- ## XDM Opportunity attributes
+## Kenmerken van XDM Business Opportunity
 
-|[Property](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md) |Display name |Journey Optimizer B2B display name |Data type |Description |
+Bovendien, worden de opportuniteitsgegevens opgeslagen als attributen in de XDM klasse Business Opportunity, die met de XDM klasse van de BedrijfsRekening door een veel-aan-één verhouding kan worden geassocieerd, zoals [ hier ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field) wordt beschreven.
+
+| [ Bezit ](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md) | Weergavenaam | Journey Optimizer B2B-weergavenaam | Gegevenstype | Beschrijving |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
-|`opportunityName` | Opportunity Name   | ? |String  | Subject or descriptive name, such as the expected order or company name, for the opportunity. |
-|`opportunityDescription` | Opportunity Description   | ?    |String  | Additional information to describe the opportunity, such as possible products to sell or past purchases from the customer. |
-|`opportunityType` | Opportunity Type   | ?   | String | ?   |
-|`opportunityStage` | Opportunity Stage   | ?   | String | Sales stage of the opportunity to aid the sales team in their efforts to win it.  |
-|`fiscalQuarter` | Fiscal Quarter   | ?   | String | The fiscal quarter that the opportunity is targeted.   |
-|`fiscalYear` | Fiscal Year   | ?   | String | The fiscal year that the opportunity is targeted.   |
-|`fiscalCategory` | Fiscal Category   | ?   | String | ?   |
-|`fiscalCategoryName` | Fiscal Category Name  | ?   | String | Forecast category name that is displayed in reports for a particular forecast category.   |
-|`isClosed` | Closed Flag  | ?   | String | Flag that indicates if the opportunity is closed.   |
-|`isWon` | Won Flag  | ?   | String | Flag that indicates if the opportunity is won.  |
-|`probabilityPercentage` | Probability Percentage  | ?   | String | Likelihood of closing the opportunity, stated as a percentage.  |
-|`opportunityAmount.amount` | Opportunity Amount  | ?   | String | Estimated total sale amount for the opportunity.   |
-|`expectedRevenue.amount` | Expected Revenue  | ?   | String | Calculated revenue based on the Amount and Probability.   |
-|`opportunityQuantity` | Opportunity Quantity  | ?   | String | Total of all quantity field values for all products in the related Products list for the opportunity.   |
-|`expectedCloseDate` | Expected Close Date  | ?   | String | Expected date of closure for the opportunity.   |
-|`lastActivityDate` | Last Activity Date  | ?   | String | Last activity date for the opportunity.  |
-|`leadSource` | Lead Source  | ?   | String | Source of the opportunity, such as Advertisement, Partner, or Web.   |
-|`nextStep` | Next Step  | ?   | String | Description of the next task for closing the opportunity.   |
--->
+| `expectedCloseDate` | Sluiten verwacht | Verwachte opportuniteitssluitingsdatum | String | Verwachte sluitingsdatum voor de gelegenheid. |
+| `expectedRevenue.amount` | Verwachte inkomsten | Totale verwachte opportuniteitsinkomsten | String | Berekende opbrengsten op basis van het bedrag en de waarschijnlijkheid. |
+| `fiscalQuarter` | Begrotingskwartaal | Opportunity fiscaal kwartaal | String | Het beoogde begrotingskwartaal voor de kans. |
+| `fiscalYear` | Begrotingsjaar | Opportunity-boekjaar | String | Het beoogde belastingjaar voor de kans. |
+| `forecastCategory` | Prognose-categorie | Opportunity Forecast, categorie | String | Prognose-categorie bepaald door de waarde van het opportuniteitswerkgebied. |
+| `forecastCategoryName` | Naam van voorspelde categorie | Naam van opportunity-prognoscategorie | String | Naam van de voorspelde categorie die wordt weergegeven in rapporten voor een bepaalde categorie. |
+| `isClosed` | Gesloten vlag | Opportunity gesloten | String | Markering die aangeeft of de opportuniteit is gesloten. |
+| `isWon` | Won-markering | Opportunity gewonnen | String | Markering die aangeeft of de opportuniteit wordt gewonnen. |
+| `lastActivityDate` | Laatste activiteitendatum | Laatste activiteitendatum | String | Datum van laatste activiteit voor de opportuniteit. |
+| `leadSource` | Leadbron | Loodbron | String | Source van de mogelijkheid, zoals Advertisement, Partner of Web. |
+| `nextStep` | Volgende stap | Volgende stap opportunity | String | Beschrijving van de volgende taak om de kans te sluiten. |
+| `opportunityAmount.amount` | Aantal kansen | Totaal opportuniteitsbedrag | String | Geraamd totaal verkoopbedrag voor de opportuniteit. |
+| `opportunityDescription` | Beschrijving van opportunity | Opportuniteitsbeschrijving | String | Aanvullende informatie om de mogelijkheid te beschrijven, zoals mogelijke producten om bij de klant te verkopen of aankopen in het verleden te doen. |
+| `opportunityName` | Naam opportunity | Naam opportunity | String | Onderwerp of beschrijvende naam, zoals de verwachte orde of bedrijfsnaam, voor de kans. |
+| `opportunityQuantity` | Aantal kansen | Aantal kansen | String | Totaal van alle veldwaarden voor de hoeveelheid van alle producten in de lijst van verwante producten voor de gelegenheid. |
+| `opportunityStage` | Opportunity Stage | Opportunity-fase | String | De verkoopfase van de mogelijkheid om het verkoopteam te helpen bij hun pogingen om het te winnen. |
+| `opportunityType` | Type opportunity | Type opportunity | String | Het type dat aan de kans wordt toegewezen, zoals _Bestaande Zaken _ of _Nieuwe Zaken_ |
+| `probabilityPercentage` | Percentage waarschijnlijkheid | Percentage opportunity-waarschijnlijkheid | String | Waarschijnlijkheid van het sluiten van de mogelijkheid, uitgedrukt als een percentage. |

@@ -1,12 +1,13 @@
 ---
 title: Accountlijsten
 description: Meer informatie over accountlijsten en hoe markeertekens deze kunnen gebruiken om accounts te activeren via accountreizen.
-exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-hidefromtoc: true
 hide: true
-source-git-commit: 44a3bb6d986726dbbd9d2854e4fce321eac56824
+hidefromtoc: true
+badgeBeta: label="Beta" type="informative" tooltip="Deze functie bevindt zich momenteel in een beperkte bètaversie"
+exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
+source-git-commit: ed75e0c9b0391c31034a1143ef58c20673eac328
 workflow-type: tm+mt
-source-wordcount: '1523'
+source-wordcount: '1533'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 0%
 Een accountlijst is een verzameling benoemde accounts die Marktdeelnemers kunnen gebruiken voor een doelgerichte reisorganisatie. Een accountlijst kan zich richten op benoemde accounts op basis van uw gedefinieerde criteria, zoals de branche, locatie of grootte van het bedrijf. Er zijn twee typen accountlijsten:
 
 * **Statisch** - met een statische rekeningslijst, verandert de lijst slechts wanneer u de rekeningen toevoegt. U kunt handmatig accounts toevoegen door een filterset toe te passen om de lijst te vullen op basis van de huidige accountgegevens, of door een accountreis toe te voegen en te verwijderen.
-* **Dynamisch** - met een dynamische rekeningslijst, bepaalt u een filter dat voor automatisch het leiden van de lijst wordt geplaatst. Het systeem gebruikt deze filterset om accounts toe te voegen en te verwijderen op basis van wijzigingen in de accountgegevens. Dit lijstbeheer is gelijkaardig aan [ publiekssegmentatie in Real-time Customer Data Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b).
+* **Dynamisch** - met een dynamische rekeningslijst, bepaalt u een filter dat voor automatisch het leiden van de lijst wordt geplaatst. Het systeem gebruikt deze filterset om accounts toe te voegen en te verwijderen op basis van wijzigingen in de accountgegevens. Dit lijstbeheer is gelijkaardig aan [ publiekssegmentatie in het Platform van Gegevens van de Klant in real time ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b).
 
 Wanneer een rekeningslijst in a _Levende_ (gepubliceerde) staat is, is het beschikbaar voor gebruik in rekeningsreizen.
 
@@ -140,7 +141,7 @@ Nadat u een dynamische rekeningslijst creeert, bepaalt u de filterreeks die word
 
 >[!ENDTABS]
 
-## Publish een accountlijst
+## Een accountlijst publiceren
 
 U kunt een accountlijst publiceren zodra de filterset is voltooid.
 
@@ -150,7 +151,7 @@ U kunt een accountlijst publiceren zodra de filterset is voltooid.
 
 1. Klik op **[!UICONTROL Publish]** rechtsboven.
 
-   ![ klik Publish bij het hoogste recht ](./assets/account-lists-static-publish.png){width="700" zoomable="yes"}
+   ![ klik publiceren bij het hoogste recht ](./assets/account-lists-static-publish.png){width="700" zoomable="yes"}
 
 1. Klik in het dialoogvenster _[!UICONTROL Publish static account list]_op **[!UICONTROL Publish]**om te bevestigen.
 
@@ -164,7 +165,7 @@ U kunt doorgaan met het publiceren van een dynamische accountlijst zodra de filt
 
 1. Klik op **[!UICONTROL Publish]** rechtsboven.
 
-   ![ klik Publish bij het hoogste recht ](./assets/account-lists-dynamic-publish.png){width="700" zoomable="yes"}
+   ![ klik publiceren bij het hoogste recht ](./assets/account-lists-dynamic-publish.png){width="700" zoomable="yes"}
 
 1. Klik in het dialoogvenster _[!UICONTROL Publish dynamic account list]_op **[!UICONTROL Publish]**om te bevestigen.
 
