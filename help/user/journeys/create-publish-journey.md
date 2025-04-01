@@ -2,9 +2,10 @@
 title: Een accountreis maken en publiceren
 description: Leer hoe u accountreizen maakt en publiceert.
 feature: Account Journeys
-source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
+exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
+source-git-commit: 40043b0cae1be64cffedbc65da2d2b091186a310
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '736'
 ht-degree: 0%
 
 ---
@@ -109,7 +110,7 @@ Wanneer u een reis publiceert, kan het onmiddellijk of op een geplande toekomsti
 
 ## Een accountreis publiceren
 
-Als de accountreis vrij is van fouten, kunt u deze publiceren.
+U kunt een reis publiceren als er geen blocker fouten zijn. Wanneer gepubliceerd, verandert de reisstatus in _Levend_. Als de rit fouten bevat, wordt de knop _[!UICONTROL Publish]_grijs weergegeven met de inhoudsgegevens: `Resolve errors before publishing` .
 
 1. Klik in de rechterbovenhoek van het reisoverzicht op **[!UICONTROL Publish]** .
 

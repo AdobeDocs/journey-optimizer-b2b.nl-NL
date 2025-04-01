@@ -2,9 +2,9 @@
 title: Aanvullende informatie
 description: Nieuwste aanvullende informatie voor de B2B-editie van Adobe Journey Optimizer
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 943dd70a732f8dbcee5c5031c1bc3b15966d66f1
+source-git-commit: 60bda27f2d7b6bb5b8dd07ec26e0b608b8858318
 workflow-type: tm+mt
-source-wordcount: '1597'
+source-wordcount: '1646'
 ht-degree: 4%
 
 ---
@@ -27,9 +27,8 @@ Deze release bevat de volgende nieuwe mogelijkheden en verbeteringen:
 | ---- | ---- | ----------- |
 | Nieuwe functie | Aanpasbare velden - inhoudsfragmenten | Als ontwerper van een inhoudsfragment kunt u een parameter voor een component in het fragment toewijzen als bewerkbaar. Hierdoor kan de auteur van een e-mail of sjabloon een aangepaste veldwaarde opgeven die specifiek is voor zijn of haar behoeften. Deze aanpassingsvlag is beperkt tot beeld, tekst, en knoop visuele componenten. <a href="../content/fragment-authoring.md#enable-custom-fields">Meer informatie</a> |
 | Nieuwe functie | B2B ingebouwde rollen en producttoestemmingen | Experience Platform bevat nu een set ingebouwde (standaard)rollen die u kunt gebruiken om de toegang tot de B2B-productmogelijkheden te beheren. <a href="../admin/user-management.md#b2b-built-in-roles">Meer informatie</a> <br/> de Beheerders kunnen douanerollen in Adobe Experience Platform nu bepalen om het producttoestemmingen van Journey Optimizer B2B edition te omvatten.  <a href="../admin/user-management.md#b2b-product-permissions">Meer informatie</a> |
+| Nieuwe functie | Reisduplicatietypen | Wanneer u een accountreis dupliceert, kunt u knooppuntgegevens opnemen, exclusief e-mails en SMS-berichten die in Journey Optimizer B2B edition zijn gemaakt. Als alternatief kunt u een skelet-kopie maken van de structuur en padstromen, zonder knoopdetails en instellingen. <a href="../journeys/journey-overview.md#duplicate-journey">Meer informatie</a> |
 | Verbetering | Vier extra e-mailvoorbeeldsjablonen | De voorbeeldsjabloonbibliotheek voor e-mailsjablonen bevat nu vier SecureFinacial-sjablonen als voorbeelden voor het opnieuw toewijzen, informeren, voeden en feedback geven van inhoudsvoorbeelden |
-
-
 
 ## Opmerkingen bij de release 2025.1 {#Jan-2025}
 
