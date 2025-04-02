@@ -3,9 +3,9 @@ title: Rolsjablonen voor inkoopgroep
 description: Meer informatie over het definiëren van een rolsjabloon die moet worden gebruikt als onderdeel van een inkoopgroep.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 3ce0b2722e56ef46b84a55f097cd1e8a9d39ceb5
+source-git-commit: 745b88044c4194f08033b7bb3f79106ca206ae61
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Elke rol die u voor het malplaatje bepaalt gebruikt een reeks filters, of _voorw
 | Type | Voorwaarde |
 | ---- | --------- |
 | Persoonskenmerken | <li>E-mailadres <li>E-mail is ongeldig <li>E-mail is geschorst <li>Fax <li>Voornaam <li>Overgenomen deelstaatgebied <li>Functie <li>Achternaam <li>Tweede voornaam <li>Mobiel telefoonnummer <li>Telefoonnummer <li>Postcode <li>Staat <li>Niet geabonneerd <li>Reden waarop geen abonnement is genomen |
-| Speciale filters | <li>Lid van de lijst |
+| Speciale filters | <li>Lid van de lijst <li>Lid van het programma |
 | Intentgegevens | Categorie-intentie <li>Productintentie <li>De intentie van het sleutelwoord <br/>[ leert over intentgegevens ](../admin/intent-data.md). |
 
 1. Voor de eerste rolkaart, bepaal de roleigenschappen.
@@ -95,7 +95,7 @@ Elke rol die u voor het malplaatje bepaalt gebruikt een reeks filters, of _voorw
 
      >[!NOTE]
      >
-     >Als u aangepaste persoonvelden hebt gedefinieerd in het accountpublieksschema in het Experience Platform, zijn deze velden ook beschikbaar voor gebruik als persoonkenmerken onder bepaalde omstandigheden.
+     >Als u aangepaste persoonvelden hebt gedefinieerd in het accountpublieksschema in Experience Platform, zijn deze velden ook beschikbaar voor gebruik als persoonkenmerken in voorwaarden.
 
    * Gebruik het kenmerk om een overeenkomend filter te maken met een of meer waarden.
 
@@ -111,19 +111,19 @@ Elke rol die u voor het malplaatje bepaalt gebruikt een reeks filters, of _voorw
 
    ![ het malplaatje van Rollen met veelvoudige bepaalde rollen ](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
->[!BEGINSHADEBOX  het &quot;lidmaatschap van de lijst van Marketo&#39;s Engage&quot;]
+>[!BEGINSHADEBOX  &quot;Marketo Engage list membership&quot;]
 
-In Marketo Engage, _Slimme Campagnes_ controlelidmaatschap van programma&#39;s om ervoor te zorgen dat de leads geen dubbele e-mail ontvangen en geen leden van veelvoudige stromen van e-mails tezelfdertijd zijn. In Journey Optimizer B2B kunt u controleren op lidmaatschap van een lijst met Marketo&#39;s Engage als voorwaarde voor uw rolsjabloon om te helpen bij het voorkomen van dubbele aanschaf van groepslidmaatschap en reisactiviteiten.
+In Marketo Engage, _Slimme Campagnes_ controlelidmaatschap van programma&#39;s om ervoor te zorgen dat de leads geen dubbele e-mail ontvangen en niet leden van veelvoudige stromen van e-mails tezelfdertijd zijn. In Journey Optimizer B2B kunt u controleren op lidmaatschap van een Marketo Engage-lijst als voorwaarde voor uw rolsjabloon om te voorkomen dat er dubbel werk wordt gedaan bij het kopen van groepslidmaatschap en reisactiviteiten.
 
-Vouw **[!UICONTROL Special Filters]** uit en sleep de voorwaarde **[!UICONTROL Member of List]** naar de filterruimte als u een lijstlidmaatschap als rolvoorwaarde wilt gebruiken. Voltooi vervolgens de filterdefinitie om het lidmaatschap in een of meer lijsten met Marketo&#39;s Engage te evalueren.
+Vouw **[!UICONTROL Special Filters]** uit en sleep de voorwaarde **[!UICONTROL Member of List]** naar de filterruimte als u een lijstlidmaatschap als rolvoorwaarde wilt gebruiken. Voer vervolgens de filterdefinitie in om het lidmaatschap in een of meer Marketo Engage-lijsten te evalueren.
 
-![ het malplaatjevoorwaarde van Rollen voor het lidmaatschap van de lijst van Marketo&#39;s Engage ](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
+![ het malplaatjevoorwaarde van Rollen voor het lijstlidmaatschap van Marketo Engage ](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
 
 >[!ENDSHADEBOX]
 
 Uw veranderingen worden auto-bewaard in de _status van het Ontwerp_. Als u niet bereid bent om het rolmalplaatje te publiceren, klik de linker (rug) pijl bij de bovenkant van de pagina en terugkeer aan de _[!UICONTROL Roles templates]_lijst.
 
-### Publish de rolmalplaatje
+### Rollensjabloon publiceren
 
 Als de sjabloon gereed is voor gebruik, klikt u op **[!UICONTROL Publish]** rechtsboven.
 
