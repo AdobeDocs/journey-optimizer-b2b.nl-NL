@@ -1,19 +1,19 @@
 ---
 title: AI-assistent gebruiken
-description: Leer hoe AI Assistant u kan helpen optimaal te profiteren van de Journey Optimizer B2B Edition-mogelijkheden.
+description: Leer hoe AI Assistant u kan helpen optimaal te profiteren van de Journey Optimizer B2B edition-mogelijkheden.
 feature: AI Assistant
 level: Beginner
-badgeBeta: label="Beta" type="informative" tooltip="Beta-functie"
-source-git-commit: 3d20c8e8b9e5b8bc37274fc170edec80e142ad8e
+exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
+source-git-commit: e3ae3508db551cbd495be3108d555b936e2982a3
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
 
 # AI-assistent gebruiken
 
-In de Uitgave van Journey Optimizer B2B, is AI Medewerker een gebruikersinterfaceeigenschap die u kunt gebruiken om op rekening-gebaseerde marketing concepten te begrijpen en snel over de eigenschappen van de Uitgave van Journey Optimizer B2B te navigeren en te leren <!-- get operational insights for your specific environment -->. Het is ook verkrijgbaar in verschillende producten in Adobe Experience Cloud.
+In Journey Optimizer B2B edition, is AI Medewerker een gebruikersinterfaceeigenschap die u kunt gebruiken om op rekening-gebaseerde marketing concepten te begrijpen en snel over de eigenschappen van Journey Optimizer B2B edition te navigeren en te leren <!-- get operational insights for your specific environment -->. Het is ook verkrijgbaar in verschillende producten in Adobe Experience Cloud.
 
 U opent de AI-assistent door op het pictogram in de koptekst te klikken. AI Assistant wordt in een deelvenster aan de rechterkant geopend.
 
@@ -23,11 +23,11 @@ U opent de AI-assistent door op het pictogram in de koptekst te klikken. AI Assi
 >
 >U moet akkoord gaan met de Adobe Experience Cloud Generative AI-gebruikersrichtlijnen voordat u de AI Assistant kunt gebruiken. Voor meer informatie over deze overeenkomst en gebruiksrichtlijnen, zie de [ Generatieve AI Richtlijnen van de Gebruiker van Adobe Experience Cloud ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
 
-In Adobe Journey Optimizer B2B Edition biedt AI Assistant ondersteuning voor de volgende gebruiksgevallen:
+In Adobe Journey Optimizer B2B edition biedt AI Assistant ondersteuning voor de volgende gebruiksgevallen:
 
 * **de kennis van het Product** (Beta)
 
-  Vragen over productkennis hebben betrekking op Journey Optimizer B2B Edition-concepten die betrekking hebben op aspecten van Adobe Journey Optimizer. Enkele voorbeelden van productkennisvragen zijn:
+  Productkennisvragen gaan over Journey Optimizer B2B edition-concepten met betrekking tot aspecten van Adobe Journey Optimizer. Enkele voorbeelden van productkennisvragen zijn:
 
    * Hoe kan ik SMS-leveranciersaccounts instellen?
    * Hoe verstuur ik een e-mail in een rekeningreis?
