@@ -1,16 +1,16 @@
 ---
 title: Inhoud ontwerpen - koppelingen bijhouden
 description: Doorgevoerde sectie over het bewerken van de koppeling bijhouden voor het ontwerpen van inhoud
-source-git-commit: 40043b0cae1be64cffedbc65da2d2b091186a310
+source-git-commit: e201d0b54309411d024a1b04c3bf7e67d4700aa9
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '67'
 ht-degree: 0%
 
 ---
 
 # Inhoud ontwerpen - koppelingen bijhouden
 
-1. Klik op het pictogram _[!UICONTROL Links]_aan de linkerkant om alle URL&#39;s weer te geven van de inhoud die u wilt bijhouden.
+1. Klik het _[!UICONTROL Links]_pictogram ( ![ toon het verbindingspictogram ](../assets/do-not-localize/icon-links.svg)) op de linkerzijde om alle verbonden URLs in uw te volgen inhoud te tonen.
 
 1. Indien nodig, klik _uitgeven_ ( ![ geef pictogram ](../user/assets/do-not-localize/icon-edit.svg) uit) pictogram en wijzig **[!UICONTROL Tracking Type]** of **[!UICONTROL Label]**.
 

@@ -3,9 +3,9 @@ title: E-mailontwerp
 description: Leer hoe u persoonlijke e-mailinhoud kunt maken die wordt gebruikt in een accountreis.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
+source-git-commit: 797d049cc5aefe710a39a980107f63e75cae12d2
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1220'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ Nadat u de e-mailinhoud hebt gemaakt en aangepast, kunt u de inhoud exporteren v
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_landing_page"
->title="Informatie over inhoudscomponenten"
+>title="Informatie over contentonderdelen"
 >abstract="Inhoudscomponenten zijn lege plaatsaanduidingen voor inhoud die u kunt gebruiken om de lay-out van een bestemmingspagina te maken."
 
 Gebruik de visuele inhoudeditor om de structuur van de e-mailinhoud te definiëren. Door structurele componenten toe te voegen en te bewegen met eenvoudige belemmering-en-dalingsacties, kunt u de vorm van de herbruikbare e-mailinhoud binnen seconden ontwerpen.
@@ -122,7 +122,7 @@ U kunt de geïmporteerde inhoud naar wens aanpassen met de gereedschappen in de 
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_email"
->title="Informatie over inhoudscomponenten"
+>title="Informatie over contentonderdelen"
 >abstract="Inhoudscomponenten zijn lege plaatsaanduidingen voor inhoud die u kunt gebruiken om de lay-out van een e-mail te maken."
 
 {{$include /help/_includes/content-design-components.md}}
@@ -144,6 +144,10 @@ Nadat het e-mailbericht is opgeslagen, wordt het weergegeven op de pagina met fr
 ### Inhoud personaliseren
 
 {{$include /help/_includes/content-design-personalization.md}}
+
+>[!NOTE]
+>
+>Als _[!UICONTROL My Tokens]_is gedefinieerd voor de accountreis, kunt u deze reisspecifieke tokens ook gebruiken voor uw e-mailinhoud. Zie [ de tokens van de Douane voor e-mailverpersoonlijking ](./personalization-my-tokens.md) voor meer informatie.
 
 ### Gekoppelde URL-tracking bewerken
 

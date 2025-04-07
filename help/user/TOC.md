@@ -1,9 +1,9 @@
 ---
 user-guide-title: Documentatie voor de B2B-editie van Journey Optimizer
 user-guide-description: Meer informatie over de B2B-editie van Adobe Journey Optimizer en hoe u deze kunt gebruiken om account- en inkoopgroeptrajecten te orkestreren met behulp van ingebouwde generatieve AI en toonaangevende automatisering.
-source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
+source-git-commit: 797d049cc5aefe710a39a980107f63e75cae12d2
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '240'
 ht-degree: 20%
 
 ---
@@ -36,6 +36,7 @@ ht-degree: 20%
       + [AI Assistant voor het schrijven van e-mail](./content/ai-assistant-emails.md)
       + [Beheerde sjablonen](./content/email-authoring-governance.md)
       + [E-mail met verkoopwaarschuwing](./content/sales-alert-email.md)
+   + [Aangepaste personalisatie-tokens](./content/personalization-my-tokens.md)
    + [SMS-authoring](./content/sms-authoring.md)
 + Accounts {#accounts}
    + [Soorten publiek](./audiences/account-audience-overview.md)
@@ -64,11 +65,15 @@ ht-degree: 20%
       + E-mailsjablonen {#email-templates}
          + [Overzicht](./content/email-templates.md)
          + [E-mailsjabloonontwerp](./content/email-template-authoring.md)
-      + [Sjablonen voor bestemmingspagina](./content/landing-page-templates.md)
+      + Sjablonen voor bestemmingspagina {#landing-page-templates}
+         + [Overzicht](./content/landing-page-templates.md)
+         + [Sjabloonontwerp bestemmingspagina](./content/landing-page-template-design.md)
    + Fragmenten {#visual-fragments}
       + [Overzicht](./content/fragments.md)
       + [Fragmentauthoring](./content/fragment-authoring.md)
-   + [Forms](./content/forms.md)
+   + Forms {#forms}
+      + [Overzicht](./content/forms.md)
+      + [Formulierontwerp](./content/form-design.md)
    + Openingspagina&#39;s {#landing-pages}
       + [Overzicht](./content/landing-pages.md)
       + [Ontwerp bestemmingspagina](./content/landing-page-design.md)

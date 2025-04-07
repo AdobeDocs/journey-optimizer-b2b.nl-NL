@@ -3,9 +3,9 @@ title: SMS Authoring
 description: Leer hoe u SMS-berichten naar uw klanten op hun mobiele apparaten kunt verzenden en hoe u berichten in tekstindeling kunt personaliseren en voorvertonen vanuit de SMS-editor.
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: c3352db2235af08e31ba7e4d8690bc9e330dd41f
+source-git-commit: d2ce1685bd8185f418cd28e37dc11d539e765ad9
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: '1309'
 ht-degree: 0%
 
 ---
@@ -78,20 +78,20 @@ U kunt een bericht van maximaal 1600 karakters tot stand brengen, met elke 160 k
 
 1. Kies in het dialoogvenster het type URL&#39;s dat u wilt koppelen:
 
-   * **[!UICONTROL Landing Page]** - Kies deze optie als u een van de goedgekeurde Adobe Marketo Engage Design Studio-bestemmingspagina&#39;s van uw Marketo Engage wilt selecteren. Selecteer de werkruimte en selecteer vervolgens de bestemmingspagina.
+   * **[!UICONTROL Landing Page]** - Kies deze optie om een van de goedgekeurde Adobe Marketo Engage-bestemmingspagina&#39;s te selecteren in uw Marketo Engage-exemplaar. Selecteer de werkruimte en selecteer vervolgens de bestemmingspagina.
 
    * **[!UICONTROL External URL]** - Dit type is een externe URL die u in het tekstvak invoert.
 
 1. Als u een openingspagina wilt gebruiken, stelt u de volgende opties in.
 
-   * **[!UICONTROL Enable tracking]** - selecteer dit checkbox om het volgen toe te laten, die _het verkorten_ URL vereist. Voor een landingspagina wordt het subdomein Marketo Engage gebruikt voor de verkorte URL. Er wordt een voorbeeld van de verkorte URL-indeling weergegeven. De daadwerkelijke URL wordt gecreeerd wanneer SMS wordt verzonden naar de ontvanger.
+   * **[!UICONTROL Enable tracking]** - selecteer dit checkbox om het volgen toe te laten, die _het verkorten_ URL vereist. Voor een landingspagina wordt het Marketo Engage-subdomein gebruikt voor de verkorte URL. Er wordt een voorbeeld van de verkorte URL-indeling weergegeven. De daadwerkelijke URL wordt gecreeerd wanneer SMS wordt verzonden naar de ontvanger.
 
    * **[!UICONTROL Include mkt_tok]** - Schakel dit selectievakje in om de activiteit van een gebruiker bij te houden.
 
      >[!NOTE]
      >
      >Wanneer u tekstspatiëring toestaat maar _[!UICONTROL Include mkt_tok]_uitschakelt, bevat de doel-URL na omleiding niet de parameter voor de `mkt_tok` querytekenreeks. Deze parameter wordt gebruikt door Marketo Engage landingspagina&#39;s en Munchkin om ervoor te zorgen dat het volgen van persoonactiviteiten (zoals wanneer een persoon van een e-mail afmeldt). Schakel deze optie alleen uit als de parameter problemen veroorzaakt op uw website.<br/>
-     >Voor meer informatie over het gebruiken van Munchkin die codes volgen op uw website, verwijs naar de [ documentatie van het Marketo Engage ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website) {target="_blank"}.
+     >Voor meer informatie over het gebruiken van het volgen van Munchkin codes op uw website, verwijs naar de [ documentatie van Marketo Engage ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website) {target="_blank"}.
 
    ![ voeg verbindingsdialoog voor SMS bericht toe ](./assets/sms-add-link-dialog.png){width="470"}
 
@@ -116,7 +116,7 @@ U kunt een bericht van maximaal 1600 karakters tot stand brengen, met elke 160 k
 
    ![ neem een actie - verzend sms ](./assets/sms-properties.png){width="700" zoomable="yes"}
 
-   Het nummer van de ontvanger wordt altijd toegewezen aan het veld `Lead.mobilePhone` in het Marketo Engage.
+   Het nummer van de ontvanger wordt altijd toegewezen aan het veld `Lead.mobilePhone` in Marketo Engage.
 
 ### Inhoud van tekstberichten simuleren {#preview-test}
 
@@ -137,7 +137,7 @@ Wanneer de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken
 
 1. Gebruik de _Simulate Inhoud_ pagina om de lood te beheren die voor uw testprofiel worden gebruikt.
 
-   In de getoonde lijst, kunt u naar om het even welke lood zoeken en toevoegen (tot 10 lood tegelijk) van het Marketo Engage loodgegevensbestand.
+   In de weergegeven lijst kunt u de leads (maximaal 10 leads tegelijk) zoeken en toevoegen vanuit de Marketo Engage lead-database.
 
    Om te zoeken, ga het volledige e-mailadres in en het drukken _gaat_ binnen. Het bijbehorende hoofdprofiel wordt weergegeven voor selectie.
 

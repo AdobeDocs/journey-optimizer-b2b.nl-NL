@@ -2,31 +2,30 @@
 title: Landingspagina's
 description: Leer meer over landingspagina's en hoe u deze kunt maken en beheren om reizen en campagnes voor uw account te ondersteunen.
 feature: Content
-hide: true
-hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Deze functie bevindt zich momenteel in een beperkte bètaversie"
-source-git-commit: 31b7ea99d3b5721a2c78aa6aae6bf9da98e10f53
+exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
+source-git-commit: d2ce1685bd8185f418cd28e37dc11d539e765ad9
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '2076'
 ht-degree: 0%
 
 ---
 
 # Openingspagina&#39;s
 
-Een openingspagina is een zelfstandige webpagina waarop u contactpersonen en klanten kunt sturen nadat ze op een gekoppeld item in een e-mail, SMS-bericht of een digitale locatie hebben geklikt. U kunt deze pagina&#39;s opnemen in uw accountreizen om uw vooruitzichten en klanten te laten zien hoe uw berichten op het web worden weergegeven en hoe het werk van uw account wordt voortgezet. U kunt landingspagina&#39;s maken, personaliseren en voorvertonen in de Designer Landing Pages.
+Een openingspagina is een zelfstandige webpagina waarop u contactpersonen en klanten kunt sturen nadat ze op een gekoppeld item in een e-mail, SMS-bericht of een digitale locatie hebben geklikt. U kunt deze pagina&#39;s opnemen in uw accountreizen om uw vooruitzichten en klanten te laten zien hoe uw berichten op het web worden weergegeven en hoe het werk van uw account wordt voortgezet. U kunt bestemmingspagina&#39;s in de visuele ontwerpruimte van de bestemmingspagina tot stand brengen, personaliseren en voorproef.
 
 Als u uw klanten wilt doorverwijzen naar een gedefinieerde webpagina wanneer ze op een specifieke koppeling klikken, maakt u een bestemmingspagina in Journey Optimizer B2B edition.
 
 * De pagina maken
 * De openingspagina en de inhoud van de auteur ontwerpen
 * De pagina testen
-* De pagina Publish
+* De pagina publiceren
 * Koppeling maken naar de pagina vanuit uw reisinhoud
 
 U kunt bijvoorbeeld bestemmingspagina&#39;s maken en ontwerpen om uw gebruikers naar online informatie te leiden. De pagina kan een formulier bevatten waarin ze zich kunnen aanmelden of weigeren uw communicatie te ontvangen. Of het zou een kans kunnen zijn om op terugkomende mededelingen, zoals een nieuwsbrief in te tekenen.
 
-U kunt landingspagina&#39;s in de visuele ontwerper maken, personaliseren en voorvertonen.
+U kunt bestemmingspagina&#39;s in de visuele ontwerpruimte maken, personaliseren en voorvertonen.
 <!-- 
 For the Beta phase, you can only design landing pages from scratch and publish your landing pages. The landing pages will be served on adobe hosted domain for the Beta phase. The capability to define your branded domains for hosting will be delivered in a future release. -->
 
@@ -58,9 +57,9 @@ De status van de bestemmingspagina bepaalt de beschikbaarheid voor het verbinden
 
 | Status | Beschrijving |
 | -------------------- | ----------- |
-| Concept | Wanneer u een openingspagina maakt, bevindt deze zich in de conceptstatus. Deze status blijft behouden wanneer u de visuele inhoud definieert of bewerkt en totdat u deze publiceert als een gehoste pagina. Beschikbare handelingen: <br/><ul><li>Naam of beschrijving bewerken<li>Koppelings-URL bewerken<li>Bewerken in visuele ontwerper<li>Publish<li>Dupliceren<li>Verwijderen |
+| Concept | Wanneer u een openingspagina maakt, bevindt deze zich in de conceptstatus. Deze status blijft behouden wanneer u de visuele inhoud definieert of bewerkt en totdat u deze publiceert als een gehoste pagina. Beschikbare handelingen: <br/><ul><li>Naam of beschrijving bewerken<li>Koppelings-URL bewerken<li>Bewerken in visuele ontwerpruimte<li>Publiceren<li>Dupliceren<li>Verwijderen |
 | Gepubliceerd | Wanneer u een landingspagina publiceert, wordt deze gehost op het Journey Optimizer B2B edition-exemplaar en kan deze worden gekoppeld in een e-mail- of SMS-bericht-inhoud. Beschikbare handelingen: <br/><ul><li>Naam of beschrijving bewerken<li>Koppelings-URL bewerken<li>Koppeling toevoegen in inhoud van e-mail- of SMS-berichten<li>Conceptversie maken<li>Dupliceren<li>Verwijderen |
-| Gepubliceerd met concept | Wanneer u een concept maakt op basis van een gepubliceerde bestemmingspagina, blijft de gepubliceerde versie behouden en kan de conceptinhoud worden gewijzigd in de visuele ontwerper. Als u de conceptversie publiceert, vervangt deze de huidige gepubliceerde versie en wordt de inhoud bijgewerkt op de gehoste pagina. Beschikbare handelingen: <br/><ul><li>Naam of beschrijving bewerken<li>Koppelings-URL bewerken<li>Koppeling toevoegen in inhoud van e-mail- of SMS-berichten<li>Conceptenversie bewerken in visuele ontwerper<li>Publish-conceptversie<li>Dupliceren<li>Verwijderen (beide versies worden verwijderd)<li>Concept verwijderen (keert terug naar gepubliceerd) |
+| Gepubliceerd met concept | Wanneer u een concept maakt van een gepubliceerde bestemmingspagina, blijft de gepubliceerde versie behouden en kan de conceptinhoud worden gewijzigd in de visuele ontwerpruimte. Als u de conceptversie publiceert, vervangt deze de huidige gepubliceerde versie en wordt de inhoud bijgewerkt op de gehoste pagina. Beschikbare handelingen: <br/><ul><li>Naam of beschrijving bewerken<li>Koppelings-URL bewerken<li>Koppeling toevoegen in inhoud van e-mail- of SMS-berichten<li>Conversie bewerken in visuele ontwerpruimte<li>Conceptversie publiceren<li>Dupliceren<li>Verwijderen (beide versies worden verwijderd)<li>Concept verwijderen (keert terug naar gepubliceerde status) |
 
 ![ het Bestaan van de pagina statuslevenscyclus ](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -76,7 +75,7 @@ U kunt een nieuwe openingspagina toevoegen in Journey Optimizer B2B edition door
 
    * Beschrijving - Maximaal 300 tekens
 
-   * Alpha, numerieke tekens en speciale tekens zijn toegestaan
+   * Alpha, numerieke en speciale tekens zijn toegestaan
 
    * Gereserveerde karakters zijn **_niet toegestaan_**: `\ / : * ? " < > |`
 
@@ -90,7 +89,7 @@ U kunt een nieuwe openingspagina toevoegen in Journey Optimizer B2B edition door
 
    ![ kies hoe u met uw het landen paginaontwerp wilt beginnen ](./assets/landing-page-create-design.png){width="800" zoomable="yes"}
 
-   Nadat u de methode selecteert die u wilt gebruiken om paginaontwerp te beginnen landen, gebruik de visuele ontwerper om [ de pagina ](./landing-page-design.md) te ontwerpen.
+   Nadat u de methode selecteert die u wilt gebruiken om paginaontwerp te beginnen te landen, gebruik de visuele ontwerpruimte om [ de pagina ](./landing-page-design.md) te ontwerpen.
 
 ### Ontwerpen vanaf nul
 
@@ -112,7 +111,7 @@ Met Adobe Journey Optimizer B2B edition kunt u bestaande HTML-inhoud importeren 
 >
 >Als u een `<table>` -tag als eerste laag in een HTML-bestand gebruikt, kan dit leiden tot stijlverlies, zoals de achtergrond- en breedte-instellingen in de bovenste laagtag.
 
-U kunt de geïmporteerde inhoud naar wens aanpassen met de visuele ontwerper.
+U kunt de geïmporteerde inhoud naar wens aanpassen met de visuele ontwerpruimte.
 
 ### Een opgeslagen sjabloon selecteren
 
@@ -142,7 +141,7 @@ Na de selectie wordt een voorbeeld van de sjabloon weergegeven. In de voorverton
 
 Wanneer de weergave overeenkomt met wat u wilt gebruiken, klikt u op **[!UICONTROL Use this template]** rechtsboven in het voorvertoningsvenster.
 
-Met deze actie kopieert u de inhoud naar de visuele ontwerper van de inhoud, waar u de inhoud desgewenst kunt bewerken.
+Met deze actie kopieert u de inhoud naar de visuele ontwerpruimte, waar u de inhoud desgewenst kunt bewerken.
 
 >[!TAB  malplaatjes van de Steekproef ]
 
@@ -177,9 +176,9 @@ Bewerkingen aan een landingspagina zijn afhankelijk van de huidige status:
 
    ![ Details voor het landen van pagina met de status van het Ontwerp ](./assets/landing-page-draft-details.png){width="700" zoomable="yes"}
 
-1. Als u de inhoud in de visuele ontwerper wilt wijzigen, klikt u op **[!UICONTROL Edit landing page]** .
+1. Klik op **[!UICONTROL Edit landing page]** om de inhoud in de visuele ontwerpruimte te wijzigen.
 
-   Gebruik de gereedschappen voor visuele ontwerpen naar wens:
+   Gebruik de gereedschappen voor visueel ontwerp naar wens:
 
    * [Structuur en inhoud toevoegen](./landing-page-design.md#add-structure-and-content)
    * [Assets toevoegen](./landing-page-design.md#add-assets)
@@ -203,11 +202,11 @@ Bewerkingen aan een landingspagina zijn afhankelijk van de huidige status:
 
 1. Als u de inhoud wilt bijwerken, klikt u op **[!UICONTROL Edit landing page]** aan de rechterkant.
 
-   Klik op **[!UICONTROL Create draft version]** in het dialoogvenster om de conceptversie te openen in de visuele ontwerper.
+   Klik op **[!UICONTROL Create draft version]** in het dialoogvenster om de conceptversie te openen in de ruimte van het visuele ontwerp.
 
    ![ creeer de dialoog van de ontwerp versie ](./assets/landing-page-create-draft-version.png){width="300"}
 
-   Gebruik de gereedschappen voor visuele ontwerpen naar wens:
+   Gebruik de gereedschappen voor visueel ontwerp naar wens:
 
    * [Structuur en inhoud toevoegen](./landing-page-design.md#add-structure-and-content)
    * [Assets toevoegen](./landing-page-design.md#add-assets)
@@ -229,7 +228,7 @@ Wanneer u de openingspagina opent, wordt de conceptversie standaard weergegeven.
 
 De inhoud bijwerken:
 
-1. Klik op **[!UICONTROL Edit landing page]** rechtsboven. Gebruik de gereedschappen voor visuele ontwerpen naar wens:
+1. Klik op **[!UICONTROL Edit landing page]** rechtsboven. Gebruik de gereedschappen voor visueel ontwerp naar wens:
 
    * [Structuur en inhoud toevoegen](./landing-page-design.md#add-structure-and-content)
    * [Assets toevoegen](./landing-page-design.md#add-assets)
@@ -259,7 +258,7 @@ Er kunnen twee soorten waarschuwingen worden gedetecteerd:
 
    * `Placeholder links are present in the landing page body`: vergeet niet de plaatsaanduidingen te vervangen door geldige koppelingen.
 
-   * `Text version of HTML is empty`: vergeet niet een tekstversie van de hoofdtekst van de pagina te definiëren die wordt gebruikt wanneer er geen HTML-inhoud kan worden weergegeven.
+   * `Text version of HTML is empty`: vergeet niet een tekstversie van de hoofdtekst van de pagina te definiëren die wordt gebruikt wanneer HTML-inhoud niet kan worden weergegeven.
 
    * `Empty link is present in page body`: controleer of alle koppelingen op de pagina correct zijn.
 
@@ -292,3 +291,33 @@ U kunt een bestemmingspagina schrappen gebruikend één van beide volgende metho
 Met deze handeling wordt een bevestigingsvenster geopend. U kunt het proces afbreken door op **[!UICONTROL Cancel]** te klikken of op **[!UICONTROL Delete]** te klikken om het verwijderen te bevestigen.
 
 ![ Schrapping het landen paginadialoog ](./assets/landing-page-delete-dialog.png){width="400"}
+
+## Koppeling maken naar een bestemmingspagina
+
+Als Marketer of Designer die e-mail, fragment en pagina-inhoud maakt, kunt u koppelingen insluiten naar de gepubliceerde (live) bestemmingspagina&#39;s die in uw Journey Optimizer B2B edition-instantie zijn gemaakt.
+
+1. Terwijl u in de visuele ontwerpruimte werkt voor een fragment, e-mail, landingspagina of sjabloon, selecteert u een fragment met tekst, een knopcomponent of een afbeeldingscomponent voor de koppeling.
+
+   De **[!UICONTROL Link]** -opties worden weergegeven in het rechterdeelvenster.
+
+1. Kies **[!UICONTROL Landing page]** bij de optie **[!UICONTROL Type]** .
+
+   ![ de opties van de Verbinding voor een het landen pagina ](/help/assets/content-design-shared/content-design-link-settings.png){width="700" zoomable="yes"}
+
+1. Voor de **[!UICONTROL Landing page]** optie, klik het _Uitgezochte pagina_ pictogram ( ![ toon het verbindingspictogram ](/help/assets/do-not-localize/icon-landing-page-select.svg)).
+
+1. Stel in het dialoogvenster bestemmingspagina selecteren de **[!UICONTROL Landing page source]** als **[!UICONTROL Journey Optimizer B2B Edition]** in, selecteer het selectievakje voor de openingspagina in de lijst met gepubliceerde pagina&#39;s en klik op **[!UICONTROL Select]** .
+
+   ![ de opties van de Verbinding voor een het landen pagina ](/help/assets/content-design-shared/content-design-link-landing-page-select.png){width="600" zoomable="yes"}
+
+1. Kies bij de optie **[!UICONTROL Target]** het gedrag van het koppelingsdoel:
+
+   * **[!UICONTROL None]** - Hiermee opent u de koppeling met het standaardgedrag van de browser.
+   * **[!UICONTROL Blank]** - Hiermee opent u de koppeling in een nieuw venster of op een nieuw tabblad.
+   * **[!UICONTROL Self]** - hiermee wordt de koppeling in hetzelfde frame geopend.
+   * **[!UICONTROL Parent]** - hiermee opent u de koppeling in het bovenliggende frame.
+   * **[!UICONTROL Top]** - Hiermee opent u de koppeling in de volledige tekst van het venster.
+
+1. (Alleen tekstkoppeling) Schakel het selectievakje **[!UICONTROL Underline link]** in als u de gekoppelde tekst wilt onderstrepen.
+
+   U kunt aanvullende opmaak instellen voor de koppelingstekst, inclusief de kleur van de koppeling, door de tab **[!UICONTROL Styles]** in het rechterdeelvenster te selecteren.

@@ -2,9 +2,9 @@
 title: Aanvullende informatie
 description: Nieuwste aanvullende informatie voor de B2B-editie van Adobe Journey Optimizer
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 60bda27f2d7b6bb5b8dd07ec26e0b608b8858318
+source-git-commit: dd93531d76ecb025451f0015eedd9ccce0986cb8
 workflow-type: tm+mt
-source-wordcount: '1646'
+source-wordcount: '1812'
 ht-degree: 4%
 
 ---
@@ -16,6 +16,19 @@ Adobe Journey Optimizer B2B edition biedt voortdurend nieuwe functies, verbeteri
 Journey Optimizer B2B edition is native gebaseerd op [!DNL Adobe Experience Platform] en erft van de nieuwste innovaties en verbeteringen. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest) {target="_blank"}.
 
 Herzie de [ productbeschrijving ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html) {target="_blank"} voor informatie over rechten, prestatiegaranties, en beperkingen.
+
+## Opmerkingen bij de release 2025.3
+
+**de datum van de Versie**: 1 April, 2025
+
+Deze release bevat de volgende nieuwe mogelijkheden en verbeteringen:
+
+| Type | Item | Beschrijving |
+| ---- | ---- | ----------- |
+| Nieuwe functie | Accountlijsten | U kunt nu een statische of dynamische accountlijst maken om benoemde accounts als doel in te stellen op basis van uw gedefinieerde criteria, zoals de industrie, locatie of grootte van het bedrijf. <a href="../accounts/account-lists.md">Meer informatie</a> |
+| Nieuwe functie | Mijn tokens voor reizen voor rekening | U kunt nu een set aangepaste tokens definiëren met waarden die specifiek zijn voor de accountreis. Deze reeks douanetokens wordt genoemd _Mijn Tokens_ en om het even welk van deze douanetokens zijn voor verpersoonlijking wanneer het ontwerpen van reis e-mails. |
+| Nieuwe functie | Groepsfasen voor kopen verwijderen | U kunt het model voor de inkoopgroepfasen verwijderen wanneer dit zich in een concept of een gepubliceerde status bevindt. Als het (levend) wordt gepubliceerd, kunt u het schrappen slechts wanneer het niet met een oplossingsbelang wordt geassocieerd. <a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">Meer informatie</a> |
+| Verbetering | Aantal wegknooppunten | Verbeterde zichtbaarheid in het aantal deelnemers aan de reis op knooppuntniveau. Gebruik deze informatie om de voortgang van de account tijdens een reis te valideren. |
 
 ## Opmerkingen bij de release 2025.2
 

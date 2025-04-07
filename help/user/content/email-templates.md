@@ -3,9 +3,9 @@ title: E-mailsjablonen
 description: Leer hoe u e-mailsjablonen beheert en maakt die worden gebruikt om gemakkelijk en efficiënt e-mails over een accountreis te maken.
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 81c2f7be29e3fdb0b279a2ec8b786e4cf68596da
+source-git-commit: 97d8e5b366e8786e517c18828236f95304f3f3be
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '1269'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Als u naar een sjabloon op naam wilt zoeken, voert u een tekstreeks in de zoekba
 
 ![ heb toegang tot de bibliotheek en de filter van e-mailmalplaatjes door naam en data ](./assets/templates-list-search-filter.png){width="700" zoomable="yes"}
 
-Pas de kolommen aan die u in de lijst wilt tonen door _te klikken aanpassen lijst_ pictogram op het hoogste recht. Selecteer de kolommen die u wilt weergeven en klik op **[!UICONTROL Apply]** .
+Pas de kolommen aan die u in de lijst wilt tonen door _te klikken aanpassen lijst_ pictogram ( ![ aanpassen lijstpictogram ](../assets/do-not-localize/icon-column-settings.svg)) bij het hoogste recht. Selecteer de kolommen die u wilt weergeven en klik op **[!UICONTROL Apply]** .
 
 Vanuit de weergegeven lijst met sjablonen kunt u de in de volgende secties beschreven handelingen uitvoeren.
 

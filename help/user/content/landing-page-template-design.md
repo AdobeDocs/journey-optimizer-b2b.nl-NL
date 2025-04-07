@@ -1,31 +1,30 @@
 ---
-title: Ontwerp bestemmingspagina
-description: Leer hoe u inhoud ontwerpt en ontwerpt voor uw landingspagina's die reizen en campagnes van accounts ondersteunen.
+title: Sjabloonontwerp bestemmingspagina
+description: Leer hoe u inhoud ontwerpt en ontwerpt voor het plaatsen van paginasjablonen die Marktdeelnemers opnieuw kunnen gebruiken om bestemmingspagina's te maken.
 feature: Content
 badgeBeta: label="Beta" type="informative" tooltip="Deze functie bevindt zich momenteel in een beperkte bètaversie"
-exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
-source-git-commit: 22112bde7692247d9bc0ea9b79160682b9370f55
+source-git-commit: f0658fad82d6656bc052c1810530963404e29396
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
 
-# Ontwerp bestemmingspagina
+# Sjabloonontwerp bestemmingspagina
 
-Nadat u [ een het landen pagina ](./landing-pages.md#create-a-landing-page) creeert, gebruik de visuele ontwerpruimte aan auteur de structuur en inhoudscomponenten in uw pagina.
+Nadat u [ een het landen paginamalplaatje ](./landing-page-templates.md#create-a-landing-page-template) creeert, gebruik de visuele ontwerpruimte aan auteur de structuur en inhoudscomponenten in uw paginasjabloon.
 
 ## Structuur en inhoud toevoegen {#structure-content-landing-page}
 
 >[!CONTEXTUALHELP]
->id="ajo-b2b_landing_page_structure"
+>id="ajo-b2b_landing_page_template_structure"
 >title="Structuurcomponenten toevoegen aan de bestemmingspagina"
->abstract="Structuurcomponenten definiëren de indeling van de bestemmingspagina. De belemmering en laat vallen component van de a **Structuur** in het canvas beginnen de inhoud voor uw pagina te ontwerpen."
+>abstract="Structuurcomponenten definiëren de indeling van de bestemmingspagina. De belemmering en laat vallen component van de a **Structuur** in het canvas beginnen de inhoud voor uw paginasjabloon te ontwerpen."
 
 >[!CONTEXTUALHELP]
->id="ajo-b2b_landing_page_content_components"
+>id="ajo-b2b_landing_page_template_content_components"
 >title="Informatie over inhoudscomponenten voor het openen van pagina&#39;s"
->abstract="Inhoudscomponenten zijn lege plaatsaanduidingen voor inhoud die u kunt gebruiken om de lay-out van een bestemmingspagina te maken."
+>abstract="Inhoudscomponenten zijn lege plaatsaanduidingen voor inhoud die u kunt gebruiken om de lay-out van een sjabloon voor een bestemmingspagina te maken."
 
 {{$include /help/_includes/content-design-components.md}}
 
@@ -51,9 +50,9 @@ Nadat u [ een het landen pagina ](./landing-pages.md#create-a-landing-page) cree
 
 ### Uw werk opslaan
 
-Klik op **[!UICONTROL Save]** op elk gewenst moment om de conceptbestemmingspagina op te slaan.
-
-U kunt doorgaan met het bewerken van de conceptpagina. Wanneer u klaar bent om de pagina weer te geven en deze beschikbaar te maken voor koppeling in een e-mail- of SMS-bericht, kunt u de pagina publiceren.
+Klik op **[!UICONTROL Save]** om de sjabloon van de bestemmingspagina op te slaan.
+<!--
+You can continue to make edits to the draft page template. When you are ready to make it available for using in page creation, you can [publish the template](./landing-page-templates.md#). -->
 
 ### Weergaveopties
 

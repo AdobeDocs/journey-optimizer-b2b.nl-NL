@@ -3,9 +3,9 @@ title: Groepsfasen kopen
 description: Leer over het kopen van groepsstadia en hoe u hen voor het volgen van reisvooruitgang tegen verkoopdoelstellingen kunt bepalen.
 feature: Buying Groups, Account Journeys
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
+source-git-commit: 266a9bde4ec889ec3577a7fa8881bec4763a66fd
 workflow-type: tm+mt
-source-wordcount: '2082'
+source-wordcount: '2163'
 ht-degree: 0%
 
 ---
@@ -127,7 +127,7 @@ De overgangsregels bepalen hoe een inkoopgroep van de ene fase naar de andere ka
 
 Zolang het het kopen model van groepsstadia in a _Ontwerp_ staat blijft, kunt u de stadia en overgangsregels uitgeven.
 
-Het conceptmodel bekijken:
+_om het ontwerp model te bekijken:_
 
 1. Ga in de linkernavigatie naar **[!UICONTROL Accounts]** > **[!UICONTROL Buying Groups]** .
 
@@ -186,6 +186,20 @@ Columns - Name, Status, Created by, Created date, Last updated by, Last update, 
 Name - Name of the stage model, hyperlinked. Clicking on it will navigate to the stage inventory page. 
 Info icon beside the name - display the description on click.
 Status - Live, Draft. If a draft stage model is Published, then its status is updated to Live. -->
+
+## Het model voor inkoopgroepfasen verwijderen
+
+U kunt het model voor de inkoopgroepfasen verwijderen wanneer dit zich in een concept of een gepubliceerde status bevindt. Als het (levend) wordt gepubliceerd, kunt u het schrappen slechts wanneer het niet met een oplossingsbelang wordt geassocieerd.
+
+1. Ga in de linkernavigatie naar **[!UICONTROL Accounts]** > **[!UICONTROL Buying Groups]** .
+
+1. In de _het Kopen pagina van Groepen_, selecteer het **[!UICONTROL Stages]** lusje.
+
+1. Klik het _Meer_ menupictogram (**...**) naast de naam van het fasemodel en kies **[!UICONTROL Delete]**.
+
+   ![ het Kopen van groepsstadia model Meer menu ](./assets/stages-model-list-more-menu.png){width="700"}
+
+1. Klik in het dialoogvenster op **[!UICONTROL Delete]** om te bevestigen.
 
 ## Gebruik het model voor reizen in rekening
 
