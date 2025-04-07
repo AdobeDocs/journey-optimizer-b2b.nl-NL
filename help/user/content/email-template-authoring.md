@@ -23,7 +23,7 @@ Nadat u [ een e-mailmalplaatje ](./email-templates.md#create-an-email-template) 
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_template"
->title="Informatie over inhoudscomponenten"
+>title="Informatie over contentonderdelen"
 >abstract="Inhoudscomponenten zijn lege plaatsaanduidingen voor inhoud die u kunt gebruiken om de lay-out van een sjabloon te maken."
 
 {{$include /help/_includes/content-design-components.md}}

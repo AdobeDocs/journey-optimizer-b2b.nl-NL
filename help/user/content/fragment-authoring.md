@@ -2,7 +2,8 @@
 title: Fragmentauthoring
 description: Leer hoe u inhoudsfragmenten ontwerpt die opnieuw kunnen worden gebruikt voor uw e-mails en sjabloonontwerpen voor efficiëntie en om ontwerp- en branding-standaarden te behouden.
 feature: Content
-source-git-commit: 1f551b636ef347fd65aa39a809dedba8372c3ac4
+exl-id: d29754cf-6721-489c-bff8-cde034456db2
+source-git-commit: 63dc5c1ad42e159d4fdb191acc0b6efba47e0f3a
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
@@ -22,7 +23,7 @@ Nadat u [ een fragment ](./fragments.md#create-fragments) creeert, gebruik de vi
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_fragment"
->title="Informatie over inhoudscomponenten"
+>title="Informatie over contentonderdelen"
 >abstract="Inhoudscomponenten zijn lege plaatsaanduidingen voor inhoud die u kunt gebruiken om de lay-out van een fragment te maken."
 
 {{$include /help/_includes/content-design-components.md}}
