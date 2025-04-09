@@ -3,9 +3,9 @@ title: Paden splitsen en samenvoegen
 description: In deze video ziet u de knooppunttypen die u kunt gebruiken voor het ordenen van uw accountreizen in Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-source-git-commit: 0902e5569847be148bb5037c99cadf0b00c67b8c
+source-git-commit: 60abaff4e40fcab7fff0bcfd761ff90ec74c68a0
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '1583'
 ht-degree: 1%
 
 ---
@@ -57,22 +57,13 @@ _hoe werkt een gespleten weg door mensen knoop?_
 | | [!UICONTROL Special filters] > [!UICONTROL Has opportunity] | De account is al dan niet gerelateerd aan een opportuniteit. Kan ook worden geëvalueerd aan de hand van een of meer van de volgende opportuniteitskenmerken: <li>Hoeveelheid<li>Datum sluiten<li>Beschrijving<li>Verwachte ontvangsten<li>Begrotingskwartaal<li>Begrotingsjaar<li>Forecast categorie<li>Naam van voorspelde categorie<li>Is gesloten<li>Is gewonnen</li><li>Laatste activiteitendatum</li><li>Persbron<li>Naam</li><li>Volgende stap</li><li>Waardigheid<li>Aantal<li>Werkgebied</li><li>Type |
 | [ Mensen ](#add-a-split-path-by-people-node) > [!UICONTROL People attributes only] | [!UICONTROL Person Attributes] | Attributen van het profiel van de persoon, met inbegrip van: <li>Stad</li><li>Land</li><li>Geboortedatum</li><li>E-mailadres</li><li>E-mail is ongeldig</li><li>E-mail is geschorst</li><li>Voornaam</li><li>Overgenomen deelstaatgebied</li><li>Functie</li><li>Achternaam</li><li>Mobiel telefoonnummer</li><li>Telefoonnummer</li><li>Postcode</li><li>Staat</li><li>Niet geabonneerd</li><li>Reden waarop geen abonnement is genomen</li> |
 | | [!UICONTROL Activity history] > [!UICONTROL Email] | E-mailactiviteiten in verband met de reis: <li>[!UICONTROL Clicked link in email]</li><li>Geopende e-mail</li><li>Is per e-mail verzonden</li><li>Is per e-mail verzonden</li> Deze voorwaarden worden geëvalueerd aan de hand van een geselecteerd e-mailbericht uit een eerdere reis. |
+| | [!UICONTROL Activity history] > [!UICONTROL SMS Message] | SMS-activiteiten in verband met de reis: <li>[!UICONTROL Clicked link in SMS]</li><li>[!UICONTROL SMS Bounced]</li>Deze voorwaarden worden geëvalueerd aan de hand van een geselecteerd SMS-bericht uit een eerdere reis. |
 | | [!UICONTROL Activity history] > [!UICONTROL Data Value Changed] | Voor een geselecteerd persoonkenmerk is een waardewijziging opgetreden. Deze wijzigingstypen zijn onder meer: <li>Nieuwe waarde</li><li>Vorige waarde</li><li>Reden</li><li>Bron</li><li>Datum van activiteit</li><li>Min. aantal keren</li> |
 | | [!UICONTROL Activity history] > [!UICONTROL Had Interesting Moment] | Interesserende momentactiviteit die in de bijbehorende instantie van Marketo Engage wordt bepaald. Beperkingen zijn: <li>Mijlsteen</li><li>E-mail</li><li>Web</li> |
 | | [!UICONTROL Special filters] > [!UICONTROL Member of Buying Group] | De persoon is al dan niet lid van de koopgroep, beoordeeld aan de hand van een of meer van de volgende criteria: <li>Belang van oplossing</li><li>Status van kopersgroep</li><li>Complete score</li><li>Engagement Score</li><li>Functie</li> |
 | | [!UICONTROL Special filters] > [!UICONTROL Member of List] | De persoon is al dan niet lid van een of meer Marketo Engage-lijsten. |
 | | [!UICONTROL Special filters] > [!UICONTROL Member of Program] | De persoon is al dan niet lid van een of meer Marketo Engage-programma&#39;s. |
 | [ Mensen ](#add-a-split-path-by-people-node) > [!UICONTROL Account-person attributes only] | Rol in accountkenmerken | Aan de persoon wordt al dan niet een rol in de account toegewezen. Optionele beperkingen: <li>Rolnaam invoeren</li> |
-
-<!-- 
-
-Add back for next release:
-
-People:
-
-| | [!UICONTROL Activity history] > [!UICONTROL SMS Message] | SMS activities associated with the journey: <li>[!UICONTROL Clicked link in SMS]</li><li>[!UICONTROL SMS Bounced]</li>These conditions are evaluated using a selected SMS message from earlier in the journey.  |
-
--->
 
 ### Een gesplitst pad toevoegen per accountknooppunt
 
