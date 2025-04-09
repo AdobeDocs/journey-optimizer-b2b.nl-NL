@@ -3,9 +3,9 @@ title: Fragmentauthoring
 description: Leer hoe u inhoudsfragmenten ontwerpt die opnieuw kunnen worden gebruikt voor uw e-mails en sjabloonontwerpen voor efficiëntie en om ontwerp- en branding-standaarden te behouden.
 feature: Content
 exl-id: d29754cf-6721-489c-bff8-cde034456db2
-source-git-commit: 63dc5c1ad42e159d4fdb191acc0b6efba47e0f3a
+source-git-commit: 81f521cf245ac3d5460e1a8eb768ea2b609cf6fe
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
@@ -40,11 +40,11 @@ Nadat u [ een fragment ](./fragments.md#create-fragments) creeert, gebruik de vi
 
 {{$include /help/_includes/content-design-personalization.md}}
 
-## Aangepaste velden inschakelen
+## Fragmentaanpassing inschakelen
 
-Wanneer een auteur van een e-mail- of e-mailsjabloon het fragment toevoegt, wordt de fragmentinhoud standaard vergrendeld. Wijzigingen in het gepubliceerde fragment worden automatisch doorgegeven aan alle inhoudselementen waar het fragment wordt gebruikt. Wanneer u een parameter voor een component in het fragment toewijst als bewerkbaar, kan de auteur van de e-mail of sjabloon een aangepaste veldwaarde opgeven die specifiek is voor zijn of haar behoeften. Deze aanpassingsvlag is beperkt tot beeld, tekst, en knoop visuele componenten.
+Wanneer een auteur een fragment aan een [ e-mail ](./email-authoring.md#content-authoring---use-visual-fragments) of [ e-mailmalplaatje ](./email-template-authoring.md#content-authoring---use-visual-fragments) toevoegt, wordt de fragmentinhoud gesloten door gebrek. Wijzigingen in het gepubliceerde fragment worden automatisch doorgegeven aan alle inhoudselementen waar het fragment wordt gebruikt. Wanneer u een parameter voor een component in het fragment toewijst als bewerkbaar, kan de auteur van de e-mail of sjabloon een aangepaste veldwaarde opgeven die specifiek is voor zijn of haar behoeften. Deze aanpassingsvlag is beperkt tot beeld, tekst, en knoop visuele componenten.
 
-Als u bijvoorbeeld een herbruikbare banner ontwerpt die een klikbare knop bevat, kunt u de URL-parameter voor de knop instellen als bewerkbaar. E-mailauteurs kunnen vervolgens een URL gebruiken die specifieker is voor hun e-mailcampagne. Met deze aanpasbare velden kunnen marketers inhoud beheren en aanpassen zonder dat ze geheel nieuwe inhoudsblokken hoeven te maken of de overgeërfde updates van het oorspronkelijke fragment moeten onderbreken.
+Als u bijvoorbeeld een herbruikbare banner ontwerpt die een klikbare knop bevat, kunt u de URL-parameter voor de knop instellen als bewerkbaar. E-mailauteurs kunnen vervolgens een URL gebruiken die specifieker is voor hun e-mailcampagne. Met deze aanpasbare velden kunnen marketers herbruikbare inhoud beheren en aanpassen zonder dat ze geheel nieuwe inhoudsblokken hoeven te maken of de overgeërfde updates van het oorspronkelijke fragment moeten onderbreken.
 
 1. Selecteer in de visuele inhoudeditor de afbeelding, tekst of knopelement waar u aanpassing wilt inschakelen.
 
@@ -52,7 +52,7 @@ Als u bijvoorbeeld een herbruikbare banner ontwerpt die een klikbare knop bevat,
 
 1. Klik op de optie **[!UICONTROL Enable edition]** om te schakelen en stel de bewerkbare velden in.
 
-   ![ laat editable gebieden voor een component van het fragmentbeeld ](./assets/fragment-editable-fields-image.png){width="700" zoomable="yes"} toe
+   ![ laat editable gebieden voor een component van het fragmentbeeld ](./assets/fragment-editable-fields-image.png){width="700" zoomable="yes"} {width= &quot;700&quot;zoomable=&quot;ja&quot; toe
 
    U kunt aanpassingen inschakelen voor de weergegeven velden, afhankelijk van het componenttype en de parameters die in het fragment zijn gedefinieerd.
 
@@ -60,7 +60,7 @@ Als u bijvoorbeeld een herbruikbare banner ontwerpt die een klikbare knop bevat,
 
 1. Klik op **[!UICONTROL Overview]** om alle bewerkbare velden en de bijbehorende standaardwaarden te bekijken.
 
-   ![ herzie de editable gebieden en hun standaardwaarden ](./assets/fragment-editable-fields-image-overview.png){width="700" zoomable="yes"}
+   ![ herzie de editable gebieden en hun standaardwaarden ](./assets/fragment-editable-fields-image-overview.png){width="700" zoomable="yes"} {width= &quot;700&quot; zoomable= &quot;ja&quot;}
 
 1. Sla uw wijzigingen op.
 
