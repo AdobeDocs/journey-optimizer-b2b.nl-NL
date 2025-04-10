@@ -2,9 +2,9 @@
 title: Aanvullende informatie
 description: Nieuwste aanvullende informatie voor de B2B-editie van Adobe Journey Optimizer
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 228837741f3373ee2b8423515b7412564281f8ea
+source-git-commit: 775cecb2aa4e305ba9a80ba0655e5e854ddf69e2
 workflow-type: tm+mt
-source-wordcount: '1814'
+source-wordcount: '1847'
 ht-degree: 4%
 
 ---
@@ -28,7 +28,7 @@ Deze release bevat de volgende nieuwe mogelijkheden en verbeteringen:
 | Nieuwe functie | Accountlijsten | U kunt nu een statische of dynamische accountlijst maken om benoemde accounts als doel in te stellen op basis van uw gedefinieerde criteria, zoals de industrie, locatie of grootte van het bedrijf. <a href="../accounts/account-lists.md">Meer informatie</a> |
 | Nieuwe functie | Mijn tokens voor reizen voor rekening | U kunt nu een set aangepaste tokens definiëren met waarden die specifiek zijn voor de accountreis. Deze reeks douanetokens wordt genoemd _Mijn Tokens_ en om het even welk van deze douanetokens zijn voor verpersoonlijking wanneer het ontwerpen van reis e-mails. <a href="../content/personalization-my-tokens.md">Meer informatie</a> |
 | Nieuwe functie | Groepsfasen voor kopen verwijderen | U kunt het model voor de inkoopgroepfasen verwijderen wanneer dit zich in een concept of een gepubliceerde status bevindt. Als het (levend) wordt gepubliceerd, kunt u het schrappen slechts wanneer het niet met een oplossingsbelang wordt geassocieerd. <a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">Meer informatie</a> |
-| Verbetering | Aantal wegknooppunten | Verbeterde zichtbaarheid in het aantal deelnemers aan de reis op knooppuntniveau. Gebruik deze informatie om de voortgang van de account tijdens een reis te valideren. |
+| Verbetering | Aantal wegknooppunten | Verbeterde zichtbaarheid in gepubliceerde tellingen voor reisleden op knooppuntniveau. In de _kaart van de Reis_, tonen de knopen _[!UICONTROL Total accounts entered]_. Wanneer u een actieknooppunt selecteert, bevatten de gegevens aan de rechterkant ook_[!UICONTROL Accounts not yet actioned on]_ . En de details voor _luisteren naar een gebeurtenis_ knopen omvatten _[!UICONTROL Accounts at this step]_. Gebruik deze informatie om de voortgang van uw account in uw live, voltooide en afgebroken reizen te valideren. |
 
 ## Opmerkingen bij de release 2025.2
 
@@ -38,7 +38,7 @@ Deze release bevat de volgende nieuwe mogelijkheden en verbeteringen:
 
 | Type | Item | Beschrijving |
 | ---- | ---- | ----------- |
-| Nieuwe functie | Aanpasbare velden - inhoudsfragmenten | Als ontwerper van een inhoudsfragment kunt u een parameter voor een component in het fragment toewijzen als bewerkbaar. Hierdoor kan de auteur van een e-mail of sjabloon een aangepaste veldwaarde opgeven die specifiek is voor zijn of haar behoeften. Deze aanpassingsvlag is beperkt tot beeld, tekst, en knoop visuele componenten. <a href="../content/fragment-authoring.md#enable-custom-fields">Meer informatie</a> |
+| Nieuwe functie | Aanpasbare velden - inhoudsfragmenten | Als ontwerper van een inhoudsfragment kunt u een parameter voor een component in het fragment toewijzen als bewerkbaar. Hierdoor kan de auteur van een e-mail of sjabloon een aangepaste veldwaarde opgeven die specifiek is voor zijn of haar behoeften. Deze aanpassingsvlag is beperkt tot beeld, tekst, en knoop visuele componenten. <a href="../content/fragment-authoring.md#enable-fragment-customization">Meer informatie</a> |
 | Nieuwe functie | B2B ingebouwde rollen en producttoestemmingen | Experience Platform bevat nu een set ingebouwde (standaard)rollen die u kunt gebruiken om de toegang tot de B2B-productmogelijkheden te beheren. <a href="../admin/user-management.md#b2b-built-in-roles">Meer informatie</a> <br/> de Beheerders kunnen douanerollen in Adobe Experience Platform nu bepalen om het producttoestemmingen van Journey Optimizer B2B edition te omvatten.  <a href="../admin/user-management.md#b2b-product-permissions">Meer informatie</a> |
 | Nieuwe functie | Reisduplicatietypen | Wanneer u een accountreis dupliceert, kunt u knooppuntgegevens opnemen, exclusief e-mails en SMS-berichten die in Journey Optimizer B2B edition zijn gemaakt. Als alternatief kunt u een skelet-kopie maken van de structuur en padstromen, zonder knoopdetails en instellingen. <a href="../journeys/journey-overview.md#duplicate-journey">Meer informatie</a> |
 | Verbetering | Vier extra e-mailvoorbeeldsjablonen | De voorbeeldsjabloonbibliotheek voor e-mailsjablonen bevat nu vier SecureFinacial-sjablonen als voorbeelden voor het opnieuw toewijzen, informeren, voeden en feedback geven van inhoudsvoorbeelden |
