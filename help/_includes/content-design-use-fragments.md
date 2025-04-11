@@ -1,52 +1,52 @@
 ---
-title: Inhoud ontwerpen - fragmenten gebruiken
-description: Doorgevoerde sectie over het gebruik van fragmenten voor het ontwerpen van inhoud
-source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
+title: Content authoring - use fragments
+description: Reused section about using fragments for content authoring
+source-git-commit: 472ec05b4da1c5e91a2aa0da6bc9f5dedf03a862
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
 
-# Inhoud ontwerpen - visuele fragmenten gebruiken
+# Content authoring - use visual fragments
 
-Een visueel fragment is een herbruikbare ontwerpcomponent waarnaar door meerdere inhoudselementen in Adobe Journey Optimizer B2B edition kan worden verwezen. Het is doorgaans een blok inhoud dat vooraf kan worden gemaakt en snel kan worden ingevoegd om het ontwerpen sneller en consistenter te maken.
+A visual fragment is a reusable design component that can be referenced by multiple content assets across Adobe Journey Optimizer B2B Edition. It is usually a block of content that can be pre-created and quickly inserted to make authoring quicker and more consistent.
 
-In het volgende voorbeeld worden de stappen beschreven waarmee u fragmenten toevoegt terwijl u de inhoud ontwerpt.
+The following example outlines steps to add fragments as you author your content.
 
-1. Om de fragmenten lijst te openen, selecteer het _pictogram van Fragmenten_ ( ![ pictogram van Fragmenten ](../user/assets/do-not-localize/icon-fragments.svg)).
+1. To open the fragments listing, select the _Fragments_ icon ( ![Fragments icon](../user/assets/do-not-localize/icon-fragments.svg) ).
 
    U kunt:
 
    * Sorteer de aanbieding.
-   * Blader naar de lijst, zoek of filter deze.
-   * Schakelen tussen miniatuur- en lijstweergaven.
+   * Browse, search, or filter the listing.
+   * Switch between thumbnail and list views.
    * Vernieuw de lijst om een van de onlangs gemaakte fragmenten weer te geven.
 
-   ![ selecteer een fragment van de lijst ](../user/content/assets/visual-designer-fragments.png){width="700" zoomable="yes"}
+   ![Select a fragment from the list](../user/content/assets/visual-designer-fragments.png){width="700" zoomable="yes"}
 
-1. Sleep een van de fragmenten naar de structuurcomponent.
+1. Drag and drop any of the fragments into the structural component.
 
    De editor geeft het fragment weer binnen de sectie/het element van de e-mailstructuur.
 
    >[!TIP]
    >
-   >Als u het fragment wilt toevoegen zodat het de volledige horizontale lay-out binnen de e-mail in beslag neemt, voegt u een 1:1-kolomstructuur toe en sleept u het fragment naar het fragment.
+   >To add the fragment so that it occupies the entire horizontal layout within the email, add a 1:1 column structure and then drag and drop the fragment into it.
 
-   De inhoud van het fragment wordt dynamisch bijgewerkt in de structuur om te tonen hoe de inhoud in uw inhoud wordt weergegeven.
+   The content of the fragment is dynamically updated within the structure to show how the content appears in your content.
 
 >[!BEGINSHADEBOX]
 
-**Bewerkbare gebieden**
+**Editable fields in customizable fragments**
 
-Een visueel fragment kan bewerkbare velden bevatten die u kunt aanpassen. Met aangepaste velden kunt u parameters wijzigen wanneer u het fragment opneemt in uw inhoud en een op maat gemaakte ervaring creëren zonder dat dit van invloed is op het oorspronkelijke fragment. Als een opgenomen fragment componenten met bewerkbare velden bevat, kunt u de standaardwaarden wijzigen.
+A visual fragment can include editable fields that you can customize. Custom fields allow you to modify parameters when you incorporate the fragment into your content and create a tailored experience without affecting the original fragment. The frament author can [design the fragmant for customization](../user/content/fragment-authoring.md#enable-fragment-customization) of text, image, and button components. If an included fragment contains components with editable fields, you can change the default values to customize it for your content.
 
-1. Selecteer de fragmentcomponent.
+1. Select the fragment component.
 
-   De instellingen aan de rechterkant bevatten velden met de standaardwaarden die u kunt bewerken.
+   The Settings displayed on the right include and editable fields with the default values.
 
-   ![ de parameters van de fragmentcomponent van de Verandering ](../user/content/assets/fragment-editable-fields-displayed-design.png){width="700" zoomable="yes"}
+   ![Change fragment component parameters](../user/content/assets/fragment-editable-fields-displayed-design.png){width="700" zoomable="yes"}
 
-1. Wijzig zo nodig een bewerkbaar veld.
+1. Change any editable field as needed.
 
 >[!ENDSHADEBOX]

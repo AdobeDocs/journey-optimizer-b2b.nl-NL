@@ -2,7 +2,7 @@
 title: Documentatie voor Adobe Journey Optimizer B2B Edition
 description: Leer hoe u de Adobe Journey Optimizer B2B edition-functies kunt gebruiken voor het ordenen van accounts en het kopen van groepsreizen met behulp van ingebouwde generatieve AI en toonaangevende automatisering.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 9e19b8b22c237f43fef3a5ed4c093ad12ff41781
+source-git-commit: 472ec05b4da1c5e91a2aa0da6bc9f5dedf03a862
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 4%
@@ -35,7 +35,7 @@ Met Adobe Express Enterprise-licenties kunt u een volledige reeks Adobe Express-
 
 Als inhoudsontwerper kunt u een parameter voor een component in het fragment toewijzen als bewerkbaar. Hierdoor kan de auteur van een e-mail of sjabloon een aangepaste veldwaarde opgeven die specifiek is voor zijn of haar behoeften. Deze aanpassingsvlag is beperkt tot beeld, tekst, en knoop visuele componenten.
 
-[!BADGE Meer informatie]{type=Informative url="/help/user/content/fragment-authoring.md#enable-custom-fields" tooltip="Informatie over aangepaste velden voor inhoudsfragmenten"}
+[!BADGE Meer informatie]{type=Informative url="/help/user/content/fragment-authoring.md#enable-fragment-customization" tooltip="Informatie over aangepaste velden voor inhoudsfragmenten"}
 
 >[!TAB  gebeurtenis die van AEP ] door:sturen
 
@@ -96,7 +96,7 @@ Ontdek de onderdelen van een inkoopgroep en begrijp de basisbeginselen van het m
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px" alt="Aan de slag"><br/>
-      <strong> krijgen begonnen </strong><br/> <a href="home-page.md"> Login en homepage </a><br/> <a href="./start/get-started.md"> Snelle startbegeleiding </a> <br/><a href="./start/ai-assistant.md"> AI Medewerker </a>
+      <strong> krijgen begonnen </strong><br/> <a href="home-page.md"> Login en homepage </a><br/> <a href="./start/get-started.md"> Snelle startbegeleiding </a> <br/><a href="./ai-assistant/ai-assistant-overview.md"> AI Medewerker </a>
     </td>
     <!--
     <td>

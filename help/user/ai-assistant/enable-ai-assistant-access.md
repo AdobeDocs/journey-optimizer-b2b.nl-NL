@@ -3,9 +3,10 @@ title: Toegang tot AI-assistent inschakelen
 description: Plaatsaanduiding
 feature: AI Assistant
 level: Beginner
-source-git-commit: 5ca03b12fd459c64b245ad95e60a382c355922f9
+exl-id: f08e0cab-f430-4f7f-8cde-ccf4fabe1ff4
+source-git-commit: f09f3f5b7d4419ead5308e4c5be3b518b4e16ff5
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
@@ -28,13 +29,13 @@ Als beheerder kunt u:
 
 * Voeg de **toestemming van de Mening Operationele Inzichten** aan een bepaalde rol toe en voeg een gebruiker aan die rol toe. Deze toestemming staat de gebruiker toe om de AI Medewerker operationele inzichten mogelijkheden te gebruiken.
 
-![ wijs AI Hulp toestemmingen ](./assets/ai-assistant-permissions.png){width="800" zoomable="yes"} toe {width= &quot;800&quot; zoomable= &quot;ja&quot;}
+![ wijs AI Hulp toestemmingen ](./assets/ai-assistant-permissions.png){width="800" zoomable="yes"} toe
 
 Gebruik de machtigingeninterface om machtigingen te verlenen voor het gebruik van AI Assistant in Journey Optimizer B2B edition. Voor informatie over de toegang tot van AI Medewerker in Experience Platform en andere toepassingen van Experience Cloud, verwijs naar de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access).
 
 Wanneer de gebruiker de noodzakelijke toestemmingen heeft, kunnen zij tot AI Medewerker toegang hebben door het _AI Medewerker_ pictogram op de hoogste kopbal van de toepassing te selecteren die u gebruikt.
 
-![ AI Hulp pictogram in de toepassingskopbal ](./assets/ai-assistant-icon-header.png){width="800" zoomable="yes"} {width= &quot;800&quot; zoomable= &quot;ja&quot;}
+![ AI Hulp pictogram in de toepassingskopbal ](./assets/ai-assistant-icon-header.png){width="800" zoomable="yes"}
 
 ## Video over het toegangsoverzicht van AI Assistant
 

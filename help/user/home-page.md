@@ -2,16 +2,16 @@
 title: Aanmelden en startpagina
 description: Leer hoe u de Journey Optimizer B2B edition-app kunt openen en de homepage-informatie kunt gebruiken.
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
-source-git-commit: f7f9531cce6447b4715f0e76b0fd8ce57715f519
+source-git-commit: 2d3437d133f6eacdd5beaf1e7da5cc8ef5992b90
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
 # Aanmelden en homepage
 
-Met Adobe Journey Optimizer B2B Edition kunt u met behulp van geïntegreerde generatieve AI en toonaangevende automatisering accounts accounts organiseren en groepsreizen kopen om de vraag naar specifieke aanbiedingen te maximaliseren met behulp van marketinggekwalificeerde inkoopgroepen.
+Met Adobe Journey Optimizer B2B Edition kunt u account- en inkoopgroepentrajecten orkestreren met behulp van ingebouwde generatieve AI en toonaangevende automatisering om de vraag naar specifieke aanbiedingen te maximaliseren met behulp van marketinggekwalificeerde inkoopgroepen.
 
 <!-- Requirements?
 -->
@@ -32,7 +32,7 @@ Journey Optimizer B2B edition heeft twee primaire gebruikerspersoonlijkheden: a 
 
 De sectie _[!UICONTROL Recently accessed]_bevat een lijst met de laatst geopende elementen voor de Marketer of Beheerder. Gebruik deze lijst om rechtstreeks naar het element te gaan waaraan u onlangs hebt gewerkt, zonder door een reeks elementpagina&#39;s te navigeren en te zoeken.
 
-De pagina omvat ook toegang tot [ AI Medewerker ](./start/ai-assistant.md), die gebruikers helpt om snelle informatie over om het even welke specifieke vragen of onderwerpen te krijgen die zij nodig hebben.<!-- and to obtain specific recommendations for their challenges or objectives-->
+De pagina omvat ook toegang tot [ AI Medewerker ](./ai-assistant/ai-assistant-overview.md), die gebruikers helpt om snelle informatie over om het even welke specifieke vragen of onderwerpen te krijgen die zij nodig hebben.<!-- and to obtain specific recommendations for their challenges or objectives-->
 
 <!-- 
 

@@ -3,7 +3,7 @@ title: Fragmenten
 description: Leer hoe u in Adobe Journey Optimizer B2B edition fragmenten van visuele inhoud maakt en gebruikt als herbruikbare onderdelen voor e-mails en e-mailsjablonen.
 feature: Content, Email Authoring
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: 7deb914dfb9d6979b4dc4a497ed2d15bbabd3011
+source-git-commit: 472ec05b4da1c5e91a2aa0da6bc9f5dedf03a862
 workflow-type: tm+mt
 source-wordcount: '2531'
 ht-degree: 0%
@@ -93,7 +93,7 @@ U kunt nieuwe visuele fragmenten maken in Journey Optimizer B2B edition door op 
    * [Assets toevoegen](./fragment-authoring.md#add-assets)
    * [Navigeren door de lagen, instellingen en stijlen](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [Inhoud personaliseren](./fragment-authoring.md#personalize-content)
-   * [Aangepaste velden inschakelen](./fragment-authoring.md#enable-custom-fields)
+   * [Aangepaste velden inschakelen](./fragment-authoring.md#enable-fragment-customization)
    * [Gekoppelde URL-tracking bewerken](./fragment-authoring.md#edit-linked-url-tracking)
 
 1. Klik op **[!UICONTROL Save]** om het conceptfragment op te slaan.
@@ -173,7 +173,7 @@ Bewerkingen aan een fragment zijn afhankelijk van de huidige status:
    * [Assets toevoegen](./fragment-authoring.md#add-assets)
    * [Navigeren door de lagen, instellingen en stijlen](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [Inhoud personaliseren](./fragment-authoring.md#personalize-content)
-   * [Aangepaste velden inschakelen](./fragment-authoring.md#enable-custom-fields)
+   * [Aangepaste velden inschakelen](./fragment-authoring.md#enable-fragment-customization)
    * [Gekoppelde URL-tracking bewerken](./fragment-authoring.md#edit-linked-url-tracking)
 
    Klik op **[!UICONTROL Save]** of **[!UICONTROL Save & close]** om terug te keren naar de fragmentdetails.
@@ -202,7 +202,7 @@ Bewerkingen aan een fragment zijn afhankelijk van de huidige status:
    * [Assets toevoegen](./fragment-authoring.md#add-assets)
    * [Navigeren door de lagen, instellingen en stijlen](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [Inhoud personaliseren](./fragment-authoring.md#personalize-content)
-   * [Aangepaste velden inschakelen](./fragment-authoring.md#enable-custom-fields)
+   * [Aangepaste velden inschakelen](./fragment-authoring.md#enable-fragment-customization)
    * [Gekoppelde URL-tracking bewerken](./fragment-authoring.md#edit-linked-url-tracking)
 
    Klik op **[!UICONTROL Save]** of **[!UICONTROL Save & close]** om terug te keren naar de fragmentdetails.
@@ -231,7 +231,7 @@ De inhoud bijwerken:
    * [Assets toevoegen](./fragment-authoring.md#add-assets)
    * [Navigeren door de lagen, instellingen en stijlen](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [Inhoud personaliseren](./fragment-authoring.md#personalize-content)
-   * [Aangepaste velden inschakelen](./fragment-authoring.md#enable-custom-fields)
+   * [Aangepaste velden inschakelen](./fragment-authoring.md#enable-fragment-customization)
    * [Gekoppelde URL-tracking bewerken](./fragment-authoring.md#edit-linked-url-tracking)
 
    Klik op **[!UICONTROL Save]** of **[!UICONTROL Save & close]** om terug te keren naar de fragmentdetails.
