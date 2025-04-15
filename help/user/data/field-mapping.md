@@ -2,9 +2,9 @@
 title: XDM-velden
 description: Controleer de standaardkenmerkvelden die zijn gesynchroniseerd tussen de Adobe Experience Platform en Journey Optimizer B2B edition.
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: e2a802750ee221caf83989c5731e0daee64aa63e
+source-git-commit: 34ef9681b75ef1cd43d34e3f2836a60affb95b33
 workflow-type: tm+mt
-source-wordcount: '1372'
+source-wordcount: '1342'
 ht-degree: 5%
 
 ---
@@ -31,15 +31,13 @@ Accountpublieksgegevens worden opgeslagen als kenmerken in zowel de XDM Business
 
 | [ Bezit ](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md) | Weergavenaam | Journey Optimizer B2B-weergavenaam | Gegevenstype | Beschrijving |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
-| `b2b.companyName` | Bedrijfsnaam | Bedrijfsnaam | String | De naam van het bedrijf waaraan een ondernemer is gekoppeld. |
-| `b2b.companyWebsite` | Website van bedrijf | Website | String | Website van het bedrijf waaraan een ondernemer wordt geassocieerd. |
 | `b2b.isMarketingSuspended` | Indicator voor het in de handel brengen | Marketing opgeschort | Boolean | De waarde geeft aan of het op de markt brengen is opgeschort voor de persoon. |
 | `b2b.marketingSuspendedCause` | Handelsgewijze oorzaak | Handelsgewijze oorzaak | String | Als het op de markt brengen voor de persoon wordt opgeschort, verstrekt dit bezit de reden waarom. |
 | `b2b.personStatus` | Status persoon | Leadstatus | String | Veld waar de huidige marketing-/verkoopstatus van de persoon wordt geregistreerd. |
 | `consents.marketing.email.reason` | Opt-out reden | Reden voor niet geabonneerd | String | Reden voor de e-mailopt-out. |
-| `consents.marketing.email.val` | Niet geabonneerd | Niet geabonneerd | String | Als unsubscribed waar is (bijvoorbeeld waarde = 1), stelt u `consents.marketing.email.val` in als (n). Als unsubscribed false is (bijvoorbeeld value = 0), stelt u `consents.marketing.email.val` in als null. |
+| `consents.marketing.email.val` | Niet geabonneerd | Niet geabonneerd | String | Als unsubscribed waar is (bijvoorbeeld waarde = 1), stelt u `consents.marketing.email.val` in als (n). Als unsubscribed false is (bijvoorbeeld waarde = 0), stel je deze in `consents.marketing.email.val` op null. |
 | `extendedWorkDetails.jobTitle` | Beroep | Beroep | String | Functie van de persoon. |
-| `faxPhone.number` | Getal | Faxnummer | String | Telefoonnummer fax. |
+| `faxPhone.number` | Getal | Faxnummer | Snaar | Fax telefoonnummer. |
 | `mobilePhone.number` | Getal | Mobiel | String | Het mobiele telefoonnummer dat aan de persoon is gekoppeld. |
 | `person.birthDate` | Geboortedatum (JJJ-MM-DD) | Geboortedatum | String | De volledige datum waarop een persoon is geboren. YYYY-MM-DD |
 | `person.name.courtesyTitle` | Titel met dank | Aanhef | String | Normaal gesproken een afkorting van de titel, de eer of de aanhef van een persoon. De courtesyTitle wordt gebruikt voor de volledige of achternaam in het openen van teksten. Bijvoorbeeld meneer, mevrouw of dr. |
@@ -49,11 +47,11 @@ Accountpublieksgegevens worden opgeslagen als kenmerken in zowel de XDM Business
 | `workAddress.city ` | Stad | Stad | String | De naam van de stad. |
 | `workAddress.country` | Land | Land | String | De naam van het door de overheid bestuurde gebied. Met uitzondering van `xdm:countryCode` is het een veld met vrije vorm dat de naam van het land in elke taal kan hebben. |
 | `workAddress.postalCode` | Postcode | Postcode | String | De postcode van de locatie. Postcodes zijn niet voor alle landen beschikbaar. In sommige landen bevat het slechts een deel van de postcode. |
-| `workAddress.state` | Staat | Staat | String | De naam van de staat voor het adres. Het is een veld met vrije vorm. |
+| `workAddress.state` | Staat | Staat | String | De naam van de staat voor het adres. Het is een veld in vrije vorm. |
 | `workAddress.street1` | Adres 1 | Adres | String | Primaire straatinformatie, appartementnummer, straatnummer en straatnaam. |
-| `workEmail.address` | Adres | E-mailadres | String | **Vereist gebied** <br/> het technische adres, bijvoorbeeld, `<name@domain.com>` zoals algemeen bepaald in RFC2822 en verdere normen. |
-| `workEmail.status` | Status | E-mail opgeschort | String | Een indicatie van de mogelijkheid om het e-mailadres te gebruiken. |
-| `workPhone.number` | Getal | Telefoonnummer | String | Telefoonnummer zakelijk. |
+| `workEmail.address` | Adres | E-mailadres | Snaar | **Vereist gebied** <br/> het technische adres, bijvoorbeeld, `<name@domain.com>` zoals algemeen bepaald in RFC2822 en verdere normen. |
+| `workEmail.status` | Status | E-mail opgeschort | Snaar | Een indicatie van de mogelijkheid om het e-mailadres te gebruiken. |
+| `workPhone.number` | Getal | Telefoonnummer | Snaar | Telefoonnummer werk. |
 
 ## Kenmerken van XDM Business Account
 
@@ -72,9 +70,9 @@ Accountpublieksgegevens worden opgeslagen als kenmerken in zowel de XDM Business
 | `accountName` | Naam | Naam | String | **Vereiste gebied** <br/> Naam van het bedrijf. Dit veld mag maximaal 255 tekens bevatten. |
 | `accountOrganization.annualRevenue.amount` | Jaaromzet | Jaaromzet | Getal | Geraamde jaarlijkse inkomsten van de organisatie. |
 | `accountOrganization.industry` | Marktsegment | Marktsegment | String | De bedrijfstak die aan de organisatie is toegeschreven. Het is een vrij-vormgebied, en het is raadzaam om een gestructureerde waarde voor vragen te gebruiken of het `xdm:classifier` bezit te gebruiken. |
-| `accountOrganization.logoUrl` | Logo URL | Logo URL | String | Pad dat moet worden gecombineerd met de URL van een Salesforce-instantie (bijvoorbeeld `https://yourInstance.salesforce.com/` ) om een URL te genereren voor het aanvragen van de afbeelding van het profiel van het sociale netwerk die aan de account is gekoppeld. De gegenereerde URL retourneert een HTTP-omleiding (code 302) naar de afbeelding van het sociale netwerkprofiel voor de account. |
+| `accountOrganization.logoUrl` | Logo URL | Logo URL | String | Pad dat moet worden gecombineerd met de URL van een Salesforce-instantie (bijvoorbeeld `https://yourInstance.salesforce.com/`) om een URL te genereren om de profielafbeelding van het sociale netwerk op te vragen die aan het account is gekoppeld. De gegenereerde URL retourneert een HTTP-omleiding (code 302) naar de afbeelding van het sociale netwerkprofiel voor de account. |
 | `accountOrganization.numberOfEmployees` | Aantal werknemers | Aantal werknemers | Geheel | Het aantal werknemers in de organisatie. |
-| `accountOrganization.SICCode` | SIC-code | SIC-code | String | De code Standard Industrial Classification (SIC) is een code van vier cijfers die de industrieën die bedrijven tot behoren, categoriseert op basis van hun bedrijfsactiviteiten. |
+| `accountOrganization.SICCode` | SIC-code | SIC-code | Snaar | De Standard Industrial Classification (SIC)-code is een viercijferige code die de industrieën categoriseert waartoe bedrijven behoren op basis van hun bedrijfsactiviteiten. |
 | `accountOrganization.website` | URL website | Domeinnaam | String | De URL van de website van de organisatie. |
 | `accountPhone.number` | NVT | Telefoonnummer account | String | Het telefoonnummer dat aan de account is gekoppeld. |
 | `accountSourceType` | NVT | Source-type | String | Source-type voor de account. |
@@ -93,13 +91,13 @@ Bovendien, worden de opportuniteitsgegevens opgeslagen als attributen in de XDM 
 | `forecastCategoryName` | Naam van voorspelde categorie | Naam van opportunity-prognoscategorie | String | Naam van de voorspelde categorie die wordt weergegeven in rapporten voor een bepaalde categorie. |
 | `isClosed` | Gesloten vlag | Opportunity gesloten | String | Markering die aangeeft of de opportuniteit is gesloten. |
 | `isWon` | Won-markering | Opportunity gewonnen | String | Markering die aangeeft of de opportuniteit wordt gewonnen. |
-| `lastActivityDate` | Laatste activiteitendatum | Laatste activiteitendatum | String | Datum van laatste activiteit voor de opportuniteit. |
-| `leadSource` | Leadbron | Loodbron | String | Source van de mogelijkheid, zoals Advertisement, Partner of Web. |
-| `nextStep` | Volgende stap | Volgende stap opportunity | String | Beschrijving van de volgende taak om de kans te sluiten. |
+| `lastActivityDate` | Datum laatste activiteit | Datum laatste activiteit | String | Datum van laatste activiteit voor de opportuniteit. |
+| `leadSource` | Leadbron | Bron van de lead | Snaar | Bron van de mogelijkheid, zoals Advertentie, Partner of Web. |
+| `nextStep` | Volgende stap | Opportuniteit volgende stap | Snaar | Beschrijving van de volgende taak om de kans te sluiten. |
 | `opportunityAmount.amount` | Aantal kansen | Totaal opportuniteitsbedrag | String | Geraamd totaal verkoopbedrag voor de opportuniteit. |
 | `opportunityDescription` | Beschrijving van opportunity | Opportuniteitsbeschrijving | String | Aanvullende informatie om de mogelijkheid te beschrijven, zoals mogelijke producten om bij de klant te verkopen of aankopen in het verleden te doen. |
 | `opportunityName` | Naam opportunity | Naam opportunity | String | Onderwerp of beschrijvende naam, zoals de verwachte orde of bedrijfsnaam, voor de kans. |
 | `opportunityQuantity` | Aantal kansen | Aantal kansen | String | Totaal van alle veldwaarden voor de hoeveelheid van alle producten in de lijst van verwante producten voor de gelegenheid. |
 | `opportunityStage` | Opportunity Stage | Opportunity-fase | String | De verkoopfase van de mogelijkheid om het verkoopteam te helpen bij hun pogingen om het te winnen. |
-| `opportunityType` | Type opportunity | Type opportunity | String | Het type dat aan de kans wordt toegewezen, zoals _Bestaande Zaken _ of _Nieuwe Zaken_ |
+| `opportunityType` | Type opportunity | Type opportunity | String | Type dat aan de kans wordt toegewezen, zoals _Bestaande Zaken_ of _Nieuwe Zaken_ |
 | `probabilityPercentage` | Percentage waarschijnlijkheid | Percentage opportunity-waarschijnlijkheid | String | Waarschijnlijkheid van het sluiten van de mogelijkheid, uitgedrukt als een percentage. |
