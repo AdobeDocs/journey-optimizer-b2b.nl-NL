@@ -4,16 +4,16 @@ description: Leer hoe AI Assistant u kan helpen optimaal te profiteren van de Jo
 feature: AI Assistant
 level: Beginner
 exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
-source-git-commit: d19ed2bbe850a14cb0563f6e3563cd8f1c8d3226
+source-git-commit: 62dc7d43f77b2c84b9e0aa27146a7924ee8d7b35
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '946'
 ht-degree: 0%
 
 ---
 
 # AI Assistant gebruiken in Journey Optimizer B2B edition
 
-In Journey Optimizer B2B edition is AI Assistant een gebruikersinterfacefunctie waarmee u productconcepten kunt begrijpen, snel kunt navigeren en leren over de Journey Optimizer B2B edition-functies en operationele inzichten voor uw specifieke omgeving kunt opvragen. Het is ook verkrijgbaar in verschillende producten in Adobe Experience Cloud.
+In Journey Optimizer B2B edition is AI Assistant een gebruikersinterfacefunctie waarmee u productconcepten kunt begrijpen, snel kunt navigeren en leren over de productfuncties en operationele inzichten voor uw omgeving kunt opvragen. Het is ook verkrijgbaar in verschillende producten in Adobe Experience Cloud.
 
 >[!IMPORTANT]
 >
@@ -21,41 +21,37 @@ In Journey Optimizer B2B edition is AI Assistant een gebruikersinterfacefunctie 
 
 U opent de AI-assistent door op het pictogram in de koptekst te klikken. AI Assistant wordt in een deelvenster aan de rechterkant geopend.
 
-![ klik het pictogram om tot de Medewerker toegang te hebben AI ](./assets/ai-assistant-icon-displayed.png){width="420" zoomable="yes"}
+![ klik het pictogram om tot de Medewerker toegang te hebben AI ](./assets/ai-assistant-icon-displayed.png){width="420"}
 
 De interface AI Assistant wordt weergegeven en bevat direct informatie die u nodig hebt om aan de slag te gaan. U kunt de opties gebruiken die onder _Ideeën worden verstrekt om_ begonnen te worden om vragen en bevelen, zoals te beantwoorden:
 
-* Welke van mijn rekeningreizen zijn gepubliceerd?
+* Welke reizen zijn gepubliceerd?
 * Welke oplossingen zijn er gevonden?
 * Vertel me de belangrijkste voordelen van Journey Optimizer B2B edition.
 
 In Adobe Journey Optimizer B2B edition biedt AI Assistant ondersteuning voor de volgende gebruiksgevallen:
 
-## Productkennis
+## Vragen over productkennis stellen
 
-Productkennisvragen gaan over Journey Optimizer B2B edition-concepten met betrekking tot aspecten van Adobe Journey Optimizer. Enkele voorbeelden van productkennisvragen zijn:
+Vragen over productkennis gaan over Journey Optimizer B2B edition-concepten en &#39;Hoe kan ik?-informatie. Enkele voorbeelden van productkennisvragen zijn:
 
 * Hoe kan ik SMS-leveranciersaccounts instellen?
-* Hoe verstuur ik een e-mail in een rekeningreis?
+* Hoe stuur ik een e-mail op reis?
 * Hoe kan ik mijn e-mailinhoud personaliseren?
 
-Als u een productvraag wilt stellen, voert u deze in in het veld onder aan het venster en drukt u op Enter.
+Als u een productvraag wilt stellen, voert u deze in in het veld onder aan het venster en drukt u op Enter. Bijvoorbeeld, wanneer u moet leren hoe te om een het kopen groep in een reis te gebruiken. In dit geval, gaat u _in hoe ik een het kopen groep in een reis gebruik?_ Nadat u de vraag hebt verzonden, vraagt AI Assistant naar de bijbehorende kennisbasis en wordt een antwoord in een paar seconden gecompileerd.
 
-![ ga een vraag in het tekstvakje ](./assets/ai-assistant-ask-question.png){width="420" zoomable="yes"} in
+![ ga een vraag in het tekstvakje ](./assets/ai-assistant-ask-question.png){width="420"} in
 
-U kunt de antwoorden verifiëren die door AI Medewerker zijn teruggekeerd door de citaten te herzien beschikbaar met elk antwoord van de productkennis.
++++Een voorbeeldantwoord weergeven
 
-Selecteer **[!UICONTROL Show sources]** als u citaties wilt weergeven en de reactie van AI Assistant wilt valideren.
+![ ga een vraag in het tekstvakje ](./assets/ai-assistant-product-answer.png){width="420"} in
 
-![ Resultaten van de AI Hulp vraag ](./assets/ai-assistant-answer.png){width="420" zoomable="yes"}
++++
 
-AI Assistant werkt de interface bij en biedt koppelingen naar documentatie die de eerste reactie bevestigen. Wanneer citaties zijn ingeschakeld, werkt AI Assistant het antwoord bij en voegt voetnoten toe om de specifieke delen van het antwoord aan te geven die naar de opgegeven documentatie verwijzen.
+## Stel vragen over operationele inzichten
 
-Gebruik het blokje omhoog of omlaag om de kwaliteit van het antwoord te beoordelen.
-
-## Operationele inzichten
-
-Operationele insight-vragen hebben betrekking op de reisobjecten in de sandbox van uw organisatie. Enkele voorbeelden van vragen of vragen over operationeel inzicht zijn:
+Operationele vragen over inzichten hebben betrekking op de reisobjecten in de sandbox van uw organisatie. U kunt vragen stellen over operationele artefacten, zoals rekeningspubliek, rekeningsreis, oplossingsrente, en het kopen groepsmalplaatje. Voorbeelden van vragen of vragen over operationele inzichten zijn:
 
 * Hoeveel reizen heb ik in Adobe Journey Optimizer B2B edition?
 * Geef me een lijst van alle geplande reizen
@@ -67,38 +63,62 @@ AI Assistant moet zich in een actieve sandbox bevinden om een voldoende antwoord
 >
 >De enige voorwerpen van Adobe Journey Optimizer B2B edition die door de AI Medewerker operationele vragen van inzichten worden gesteund zijn vermeld in de [ operationele lijst van het inzichten ](./ai-assistant-overview.md#operational-insights). Deze kan alleen toegang krijgen tot gegevens voor de sandbox waarin u zich momenteel bevindt.
 
-<!-- Select to view an example of an operational insights question.
+Als u een vraag over operationele inzichten wilt stellen, voert u deze in in het veld onder aan het deelvenster en drukt u op Enter. Wanneer u bijvoorbeeld wilt weten wat het publiek is voor uw sandbox. In dit geval, gaat u _in hoeveel publiek er zijn?_.  AI Assistant geeft een telling van de doelgroepen in uw sandbox en een uitleg van hoe het antwoord is berekend. In het volgende voorbeeldantwoord, verstrekt AI Assistant een verbinding om tot de soorten publiek in UI toegang te hebben en schetst de stappen het nam om het aantal soorten publiek te identificeren.
 
-In the following example, AI Assistant receives the following query: _Show me dataflows that were created using the Amazon S3 source._
+![ AI Hulp reactie voor hoeveel publiek ](./assets/ai-assistant-insights-answer.png){width="420"}
 
-screen
+U kunt uw eerste onderzoek volgen door om een lijst van artefacten te vragen, zoals _maak een lijst van top 5 door grootte_. De Medewerker van AI keert een lijst met de hoogste vijf punten in de vraag en hun overeenkomstige IDs terug. Klik het _pictogram van de Download_ ( ![ pictogram van de Download ](../assets/do-not-localize/icon-download.svg)) om de lijst als Csv- dossier te downloaden.
 
-AI Assistant responds with a table list of your dataflows and their corresponding IDs. Click the _Download_ icon ( Download icon ) to download the table as a CSV file. To view the entire table, click the _Expand_ icon ( Expand icon ).
+![ AI Hulp reactie voor een lijst van levende reizen ](./assets/ai-assistant-artifacts-query.png){width="420"}
 
-screen
+Om de volledige lijst in AI Medewerker te bekijken, klik _maximaliseren_ ( ![ maximaliseer pictogram ](../assets/do-not-localize/icon-maximize.svg)) pictogram. Klik in de uitgebreide tabelweergave op **[!UICONTROL Download CSV]** om de informatie op te slaan als een CSV-bestand.
 
-An expanded view of the table appears, providing you with a more comprehensive list of dataflows based on the parameters of your query.
+![ AI Hulp reactie voor een lijst van levende reizen ](./assets/ai-assistant-artifacts-maximize.png){width="600" zoomable="yes"}
 
-screen
+## Reacties verifiëren
 
-When prompted with an operational insights question, AI Assistant provides an explanation of how it computed the answer. In the following example, AI Assistant outlines the steps it took in order to identify the dataflows that were created using the Amazon S3 source.
+AI Assistant bevat gereedschappen waarmee u reacties kunt verifiëren en valideren.
 
-screen
+### Productkennisbronnen
 
-You can also provide filters and modifications to your questions, and you can instruct AI Assistant to render its findings based on the filters that you include. For example, you can ask AI Assistant to show you a trend of the count of segment definitions in the order of their created date, remove segment definitions with zero total profiles, and use month names instead of integers when displaying the data.
+Nadat u een antwoord voor een productvraag hebt ontvangen, selecteert u **[!UICONTROL Show source]** om de broncitaten van de productkennis weer te geven die worden gebruikt om de AI Assistant-reactie te genereren.
 
-### Verify operational insights responses
+AI Assistant biedt koppelingen naar de documentatie die de eerste reactie bevestigt. Er worden ook voetnoten toegevoegd aan het antwoord om de specifieke delen van het antwoord aan te geven die verwijzen naar de gekoppelde documentatiebronnen.
 
-You can verify each response related to operational insights questions using an SQL query that AI Assistant provides.
+![ Resultaten van de AI Hulp vraag ](./assets/ai-assistant-product-answer-sources.png){width="420"}
 
-Select to view example of verifying operational insights responses
+### Operationele informatiebronnen
 
-After receiving an answer for an operational insights question, click **[!UICONTROL Show sources]** and then select **[!UICONTROL View source query]**.
+Nadat u een antwoord hebt ontvangen voor een vraag over operationele inzichten, klikt u op **[!UICONTROL Show source]** en selecteert u vervolgens **[!UICONTROL View source query]** .
 
-screen
+U kunt elke reactie met betrekking tot operationele vragen van inzichten verifiëren gebruikend een SQL vraag die AI Medewerker verstrekt. Wanneer gevraagd met een operationele inzichten vraag, verstrekt AI Assistant een SQL vraag die u kunt gebruiken om het proces te verifiëren dat het nam om het antwoord te berekenen. Deze bronvraag is slechts voor verificatiedoeleinden en wordt niet gesteund op de Dienst van de Vraag.
 
-When queried with an operational insights question, AI Assistant provides an SQL query that you can use to verify the process that it took to compute its answer. This source query is for verification purposes only and is not supported on Query Service.
+![ Resultaten van de AI Hulp vraag ](./assets/ai-assistant-artifacts-query-source.png){width="550" zoomable="yes"}
 
-screen  
+## Feedback geven
 
- -->
+Gebruik de _Duim omhoog_ ( ![ duim omhoog ](../assets/do-not-localize/icon-thumb-up.svg)) of _duim neer_ ( ![ duim neer ](../assets/do-not-localize/icon-thumb-down.svg)) pictogrammen om het nut en de kwaliteit van de reactie te schatten. Vul het korte enquêteformulier in op basis van uw ervaring en klik op **[!UICONTROL Submit]** . De informatie die u verstrekt wordt gebruikt om verbeteringen in AI Medewerker aan te brengen.
+
+Als u iets in de reactie opmerkt die problematisch is, klik het _pictogram van de Vlag_ ( ![ het pictogram van de Vlag ](../assets/do-not-localize/icon-flag.svg)). Gebruik het formulier om het probleem te beschrijven en klik op **[!UICONTROL Submit]** om het probleem te melden.
+
+![ AI Hulp reactie - terugkoppel pictogrammen ](./assets/ai-assistant-response-feedback-icons.png){width="420"}
+
++++Formulieren weergeven
+
+>[!BEGINTABS]
+
+>[!TAB  Duim omhoog ]
+
+![ AI Hulp reactie - duim omhoog positieve terugkoppelt vorm ](./assets/ai-assistant-response-feedback-positive-form.png){width="600" zoomable="yes"}
+
+>[!TAB  duim neer ]
+
+![ AI Hulp reactie - de Duim ontwon negatieve terugkoppelt vorm ](./assets/ai-assistant-response-feedback-negative-form.png){width="600" zoomable="yes"}
+
+>[!TAB  Vlag ]
+
+![ AI Hulp reactie - het probleem van de vlag koppelt vorm ](./assets/ai-assistant-response-feedback-flagged-form.png){width="600" zoomable="yes"} terug
+
+>[!ENDTABS]
+
++++

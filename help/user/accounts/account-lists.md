@@ -2,9 +2,9 @@
 title: Accountlijsten
 description: Meer informatie over accountlijsten en hoe markeertekens deze kunnen gebruiken om accounts te activeren via accountreizen.
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: 25776f0ccf4e3b55891d704ebf766aa142b8e536
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '1523'
+source-wordcount: '1512'
 ht-degree: 0%
 
 ---
@@ -20,21 +20,19 @@ Wanneer een rekeningslijst in a _Levende_ (gepubliceerde) staat is, is het besch
 
 ## Accountlijsten openen en doorbladeren
 
-1. Klik op Adobe Journey Optimizer B2B edition op de startpagina van Adobe Experience Platform.
+Vouw **[!UICONTROL Accounts]** uit in de linkernavigatie en klik op **[!UICONTROL Account lists]** .
 
-1. Vouw **[!UICONTROL Accounts]** uit in de linkernavigatie en klik op **[!UICONTROL Account lists]** .
+![ de rekeningsreizen van de Toegang ](./assets/account-lists-browse.png){width="800" zoomable="yes"}
 
-   ![ de rekeningsreizen van de Toegang ](./assets/account-lists-browse.png){width="800" zoomable="yes"}
+De weergegeven _[!UICONTROL Account lists]_pagina bevat de volgende kolommen:
 
-   De weergegeven _[!UICONTROL Account lists]_pagina bevat de volgende kolommen:
-
-   * [!UICONTROL Name] (klik op de naam van de accountlijst voor meer informatie)
-   * [!UICONTROL Status]
-   * [!UICONTROL Type]
-   * [!UICONTROL Last updated on]
-   * [!UICONTROL Last updated by]
-   * [!UICONTROL Creation date]
-   * [!UICONTROL Created by]
+* [!UICONTROL Name] (klik op de naam van de accountlijst voor meer informatie)
+* [!UICONTROL Status]
+* [!UICONTROL Type]
+* [!UICONTROL Last updated on]
+* [!UICONTROL Last updated by]
+* [!UICONTROL Creation date]
+* [!UICONTROL Created by]
 
 Deze lijst omvat de capaciteit om op Naam te zoeken. De sorteerfunctie is momenteel niet beschikbaar.
 
@@ -42,7 +40,7 @@ U kunt de getoonde lijst aanpassen door de _montages van de Kolom_ te klikken ( 
 
 ![ kies de kolommen in de lijst van de rekenentransporten ](./assets/account-lists-list-columns.png){width="300"} te tonen
 
-Om de beschrijving voor een rekeningslijst te bekijken, klik het _pictogram van de Informatie_ naast de naam.
+Om de beschrijving voor een rekeningslijst te bekijken, klik het _pictogram van de Informatie_ ( ![ pictogram van de Informatie ](../assets/do-not-localize/icon-info.svg)) naast de naam.
 
 ## Een accountlijst maken
 

@@ -3,9 +3,9 @@ title: Koopgroepen maken
 description: Leer hoe u inkoopgroepen maakt met de vereiste componenten.
 feature: Buying Groups
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: a514dcdce95b6ef2a134c9882cd6b6936d473609
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
@@ -14,8 +14,6 @@ ht-degree: 0%
 # Koopgroepen maken
 
 Nadat de het kopen groep wordt gecreeerd, is het beschikbaar voor gebruik in een rekeningsreis door de [ oplossingsrente ](./solution-interests.md).
-
-1. Klik op de startpagina van Adobe Experience Platform op Adobe Journey Optimizer B2B Edition.
 
 1. Klik in de linkernavigatie op **[!UICONTROL Buying groups]** .
 

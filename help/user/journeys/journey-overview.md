@@ -3,9 +3,9 @@ title: Rekeningreizen
 description: Leer meer over accountreizen en hoe u deze kunt maken en beheren.
 feature: Account Journeys
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: bd6f998b610c6f3a4d7c0e1fce5db4bb72b8a1e3
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
@@ -29,22 +29,20 @@ Ga als volgt te werk om aan de slag te gaan met reizen:
 
 ## Accountreizen openen en doorbladeren
 
-1. Klik op Adobe Journey Optimizer B2B edition op de startpagina van Adobe Experience Platform.
+Klik in de linkernavigatie op **[!UICONTROL Account journeys]** .
 
-1. Klik in de linkernavigatie op **[!UICONTROL Account journeys]** .
+![ de rekeningsreizen van de Toegang ](./assets/account-journey-browse.png){width="800" zoomable="yes"}
 
-   ![ de rekeningsreizen van de Toegang ](./assets/account-journey-browse.png){width="800" zoomable="yes"}
+De weergegeven pagina voor ritten bevat de volgende kolommen:
 
-   De weergegeven pagina voor ritten bevat de volgende kolommen:
-
-   * [!UICONTROL Name] (klik op de naam om de rit te openen voor bewerking)
-   * [!UICONTROL Status]
-   * [!UICONTROL Description]
-   * [!UICONTROL Created by]
-   * [!UICONTROL Last updated at]
-   * [!UICONTROL Last updated by]
-   * [!UICONTROL Published on]
-   * [!UICONTROL Published by]
+* [!UICONTROL Name] (klik op de naam om de rit te openen voor bewerking)
+* [!UICONTROL Status]
+* [!UICONTROL Description]
+* [!UICONTROL Created by]
+* [!UICONTROL Last updated at]
+* [!UICONTROL Last updated by]
+* [!UICONTROL Published on]
+* [!UICONTROL Published by]
 
 Gebruik het _hulpmiddel van het Onderzoek_ bij de bovenkant om van de reis door naam de plaats te bepalen. U kunt de lijst sorteren door _[!UICONTROL Status]_te klikken op de kolomkop.
 

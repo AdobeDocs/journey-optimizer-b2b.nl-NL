@@ -3,9 +3,9 @@ title: Rolsjablonen voor inkoopgroep
 description: Meer informatie over het definiëren van een rolsjabloon die moet worden gebruikt als onderdeel van een inkoopgroep.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 745b88044c4194f08033b7bb3f79106ca206ae61
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1047'
 ht-degree: 0%
 
 ---
@@ -17,8 +17,6 @@ Op een B2B-markt worden aankoopbeslissingen meestal door meerdere personen genom
 ![ Video ](../../assets/do-not-localize/icon-video.svg){width="30"} [ bekijk de overzichtsvideo ](#overview-video)
 
 ## Rolsjablonen openen en doorbladeren
-
-1. Klik op Adobe Journey Optimizer B2B edition op de startpagina van Adobe Experience Platform.
 
 1. Klik in de linkernavigatie op **[!UICONTROL Buying groups]** .
 

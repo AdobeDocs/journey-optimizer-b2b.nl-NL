@@ -3,9 +3,9 @@ title: Groepen kopen
 description: Leer hoe kopersgroepen in Journey Optimizer B2B edition de doeltreffendheid van marketing kunnen verhogen door leden voor uw accountlijsten te identificeren en te richten.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 37b17b4377854c91995e420d462ed2f344c6f219
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '1762'
+source-wordcount: '1760'
 ht-degree: 6%
 
 ---
@@ -36,10 +36,8 @@ U kunt de doeltreffendheid van marketing verhogen door in Journey Optimizer B2B 
 
 1. Maak koopgroepen.
 
-   Opties:
-   * De rente van de oplossing van het gebruik [ ](./solution-interests.md) en [ rolmalplaatje ](./buying-groups-role-templates.md)
-   * Importeren van derden gebruiken
-   * Genereren op basis van AI/ML
+   * Bepaal [ oplossingsrente ](./solution-interests.md) en [ rolmalplaatje ](./buying-groups-role-templates.md)
+   * [ creeer de het kopen groep ](./buying-groups-create.md#create-buying-groups) en wijs [ het kopen groepsstadia ](./buying-group-stages.md) toe.
 
 1. Vermiste personen identificeren.
 
@@ -53,7 +51,7 @@ U kunt de doeltreffendheid van marketing verhogen door in Journey Optimizer B2B 
    * Send to LinkedIn Destination
    * Enrich with Zoominfo -->
 
-1. Gebruik in een rekeningsreis door het bijbehorende oplossingsbelang.
+1. Gebruik de koopgroep voor reizen naar je account.
 
 ## Koopgroepen en componenten weergeven
 
@@ -140,7 +138,7 @@ De score voor groepsbetrokkenheid kopen is een getal om de betrokkenheid van de 
 
 >[!NOTE]
 >
->De de scoreactiviteiten van het engagement worden geregistreerd in het de activiteitenlogboek van Marketo Engage [ voor een persoon ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person) {target="_blank"}.
+>De de scoreactiviteiten van het engagement worden geregistreerd in het de activiteitenlogboek van Marketo Engage [ voor een persoon ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}.
 
 +++
 

@@ -3,9 +3,9 @@ title: Oplossingsbelangen
 description: Meer informatie over de belangen van oplossingen en hoe u deze kunt definiëren voor gebruik in uw inkoopgroepen.
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: d9cd89db1814cf606cbc57b0d7ae4d5309b5c7dc
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '616'
 ht-degree: 0%
 
 ---
@@ -17,8 +17,6 @@ Voordat je koopgroepen maakt, moet je weten wat je verkoopt en wie je als doel w
 ![ Video ](../../assets/do-not-localize/icon-video.svg){width="30"} [ bekijk de overzichtsvideo ](#overview-video)
 
 ## De toegang en doorbladeren van oplossingsbelangen
-
-1. Klik op Adobe Journey Optimizer B2B edition op de startpagina van Adobe Experience Platform.
 
 1. Klik in de linkernavigatie op **[!UICONTROL Buying Groups]** .
 
