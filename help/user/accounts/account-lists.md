@@ -1,10 +1,11 @@
 ---
 title: Accountlijsten
 description: Meer informatie over accountlijsten en hoe markeertekens deze kunnen gebruiken om accounts te activeren via accountreizen.
+badgeBeta: label="Beperkte beschikbaarheid" type="informative" tooltip="Deze functie is momenteel alleen beschikbaar op aanvraag"
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
+source-git-commit: b1e4709042ef5a436bbf4f209ae13cf100e78664
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1522'
 ht-degree: 0%
 
 ---
