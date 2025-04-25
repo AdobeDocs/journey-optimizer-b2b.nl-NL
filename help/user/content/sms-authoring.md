@@ -3,9 +3,9 @@ title: SMS Authoring
 description: Leer hoe u SMS-berichten naar uw klanten op hun mobiele apparaten kunt verzenden en hoe u berichten in tekstindeling kunt personaliseren en voorvertonen vanuit de SMS-editor.
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: d2ce1685bd8185f418cd28e37dc11d539e765ad9
+source-git-commit: b614b972ad3f579c11b87af7ec7bcd6df24ec1a9
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Alvorens de berichten van SMS voor rekeningsreizen te creëren, zorg ervoor dat 
 
 ## Een SMS-actie toevoegen aan een accountreis
 
-U kunt tekstberichtenleveringen instellen in een Account Journey wanneer u een _[!UICONTROL Take an action]_-knooppunt toevoegt en het volgende doet:
+U kunt tekstberichtenleveringen instellen tijdens een accountreis wanneer u een knooppunt _[!UICONTROL Take an action]_toevoegt en het volgende doet:
 
 1. Kies **[!UICONTROL People]** voor het doel _[!UICONTROL Action on]_.
 
@@ -34,7 +34,7 @@ U kunt tekstberichtenleveringen instellen in een Account Journey wanneer u een _
 
 1. Klik op **[!UICONTROL Create]**.
 
-   De _ontwerper van de Inhoud van de Reis_ opent en u kunt het bericht tot stand brengen en de eigenschappen van SMS plaatsen voor het verzenden van het bericht.
+   De _kaart van de Reis_ opent en u kunt het bericht tot stand brengen en de eigenschappen van SMS plaatsen om het bericht te verzenden.
 
 ### Het SMS-bericht maken
 
@@ -91,7 +91,7 @@ U kunt een bericht van maximaal 1600 karakters tot stand brengen, met elke 160 k
      >[!NOTE]
      >
      >Wanneer u tekstspatiëring toestaat maar _[!UICONTROL Include mkt_tok]_uitschakelt, bevat de doel-URL na omleiding niet de parameter voor de `mkt_tok` querytekenreeks. Deze parameter wordt gebruikt door Marketo Engage landingspagina&#39;s en Munchkin om ervoor te zorgen dat het volgen van persoonactiviteiten (zoals wanneer een persoon van een e-mail afmeldt). Schakel deze optie alleen uit als de parameter problemen veroorzaakt op uw website.<br/>
-     >Voor meer informatie over het gebruiken van het volgen van Munchkin codes op uw website, verwijs naar de [ documentatie van Marketo Engage ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website) {target="_blank"}.
+     >Voor meer informatie over het gebruiken van het volgen van Munchkin codes op uw website, verwijs naar de [ documentatie van Marketo Engage ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
 
    ![ voeg verbindingsdialoog voor SMS bericht toe ](./assets/sms-add-link-dialog.png){width="470"}
 
