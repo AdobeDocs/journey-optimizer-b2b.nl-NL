@@ -3,7 +3,7 @@ title: Luisteren naar een gebeurtenis
 description: Meer informatie over het type Luisteren naar een gebeurtenisknooppunt dat u kunt gebruiken voor het orchestreren van uw accountreizen in Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
+source-git-commit: 77dcb83d3659c33184f0947fdfa20052aa534d9e
 workflow-type: tm+mt
 source-wordcount: '1302'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Luister naar een gebeurtenis op basis van de account wanneer u de account voorwa
 
 ### Een accountgebeurtenis toevoegen
 
-1. Navigeer naar de reiseditor.
+1. Navigeer naar de reiskaart.
 
 1. Klik op de plusknop ( **+** ) op een pad en kies **[!UICONTROL Listen for an event]** .
 
@@ -71,7 +71,7 @@ Luister naar een gebeurtenis op basis van mensen wanneer u de account op de reis
 
 ### Een gebeurtenis Personen toevoegen
 
-1. Navigeer naar de reiseditor.
+1. Navigeer naar de reiskaart.
 
 1. Klik op de plusknop ( **+** ) op een pad en kies **[!UICONTROL Listen for an event]** .
 
@@ -87,7 +87,7 @@ Luister naar een gebeurtenis op basis van mensen wanneer u de account op de reis
 
 Als u webpagina&#39;s hebt gemaakt in uw verbonden Marketo Engage-exemplaar, kunt u een gebeurtenis activeren op basis van een bezoek aan of geen bezoek aan Marketo Engage-webpagina&#39;s en Marketo Engage-formulieren die niet zijn ingevuld.
 
-1. Selecteer een knooppunt **[!UICONTROL Listen for an event]** in de editor voor de rit.
+1. Selecteer een knooppunt **[!UICONTROL Listen for an event]** in het reisoverzicht.
 
 1. In de knoopeigenschappen op het recht, kies **[!UICONTROL People]** voor het gebeurtenistype.
 
@@ -114,11 +114,11 @@ Als u webpagina&#39;s hebt gemaakt in uw verbonden Marketo Engage-exemplaar, kun
 
 1. Indien nodig, plaats de **[!UICONTROL Timeout]** optie om de tijdspanne te beperken om op de gebeurtenis (zie [ een onderbreking aan een gebeurtenisknoop ](#add-a-timeout-to-an-event-node) toevoegen) te luisteren.
 
-1. In de reisredacteur, voeg de volgende knoop toe om uit te voeren wanneer de gebeurtenis voorkomt.
+1. Voeg in het reisoverzicht het volgende knooppunt toe dat moet worden uitgevoerd wanneer de gebeurtenis plaatsvindt.
 
 ### Luisteren naar een Experience Event
 
-De beheerders kunnen op Adobe Experience Platform (AEP)-Gebaseerde gebeurtenisdefinities vormen, die Marketers toelaten om rekeningsreizen tot stand te brengen die aan [ de Gebeurtenissen van de Ervaring van AEP ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent) reageren. Het gebruik van AEP-ervaringsgebeurtenissen voor reizen voor rekening is een proces in twee stappen:
+De beheerders kunnen op Adobe Experience Platform (AEP)-Gebaseerde gebeurtenisdefinities vormen, die Marketers toelaten om rekeningsreizen tot stand te brengen die aan [ de Gebeurtenissen van de Ervaring van AEP ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent) reageren. Het gebruik van AEP Experience Events voor reizen in rekening is een proces in twee stappen:
 
 1. [ creeer en publiceer een de gebeurtenisdefinitie van AEP ](../admin/configure-aep-events.md).
 
@@ -128,7 +128,7 @@ De beheerders kunnen op Adobe Experience Platform (AEP)-Gebaseerde gebeurtenisde
 
 _om een Gebeurtenis van de Ervaring in uw reis te omvatten:_
 
-1. Selecteer een knooppunt **[!UICONTROL Listen for an event]** in de editor voor de rit.
+1. Selecteer een knooppunt **[!UICONTROL Listen for an event]** in het reisoverzicht.
 
 1. In de knoopeigenschappen op het recht, kies **[!UICONTROL People]** voor het gebeurtenistype.
 
@@ -160,7 +160,7 @@ _om een Gebeurtenis van de Ervaring in uw reis te omvatten:_
 
 1. Indien nodig, plaats de **[!UICONTROL Timeout]** optie om de tijdspanne te beperken om op de gebeurtenis (zie [ een onderbreking aan een gebeurtenisknoop ](#add-a-timeout-to-an-event-node) toevoegen) te luisteren.
 
-1. In de reisredacteur, voeg de volgende knoop toe om uit te voeren wanneer de gebeurtenis voorkomt.
+1. Voeg in het reisoverzicht het volgende knooppunt toe dat moet worden uitgevoerd wanneer de gebeurtenis plaatsvindt.
 
 1. Voltooi de resterende knopen voor uw reis en [ publiceer het ](./journey-overview.md).
 

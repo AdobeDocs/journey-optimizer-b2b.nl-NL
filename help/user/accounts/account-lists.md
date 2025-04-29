@@ -1,23 +1,26 @@
 ---
 title: Accountlijsten
 description: Meer informatie over accountlijsten en hoe markeertekens deze kunnen gebruiken om accounts te activeren via accountreizen.
-badgeBeta: label="Beperkte beschikbaarheid" type="informative" tooltip="Deze functie is momenteel alleen beschikbaar op aanvraag"
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: b1e4709042ef5a436bbf4f209ae13cf100e78664
+source-git-commit: 2fbf54b3e532eadb7b9a84c64c7d67eb8bcf62b2
 workflow-type: tm+mt
-source-wordcount: '1522'
+source-wordcount: '1266'
 ht-degree: 0%
 
 ---
 
 # Accountlijsten
 
-Een accountlijst is een verzameling benoemde accounts die Marktdeelnemers kunnen gebruiken voor een doelgerichte reisorganisatie. Een accountlijst kan zich richten op benoemde accounts op basis van uw gedefinieerde criteria, zoals de branche, locatie of grootte van het bedrijf. Er zijn twee typen accountlijsten:
+In Journey Optimizer B2B edition is een accountlijst een verzameling benoemde accounts die Marktdeelnemers kunnen gebruiken voor een doelgerichte reisorganisatie. Een accountlijst kan zich richten op benoemde accounts op basis van uw gedefinieerde criteria, zoals de branche, locatie of grootte van het bedrijf. Er zijn twee typen accountlijsten:
 
 * **Statisch** - met een statische rekeningslijst, verandert de lijst slechts wanneer u de rekeningen toevoegt. U kunt handmatig accounts toevoegen door een filterset toe te passen om de lijst te vullen op basis van de huidige accountgegevens, of door een accountreis toe te voegen en te verwijderen.
 * **Dynamisch** - met een dynamische rekeningslijst, bepaalt u een filter dat voor automatisch het leiden van de lijst wordt geplaatst. Het systeem gebruikt deze filterset om accounts toe te voegen en te verwijderen op basis van wijzigingen in de accountgegevens. Dit lijstbeheer is gelijkaardig aan [ publiekssegmentatie in het Platform van Gegevens van de Klant in real time ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b).
 
-Wanneer een rekeningslijst in a _Levende_ (gepubliceerde) staat is, is het beschikbaar voor gebruik in rekeningsreizen.
+Wanneer een rekeningslijst in a _Levende_ (gepubliceerde) staat is, is het beschikbaar voor [ gebruik in rekeningsreizen en de programma&#39;s van Marketo Engage ](./account-lists-journeys.md).
+
+>[!NOTE]
+>
+>Account geeft gegevens van een hefboomaccount van Marketo Engage weer om accountsegmenten en lijsten te maken. Dit betekent dat als een accountsegment van Adobe Experience Platform niet actief wordt gesynchroniseerd met Marketo Engage, de accounts in dat Experience Platform-segment mogelijk niet beschikbaar zijn in de accountlijsten van Journey Optimizer B2B edition. Daarna kunnen personen uit accounts in Experience Plafrom-segmenten die niet naar Marketo Engage zijn gesynchroniseerd, niet worden opgenomen in het aantal personen dat lid is van de organisatie of worden meegeteld in triggergebeurtenissen.
 
 ## Accountlijsten openen en doorbladeren
 
@@ -170,65 +173,3 @@ U kunt doorgaan met het publiceren van een dynamische accountlijst zodra de filt
 Het statuut van de dynamische rekeningslijst verandert in _[!UICONTROL Live]_en het is beschikbaar voor [ gebruik in een rekeningsreis ](#account-list-usage-in-account-journeys).
 
 >[!ENDTABS]
-
-## Gebruik van rekeninglijsten bij reizen van accounts
-
-Er zijn drie manieren waarop u lijsten met Live (gepubliceerde) accounts kunt opnemen in uw accountreizen:
-
-### Knop voor accountpubliek
-
-1. Selecteer **[!UICONTROL Account list]** voor de beginnende _2} knoop van het publiek van de Rekening._
-
-   ![ Uitgezochte optie van de rekeningslijst voor de knoop van het rekeningspubliek ](../journeys/assets/node-audience-account-list.png){width="500"}
-
-1. Klik op **[!UICONTROL Add accounts list]**.
-
-1. Schakel het selectievakje voor de accountlijst in en klik op **[!UICONTROL Save]** .
-
-   ![ Uitgezochte optie van de rekeningslijst voor de knoop van het rekeningspubliek ](../journeys/assets/node-audience-account-list-select-dialog.png){width="600" zoomable="yes"}
-
-De rekeningen in de lijst gaan door de reis wanneer het live gaat (gepubliceerd).
-
-### Een actieknooppunt maken - Toevoegen aan account
-
-**_Statische rekeningslijsten slechts_**
-
-Voeg rekeningen aan een statische rekeningslijst toe gebruikend [ a _neemt een 2} knoop van de Actie ](../journeys/action-nodes.md)._
-
-U hebt bijvoorbeeld een reispad waar u een e-mail verzendt en sommige accounts verschillende acties uitvoeren als reactie. U beschouwt deze activiteit als een kwalificatiepunt in de reis en wilt hen toevoegen aan een rekeningslijst die als publiek voor een andere reis met een verschillende stroom voor gekwalificeerde rekeningen wordt gebruikt.
-
->[!NOTE]
->
->Als een account al in de lijst staat wanneer het knooppunt wordt uitgevoerd, wordt de handeling genegeerd.
-
-1. Selecteer de optie _[!UICONTROL Action on]_**[!UICONTROL Accounts]**.
-
-1. Kies **[!UICONTROL Add to account list]** bij _[!UICONTROL Action on accounts]_.
-
-   ![ Uitgezochte Add aan rekeningslijst ](../journeys/assets/node-action-account-add-to-account-list.png){width="500"}
-
-1. Kies bij **[!UICONTROL Select live static account list]** de accountlijst waaraan u accounts wilt toevoegen.
-
-   ![ Uitgezochte Add aan rekeningslijst ](../journeys/assets/node-action-account-add-to-account-list-select.png){width="500"}
-
-### Een actieknooppunt maken - Verwijderen uit account
-
-**_Statische rekeningslijsten slechts_**
-
-Verwijder rekeningen uit een statische rekeningslijst gebruikend [ a _neemt een 2} knoop van de Actie ](../journeys/action-nodes.md)._
-
-U hebt bijvoorbeeld een reispad waar u een e-mail verzendt en sommige accounts verschillende acties uitvoeren als reactie. U beschouwt deze activiteit als een kwalificatiepunt in de reis en wilt hen verwijderen uit een rekeningslijst die als publiek voor een andere reis wordt gebruikt die extra e-mails verzendt zodat u uw kwalificatiemededelingen niet dupliceert.
-
->[!NOTE]
->
->Als een account niet in de lijst staat waar deze moet worden verwijderd, wordt de handeling genegeerd.
-
-1. Selecteer de optie _[!UICONTROL Action on]_**[!UICONTROL Accounts]**.
-
-1. Kies **[!UICONTROL Remove from account list]** bij _[!UICONTROL Action on accounts]_.
-
-   ![ Uitgezochte Add aan rekeningslijst ](../journeys/assets/node-action-account-remove-from-account-list.png){width="500"}
-
-1. Kies bij **[!UICONTROL Select live static account list]** de accountlijst waarin u accounts wilt verwijderen.
-
-   ![ Uitgezochte Add aan rekeningslijst ](../journeys/assets/node-action-account-remove-from-account-list-select.png){width="500"}

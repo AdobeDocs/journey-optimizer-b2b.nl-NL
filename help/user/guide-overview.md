@@ -2,9 +2,9 @@
 title: Documentatie voor Adobe Journey Optimizer B2B Edition
 description: Leer hoe u de Adobe Journey Optimizer B2B edition-functies kunt gebruiken voor het ordenen van accounts en het kopen van groepsreizen met behulp van ingebouwde generatieve AI en toonaangevende automatisering.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 472ec05b4da1c5e91a2aa0da6bc9f5dedf03a862
+source-git-commit: 8328829d11af5287dce743d49374fc4b1a4b3f53
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '719'
 ht-degree: 4%
 
 ---
@@ -13,9 +13,33 @@ ht-degree: 4%
 
 ## Wat is nieuw?
 
-Hier volgt een voorbeeld van de nieuwste verbeteringen in het Journey Optimizer B2B edition-product en -documentatie.
+Hier volgt een voorbeeld van de meest recente toevoegingen en verbeteringen in de Journey Optimizer B2B edition-toepassing en -documentatie.
 
 >[!BEGINTABS]
+
+>[!TAB  de lijsten van de Rekening ]
+
+Maak een accountlijst, die bestaat uit een verzameling benoemde accounts die Marktdeelnemers kunnen gebruiken voor een doelgerichte reisorganisatie. Een accountlijst kan zich richten op benoemde accounts op basis van uw gedefinieerde criteria, zoals de branche, locatie of grootte van het bedrijf.
+
+[!BADGE Meer informatie]{type=Informative url="/help/user/accounts/account-lists.md" tooltip="Meer informatie over accountlijsten"}
+
+>[!TAB  de lijstfilters van de Rekening voor slimme lijsten ]
+
+U kunt nu slimme Marketo Engage-lijsten filteren met accountlijstfilters. Met deze filters kunt u leden van accountlijsten onderdrukken en opnemen in alle Marketo Engage-campagnes en -programma&#39;s vanaf reizen binnen Journey Optimizer B2B edition.
+
+[!BADGE Meer informatie]{type=Informative url="/help/user/accounts/account-lists-journeys.md#marketo-engame-program-member-of-account-list" tooltip="Meer informatie over filters voor accountlijsten die worden gebruikt in slimme Marketo Engage-lijsten"}
+
+>[!TAB  de geschiedenisfilters van de Inactiviteit ]
+
+Voortgangsreizen op basis van inactiviteit in Marketo Engage-campagnes en -programma&#39;s, zoals e-mail, interessante momenten, wijzigingen in gegevenswaarde en bezochte webpagina&#39;s.
+
+[!BADGE Meer informatie]{type=Informative url="/help/user/journeys/split-merge-paths-nodes.md#activity-filtering" tooltip="Meer informatie over filters voor inactiviteitsgeschiedenis"}
+
+>[!TAB  de duplicatie van de Reis ]
+
+Dupliceer de reisstructuren van uw account om handmatige fouten tot een minimum te beperken en consistente instellingen, stromen en paden te garanderen. In de gedupliceerde reis, kunt u inhoud of acties aanpassen, die het gemakkelijker maken om grotere en complexere &#x200B; te beheren.
+
+[!BADGE Meer informatie]{type=Informative url="/help/user/journeys/journey-overview.md#duplicate-trip" tooltip="Meer informatie over het dupliceren van reizen"}
 
 >[!TAB  Intelligent inzichten dashboard ]
 
@@ -27,33 +51,15 @@ Met het nieuwe intelligente dashboard kunt u zien hoe het aanschaffen van groeps
 
 Met de Snelle acties van Adobe Express kunt u uw inhoud bijwerken met uitsnijden, vergroten/verkleinen, verwijderen van de achtergrond en het omzetten van indelingen. De intuïtieve gebruikersinterface van Adobe Express is ingebouwd zodat u uw afbeeldingselementen snel kunt perfectioneren.
 
-Met Adobe Express Enterprise-licenties kunt u een volledige reeks Adobe Express-mogelijkheden benutten. Gebruik deze functies om afbeeldingen te verfraaien en te verbeteren, terwijl u zich aan de richtlijnen voor merken houdt, en om wegversperringen in de toeleveringsketen van de inhoud te verwijderen.
+Met Adobe Express Enterprise-licenties kunt u een volledige reeks Adobe Express-mogelijkheden benutten. Gebruik deze functies om afbeeldingen te verfraaien en te verbeteren, terwijl u zich aan de richtlijnen voor merken houdt, en om wegversperringen in de toeleveringsketen van inhoud te verwijderen.
 
 [!BADGE Meer informatie]{type=Informative url="/help/user/content/image-edit-adobe-express.md" tooltip="Meer informatie over het bewerken van afbeeldingen met Adobe Express"}
 
 >[!TAB  Aanpasbare gebieden van het fragment ]
 
-Als inhoudsontwerper kunt u een parameter voor een component in het fragment toewijzen als bewerkbaar. Hierdoor kan de auteur van een e-mail of sjabloon een aangepaste veldwaarde opgeven die specifiek is voor zijn of haar behoeften. Deze aanpassingsvlag is beperkt tot beeld, tekst, en knoop visuele componenten.
+Als inhoudsontwerper kunt u een parameter voor een component in het fragment toewijzen als bewerkbaar. Met deze configuratie kan de auteur van een e-mail of sjabloon een aangepaste veldwaarde opgeven die specifiek is voor zijn of haar behoeften. Deze aanpassingsvlag is beperkt tot beeld, tekst, en knoop visuele componenten.
 
 [!BADGE Meer informatie]{type=Informative url="/help/user/content/fragment-authoring.md#enable-fragment-customization" tooltip="Informatie over aangepaste velden voor inhoudsfragmenten"}
-
->[!TAB  gebeurtenis die van AEP ] door:sturen
-
-Beheerders kunnen nu op Adobe Experience Platform (AEP) gebaseerde gebeurtenisdefinities configureren. Met deze configuraties kunnen markeertekens accountreizen maken die reageren op AEP Experience Events.
-
-[!BADGE Meer informatie]{type=Informative url="/help/user/admin/configure-aep-events.md" tooltip="Meer informatie over AEP-gebeurtenisdefinities die worden gebruikt voor reisorchestratie"}
-
->[!TAB  het Kopen groepsfilters voor slimme lijsten ]
-
-U kunt nu slimme lijsten weergeven en maken door groepsfilters te kopen in Marketo Engage. Met deze filters kunt u de aanschaf van groepsleden in alle Marketo Engage-campagnes en -programma&#39;s onderdrukken en opnemen voor reizen van accounts binnen Journey Optimizer B2B edition.
-
-[!BADGE Meer informatie]{type=Informative url="/help/user/buying-groups/marketo-engage-smart-list-buying-group-filters.md" tooltip="Meer informatie over het kopen van groepsfilters in Marketo Engage Smart-lijsten"}
-
->[!TAB  Voorwaardelijke inhoud ]
-
-Gebruik voorwaardelijke inhoud om uw e-mailinhoud aan te passen op basis van voorwaardelijke regels. Definieer de regels met profielkenmerken of contextuele gebeurtenissen. U kunt voorwaardelijke regels maken in de builder van regels en deze opslaan voor hergebruik tijdens uw accountreizen.
-
-[!BADGE Meer informatie]{type=Informative url="/help/user/content/conditional-content.md" tooltip="Meer informatie over voorwaardelijke inhoud"}
 
 >[!ENDTABS]
 
@@ -64,15 +70,15 @@ Voor een volledige lijst van nieuwe eigenschappen en verbeteringen, zie de [ ver
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
-    <a href="home-page.md"><img width="120px" src="./assets/launch.png" alt="Starten van productgebruik"></a>
+    <a href="home-page.md"><img width="140px" src="./assets/launch.png" alt="Starten van productgebruik"></a>
     <div><strong> Lancering van uw homepage </strong><br/> Leer hoe te om uw doelstellingen sneller in Journey Optimizer B2B edition met uw gepersonaliseerde homepage te bereiken die op uw rol wordt gebaseerd.</div>
     </td>
       <td>
-    <a href="buying-groups/buying-groups-overview.md"><img width="120px" src="./assets/communication.png" alt="Koopgroepen"></a>
+    <a href="buying-groups/buying-groups-overview.md"><img width="140px" src="./assets/communication.png" alt="Koopgroepen"></a>
     <div><strong> bouwt uw eerste het Kopen Groep </strong><br/> tot uw eerste het kopen groep in Journey Optimizer B2B edition om het proces te automatiseren om en gekwalificeerde contacten in te schakelen.</div>
     </td>
     <td>
-    <a href="journeys/journey-overview.md"><img width="120px" src="./assets/flow.png" alt="Accountreizen"></a>
+    <a href="journeys/journey-overview.md"><img width="140px" src="./assets/flow.png" alt="Accountreizen"></a>
     <div><strong> creeer uw eerste Journaal van de Rekening </strong><br/> Ontwerp en orkestreer gepersonaliseerde rekeningsreizen om marketing outreach met gerichte overeenkomst te harmoniseren. 
     </div>
     </td>

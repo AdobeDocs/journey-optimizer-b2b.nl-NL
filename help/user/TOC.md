@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentatie voor de B2B-editie van Journey Optimizer
 user-guide-description: Meer informatie over de B2B-editie van Adobe Journey Optimizer en hoe u deze kunt gebruiken om account- en inkoopgroeptrajecten te orkestreren met behulp van ingebouwde generatieve AI en toonaangevende automatisering.
-source-git-commit: 168bd128de8845c1ccd4e33b290aecebc28064ef
+source-git-commit: 5ed7e58b7a069c8b436d0d2f7b338072259768be
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 20%
+source-wordcount: '255'
+ht-degree: 21%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 20%
       + [Wachten](./journeys/wait-nodes.md)
    + [Reisgegevens](./journeys/journey-details.md)
 + Reisinhoud {#journey-content}
-   + E-mailkanaal {#email-channel}
+   + Email channel {#email-channel}
       + [E-mailontwerp](./content/email-authoring.md)
       + [AI Assistant voor het schrijven van e-mail](./content/ai-assistant-emails.md)
       + [Beheerde sjablonen](./content/email-authoring-governance.md)
@@ -44,7 +44,7 @@ ht-degree: 20%
    + [SMS-authoring](./content/sms-authoring.md)
 + Accounts {#accounts}
    + [Soorten publiek](./audiences/account-audience-overview.md)
-   + Groepen kopen {#buying-groups}
+   + Koopgroepen {#buying-groups}
       + [Overzicht](./buying-groups/buying-groups-overview.md)
       + [Oplossingsbelangen](./buying-groups/solution-interests.md)
       + [Rolsjablonen](./buying-groups/buying-groups-role-templates.md)
@@ -54,13 +54,15 @@ ht-degree: 20%
       + [Accountlijst exporteren](./audiences/account-list-export.md)
       + [Gekoppeld publiek voor account gekoppeld](./data/linkedin-account-matched-audiences.md)
       + [Groepsfilters kopen in Markt](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
-   + [Accountlijsten](./accounts/account-lists.md)
+   + Accountlijsten {#occount-lists}
+      + [Overzicht](./accounts/account-lists.md)
+      + [Gebruik tijdens reizen en programma&#39;s](./accounts/account-lists-journeys.md)
    + [Accountgegevens](./accounts/account-details.md)
    + [XDM-velden](./data/field-mapping.md)
 + Inhoudsbeheer {#content-management}
    + Assets {#assets}
       + [Overzicht](./content/assets-overview.md)
-      + Marketo Engage-elementen {#marketo-engage-dam}
+      + Marketo Engage-middelen {#marketo-engage-dam}
          + [Werken met Marketo Engage-middelen](./content/marketo-engage-design-studio.md)
          + [Afbeeldingen bewerken met Adobe Express](./content/image-edit-adobe-express.md)
       + [Experience Manager-afbeeldingselementen](./content/aem-assets.md)

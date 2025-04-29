@@ -3,7 +3,7 @@ title: Een accountreis maken en publiceren
 description: Leer hoe u accountreizen maakt en publiceert.
 feature: Account Journeys
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
-source-git-commit: 40043b0cae1be64cffedbc65da2d2b091186a310
+source-git-commit: 77dcb83d3659c33184f0947fdfa20052aa534d9e
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Een accountreis maken en publiceren
 
-Om met een rekeningreis te beginnen, creeer de reis en bouw dan de knopen en de reisstroom in de reisredacteur.
+Om met een rekeningreis te beginnen, creeer de reis en bouw dan de knopen en de reisstroom in de reiskaart.
 
 ![ Video ](../../assets/do-not-localize/icon-video.svg){width="30"} [ bekijk de overzichtsvideo ](#overview-video)
 
@@ -50,7 +50,7 @@ Om u te helpen een reis bouwen zonder in fouten te lopen, zijn de volgende veili
 
 ## Een knooppunt toevoegen
 
-1. Navigeer naar de reiseditor.
+1. Navigeer naar de reiskaart.
 
 1. Klik op de plusknop ( **+** ) op het pad en selecteer het knooppunttype.
 
@@ -58,7 +58,7 @@ Om u te helpen een reis bouwen zonder in fouten te lopen, zijn de volgende veili
 
 ## Een knooppunt verwijderen
 
-1. Navigeer naar de reiseditor.
+1. Navigeer naar de reiskaart.
 
 1. In de knoopeigenschappen op het recht, klik _Schrapping_ ( ![ pictogram van de Schrapping ](../assets/do-not-localize/icon-delete.svg)) pictogram.
 
@@ -66,7 +66,7 @@ Om u te helpen een reis bouwen zonder in fouten te lopen, zijn de volgende veili
 
 ## Een pad toevoegen en verwijderen
 
-1. Navigeer naar de reiseditor.
+1. Navigeer naar de reiskaart.
 
 1. Klik plus ( **+**) pictogram op de weg en voeg de [ gespleten wegknoop ](./split-merge-paths-nodes.md#split-paths) toe.
 

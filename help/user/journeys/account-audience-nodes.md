@@ -3,16 +3,16 @@ title: Auditienoten account
 description: Meer informatie over het type accountpubliek dat u kunt gebruiken voor het definiëren van de invoer voor uw accountreizen in Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: 288ac5a8-79ed-4654-8ac1-83da2af04f2c
-source-git-commit: ed75e0c9b0391c31034a1143ef58c20673eac328
+source-git-commit: 5ed7e58b7a069c8b436d0d2f7b338072259768be
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
 
 # Transparante knooppunten voor het publiek
 
-Het accountpubliek definieert het gebruikerspubliek van de invoeraccount (gemaakt en beheerd in Adobe Experience Platform) voor de rit. Wanneer u [ een rekeningsreis ](./journey-overview.md#create-an-account-journey) creeert, begint het altijd met een _het publiek van de Rekening_ knoop die de input voor de reis bepaalt.
+Het het publieksknoop van de Rekening bepaalt de inputrekeningen voor de reis. Wanneer u [ een rekeningsreis ](./journey-overview.md#create-an-account-journey) creeert, begint het altijd met een _het publiek van de Rekening_ knoop die de input voor de reis bepaalt.
 
 Er zijn twee typen invoer die u voor dit knooppunt kunt gebruiken:
 
@@ -53,4 +53,4 @@ _om een publiekssegment tot stand te brengen:_
 
    ![ creeer een publiekssegment ](./assets/audiences-list-create.png){width="800" zoomable="yes"}
 
-1. Volg de stappen in de [ gids van de Dienst van de Segmentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences) worden beschreven {target="_blank"}.
+1. Volg de stappen die in de [ gids van de Dienst van de Segmentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences){target="_blank"} worden beschreven.

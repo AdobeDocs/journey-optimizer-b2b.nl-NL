@@ -2,7 +2,8 @@
 title: Wacht knooppunten
 description: Meer informatie over het type Wachten dat u kunt gebruiken voor het ordenen van uw accountreizen in Journey Optimizer B2B edition.
 feature: Account Journeys
-source-git-commit: 279bc07b90da96c3d497f67a14596a3bed308984
+exl-id: fecab788-4e8e-490a-bcca-bc3ab43411d9
+source-git-commit: 77dcb83d3659c33184f0947fdfa20052aa534d9e
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
@@ -20,7 +21,7 @@ U kunt de wachttijd op twee manieren definiëren:
 
 _om een wachtende knoop voor uw rekeningsreis te bepalen:_
 
-1. Navigeer naar de reiseditor.
+1. Navigeer naar de reiskaart.
 
 1. Klik op de plusknop ( **+** ) op een pad en kies **[!UICONTROL Wait]** .
 
