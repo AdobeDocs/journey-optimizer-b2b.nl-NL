@@ -2,9 +2,9 @@
 title: Aanvullende informatie
 description: Nieuwste aanvullende informatie voor de B2B-editie van Adobe Journey Optimizer
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: f4c0870e3cf8a8c1db3ed2f11f7ecfdf244f69fe
+source-git-commit: f26f8767a9bb1c7df8a1aaf4ca91657e40ef8aa1
 workflow-type: tm+mt
-source-wordcount: '1992'
+source-wordcount: '1988'
 ht-degree: 6%
 
 ---
@@ -27,7 +27,7 @@ Deze release bevat de volgende nieuwe mogelijkheden en verbeteringen:
 | ---- | ---- | ----------- |
 | Functie | Accountlijsten | U kunt nu een statische of dynamische accountlijst maken om benoemde accounts als doel in te stellen op basis van uw gedefinieerde criteria, zoals de industrie, locatie of grootte van het bedrijf. <a href="../accounts/account-lists.md">Meer informatie</a> |
 | Functie | Reisorchestratie van rekeninglijsten | De knopen van de reisactie van het gebruik om rekeningen voor statische rekeningslijsten toe te voegen en te verwijderen. <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">Meer informatie</a> |
-| Verbetering | Reislidmaatschap filteren in Marketo Engage | De de rekeningslijsten van Adobe Journey Optimizer B2B edition van het gebruik voor het reispubliek en gebruiken dan het _Lid van een 1} filter van de rekeningslijst in Marketo Engage slimme lijsten._ &lt;a href=&quot;../accounts/account-lists-journeys.md#marketo-engt-program-member-of-account-list>Meer informatie </a> |
+| Verbetering | Reislidmaatschap filteren in Marketo Engage | De de rekeningslijsten van Adobe Journey Optimizer B2B edition van het gebruik voor het reispubliek en gebruiken dan het _Lid van een 1} filter van de rekeningslijst in Marketo Engage slimme lijsten._ <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">Meer informatie</a> |
 | Functie | Inactiviteitsfilters | Orchestreer reizen op basis van inactiviteit in Marketo Engage-campagnes en -programma&#39;s, waaronder inactiviteit via e-mail, interessante momenten, wijzigingen in gegevenswaarde en bezochte webpagina&#39;s. <a href="../journeys/split-merge-paths-nodes.md#activity-filtering">Meer informatie</a> |
 | Verbetering | Bestaande webpagina, filter | Reizen ordenen op basis van activiteiten voor bezochte webpagina&#39;s in verband met campagnes en programma&#39;s van Marketo Engage. <a href="../journeys/split-merge-paths-nodes.md#people-path-conditions">Meer informatie</a> |
 
