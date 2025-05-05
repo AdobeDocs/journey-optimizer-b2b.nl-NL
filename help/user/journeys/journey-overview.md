@@ -154,4 +154,4 @@ Gebruik een verwijderactie om een reis permanent te verwijderen. U kunt een live
 
 ## Video over overzicht
 
->[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443213/?learn=on&captions=dut)

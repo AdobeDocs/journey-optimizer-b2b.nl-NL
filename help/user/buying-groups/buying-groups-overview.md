@@ -204,4 +204,4 @@ De uiteindelijke betrokkenheidsscore wordt berekend door de weging toe te passen
 
 ## Video over overzicht
 
->[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3452939/?learn=on&captions=dut)
