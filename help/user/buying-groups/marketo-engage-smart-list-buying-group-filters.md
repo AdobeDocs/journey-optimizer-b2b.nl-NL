@@ -20,7 +20,7 @@ Als deze voorwaarden waar zijn, kunt u ervoor kiezen om de hoogste score te beha
 
 In uw Marketo Engage-instantie die is verbonden met Journey Optimizer B2B edition, kunt u het filter _[!UICONTROL Member of Buying Group]_&#x200B;in uw slimme lijsten gebruiken om deze leads te identificeren op basis van uw campagnestrategie.
 
-1. Nadat u [ een Slimme Lijst in Marketo Engage ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"}  creeert, selecteer het **[!UICONTROL Smart List]** lusje om de filterredacteur te openen.
+1. Nadat u [ een Slimme Lijst in Marketo Engage ](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"}  creeert, selecteer het **[!UICONTROL Smart List]** lusje om de filterredacteur te openen.
 
 1. Blader in de lijst met filters aan de rechterkant omlaag en vouw de map **[!UICONTROL Special Filters]** uit.
 

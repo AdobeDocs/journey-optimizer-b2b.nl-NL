@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Experience Platform-gebeurtenisdefinities configureren
 
-De beheerders kunnen op Adobe Experience Platform (AEP)-Gebaseerde gebeurtenisdefinities vormen, die Marketers toelaten om rekeningsreizen tot stand te brengen die aan [ de Gebeurtenissen van de Ervaring van AEP ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent) reageren.
+De beheerders kunnen op Adobe Experience Platform (AEP)-Gebaseerde gebeurtenisdefinities vormen, die Marketers toelaten om rekeningsreizen tot stand te brengen die aan [ de Gebeurtenissen van de Ervaring van AEP ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/classes/experienceevent) reageren.
 
 ![ Video ](../../assets/do-not-localize/icon-video.svg){width="30"} [ bekijk het videooverzicht ](#overview-video)
 
@@ -29,7 +29,7 @@ Voor elke gebeurtenisdefinitie is de volgende Experience Platform-invoer vereist
 
   >[!NOTE]
   >
-  >Coördineer met uw team van de Techniek om ervoor te zorgen dat de benodigde schema&#39;s worden bepaald. [ Creërend XDM- schema&#39;s ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) is een complex proces dat door gegevensingenieurs wordt uitgevoerd die op gebruiksgevalvereisten over uw organisatie worden gebaseerd.
+  >Coördineer met uw team van de Techniek om ervoor te zorgen dat de benodigde schema&#39;s worden bepaald. [ Creërend XDM- schema&#39;s ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/schema/composition) is een complex proces dat door gegevensingenieurs wordt uitgevoerd die op gebruiksgevalvereisten over uw organisatie worden gebaseerd.
 
 * **_de types van Gebeurtenis_** - XDM ExperienceEvent eventType (maximum van 20 per gebeurtenisdefinitie).
 
@@ -115,7 +115,7 @@ Als u naar een gebeurtenisdefinitie op naam wilt zoeken, voert u een tekenreeks 
 
 1. Selecteer de **[!UICONTROL Event types]** die u voor de gebeurtenisdefinitie wilt gebruiken.
 
-   De [ gebeurtenistypen ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent#eventType) die u selecteert bepalen de gebeurtenissen die als beperkingen voor a _beschikbaar zijn luisteren naar een gebeurtenis_ knoop in een rekeningsreis.
+   De [ gebeurtenistypen ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/classes/experienceevent#eventType) die u selecteert bepalen de gebeurtenissen die als beperkingen voor a _beschikbaar zijn luisteren naar een gebeurtenis_ knoop in een rekeningsreis.
 
    * Klik op **[!UICONTROL Select event types]**.
    * Selecteer in het dialoogvenster een of meer gebeurtenistypen in de lijst (maximaal 20).

@@ -15,7 +15,7 @@ Accountpublieksgegevens worden opgeslagen als kenmerken in zowel de XDM Business
 
 >[!TIP]
 >
->U kunt de klassen van de Zakelijke Persoon XDM en van de Zakelijke Rekening XDM in een vele-aan-vele verhouding modelleren door de klasse van de Verhouding van de Person van de Onderneming XDM te gebruiken XDM zoals die in de [ documentatie XDM van Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b) wordt beschreven.
+>U kunt de klassen van de Zakelijke Persoon XDM en van de Zakelijke Rekening XDM in een vele-aan-vele verhouding modelleren door de klasse van de Verhouding van de Person van de Onderneming XDM te gebruiken XDM zoals die in de [ documentatie XDM van Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/tutorials/relationship-b2b) wordt beschreven.
 
 ## Kenmerken XDM Zakelijke account persoon relatie
 
@@ -79,7 +79,7 @@ Accountpublieksgegevens worden opgeslagen als kenmerken in zowel de XDM Business
 
 ## Kenmerken van XDM Business Opportunity
 
-Bovendien, worden de opportuniteitsgegevens opgeslagen als attributen in de XDM klasse Business Opportunity, die met de XDM klasse van de BedrijfsRekening door een veel-aan-één verhouding kan worden geassocieerd, zoals [ hier ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field) wordt beschreven.
+Bovendien, worden de opportuniteitsgegevens opgeslagen als attributen in de XDM klasse Business Opportunity, die met de XDM klasse van de BedrijfsRekening door een veel-aan-één verhouding kan worden geassocieerd, zoals [ hier ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field) wordt beschreven.
 
 | [ Bezit ](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md) | Weergavenaam | Journey Optimizer B2B-weergavenaam | Gegevenstype | Beschrijving |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |

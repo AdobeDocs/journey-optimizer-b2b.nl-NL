@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # AI Assistant in Journey Optimizer B2B edition
 
-AI Medewerker in Journey Optimizer B2B edition wordt gecreeerd van de zelfde technologiestichting van [ AI Medewerker in Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home). Het is een conversatie-ervaring die u kunt gebruiken om uw workflows in Adobe Journey Optimizer B2B edition te versnellen. U kunt AI Assistant gebruiken om meer inzicht te krijgen in de productmogelijkheden, problemen op te lossen of informatie te doorzoeken en operationele inzichten voor Journey Optimizer B2B edition te zoeken.
+AI Medewerker in Journey Optimizer B2B edition wordt gecreeerd van de zelfde technologiestichting van [ AI Medewerker in Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/home). Het is een conversatie-ervaring die u kunt gebruiken om uw workflows in Adobe Journey Optimizer B2B edition te versnellen. U kunt AI Assistant gebruiken om meer inzicht te krijgen in de productmogelijkheden, problemen op te lossen of informatie te doorzoeken en operationele inzichten voor Journey Optimizer B2B edition te zoeken.
 
 >[!IMPORTANT]
 >
@@ -77,9 +77,9 @@ Voor vragen over operationele inzichten weerspiegelen de antwoorden mogelijk nie
 
 Momenteel is het bereik van AI Assistant als volgt:
 
-* [ de kennis van het Product ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home#product-knowledge): De Medewerker van AI kan de vragen van de productkennis voor Real-Time Customer Data Platform en Adobe Journey Optimizer B2B edition beantwoorden.
+* [ de kennis van het Product ](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/home#product-knowledge): De Medewerker van AI kan de vragen van de productkennis voor Real-Time Customer Data Platform en Adobe Journey Optimizer B2B edition beantwoorden.
 
-* [ Operationele inzichten ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home#operational-insights): U kunt AI Hulp vragen voor operationele inzichten voor de volgende gegevensvoorwerpen: attributen, rekeningspubliek, dataflows, datasets, bestemmingen, rekeningsreizen, schema&#39;s, bronnen, het kopen groepsmalplaatjes, en oplossingsbelangen.
+* [ Operationele inzichten ](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/home#operational-insights): U kunt AI Hulp vragen voor operationele inzichten voor de volgende gegevensvoorwerpen: attributen, rekeningspubliek, dataflows, datasets, bestemmingen, rekeningsreizen, schema&#39;s, bronnen, het kopen groepsmalplaatjes, en oplossingsbelangen.
 
 ### Privacy, veiligheid en bestuur
 
@@ -91,7 +91,7 @@ AI Assistant in Journey Optimizer B2B edition is gebouwd met privacy, beveiligin
 
 * U moet expliciete toestemming hebben om met AI Medewerker in wisselwerking te staan.
 
-   * Een beheerder kan toestemmingen plaatsen gebruikend [ Toestemmingen UI ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions) en [ Admin Console ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse).
+   * Een beheerder kan toestemmingen plaatsen gebruikend [ Toestemmingen UI ](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/abac/permissions-ui/permissions) en [ Admin Console ](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/ui/browse).
 
    * De toestemmingen zijn korrelig en uw zandbakbeheerder kan vormen welke gebruikers verschillende vraagcategorieën (product kennisgebaseerde vragen met AI Medewerker of vragen over operationele inzichten) kunnen stellen.
 

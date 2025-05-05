@@ -53,4 +53,4 @@ _om een publiekssegment tot stand te brengen:_
 
    ![ creeer een publiekssegment ](./assets/audiences-list-create.png){width="800" zoomable="yes"}
 
-1. Volg de stappen die in de [ gids van de Dienst van de Segmentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences){target="_blank"} worden beschreven.
+1. Volg de stappen die in de [ gids van de Dienst van de Segmentatie ](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/account-audiences){target="_blank"} worden beschreven.
