@@ -38,7 +38,7 @@ U kunt de weergegeven gegevens filteren op datumbereik en kenmerken.
 
 ### Filter datumbereik
 
-Gebruik _[!UICONTROL Date range filter]_in de rechterbovenhoek om de gegevens te filteren op basis van het datumbereik.
+Gebruik _[!UICONTROL Date range filter]_&#x200B;in de rechterbovenhoek om de gegevens te filteren op basis van het datumbereik.
 
 ![ filter de getoonde gegevens door datumwaaier ](./assets/engagement-date-filter.png){width="380"}
 

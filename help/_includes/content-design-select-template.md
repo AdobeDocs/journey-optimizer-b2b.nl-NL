@@ -14,9 +14,9 @@ U kunt kiezen uit:
 
 * **malplaatjes van de Steekproef**. De Journey Optimizer-interface bevat 20 e-mailsjablonen die u kunt kiezen.
 
-* **Bewaarde malplaatjes**. Gebruik een opgeslagen aangepaste sjabloon die u helemaal zelf hebt gemaakt via het menu _[!UICONTROL Templates]_of die u via de optie_[!UICONTROL Save as content template]_ hebt opgeslagen in een e-mail.
+* **Bewaarde malplaatjes**. Gebruik een opgeslagen aangepaste sjabloon die u helemaal zelf hebt gemaakt via het menu _[!UICONTROL Templates]_&#x200B;of die u via de optie&#x200B;_[!UICONTROL Save as content template]_ hebt opgeslagen in een e-mail.
 
-Gebruik de sectie _[!UICONTROL Select design template]_om uw inhoud op te bouwen van een sjabloon. U kunt een voorbeeldsjabloon of een opgeslagen aangepaste e-mailsjabloon uit uw Journey Optimizer B2B Edition-exemplaar gebruiken.
+Gebruik de sectie _[!UICONTROL Select design template]_&#x200B;om uw inhoud op te bouwen van een sjabloon. U kunt een voorbeeldsjabloon of een opgeslagen aangepaste e-mailsjabloon uit uw Journey Optimizer B2B Edition-exemplaar gebruiken.
 
 >[!BEGINTABS]
 

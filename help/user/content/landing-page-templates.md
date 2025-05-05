@@ -19,7 +19,7 @@ Voor een versneld en verbeterd ontwerpproces kunt u zelfstandige landingspagina-
 
 ## Sjablonen voor landingspagina&#39;s openen en beheren
 
-Ga naar **[!UICONTROL Content Management]** > **[!UICONTROL Templates]** voor toegang tot sjablonen voor openingspagina&#39;s in Adobe Journey Optimizer B2B edition. Selecteer onder _[!UICONTROL WEB]_in het navigatievenster de optie **[!UICONTROL Landing page templates]**.
+Ga naar **[!UICONTROL Content Management]** > **[!UICONTROL Templates]** voor toegang tot sjablonen voor openingspagina&#39;s in Adobe Journey Optimizer B2B edition. Selecteer onder _[!UICONTROL WEB]_&#x200B;in het navigatievenster de optie **[!UICONTROL Landing page templates]**.
 
 De weergegeven aanbiedingspagina bevat alle sjablonen van de bestemmingspagina die in de instantie in de tabel zijn gemaakt. De tabel wordt standaard gesorteerd op de kolom _[!UICONTROL Modified]_, met de laatst bijgewerkte sjablonen bovenaan. Klik op de kolomtitel om te schakelen tussen oplopend en aflopend.
 
@@ -43,7 +43,7 @@ U kunt een sjabloon van een bestemmingspagina maken op de sjabloonlijstpagina va
 
 1. Klik op **[!UICONTROL Create]**.
 
-De pagina _[!UICONTROL Create your primary landing page]_wordt geopend en bevat opties voor het maken van de sjabloon:_[!UICONTROL Design from scratch]_ , _[!UICONTROL Import HTML]_of selecteer een van de_[!UICONTROL Saved templates]_ .
+De pagina _[!UICONTROL Create your primary landing page]_&#x200B;wordt geopend en bevat opties voor het maken van de sjabloon:_[!UICONTROL Design from scratch]_ , _[!UICONTROL Import HTML]_&#x200B;of selecteer een van de&#x200B;_[!UICONTROL Saved templates]_ .
 
 ![ kies hoe u met uw het landen sjabloonontwerp van de pagina wilt beginnen ](./assets/landing-page-templates-create-design.png){width="800" zoomable="yes"}
 
@@ -122,7 +122,7 @@ U kunt een landingspagina-sjabloon dupliceren met een van de volgende methoden:
 
   ![ klik Meer om tot Schrapping toegang te hebben en acties te dupliceren ](./assets/template-details-more-menu.png){width="400"}
 
-* Klik op de aanbiedingspagina van _[!UICONTROL Landing page templates]_op het ovaal (...) naast de sjabloon en kies **[!UICONTROL Duplicate]**.
+* Klik op de aanbiedingspagina van _[!UICONTROL Landing page templates]_&#x200B;op het ovaal (...) naast de sjabloon en kies **[!UICONTROL Duplicate]**.
 
 Voer in het dialoogvenster een nuttige naam (uniek) en beschrijving in. Klik op **[!UICONTROL Duplicate]** om de handeling te voltooien.
 

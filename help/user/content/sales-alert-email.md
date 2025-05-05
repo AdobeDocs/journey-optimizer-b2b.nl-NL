@@ -52,7 +52,7 @@ Als marketeer kunt u een e-mailknooppunt voor een melding van verkopen configure
 
 ## Een e-mailactie voor een verkoopwaarschuwing toevoegen aan een accountreis
 
-U kunt e-mailleveringen voor meldingen bij verkoop instellen in een accountreis wanneer u een knooppunt _[!UICONTROL Take an action]_toevoegt en het volgende doet:
+U kunt e-mailleveringen voor meldingen bij verkoop instellen in een accountreis wanneer u een knooppunt _[!UICONTROL Take an action]_&#x200B;toevoegt en het volgende doet:
 
 1. Kies **[!UICONTROL Account]** voor het doel _[!UICONTROL Action on]_.
 

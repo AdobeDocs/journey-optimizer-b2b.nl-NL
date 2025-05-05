@@ -38,7 +38,7 @@ U kunt een e-mailsjabloon maken op basis van de pagina met e-mailsjablonen door 
 
 1. Klik op **[!UICONTROL Create]**.
 
-De pagina _[!UICONTROL Design your template]_wordt geopend en bevat meerdere opties voor het maken van de sjabloon:_[!UICONTROL Design from scratch]_ , _[!UICONTROL Import HTML]_of_[!UICONTROL Select design template]_ .
+De pagina _[!UICONTROL Design your template]_&#x200B;wordt geopend en bevat meerdere opties voor het maken van de sjabloon:_[!UICONTROL Design from scratch]_ , _[!UICONTROL Import HTML]_&#x200B;of&#x200B;_[!UICONTROL Select design template]_ .
 
 ![ kies hoe u met uw ontwerp van het e-mailmalplaatje wilt beginnen ](./assets/templates-create-design.png){width="800" zoomable="yes"}
 

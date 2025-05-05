@@ -56,7 +56,7 @@ Voordat u de Admin Console kunt gebruiken om gebruikers binnen uw team te behere
 
 Wanneer u gebruikers toegang geeft tot een Adobe-oplossing, wilt u ze niet altijd volledige toegang geven. Met productprofielen kan elke oplossing beschikken over een eigen set gebruikersrechten. Gebruik de Admin Console om productprofielen toe te wijzen.
 
-Voor meer informatie over het gebruiken van productprofielen voor gebruikersrechten, zie [ productprofielen voor ondernemingsgebruikers beheren ](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) {target="_blank"} in de documentatie van Admin Console.
+Voor meer informatie over het gebruiken van productprofielen voor gebruikersrechten, zie [ productprofielen voor ondernemingsgebruikers beheren ](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html){target="_blank"}  in de documentatie van Admin Console.
 <!--
 >[!BEGINSHADEBOX]
 
@@ -84,7 +84,7 @@ For more information about managing these permissions within Marketo Engage, see
 
 Een gebruikersgroep is een inzameling van gebruikers wordt verleend een gedeelde reeks toestemmingen. U kunt gebruikers toevoegen aan of verwijderen uit uw gebruikersgroep. De machtigingen voor de groep blijven ongewijzigd wanneer de gebruikers in de groep worden gewijzigd.
 
-Voor meer informatie over hoe de gebruikersgroepen worden gebruikt om toestemmingen te beheren, zie [ gebruikersgroepen beheren ](https://helpx.adobe.com/enterprise/using/user-groups.html) {target="_blank"} in de documentatie van Admin Console.
+Voor meer informatie over hoe de gebruikersgroepen worden gebruikt om toestemmingen te beheren, zie [ gebruikersgroepen beheren ](https://helpx.adobe.com/enterprise/using/user-groups.html){target="_blank"}  in de documentatie van Admin Console.
 
 ![ de rolvereisten van de Beheerder ](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Een systeembeheerder kan de volgende stappen uitvoeren.
 
@@ -121,7 +121,7 @@ Voor informatie over gebruikersbeheer, zie [ de gebruikers van Admin Console ](h
 
 1. Ga naar [ https://adminconsole.adobe.com ](https://adminconsole.adobe.com).
 
-1. Klik onder _[!UICONTROL Quick links]_op **[!UICONTROL Add users]**.
+1. Klik onder _[!UICONTROL Quick links]_&#x200B;op **[!UICONTROL Add users]**.
 
 1. Voeg elke gebruiker toe:
 
@@ -143,7 +143,7 @@ Machtigingen zijn eenheidrechten waarmee u de machtigingen kunt definiëren die 
 
 Het _gebied van Toestemmingen_ van Adobe Experience Platform is waar de beheerders gebruikersrollen en toegangsbeleid kunnen bepalen om toegangstoestemmingen voor eigenschappen en voorwerpen binnen een producttoepassing te beheren. In deze app kunt u rollen maken en beheren en kunt u de gewenste resourcemachtigingen voor deze rollen toewijzen. Met machtigingen kunt u ook de sandboxen en gebruikers beheren die aan een specifieke rol zijn gekoppeld.
 
-Voor meer informatie over roltoestemmingen in Experience Platform, zie [ toestemmingen voor een rol ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions) beheren {target="_blank"} in de documentatie van Experience Platform.
+Voor meer informatie over roltoestemmingen in Experience Platform, zie [ toestemmingen voor een rol ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} beheren  in de documentatie van Experience Platform.
 
 ### B2B-productmachtigingen
 
@@ -188,19 +188,19 @@ _om de toestemmingen voor een rol te veranderen:_
 
    >[!NOTE]
    >
-   >Als u _[!UICONTROL Permissions]_niet ziet, moet u mogelijk op **[!UICONTROL View all]**klikken en deze selecteren in de beschikbare toepassingen.
+   >Als u _[!UICONTROL Permissions]_&#x200B;niet ziet, moet u mogelijk op **[!UICONTROL View all]**&#x200B;klikken en deze selecteren in de beschikbare toepassingen.
 
    ![ Experience Platform - de toestemmingen van de toegang ](./assets/aep-permissions.png){width="700" zoomable="yes"}
 
 1. Selecteer **[!UICONTROL Roles]** in de linkernavigatie.
 
-1. Klik de _**rolnaam van de Manager van het Kanaal 0} B2B.**_
+1. Klik de _&#x200B;**rolnaam van de Manager van het Kanaal 0&rbrace; B2B.**&#x200B;_
 
 1. Klik in de detailpagina op **[!UICONTROL Edit]** rechtsboven.
 
    ![ Experience Platform - geef de rol ](./assets/aep-permissions-role-edit.png){width="700" zoomable="yes"} uit
 
-   In de rolredacteur, toont het _[!UICONTROL Resources]_menu de lijst van middelen die op Experience Cloud - Platform aangedreven toepassingsproducten van toepassing zijn.
+   In de rolredacteur, toont het _[!UICONTROL Resources]_&#x200B;menu de lijst van middelen die op Experience Cloud - Platform aangedreven toepassingsproducten van toepassing zijn.
 
    U kunt _B2B_ in het onderzoekshulpmiddel ingaan om de lijst voor de B2B producttoestemmingen te filtreren.
 
@@ -208,7 +208,7 @@ _om de toestemmingen voor een rol te veranderen:_
 
    ![ Experience Platform - geef de rol ](./assets/aep-permissions-role-edit-b2b-journeys-add.png){width="700" zoomable="yes"} uit
 
-1. Selecteer **[!UICONTROL Manage B2B Account Journeys]** op de _[!UICONTROL B2B Journeys]_machtigingskaart.
+1. Selecteer **[!UICONTROL Manage B2B Account Journeys]** op de _[!UICONTROL B2B Journeys]_&#x200B;machtigingskaart.
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -228,7 +228,7 @@ _om de toestemmingen voor een rol te veranderen:_
 
    ![ Experience Platform - voeg gebruikers aan de rol ](./assets/aep-permissions-role-add-users.png){width="700" zoomable="yes"} toe
 
-1. Zoek in het dialoogvenster _[!UICONTROL Add users]_de gebruikers die u aan de rol wilt toevoegen en selecteer deze.
+1. Zoek in het dialoogvenster _[!UICONTROL Add users]_&#x200B;de gebruikers die u aan de rol wilt toevoegen en selecteer deze.
 
    * Met het gereedschap Zoeken kunt u de lijst met gebruikers filteren.
 
@@ -252,7 +252,7 @@ Voor informatie over gebruikersbeheer, zie [ de gebruikers van Admin Console ](h
 
    ![ Experience Platform - voeg gebruikers aan de rol ](./assets/aep-permissions-role-add-groups.png){width="700" zoomable="yes"} toe
 
-1. Zoek in het dialoogvenster _[!UICONTROL Add groups]_de groepen die u aan de rol wilt toevoegen en selecteer deze.
+1. Zoek in het dialoogvenster _[!UICONTROL Add groups]_&#x200B;de groepen die u aan de rol wilt toevoegen en selecteer deze.
 
    * Met het gereedschap Zoeken kunt u de lijst met gebruikersgroepen filteren.
 
@@ -268,7 +268,7 @@ Voor informatie over gebruikersbeheer, zie [ de gebruikers van Admin Console ](h
 
 1. Selecteer **[!UICONTROL Roles]** in de linkernavigatie en selecteer **[!UICONTROL Create role]**.
 
-1. In de _[!UICONTROL Create new role]_dialoog, ga een naam voor de rol, zoals_ B2B Marketers _, en een beschrijving (facultatief) in.
+1. In de _[!UICONTROL Create new role]_&#x200B;dialoog, ga een naam voor de rol, zoals_ B2B Marketers _, en een beschrijving (facultatief) in.
 
 1. Klik op **[!UICONTROL Confirm]**.
 
@@ -278,7 +278,7 @@ Voor informatie over gebruikersbeheer, zie [ de gebruikers van Admin Console ](h
 
 1. Voeg de profielmachtigingen toe:
 
-   * In de _[!UICONTROL Resources]_lijst op de linkerzijde, bepaal de plaats van het **[!UICONTROL Profile Management]**punt en klik_ toevoegen _(**+**) pictogram om de attributen toe te voegen.
+   * In de _[!UICONTROL Resources]_&#x200B;lijst op de linkerzijde, bepaal de plaats van het **[!UICONTROL Profile Management]**&#x200B;punt en klik_ toevoegen _(**+**) pictogram om de attributen toe te voegen.
 
    * Voeg voor het kenmerk de volgende machtigingen toe:
       * [!UICONTROL View segments]
@@ -294,7 +294,7 @@ Voor informatie over gebruikersbeheer, zie [ de gebruikers van Admin Console ](h
 
    Verwijs naar de lijst van [ B2B producttoestemmingen ](#b2b-product-permissions) om te bepalen welke productmogelijkheden die u voor de rol wilt.
 
-   In de _[!UICONTROL Resources]_lijst op de linkerzijde, bepaal de plaats van de **[!UICONTROL B2B]**punten en klik_ _toevoegen (**+**) pictogram om elk attribuut toe te voegen dat u voor de rol wilt toelaten.
+   In de _[!UICONTROL Resources]_&#x200B;lijst op de linkerzijde, bepaal de plaats van de **[!UICONTROL B2B]**&#x200B;punten en klik_ _toevoegen (**+**) pictogram om elk attribuut toe te voegen dat u voor de rol wilt toelaten.
 
    U kunt _B2B_ in het onderzoekshulpmiddel ingaan om de lijst voor de B2B producttoestemmingen te filtreren.
 

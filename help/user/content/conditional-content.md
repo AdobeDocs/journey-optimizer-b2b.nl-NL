@@ -44,7 +44,7 @@ Terwijl u een e-mail voor uw accountreis in de e-mailontwerpruimte ontwerpt, geb
 
    ![ Uitgezochte voorwaarde voor variant ](./assets/conditions-variant-select.png){width="700" zoomable="yes"} {width= &quot;700&quot; zoomable= &quot;ja&quot;}
 
-   Het dialoogvenster _[!UICONTROL Select condition]_wordt geopend en de bibliotheek met voorwaarden wordt weergegeven.
+   Het dialoogvenster _[!UICONTROL Select condition]_&#x200B;wordt geopend en de bibliotheek met voorwaarden wordt weergegeven.
 
    Als u details voor een voorwaarde wilt bekijken om het te verzekeren is wat u wilt, klik het _Meer menu_ pictogram (**...**) en kies **[!UICONTROL View Info]**.
 
@@ -66,7 +66,7 @@ Terwijl u een e-mail voor uw accountreis in de e-mailontwerpruimte ontwerpt, geb
 
    Voer een betekenisvolle naam in voor de variant waarmee u de variant en de intentie kunt identificeren.
 
-   ![ noem de variant ](./assets/conditions-variant-rename.png){width="600" zoomable="yes"} {width= &quot;600&quot;zoomable= &quot;ja&quot;
+   ![ noem de variant ](./assets/conditions-variant-rename.png){width="600" zoomable="yes"} &lbrace;width= &quot;600&quot;zoomable= &quot;ja&quot;
 
 1. Selecteer de variant in het linkervenster en wijzig de component om aan te geven hoe deze in het e-mailbericht wordt weergegeven wanneer de voorwaarde true is.
 
@@ -131,18 +131,18 @@ Voorwaardelijke regels worden opgeslagen in de voorwaardenbibliotheek, waar ze b
 
 U kunt tot de voorwaardelijke regelbouwer van de e-mailontwerpruimte toegang hebben wanneer u een voorwaarde voor een componentenvariant selecteert.
 
-1. Klik in het dialoogvenster _[!UICONTROL Select condition]_op **[!UICONTROL Create new]**en kies het voorwaardetype:
+1. Klik in het dialoogvenster _[!UICONTROL Select condition]_&#x200B;op **[!UICONTROL Create new]**&#x200B;en kies het voorwaardetype:
 
    * **[!UICONTROL Person condition]** - Kies dit type om de voorwaardelijke regel te maken met behulp van personekenmerken en contextuele gebeurtenissen.
    * **[!UICONTROL Account condition]** - Kies dit type om de voorwaardelijke regel samen te stellen met accountkenmerken.
 
-   ![ kies het voorwaardetype ](./assets/conditions-select-create-new.png){width="600" zoomable="yes"} {width= &quot;600&quot;zoomable= &quot;ja&quot;  te creëren
+   ![ kies het voorwaardetype ](./assets/conditions-select-create-new.png){width="600" zoomable="yes"} &lbrace;width= &quot;600&quot;zoomable= &quot;ja&quot;  te creëren
 
 1. Bouw de voorwaardelijke regel volgens uw behoeften.
 
    Voor elk attribuut of elke gebeurtenis die u in de regel wilt omvatten, sleep en laat vallen het punt op het regelcanvas. Vouw het filter uit en voltooi de expressie.
 
-   ![ voltooi de uitdrukking ](./assets/conditions-rule-add-attribute.png){width="600" zoomable="yes"} {width= &quot;600&quot;zoomable=&quot;ja&quot; te evalueren
+   ![ voltooi de uitdrukking ](./assets/conditions-rule-add-attribute.png){width="600" zoomable="yes"} &lbrace;width= &quot;600&quot;zoomable=&quot;ja&quot; te evalueren
 
    Als u meerdere filters opneemt, stelt u de **[!UICONTROL Filter logic]** in:
 
@@ -167,7 +167,7 @@ Voorwaardelijke regels die zijn opgeslagen in de bibliotheek kunnen niet worden 
 
    Een duplicaat van de regel wordt geopend in de regelbuilder. Gebruik het duplicaat als beginpunt voor de regel die u wilt maken.
 
-   ![ gebruik een dubbele regel om te creëren die u ](./assets/conditions-rule-duplicate.png){width="600" zoomable="yes"} {width= &quot;600&quot;zoomable=&quot;ja&quot; nodig hebt
+   ![ gebruik een dubbele regel om te creëren die u ](./assets/conditions-rule-duplicate.png){width="600" zoomable="yes"} &lbrace;width= &quot;600&quot;zoomable=&quot;ja&quot; nodig hebt
 
 1. In de regelbouwer, verander, voeg, of schrap voorwaarden volgens wat u nodig hebt toe.
 

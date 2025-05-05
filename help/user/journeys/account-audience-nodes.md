@@ -31,7 +31,7 @@ _om het publiek voor de knoop te plaatsen:_
 
      Kies dit type en klik op **[!UICONTROL Add account audience]** .
 
-     Selecteer in het dialoogvenster _[!UICONTROL Add audience]_een publiekssegment dat eerder is gemaakt en klik op **[!UICONTROL Add audience]**.
+     Selecteer in het dialoogvenster _[!UICONTROL Add audience]_&#x200B;een publiekssegment dat eerder is gemaakt en klik op **[!UICONTROL Add audience]**.
 
      ![ selecteer een publiekssegment voor de knoop ](./assets/node-audience-add-dialog.png){width="700" zoomable="yes"}
 
@@ -39,7 +39,7 @@ _om het publiek voor de knoop te plaatsen:_
 
      Kies dit type en klik op **[!UICONTROL Add account list]** .
 
-     Selecteer in het dialoogvenster _[!UICONTROL Select live account list]_een accountlijst die eerder is gepubliceerd en klik op **[!UICONTROL Save]**.
+     Selecteer in het dialoogvenster _[!UICONTROL Select live account list]_&#x200B;een accountlijst die eerder is gepubliceerd en klik op **[!UICONTROL Save]**.
 
      ![ selecteer een levende rekeningslijst voor de knoop ](./assets/account-journey-account-audience-select-account-list.png){width="700" zoomable="yes"}
 

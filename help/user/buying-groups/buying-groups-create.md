@@ -17,7 +17,7 @@ Nadat de het kopen groep wordt gecreeerd, is het beschikbaar voor gebruik in een
 
 1. Klik in de linkernavigatie op **[!UICONTROL Buying groups]** .
 
-1. Klik op de pagina _[!UICONTROL Buying groups]_op de **[!UICONTROL Create buying groups]**rechtsboven op de pagina.
+1. Klik op de pagina _[!UICONTROL Buying groups]_&#x200B;op de **[!UICONTROL Create buying groups]**&#x200B;rechtsboven op de pagina.
 
    ![ klik creeer het kopen groepen ](./assets/buying-groups-create.png){width="700" zoomable="yes"}
 
@@ -37,7 +37,7 @@ De eerste pagina biedt richtlijnen over de voorwaarden/componenten die vereist z
 
    * **[!UICONTROL Account audience]** - Klik op # en selecteer een accountpubliek in de lijst.
 
-   Onder _[!UICONTROL Properties]_wordt de naam voor de inkoopgroepen automatisch gegenereerd (alleen-lezen) als &lt; Naam van belang voor oplossing > voor &lt; naam van account >.
+   Onder _[!UICONTROL Properties]_&#x200B;wordt de naam voor de inkoopgroepen automatisch gegenereerd (alleen-lezen) als &lt; Naam van belang voor oplossing > voor &lt; naam van account >.
 
    ![ klik creeer het kopen groepen ](./assets/buying-groups-create-components.png){width="700" zoomable="yes"}
 

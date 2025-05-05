@@ -52,7 +52,7 @@ Als u bijvoorbeeld een herbruikbare banner ontwerpt die een klikbare knop bevat,
 
 1. Klik op de optie **[!UICONTROL Enable edition]** om te schakelen en stel de bewerkbare velden in.
 
-   ![ laat editable gebieden voor een component van het fragmentbeeld ](./assets/fragment-editable-fields-image.png){width="700" zoomable="yes"} {width= &quot;700&quot;zoomable=&quot;ja&quot; toe
+   ![ laat editable gebieden voor een component van het fragmentbeeld ](./assets/fragment-editable-fields-image.png){width="700" zoomable="yes"} &lbrace;width= &quot;700&quot;zoomable=&quot;ja&quot; toe
 
    U kunt aanpassingen inschakelen voor de weergegeven velden, afhankelijk van het componenttype en de parameters die in het fragment zijn gedefinieerd.
 

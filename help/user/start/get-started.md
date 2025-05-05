@@ -17,7 +17,7 @@ Op basis van uw organisatie kunnen beheerders verschillende typen gebruikers def
 
 >[!TIP]
 >
->Controleer ook uw vergunningsrechten en de overeenkomstige [ productbeschrijving ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html) {target="_blank"} over prestatiesbegeleiding en statische beperkingen.
+>Controleer ook uw vergunningsrechten en de overeenkomstige [ productbeschrijving ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}  over prestatiesbegeleiding en statische beperkingen.
 
 >[!BEGINTABS]
 

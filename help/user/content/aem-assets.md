@@ -52,7 +52,7 @@ Er zijn meerdere methoden om een afbeeldingselement toe te voegen aan het visuel
 
 ## Een afbeelding zoeken en selecteren
 
-1. Voeg een afbeeldingscomponent toe aan het canvas en klik op **[!UICONTROL Experience Manager Assets]** om het dialoogvenster _[!UICONTROL Select Assets]_te openen.
+1. Voeg een afbeeldingscomponent toe aan het canvas en klik op **[!UICONTROL Experience Manager Assets]** om het dialoogvenster _[!UICONTROL Select Assets]_&#x200B;te openen.
 
    ![ selecteer een activa voor de beeldcomponent ](./assets/content-image-component-empty.png){width="600" zoomable="yes"}
 

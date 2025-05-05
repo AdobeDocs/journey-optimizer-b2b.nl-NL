@@ -71,7 +71,7 @@ Wanneer u [ een e-mailactie ](./email-authoring.md#add-an-email-action-in-an-acc
 
 1. Maak een e-mail van een accountreis of open een bestaande e-mail van een transportknooppunt.
 
-   De voorvertoningspagina voor e-mail wordt weergegeven met de _[!UICONTROL Email properties]_aan de rechterkant.
+   De voorvertoningspagina voor e-mail wordt weergegeven met de _[!UICONTROL Email properties]_&#x200B;aan de rechterkant.
 
 1. Selecteer een van de volgende tabbladen voor informatie over het gebruik van AI Assistant in het ontwerpen van e-maileigenschappen.
 
@@ -81,7 +81,7 @@ Wanneer u [ een e-mailactie ](./email-authoring.md#add-an-email-action-in-an-acc
 
 De volgende stappen beschrijven de taakopeenvolging voor het gebruiken van AI Medewerker om een geoptimaliseerde onderwerpregel voor uw e-mail te produceren:
 
-1. In _[!UICONTROL Email Properties]_, klik het AI Hulppictogram ( ![ AI Hulptoegangspictogram ](./assets/email-properties-ai-assistant-button.png){width="30" zoomable="no"}) rechts van het **[!UICONTROL Subject line]**gebied.
+1. In _[!UICONTROL Email Properties]_, klik het AI Hulppictogram ( ![ AI Hulptoegangspictogram ](./assets/email-properties-ai-assistant-button.png){width="30" zoomable="no"}) rechts van het **[!UICONTROL Subject line]**&#x200B;gebied.
 
    ![ AI Hulp toegang voor e-mail onderwerpregel ](./assets/email-properties-ai-assistant-subject-line-icon.png){width="600" zoomable="yes"}
 
@@ -260,7 +260,7 @@ In de volgende stappen wordt de taakvolgorde beschreven voor het gebruik van AI 
 
 1. Klik op **[!UICONTROL Select]** om de sjablooninhoud te vervangen door de geselecteerde variant en terug te keren naar de e-mailontwerper.
 
-   In de e-mailontwerper kunt u de bewerkings- en opmaakgereedschappen op het canvas gebruiken om de inhoud en de opties _[!UICONTROL Settings]_en_[!UICONTROL Style]_ aan de rechterkant te wijzigen.
+   In de e-mailontwerper kunt u de bewerkings- en opmaakgereedschappen op het canvas gebruiken om de inhoud en de opties _[!UICONTROL Settings]_&#x200B;en&#x200B;_[!UICONTROL Style]_ aan de rechterkant te wijzigen.
 
 >[!TAB  generatie van de Tekst ]
 
@@ -316,7 +316,7 @@ De volgende stappen beschrijven de taakopeenvolging voor het gebruiken van AI Me
 
 1. Als u de gewenste inhoud hebt, klikt u op **[!UICONTROL Select]** om de tekst te vervangen door de geselecteerde variant en terug te keren naar de e-mailontwerper.
 
-   In de e-mailontwerper kunt u de bewerkings- en opmaakgereedschappen op het canvas gebruiken om de tekst en de opties _[!UICONTROL Settings]_en_[!UICONTROL Style]_ aan de rechterkant te wijzigen.
+   In de e-mailontwerper kunt u de bewerkings- en opmaakgereedschappen op het canvas gebruiken om de tekst en de opties _[!UICONTROL Settings]_&#x200B;en&#x200B;_[!UICONTROL Style]_ aan de rechterkant te wijzigen.
 
 >[!TAB  Aanbevelingen van het Beeld ]
 
@@ -358,12 +358,12 @@ U kunt AI Assistant gebruiken om uw elementen te optimaliseren en te verbeteren 
    >
    >Als er geen afbeeldingen voorkomen in het invoermerkelement of als er geen afbeeldingen zijn die relevant zijn voor de invoerprompt, is de uitvoer leeg.
 
-1. Blader door _[!UICONTROL Variations]_en selecteer het bestand dat het beste bij de e-mail past.
+1. Blader door _[!UICONTROL Variations]_&#x200B;en selecteer het bestand dat het beste bij de e-mail past.
 
    Klik op **[!UICONTROL Preview]** om een versie van de geselecteerde variatie op het volledige scherm weer te geven.
 
 1. Markeer de gewenste afbeelding en klik op **[!UICONTROL Select]** om de afbeelding of tijdelijke aanduiding te vervangen door het geselecteerde item en terug te keren naar de e-mailontwerper.
 
-   In de e-mailontwerper kunt u de bewerkings- en opmaakgereedschappen op het canvas gebruiken om de inhoud en de opties _[!UICONTROL Settings]_en_[!UICONTROL Style]_ aan de rechterkant te wijzigen.
+   In de e-mailontwerper kunt u de bewerkings- en opmaakgereedschappen op het canvas gebruiken om de inhoud en de opties _[!UICONTROL Settings]_&#x200B;en&#x200B;_[!UICONTROL Style]_ aan de rechterkant te wijzigen.
 
 >[!ENDTABS]

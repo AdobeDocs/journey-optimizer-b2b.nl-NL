@@ -22,18 +22,18 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Licenties voor AEM Assets as a Cloud Service en Dynamic Media-licentie zijn voorwaarden voor integratie. U zou moeten ervoor zorgen dat [ Dynamische Media met Open API ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview) {target="_blank"} wordt toegelaten.<br/>
+>Licenties voor AEM Assets as a Cloud Service en Dynamic Media-licentie zijn voorwaarden voor integratie. U zou moeten ervoor zorgen dat [ Dynamische Media met Open API ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}  wordt toegelaten.<br/>
 >Afhankelijk van uw contract en configuratie kunt u Adobe Experience Manager Assets as a Cloud Service rechtstreeks vanuit Adobe Journey Optimizer B2B edition openen bij het ontwerpen van visuele inhoud.
 
 ## Inhoud ontwerpen - componenten - stap Structuren {#structures-step}
 
 1. Als u het inhoudsontwerp wilt starten, sleept u een item van de **[!UICONTROL Structures]** naar het canvas.
 
-   Voeg zoveel items vanuit _[!UICONTROL Structures]_toe als u nodig hebt en bewerk de instellingen voor elk item in het rechterdeelvenster.
+   Voeg zoveel items vanuit _[!UICONTROL Structures]_&#x200B;toe als u nodig hebt en bewerk de instellingen voor elk item in het rechterdeelvenster.
 
    >[!TIP]
    >
-   >Selecteer de component _[!UICONTROL n:n column]_om het aantal kolommen van uw keuze (tussen drie en 10) te definiëren. U kunt ook de breedte van elke kolom definiëren door de pijlen onder de kolom te verplaatsen.
+   >Selecteer de component _[!UICONTROL n:n column]_&#x200B;om het aantal kolommen van uw keuze (tussen drie en 10) te definiëren. U kunt ook de breedte van elke kolom definiëren door de pijlen onder de kolom te verplaatsen.
 
    ![ sleep een structuur op het canvas en pas de montages ](../assets/content-design-shared/content-design-add-structure.png){width="800" zoomable="yes"} aan
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 ## Inhoud ontwerpen - componenten - stap Instellingen {#settings-step}
 
-1. Indien nodig kunt u aanvullende aanpassingen aanbrengen voor elke component op de tabbladen _[!UICONTROL Settings]_of_[!UICONTROL Style]_ .
+1. Indien nodig kunt u aanvullende aanpassingen aanbrengen voor elke component op de tabbladen _[!UICONTROL Settings]_&#x200B;of&#x200B;_[!UICONTROL Style]_ .
 
    U kunt bijvoorbeeld de tekststijl, opvulling of marge van elke component wijzigen.
 

@@ -64,7 +64,7 @@ Bijvoorbeeld:
 
 ### Het SSL-certificaat leveren
 
-De Steun van de Adobe van het contact ](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=home#support) {target="_blank"} om het proces te beginnen van levering een SSL Certificaat.[
+De Steun van de Adobe van het contact [&#128279;](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=home#support){target="_blank"}  om het proces te beginnen van levering een SSL Certificaat.
 
 Dit proces kan maximaal drie werkdagen duren.
 
@@ -95,7 +95,7 @@ Uw marketingteam moet de DKIM-informatie (Domain Keys Identified Mail) leveren d
 
    `[DKIMDomain2]`: Hostrecord is `[HostRecord2]` en de TXT-waarde is `[TXTValue2]` .
 
-   Kopieer `HostRecord` en `TXTValue` voor elk domein DKIM na het volgen van [ instructies ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature) {target="_blank"} in de documentatie van het Marketo Engage. U kunt de domeinen in Journey Optimizer B2B edition (zie [ SPF/DKIM ](../admin/configure-channels-emails.md#spfdkim)) verifiëren.
+   Kopieer `HostRecord` en `TXTValue` voor elk domein DKIM na het volgen van [ instructies ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"}  in de documentatie van het Marketo Engage. U kunt de domeinen in Journey Optimizer B2B edition (zie [ SPF/DKIM ](../admin/configure-channels-emails.md#spfdkim)) verifiëren.
 
 ## DMARC instellen
 
@@ -168,17 +168,17 @@ De verslagen van DMARC hebben veelvoudige componenten genoemd _markeringen van D
 | `adkim` | Optioneel | Specificeert of een strikte (`s`) of ontspannen (`r`) groepering. Relaxed alignment betekent dat het domein wordt gebruikt in de DKIM-handtekening en een subdomein van het `From:` -adres kan zijn. Strikte uitlijning houdt in dat het domein wordt gebruikt in de DKIM-handtekening en een exacte overeenkomst moet zijn met het domein dat wordt gebruikt in het `From:` -adres. | `adkim=r` | `r` |
 | `aspf` | Optioneel | Kan strikt zijn (`s`) of ontspannen (`r`). De ontspannen wijze betekent dat het terugkeer-weg domein een subdomein van het `From:` adres kan zijn. De strikte wijze betekent dat het terugkeer-weg domein een nauwkeurige gelijke met het `From:` adres moet zijn. | `aspf=r` | `r` |
 
-Voor gedetailleerde informatie over DMARC en elk van zijn opties, verwijs naar [ https://dmarc.org/ ](https://dmarc.org/) {target="_blank"}.
+Voor gedetailleerde informatie over DMARC en elk van zijn opties, verwijs naar [ https://dmarc.org/ ](https://dmarc.org/){target="_blank"} .
 
 ### DMARC-implementatie voor Marketo Engage
 
 Er zijn twee typen uitlijning voor DMARC:
 
-* **DKIM** (De Sleutels van het Domein identificeerden Post) groepering: Het domein dat in 2} kopbal van e-mail {met de DKIM-Ondertekening wordt gespecificeerd. `From:` De DKIM-handtekening bevat een `d=` -waarde waarbij het domein is opgegeven voor overeenkomst met het `From:` -headerdomein.
+* **DKIM** (De Sleutels van het Domein identificeerden Post) groepering: Het domein dat in 2&rbrace; kopbal van e-mail &lbrace;met de DKIM-Ondertekening wordt gespecificeerd. `From:` De DKIM-handtekening bevat een `d=` -waarde waarbij het domein is opgegeven voor overeenkomst met het `From:` -headerdomein.
 
   De uitlijning DKIM bevestigt als de afzender wordt gemachtigd om post van het domein te verzenden en verifieert dat geen inhoud tijdens e-maildoorvoer is veranderd. DMARC implementeren die is afgestemd op DKIM:
 
-   * Stel DKIM in voor de MAIL VAN het domein van uw bericht. Gebruik de [ instructies ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature) {target="_blank"} in de documentatie van het Marketo Engage.
+   * Stel DKIM in voor de MAIL VAN het domein van uw bericht. Gebruik de [ instructies ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"}  in de documentatie van het Marketo Engage.
 
    * Configureer DMARC for the DKIM MAIL FROM domain.
 
@@ -201,11 +201,11 @@ Er zijn twee typen uitlijning voor DMARC:
 
 ### Specifieke IP&#39;s en gedeelde pool
 
-Als u post door Marketo Engage over specifieke IP verzendt en geen branded terugkeer-weg (of niet zeker bent als u) hebt uitgevoerd, open een kaartje met [ Steun van de Adobe ](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=home#support) {target="_blank"}.
+Als u post door Marketo Engage over specifieke IP verzendt en geen branded terugkeer-weg (of niet zeker bent als u) hebt uitgevoerd, open een kaartje met [ Steun van de Adobe ](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=home#support){target="_blank"} .
 
 Vertrouwde IPs is een gedeelde pool van IPs die voor lagere volumegebruikers gereserveerd zijn die minder dan 75k per maand verzenden en niet voor specifieke IP kwalificeren. Deze gebruikers moeten ook aan beste praktijkvereisten voldoen.
 
-* Als u post door Marketo Engage verzendt gebruikend een gedeelde pool van IPs, kunt u controleren als u voor Vertrouwde IPs door [ van toepassing zijnde voor Vertrouwde IP die waaierprogramma ](https://na-sjg.marketo.com/lp/marketoprivacydemo/Trusted-IP-Sending-Range-Program.html) {target="_blank"} verzendt. Het branded terugkeer-weg is inbegrepen wanneer het verzenden van Marketo Engage Vertrouwde IPs. Indien goedgekeurd voor dit programma, vraag aan de Steun van de Adobe aan opstelling de branded terugkeer-weg.
+* Als u post door Marketo Engage verzendt gebruikend een gedeelde pool van IPs, kunt u controleren als u voor Vertrouwde IPs door [ van toepassing zijnde voor Vertrouwde IP die waaierprogramma ](https://na-sjg.marketo.com/lp/marketoprivacydemo/Trusted-IP-Sending-Range-Program.html){target="_blank"}  verzendt. Het branded terugkeer-weg is inbegrepen wanneer het verzenden van Marketo Engage Vertrouwde IPs. Indien goedgekeurd voor dit programma, vraag aan de Steun van de Adobe aan opstelling de branded terugkeer-weg.
 
 * Als u meer dan 100.000 berichten per maand verzendt en e-mail door Marketo Engage gebruikend gedeelde IPs wilt verzenden, contacteer het Team van de Rekening van de Adobe (uw rekeningsmanager) om een specifieke IP te kopen.
 

@@ -10,7 +10,7 @@ ht-degree: 0%
 
 # Inhoud ontwerpen - navigatie
 
-Aangezien u met de inhoud in de visuele ontwerper werkt, kunt u tot de lagen/containers en de elementen toegang hebben gebruikend de _boom van de 1} Navigatie_. Klik het _pictogram van de Navigatie_ om de boom links van het canvas te tonen.
+Aangezien u met de inhoud in de visuele ontwerper werkt, kunt u tot de lagen/containers en de elementen toegang hebben gebruikend de _boom van de 1&rbrace; Navigatie_. Klik het _pictogram van de Navigatie_ om de boom links van het canvas te tonen.
 
 ![ heb toegang tot de inhoudslagen ](../assets/content-design-shared/content-design-layers.png){width="800" zoomable="yes"}
 
@@ -18,13 +18,13 @@ In het volgende voorbeeld worden stappen beschreven voor het aanpassen van opvul
 
 1. Selecteer de kolom in de structuurcomponent direct in het canvas of gebruikend de _boom van de Navigatie_ die bij de linkerzijde wordt getoond.
 
-1. Klik in de kolomwerkbalk op het gereedschap _[!UICONTROL Select a column]_en kies het gereedschap dat u wilt bewerken.
+1. Klik in de kolomwerkbalk op het gereedschap _[!UICONTROL Select a column]_&#x200B;en kies het gereedschap dat u wilt bewerken.
 
-   U kunt deze ook selecteren in de boomstructuur. De bewerkbare parameters voor die kolom worden weergegeven op de tabbladen _[!UICONTROL Settings]_en_[!UICONTROL Styles]_ rechts.
+   U kunt deze ook selecteren in de boomstructuur. De bewerkbare parameters voor die kolom worden weergegeven op de tabbladen _[!UICONTROL Settings]_&#x200B;en&#x200B;_[!UICONTROL Styles]_ rechts.
 
    ![ de componenten van de Kolom die in de visuele ontwerper ](../assets/content-design-shared/content-design-layers-column-select.png){width="800" zoomable="yes"} worden getoond
 
-1. Als u de kolomeigenschappen wilt bewerken, klikt u op de tab _[!UICONTROL Styles]_aan de rechterkant en wijzigt u deze naar wens:
+1. Als u de kolomeigenschappen wilt bewerken, klikt u op de tab _[!UICONTROL Styles]_&#x200B;aan de rechterkant en wijzigt u deze naar wens:
 
    * Wijzig voor **[!UICONTROL Background]** de achtergrondkleur zo nodig.
 
@@ -33,7 +33,7 @@ In het volgende voorbeeld worden stappen beschreven voor het aanpassen van opvul
    * Voor **[!UICONTROL Alignment]**, selecteer de _Hoogste_, _Midden_, of _Onderste_ pictogram.
    * Definieer bij **[!UICONTROL Padding]** de opvulling voor alle zijden.
 
-     Selecteer **[!UICONTROL Different padding for each side]** als u de opvulling wilt verfijnen. Klik het __ pictogram van het Slot {om synchronisatie te breken.
+     Selecteer **[!UICONTROL Different padding for each side]** als u de opvulling wilt verfijnen. Klik het __ pictogram van het Slot &lbrace;om synchronisatie te breken.
 
    * Vouw de sectie **[!UICONTROL Advanced]** uit om inline stijlen voor de kolom te definiëren.
 
