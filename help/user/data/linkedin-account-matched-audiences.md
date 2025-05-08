@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Journey Optimizer B2B edition biedt de mogelijkheid om een publiek voor LinkedIn-advertenties te genereren via een publiek dat overeenkomt met een account en is ontworpen om u te helpen lege rollen in uw inkoopgroepen te vullen. Door een reeks het kopen groepsfilters te bepalen, kunt u een LinkedIn Gelijke Publiek aan doelvooruitzichten handhaven die uw het kopen groepsparameters aanpassen. Deze functie gebruikt Experience Platform Destination om bepaalde aspecten van de integratie te beheren. Er geldt een limiet van tien gegevensstromen.
 
-Alvorens u een dataflow van Journey Optimizer B2B edition in werking stelt, moet u minstens één geval van [ (Bedrijven) LinkedIn Gelijke de bestemmingsschakelaar van de Publiek ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"} met een rekening hebben LinkedIn de Manager van de Campagne die in uw toepassing van Experience Platform wordt gevormd.
+Alvorens u een dataflow van Journey Optimizer B2B edition in werking stelt, moet u minstens één geval van [ (Bedrijven) LinkedIn Gelijke de bestemmingsschakelaar van de Publiek ](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"} met een rekening hebben LinkedIn de Manager van de Campagne die in uw toepassing van Experience Platform wordt gevormd.
 
 ## Een nieuwe LinkedIn-accountverbinding configureren {#linkedin-destination-setup}
 

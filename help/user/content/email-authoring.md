@@ -26,7 +26,7 @@ U kunt e-mailleveringen instellen in een Account Journey wanneer u een _[!UICONT
 
    >[!NOTE]
    >
-   >Als u voor het eerst een e-mailbericht maakt, controleert u of het e-mailkanaal is geconfigureerd vanuit Adobe Marketo Engage. Om meer te leren, zie [ Verzekeren E-mailLeverbaarheid ](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability){target="_blank"} in de documentatie van Marketo Engage.
+   >Als u voor het eerst een e-mailbericht maakt, controleert u of het e-mailkanaal is geconfigureerd vanuit Adobe Marketo Engage. Om meer te leren, zie [ Verzekeren E-mailLeverbaarheid ](https://experienceleague.adobe.com/nl/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability){target="_blank"} in de documentatie van Marketo Engage.
 
    ![ neem een actie - verzend een e-mail ](assets/journey-node-send-email.png){width="700" zoomable="yes"}
 

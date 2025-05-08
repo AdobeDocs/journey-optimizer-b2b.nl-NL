@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Een publiek is een groep personen die vergelijkbare gedragingen en/of kenmerken delen. Journey Optimizer B2B edition gebruikt de functies voor de segmentatie van de account die in Adobe Real-Time Customer Data Platform B2B- en B2P-edities zijn gevonden. Met accountsegmentatie kunnen gebruikers een publiek voor de account genereren door gegevens van een van de B2B-entiteiten in het systeem te gebruiken. Dit accountpubliek fungeert als input voor Journey Optimizer B2B edition-reizen, waardoor het gemakkelijker wordt om een naadloze activering en personalisatie uit te voeren.
 
-Leer meer over rekeningspubliek en hoe te om hen in de [ documentatie van de Dienst van de Segmentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/types/account-audiences){target="_blank"} te bepalen.
+Leer meer over rekeningspubliek en hoe te om hen in de [ documentatie van de Dienst van de Segmentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/types/account-audiences){target="_blank"} te bepalen.
 
 ## Workflow voor accountpubliek
 
@@ -32,7 +32,7 @@ Met Journey Optimizer B2B edition kunt u het publiek van de Adobe Experience Pla
 
 ## Een publiek voor een account maken
 
-Definieer het accountpubliek door een accountsegmentatie te maken. U hebt de optie om de rekeningssegmentatie direct binnen de toepassing van Journey Optimizer B2B edition tot stand te brengen, of u kunt de [ Bouwer van het Segment gebruiken UI ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder){target="_blank"}. Hieronder vindt u de stappen waarmee u een accountsegmentatie kunt maken in Journey Optimizer B2B edition.
+Definieer het accountpubliek door een accountsegmentatie te maken. U hebt de optie om de rekeningssegmentatie direct binnen de toepassing van Journey Optimizer B2B edition tot stand te brengen, of u kunt de [ Bouwer van het Segment gebruiken UI ](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-builder){target="_blank"}. Hieronder vindt u de stappen waarmee u een accountsegmentatie kunt maken in Journey Optimizer B2B edition.
 
 1. Kies in de linkernavigatie **[!UICONTROL Accounts]** > **[!UICONTROL Audiences]** .
 
