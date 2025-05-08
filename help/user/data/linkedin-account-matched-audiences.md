@@ -2,7 +2,7 @@
 title: Gekoppeld publiek voor account gekoppeld
 description: Leer hoe u een LinkedIn-account aansluit en een gegevensstroom activeert voor inkoopgroepen.
 exl-id: d2303529-16c4-4b0b-b8c8-404dff8ec63d
-source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Journey Optimizer B2B edition biedt de mogelijkheid om een publiek voor LinkedIn-advertenties te genereren via een publiek dat overeenkomt met een account en is ontworpen om u te helpen lege rollen in uw inkoopgroepen te vullen. Door een reeks het kopen groepsfilters te bepalen, kunt u een LinkedIn Gelijke Publiek aan doelvooruitzichten handhaven die uw het kopen groepsparameters aanpassen. Deze functie gebruikt Experience Platform Destination om bepaalde aspecten van de integratie te beheren. Er geldt een limiet van tien gegevensstromen.
 
-Alvorens u een dataflow van Journey Optimizer B2B edition in werking stelt, moet u minstens één geval van [ (Bedrijven) LinkedIn Gelijke de bestemmingsschakelaar van de Publiek ](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/social/linkedin#connect) met een rekening hebben LinkedIn de Manager van de Campagne die in uw toepassing van Experience Platform wordt gevormd.
+Alvorens u een dataflow van Journey Optimizer B2B edition in werking stelt, moet u minstens één geval van [ (Bedrijven) LinkedIn Gelijke de bestemmingsschakelaar van de Publiek ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"} met een rekening hebben LinkedIn de Manager van de Campagne die in uw toepassing van Experience Platform wordt gevormd.
 
 ## Een nieuwe LinkedIn-accountverbinding configureren {#linkedin-destination-setup}
 
@@ -46,7 +46,7 @@ Alvorens u een dataflow van Journey Optimizer B2B edition in werking stelt, moet
 
    >[!IMPORTANT]
    >
-   >Op dit punt, **ga** niet _[!UICONTROL Destination details]_&#x200B;in. Alleen de verbinding is nodig.
+   >Op dit punt, **ga** niet _[!UICONTROL Destination details]_in. Alleen de verbinding is nodig.
 
 ## Accountgegevens bijwerken
 
@@ -114,6 +114,6 @@ De naam en beschrijving van de LinkedIn-account zijn zichtbaar voor inkoopgroepe
 
 ## Betaalde betrokkenheid bij media ordenen
 
-U kunt via een betaald mediakanaal, zoals LinkedIn Addiences, contact opnemen met accountleden om hen aan te schaffen, te voeden en in aanmerking te laten komen voor Verkoop. Gebruik a _neemt een 1&rbrace; knoop van de actie &lbrace;in een rekeningsreis om overeenkomst met zeer belangrijke leden van een rekening door een extern kanaal te automatiseren dat best voor verschillende rekeningsleden past._
+U kunt via een betaald mediakanaal, zoals LinkedIn Addiences, contact opnemen met accountleden om hen aan te schaffen, te voeden en in aanmerking te laten komen voor Verkoop. Gebruik a _neemt een 1} knoop van de actie {in een rekeningsreis om overeenkomst met zeer belangrijke leden van een rekening door een extern kanaal te automatiseren dat best voor verschillende rekeningsleden past._
 
->[!VIDEO](https://video.tv.adobe.com/v/3448678/?learn=on&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3448649/?learn=on)

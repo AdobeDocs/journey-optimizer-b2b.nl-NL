@@ -3,7 +3,7 @@ title: Luisteren naar een gebeurtenis
 description: Meer informatie over het type Luisteren naar een gebeurtenisknooppunt dat u kunt gebruiken voor het orchestreren van uw accountreizen in Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: 77dcb83d3659c33184f0947fdfa20052aa534d9e
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
 source-wordcount: '1302'
 ht-degree: 0%
@@ -102,7 +102,7 @@ Als u webpagina&#39;s hebt gemaakt in uw verbonden Marketo Engage-exemplaar, kun
 
 1. Klik op **[!UICONTROL Edit event]** en definieer een of meer webpagina&#39;s die moeten overeenkomen en eventuele extra beperkingen voor de gebeurtenis.
 
-   * (Vereist) Definieer in het dialoogvenster _[!UICONTROL Edit event]_&#x200B;de formulierbeperking **[!UICONTROL Web page]**&#x200B;of Vult uit. Gebruik **[!UICONTROL is]**(standaardwaarde) om overeen te komen op een of meer geselecteerde pagina&#39;s of formulieren. Gebruik **[!UICONTROL is not]**&#x200B;om overeen te komen op alle paginabezoeken/formulieren, met uitzondering van een of meer geselecteerde pagina&#39;s/formulieren. Of gebruik **[!UICONTROL is any]**&#x200B;om een overeenkomst te bereiken op een bezoek of ingevuld formulier op een Marketo Engage-webpagina.
+   * (Vereist) Definieer in het dialoogvenster _[!UICONTROL Edit event]_de formulierbeperking **[!UICONTROL Web page]**of Vult uit. Gebruik **[!UICONTROL is]**(standaardwaarde) om overeen te komen op een of meer geselecteerde pagina&#39;s of formulieren. Gebruik **[!UICONTROL is not]**om overeen te komen op alle paginabezoeken/formulieren, met uitzondering van een of meer geselecteerde pagina&#39;s/formulieren. Of gebruik **[!UICONTROL is any]**om een overeenkomst te bereiken op een bezoek of ingevuld formulier op een Marketo Engage-webpagina.
 
    * (Optioneel) Klik op **[!UICONTROL Add constraint]** en kies het veld dat u voor de restrictie wilt gebruiken. Stel de operator en de waarde voor het veld in.
 
@@ -118,7 +118,7 @@ Als u webpagina&#39;s hebt gemaakt in uw verbonden Marketo Engage-exemplaar, kun
 
 ### Luisteren naar een Experience Event
 
-De beheerders kunnen op Adobe Experience Platform (AEP)-Gebaseerde gebeurtenisdefinities vormen, die Marketers toelaten om rekeningsreizen tot stand te brengen die aan [ de Gebeurtenissen van de Ervaring van AEP ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/classes/experienceevent) reageren. Het gebruik van AEP Experience Events voor reizen in rekening is een proces in twee stappen:
+De beheerders kunnen op Adobe Experience Platform (AEP)-Gebaseerde gebeurtenisdefinities vormen, die Marketers toelaten om rekeningsreizen tot stand te brengen die aan [ de Gebeurtenissen van de Ervaring van AEP ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} reageren. Het gebruik van AEP Experience Events voor reizen in rekening is een proces in twee stappen:
 
 1. [ creeer en publiceer een de gebeurtenisdefinitie van AEP ](../admin/configure-aep-events.md).
 
@@ -144,7 +144,7 @@ _om een Gebeurtenis van de Ervaring in uw reis te omvatten:_
 
 1. Klik op **[!UICONTROL Edit event]** en definieer de gebeurtenistypen en eventuele extra beperkingen voor de gebeurtenis.
 
-   * (Vereist) Definieer het gebeurtenistype in het dialoogvenster _[!UICONTROL Edit event]_. U kunt de operator **[!UICONTROL is]**&#x200B;default gebruiken om een of meer geselecteerde gebeurtenistypen overeen te laten komen. U kunt ook de operator **[!UICONTROL is not]**&#x200B;gebruiken om op alle gebeurtenistypen overeen te komen, met uitzondering van een of meer geselecteerde gebeurtenistypen.
+   * (Vereist) Definieer het gebeurtenistype in het dialoogvenster _[!UICONTROL Edit event]_. U kunt de operator **[!UICONTROL is]**default gebruiken om een of meer geselecteerde gebeurtenistypen overeen te laten komen. U kunt ook de operator **[!UICONTROL is not]**gebruiken om op alle gebeurtenistypen overeen te komen, met uitzondering van een of meer geselecteerde gebeurtenistypen.
 
    * (Optioneel) Klik op **[!UICONTROL Add constraint]** en kies het veld dat u voor de restrictie wilt gebruiken. Stel de operator en de waarde voor het veld in.
 
@@ -182,4 +182,4 @@ Indien nodig, bepaal de hoeveelheid tijd de reis op de gebeurtenis wacht. De rei
 
 ## Video over overzicht
 
->[!VIDEO](https://video.tv.adobe.com/v/3443240/?learn=on&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on)

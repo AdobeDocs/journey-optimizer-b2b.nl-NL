@@ -3,26 +3,26 @@ title: Werken met Experience Manager Assets
 description: Leer hoe u afbeeldingselementen van een verbonden AEM Assets-opslagplaats kunt gebruiken bij het ontwerpen van inhoud in Adobe Journey Optimizer B2B edition.
 feature: Assets, Content
 exl-id: c6864981-209c-4123-8d3f-24deb07026a0
-source-git-commit: 728d5316cfdeee92bd4f67277d299bbec2773a4f
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
 source-wordcount: '581'
 ht-degree: 0%
 
 ---
 
-# Werken met Experience Manager-elementen
+# Werken met Experience Manager-middelen
 
-Wanneer Adobe Experience Manager Assets as a Cloud Service is geïntegreerd met Adobe Journey Optimizer B2B edition, kunt u eenvoudig digitale middelen vinden en openen voor gebruik in uw marketinginhoud. Aangezien u uw inhoud ontwerpt, zijn de activa toegankelijk van het _Experience Manager Assets_ punt op de linkernavigatie, en wanneer het ontwerpen van e-mailinhoud voor een rekeningsreis.
+Wanneer Adobe Experience Manager Assets as a Cloud Service is geïntegreerd met Adobe Journey Optimizer B2B edition, kunt u eenvoudig digitale middelen detecteren en openen voor gebruik in uw marketinginhoud. Aangezien u uw inhoud ontwerpt, zijn de activa toegankelijk van het _Experience Manager Assets_ punt op de linkernavigatie, en wanneer het ontwerpen van e-mailinhoud voor een rekeningsreis.
 
 {{aem-assets-licensing-note}}
 
-Als u deze digitale elementen gebruikt, worden de meest recente wijzigingen in Assets as a Cloud Service automatisch doorgegeven aan live e-mailcampagnes via gekoppelde verwijzingen. Als afbeeldingen worden verwijderd in Adobe Experience Manager Assets as a Cloud Service, worden de afbeeldingen weergegeven met een verbroken verwijzing in de e-mails. Wanneer de activa die momenteel binnen rekeningreizen worden gebruikt worden gewijzigd of geschrapt, worden de reisauteurs op de hoogte gebracht van de beeldveranderingen en de lijst van reizen die het beeld gebruiken. Alle wijzigingen in de activa moeten plaatsvinden in de centrale gegevensbank van Adobe Experience Manager Assets.
+Wanneer u deze digitale middelen gebruikt, geven de meest recente wijzigingen in Assets as a Cloud Service automatisch door aan live e-mailcampagnes via gekoppelde verwijzingen. Als afbeeldingen worden verwijderd in Adobe Experience Manager Assets as a Cloud Service, worden de afbeeldingen weergegeven met een verbroken verwijzing in de e-mails. Wanneer de activa die momenteel binnen rekeningreizen worden gebruikt worden gewijzigd of geschrapt, worden de reisauteurs op de hoogte gebracht van de beeldveranderingen en de lijst van reizen die het beeld gebruiken. Alle wijzigingen in de activa moeten plaatsvinden in de centrale gegevensbank van Adobe Experience Manager Assets.
 
 Wanneer uw milieu één of meerdere [ Assets bewaart verbindingen ](../admin/configure-aem-repositories.md) heeft, kunnen de inhoudsauteurs AEM Assets als bron voor activa gebruiken wanneer het creëren van een e-mail, e-mailmalplaatje, of visueel fragment.
 
 >[!IMPORTANT]
 >
->Een beheerder moet gebruikers die toegang tot Assets nodig hebben, toevoegen aan de profielen Assets Consumer Users of/and Assets Users Product. [Meer informatie](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console)
+>Een beheerder moet gebruikers die toegang tot Assets nodig hebben, toevoegen aan de profielen Assets Consumer Users of/and Assets Users Product. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
 
 ## AEM Assets-afbeeldingen openen
 
@@ -32,11 +32,11 @@ In de visuele inhoudsredacteur, klik het _Experience Manager Assets_ ( ![ het pi
 
 >[!NOTE]
 >
->Momenteel worden alleen afbeeldingselementen van Adobe Experience Manager Assets ondersteund in Adobe Journey Optimizer B2B edition. Wijzigingen in de activa moeten worden aangebracht vanuit de centrale gegevensbank van Adobe Experience Manager Assets. [Meer informatie](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets)
+>Momenteel worden alleen afbeeldingselementen van Adobe Experience Manager Assets ondersteund in Adobe Journey Optimizer B2B edition. Wijzigingen in de activa moeten worden aangebracht vanuit de centrale gegevensbank van Adobe Experience Manager Assets. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
 
 ### De weergegeven opslagplaats wijzigen
 
-Als u meer dan één aangesloten AEM opslagplaats hebt, klikt u op de menupijl voor **[!UICONTROL Repository]** om de opslagplaats te kiezen die u in het linkerpaneel wilt weergeven.
+Als u meer dan één aangesloten AEM-opslagplaats hebt, klikt u op de menupijl voor **[!UICONTROL Repository]** om de opslagplaats te kiezen die u in het linkerpaneel wilt weergeven.
 
 ![ kies een bewaarplaats van AEM Assets om tot de beeldactiva ](./assets/content-assets-selector-aem-repo.png){width="700" zoomable="yes"} toegang te hebben
 
@@ -52,7 +52,7 @@ Er zijn meerdere methoden om een afbeeldingselement toe te voegen aan het visuel
 
 ## Een afbeelding zoeken en selecteren
 
-1. Voeg een afbeeldingscomponent toe aan het canvas en klik op **[!UICONTROL Experience Manager Assets]** om het dialoogvenster _[!UICONTROL Select Assets]_&#x200B;te openen.
+1. Voeg een afbeeldingscomponent toe aan het canvas en klik op **[!UICONTROL Experience Manager Assets]** om het dialoogvenster _[!UICONTROL Select Assets]_te openen.
 
    ![ selecteer een activa voor de beeldcomponent ](./assets/content-image-component-empty.png){width="600" zoomable="yes"}
 

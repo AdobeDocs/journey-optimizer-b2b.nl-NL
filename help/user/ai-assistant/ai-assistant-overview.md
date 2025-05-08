@@ -4,16 +4,16 @@ description: Plaatsaanduiding
 feature: AI Assistant
 level: Beginner
 exl-id: 52ff66d2-1969-4e2c-985a-c75e613368de
-source-git-commit: f09f3f5b7d4419ead5308e4c5be3b518b4e16ff5
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1241'
 ht-degree: 1%
 
 ---
 
 # AI Assistant in Journey Optimizer B2B edition
 
-AI Medewerker in Journey Optimizer B2B edition wordt gecreeerd van de zelfde technologiestichting van [ AI Medewerker in Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/home). Het is een conversatie-ervaring die u kunt gebruiken om uw workflows in Adobe Journey Optimizer B2B edition te versnellen. U kunt AI Assistant gebruiken om meer inzicht te krijgen in de productmogelijkheden, problemen op te lossen of informatie te doorzoeken en operationele inzichten voor Journey Optimizer B2B edition te zoeken.
+AI Medewerker in Journey Optimizer B2B edition wordt gecreeerd van de zelfde technologiestichting van [ AI Medewerker in Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}. Het is een conversatie-ervaring die u kunt gebruiken om uw workflows in Adobe Journey Optimizer B2B edition te versnellen. U kunt AI Assistant gebruiken om meer inzicht te krijgen in de productmogelijkheden, problemen op te lossen of informatie te doorzoeken en operationele inzichten voor Journey Optimizer B2B edition te zoeken.
 
 >[!IMPORTANT]
 >
@@ -29,7 +29,7 @@ AI Medewerker in Journey Optimizer B2B edition wordt gecreeerd van de zelfde tec
 
 ## AI Assistant-mogelijkheden in Journey Optimizer B2B edition
 
-Om een antwoord op uw voorgelegde vragen te formuleren, vraagt de Medewerker van AI een gegevensbestand en vertaalt gegevens van het gegevensbestand in een leesbaar antwoord. Deze reactie is een interne vertegenwoordiging van onderliggende gegevens, en is ook genoemd geworden _&#x200B;**_Grafiek van de Kennis_**&#x200B;_ - een uitvoerig Web van concepten, gegevens, en meta-gegevens voor een bepaald antwoord. De Kennisgrafiek bestaat uit subgrafieken waarnaar wordt verwezen wanneer query&#39;s worden verzonden:
+Om een antwoord op uw voorgelegde vragen te formuleren, vraagt de Medewerker van AI een gegevensbestand en vertaalt gegevens van het gegevensbestand in een leesbaar antwoord. Deze reactie is een interne vertegenwoordiging van onderliggende gegevens, en is ook genoemd geworden _**_Grafiek van de Kennis_**_ - een uitvoerig Web van concepten, gegevens, en meta-gegevens voor een bepaald antwoord. De Kennisgrafiek bestaat uit subgrafieken waarnaar wordt verwezen wanneer query&#39;s worden verzonden:
 
 * Experience League-documentatie.
 * Operationele artefacten, zoals schema&#39;s, velden, publiek en reizen.
@@ -59,7 +59,7 @@ U kunt AI Assistant-vragen stellen over uw operationele inzichten in de volgende
 | Domein | Ondersteunde metagegevens | Niet-ondersteunde metagegevens |
 | --- | --- | --- |
 | Kenmerken/velden | <li>Zoeken naar kenmerknaam <li>Kenmerk - schemaverhouding <li>Kenmerk - gegevenssetrelatie <li>Kenmerk - publieksrelatie <li>Kenmerk - bestemmingsverhouding | <li>Kenmerkklasse <li>Audit <li>Vervalstatus <li>Labels <li>Waarde opgeslagen in kenmerken |
-| De Publiek van de rekening <br><br>**_Nota:_**&#x200B;de Medewerker van AJO B2B AI kan publieksvragen voor het Publiek van de Rekening slechts beantwoorden, terwijl de Medewerker van Experience Platform AI vragen slechts voor het Publiek van de Persoon kan beantwoorden | <li>Aantal deelnemers <li>Type publiek (streaming of batch) <li>Aanmaakdatum/wijzigingsdatum <li>Activeringsstatus <li>Aantal leden <li>Soorten publiek dupliceren <li>Naam en id zoeken | <li>Overlap door publiek <li>Activering publiek <li>Audit <li>Maken/wijzigen <li>Labels <li>Kwalificatietrends van de lidstaten |
+| De Publiek van de rekening <br><br>**_Nota:_**de Medewerker van AJO B2B AI kan publieksvragen voor het Publiek van de Rekening slechts beantwoorden, terwijl de Medewerker van Experience Platform AI vragen slechts voor het Publiek van de Persoon kan beantwoorden | <li>Aantal deelnemers <li>Type publiek (streaming of batch) <li>Aanmaakdatum/wijzigingsdatum <li>Activeringsstatus <li>Aantal leden <li>Soorten publiek dupliceren <li>Naam en id zoeken | <li>Overlap door publiek <li>Activering publiek <li>Audit <li>Maken/wijzigen <li>Labels <li>Kwalificatietrends van de lidstaten |
 | Gegevensstromen | <li>Aantal gegevensstromen <li>Status DataFlow <li>Dataflow - relatie gegevensset <li>Dataflow - bronrelatie | <li>Maken/wijzigen <li>Dataflow-batch-relaties <li>Aantal hoogste profielen |
 | Gegevenssets | <li>Aantal gegevenssets <li>Status profiel inschakelen <li>Aanmaakdatum/wijzigingsdatum <li>Gegevensset - schema-relatie <li>Gegevensset - publieksrelatie <li>Gegevensset - kenmerkrelatie <li>Dataset - gegevensstroomrelatie <li>Naam zoeken <li>Naam en id zoeken | <li>Audit <li>Gemaakt door <li>Gegevensset - batch-relatie <li>Maken en wijzigen van gegevensset <li>Gegevensgrootte <li>Aantal profielen <li>Aantal rijen <li>Waardezoekopdracht |
 | Bestemmingen | <li>Gevormde doelaantallen <li>Doel - publieksrelatie <li>Relatie doelkenmerk | <li>Account instellen <li>Accountreferentie-informatie <li>Unieke profielen geactiveerd |
@@ -77,9 +77,9 @@ Voor vragen over operationele inzichten weerspiegelen de antwoorden mogelijk nie
 
 Momenteel is het bereik van AI Assistant als volgt:
 
-* [ de kennis van het Product ](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/home#product-knowledge): De Medewerker van AI kan de vragen van de productkennis voor Real-Time Customer Data Platform en Adobe Journey Optimizer B2B edition beantwoorden.
+* **de kennis van het Product**: De Medewerker van AI kan de vragen van de productkennis voor Real-Time Customer Data Platform en Adobe Journey Optimizer B2B edition beantwoorden.
 
-* [ Operationele inzichten ](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/home#operational-insights): U kunt AI Hulp vragen voor operationele inzichten voor de volgende gegevensvoorwerpen: attributen, rekeningspubliek, dataflows, datasets, bestemmingen, rekeningsreizen, schema&#39;s, bronnen, het kopen groepsmalplaatjes, en oplossingsbelangen.
+* **Operationele inzichten**: U kunt AI Hulp vragen voor operationele inzichten voor de volgende gegevensvoorwerpen: attributen, rekeningspubliek, dataflows, datasets, bestemmingen, rekeningsreizen, schema&#39;s, bronnen, het kopen groepsmalplaatjes, en oplossingsbelangen.
 
 ### Privacy, veiligheid en bestuur
 
@@ -91,7 +91,7 @@ AI Assistant in Journey Optimizer B2B edition is gebouwd met privacy, beveiligin
 
 * U moet expliciete toestemming hebben om met AI Medewerker in wisselwerking te staan.
 
-   * Een beheerder kan toestemmingen plaatsen gebruikend [ Toestemmingen UI ](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/abac/permissions-ui/permissions) en [ Admin Console ](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/ui/browse).
+   * Een beheerder kan toestemmingen plaatsen gebruikend [ Toestemmingen UI ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} en [ Admin Console ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"}.
 
    * De toestemmingen zijn korrelig en uw zandbakbeheerder kan vormen welke gebruikers verschillende vraagcategorieën (product kennisgebaseerde vragen met AI Medewerker of vragen over operationele inzichten) kunnen stellen.
 

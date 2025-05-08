@@ -2,7 +2,7 @@
 title: Accountlijsten
 description: Meer informatie over accountlijsten en hoe markeertekens deze kunnen gebruiken om accounts te activeren via accountreizen.
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: 2fbf54b3e532eadb7b9a84c64c7d67eb8bcf62b2
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
 source-wordcount: '1266'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 In Journey Optimizer B2B edition is een accountlijst een verzameling benoemde accounts die Marktdeelnemers kunnen gebruiken voor een doelgerichte reisorganisatie. Een accountlijst kan zich richten op benoemde accounts op basis van uw gedefinieerde criteria, zoals de branche, locatie of grootte van het bedrijf. Er zijn twee typen accountlijsten:
 
 * **Statisch** - met een statische rekeningslijst, verandert de lijst slechts wanneer u de rekeningen toevoegt. U kunt handmatig accounts toevoegen door een filterset toe te passen om de lijst te vullen op basis van de huidige accountgegevens, of door een accountreis toe te voegen en te verwijderen.
-* **Dynamisch** - met een dynamische rekeningslijst, bepaalt u een filter dat voor automatisch het leiden van de lijst wordt geplaatst. Het systeem gebruikt deze filterset om accounts toe te voegen en te verwijderen op basis van wijzigingen in de accountgegevens. Dit lijstbeheer is gelijkaardig aan [ publiekssegmentatie in het Platform van Gegevens van de Klant in real time ](https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/segmentation/b2b).
+* **Dynamisch** - met een dynamische rekeningslijst, bepaalt u een filter dat voor automatisch het leiden van de lijst wordt geplaatst. Het systeem gebruikt deze filterset om accounts toe te voegen en te verwijderen op basis van wijzigingen in de accountgegevens. Dit lijstbeheer is gelijkaardig aan [ publiekssegmentatie in het Platform van Gegevens van de Klant in real time ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}.
 
 Wanneer een rekeningslijst in a _Levende_ (gepubliceerde) staat is, is het beschikbaar voor [ gebruik in rekeningsreizen en de programma&#39;s van Marketo Engage ](./account-lists-journeys.md).
 
@@ -28,7 +28,7 @@ Vouw **[!UICONTROL Accounts]** uit in de linkernavigatie en klik op **[!UICONTRO
 
 ![ de rekeningsreizen van de Toegang ](./assets/account-lists-browse.png){width="800" zoomable="yes"}
 
-De weergegeven _[!UICONTROL Account lists]_&#x200B;pagina bevat de volgende kolommen:
+De weergegeven _[!UICONTROL Account lists]_pagina bevat de volgende kolommen:
 
 * [!UICONTROL Name] (klik op de naam van de accountlijst voor meer informatie)
 * [!UICONTROL Status]
@@ -50,19 +50,19 @@ Om de beschrijving voor een rekeningslijst te bekijken, klik het _pictogram van 
 
 Wanneer u een accountlijst maakt, definieert u een set filters om de lijst te genereren. U kunt het bijvoorbeeld gebruiken om een lijst met accounts te genereren waarin de branche Gezondheidszorg is en de inkomsten meer dan $100M bedragen.
 
-1. Klik op de pagina _[!UICONTROL Account lists]_&#x200B;op de **[!UICONTROL Create account list]**&#x200B;rechtsboven op de pagina.
+1. Klik op de pagina _[!UICONTROL Account lists]_op de **[!UICONTROL Create account list]**rechtsboven op de pagina.
 
    ![ klik Create rekeningslijst ](./assets/account-lists-create.png){width="700" zoomable="yes"}
 
-1. Voer in het dialoogvenster _[!UICONTROL Create account list]_&#x200B;een uniek **[!UICONTROL Name]**(vereist) en een **[!UICONTROL Description]**(optioneel) veld in.
+1. Voer in het dialoogvenster _[!UICONTROL Create account list]_een uniek **[!UICONTROL Name]**(vereist) en een **[!UICONTROL Description]**(optioneel) veld in.
 
-1. Kies de _[!UICONTROL Type]_&#x200B;voor de accountlijst,**[!UICONTROL Static]**&#x200B;of **[!UICONTROL Dynamic]**.
+1. Kies de _[!UICONTROL Type]_voor de accountlijst,**[!UICONTROL Static]**of **[!UICONTROL Dynamic]**.
 
    ![ kies Statisch of Dynamisch voor de rekeningslijst ](./assets/account-list-create-dialog.png){width="380"}
 
 1. Klik op **[!UICONTROL Create]**.
 
-   Er wordt een nieuwe lijst met statische accounts geopend met een lege lijst met accounts. Er wordt een nieuwe dynamische accountlijst geopend met het deelvenster _[!UICONTROL Add accounts by filter]_&#x200B;op de pagina.
+   Er wordt een nieuwe lijst met statische accounts geopend met een lege lijst met accounts. Er wordt een nieuwe dynamische accountlijst geopend met het deelvenster _[!UICONTROL Add accounts by filter]_op de pagina.
 
 ## Accounts toevoegen aan de accountlijst
 
@@ -86,7 +86,7 @@ Nadat u de lijst met statische accounts hebt gemaakt, kunt u de lijst vullen doo
 
    U kunt deze functie openen op de lege lijstpagina of bij het hoogste recht.
 
-1. In het dialoogvenster _[!UICONTROL Add accounts by filter]_&#x200B;gebruikt u het menu **[!UICONTROL Account Filters]**&#x200B;om de kenmerken en activiteiten toe te voegen die u wilt gebruiken om de filterset te maken:
+1. In het dialoogvenster _[!UICONTROL Add accounts by filter]_gebruikt u het menu **[!UICONTROL Account Filters]**om de kenmerken en activiteiten toe te voegen die u wilt gebruiken om de filterset te maken:
 
    De filters worden genest in categoriemappen. U kunt elke map uitvouwen en door de lijsten met beschikbare filters bladeren. Of, gebruik het _hulpmiddel van het Onderzoek_ bij de bovenkant om van de filter de plaats te bepalen die u nodig hebt.
 
@@ -114,7 +114,7 @@ Nadat u een dynamische rekeningslijst creeert, bepaalt u de filterreeks die word
 
    ![ Uitgezochte filters die worden gebruikt om de lijst dynamisch te bevolken ](./assets/account-lists-dynamic-new-select-filters.png){width="700" zoomable="yes"}
 
-1. In het dialoogvenster _[!UICONTROL Add accounts by filter]_&#x200B;gebruikt u het menu **[!UICONTROL Account Filters]**&#x200B;om de kenmerken en speciale filters toe te voegen die u wilt gebruiken om de filterset te maken:
+1. In het dialoogvenster _[!UICONTROL Add accounts by filter]_gebruikt u het menu **[!UICONTROL Account Filters]**om de kenmerken en speciale filters toe te voegen die u wilt gebruiken om de filterset te maken:
 
    De filters worden genest in categoriemappen. U kunt elke map uitvouwen en door de lijsten met beschikbare filters bladeren. Of, gebruik het _hulpmiddel van het Onderzoek_ bij de bovenkant om van de filter de plaats te bepalen die u nodig hebt.
 
@@ -152,11 +152,11 @@ U kunt een accountlijst publiceren zodra de filterset is voltooid.
 
    ![ klik publiceren bij het hoogste recht ](./assets/account-lists-static-publish.png){width="700" zoomable="yes"}
 
-1. Klik in het dialoogvenster _[!UICONTROL Publish static account list]_&#x200B;op **[!UICONTROL Publish]**&#x200B;om te bevestigen.
+1. Klik in het dialoogvenster _[!UICONTROL Publish static account list]_op **[!UICONTROL Publish]**om te bevestigen.
 
    ![ Bevestig publiceren voor een statische rekeningslijst ](./assets/account-lists-static-publish-confirm.png){width="400"}
 
-Het statuut van de statische rekeningslijst verandert in _[!UICONTROL Live]_&#x200B;en het is beschikbaar voor [ gebruik in een rekeningsreis ](#account-list-usage-in-account-journeys).
+Het statuut van de statische rekeningslijst verandert in _[!UICONTROL Live]_en het is beschikbaar voor [ gebruik in een rekeningsreis ](#account-list-usage-in-account-journeys).
 
 >[!TAB  Dynamische rekeningslijst ]
 
@@ -166,10 +166,10 @@ U kunt doorgaan met het publiceren van een dynamische accountlijst zodra de filt
 
    ![ klik publiceren bij het hoogste recht ](./assets/account-lists-dynamic-publish.png){width="700" zoomable="yes"}
 
-1. Klik in het dialoogvenster _[!UICONTROL Publish dynamic account list]_&#x200B;op **[!UICONTROL Publish]**&#x200B;om te bevestigen.
+1. Klik in het dialoogvenster _[!UICONTROL Publish dynamic account list]_op **[!UICONTROL Publish]**om te bevestigen.
 
    ![ Bevestig publiceren voor een dynamische rekeningslijst ](./assets/account-lists-dynamic-publish-confirm.png){width="400"}
 
-Het statuut van de dynamische rekeningslijst verandert in _[!UICONTROL Live]_&#x200B;en het is beschikbaar voor [ gebruik in een rekeningsreis ](#account-list-usage-in-account-journeys).
+Het statuut van de dynamische rekeningslijst verandert in _[!UICONTROL Live]_en het is beschikbaar voor [ gebruik in een rekeningsreis ](#account-list-usage-in-account-journeys).
 
 >[!ENDTABS]
