@@ -22,7 +22,7 @@ U kunt e-mailleveringen instellen in een Account Journey wanneer u een _[!UICONT
 1. Kies **[!UICONTROL Send email]** bij _[!UICONTROL Action on people]_.
 1. Kies **[!UICONTROL Create new email]** bij _[!UICONTROL Email source]_.
 
-   U kunt ook de optie _[!UICONTROL Select email from Adobe Marketo Engage]_selecteren om een van de vooraf geschreven e-mails in Marketo Engage te gebruiken en te verzenden als onderdeel van de Account Journey.
+   U kunt ook de optie _[!UICONTROL Select email from Adobe Marketo Engage]_&#x200B;selecteren om een van de vooraf geschreven e-mails in Marketo Engage te gebruiken en te verzenden als onderdeel van de Account Journey.
 
    >[!NOTE]
    >
@@ -30,7 +30,7 @@ U kunt e-mailleveringen instellen in een Account Journey wanneer u een _[!UICONT
 
    ![ neem een actie - verzend een e-mail ](assets/journey-node-send-email.png){width="700" zoomable="yes"}
 
-1. Klik onder aan het deelvenster _[!UICONTROL Take an action]_op **[!UICONTROL Create email]**.
+1. Klik onder aan het deelvenster _[!UICONTROL Take an action]_&#x200B;op **[!UICONTROL Create email]**.
 
 1. Voer in het dialoogvenster een unieke **[!UICONTROL Name]** in voor de e-mail en een **[!UICONTROL Subject line]** .
 
@@ -38,7 +38,7 @@ U kunt e-mailleveringen instellen in een Account Journey wanneer u een _[!UICONT
 
 1. Klik op **[!UICONTROL Create]**.
 
-   In de sectie _[!UICONTROL Email properties]_van de pagina met e-mailinhoud zijn de velden_[!UICONTROL From email]_ en _[!UICONTROL Reply to address]_al geconfigureerd. U kunt waarden invoeren voor de velden_[!UICONTROL From name]_ en _[!UICONTROL Description]_(optioneel).
+   In de sectie _[!UICONTROL Email properties]_&#x200B;van de pagina met e-mailinhoud zijn de velden&#x200B;_[!UICONTROL From email]_ en _[!UICONTROL Reply to address]_&#x200B;al geconfigureerd. U kunt waarden invoeren voor de velden&#x200B;_[!UICONTROL From name]_ en _[!UICONTROL Description]_(optioneel).
 
 ## E-mailinhoud maken
 
@@ -131,7 +131,7 @@ U kunt de geïmporteerde inhoud naar wens aanpassen met de gereedschappen in de 
 
 {{$include /help/_includes/content-design-use-fragments.md}}
 
-Nadat het e-mailbericht is opgeslagen, wordt het weergegeven op de pagina met fragmentdetails wanneer u het tabblad _[!UICONTROL Used By]_in het overzicht selecteert.
+Nadat het e-mailbericht is opgeslagen, wordt het weergegeven op de pagina met fragmentdetails wanneer u het tabblad _[!UICONTROL Used By]_&#x200B;in het overzicht selecteert.
 
 ### Elementen toevoegen
 
@@ -147,7 +147,7 @@ Nadat het e-mailbericht is opgeslagen, wordt het weergegeven op de pagina met fr
 
 >[!NOTE]
 >
->Als _[!UICONTROL My Tokens]_is gedefinieerd voor de accountreis, kunt u deze reisspecifieke tokens ook gebruiken voor uw e-mailinhoud. Zie [ de tokens van de Douane voor e-mailverpersoonlijking ](./personalization-my-tokens.md) voor meer informatie.
+>Als _[!UICONTROL My Tokens]_&#x200B;is gedefinieerd voor de accountreis, kunt u deze reisspecifieke tokens ook gebruiken voor uw e-mailinhoud. Zie [ de tokens van de Douane voor e-mailverpersoonlijking ](./personalization-my-tokens.md) voor meer informatie.
 
 ### Gekoppelde URL-tracking bewerken
 
@@ -165,7 +165,7 @@ Gebruik de opties voor weergave- en inhoudsvalidatie die beschikbaar zijn in de 
 
 ### Meer opties
 
-Vanuit het menu _[!UICONTROL More ...]_boven aan de e-mailontwerper kunt u de volgende handelingen uitvoeren:
+Vanuit het menu _[!UICONTROL More ...]_&#x200B;boven aan de e-mailontwerper kunt u de volgende handelingen uitvoeren:
 
 ![ klik Meer om tot malplaatjeacties ](./assets/email-designer-more-menu.png){width="500"} toegang te hebben
 

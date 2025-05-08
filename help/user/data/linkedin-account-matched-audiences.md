@@ -46,7 +46,7 @@ Alvorens u een dataflow van Journey Optimizer B2B edition in werking stelt, moet
 
    >[!IMPORTANT]
    >
-   >Op dit punt, **ga** niet _[!UICONTROL Destination details]_in. Alleen de verbinding is nodig.
+   >Op dit punt, **ga** niet _[!UICONTROL Destination details]_&#x200B;in. Alleen de verbinding is nodig.
 
 ## Accountgegevens bijwerken
 
@@ -114,6 +114,6 @@ De naam en beschrijving van de LinkedIn-account zijn zichtbaar voor inkoopgroepe
 
 ## Betaalde betrokkenheid bij media ordenen
 
-U kunt via een betaald mediakanaal, zoals LinkedIn Addiences, contact opnemen met accountleden om hen aan te schaffen, te voeden en in aanmerking te laten komen voor Verkoop. Gebruik a _neemt een 1} knoop van de actie {in een rekeningsreis om overeenkomst met zeer belangrijke leden van een rekening door een extern kanaal te automatiseren dat best voor verschillende rekeningsleden past._
+U kunt via een betaald mediakanaal, zoals LinkedIn Addiences, contact opnemen met accountleden om hen aan te schaffen, te voeden en in aanmerking te laten komen voor Verkoop. Gebruik a _neemt een 1&rbrace; knoop van de actie &lbrace;in een rekeningsreis om overeenkomst met zeer belangrijke leden van een rekening door een extern kanaal te automatiseren dat best voor verschillende rekeningsleden past._
 
 >[!VIDEO](https://video.tv.adobe.com/v/3448649/?learn=on)
