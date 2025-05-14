@@ -3,7 +3,7 @@ title: AI Assistant voor e-mailauthoring
 description: Leer hoe u AI Assistant gebruikt om de e-mailinhoud te optimaliseren die wordt gebruikt in Accountreizen.
 feature: AI Assistant, Email Authoring, Content
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: bf57c152e758a757279f7666423f6a6ca61e1092
 workflow-type: tm+mt
 source-wordcount: '2943'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # AI Assistant voor het schrijven van e-mail
 
-Naarmate de marketingindustrie concurrerender wordt, zoeken merken efficiënte manieren om snel en efficiënt onbruikbare inhoud te genereren. AI Assistant voor het schrijven van e-mails in Adobe Journey Optimizer B2B Edition is de door AI aangedreven mogelijkheid van de Adobe om inhoud te genereren die revolutionair is voor de manier waarop marketeers professionele en merkconsistente e-mailinhoud maken. Met geavanceerde GenAI-modellen en een goed begrip van de richtlijnen voor merken genereert AI Assistant automatisch persoonlijke, aantrekkelijke en effectieve inhoud die is gebaseerd op het marketingdoel, met inhoud die is geoptimaliseerd voor stijlen, lay-outs, kleurtinten en meer met een merk. AI Assistant maakt het maken en uitvoeren van e-mailmarketingcampagnes intuïtief, eenvoudig en probleemloos. Door deze mogelijkheid toe te voegen aan uw workflows kunt u tijd besparen, de efficiëntie verbeteren en betere resultaten behalen.
+Naarmate de marketingindustrie concurrerender wordt, zoeken merken efficiënte manieren om snel en efficiënt onbruikbare inhoud te genereren. AI Assistant voor het schrijven van e-mails in Adobe Journey Optimizer B2B edition is een Adobe-functie voor het genereren van inhoud die door AI wordt gevoed en die een revolutie betekent in de manier waarop marketeers professionele en merkconsistente e-mailinhoud maken. Met geavanceerde GenAI-modellen en een goed begrip van de richtlijnen voor merken genereert AI Assistant automatisch persoonlijke, aantrekkelijke en effectieve inhoud die is gebaseerd op het marketingdoel, met inhoud die is geoptimaliseerd voor stijlen, lay-outs, kleurtinten en meer met een merk. AI Assistant maakt het maken en uitvoeren van e-mailmarketingcampagnes intuïtief, eenvoudig en probleemloos. Door deze mogelijkheid toe te voegen aan uw workflows kunt u tijd besparen, de efficiëntie verbeteren en betere resultaten behalen.
 
 Deze nieuwe functie biedt een snelle tekstgeneratie, volledige e-mailgeneratie en het genereren van inhoud binnen e-mailstructuren. Afbeeldingen worden niet gegenereerd, maar worden aanbevolen vanuit de catalogus van afbeeldingen in het invoermerkelement naar het model. U kunt deze mogelijkheid ook gebruiken om optimale onderwerpregel en voorkoppen te genereren die van invloed zijn op de open snelheid.
 
@@ -22,21 +22,21 @@ Deze nieuwe functie biedt een snelle tekstgeneratie, volledige e-mailgeneratie e
 
 ## Richtlijnen en beperkingen
 
-Lees de volgende richtlijnen voordat u aan de slag gaat met AI Assistant in Adobe Journey Optimizer B2B Edition voor het genereren van e-mailinhoud:
+Lees de volgende richtlijnen voordat u aan de slag gaat met AI Assistant in Adobe Journey Optimizer B2B edition voor het genereren van e-mailinhoud:
 
 * Het marketingdoel of de marketingprompt die u definieert, is een belangrijke bepalende factor voor de kwaliteit van de gegenereerde inhoud. Gebruik een duidelijk gedefinieerde prompt voor een juiste interpretatie van het GenAI-model.
 * Upload merkelementen zodat ze accuraat zijn, op inhoud van het merk. Zonder deze activa, is de inhoud gebaseerd op openbaar beschikbare informatie.
    * De geüploade elementen kunnen de volgende indelingen hebben: PDF-, JPEG-, PNG- of ZIP-bestanden (met ondersteunde bestandsindelingen).
    * De maximale grootte voor een geüpload merk is 50 MB. Grotere bestanden of grote hoeveelheden afbeeldingen kunnen werken, maar de verwerkingstijd neemt toe.
-* Gebruik voor Adobe Journey Optimizer B2B Edition geschreven e-mailsjablonen, bij voorkeur de ingebouwde sjabloon of voorbeeldsjablonen, een merkspecifieke sjabloon of een aangepaste sjabloon om uw e-mailinhoud te maken. E-mailsjablonen met maximaal acht tot tien afbeeldingen worden aanbevolen.
+* Gebruik door Adobe Journey Optimizer B2B edition geschreven e-mailsjablonen, bij voorkeur de ingebouwde sjablonen of voorbeeldsjablonen, een merkspecifieke sjabloon of een aangepaste sjabloon om uw e-mailinhoud te maken. E-mailsjablonen met maximaal acht tot tien afbeeldingen worden aanbevolen.
 * Zorg ervoor om het even welke problematische output te melden gebruikend duim neer of vlagpictogrammen tegen een geproduceerde variant.
-* Uw gebruik van AI Medewerker is onderworpen aan de [ Generatieve AI Richtlijnen van de Gebruiker van de Adobe ](https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html).
+* Uw gebruik van AI Medewerker is onderworpen aan de [ Generatieve AI Richtlijnen van de Gebruiker van Adobe ](https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html).
 
-De volgende beperkingen gelden voor AI Assistant in Adobe Journey Optimizer B2B Edition voor het genereren van e-mailinhoud:
+De volgende beperkingen gelden voor AI Assistant in Adobe Journey Optimizer B2B edition voor het genereren van e-mailinhoud:
 
 * Engels is de enige ondersteunde taal.
 * Deze optie is alleen beschikbaar voor het e-mailkanaal.
-* GenAI-inhoud is mogelijk niet correct. Deel uw feedback zodat Adobe engineers de modellen kunnen verfijnen.
+* GenAI-inhoud is mogelijk niet correct. Deel uw feedback zodat Adobe-technici de modellen kunnen verfijnen.
 * U kunt meerdere merkmiddelen uploaden, maar u kunt slechts één voor een specifieke generatie gebruiken.
 
 >[!BEGINSHADEBOX]
@@ -53,7 +53,7 @@ Selecteer de vraag die uw voorgenomen doelstellingen het best weerspiegelt en vo
 
 ## Groeprollen kopen
 
-Adobe Journey Optimizer B2B Edition biedt vijf standaard B2B-aankoopgroeprollen buiten de box. Elke het kopen groepsrol heeft een duidelijke overseinennadruk:
+Adobe Journey Optimizer B2B edition biedt vijf standaard B2B-rollen voor inkoopgroepen buiten de box. Elke het kopen groepsrol heeft een duidelijke overseinennadruk:
 
 | Functie | Berichtenfocus |
 | ---- | --------------- |
@@ -67,11 +67,11 @@ Het kiezen van één van deze het kopen groepsrollen past automatisch de output 
 
 ## E-maileigenschappen genereren met AI Assistant
 
-Wanneer u [ een e-mailactie ](./email-authoring.md#add-an-email-action-in-an-account-journey) aan een rekeningsreis toevoegt, bepaalt u een reeks e-maileigenschappen die voor het verzenden van e-mail worden gebruikt. De Medewerker van AI kan helpen betere e-mailovereenkomst bereiken door geadviseerde inhoud voor de e-mail **onderwerpregel** en **preheader** te produceren.
+Wanneer u [ een e-mailactie ](./add-email.md#add-an-email-action-node-in-a-journey) aan een rekeningsreis toevoegt, bepaalt u een reeks e-maileigenschappen die voor het verzenden van e-mail worden gebruikt. De Medewerker van AI kan helpen betere e-mailovereenkomst bereiken door geadviseerde inhoud voor de e-mail **onderwerpregel** en **preheader** te produceren.
 
 1. Maak een e-mail van een accountreis of open een bestaande e-mail van een transportknooppunt.
 
-   De voorvertoningspagina voor e-mail wordt weergegeven met de _[!UICONTROL Email properties]_&#x200B;aan de rechterkant.
+   De voorvertoningspagina voor e-mail wordt weergegeven met de _[!UICONTROL Email properties]_aan de rechterkant.
 
 1. Selecteer een van de volgende tabbladen voor informatie over het gebruik van AI Assistant in het ontwerpen van e-maileigenschappen.
 
@@ -81,7 +81,7 @@ Wanneer u [ een e-mailactie ](./email-authoring.md#add-an-email-action-in-an-acc
 
 De volgende stappen beschrijven de taakopeenvolging voor het gebruiken van AI Medewerker om een geoptimaliseerde onderwerpregel voor uw e-mail te produceren:
 
-1. In _[!UICONTROL Email Properties]_, klik het AI Hulppictogram ( ![ AI Hulptoegangspictogram ](./assets/email-properties-ai-assistant-button.png){width="30" zoomable="no"}) rechts van het **[!UICONTROL Subject line]**&#x200B;gebied.
+1. In _[!UICONTROL Email Properties]_, klik het AI Hulppictogram ( ![ AI Hulptoegangspictogram ](./assets/email-properties-ai-assistant-button.png){width="30" zoomable="no"}) rechts van het **[!UICONTROL Subject line]**gebied.
 
    ![ AI Hulp toegang voor e-mail onderwerpregel ](./assets/email-properties-ai-assistant-subject-line-icon.png){width="600" zoomable="yes"}
 
@@ -201,7 +201,7 @@ Een e-mailpreheader is de korte samenvattingstekst die volgt op de onderwerprege
 
 ## E-mailinhoud genereren met AI Assistant
 
-Nadat u [ creeert en uw e-mail ](./email-authoring.md#create-the-email-content) personaliseert, gebruik AI Medewerker in de Uitgave van Adobe Journey Optimizer B2B, aangedreven door generatieve AI om uw e-maillichaaminhoud tot het volgende niveau op te heffen.
+Nadat u [ creeert en uw e-mail ](./email-authoring.md) personaliseert, gebruik AI Medewerker in Adobe Journey Optimizer B2B edition, die door generatieve AI wordt aangedreven om uw e-maillichaamsinhoud tot het volgende niveau op te heffen.
 
 In de e-mailontwerper, kan AI Medewerker u helpen de invloed van uw leveringen optimaliseren door het volledige e-maillichaam, gerichte tekstinhoud, en aanbevelingen voor beelden te produceren die met uw publiek resoneren. Deze optimalisatie van uw e-mailcampagnes is ontworpen om een betere betrokkenheid te creëren.
 
@@ -260,7 +260,7 @@ In de volgende stappen wordt de taakvolgorde beschreven voor het gebruik van AI 
 
 1. Klik op **[!UICONTROL Select]** om de sjablooninhoud te vervangen door de geselecteerde variant en terug te keren naar de e-mailontwerper.
 
-   In de e-mailontwerper kunt u de bewerkings- en opmaakgereedschappen op het canvas gebruiken om de inhoud en de opties _[!UICONTROL Settings]_&#x200B;en&#x200B;_[!UICONTROL Style]_ aan de rechterkant te wijzigen.
+   In de e-mailontwerper kunt u de bewerkings- en opmaakgereedschappen op het canvas gebruiken om de inhoud en de opties _[!UICONTROL Settings]_en_[!UICONTROL Style]_ aan de rechterkant te wijzigen.
 
 >[!TAB  generatie van de Tekst ]
 
@@ -316,7 +316,7 @@ De volgende stappen beschrijven de taakopeenvolging voor het gebruiken van AI Me
 
 1. Als u de gewenste inhoud hebt, klikt u op **[!UICONTROL Select]** om de tekst te vervangen door de geselecteerde variant en terug te keren naar de e-mailontwerper.
 
-   In de e-mailontwerper kunt u de bewerkings- en opmaakgereedschappen op het canvas gebruiken om de tekst en de opties _[!UICONTROL Settings]_&#x200B;en&#x200B;_[!UICONTROL Style]_ aan de rechterkant te wijzigen.
+   In de e-mailontwerper kunt u de bewerkings- en opmaakgereedschappen op het canvas gebruiken om de tekst en de opties _[!UICONTROL Settings]_en_[!UICONTROL Style]_ aan de rechterkant te wijzigen.
 
 >[!TAB  Aanbevelingen van het Beeld ]
 
@@ -358,12 +358,12 @@ U kunt AI Assistant gebruiken om uw elementen te optimaliseren en te verbeteren 
    >
    >Als er geen afbeeldingen voorkomen in het invoermerkelement of als er geen afbeeldingen zijn die relevant zijn voor de invoerprompt, is de uitvoer leeg.
 
-1. Blader door _[!UICONTROL Variations]_&#x200B;en selecteer het bestand dat het beste bij de e-mail past.
+1. Blader door _[!UICONTROL Variations]_en selecteer het bestand dat het beste bij de e-mail past.
 
    Klik op **[!UICONTROL Preview]** om een versie van de geselecteerde variatie op het volledige scherm weer te geven.
 
 1. Markeer de gewenste afbeelding en klik op **[!UICONTROL Select]** om de afbeelding of tijdelijke aanduiding te vervangen door het geselecteerde item en terug te keren naar de e-mailontwerper.
 
-   In de e-mailontwerper kunt u de bewerkings- en opmaakgereedschappen op het canvas gebruiken om de inhoud en de opties _[!UICONTROL Settings]_&#x200B;en&#x200B;_[!UICONTROL Style]_ aan de rechterkant te wijzigen.
+   In de e-mailontwerper kunt u de bewerkings- en opmaakgereedschappen op het canvas gebruiken om de inhoud en de opties _[!UICONTROL Settings]_en_[!UICONTROL Style]_ aan de rechterkant te wijzigen.
 
 >[!ENDTABS]

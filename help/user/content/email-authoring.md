@@ -1,52 +1,24 @@
 ---
-title: E-mailontwerp
-description: Leer hoe u persoonlijke e-mailinhoud kunt maken die wordt gebruikt in een accountreis.
+title: E-mailberichten schrijven
+description: Leer hoe u e-mailinhoud maakt in Adobe Journey Optimizer B2B. Met sjablonen, HTML-import en door AI aangedreven tools kunt u uw e-mailcommunicatie personaliseren en optimaliseren.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
+source-git-commit: 0fb3f56ef0a82f340c9847d4c384a5244df3182f
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '913'
 ht-degree: 0%
 
 ---
 
-# E-mailontwerp
+# E-mailbericht schrijven
 
-Adobe Journey Optimizer B2B edition gebruiken om e-mailberichten naar uw klanten te sturen. U kunt berichten in de visuele ontwerper maken, personaliseren en voorvertonen.
-
-## Een e-mailactie toevoegen aan een accountreis
-
-U kunt e-mailleveringen instellen in een Account Journey wanneer u een _[!UICONTROL Take an action]_-knooppunt toevoegt en het volgende doet:
-
-1. Kies **[!UICONTROL People]** voor het doel _[!UICONTROL Action on]_.
-1. Kies **[!UICONTROL Send email]** bij _[!UICONTROL Action on people]_.
-1. Kies **[!UICONTROL Create new email]** bij _[!UICONTROL Email source]_.
-
-   U kunt ook de optie _[!UICONTROL Select email from Adobe Marketo Engage]_&#x200B;selecteren om een van de vooraf geschreven e-mails in Marketo Engage te gebruiken en te verzenden als onderdeel van de Account Journey.
-
-   >[!NOTE]
-   >
-   >Als u voor het eerst een e-mailbericht maakt, controleert u of het e-mailkanaal is geconfigureerd vanuit Adobe Marketo Engage. Om meer te leren, zie [ Verzekeren E-mailLeverbaarheid ](https://experienceleague.adobe.com/nl/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability){target="_blank"} in de documentatie van Marketo Engage.
-
-   ![ neem een actie - verzend een e-mail ](assets/journey-node-send-email.png){width="700" zoomable="yes"}
-
-1. Klik onder aan het deelvenster _[!UICONTROL Take an action]_&#x200B;op **[!UICONTROL Create email]**.
-
-1. Voer in het dialoogvenster een unieke **[!UICONTROL Name]** in voor de e-mail en een **[!UICONTROL Subject line]** .
-
-   ![ creeer nieuwe e-maildialoog ](assets/create-new-email.png){width="400"}
-
-1. Klik op **[!UICONTROL Create]**.
-
-   In de sectie _[!UICONTROL Email properties]_&#x200B;van de pagina met e-mailinhoud zijn de velden&#x200B;_[!UICONTROL From email]_ en _[!UICONTROL Reply to address]_&#x200B;al geconfigureerd. U kunt waarden invoeren voor de velden&#x200B;_[!UICONTROL From name]_ en _[!UICONTROL Description]_(optioneel).
-
-## E-mailinhoud maken
+Nadat u [ een nieuw <!-- or duplicated --> e-mailmiddel aan een knoop van de reisactie ](./add-email.md) toevoegt, kunt u de inhoud voor het e-mailbericht bepalen.
 
 Klik op **[!UICONTROL Add email content]** boven in het voorvertoningsvenster van _[!UICONTROL Email]_.
 
 ![ Klik op E-mailinhoud toevoegen ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
-Met deze actie start u de e-mailtoepassing Designer, waarin u kunt kiezen hoe u uw e-mailbericht wilt ontwerpen. Hiervoor kunt u de volgende opties kiezen:
+Met deze handeling worden de ontwerpgereedschappen voor e-mail gestart, waarin u kunt kiezen hoe u uw e-mail wilt ontwerpen op basis van de volgende opties:
 
 * [ Ontwerp uw e-mail van kras ](#design-your-email-from-scratch) gebruikend de interface van Designer E-mail.
 
@@ -62,7 +34,7 @@ Nadat u de e-mailinhoud hebt gemaakt en aangepast, kunt u de inhoud exporteren v
 >
 >Gebruik AI Assistant in Adobe Journey Optimizer B2B edition, aangedreven door generatieve AI om uw inhoud naar het volgende niveau te tillen. Met AI Assistant kunt u de impact van uw leveringen optimaliseren door volledige e-mails, gerichte tekstinhoud en aanbevelingen voor AI Assistant te genereren voor afbeeldingen die op uw publiek zijn afgestemd. [Meer informatie](./ai-assistant-emails.md)
 
-### Ontwerp uw e-mail helemaal zelf {#design-from-scratch}
+## Ontwerp uw e-mail helemaal zelf {#design-from-scratch}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_landing_page"
@@ -93,7 +65,7 @@ Wanneer de inhoud gereed is, klikt u op **[!UICONTROL Simulate content]** boven 
 
 Als u tevreden bent met de inhoud, klikt u op **[!UICONTROL Save]** .
 
-### Bestaande HTML-inhoud importeren
+## Bestaande HTML-inhoud importeren
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -105,7 +77,7 @@ Als u tevreden bent met de inhoud, klikt u op **[!UICONTROL Save]** .
 
 U kunt de geïmporteerde inhoud naar wens aanpassen met de gereedschappen in de visuele e-maileditor.
 
-### Een sjabloon selecteren
+## Een sjabloon selecteren
 
 {{$include /help/_includes/content-design-select-template.md}}
 
@@ -131,7 +103,7 @@ U kunt de geïmporteerde inhoud naar wens aanpassen met de gereedschappen in de 
 
 {{$include /help/_includes/content-design-use-fragments.md}}
 
-Nadat het e-mailbericht is opgeslagen, wordt het weergegeven op de pagina met fragmentdetails wanneer u het tabblad _[!UICONTROL Used By]_&#x200B;in het overzicht selecteert.
+Nadat het e-mailbericht is opgeslagen, wordt het weergegeven op de pagina met fragmentdetails wanneer u het tabblad _[!UICONTROL Used By]_in het overzicht selecteert.
 
 ### Elementen toevoegen
 
@@ -147,7 +119,7 @@ Nadat het e-mailbericht is opgeslagen, wordt het weergegeven op de pagina met fr
 
 >[!NOTE]
 >
->Als _[!UICONTROL My Tokens]_&#x200B;is gedefinieerd voor de accountreis, kunt u deze reisspecifieke tokens ook gebruiken voor uw e-mailinhoud. Zie [ de tokens van de Douane voor e-mailverpersoonlijking ](./personalization-my-tokens.md) voor meer informatie.
+>Als _[!UICONTROL My Tokens]_is gedefinieerd voor de accountreis, kunt u deze reisspecifieke tokens ook gebruiken voor uw e-mailinhoud. Zie [ de tokens van de Douane voor e-mailverpersoonlijking ](./personalization-my-tokens.md) voor meer informatie.
 
 ### Gekoppelde URL-tracking bewerken
 
@@ -165,7 +137,7 @@ Gebruik de opties voor weergave- en inhoudsvalidatie die beschikbaar zijn in de 
 
 ### Meer opties
 
-Vanuit het menu _[!UICONTROL More ...]_&#x200B;boven aan de e-mailontwerper kunt u de volgende handelingen uitvoeren:
+Vanuit het menu _[!UICONTROL More ...]_boven aan de ontwerpruimte voor e-mail kunt u de volgende handelingen uitvoeren:
 
 ![ klik Meer om tot malplaatjeacties ](./assets/email-designer-more-menu.png){width="500"} toegang te hebben
 
@@ -174,34 +146,6 @@ Vanuit het menu _[!UICONTROL More ...]_&#x200B;boven aan de e-mailontwerper kunt
 * **[!UICONTROL Change your design]** - terugkeer aan het _Ontwerp uw e-mailpagina_. Van daar, kunt u een andere malplaatje kiezen om het ontwerpproces opnieuw te beginnen, of verkiezen om de inhoud van kras op een zwarte canvas te ontwerpen.\
 * **[!UICONTROL Save as content template]** - Sla de e-mailtekst op als een e-mailsjabloon die opnieuw moet worden gebruikt in meerdere e-mails of e-mailsjablonen. U geeft een naam en beschrijving voor de sjabloon op en slaat deze op in de lijst met opgeslagen e-mailsjablonen.
 * **[!UICONTROL Export HTML]** - Download de inhoud in het visuele canvas naar uw lokale systeem in de HTML-indeling die is verpakt als een zip-bestand.
-
-## Waarschuwingen controleren
-
-Terwijl u de inhoud van uw e-mailbericht ontwerpt, worden waarschuwingen weergegeven in de interface (rechtsboven op de pagina) wanneer er geen sleutelinstellingen aanwezig zijn.
-
-Als deze knop niet wordt weergegeven, zijn er geen problemen gedetecteerd.
-
-Er kunnen twee soorten waarschuwingen worden gedetecteerd:
-
-* **_Waarschuwingen_** die naar aanbevelingen en beste praktijken, zoals verwijzen:
-
-   * `The opt-out link is not present in the email body`: u kunt het beste een koppeling zonder abonnement toevoegen aan uw e-mailadres.
-
-     >[!NOTE]
-     >
-     >E-mailberichten in marketingstijl moeten een opt-out-koppeling bevatten, die niet vereist is voor transactieberichten.
-
-   * `Text version of HTML is empty`: vergeet niet een tekstversie van uw e-mailhoofdtekst te definiëren die wordt gebruikt wanneer HTML-inhoud niet kan worden weergegeven.
-
-   * `Empty link is present in email body`: controleer of alle koppelingen in uw e-mail correct zijn.
-
-   * `Email size has exceeded the limit of 100KB`: zorg ervoor dat de grootte van uw e-mail voor optimale levering niet groter is dan 100 kB.
-
-* **_Fouten_** die u verhinderen de reis/de campagne te testen of te activeren zolang zij niet, zoals worden opgelost:
-
-   * `The subject line is missing`: e-mailonderwerpregel is verplicht.
-
-   * `The email version of the message is empty`: deze fout wordt weergegeven wanneer de e-mailinhoud niet is geconfigureerd.
 
 ## E-mail controleren en testen {#preview-test}
 
