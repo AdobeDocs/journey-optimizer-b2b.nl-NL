@@ -229,4 +229,4 @@ Als het profiel van de persoon geen lid was van de slimme lijst, wordt de actie 
 
 ## Video over overzicht
 
->[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443251/?learn=on&captions=dut)
