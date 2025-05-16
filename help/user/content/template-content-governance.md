@@ -27,17 +27,17 @@ Nadat u de visuele ontwerper aan [ auteur de structurele en inhoudcomponenten ](
 
 1. Selecteer de basiscomponent **[!UICONTROL Body]** in de structuur.
 
-   In het deelvenster Eigenschappen rechts van het canvas wordt standaard de tab _[!UICONTROL Settings]_&#x200B;weergegeven.
+   In het deelvenster Eigenschappen rechts van het canvas wordt standaard de tab _[!UICONTROL Settings]_weergegeven.
 
 1. Schakel de optie **[!UICONTROL Governance]** in.
 
    ![ laat bestuur voor een e-mailmalplaatje ](./assets/governance-template-enable.png){width="800" zoomable="yes"} toe
 
-   Als deze optie is ingeschakeld, is de standaardwaarde _[!UICONTROL Mode]_&#x200B;**[!UICONTROL Read only]**. Als deze modus is ingesteld op het hoofdniveau, worden alle elementen in de sjabloon vergrendeld. De boomstructuur op de linkerzijde toont_ slechts Lees _pictogram ( ![ leest slechts pictogram ](../assets/do-not-localize/icon-tree-lock.svg)) naast de wortel en alle kindelementen.
+   Als deze optie is ingeschakeld, is de standaardwaarde _[!UICONTROL Mode]_**[!UICONTROL Read only]**. Als deze modus is ingesteld op het hoofdniveau, worden alle elementen in de sjabloon vergrendeld. De boomstructuur op de linkerzijde toont_ slechts Lees _pictogram ( ![ leest slechts pictogram ](../assets/do-not-localize/icon-tree-lock.svg)) naast de wortel en alle kindelementen.
 
 1. Wijzig **[!UICONTROL Mode]** in **[!UICONTROL Content locking]** als u specifieke inhoudsafsluiting in de sjabloon wilt inschakelen.
 
-   Als deze modus is ingesteld op het hoofdniveau, worden alle elementen in de sjabloon ontgrendeld. De boomstructuur op de linkerzijde toont het _pictogram van de 2&rbrace; Vergrendeling van de Inhoud_ &lbrace;naast het wortelelement. ![](../assets/do-not-localize/icon-tree-content-lock.svg) Pas indien nodig inhoudvergrendeling toe op omvattende (structurele) en afzonderlijke inhoudcomponenten.
+   Als deze modus is ingesteld op het hoofdniveau, worden alle elementen in de sjabloon ontgrendeld. De boomstructuur op de linkerzijde toont het _pictogram van de 2} Vergrendeling van de Inhoud_ {naast het wortelelement. ![](../assets/do-not-localize/icon-tree-content-lock.svg) Pas indien nodig inhoudvergrendeling toe op omvattende (structurele) en afzonderlijke inhoudcomponenten.
 
    Schakel **[!UICONTROL Enable content addition]** in als u wilt dat e-mailauteurs structuur- of inhoudselementen kunnen toevoegen. Kies het type toevoegingen dat u wilt toestaan:
 
@@ -67,7 +67,7 @@ Wanneer u een vergrendelingstype op structuurniveau toepast, wordt een standaard
 
 1. Selecteer de structuur in de structuur.
 
-   In het deelvenster Eigenschappen rechts van het canvas wordt standaard de tab _[!UICONTROL Settings]_&#x200B;weergegeven.
+   In het deelvenster Eigenschappen rechts van het canvas wordt standaard de tab _[!UICONTROL Settings]_weergegeven.
 
 1. Stel de **[!UICONTROL Lock type]** in:
 
@@ -81,7 +81,7 @@ Wanneer u een vergrendelingstype op structuurniveau toepast, wordt een standaard
 
 1. Selecteer de component in de structuur.
 
-   In het deelvenster Eigenschappen rechts van het canvas wordt standaard de tab _[!UICONTROL Settings]_&#x200B;weergegeven.
+   In het deelvenster Eigenschappen rechts van het canvas wordt standaard de tab _[!UICONTROL Settings]_weergegeven.
 
 1. Schakel de optie **[!UICONTROL Use specific locking]** in.
 

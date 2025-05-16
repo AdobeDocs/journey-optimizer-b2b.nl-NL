@@ -78,7 +78,7 @@ Voordat u herbruikbare formulieren gaat maken in Journey Optimizer B2B edition, 
 
 U kunt een formulier maken in Journey Optimizer B2B edition door te klikken op **[!UICONTROL Create form]** rechtsboven op de lijstpagina van _[!UICONTROL Forms]_.
 
-1. Voer in het dialoogvenster _[!UICONTROL Create form]_&#x200B;een handige **[!UICONTROL Name]**(vereist) en **[!UICONTROL Description]**(optioneel) in.
+1. Voer in het dialoogvenster _[!UICONTROL Create form]_een handige **[!UICONTROL Name]**(vereist) en **[!UICONTROL Description]**(optioneel) in.
 
    Formuliervereisten:
 
@@ -112,7 +112,7 @@ Klik op **[!UICONTROL Save & close]** om wijzigingen in het ontwerp van de formu
 
 ### De pagina Hartelijk dank instellen
 
-Blader in het deelvenster _[!UICONTROL Summary]_&#x200B;aan de rechterkant naar de sectie **[!UICONTROL Thank you page]**&#x200B;en gebruik de instelling **[!UICONTROL Follow up with]**&#x200B;om te bepalen wat er gebeurt wanneer een bezoeker het formulier verzendt:
+Blader in het deelvenster _[!UICONTROL Summary]_aan de rechterkant naar de sectie **[!UICONTROL Thank you page]**en gebruik de instelling **[!UICONTROL Follow up with]**om te bepalen wat er gebeurt wanneer een bezoeker het formulier verzendt:
 
 * **[!UICONTROL Stay on page]** - Kies deze optie als u de bezoeker op dezelfde pagina wilt houden wanneer het formulier wordt verzonden.
 
@@ -144,11 +144,11 @@ Klik op de naam van een formulier in de lijstpagina om de pagina met fragmentdet
 
 Klik op **[!UICONTROL Edit form]** om het fragment te openen in de visuele ontwerpruimte.
 
-Ga de mening op elk ogenblik weg door de _Vorige_ pijl bij de hoogste linkerzijde te klikken, die u aan de _[!UICONTROL Forms]_&#x200B;lijstpagina terugkeert.
+Ga de mening op elk ogenblik weg door de _Vorige_ pijl bij de hoogste linkerzijde te klikken, die u aan de _[!UICONTROL Forms]_lijstpagina terugkeert.
 
 ## Formuliervoorkeuren weergeven
 
-Klik in het deelvenster _[!UICONTROL Summary]_&#x200B;aan de rechterkant op het tabblad **[!UICONTROL Used By]**&#x200B;om details weer te geven over de plaats waar het formulier momenteel wordt gebruikt in Journey Optimizer B2B edition, op de landingspagina&#39;s en in de sjabloon voor de openingspagina.
+Klik in het deelvenster _[!UICONTROL Summary]_aan de rechterkant op het tabblad **[!UICONTROL Used By]**om details weer te geven over de plaats waar het formulier momenteel wordt gebruikt in Journey Optimizer B2B edition, op de landingspagina&#39;s en in de sjabloon voor de openingspagina.
 
 >[!IMPORTANT]
 >
@@ -165,7 +165,7 @@ Een formulier dat momenteel wordt gebruikt door een landingspagina of een landin
 U kunt een formulier op een van de volgende manieren verwijderen:
 
 * Klik rechtsboven op **[!UICONTROL ... More]** en kies **[!UICONTROL Delete]** .
-* Klik op de lijstpagina _[!UICONTROL Forms]_&#x200B;op het ovaal naast de formuliernaam en kies **[!UICONTROL Delete]**.
+* Klik op de lijstpagina _[!UICONTROL Forms]_op het ovaal naast de formuliernaam en kies **[!UICONTROL Delete]**.
 
 Met deze handeling wordt een bevestigingsvenster geopend. U kunt het proces afbreken door op **[!UICONTROL Cancel]** te klikken of op **[!UICONTROL Delete]** te klikken om het verwijderen te bevestigen.
 
@@ -182,7 +182,7 @@ Dupliceer een formulier als een snelle en eenvoudige manier om een nieuw formuli
 U kunt een formulier op een van de volgende manieren dupliceren:
 
 * Klik rechtsboven op de pagina met formulierdetails op **[!UICONTROL ... More]** en kies **[!UICONTROL Duplicate]** .
-* Klik op de lijstpagina _[!UICONTROL Forms]_&#x200B;op het ovaal naast de formuliernaam en kies **[!UICONTROL Duplicate]**.
+* Klik op de lijstpagina _[!UICONTROL Forms]_op het ovaal naast de formuliernaam en kies **[!UICONTROL Duplicate]**.
 
 ![ dupliceer de vorm ](./assets/form-list-page-duplicate.png){width="450"}
 
@@ -204,7 +204,7 @@ Wijzigingen in een formulier zijn afhankelijk van de huidige status:
 
 >[!TAB  Ontwerp ]
 
-1. Klik op de lijstpagina _[!UICONTROL Forms]_&#x200B;op de naam van het formulier om het te openen.
+1. Klik op de lijstpagina _[!UICONTROL Forms]_op de naam van het formulier om het te openen.
 
    Er wordt een voorbeeld van de formulierinhoud weergegeven, met de formulierdetails aan de rechterkant.
 
@@ -228,11 +228,11 @@ Wijzigingen in een formulier zijn afhankelijk van de huidige status:
 
 >[!TAB  Gepubliceerd ]
 
-1. Klik op de lijstpagina _[!UICONTROL Forms]_&#x200B;op de naam van het formulier om het te openen.
+1. Klik op de lijstpagina _[!UICONTROL Forms]_op de naam van het formulier om het te openen.
 
    Er wordt een voorbeeld van de formulierinhoud weergegeven, met de formulierdetails aan de rechterkant.
 
-1. Als u een conceptversie wilt maken voor het bewerken van het formulier, klikt u op **[!UICONTROL Edit form]** in het deelvenster _[!UICONTROL Summary]_&#x200B;aan de rechterkant.
+1. Als u een conceptversie wilt maken voor het bewerken van het formulier, klikt u op **[!UICONTROL Edit form]** in het deelvenster _[!UICONTROL Summary]_aan de rechterkant.
 
 1. Klik op **[!UICONTROL Create draft version]** in het dialoogvenster om de conceptversie te openen in de ruimte van het visuele ontwerp.
 
@@ -262,7 +262,7 @@ Wijzigingen in een formulier zijn afhankelijk van de huidige status:
 
    ![ geef uit ontwerp versie ](./assets/form-published-with-draft-edit.png){width="700" zoomable="yes"}
 
-1. Klik op **[!UICONTROL Edit form]** in het deelvenster _[!UICONTROL Summary]_&#x200B;aan de rechterkant en gebruik de gereedschappen voor visueel ontwerp:
+1. Klik op **[!UICONTROL Edit form]** in het deelvenster _[!UICONTROL Summary]_aan de rechterkant en gebruik de gereedschappen voor visueel ontwerp:
 
    * [Velden toevoegen](./form-design.md#add-a-field)
    * [Veldstijl wijzigen](./form-design.md#change-field-styling)

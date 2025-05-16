@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Een publiek is een groep personen die vergelijkbare gedragingen en/of kenmerken delen. Journey Optimizer B2B edition gebruikt de functies voor de segmentatie van de account die in Adobe Real-Time Customer Data Platform B2B- en B2P-edities zijn gevonden. Met accountsegmentatie kunnen gebruikers een publiek voor de account genereren door gegevens van een van de B2B-entiteiten in het systeem te gebruiken. Dit accountpubliek fungeert als input voor Journey Optimizer B2B edition-reizen, waardoor het gemakkelijker wordt om een naadloze activering en personalisatie uit te voeren.
 
-Leer meer over rekeningspubliek en hoe te om hen in de [ documentatie van de Dienst van de Segmentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/types/account-audiences){target="_blank"} te bepalen.
+Leer meer over rekeningspubliek en hoe te om hen in de [ documentatie van de Dienst van de Segmentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/types/account-audiences){target="_blank"} te bepalen.
 
 ## Workflow voor accountpubliek
 
@@ -34,7 +34,7 @@ Met Journey Optimizer B2B edition kunt u het publiek van de Adobe Experience Pla
 
 ## Een publiek voor een account maken
 
-Definieer het accountpubliek door een accountsegmentatie te maken. U hebt de optie om de rekeningssegmentatie direct binnen de toepassing van Journey Optimizer B2B edition tot stand te brengen, of u kunt de [ Bouwer van het Segment gebruiken UI ](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-builder){target="_blank"}. Hieronder vindt u de stappen waarmee u een accountsegmentatie kunt maken in Journey Optimizer B2B edition.
+Definieer het accountpubliek door een accountsegmentatie te maken. U hebt de optie om de rekeningssegmentatie direct binnen de toepassing van Journey Optimizer B2B edition tot stand te brengen, of u kunt de [ Bouwer van het Segment gebruiken UI ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder){target="_blank"}. Hieronder vindt u de stappen waarmee u een accountsegmentatie kunt maken in Journey Optimizer B2B edition.
 
 1. Kies in de linkernavigatie **[!UICONTROL Accounts]** > **[!UICONTROL Audiences]** .
 
@@ -42,13 +42,13 @@ Definieer het accountpubliek door een accountsegmentatie te maken. U hebt de opt
 
 1. Bouw de segmentdefinitie.
 
-   De accountkenmerken en het publiek worden weergegeven op de linkernavigatiebalk. Onder het tabblad _[!UICONTROL Attributes]_&#x200B;kunt u zowel door het platform gemaakte als aangepaste kenmerken toevoegen. Sleep elk attribuut om de logica voor het segment te bouwen.
+   De accountkenmerken en het publiek worden weergegeven op de linkernavigatiebalk. Onder het tabblad _[!UICONTROL Attributes]_kunt u zowel door het platform gemaakte als aangepaste kenmerken toevoegen. Sleep elk attribuut om de logica voor het segment te bouwen.
 
    >[!TIP]
    >
-   >Houd er bij het maken van een accountpubliek rekening mee dat gebeurtenissen onder _[!UICONTROL People]_&#x200B;worden weergegeven, omdat deze kenmerken aan personen zijn gekoppeld.<br/>
+   >Houd er bij het maken van een accountpubliek rekening mee dat gebeurtenissen onder _[!UICONTROL People]_worden weergegeven, omdat deze kenmerken aan personen zijn gekoppeld.<br/>
    >
-   >Onder het tabblad _[!UICONTROL Audiences]_&#x200B;kunt u eerder gemaakte, op personen gebaseerde soorten publiek toevoegen om van af te bouwen bij het maken van uw eigen accountpubliek.
+   >Onder het tabblad _[!UICONTROL Audiences]_kunt u eerder gemaakte, op personen gebaseerde soorten publiek toevoegen om van af te bouwen bij het maken van uw eigen accountpubliek.
 
    In het volgende voorbeeld wordt een publiek gedefinieerd dat is gemaakt met `Country Code` , `Revenue Amount` en `Market segment` . De vraag in het Engels zou zijn: &quot;Ik wil alle rekeningen in de V.S. die in het Segment van Financiën zijn waarvan opbrengst $1M overschrijdt.&quot;
 
@@ -58,8 +58,8 @@ Definieer het accountpubliek door een accountsegmentatie te maken. U hebt de opt
    >[!IMPORTANT]
    >
    >Het attribuut `Account Name` voor accountrecords moet een waarde bevatten die moet worden opgenomen in accountreizen. Als dit attribuut (ongeldig) leeg is, wordt het rekeningsverslag uitgesloten.<br/>
-   >Om ervoor te zorgen dat alleen accounts met een niet-lege accountnaam worden opgenomen, voegt u het attribuut **[!UICONTROL Account Name]** toe en selecteert u _[!UICONTROL exists]_&#x200B;als voorwaarde voor overeenkomst. <br/>
-   >{het attribuut van de Naam van 0} Account bestaat ![&#128279;](./assets/audience-segment-builder-account-name-exists.png){width="600"}
+   >Om ervoor te zorgen dat alleen accounts met een niet-lege accountnaam worden opgenomen, voegt u het attribuut **[!UICONTROL Account Name]** toe en selecteert u _[!UICONTROL exists]_als voorwaarde voor overeenkomst. <br/>
+   >{het attribuut van de Naam van 0} Account bestaat ](./assets/audience-segment-builder-account-name-exists.png){width="600"}![
    ><br/> als u een douanekenmerk voor de rekeningsnaam gebruikt, gebruik uw naam van het douanekenmerk in plaats van _[!UICONTROL Account Name]_.
 
 1. Klik op **[!UICONTROL Save and Close]** rechtsboven.

@@ -17,9 +17,9 @@ Er zijn meerdere manieren waarop u lijsten met Live (gepubliceerde) accounts kun
 
 ## Knop voor accountpubliek
 
-Al rekeningsritten beginnen met een _knoop [&#128279;](../journeys/account-audience-nodes.md) van het publiek van de Rekening 0&rbrace;._ Wanneer u deze knoop plaatst om een rekeningslijst te gebruiken, bewegen de lidrekeningen zich door de reis wanneer het (gepubliceerd) live gaat.
+Al rekeningsritten beginnen met een _knoop ](../journeys/account-audience-nodes.md) van het publiek van de Rekening 0}.[_ Wanneer u deze knoop plaatst om een rekeningslijst te gebruiken, bewegen de lidrekeningen zich door de reis wanneer het (gepubliceerd) live gaat.
 
-1. Selecteer de **[!UICONTROL Account list]** optie voor de beginnende _2&rbrace; knoop van het publiek van de Rekening._
+1. Selecteer de **[!UICONTROL Account list]** optie voor de beginnende _2} knoop van het publiek van de Rekening._
 
    ![ Uitgezochte optie van de rekeningslijst voor de knoop van het rekeningspubliek ](../journeys/assets/node-audience-account-list.png){width="500"}
 
@@ -33,7 +33,7 @@ Al rekeningsritten beginnen met een _knoop [&#128279;](../journeys/account-audie
 
 **_Statische rekeningslijsten slechts_**
 
-Binnen een rekeningsreis, voeg rekeningen aan een statische rekeningslijst toe gebruikend [ a _neem een 2&rbrace; knoop van de Actie ](../journeys/action-nodes.md)._
+Binnen een rekeningsreis, voeg rekeningen aan een statische rekeningslijst toe gebruikend [ a _neem een 2} knoop van de Actie ](../journeys/action-nodes.md)._
 
 U hebt bijvoorbeeld een reispad waar u een e-mail verzendt en sommige accounts verschillende acties uitvoeren als reactie. U beschouwt deze activiteit als een kwalificatiepunt in de reis en wilt hen toevoegen aan een rekeningslijst die als publiek voor een andere reis met een verschillende stroom voor gekwalificeerde rekeningen wordt gebruikt.
 
@@ -41,7 +41,7 @@ U hebt bijvoorbeeld een reispad waar u een e-mail verzendt en sommige accounts v
 >
 >Als een account al in de lijst staat wanneer het knooppunt wordt uitgevoerd, wordt de handeling genegeerd.
 
-1. Selecteer de optie _[!UICONTROL Action on]_&#x200B;**[!UICONTROL Accounts]**.
+1. Selecteer de optie _[!UICONTROL Action on]_**[!UICONTROL Accounts]**.
 
 1. Kies **[!UICONTROL Add to account list]** bij _[!UICONTROL Action on accounts]_.
 
@@ -55,7 +55,7 @@ U hebt bijvoorbeeld een reispad waar u een e-mail verzendt en sommige accounts v
 
 **_Statische rekeningslijsten slechts_**
 
-Binnen een rekeningsreis, verwijder rekeningen uit een statische rekeningslijst gebruikend [ a _neemt een 2&rbrace; knoop van de Actie ](../journeys/action-nodes.md)._
+Binnen een rekeningsreis, verwijder rekeningen uit een statische rekeningslijst gebruikend [ a _neemt een 2} knoop van de Actie ](../journeys/action-nodes.md)._
 
 U hebt bijvoorbeeld een reispad waar u een e-mail verzendt en sommige accounts verschillende acties uitvoeren als reactie. U beschouwt deze activiteit als een kwalificatiepunt in de reis en wilt hen verwijderen uit een rekeningslijst die als publiek voor een andere reis wordt gebruikt die extra e-mails verzendt zodat u uw kwalificatiemededelingen niet dupliceert.
 
@@ -63,7 +63,7 @@ U hebt bijvoorbeeld een reispad waar u een e-mail verzendt en sommige accounts v
 >
 >Als een account niet in de lijst staat waar deze moet worden verwijderd, wordt de handeling genegeerd.
 
-1. Selecteer de optie _[!UICONTROL Action on]_&#x200B;**[!UICONTROL Accounts]**.
+1. Selecteer de optie _[!UICONTROL Action on]_**[!UICONTROL Accounts]**.
 
 1. Kies **[!UICONTROL Remove from account list]** bij _[!UICONTROL Action on accounts]_.
 
@@ -77,7 +77,7 @@ U hebt bijvoorbeeld een reispad waar u een e-mail verzendt en sommige accounts v
 
 Als Marketer wilt u wellicht programma&#39;s in Marketo Engage onderdrukken voor mensen die deel uitmaken van accountlijsten in Journey Optimizer B2B edition.
 
-In de Marketo Engage-instantie die is verbonden met Journey Optimizer B2B edition, kunt u het filter _[!UICONTROL Member of Account List]_&#x200B;in uw slimme lijsten gebruiken om deze leads te identificeren op basis van uw campagnestrategie. Voor meer informatie over Slimme Lijsten, verwijs naar de [ documentatie van Marketo Engage ](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"}.
+In de Marketo Engage-instantie die is verbonden met Journey Optimizer B2B edition, kunt u het filter _[!UICONTROL Member of Account List]_in uw slimme lijsten gebruiken om deze leads te identificeren op basis van uw campagnestrategie. Voor meer informatie over Slimme Lijsten, verwijs naar de [ documentatie van Marketo Engage ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"}.
 
 ### Het filter toevoegen aan een slimme lijst
 
@@ -95,7 +95,7 @@ In de Marketo Engage-instantie die is verbonden met Journey Optimizer B2B editio
 
 1. Voeg in de campagnestroom de stap **[!UICONTROL Add to List]** toe en kies de lijst waar u de personen wilt vullen in de accountlijst van Journey Optimizer B2B edition.
 
-   Verwijs naar _[een stap van de Stroom aan een slimme campagne ](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/add-a-flow-step-to-a-smart-campaign){target="_blank"}_ in de documentatie van Marketo Engage voor gedetailleerde informatie over het toevoegen van stappen aan een stroom toevoegen.
+   Verwijs naar _[een stap van de Stroom aan een slimme campagne ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/add-a-flow-step-to-a-smart-campaign){target="_blank"}_ in de documentatie van Marketo Engage voor gedetailleerde informatie over het toevoegen van stappen aan een stroom toevoegen.
 
 ### De leden controleren
 

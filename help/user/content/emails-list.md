@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # E-mails
 
-Wanneer u [ e-mails ](./add-email.md) creeert, voegt u hen in de context van een reisknoop toe. Als u buiten het reisoverzicht met e-mail wilt werken, gebruikt u de lijst _[!UICONTROL Emails]_&#x200B;om het e-mailbericht te zoeken en bij te werken. U kunt e-mailberichten controleren of de instellingen en inhoud bijwerken.
+Wanneer u [ e-mails ](./add-email.md) creeert, voegt u hen in de context van een reisknoop toe. Als u buiten het reisoverzicht met e-mail wilt werken, gebruikt u de lijst _[!UICONTROL Emails]_om het e-mailbericht te zoeken en bij te werken. U kunt e-mailberichten controleren of de instellingen en inhoud bijwerken.
 
 ## E-mails openen en beheren
 

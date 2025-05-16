@@ -22,7 +22,7 @@ De volgende parameters regelen de toegang tot AI Assistant in Journey Optimizer 
 
 * **toegang tot de toepassing:** u kunt tot AI Medewerker in Adobe Journey Optimizer B2B edition toegang hebben.
 
-* **Toestemmingen:** gebruik [ Toestemmingen UI ](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} om toegang tot AI Medewerker in uw organisatie te verlenen of te herroepen. Om AI Medewerker te gebruiken, moet een bepaalde gebruiker tot een rol behoren die met **wordt gevormd toelaat AI Medewerker** en **de Operationele toestemmingen van Inzichten van de Mening**.
+* **Toestemmingen:** gebruik [ Toestemmingen UI ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} om toegang tot AI Medewerker in uw organisatie te verlenen of te herroepen. Om AI Medewerker te gebruiken, moet een bepaalde gebruiker tot een rol behoren die met **wordt gevormd toelaat AI Medewerker** en **de Operationele toestemmingen van Inzichten van de Mening**.
 
 Als beheerder kunt u:
 
@@ -32,7 +32,7 @@ Als beheerder kunt u:
 
 ![ wijs AI Hulp toestemmingen ](./assets/ai-assistant-permissions.png){width="800" zoomable="yes"} toe
 
-Gebruik de machtigingeninterface om machtigingen te verlenen voor het gebruik van AI Assistant in Journey Optimizer B2B edition. Voor informatie over de toegang tot van AI Medewerker in Experience Platform en andere toepassingen van Experience Cloud, verwijs naar de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/access){target="_blank"}.
+Gebruik de machtigingeninterface om machtigingen te verlenen voor het gebruik van AI Assistant in Journey Optimizer B2B edition. Voor informatie over de toegang tot van AI Medewerker in Experience Platform en andere toepassingen van Experience Cloud, verwijs naar de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target="_blank"}.
 
 Wanneer de gebruiker de noodzakelijke toestemmingen heeft, kunnen zij tot AI Medewerker toegang hebben door het _AI Medewerker_ pictogram op de hoogste kopbal van de toepassing te selecteren die u gebruikt.
 

@@ -31,13 +31,13 @@ _om tot de douanetokens voor een rekeningsreis toegang te hebben:_
 
    ![ klik meer bij het hoogste recht ](../journeys/assets/account-journey-draft-more-menu.png){width="450"}
 
-   De _Mijn 1&rbrace; pagina van Tokens &lbrace;maakt een lijst van alle douanetokens die voor de reis worden bepaald._
+   De _Mijn 1} pagina van Tokens {maakt een lijst van alle douanetokens die voor de reis worden bepaald._
 
    ![ Mijn tokens ](./assets/my-tokens-list-page.png){width="700" zoomable="yes"}
 
 ### Een token maken
 
-1. Klik op de pagina _[!UICONTROL My Tokens]_&#x200B;op **[!UICONTROL Create]**&#x200B;en kies het tokentype dat u wilt definiëren:
+1. Klik op de pagina _[!UICONTROL My Tokens]_op **[!UICONTROL Create]**en kies het tokentype dat u wilt definiëren:
 
    * **[!UICONTROL Text]** - Gebruik dit type om een token met een elementaire tekenreekswaarde te definiëren.
 
@@ -59,7 +59,7 @@ _om tot de douanetokens voor een rekeningsreis toegang te hebben:_
 
 Terwijl de reis van de rekening in ontwerpstatus blijft, kunt u om het even welke bepaalde Mijn Tokens uitgeven.
 
-1. In de _[!UICONTROL My Tokens]_&#x200B;pagina, klik het_ Meer acties _pictogram (**...**) naast de symbolische naam en kies **[!UICONTROL Edit]**.
+1. In de _[!UICONTROL My Tokens]_pagina, klik het_ Meer acties _pictogram (**...**) naast de symbolische naam en kies **[!UICONTROL Edit]**.
 
    ![ Symbolisch Meer actiemenu ](./assets/my-tokens-more-actions.png){width="430"}
 
@@ -73,7 +73,7 @@ Terwijl de reis van de rekening in ontwerpstatus blijft, kunt u om het even welk
 
 U kunt een douanetoken van de _Mijn Tokens_ lijst schrappen, maar u zou ervoor moeten zorgen dat het momenteel niet in uw reis e-mailinhoud wordt gebruikt.
 
-1. In de _[!UICONTROL My Tokens]_&#x200B;pagina, klik het_ Meer acties _pictogram (**...**) naast de symbolische naam en kies **[!UICONTROL Delete]**.
+1. In de _[!UICONTROL My Tokens]_pagina, klik het_ Meer acties _pictogram (**...**) naast de symbolische naam en kies **[!UICONTROL Delete]**.
 
 1. Klik op **[!UICONTROL Delete]** in het bevestigingsdialoogvenster.
 
@@ -85,7 +85,7 @@ Wanneer u e-mailinhoud voor uw rekeningsreis creeert, kunt u om het even welke t
 
    ![ klik het Add verpersoonlijkingspictogram ](./assets/email-personalize-text.png){width="600"}
 
-   Deze actie opent _geeft Personalization_ dialoog uit. Het dialoogvenster bevat een map _[!UICONTROL My tokens]_&#x200B;in de&#x200B;_[!UICONTROL Personalization Tokens]_ -bibliotheek als er aangepaste tokens zijn gedefinieerd voor de accountreis.
+   Deze actie opent _geeft Personalization_ dialoog uit. Het dialoogvenster bevat een map _[!UICONTROL My tokens]_in de_[!UICONTROL Personalization Tokens]_ -bibliotheek als er aangepaste tokens zijn gedefinieerd voor de accountreis.
 
 1. Vouw de map **[!UICONTROL My tokens]** uit en klik op **+** of **...** om een van uw aangepaste tokens toe te voegen aan de lege ruimte.
 

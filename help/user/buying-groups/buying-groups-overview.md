@@ -4,21 +4,21 @@ description: Leer hoe kopersgroepen in Journey Optimizer B2B edition de doeltref
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: d1130841ed3c560208bc93c53a54169f9b0b94aa
 workflow-type: tm+mt
-source-wordcount: '1760'
-ht-degree: 6%
+source-wordcount: '1756'
+ht-degree: 7%
 
 ---
 
 
 # Koopgroepen
 
-Voor B2B-verkoop- en marketingactiviteiten zijn rekeningen van essentieel belang voor elke strategie. Elke account heeft een groep personen die erbij betrokken zijn, en deze personen kunnen werknemers van de account of contractanten zijn die met de account werken. Accounts zijn hiërarchisch en verschillende producten kunnen op verschillende niveaus in de hiërarchie worden verkocht. Adobe Experience Platform kan bijvoorbeeld op bedrijfsniveau worden verkocht aan een top-level account, terwijl Adobe Photoshop kan worden verkocht aan een account die een afdeling of afdeling binnen een organisatie vertegenwoordigt, zoals een designafdeling binnen een grotere onderneming.
+Voor B2B-verkoop- en marketingactiviteiten zijn rekeningen van essentieel belang voor elke strategie. Elke account heeft een groep personen die erbij betrokken zijn, en deze personen kunnen werknemers van de account of contractanten zijn die met de account werken. Accounts zijn hiërarchisch en verschillende producten kunnen op verschillende niveaus in de hiërarchie worden verkocht. Adobe Experience Platform kan bijvoorbeeld op bedrijfsniveau worden verkocht aan een top-level account. En Adobe Photoshop kan worden verkocht aan een rekening die een afdeling of afdeling binnen een organisatie vertegenwoordigt, zoals een ontwerpafdeling binnen een grotere onderneming.
 
 ![ diagram van de rollen van de Rekening ](assets/account-roles-diagram.png){width="800"}
 
-Binnen de rekening, zou er een ondergroep van mensen kunnen zijn die uit de _het kopen groep_ bestaan. Dit zijn de mensen die uiteindelijk het aankoopbesluit nemen, dus ze hebben speciale aandacht van de marketeer nodig en hebben mogelijk andere informatie nodig die ze krijgen dan de andere mensen die bij de rekening horen. Kopersgroepen kunnen een verschillende groep personen voor verschillende productlijnen of aanbiedingen omvatten. Een product voor cyberbeveiliging kan bijvoorbeeld doorgaans een Chief Information Officer of Chief Security Officer en een vertegenwoordiger van de juridische afdeling vragen om een aankoop goed te keuren, maar een product voor het opsporen van fouten kan doorgaans een VP van Engineering en een IT Director hebben als leden van de inkoopgroep.
+Binnen de rekening, zou er een ondergroep van mensen kunnen zijn die uit de _het kopen groep_ bestaan. Deze mensen nemen uiteindelijk het aankoopbesluit, dus ze hebben speciale aandacht van de marketeer nodig en hebben mogelijk andere informatie nodig die ze ontvangen dan de andere personen die bij de rekening horen. Kopersgroepen kunnen een verschillende groep personen voor verschillende productlijnen of aanbiedingen omvatten. Een product voor cyberbeveiliging kan bijvoorbeeld doorgaans een Chief Information Officer of Chief Security Officer en een vertegenwoordiger van de juridische afdeling vragen om een aankoop goed te keuren, maar een product voor het opsporen van fouten kan doorgaans een VP van Engineering en een IT Director hebben als leden van de inkoopgroep.
 
 ![ Video ](../../assets/do-not-localize/icon-video.svg){width="30"} [ bekijk het videooverzicht ](#overview-video)
 
@@ -58,7 +58,7 @@ U kunt de doeltreffendheid van marketing verhogen door in Journey Optimizer B2B 
 
 Vouw **[!UICONTROL Accounts]** uit in de linkernavigatie en klik op **[!UICONTROL Buying groups]** .
 
-De pagina _[!UICONTROL Buying groups]_&#x200B;is ingedeeld als tabbladen:
+De pagina _[!UICONTROL Buying groups]_is ingedeeld als tabbladen:
 
 | Tab | Beschrijving |
 | --- | ----------- |
@@ -70,13 +70,13 @@ De pagina _[!UICONTROL Buying groups]_&#x200B;is ingedeeld als tabbladen:
 
 ## Zoeken en filteren van groepen
 
-Gebruik het tabblad _[!UICONTROL Browse]_&#x200B;om de lijst met inkoopgroepen weer te geven. U kunt op naam zoeken en de lijst door oplossingsbelang filtreren.
+Gebruik het tabblad _[!UICONTROL Browse]_om de lijst met inkoopgroepen weer te geven. U kunt op naam zoeken en de lijst door oplossingsbelang filtreren.
 
 ![ Kopende groep doorbladert pagina ](assets/buying-groups-browse.png){width="800" zoomable="yes"}
 
 ## Gegevens van groep kopen
 
-Klik op de naam van de inkoopgroep op het tabblad _[!UICONTROL Browse]_&#x200B;als u details voor een inkoopgroep wilt weergeven. [Meer informatie](./buying-group-details.md)
+Klik op de naam van de inkoopgroep op het tabblad _[!UICONTROL Browse]_als u details voor een inkoopgroep wilt weergeven. [Meer informatie](./buying-group-details.md)
 
 ![ het Kopen groepdetails ](assets/buying-group-details.png){width="600" zoomable="yes"}
 
@@ -106,7 +106,7 @@ De score voor groepsbetrokkenheid kopen is een getal om de betrokkenheid van de 
 | Gebeurtenis bijwonen | Voert een campagnegebeurtenis bij | Gebeurtenis | 20 | 90 |
 | E-mail openen | Hiermee opent u een e-mail | E-mail | 20 | 30 |
 | Klik op E-mail | Klik op een koppeling in een e-mailbericht | E-mail | 20 | 30 |
-| Verkoopbericht openen | Hiermee wordt een e-mail geopend | E-mail | 20 | 30 |
+| Verkoopbericht openen | Hiermee opent u een e-mail met verkoopgegevens | E-mail | 20 | 30 |
 | Klik op E-mail verkoop | Klik op een koppeling in een e-mailbericht voor verkopen | E-mail | 20 | 30 |
 | Interessant moment | Heeft een interessant moment | Gekromd | 20 | 60 |
 | Tik op pushmelding | Hiermee wordt een pushmelding ontvangen | Mobiel | 20 | 30 |
@@ -126,7 +126,7 @@ De score voor groepsbetrokkenheid kopen is een getal om de betrokkenheid van de 
 | Aanroep van handeling geklikt in webinar | Klik een vraag-aan-actie verbinding in een webinar gebeurtenis | Bellen | 20 | 30 |
 | Downloads van bedrijfsmiddelen in webinar | Hiermee wordt een bestand/middel gedownload in een webinar-gebeurtenis | Gebeurtenis | 20 | 60 |
 | Vragen in webinar | Hiermee worden vragen gesteld in een webinar-gebeurtenis | Gebeurtenis | 20 | 60 |
-| Heeft gebeurtenis bijgewoond | Heeft een gebeurtenis bijgewoond | Gebeurtenis | 20 | 60 |
+| Heeft gebeurtenis bijgewoond | Een gebeurtenis bijgewoond | Gebeurtenis | 20 | 60 |
 | Betrokken met een Agent in Dialoog | Betrokkenen bij een agent in een Dynamic Chat-dialoogvenster | Chat | 20 | 90 |
 | Klikte koppeling in chatvenster | Klik op een koppeling in een Dynamic Chat-dialoogvenster | Chat | 20 | 90 |
 | Gegenereerd met een gespreksstroom | Beelden met een Dynamic Chat-gespreksstroom | Chat | 20 | 90 |
@@ -139,7 +139,7 @@ De score voor groepsbetrokkenheid kopen is een getal om de betrokkenheid van de 
 
 >[!NOTE]
 >
->De de scoreactiviteiten van het engagement worden geregistreerd in het de activiteitenlogboek van Marketo Engage [ voor een persoon ](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}.
+>De de scoreactiviteiten van het engagement worden geregistreerd in het de activiteitenlogboek van Marketo Engage [ voor een persoon ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}.
 
 +++
 
@@ -157,7 +157,7 @@ Elk wegingsniveau wordt omgezet in een waarde die wordt gebruikt voor het bereke
 * [!UICONTROL Important] = 80
 * [!UICONTROL Vital] = 100
 
-Een rolmalplaatje met drie rollen gewogen zoals _[!UICONTROL Vital]_,_[!UICONTROL Important]_, en _[!UICONTROL Normal]_&#x200B;zet in de volgende gewogen percentages om:
+Een rolmalplaatje met drie rollen gewogen zoals _[!UICONTROL Vital]_,_[!UICONTROL Important]_, en _[!UICONTROL Normal]_zet in de volgende gewogen percentages om:
 
 | Functie | Weging | Systeemwaarde | Waarde berekenen | Percentage |
 |-------------- |--------- |------------- |------------------ |---------- |
@@ -205,4 +205,4 @@ De uiteindelijke betrokkenheidsscore wordt berekend door de weging toe te passen
 
 ## Video over overzicht
 
->[!VIDEO](https://video.tv.adobe.com/v/3452939/?learn=on&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

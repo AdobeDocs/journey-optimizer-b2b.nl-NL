@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Reisgegevens
 
-Wanneer u op de naam van een actieve accountreis klikt, worden de reisgegevens weergegeven. Het tabblad _[!UICONTROL Overview]_&#x200B;bevat nuttige informatie over de rit, waaronder algemene AI-overzichten.
+Wanneer u op de naam van een actieve accountreis klikt, worden de reisgegevens weergegeven. Het tabblad _[!UICONTROL Overview]_bevat nuttige informatie over de rit, waaronder algemene AI-overzichten.
 
 Dit dashboard biedt een uitgebreid overzicht van een geselecteerde accountreis, met een gedetailleerd overzicht van de voortgang van de account aan de hand van cirkel- en lijndiagrammen die voltooide accounts categoriseren en kwantificeren, lopende activiteiten en afbrekingen in de loop van de tijd. Het helpt Marketers de doeltreffendheid van e-mail en de kanalen van SMS door zeer belangrijke levering en betrokkenheidsmetriek evalueren.
 
@@ -69,7 +69,7 @@ Bouw verder met de gegevens door het actiepictogram (**...**) in het hoogste rec
 
 ### Doorboor
 
-Kies voor het _[!UICONTROL Journey status]_-diagram **[!UICONTROL Drill through]**&#x200B;voor een diepgaande analyse van de status van afzonderlijke accounts.
+Kies voor het _[!UICONTROL Journey status]_-diagram **[!UICONTROL Drill through]**voor een diepgaande analyse van de status van afzonderlijke accounts.
 
 ![ de boor door voor de grafiekgegevens ](./assets/journey-status-drill-through.png){width="600" zoomable="yes"}
 <!--

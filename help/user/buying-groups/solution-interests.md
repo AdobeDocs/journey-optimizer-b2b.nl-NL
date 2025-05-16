@@ -21,7 +21,7 @@ Voordat je koopgroepen maakt, moet je weten wat je verkoopt en wie je als doel w
 
 1. Klik in de linkernavigatie op **[!UICONTROL Buying Groups]** .
 
-1. Selecteer op de pagina _[!UICONTROL Buying Groups]_&#x200B;de tab **[!UICONTROL Solution interest]**.
+1. Selecteer op de pagina _[!UICONTROL Buying Groups]_de tab **[!UICONTROL Solution interest]**.
 
    ![ de Rente tabel van de Oplossing ](assets/solution-interest-tab.png){width="700" zoomable="yes"}
 
@@ -31,7 +31,7 @@ Voordat je koopgroepen maakt, moet je weten wat je verkoopt en wie je als doel w
 
 ## Groeptaken voor kopen weergeven en verwijderen
 
-Op het tabblad _[!UICONTROL Solution interest]_&#x200B;wordt in de kolom **[!UICONTROL Buying group creation jobs]**&#x200B;het aantal taken weergegeven dat voor elke interesse in de oplossing is gemaakt. Klik het aantal om een dialoog te openen die de lijst van banen toont die voor de oplossingsrente worden gecreeerd.
+Op het tabblad _[!UICONTROL Solution interest]_wordt in de kolom **[!UICONTROL Buying group creation jobs]**het aantal taken weergegeven dat voor elke interesse in de oplossing is gemaakt. Klik het aantal om een dialoog te openen die de lijst van banen toont die voor de oplossingsrente worden gecreeerd.
 
 ![ het Kopen groepsbanen voor oplossingsrente ](assets/buying-group-jobs-for-solution-interest.png){width="700" zoomable="yes"}
 
@@ -41,13 +41,13 @@ U kunt een taak van een inkoopgroep verwijderen door te klikken op de ovaal (...
 
 Alvorens u een oplossingsbelang creeert, moet u een levende (gepubliceerde) rolmalplaatje hebben dat de rollen bepaalt u wilt richten. Zie [ het Kopen de rolmalplaatjes van de Groep ](./buying-groups-role-templates.md) voor meer informatie over het creëren van een rolmalplaatje en het publiceren van een rolmalplaatje.
 
-1. Klik in het tabblad _[!UICONTROL Solution Interest]_&#x200B;op **[!UICONTROL Create solution interest]**&#x200B;rechtsboven.
+1. Klik in het tabblad _[!UICONTROL Solution Interest]_op **[!UICONTROL Create solution interest]**rechtsboven.
 
 1. Voer een unieke **[!UICONTROL Name]** (vereist) en een **[!UICONTROL Description]** (optioneel) in.
 
 1. Kies een **[!UICONTROL Roles Template]** (vereist).
 
-   Klik op **[!UICONTROL Select roles template]** en kies een sjabloon voor live rollen in de lijst in het dialoogvenster. U kunt slechts één levende rolmalplaatje met een oplossingsbelang associëren. Klik op **[!UICONTROL Save]** om terug te keren naar de pagina _[!UICONTROL Create solution interest]_&#x200B;waar de sjabloon voor geselecteerde rollen wordt weergegeven.
+   Klik op **[!UICONTROL Select roles template]** en kies een sjabloon voor live rollen in de lijst in het dialoogvenster. U kunt slechts één levende rolmalplaatje met een oplossingsbelang associëren. Klik op **[!UICONTROL Save]** om terug te keren naar de pagina _[!UICONTROL Create solution interest]_waar de sjabloon voor geselecteerde rollen wordt weergegeven.
 
    ![ voeg een rolmalplaatje aan de oplossingsrente toe ](assets/solution-interest-create.png){width="700" zoomable="yes"}
 
@@ -67,7 +67,7 @@ Alvorens u een oplossingsbelang creeert, moet u een levende (gepubliceerde) rolm
 
 Op elk ogenblik, kunt u de naam en de beschrijving voor een oplossingsbelang veranderen. De rolmalplaatje kan niet worden veranderd toe te schrijven aan het gebiedsdeel van het kopen groepen die op de oplossingsrente en rolmalplaatje het telegraferen worden gebaseerd. In dit geval, moet u een nieuwe oplossingsbelang creëren gebruikend een ander rolmalplaatje.
 
-1. Gebruik op het tabblad _[!UICONTROL Solution interest]_&#x200B;een van de volgende methoden om de eigenschappen te openen voor de interesse van de oplossing die u wilt bewerken:
+1. Gebruik op het tabblad _[!UICONTROL Solution interest]_een van de volgende methoden om de eigenschappen te openen voor de interesse van de oplossing die u wilt bewerken:
 
    * Klik de naam van de oplossingsrente.
    * Klik op de ellips (**..**) naast de ellips en kies **[!UICONTROL Edit]** .
@@ -92,14 +92,14 @@ Op elk ogenblik, kunt u de naam en de beschrijving voor een oplossingsbelang ver
 
 Eventuele interesse voor oplossingen die momenteel wordt gebruikt door een inkoopgroepbaan of een accountreis kan niet worden verwijderd. Ook, kan een geschrapt oplossingsbelang niet worden teruggewonnen.
 
-1. Van het _[!UICONTROL Solution interest]_&#x200B;lusje, klik de ellips (**...**) naast de oplossingsrente en kies **[!UICONTROL Delete]**.
+1. Van het _[!UICONTROL Solution interest]_lusje, klik de ellips (**...**) naast de oplossingsrente en kies **[!UICONTROL Delete]**.
 
    Met deze handeling wordt een bevestigingsvenster geopend.
 
    Als de oplossingsrente momenteel in gebruik door een rekeningsreis of het kopen groepsbaan is, resulteert de actie in een alarm dat het niet kan worden geschrapt. Klik op **[!UICONTROL OK]** , die het verwijderen afbreekt.
 
-1. Klik op **[!UICONTROL Delete]** om het verwijderen te bevestigen of u kunt het proces afbreken door op _[!UICONTROL Cancel]_&#x200B;te klikken.
+1. Klik op **[!UICONTROL Delete]** om het verwijderen te bevestigen of u kunt het proces afbreken door op _[!UICONTROL Cancel]_te klikken.
 
 ## Video over overzicht
 
->[!VIDEO](https://video.tv.adobe.com/v/3450119/?learn=on&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)
