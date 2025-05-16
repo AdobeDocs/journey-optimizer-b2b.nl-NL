@@ -1,9 +1,10 @@
 ---
 title: Afbeeldingen bewerken met Adobe Express
 description: Meer informatie over het gebruik van Adobe Express voor het bewerken van afbeeldingen in de werkruimte van Journey Optimizer B2B edition.
-feature: Assets, Content
+feature: Assets, Content, Integrations
+role: User
 exl-id: 16909f8f-77db-40f8-acd6-e18ac50c0af9
-source-git-commit: cb8196a8bb33c326476ddc9d99103d5fea6d10bd
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 0%
@@ -33,7 +34,7 @@ _om een beeld te wijzigen:_
 
 1. Ga naar de linkernavigatie en klik **[!UICONTROL Content Management]** > **[!UICONTROL Assets]**.
 
-Met deze handeling wordt een aanbiedingspagina geopend met alle vermelde elementen. De werkruimte van _[!UICONTROL Journey Optimizer B2B Edition]_&#x200B;is standaard geselecteerd.
+Met deze handeling wordt een aanbiedingspagina geopend met alle vermelde elementen. De werkruimte van _[!UICONTROL Journey Optimizer B2B Edition]_is standaard geselecteerd.
 
 1. Zoek de afbeelding die u wilt wijzigen of gebruik als origineel om een nieuw element te maken.
 
@@ -49,9 +50,9 @@ Met deze handeling wordt een aanbiedingspagina geopend met alle vermelde element
 
    >[!TIP]
    >
-   >Het is beste praktijken om [ het _[!UICONTROL Used By]_&#x200B;lusje ](./marketo-engage-design-studio.md#view-asset-used-by-references) in de beelddetails te selecteren en de inhoud te herzien waar het beeld momenteel wordt gebruikt alvorens u te werk gaat om aan het beelddossier uit te geven.
+   >Het is beste praktijken om [ het _[!UICONTROL Used By]_lusje ](./marketo-engage-design-studio.md#view-asset-used-by-references) in de beelddetails te selecteren en de inhoud te herzien waar het beeld momenteel wordt gebruikt alvorens u te werk gaat om aan het beelddossier uit te geven.
 
-1. Klik in de afbeelding _[!UICONTROL Details]_&#x200B;aan de rechterkant op **[!UICONTROL Edit with Adobe Express]**.
+1. Klik in de afbeelding _[!UICONTROL Details]_aan de rechterkant op **[!UICONTROL Edit with Adobe Express]**.
 
    ![ open het beeld in de redacteur van Adobe Express ](./assets/assets-edit-adobe-express.png){width="600" zoomable="yes"}
 
@@ -69,7 +70,7 @@ Als u een Enterprise-licentie voor Adobe Express hebt, kunt u de Express Editor 
 
 ![ open het beeld in de redacteur van de Onderneming van Adobe Express ](./assets/assets-edit-adobe-express-enterprise-editor.png){width="600" zoomable="yes"}
 
-De [ Gids van de Gebruiker van Adobe Express ](https://helpx.adobe.com/nl/express/user-guide.html){target="_blank"}  verstrekt gedetailleerde informatie over de beschikbare het uitgeven mogelijkheden.
+De [ Gids van de Gebruiker van Adobe Express ](https://helpx.adobe.com/express/user-guide.html){target="_blank"} verstrekt gedetailleerde informatie over de beschikbare het uitgeven mogelijkheden.
 
 ## Snelle acties in Adobe Express
 
@@ -93,7 +94,7 @@ Als u geen Adobe Express Enterprise-licentie hebt, hebt u toegang tot de Adobe E
 
    * Selecteer een optie **[!UICONTROL Aspect ratio]** . Gebruik een standaardgrootte voor digitale inhoud of kies **[!UICONTROL Custom]** als u waarden wilt invoeren voor **[!UICONTROL Width]** en **[!UICONTROL Height]** .
 
-   * In de weergaven _[!UICONTROL Original size]_&#x200B;en&#x200B;_[!UICONTROL Compressed size]_ ziet u de groottewijzigingen die optreden als u de wijzigingen toepast. Met het gereedschap **[!UICONTROL Zoom and Crop]** kunt u gedeelten van de weergegeven afbeelding beter inspecteren.
+   * In de weergaven _[!UICONTROL Original size]_en_[!UICONTROL Compressed size]_ ziet u de groottewijzigingen die optreden als u de wijzigingen toepast. Met het gereedschap **[!UICONTROL Zoom and Crop]** kunt u gedeelten van de weergegeven afbeelding beter inspecteren.
 
    * Als u de oorspronkelijke staat van de afbeelding wilt herstellen, klikt u op **[!UICONTROL Reset]** .
 

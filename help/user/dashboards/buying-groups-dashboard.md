@@ -2,8 +2,9 @@
 title: Het overzichtdashboard voor inkoopgroepen
 description: Leer over het het Overzicht dashboard van Groepen van het Kopen en hoe het de Afhandeling van de Verkoop van het team van de Marketing toelaat.
 feature: Dashboards, Buying Groups
+role: User
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-source-git-commit: 1713f3284bc030d44ae910015b24d4e5e099813f
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 0%

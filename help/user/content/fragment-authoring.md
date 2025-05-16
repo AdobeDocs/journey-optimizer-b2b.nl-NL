@@ -1,11 +1,12 @@
 ---
 title: Fragmentauthoring
 description: Leer hoe u inhoudsfragmenten ontwerpt die opnieuw kunnen worden gebruikt voor uw e-mails en sjabloonontwerpen voor efficiëntie en om ontwerp- en branding-standaarden te behouden.
-feature: Content
+feature: Fragments, Content Design Tools
+role: User
 exl-id: d29754cf-6721-489c-bff8-cde034456db2
-source-git-commit: 81f521cf245ac3d5460e1a8eb768ea2b609cf6fe
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -52,7 +53,7 @@ Als u bijvoorbeeld een herbruikbare banner ontwerpt die een klikbare knop bevat,
 
 1. Klik op de optie **[!UICONTROL Enable edition]** om te schakelen en stel de bewerkbare velden in.
 
-   ![ laat editable gebieden voor een component van het fragmentbeeld ](./assets/fragment-editable-fields-image.png){width="700" zoomable="yes"} &lbrace;width= &quot;700&quot;zoomable=&quot;ja&quot; toe
+   ![ laat editable gebieden voor een component van het fragmentbeeld ](./assets/fragment-editable-fields-image.png){width="700" zoomable="yes"} toe
 
    U kunt aanpassingen inschakelen voor de weergegeven velden, afhankelijk van het componenttype en de parameters die in het fragment zijn gedefinieerd.
 
@@ -60,7 +61,7 @@ Als u bijvoorbeeld een herbruikbare banner ontwerpt die een klikbare knop bevat,
 
 1. Klik op **[!UICONTROL Overview]** om alle bewerkbare velden en de bijbehorende standaardwaarden te bekijken.
 
-   ![ herzie de editable gebieden en hun standaardwaarden ](./assets/fragment-editable-fields-image-overview.png){width="700" zoomable="yes"} {width= &quot;700&quot; zoomable= &quot;ja&quot;}
+   ![ herzie de editable gebieden en hun standaardwaarden ](./assets/fragment-editable-fields-image-overview.png){width="700" zoomable="yes"}
 
 1. Sla uw wijzigingen op.
 

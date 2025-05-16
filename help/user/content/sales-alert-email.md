@@ -1,9 +1,10 @@
 ---
 title: E-mail verkoopwaarschuwing
 description: Leer hoe u een e-mail met een automatische verkoopwaarschuwing opneemt in uw accountreizen.
-feature: Email Authoring, Content
+feature: Email Authoring, Account Journeys
+role: User
 exl-id: 01bffbce-6c73-483a-8731-de4e5569cf61
-source-git-commit: c4df46db3c7123636311c47be36de171de24e1be
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 0%
@@ -52,7 +53,7 @@ Als marketeer kunt u een e-mailknooppunt voor een melding van verkopen configure
 
 ## Een e-mailactie voor een verkoopwaarschuwing toevoegen aan een accountreis
 
-U kunt e-mailleveringen voor meldingen bij verkoop instellen in een accountreis wanneer u een knooppunt _[!UICONTROL Take an action]_&#x200B;toevoegt en het volgende doet:
+U kunt e-mailleveringen voor meldingen bij verkoop instellen in een accountreis wanneer u een knooppunt _[!UICONTROL Take an action]_toevoegt en het volgende doet:
 
 1. Kies **[!UICONTROL Account]** voor het doel _[!UICONTROL Action on]_.
 

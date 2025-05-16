@@ -1,8 +1,9 @@
 ---
 title: Aan de slag met Journey Optimizer B2B edition
 description: Meer informatie over de belangrijkste aandachtspunten om als nieuwe gebruiker aan de slag te gaan met de B2B-editie van Journey Optimizer.
+role: Admin, User
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '664'
 ht-degree: 6%
@@ -17,7 +18,7 @@ Op basis van uw organisatie kunnen beheerders verschillende typen gebruikers def
 
 >[!TIP]
 >
->Controleer ook uw vergunningsrechten en de overeenkomstige [ productbeschrijving ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} over prestatiesgaranties en statische beperkingen.
+>Controleer ook uw vergunningsrechten en de overeenkomstige [ productbeschrijving ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} over prestatiesgaranties en statische beperkingen.
 
 >[!BEGINTABS]
 
@@ -29,13 +30,13 @@ Als systeembeheerder, moet u productprofielen begrijpen en toestemmingen voor za
 
 Meer informatie over toegangsbeheer vindt u op de volgende pagina&#39;s:
 
-1. **creeer zandbakken** om uw instanties in afzonderlijke, geïsoleerde virtuele milieu&#39;s te verdelen. [Meer informatie](https://experienceleague.adobe.com/nl/docs/experience-platform/sandbox/home#understanding-sandboxes){target="_blank"}
+1. **creeer zandbakken** om uw instanties in afzonderlijke, geïsoleerde virtuele milieu&#39;s te verdelen. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home#understanding-sandboxes){target="_blank"}
 
 1. **opstelling het productprofiel**. Een productprofiel is een reeks eenheidrechten in Adobe Experience Platform die gebruikers toegang tot bepaalde functies of objecten in de interface biedt. [Meer informatie](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
 1. **de toestemmingen van de Opstelling van de gebruikerstoestand** voor productprofielen, met inbegrip van zandbakken, en geven toegang tot uw teamleden door hen aan verschillende productprofielen toe te wijzen. Deze taak wordt uitgevoerd in de Admin Console. [Meer informatie](../admin/user-management.md#create-a-user-group)
 
-1. **vorm e-maillevering** in Marketo Engage, die uw team toelaat om e-mailinhoud van rekeningsreizen te verzenden. [Meer informatie](https://experienceleague.adobe.com/nl/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability){target="_blank"}
+1. **vorm e-maillevering** in Marketo Engage, die uw team toelaat om e-mailinhoud van rekeningsreizen te verzenden. [Meer informatie](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability){target="_blank"}
 
 1. **vorm de diensten van SMS**. Stel een van de ondersteunde SMS-providers van derden in die de services voor tekstberichten onafhankelijk aanbieden en de accountgegevens in Adobe Journey Optimizer B2B edition configureren. [Meer informatie](../admin/configure-channels-sms.md)
 

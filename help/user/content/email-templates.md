@@ -1,9 +1,10 @@
 ---
 title: E-mailsjablonen
 description: Leer hoe u e-mailsjablonen beheert en maakt die worden gebruikt om gemakkelijk en efficiënt e-mails over een accountreis te maken.
-feature: Email Authoring, Content
+feature: Templates, Email Authoring, Content
+role: User
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 97d8e5b366e8786e517c18828236f95304f3f3be
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '1269'
 ht-degree: 0%
@@ -38,7 +39,7 @@ U kunt een e-mailsjabloon maken op basis van de pagina met e-mailsjablonen door 
 
 1. Klik op **[!UICONTROL Create]**.
 
-De pagina _[!UICONTROL Design your template]_&#x200B;wordt geopend en bevat meerdere opties voor het maken van de sjabloon:_[!UICONTROL Design from scratch]_ , _[!UICONTROL Import HTML]_&#x200B;of&#x200B;_[!UICONTROL Select design template]_ .
+De pagina _[!UICONTROL Design your template]_wordt geopend en bevat meerdere opties voor het maken van de sjabloon:_[!UICONTROL Design from scratch]_ , _[!UICONTROL Import HTML]_of_[!UICONTROL Select design template]_ .
 
 ![ kies hoe u met uw ontwerp van het e-mailmalplaatje wilt beginnen ](./assets/templates-create-design.png){width="800" zoomable="yes"}
 

@@ -1,8 +1,10 @@
 ---
 title: Governance-functies
 description: Meer informatie over de governancefuncties die momenteel beschikbaar zijn in Journey Optimizer B2B edition.
+feature: Setup
+role: Admin
 exl-id: 2845272b-987c-4a37-adf4-6ee5bfd59fc0
-source-git-commit: 3198ba223125c95263d8dcf5ee8cb285a888a26a
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 0%
@@ -15,7 +17,7 @@ Journey Optimizer B2B edition is een geïntegreerde Adobe Experience Platform-ap
 
 ## Privacy - GDPR
 
-Journey Optimizer B2B edition gebruikt de bestaande GDPR-governancefuncties voor Marketo&#39;s Engage die door de Privacy Service en Marketo Privacy Broker Service worden geboden.
+Journey Optimizer B2B edition gebruikt de bestaande Marketo Engage GDPR-governancefuncties die door Privacy Service en Marketo Privacy Broker Service worden geboden.
 
 ## Rolgebaseerde toegangscontrole (RBAC)
 

@@ -1,9 +1,10 @@
 ---
 title: Intentgegevens
 description: Leer hoe u trefwoorden kunt samenstellen en verzenden voor het genereren van intentiegegevens voor Journey Optimizer B2B edition.
-feature: Setup, Account Insights
+feature: Setup, Intent, Account Insights
 roles: Admin
-source-git-commit: 55c157483f7b5c5340bc3e0e2cfde29de45a5cc2
+exl-id: c7f9f6fe-2275-42a4-af80-b5c3d1a82837
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
@@ -19,7 +20,7 @@ In Journey Optimizer B2B edition voorspelt het Intent Detection-model een oploss
 
 ![ de gegevensvisualisatie van de Intentie ](../data/assets/intent-data-visualization.png){width="700" zoomable="yes"}
 
-Als u deze functie wilt activeren, kunt u een lijst met trefwoorden in een spreadsheet indienen bij de accountmanager van de Adobe. Deze trefwoorden worden gebruikt voor het labelen van inhoud.
+Als u deze functie wilt activeren, kunt u een lijst met trefwoorden in een spreadsheet indienen bij uw Adobe-accountmanager. Deze trefwoorden worden gebruikt voor het labelen van inhoud.
 
 Een set trefwoorden (maximaal 20) kan aan een product worden gekoppeld. Een reeks producten (maximaal 20) kan aan een categorie worden geassocieerd. Je kunt maximaal 20 rubrieken hebben. Dit hele model wordt bereikt door een eenvoudig spreadsheet dat wordt opgenomen. Het spreadsheet kan één enkel lusje bevatten dat met de productnaam correleert en het kan één kolom bevatten die aan een lijst van sleutelwoorden correleert.
 

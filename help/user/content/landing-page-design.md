@@ -1,10 +1,11 @@
 ---
 title: Ontwerp bestemmingspagina
 description: Leer hoe u inhoud ontwerpt en ontwerpt voor uw landingspagina's die reizen en campagnes van accounts ondersteunen.
-feature: Content
+feature: Landing Pages, Content Design Tools
+role: User
 badgeBeta: label="Beta" type="informative" tooltip="Deze functie bevindt zich momenteel in een beperkte bètaversie"
 exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
-source-git-commit: 22112bde7692247d9bc0ea9b79160682b9370f55
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 0%
@@ -67,11 +68,11 @@ Gebruik de opties voor weergave- en inhoudsvalidatie die beschikbaar zijn in de 
 
 ### Meer opties
 
-Vanuit het menu _[!UICONTROL More ...]_&#x200B;boven aan de visuele ontwerpruimte kunt u de volgende handelingen uitvoeren:
+Vanuit het menu _[!UICONTROL More ...]_boven aan de visuele ontwerpruimte kunt u de volgende handelingen uitvoeren:
 
 ![ klik Meer om tot malplaatjeacties ](./assets/landing-page-designer-more-menu.png){width="500"} toegang te hebben
 
 * **[!UICONTROL Reset landing page]** - Klik op deze optie om het visuele ontwerpcanvas op een lege leisteen te wissen en de opbouw van de pagina-inhoud opnieuw te starten.
-* **[!UICONTROL Change your design]** - Ga terug naar de _[!UICONTROL Create your primary landing page]_&#x200B;startpagina. Van daar, kunt u een andere malplaatje kiezen om het ontwerpproces opnieuw te beginnen, of verkiezen om de pagina van kras in een leeg canvas te ontwerpen.
+* **[!UICONTROL Change your design]** - Ga terug naar de _[!UICONTROL Create your primary landing page]_startpagina. Van daar, kunt u een andere malplaatje kiezen om het ontwerpproces opnieuw te beginnen, of verkiezen om de pagina van kras in een leeg canvas te ontwerpen.
 <!--- * **[!UICONTROL Save as content template]** - Save the page body as a landing page template to be reused across multiple landing pages. You provide a name and description for the template and save it to the list of saved  landing page templates. -->
 * **[!UICONTROL Export HTML]** - Download de inhoud in het visuele canvas naar uw lokale systeem in de HTML-indeling die is verpakt als een zip-bestand.

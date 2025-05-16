@@ -1,9 +1,10 @@
 ---
 title: Auditienoten account
 description: Meer informatie over het type accountpubliek dat u kunt gebruiken voor het definiëren van de invoer voor uw accountreizen in Journey Optimizer B2B edition.
-feature: Account Journeys
+feature: Account Journeys, Audiences, Account Lists
+role: User
 exl-id: 288ac5a8-79ed-4654-8ac1-83da2af04f2c
-source-git-commit: 5ed7e58b7a069c8b436d0d2f7b338072259768be
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 0%
@@ -31,7 +32,7 @@ _om het publiek voor de knoop te plaatsen:_
 
      Kies dit type en klik op **[!UICONTROL Add account audience]** .
 
-     Selecteer in het dialoogvenster _[!UICONTROL Add audience]_&#x200B;een publiekssegment dat eerder is gemaakt en klik op **[!UICONTROL Add audience]**.
+     Selecteer in het dialoogvenster _[!UICONTROL Add audience]_een publiekssegment dat eerder is gemaakt en klik op **[!UICONTROL Add audience]**.
 
      ![ selecteer een publiekssegment voor de knoop ](./assets/node-audience-add-dialog.png){width="700" zoomable="yes"}
 
@@ -39,7 +40,7 @@ _om het publiek voor de knoop te plaatsen:_
 
      Kies dit type en klik op **[!UICONTROL Add account list]** .
 
-     Selecteer in het dialoogvenster _[!UICONTROL Select live account list]_&#x200B;een accountlijst die eerder is gepubliceerd en klik op **[!UICONTROL Save]**.
+     Selecteer in het dialoogvenster _[!UICONTROL Select live account list]_een accountlijst die eerder is gepubliceerd en klik op **[!UICONTROL Save]**.
 
      ![ selecteer een levende rekeningslijst voor de knoop ](./assets/account-journey-account-audience-select-account-list.png){width="700" zoomable="yes"}
 
@@ -53,4 +54,4 @@ _om een publiekssegment tot stand te brengen:_
 
    ![ creeer een publiekssegment ](./assets/audiences-list-create.png){width="800" zoomable="yes"}
 
-1. Volg de stappen die in de [ gids van de Dienst van de Segmentatie ](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/account-audiences){target="_blank"} worden beschreven.
+1. Volg de stappen die in de [ gids van de Dienst van de Segmentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences){target="_blank"} worden beschreven.

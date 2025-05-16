@@ -1,37 +1,38 @@
 ---
 title: Werken met Marketo Engage Assets
-description: Leer over het gebruiken van de Marketo Engage Design Studio integratie van het activabeheer in Journey Optimizer B2B edition.
+description: Meer informatie over de integratie van Marketo Engage Design Studio Asset Management in Journey Optimizer B2B edition.
 feature: Assets, Content
+role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: bfa6cc84c3c8757146b70933b91b53337203eb5d
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '1896'
 ht-degree: 0%
 
 ---
 
-# Werken met Marketo&#39;s Engage
+# Werken met Marketo Engage-middelen
 
-Marketo Engage Design Studio is de standaardbron van middelen voor Journey Optimizer B2B edition en u kunt de beschikbare middelen gemakkelijk beheren en gebruiken om inhoud te ontwerpen die uw rekeningsreizen steunt.
+Marketo Engage Design Studio is de standaardbron van middelen voor Journey Optimizer B2B edition en u kunt de beschikbare middelen eenvoudig beheren en gebruiken om inhoud te ontwerpen die uw accountreizen ondersteunt.
 
-In Marketo Engage, gebruiken de marketing organisaties werkruimten om hun inhoudsactiva te organiseren en teams te helpen om tot de correcte activa toegang te hebben. Goed gedefinieerde werkruimten zijn vooral handig voor grote bedrijven met een groot aanbod aan producten of die wereldwijd met verschillende vereisten voor marketing naar verschillende regio&#39;s werken.
+In Marketo Engage gebruiken marketingorganisaties werkruimten om hun content-middelen te ordenen en Help-teams om toegang te krijgen tot de juiste middelen. Goed gedefinieerde werkruimten zijn vooral handig voor grote bedrijven met een groot aanbod aan producten of die wereldwijd met verschillende vereisten voor marketing naar verschillende regio&#39;s werken.
 
 ## Beheer van centrale activa
 
-Standaard is er een **_[!UICONTROL Journey Optimizer B2B Edition]_** -werkruimte die u specifiek kunt gebruiken voor de inhoud van uw accountreis. De elementen die u toevoegt aan deze werkruimte zijn niet zichtbaar of zijn niet beschikbaar voor gebruik in het Marketo Engage. Voor elementen die zich in deze werkruimte bevinden, beschikt u over alle functies voor middelenbeheer in Journey Optimizer B2B edition. Deze functies omvatten:
+Standaard is er een **_[!UICONTROL Journey Optimizer B2B Edition]_** -werkruimte die u specifiek kunt gebruiken voor de inhoud van uw accountreis. De elementen die u toevoegt aan deze werkruimte zijn niet zichtbaar of zijn niet beschikbaar voor gebruik in Marketo Engage. Voor elementen die zich in deze werkruimte bevinden, beschikt u over alle functies voor middelenbeheer in Journey Optimizer B2B edition. Deze functies omvatten:
 
 * [Vervangen](#replace-assets)
 * [Verwijderen](#delete-assets)
 * [Verplaatsen](#create-a-folder)
 * [Bewerken met Adobe Express](./image-edit-adobe-express.md)
 
-Assets dat zich in de werkruimten van het Marketo Engage bevindt, is beperkt tot alleen-lezen toegang voor gebruik in e-mails, e-mailsjablonen en fragmenten. U kunt nieuwe elementen toevoegen aan deze werkruimten en een kopie van een element downloaden.
+Assets dat zich in de Marketo Engage-werkruimten bevindt, heeft alleen lezentoegang voor gebruik in e-mails, e-mailsjablonen en fragmenten. U kunt nieuwe elementen toevoegen aan deze werkruimten en een kopie van een element downloaden.
 
 ## Bladeren en toegang krijgen tot elementen
 
 Ga naar de linkernavigatie en klik op **[!UICONTROL Content Management]** > **[!UICONTROL Assets]** om Adobe Marketo Engage-elementen van Journey Optimizer B2B edition te openen. Met deze handeling wordt een aanbiedingspagina geopend met alle vermelde elementen.
 
-![ doorblader de activa van het Marketo Engage ](assets/assets-list-page.png){width="800" zoomable="yes"}
+![ doorblader de activa van Marketo Engage ](assets/assets-list-page.png){width="800" zoomable="yes"}
 
 De Journey Optimizer B2B edition-werkruimte is standaard geselecteerd. De andere werkruimten worden hieronder weergegeven.
 
@@ -67,15 +68,15 @@ Als u op de koppeling klikt, wordt u naar het bijbehorende e-mailbericht, de bij
 
 ## Elementen toevoegen
 
-Van de _Assets_ lijstpagina, kunt u beeldactiva aan de werkruimte van Journey Optimizer B2B edition of een werkruimte van het Marketo Engage toevoegen.
+Van de _Assets_ lijstpagina, kunt u beeldactiva aan de werkruimte van Journey Optimizer B2B edition of een werkruimte van Marketo Engage toevoegen.
 
 1. Klik op **[!UICONTROL Add Assets]** rechtsboven.
 
-1. Sleep in het dialoogvenster _[!UICONTROL Add assets]_&#x200B;een of meer bestanden van uw systeem naar het bestandsvak.
+1. Sleep in het dialoogvenster _[!UICONTROL Add assets]_een of meer bestanden van uw systeem naar het bestandsvak.
 
    ![ voegt activa aan een werkruimte ](./assets/assets-add-dialog.png){width="500"} toe
 
-   U kunt ook op de koppeling _[!UICONTROL Select a file from your computer]_&#x200B;klikken om bestanden te zoeken en te selecteren met uw lokale bestandssysteem.
+   U kunt ook op de koppeling _[!UICONTROL Select a file from your computer]_klikken om bestanden te zoeken en te selecteren met uw lokale bestandssysteem.
 
    U kunt elementen uploaden vanaf uw lokale systeem met maximaal 10 bestanden tegelijk. De maximale bestandsgrootte is 100 MB.
 
@@ -85,7 +86,7 @@ Van de _Assets_ lijstpagina, kunt u beeldactiva aan de werkruimte van Journey Op
 
    >[!NOTE]
    >
-   >Als u een locatie in de _[!UICONTROL Journey Optimizer B2B Edition]_-werkruimte selecteert, kunt u het element in de app beheren. Als u activa aan een werkruimte van het Marketo Engage toevoegt, zijn de functies van het activabeheer beschikbaar slechts bij de Studio van het Ontwerp van het Marketo Engage.
+   >Als u een locatie in de _[!UICONTROL Journey Optimizer B2B Edition]_-werkruimte selecteert, kunt u het element in de app beheren. Als u het element toevoegt aan een Marketo Engage-werkruimte, zijn functies voor middelenbeheer alleen beschikbaar in de Marketo Engage Design Studio.
 
 1. Schakel het selectievakje **[!UICONTROL Overwrite existing files]** in als u bestanden wilt overschrijven (vervangen) wanneer u een of meer bestanden met een bestaande bestandsnaam uploadt.
 
@@ -101,13 +102,13 @@ Gebruik een van de volgende methoden om een element te verwijderen dat zich bevi
 
   ![ de acties van de Toegang voor de activa ](./assets/assets-details-more-menu.png){width="600" zoomable="yes"}
 
-* Voor de _[!UICONTROL Assets]_&#x200B;lijstpagina, klik het_ Meer _pictogram (**[!UICONTROL ...]**) naast het activa punt en kies **[!UICONTROL Delete]**&#x200B;van de opties.
+* Voor de _[!UICONTROL Assets]_lijstpagina, klik het_ Meer _pictogram (**[!UICONTROL ...]**) naast het activa punt en kies **[!UICONTROL Delete]**van de opties.
 
   ![ de acties van de Toegang voor de activa ](./assets/assets-list-file-more-menu.png){width="600" zoomable="yes"}
 
   >[!NOTE]
   >
-  >Slechts hebben de activa die in de _[!UICONTROL Journey Optimizer B2B Edition]_&#x200B;werkruimte verblijven activa beheersfuncties beschikbaar in_ Meer _menu.
+  >Slechts hebben de activa die in de _[!UICONTROL Journey Optimizer B2B Edition]_werkruimte verblijven activa beheersfuncties beschikbaar in_ Meer _menu.
 
 Met deze handeling wordt een bevestigingsvenster geopend. U kunt het proces afbreken door op **[!UICONTROL Cancel]** te klikken of op **[!UICONTROL Delete]** te klikken om het verwijderen te bevestigen.
 
@@ -115,13 +116,13 @@ Als het element momenteel in gebruik is, wordt een informatief dialoogvenster ge
 
 ## Elementen vervangen
 
-Gebruik een van de volgende methoden om een element in de werkruimte van _[!UICONTROL Journey Optimizer B2B Edition]_&#x200B;te vervangen:
+Gebruik een van de volgende methoden om een element in de werkruimte van _[!UICONTROL Journey Optimizer B2B Edition]_te vervangen:
 
 * Ga naar de elementdetails, klik op **[!UICONTROL ... More]** rechtsboven en kies **[!UICONTROL Replace]** uit de opties.
 
-* Voor de _[!UICONTROL Assets]_&#x200B;lijstpagina, klik het_ Meer _pictogram (**[!UICONTROL ...]**) naast het activa punt en kies **[!UICONTROL Replace]**&#x200B;van de opties.
+* Voor de _[!UICONTROL Assets]_lijstpagina, klik het_ Meer _pictogram (**[!UICONTROL ...]**) naast het activa punt en kies **[!UICONTROL Replace]**van de opties.
 
-Sleep het vervangende bestand van uw systeem naar het bestandsvak in het dialoogvenster _[!UICONTROL Replace asset]_. U kunt ook op de koppeling&#x200B;_[!UICONTROL Select a file from your computer]_ klikken om een bestand te selecteren met uw lokale bestandssysteem. (Als u meerdere bestanden op uw lokale systeem selecteert, wordt het eerste geselecteerde bestand gebruikt voor de vervanging.)
+Sleep het vervangende bestand van uw systeem naar het bestandsvak in het dialoogvenster _[!UICONTROL Replace asset]_. U kunt ook op de koppeling_[!UICONTROL Select a file from your computer]_ klikken om een bestand te selecteren met uw lokale bestandssysteem. (Als u meerdere bestanden op uw lokale systeem selecteert, wordt het eerste geselecteerde bestand gebruikt voor de vervanging.)
 
 ![ vervang activadialoog ](./assets/assets-replace-dialog.png){width="500"}
 
@@ -135,7 +136,7 @@ U kunt een element op een van de volgende manieren downloaden:
 
 * Ga naar de elementdetails en klik op **[!UICONTROL Download]** rechtsboven.
 
-* Voor de _[!UICONTROL Assets]_&#x200B;lijstpagina, klik de_ Ellipse _(**[!UICONTROL ...]**) naast het activa punt en kies **[!UICONTROL Download]**&#x200B;van de opties.
+* Voor de _[!UICONTROL Assets]_lijstpagina, klik de_ Ellipse _(**[!UICONTROL ...]**) naast het activa punt en kies **[!UICONTROL Download]**van de opties.
 
 Klik in het bevestigingsvenster op **[!UICONTROL Download]** om het element naar uw lokale systeem te downloaden. U kunt het proces afbreken door op **[!UICONTROL Cancel]** te klikken.
 
@@ -151,11 +152,11 @@ U kunt de volgende bulkacties uitvoeren voor geselecteerde elementen die zich in
 
 1. Klik op **[!UICONTROL Move]** in de selectiebanner.
 
-   Deze actie opent de _[!UICONTROL Move Assets]_&#x200B;dialoog, die van de namen van de geselecteerde activa een lijst maakt en u toestaat om de_ doel _omslag te selecteren waar u deze activa wilt bewegen.
+   Deze actie opent de _[!UICONTROL Move Assets]_dialoog, die van de namen van de geselecteerde activa een lijst maakt en u toestaat om de_ doel _omslag te selecteren waar u deze activa wilt bewegen.
 
 1. Selecteer een map.
 
-   Het pad naast _[!UICONTROL Selected assets will move to:]_&#x200B;geeft de wijziging weer.
+   Het pad naast _[!UICONTROL Selected assets will move to:]_geeft de wijziging weer.
 
 1. Klik op **[!UICONTROL Move]**.
 
@@ -177,7 +178,7 @@ U kunt de volgende bulkacties uitvoeren voor geselecteerde elementen die zich in
 
 ## Een map maken
 
-1. Klik in de aanbiedingspagina van _[!UICONTROL Assets]_&#x200B;op **[!UICONTROL Create Folder]**&#x200B;rechtsboven.
+1. Klik in de aanbiedingspagina van _[!UICONTROL Assets]_op **[!UICONTROL Create Folder]**rechtsboven.
 
 1. Voer in het dialoogvenster de mapnaam in en selecteer de doelmap (bovenliggende map) voor de nieuwe map.
 
@@ -189,7 +190,7 @@ U kunt de volgende bulkacties uitvoeren voor geselecteerde elementen die zich in
 
 ## Handelingen op mapniveau toepassen
 
-In de werkruimte van _[!UICONTROL Journey Optimizer B2B Edition]_&#x200B;kunt u acties toepassen op een map of elementen in de map. Klik het_ Meer _pictogram (**..**) naast de omslag om de acties te openbaren die u op het kunt toepassen.
+In de werkruimte van _[!UICONTROL Journey Optimizer B2B Edition]_kunt u acties toepassen op een map of elementen in de map. Klik het_ Meer _pictogram (**..**) naast de omslag om de acties te openbaren die u op het kunt toepassen.
 
 ![ pas acties op een omslag of activa binnen de omslag toe ](./assets/assets-folder-menu-options.png){width="700" zoomable="yes"}
 
@@ -245,7 +246,7 @@ U kunt de volgende acties op mapniveau uitvoeren:
 
 +++
 
-+++ verwijder de map
+++ + verwijder de map
 
 1. Kies **[!UICONTROL Delete]** .
 
@@ -269,7 +270,7 @@ Als u een map archiveert, kunnen de bestanden in de map niet worden doorzocht. G
 
 Assets kan worden gebruikt in de e-mail-, e-mailsjabloon- of visuele fragmentauthoring van uw team vanuit de visuele inhoudeditor.
 
-Van visuele ontwerper UI, selecteer het _Marketo Engage Assets_ pictogram ( ![ het pictogram van Assets van het Marketo Engage ](../../assets/do-not-localize/icon-assets-me.svg)) op linkerzijbalk.
+Van visuele ontwerper UI, selecteer het _Assets van Marketo Engage_ pictogram ( ![ het pictogram van Assets van Marketo Engage ](../../assets/do-not-localize/icon-assets-me.svg)) op linkerzijbalk.
 
 Met deze actie wijzigt u het deelvenster Gereedschappen waarin een gestructureerde lijst met beschikbare elementen in de geselecteerde werkruimte wordt weergegeven. Selecteer de werkruimte die u wilt weergeven voor het kiezen van een element.
 
@@ -279,7 +280,7 @@ Er zijn meerdere methoden om een afbeeldingselement toe te voegen aan het visuel
 
 * Sleep een afbeeldingsminiatuur vanuit de linkernavigatie en zet deze neer.
 
-* Voeg een afbeeldingscomponent toe aan het canvas en klik op **[!UICONTROL Browse]** om het dialoogvenster _[!UICONTROL Select Asset from Adobe Marketo Engage]_&#x200B;te openen.
+* Voeg een afbeeldingscomponent toe aan het canvas en klik op **[!UICONTROL Browse]** om het dialoogvenster _[!UICONTROL Select Asset from Adobe Marketo Engage]_te openen.
 
   ![ Gebruik de filters en het onderzoeksgebied om het middel te vinden dat u ](./assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"} nodig hebt
 

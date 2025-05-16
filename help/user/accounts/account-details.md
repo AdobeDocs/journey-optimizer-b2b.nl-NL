@@ -2,7 +2,9 @@
 title: Accountgegevens
 description: Meer informatie over uitgebreide informatie en algemene AI-overzichten voor accounts in Journey Optimizer B2B edition.
 feature: Account Insights
-source-git-commit: 55c157483f7b5c5340bc3e0e2cfde29de45a5cc2
+role: User
+exl-id: 12be33de-0a43-43d9-90b8-fe4411a50599
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 1%
@@ -36,7 +38,7 @@ Het gedeelte Accountoverzicht bevat de volgende accountgegevens:
 
 ![ de contactdekking van de Rekening ](./assets/details-page-contact-coverage.png){width="800" zoomable="yes"}
 
-De _[!UICONTROL Contact coverage]_&#x200B;sectie toont het aantal contacten van de rekening met een specifieke rol verbonden aan een oplossingsbelang. De toewijzing van rol en oplossingsbelang is gebaseerd op het het kopen malplaatje van de rollen van de groep. Klik op een cel om gedetailleerde informatie weer te geven:
+De _[!UICONTROL Contact coverage]_sectie toont het aantal contacten van de rekening met een specifieke rol verbonden aan een oplossingsbelang. De toewijzing van rol en oplossingsbelang is gebaseerd op het het kopen malplaatje van de rollen van de groep. Klik op een cel om gedetailleerde informatie weer te geven:
 
 * Beschrijving, in het volgende formaat: _x de mensen hebben y rol voor de rente van de oplossing van z_
 * Kolommen
@@ -57,7 +59,7 @@ Klik het _pictogram van de Filter_ ( ![ pictogram van de Filter ](../assets/do-n
 
 ![ het contactoverlapping van de Rekening ](./assets/details-page-contact-overlap.png){width="800" zoomable="yes"}
 
-In de sectie _[!UICONTROL Contact overlap]_&#x200B;worden contactpersonen van de account weergegeven die deel uitmaken van meer dan één inkoopgroep omdat ze aan meerdere belangen van oplossingen zijn gekoppeld. Deze informatie bestaat uit een tabel met de volgende kolommen:
+In de sectie _[!UICONTROL Contact overlap]_worden contactpersonen van de account weergegeven die deel uitmaken van meer dan één inkoopgroep omdat ze aan meerdere belangen van oplossingen zijn gekoppeld. Deze informatie bestaat uit een tabel met de volgende kolommen:
 
 * Naam
 * Functie

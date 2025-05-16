@@ -2,8 +2,9 @@
 title: Assets
 description: Meer informatie over middelenbeheer in Journey Optimizer B2B edition.
 feature: Assets, Content
+role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 0%
@@ -34,7 +35,7 @@ Maak gebruik van Adobe Experience Manager Assets om marketing- en creatieve work
 
 Adobe Journey Optimizer B2B edition kan verbinding maken met Adobe Experience Manager Assets as a Cloud Service voor gecentraliseerd beheer van bedrijfsmiddelen, waardoor uw creatieve systeem wordt uitgebreid en digitale middelen worden verenigd voor een betere ervaring. Adobe Experience Manager Assets as a Cloud Service biedt een gebruiksvriendelijke cloudoplossing voor efficiënt beheer van digitale bedrijfsmiddelen en dynamische mediabewerkingen. Het omvat naadloos geavanceerde eigenschappen, met inbegrip van Kunstmatige Intelligentie en het Leren van de Machine.
 
-Leer meer in de [ documentatie van Adobe Experience Manager as a Cloud Service ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/overview){target="_blank"}.
+Leer meer in de [ documentatie van Adobe Experience Manager as a Cloud Service ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview){target="_blank"}.
 
 {{aem-assets-licensing-note}}
 

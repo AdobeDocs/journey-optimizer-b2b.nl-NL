@@ -1,7 +1,10 @@
 ---
 title: Accountlijst exporteren
 description: Leer hoe u de accountlijst exporteert op basis van het filter voor inkoopgroepen.
-source-git-commit: c51ee8c8b58e8154c81f6a2ffada3f58a08eb6b4
+feature: Account Lists
+role: User
+exl-id: 3ec8e8fd-1bc2-4efa-840f-f06520099060
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 0%
@@ -36,6 +39,6 @@ Gebruik de _eigenschap van de de rekeningslijst van de Uitvoer_ om alle rekening
 
    >[!NOTE]
    >
-   >Als u een berichtabonnement voor e-mailmeldingen hebt dat is ingesteld in de voorkeuren voor uw gebruikersaccount voor Adobe, is het mogelijk een e-mailmelding.
+   >Als u een berichtabonnement voor e-mailmeldingen hebt dat is ingesteld in de voorkeuren van uw Adobe-gebruikersaccount, is het mogelijk een e-mailmelding.
 
    De toepassingspagina richt zich aan _het Kopen Groep_ doorbladert lusje en de dialoog van het systeemsparen dossier zet u ertoe aan om het dossier aan uw systeem te bewaren. Als u de gegevens wilt delen, kunt u het systeem voor het delen van bestanden van uw team gebruiken.

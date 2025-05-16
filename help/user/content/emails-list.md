@@ -2,7 +2,9 @@
 title: E-mails
 description: Gebruik de lijst E-mails om je e-mailinhoud in Adobe Journey Optimizer B2B edition te beheren. U kunt e-mails tijdens uw reizen gemakkelijk beoordelen en bijwerken.
 feature: Email Authoring, Content
-source-git-commit: 6517a953692a56bd31c5b0f2fa5f15f40c6743b5
+role: User
+exl-id: e7ea71dc-83dc-4044-aa02-8b745368193d
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 0%
@@ -11,7 +13,7 @@ ht-degree: 0%
 
 # E-mails
 
-Wanneer u [ e-mails ](./add-email.md) creeert, voegt u hen in de context van een reisknoop toe. Als u buiten het reisoverzicht met e-mail wilt werken, gebruikt u de lijst _[!UICONTROL Emails]_&#x200B;om het e-mailbericht te zoeken en bij te werken. U kunt e-mailberichten controleren of de instellingen en inhoud bijwerken.
+Wanneer u [ e-mails ](./add-email.md) creeert, voegt u hen in de context van een reisknoop toe. Als u buiten het reisoverzicht met e-mail wilt werken, gebruikt u de lijst _[!UICONTROL Emails]_om het e-mailbericht te zoeken en bij te werken. U kunt e-mailberichten controleren of de instellingen en inhoud bijwerken.
 
 ## E-mails openen en beheren
 

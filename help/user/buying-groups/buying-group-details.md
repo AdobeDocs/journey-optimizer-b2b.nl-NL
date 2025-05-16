@@ -1,9 +1,10 @@
 ---
 title: Gegevens van kopersgroep
 description: Meer informatie over uitgebreide informatie en algemene AI-overzichten voor het kopen van groepen in Journey Optimizer B2B edition.
-feature: Buying Groups
+feature: Buying Groups, Intelligent Insights
+role: User
 exl-id: f14301dc-d605-4ed2-8867-6a49675019de
-source-git-commit: cfebf3d3a91733261417e338b3ce3c1b80495e5b
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 1%
@@ -53,7 +54,7 @@ Het gedeelte Accountoverzicht bevat de volgende accountgegevens:
 
 ![ het Kopen groepsleden ](./assets/details-page-buying-group-members.png){width="800" zoomable="yes"}
 
-In de sectie _[!UICONTROL Buying group members]_&#x200B;worden twee rijen weergegeven die de kopende groepsleden markeren:
+In de sectie _[!UICONTROL Buying group members]_worden twee rijen weergegeven die de kopende groepsleden markeren:
 
 * **[!UICONTROL Decision maker]** - De drie belangrijkste besluitvormers op basis van de betrokkenheidsscore van de persoon
 * **[!UICONTROL Top engaged members]** - Andere leden met de hoogste betrokkenheid op basis van de betrokkenheidsscore van de persoon

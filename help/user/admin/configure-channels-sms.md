@@ -1,8 +1,10 @@
 ---
 title: SMS-configuraties
 description: Leer hoe u verbindingen met ondersteunde SMS-providers configureert voor gebruik door Journey Optimizer B2B edition SMS-berichten.
-feature: Setup
-source-git-commit: c3352db2235af08e31ba7e4d8690bc9e330dd41f
+feature: Setup, Channels
+role: Admin
+exl-id: bd41a5ec-929f-489f-a757-0720c1b44ed2
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 0%
@@ -21,7 +23,7 @@ Voordat u een SMS-kanaal configureert in Adobe Journey Optimizer B2B edition, mo
 
 >[!IMPORTANT]
 >
->Voor het gebruik van services voor tekstberichten gelden aanvullende voorwaarden van de betreffende provider. Als oplossingen van derden zijn Sinch, Twilio en Infobip via integratie beschikbaar voor Adobe Journey Optimizer B2B edition-gebruikers. Adobe heeft geen betrekking op producten van derden en is niet verantwoordelijk voor deze producten. Neem contact op met uw provider voor problemen met of verzoeken om assistentie met betrekking tot de SMS-services.
+>Voor het gebruik van services voor tekstberichten gelden aanvullende voorwaarden van de betreffende provider. Als oplossingen van derden zijn Sinch, Twilio en Infobip via integratie beschikbaar voor Adobe Journey Optimizer B2B edition-gebruikers. Adobe heeft geen controle en is niet verantwoordelijk voor producten van derden. Neem contact op met uw provider voor problemen met of verzoeken om assistentie met betrekking tot de SMS-services.
 
 ## Een bestaande API-configuratie voor SMS controleren
 
@@ -113,4 +115,4 @@ _om Infobip als uw leverancier van SMS met Adobe Journey Optimizer B2B edition t
 
 >[!ENDTABS]
 
-Wanneer u op _[!UICONTROL Submit]_&#x200B;klikt, worden de referenties direct gevalideerd en opgeslagen en wordt u omgeleid naar de pagina met&#x200B;_[!UICONTROL API credentials]_ -lijsten. Als de verzonden referenties ongeldig zijn, wordt een foutbericht weergegeven op de pagina met lijsten. In dit geval kunt u de configuratie annuleren of deze bijwerken en opnieuw verzenden.
+Wanneer u op _[!UICONTROL Submit]_klikt, worden de referenties direct gevalideerd en opgeslagen en wordt u omgeleid naar de pagina met_[!UICONTROL API credentials]_ -lijsten. Als de verzonden referenties ongeldig zijn, wordt een foutbericht weergegeven op de pagina met lijsten. In dit geval kunt u de configuratie annuleren of deze bijwerken en opnieuw verzenden.
