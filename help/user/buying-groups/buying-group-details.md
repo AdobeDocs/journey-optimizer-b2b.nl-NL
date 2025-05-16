@@ -54,7 +54,7 @@ Het gedeelte Accountoverzicht bevat de volgende accountgegevens:
 
 ![ het Kopen groepsleden ](./assets/details-page-buying-group-members.png){width="800" zoomable="yes"}
 
-In de sectie _[!UICONTROL Buying group members]_worden twee rijen weergegeven die de kopende groepsleden markeren:
+In de sectie _[!UICONTROL Buying group members]_&#x200B;worden twee rijen weergegeven die de kopende groepsleden markeren:
 
 * **[!UICONTROL Decision maker]** - De drie belangrijkste besluitvormers op basis van de betrokkenheidsscore van de persoon
 * **[!UICONTROL Top engaged members]** - Andere leden met de hoogste betrokkenheid op basis van de betrokkenheidsscore van de persoon

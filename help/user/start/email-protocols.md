@@ -65,7 +65,7 @@ Bijvoorbeeld:
 
 ### Het SSL-certificaat leveren
 
-De Steun van Adobe van het contact ](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=home#support){target="_blank"} [ om het proces te beginnen van levering een SSL Certificaat.
+De Steun van Adobe van het contact [&#128279;](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=home#support){target="_blank"}  om het proces te beginnen van levering een SSL Certificaat.
 
 Dit proces kan maximaal drie werkdagen duren.
 
@@ -175,7 +175,7 @@ Voor gedetailleerde informatie over DMARC en elk van zijn opties, verwijs naar [
 
 Er zijn twee typen uitlijning voor DMARC:
 
-* **DKIM** (Domain Keys Identified Mail) groepering: Het domein dat in 2} kopbal van e-mail {met de DKIM-Handtekening wordt gespecificeerd past aan. `From:` De DKIM-handtekening bevat een `d=` -waarde waarbij het domein is opgegeven voor overeenkomst met het `From:` -headerdomein.
+* **DKIM** (Domain Keys Identified Mail) groepering: Het domein dat in 2&rbrace; kopbal van e-mail &lbrace;met de DKIM-Handtekening wordt gespecificeerd past aan. `From:` De DKIM-handtekening bevat een `d=` -waarde waarbij het domein is opgegeven voor overeenkomst met het `From:` -headerdomein.
 
   DKIM-uitlijning valideert als de afzender e-mailberichten van het domein mag verzenden en controleert of er geen inhoud is gewijzigd tijdens de e-maildoorvoer. DKIM-uitgelijnde DMARC implementeren:
 
