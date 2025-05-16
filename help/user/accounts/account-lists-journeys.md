@@ -77,7 +77,7 @@ U hebt bijvoorbeeld een reispad waar u een e-mail verzendt en sommige accounts v
 
 Als Marketer wilt u wellicht programma&#39;s in Marketo Engage onderdrukken voor mensen die deel uitmaken van accountlijsten in Journey Optimizer B2B edition.
 
-In de Marketo Engage-instantie die is verbonden met Journey Optimizer B2B edition, kunt u het filter _[!UICONTROL Member of Account List]_&#x200B;in uw slimme lijsten gebruiken om deze leads te identificeren op basis van uw campagnestrategie. Voor meer informatie over Slimme Lijsten, verwijs naar de [ documentatie van Marketo Engage ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"}.
+In de Marketo Engage-instantie die is verbonden met Journey Optimizer B2B edition, kunt u het filter _[!UICONTROL Member of Account List]_&#x200B;in uw slimme lijsten gebruiken om deze leads te identificeren op basis van uw campagnestrategie. Voor meer informatie over Slimme Lijsten, verwijs naar de [ documentatie van Marketo Engage ](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"}.
 
 ### Het filter toevoegen aan een slimme lijst
 
@@ -95,7 +95,7 @@ In de Marketo Engage-instantie die is verbonden met Journey Optimizer B2B editio
 
 1. Voeg in de campagnestroom de stap **[!UICONTROL Add to List]** toe en kies de lijst waar u de personen wilt vullen in de accountlijst van Journey Optimizer B2B edition.
 
-   Verwijs naar _[een stap van de Stroom aan een slimme campagne ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/add-a-flow-step-to-a-smart-campaign){target="_blank"}_ in de documentatie van Marketo Engage voor gedetailleerde informatie over het toevoegen van stappen aan een stroom toevoegen.
+   Verwijs naar _[een stap van de Stroom aan een slimme campagne ](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/add-a-flow-step-to-a-smart-campaign){target="_blank"}_ in de documentatie van Marketo Engage voor gedetailleerde informatie over het toevoegen van stappen aan een stroom toevoegen.
 
 ### De leden controleren
 

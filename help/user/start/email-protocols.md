@@ -65,7 +65,7 @@ Bijvoorbeeld:
 
 ### Het SSL-certificaat leveren
 
-De Steun van Adobe van het contact [&#128279;](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=home#support){target="_blank"}  om het proces te beginnen van levering een SSL Certificaat.
+De Steun van Adobe van het contact [&#128279;](https://experienceleague.adobe.com/home?lang=nl-NL&amp;support-tab=home#support){target="_blank"}  om het proces te beginnen van levering een SSL Certificaat.
 
 Dit proces kan maximaal drie werkdagen duren.
 
@@ -96,7 +96,7 @@ Uw marketingteam moet de DKIM (Domain Keys Identified Mail)-informatie opgeven d
 
    `[DKIMDomain2]`: Hostrecord is `[HostRecord2]` en de TXT-waarde is `[TXTValue2]` .
 
-   Kopieer `HostRecord` en `TXTValue` voor elk domein van DKIM na het volgen van de [ instructies ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"} in de documentatie van Marketo Engage. U kunt de domeinen in Journey Optimizer B2B edition (zie [ SPF/DKIM ](../admin/configure-channels-emails.md#spfdkim)) verifiëren.
+   Kopieer `HostRecord` en `TXTValue` voor elk domein van DKIM na het volgen van de [ instructies ](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"} in de documentatie van Marketo Engage. U kunt de domeinen in Journey Optimizer B2B edition (zie [ SPF/DKIM ](../admin/configure-channels-emails.md#spfdkim)) verifiëren.
 
 ## DMARC instellen
 
@@ -179,7 +179,7 @@ Er zijn twee typen uitlijning voor DMARC:
 
   DKIM-uitlijning valideert als de afzender e-mailberichten van het domein mag verzenden en controleert of er geen inhoud is gewijzigd tijdens de e-maildoorvoer. DKIM-uitgelijnde DMARC implementeren:
 
-   * Stel DKIM in voor het MAIL FROM-domein van uw bericht. Gebruik de [ instructies ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"} in de documentatie van Marketo Engage.
+   * Stel DKIM in voor het MAIL FROM-domein van uw bericht. Gebruik de [ instructies ](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"} in de documentatie van Marketo Engage.
 
    * Configureer DMARC for the DKIM MAIL FROM domain.
 
@@ -202,7 +202,7 @@ Er zijn twee typen uitlijning voor DMARC:
 
 ### Specifieke IP&#39;s en gedeelde pool
 
-Als u post door Marketo Engage over specifieke IP verzendt en geen branded terugkeer-weg (of niet zeker bent als u) hebt uitgevoerd, open een kaartje met [ Steun van Adobe ](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=home#support){target="_blank"}.
+Als u post door Marketo Engage over specifieke IP verzendt en geen branded terugkeer-weg (of niet zeker bent als u) hebt uitgevoerd, open een kaartje met [ Steun van Adobe ](https://experienceleague.adobe.com/home?lang=nl-NL&amp;support-tab=home#support){target="_blank"}.
 
 Vertrouwde IPs is een gedeelde pool van IPs die voor lagere volumegebruikers gereserveerd zijn die minder dan 75k per maand verzenden en niet voor specifieke IP kwalificeren. Deze gebruikers moeten ook aan beste praktijkvereisten voldoen.
 
@@ -220,11 +220,11 @@ Een uitgaande verbinding wordt gemaakt door Marketo Engage met een server op int
 
 <!-- ### Webhooks
 
-Marketo Engage webhooks are an outbound integration mechanism. When a Smart Campaign executes a _Call Webhook_ flow action, it makes an HTTP request to an external web service. If the web service publisher uses an allowlist on the firewall of the network where the external web service is located, the publisher must add the IP address blocks listed below to their allowlist. For more information, see [Create a webhook](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/create-a-webhook){target="_blank"} and [Call Webhook](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/call-webhook){target="_blank"} in the Marketo Engage documentation.
+Marketo Engage webhooks are an outbound integration mechanism. When a Smart Campaign executes a _Call Webhook_ flow action, it makes an HTTP request to an external web service. If the web service publisher uses an allowlist on the firewall of the network where the external web service is located, the publisher must add the IP address blocks listed below to their allowlist. For more information, see [Create a webhook](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/administration/additional-integrations/create-a-webhook){target="_blank"} and [Call Webhook](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/call-webhook){target="_blank"} in the Marketo Engage documentation.
 
 ### CRM sync
 
-Marketo Engage Salesforce CRM Sync and Microsoft Dynamics Sync are integration mechanisms that make outbound HTTP requests to APIs published by your CRM vendor. Ensure that your IT organization does not block any of the IP address blocks below from accessing your CRM vendor APIs. For more information, see [Add an Existing Salesforce Field to the Marketo Sync](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/salesforce-sync/sfdc-sync-details/add-an-existing-salesforce-field-to-the-marketo-sync){target="_blank"} and [Understanding the Microsoft Dynamics Sync](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/understanding-the-microsoft-dynamics-sync){target="_blank"} in the Marketo Engage documentation. -->
+Marketo Engage Salesforce CRM Sync and Microsoft Dynamics Sync are integration mechanisms that make outbound HTTP requests to APIs published by your CRM vendor. Ensure that your IT organization does not block any of the IP address blocks below from accessing your CRM vendor APIs. For more information, see [Add an Existing Salesforce Field to the Marketo Sync](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/crm-sync/salesforce-sync/sfdc-sync-details/add-an-existing-salesforce-field-to-the-marketo-sync){target="_blank"} and [Understanding the Microsoft Dynamics Sync](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/understanding-the-microsoft-dynamics-sync){target="_blank"} in the Marketo Engage documentation. -->
 
 ## Uitgaande IP adresblokken
 
