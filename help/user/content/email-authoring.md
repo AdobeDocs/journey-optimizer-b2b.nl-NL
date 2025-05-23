@@ -4,20 +4,20 @@ description: Leer hoe u e-mailinhoud maakt in Adobe Journey Optimizer B2B. Met s
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 633f23525a6fd2b03460ecbef17379077d6b51d2
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '892'
 ht-degree: 0%
 
 ---
 
 # E-mailbericht schrijven
 
-Nadat u &lbrack; een nieuw <!-- or duplicated --> e-mailmiddel aan een knoop van de reisactie &rbrack;(./add-email.md) toevoegt, kunt u de inhoud voor het e-mailbericht bepalen.
+Nadat u [ een nieuw <!-- or duplicated --> e-mailmiddel aan een knoop van de reisactie ](./add-email.md) toevoegt, kunt u de inhoud voor het e-mailbericht bepalen.
 
-Klik op **[!UICONTROL Add email content]** boven in het voorvertoningsvenster van _[!UICONTROL Email]_.
+Klik op **[!UICONTROL Edit email content]** op de tab _[!UICONTROL Details]_in het rechterdeelvenster.
 
-![ Klik op E-mailinhoud toevoegen ](./assets/add-email-content.png){width="700" zoomable="yes"}
+![ Klik op E-mailinhoud bewerken ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
 Met deze handeling worden de ontwerpgereedschappen voor e-mail gestart, waarin u kunt kiezen hoe u uw e-mail wilt ontwerpen op basis van de volgende opties:
 
@@ -26,8 +26,6 @@ Met deze handeling worden de ontwerpgereedschappen voor e-mail gestart, waarin u
 * [ voer bestaande inhoud van HTML ](#import-existing-html-content) van een dossier of een .zip omslag in.
 
 * [ selecteer een bestaand malplaatje ](#select-a-template) van een lijst van ingebouwde of douane e-mailmalplaatjes.
-
-Om de onderwerpregel met de uitdrukkingsredacteur te vormen en te personaliseren, klik het _Personalization_ pictogram en voeg om het even welke tokens van Marketo Engage toe.
 
 Nadat u de e-mailinhoud hebt gemaakt en aangepast, kunt u de inhoud exporteren voor validatie of later gebruik. Klik op **[!UICONTROL Export HTML]** om de inhoud op te slaan als een ZIP-bestand dat uw HTML en elementen bevat.
 
@@ -47,10 +45,9 @@ Nadat u de e-mailinhoud hebt gemaakt en aangepast, kunt u de inhoud exporteren v
 >title="Informatie over contentonderdelen"
 >abstract="Inhoudscomponenten zijn lege plaatsaanduidingen voor inhoud die u kunt gebruiken om de lay-out van een bestemmingspagina te maken."
 
-Gebruik de visuele inhoudeditor om de structuur van de e-mailinhoud te definiëren. Door structurele componenten toe te voegen en te bewegen met eenvoudige belemmering-en-dalingsacties, kunt u de vorm van de herbruikbare e-mailinhoud binnen seconden ontwerpen.
+Gebruik de ruimte voor het ontwerpen van visuele inhoud om de structuur en inhoud van het e-mailbericht te definiëren. Door structurele componenten toe te voegen en te bewegen met eenvoudige belemmering-en-dalingsacties, kunt u de vorm van de herbruikbare e-mailinhoud binnen seconden ontwerpen.
 
 1. Selecteer de optie **[!UICONTROL Design from scratch]** op de startpagina van _[!UICONTROL Design your template]_.
-
 1. [ voegt structuur en inhoud ](#add-structure-and-content) aan het e-mailbericht toe.
 1. [ voeg beeldactiva ](#add-assets) aan het e-mailbericht toe.
 1. [ personaliseer de e-mailinhoud ](#personalize-content).
@@ -104,7 +101,7 @@ U kunt de geïmporteerde inhoud naar wens aanpassen met de gereedschappen in de 
 
 {{$include /help/_includes/content-design-use-fragments.md}}
 
-Nadat het e-mailbericht is opgeslagen, wordt het weergegeven op de pagina met fragmentdetails wanneer u het tabblad _[!UICONTROL Used By]_&#x200B;in het overzicht selecteert.
+Nadat het e-mailbericht is opgeslagen, wordt het weergegeven op de pagina met fragmentdetails wanneer u het tabblad _[!UICONTROL Used By]_in het overzicht selecteert.
 
 ### Elementen toevoegen
 
@@ -120,7 +117,7 @@ Nadat het e-mailbericht is opgeslagen, wordt het weergegeven op de pagina met fr
 
 >[!NOTE]
 >
->Als _[!UICONTROL My Tokens]_&#x200B;is gedefinieerd voor de accountreis, kunt u deze reisspecifieke tokens ook gebruiken voor uw e-mailinhoud. Zie [ de tokens van de Douane voor e-mailverpersoonlijking ](./personalization-my-tokens.md) voor meer informatie.
+>Als _[!UICONTROL My Tokens]_is gedefinieerd voor de accountreis, kunt u deze reisspecifieke tokens ook gebruiken voor uw e-mailinhoud. Zie [ de tokens van de Douane voor e-mailverpersoonlijking ](./personalization-my-tokens.md) voor meer informatie.
 
 ### Gekoppelde URL-tracking bewerken
 
@@ -138,7 +135,7 @@ Gebruik de opties voor weergave- en inhoudsvalidatie die beschikbaar zijn in de 
 
 ### Meer opties
 
-Vanuit het menu _[!UICONTROL More ...]_&#x200B;boven aan de ontwerpruimte voor e-mail kunt u de volgende handelingen uitvoeren:
+Vanuit het menu _[!UICONTROL More ...]_boven aan de ontwerpruimte voor e-mail kunt u de volgende handelingen uitvoeren:
 
 ![ klik Meer om tot malplaatjeacties ](./assets/email-designer-more-menu.png){width="500"} toegang te hebben
 
