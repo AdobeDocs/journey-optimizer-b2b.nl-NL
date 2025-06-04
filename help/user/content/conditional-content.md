@@ -4,10 +4,10 @@ description: Leer hoe u variaties in inhoud maakt en voorwaardelijke regels toep
 feature: Email Authoring, Content
 role: User
 exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 9ad8ba495cdae4c88d9422f758ea912ca84e143c
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 1%
+source-wordcount: '1185'
+ht-degree: 0%
 
 ---
 
@@ -45,7 +45,7 @@ Terwijl u een e-mail voor uw accountreis in de e-mailontwerpruimte ontwerpt, geb
 
    ![ Uitgezochte voorwaarde voor variant ](./assets/conditions-variant-select.png){width="700" zoomable="yes"}
 
-   Het dialoogvenster _[!UICONTROL Select condition]_&#x200B;wordt geopend en de bibliotheek met voorwaarden wordt weergegeven.
+   Het dialoogvenster _[!UICONTROL Select condition]_wordt geopend en de bibliotheek met voorwaarden wordt weergegeven.
 
    Als u details voor een voorwaarde wilt bekijken om het te verzekeren is wat u wilt, klik het _Meer menu_ pictogram (**...**) en kies **[!UICONTROL View Info]**.
 
@@ -108,20 +108,9 @@ Voorwaardelijke regels worden opgeslagen in de voorwaardenbibliotheek, waar ze b
 | -------------- | ------- | ----------- |
 | **Rekening** | Accountkenmerken | Attributen van het accountprofiel, waaronder: <li>Jaarlijkse ontvangsten</li><li>Stad</li><li>Land</li><li>Werknemersgrootte</li><li>Marktsegment</li><li>Naam</li><li>SIC-code</li><li>Staat</li> |
 | | [!UICONTROL Special filters] > [!UICONTROL Has Buying Group] | De account heeft al dan niet leden van kopersgroepen. Kan ook worden beoordeeld aan de hand van een of meer van de volgende criteria: <li>Belang van oplossing</li><li>Status van kopersgroep</li><li>Complete score</li><li>Engagement Score</li> |
-| | [!UICONTROL Special filters] > [!UICONTROL Has opportunity] | De account is al dan niet gerelateerd aan een opportuniteit. Kan ook worden geëvalueerd aan de hand van een of meer van de volgende opportuniteitskenmerken: <li>Hoeveelheid<li>Datum sluiten<li>Beschrijving<li>Verwachte ontvangsten<li>Begrotingskwartaal<li>Begrotingsjaar<li>Forecast categorie<li>Naam van voorspelde categorie<li>Is gesloten<li>Is gewonnen</li><li>Laatste activiteitendatum</li><li>Persbron<li>Naam</li><li>Volgende stap</li><li>Waardigheid<li>Aantal<li>Werkgebied</li><li>Type |
 | **Persoon** | [!UICONTROL Activity history] > [!UICONTROL Email] | E-mailactiviteiten in verband met de reis: <li>[!UICONTROL Clicked link in email]</li><li>Geopende e-mail</li><li>Is per e-mail verzonden</li><li>Is per e-mail verzonden</li> Deze voorwaarden worden geëvalueerd aan de hand van een geselecteerd e-mailbericht uit een eerdere reis. |
 |  | [!UICONTROL Person Attributes] | Attributen van het profiel van de persoon, met inbegrip van: <li>Stad</li><li>Land</li><li>Geboortedatum</li><li>E-mailadres</li><li>E-mail is ongeldig</li><li>E-mail is geschorst</li><li>Voornaam</li><li>Overgenomen deelstaatgebied</li><li>Functie</li><li>Achternaam</li><li>Mobiel telefoonnummer</li><li>Telefoonnummer</li><li>Postcode</li><li>Staat</li><li>Niet geabonneerd</li><li>Reden waarop geen abonnement is genomen</li> |
 | | [!UICONTROL Special filters] > [!UICONTROL Member of Buying Group] | De persoon is al dan niet lid van de koopgroep, beoordeeld aan de hand van een of meer van de volgende criteria: <li>Belang van oplossing</li><li>Status van kopersgroep</li><li>Complete score</li><li>Engagement Score</li><li>Functie</li> |
-
-<!-- 
-
-| | [!UICONTROL Activity history] > [!UICONTROL Data Value Changed] | For a selected person attribute, a value change occurred. These change types include: <li>New value</li><li>Previous value</li><li>Reason</li><li>Source</li><li>Date of activity</li><li>Min. number of times</li> |
-| | [!UICONTROL Activity history] > [!UICONTROL Had Interesting Moment] | Interesting moment activity that is defined in the associated Marketo Engage instance. Constraints include: <li>Milestone</li><li>Email</li><li>Web</li>|
-
-| | [!UICONTROL Special filters] > [!UICONTROL Member of List] | The person is or is not a member of one or more Marketo Engage lists. |
-| | [!UICONTROL Special filters] > [!UICONTROL Member of Program] | The person is or is not a member of one or more Marketo Engage programs. |
-|  [People](#add-a-split-path-by-people-node) > [!UICONTROL Account-person attributes only] | Role in account attributes | The person is or is not assigned a role in the account. Optional constraints: <li>Enter a role name</li> | 
--->
 
 ### Een voorwaardelijke regel maken {#create-condition}
 
@@ -132,7 +121,7 @@ Voorwaardelijke regels worden opgeslagen in de voorwaardenbibliotheek, waar ze b
 
 U kunt tot de voorwaardelijke regelbouwer van de e-mailontwerpruimte toegang hebben wanneer u een voorwaarde voor een componentenvariant selecteert.
 
-1. Klik in het dialoogvenster _[!UICONTROL Select condition]_&#x200B;op **[!UICONTROL Create new]**&#x200B;en kies het voorwaardetype:
+1. Klik in het dialoogvenster _[!UICONTROL Select condition]_op **[!UICONTROL Create new]**en kies het voorwaardetype:
 
    * **[!UICONTROL Person condition]** - Kies dit type om de voorwaardelijke regel te maken met behulp van personekenmerken en contextuele gebeurtenissen.
    * **[!UICONTROL Account condition]** - Kies dit type om de voorwaardelijke regel samen te stellen met accountkenmerken.
