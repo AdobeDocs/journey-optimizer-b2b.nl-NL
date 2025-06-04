@@ -36,9 +36,9 @@ Een technische markator die bijvoorbeeld Journey Optimizer B2B edition gebruikt 
 
 [ Adobe GenStudio for Performance Marketing ](https://business.adobe.com/products/genstudio-for-performance-marketing.html){target="_blank"} is een generatieve AI-eerste toepassing die marketing teams machtigt om impactful, gepersonaliseerde advertenties en e-mails tot stand te brengen die aan merknormen voldoen en aan hun ondernemingsbeleid voldoen. Door gebruik te maken van Adobe AI-technologie, biedt deze technologie een uitgebreide reeks hulpmiddelen die de complexiteit van het maken en beheren van content vereenvoudigen, zodat creatieve mensen zich kunnen richten op innovatie.
 
-![ Video ](../../assets/do-not-localize/icon-video.svg){width="30"} [ creeer on-brand marketing e-mails ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing-learn/tutorials/creating-experiences/creating-on-brand-emails){target="_blank"}
+![ Video ](../../assets/do-not-localize/icon-video.svg){width="30"} [ creeer on-brand marketing e-mails ](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing-learn/tutorials/creating-experiences/creating-on-brand-emails){target="_blank"}
 
-Leer meer over de mogelijkheden van GenStudio for Performance Marketing in de [ documentatie ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home){target="_blank"}
+Leer meer over de mogelijkheden van GenStudio for Performance Marketing in de [ documentatie ](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/home){target="_blank"}
 
 >[!ENDSHADEBOX]
 
@@ -72,7 +72,7 @@ GenStudio for Performance Marketing herkent bepaalde elementen in de geïmportee
 
 Gebruik het HTML-bestand om een sjabloon te maken in GenStudio for Performance Marketing.
 
-Voor gedetailleerde informatie over het uploaden van een malplaatje van HTML in GenStudio in Adobe GenStudio for Performance Marketing, verwijs naar [ een malplaatje ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template) in de documentatie van GenStudio for Performance Marketing toevoegen.
+Voor gedetailleerde informatie over het uploaden van een malplaatje van HTML in GenStudio in Adobe GenStudio for Performance Marketing, verwijs naar [ een malplaatje ](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template) in de documentatie van GenStudio for Performance Marketing toevoegen.
 
 Wanneer u de geëxporteerde HTML als een sjabloon uploadt, zoekt GenStudio for Performance Marketing het HTML-bestand naar herkende velden. Gebruik de voorvertoning om uw sjabloonelementen te bekijken en te bevestigen dat u deze correct hebt geïdentificeerd met de herkende veldnamen.
 
@@ -80,7 +80,7 @@ Wanneer u de geëxporteerde HTML als een sjabloon uploadt, zoekt GenStudio for P
 
 In GenStudio for Performance Marketing gebruikt u de sjabloon om verschillende variaties in e-mailervaringen te maken en op te slaan.
 
-Voor gedetailleerde informatie over het produceren van gebrandde e-mailervaringen, verwijs naar [ creeer een e-mailervaring ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience) in de documentatie van GenStudio for Performance Marketing.
+Voor gedetailleerde informatie over het produceren van gebrandde e-mailervaringen, verwijs naar [ creeer een e-mailervaring ](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience) in de documentatie van GenStudio for Performance Marketing.
 
 ## Gegenereerde e-mailervaringen toevoegen aan Journey Optimizer B2B edition
 
