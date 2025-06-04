@@ -2,9 +2,9 @@
 title: Documentatie voor Adobe Journey Optimizer B2B Edition
 description: Leer hoe u de Adobe Journey Optimizer B2B edition-functies kunt gebruiken voor het ordenen van accounts en het kopen van groepsreizen met behulp van ingebouwde generatieve AI en toonaangevende automatisering.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 5d16e14a87aabb87fab9f06ea597ca671c66b7e3
+source-git-commit: 0e1cfb13d3597f06ddb08d8b861de8909478eafd
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '712'
 ht-degree: 4%
 
 ---
@@ -16,6 +16,12 @@ ht-degree: 4%
 Hier volgt een voorbeeld van de meest recente toevoegingen en verbeteringen in de Journey Optimizer B2B edition-toepassing en -documentatie.
 
 >[!BEGINTABS]
+
+>[!TAB  de e-mailervaringen van GenStudio ]
+
+Integreer GenStudio for Performance Marketing e-mailervaringen met Journey Optimizer B2B edition om de marketingefficiëntie te verbeteren en de consistentie van uw merk te behouden. Met deze integratie kunt u het maken van inhoud met GenStudio AI-functionaliteit combineren met de geavanceerde orchestratiemogelijkheden in Journey Optimizer B2B edition.
+
+[!BADGE Meer informatie]{type=Informative url="/help/user/content/genstudio-email-workflow.md" tooltip="Meer informatie over GenStudio e-mailervaringen"}
 
 >[!TAB  de lijsten van de Rekening ]
 
@@ -54,12 +60,6 @@ Met de Snelle acties van Adobe Express kunt u uw inhoud bijwerken met uitsnijden
 Met Adobe Express Enterprise-licenties kunt u een volledige reeks Adobe Express-mogelijkheden benutten. Gebruik deze functies om afbeeldingen te verfraaien en te verbeteren, terwijl u zich aan de richtlijnen voor merken houdt, en om wegversperringen in de toeleveringsketen van inhoud te verwijderen.
 
 [!BADGE Meer informatie]{type=Informative url="/help/user/content/image-edit-adobe-express.md" tooltip="Meer informatie over het bewerken van afbeeldingen met Adobe Express"}
-
->[!TAB  Aanpasbare gebieden van het fragment ]
-
-Als inhoudsontwerper kunt u een parameter voor een component in het fragment toewijzen als bewerkbaar. Met deze configuratie kan de auteur van een e-mail of sjabloon een aangepaste veldwaarde opgeven die specifiek is voor zijn of haar behoeften. Deze aanpassingsvlag is beperkt tot beeld, tekst, en knoop visuele componenten.
-
-[!BADGE Meer informatie]{type=Informative url="/help/user/content/fragment-authoring.md#enable-fragment-customization" tooltip="Informatie over aangepaste velden voor inhoudsfragmenten"}
 
 >[!ENDTABS]
 
@@ -121,7 +121,7 @@ Ontdek de onderdelen van een inkoopgroep en begrijp de basisbeginselen van het m
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="Reisinhoud"><br/>
-      <strong> Inhoud van de Reis </strong><br/> <a href="./content/add-email.md"> E-mail kanaal </a><br/> <a href="./content/ai-assistant-emails.md"> AI Medewerker voor e-mail </a><br/> <a href="./content/sales-alert-email.md"> het waakzame e-mail van de Verkoop </a><br/> <a href="./content/sms-authoring.md"> het kanaal van SMS </a>
+      <strong> Inhoud van de Reis </strong><br/> <a href="./content/add-email.md"> E-mail kanaal </a><br/> <a href="./content/ai-assistant-emails.md"> AI Medewerker voor e-mail </a><br/> <a href="./content/genstudio-email-workflow.md"> de e-mailervaringen van GenStudio </a><br/> <a href="./content/sales-alert-email.md"> het waakzame e-mail van de Verkoop </a><br/> <a href="./content/sms-authoring.md"> het kanaal van SMS </a>
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="Inhoudsbeheer"><br/>
@@ -139,15 +139,15 @@ Ontdek de onderdelen van een inkoopgroep en begrijp de basisbeginselen van het m
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong> Adobe Journey Optimizer B2B edition </strong><br/>
-<a href="https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank"> Video's en leerprogramma's </a> - <a href="https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank"> beschrijving van het Product </a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank"> Video's en leerprogramma's </a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank"> beschrijving van het Product </a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong> Adobe Experience Platform </strong><br/>
-<a href="https://experienceleague.adobe.com/nl/docs/experience-platform/landing/home" target="_blank"> Documentatie </a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank"> middelen van de Ontwikkelaar </a>
+<a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/home" target="_blank"> Documentatie </a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank"> middelen van de Ontwikkelaar </a>
 </td></tr>
 <tr><td><strong> Adobe Real-Time Customer Data Platform </strong><br/>
-<a href="https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/home" target="_blank"> Documentatie </a> - <a href="https://experienceleague.adobe.com/nl/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank"> zelfstudies van de Ontwikkelaar </a>
+<a href="https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home" target="_blank"> Documentatie </a> - <a href="https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank"> zelfstudies van de Ontwikkelaar </a>
 </td><td><strong> Adobe Marketo Engage </strong><br/>
-<a href="https://experienceleague.adobe.com/nl/docs/marketo/using/home" target="_blank"> documentatie van de Gebruiker </a> - <a href="https://experienceleague.adobe.com/nl/docs/marketo-developer/marketo/home" target="_blank"> documentatie van de Ontwikkelaar </a>
+<a href="https://experienceleague.adobe.com/en/docs/marketo/using/home" target="_blank"> documentatie van de Gebruiker </a> - <a href="https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/home" target="_blank"> documentatie van de Ontwikkelaar </a>
 </td>
 </tr></table>
 

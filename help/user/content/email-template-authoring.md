@@ -4,16 +4,16 @@ description: Leer hoe u e-mailsjablonen voor inhoud kunt ontwerpen die u kunt ge
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 45335eeba059ca8b4b390b336fbcb0ef29bd90ca
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
 
 # E-mailsjabloonontwerp
 
-Nadat u [ een e-mailmalplaatje ](./email-templates.md#create-an-email-template) creeert, gebruik de visuele ontwerper aan auteur de structuur en inhoudscomponenten in uw e-mailmalplaatje.
+Nadat u [ een e-mailmalplaatje ](./email-templates.md#create-an-email-template) creeert, gebruik de visuele ontwerpruimte aan auteur de structuur en inhoudscomponenten in uw e-mailmalplaatje.
 
 ## Structuur en inhoud toevoegen {#structure-content}
 
@@ -33,7 +33,7 @@ Nadat u [ een e-mailmalplaatje ](./email-templates.md#create-an-email-template) 
 
 {{$include /help/_includes/content-design-use-fragments.md}}
 
-Nadat de sjabloon is opgeslagen, wordt deze weergegeven op de pagina met fragmentdetails wanneer u het tabblad _[!UICONTROL Used By]_&#x200B;in het overzicht selecteert.
+Nadat de sjabloon is opgeslagen, wordt deze weergegeven op de pagina met fragmentdetails wanneer u het tabblad _[!UICONTROL Used By]_in het overzicht selecteert.
 
 ### Elementen toevoegen
 
@@ -45,7 +45,7 @@ Nadat de sjabloon is opgeslagen, wordt deze weergegeven op de pagina met fragmen
 
 ### Inhoud personaliseren
 
-{{$include /help/_includes/content-design-personalization.md}}
+{{$include /help/_includes/content-design-personalization-email.md}}
 
 ### Gekoppelde URL-tracking bewerken
 
@@ -53,7 +53,7 @@ Nadat de sjabloon is opgeslagen, wordt deze weergegeven op de pagina met fragmen
 
 ## Weergaveopties
 
-Gebruik de opties voor weergave- en inhoudsvalidatie die beschikbaar zijn in de visuele ontwerper.
+Gebruik de opties voor weergave- en inhoudsvalidatie die beschikbaar zijn in de ruimte van het visuele ontwerp.
 
 * Zoom in of uit op de inhoud met de vooraf ingestelde zoomopties.
 
@@ -63,11 +63,11 @@ Gebruik de opties voor weergave- en inhoudsvalidatie die beschikbaar zijn in de 
 
 ### Meer opties
 
-Vanuit het menu _[!UICONTROL More ...]_&#x200B;boven aan de e-mailontwerper kunt u de volgende handelingen uitvoeren:
+Vanuit het menu _[!UICONTROL More ...]_boven aan de ontwerpruimte voor e-mail kunt u de volgende handelingen uitvoeren:
 
 ![ klik Meer om tot malplaatjeacties ](./assets/visual-designer-more-menu.png){width="500"} toegang te hebben
 
-* **[!UICONTROL Reset template]** - Klik op deze optie om het canvas van de visuele ontwerper op een lege site te wissen en de bouwinhoud opnieuw te beginnen.
+* **[!UICONTROL Reset template]** - Klik op deze optie om het ontwerpcanvas op een lege site te wissen en de bouwinhoud opnieuw te starten.
 * **[!UICONTROL Save as fragment]** - Sla de sjabloon geheel of gedeeltelijk op als een fragment dat opnieuw moet worden gebruikt in meerdere e-mails of e-mailsjablonen. U geeft een naam en beschrijving voor het fragment op en slaat het op in de lijst met beschikbare fragmenten.
 * **[!UICONTROL Change your design]** - terugkeer aan het _Ontwerp uw malplaatje_ pagina. Vanaf dat punt kunt u een geheel nieuwe sjabloon ontwerpen of een bestaande sjabloon gebruiken om het ontwerpproces opnieuw te starten.
 * **[!UICONTROL Export HTML]** - Download de inhoud in het visuele canvas naar uw lokale systeem in de HTML-indeling die is verpakt als een zip-bestand.
