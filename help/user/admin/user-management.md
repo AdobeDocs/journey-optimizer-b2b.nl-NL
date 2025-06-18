@@ -121,7 +121,7 @@ Voor informatie over gebruikersbeheer, zie [ de gebruikers van Admin Console ](h
 
 1. Ga naar [ https://adminconsole.adobe.com ](https://adminconsole.adobe.com).
 
-1. Klik onder _[!UICONTROL Quick links]_op **[!UICONTROL Add users]**.
+1. Klik onder _[!UICONTROL Quick links]_&#x200B;op **[!UICONTROL Add users]**.
 
 1. Voeg elke gebruiker toe:
 
