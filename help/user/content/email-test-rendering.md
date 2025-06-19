@@ -4,9 +4,10 @@ description: Leer hoe u uw Litmus-account kunt gebruiken om rendering te testen 
 feature: Email Authoring, Integrations
 level: Intermediate
 role: User
-source-git-commit: 23fe51dd0df0b958a61ada25521f35d8acd8bcc4
+exl-id: 26d87a56-6bd1-4d4a-8090-71f5b0a7e9f8
+source-git-commit: 9a8e7e2f36195acad0160456525c00f88cbfcc73
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -19,29 +20,32 @@ Om uw e-mails te testen, kunt u hefboomwerking a [ rekening van de Samenhang ](h
 
 1. Klik op **[!UICONTROL Render email]** rechtsboven.
 
-   ![ teruggeeft e-mailknoop ](./assets/email-simulate-render-button.png)
+   ![ teruggeeft e-mailknoop ](./assets/email-simulate-render-button.png){width="700" zoomable="yes"}
 
    Als u nog geen verbinding hebt gemaakt met uw Litmus-account vanuit Journey Optimizer B2B edition, biedt de weergegeven pagina een optie voor het starten van een proefaccount of het maken van verbinding met uw bestaande account.
 
 1. Klik op **[!UICONTROL Connect your Litmus account]** rechtsboven of gebruik de koppeling in de pagina.
 
-   ![ verbind uw rekening van de Samenhang ](./assets/email-simulate-render-litmus-connect.png)
+   ![ verbind uw rekening van de Samenhang ](./assets/email-simulate-render-litmus-connect.png){width="700" zoomable="yes"}
 
-1. Voer uw referenties in en klik op **[!UICONTROL Sign in]** .
+1. Voer uw aanmeldingsgegevens voor uw account in en klik op **[!UICONTROL Sign in]** .
+
+1. Klik op **[!UICONTROL Connect]** om de verbinding tussen Litmus en Journey Optimizer B2B edition te bevestigen en de e-mailinhoud voor rendering te verzenden.
 
    >[!IMPORTANT]
    >
-   >Wanneer u uw account Litmus verbindt met Journey Optimizer B2B edition, gaat u ermee akkoord dat testberichten naar Litmus worden verzonden. Na verzending worden deze e-mailberichten niet meer beheerd door Adobe. Dientengevolge, is het beleid van de Gegevens van de Litmus e-mail van toepassing op deze e-mail, met inbegrip van verpersoonlijkingsgegevens die in de testberichten kunnen worden omvat.
+   >Wanneer u uw account Litmus verbindt met Journey Optimizer B2B edition, gaat u ermee akkoord dat testberichten naar Litmus worden verzonden. Deze inhoud wordt dan beheerd binnen Litmus en niet binnen Adobe. Dientengevolge, is het beleid van de Gegevens van de Litmus e-mail van toepassing op deze e-mail, met inbegrip van verpersoonlijkingsgegevens die in de testberichten kunnen worden omvat.
 
 1. Klik op **[!UICONTROL Run test]** rechtsboven om e-mailvoorvertoningen te genereren.
 
+   ![ stel een Lijn in werking teruggevend test ](./assets/email-simulate-render-litmus-run-test.png){width="700" zoomable="yes"}
+
 1. Controleer uw e-mailinhoud in populaire desktops, mobiele en webclients.
 
-   ![ de e-mailvoorproeven van de Samenhang ](./assets/email-simulate-render-litmus-previews.png)
-
    Klik op de weergegeven miniatuur om de details voor een van de gerenderde clienttests weer te geven.
+
+   ![ de e-mailvoorproeven van de Samenhang ](./assets/email-simulate-render-litmus-previews.png){width="700" zoomable="yes"}
 
 1. Wanneer u klaar bent met het herzien, klik de achterpijl ( ![ toon of verberg filterpictogram ](../../assets/do-not-localize/icon_back-arrow.svg)) bij top-left om op de Simulate inhoudspagina terug te komen.
 
    U kunt een ander profiel selecteren en een andere renderingstest uitvoeren, of terugkeren naar de ontwerpruimte van de e-mail om de benodigde aanpassingen aan te brengen op basis van uw revisie.
-

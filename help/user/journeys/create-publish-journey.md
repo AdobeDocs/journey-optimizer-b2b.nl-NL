@@ -4,9 +4,9 @@ description: Leer hoe u accountreizen maakt en publiceert.
 feature: Account Journeys
 role: User
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: b88b4d45b8697b24c120f58bf7f85fd298bcfb8d
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '754'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Om met een rekeningreis te beginnen, creeer de reis en bouw dan de knopen en de 
 
 ## Bouwstenen van een reis
 
-De _reiskaart_ is de centrale streek in de reisontwerper. Het is in deze streek dat u reisknopen kunt toevoegen en hen vormen. Klik op een knooppunt om het deelvenster met eigenschappen rechts van het canvas te openen en stel de eigenschappen in op basis van uw ontwerp. Een rekeningsreis begint altijd met een [ knoop van het Publiek van de Rekening ](./account-audience-nodes.md) waar u input aan uw reis kunt toevoegen.
+De _reiskaart_ is de centrale streek in de reis werkruimte. Het is in deze streek dat u reisknopen kunt toevoegen en hen vormen. Klik op een knooppunt om het deelvenster met eigenschappen rechts van het canvas te openen en stel de eigenschappen in op basis van uw ontwerp. Een rekeningsreis begint altijd met een [ knoop van het Publiek van de Rekening ](./account-audience-nodes.md) waar u input aan uw reis kunt toevoegen.
 
 Nadat u een reis van de rekening creeert en het publiek toevoegt, bouwt de reis uit gebruikend knopen. De reiskaart verstrekt een canvas, waar u uw multi-step B2B het marketing gebruiksgevallen kunt bouwen gebruikend de volgende knooptypes om een rekeningsreis te construeren:
 
@@ -47,7 +47,7 @@ Om u te helpen een reis bouwen zonder in fouten te lopen, zijn de volgende veili
 
 * _het Schrappen van een Gesplitste wegknoop_: Het schrappen van een knoop vereist het schrappen van alle verdere knopen in elk weg.
 * _het Schrappen van een knoop van de Fusie_: Een fusieknoop kan worden geschrapt slechts wanneer er één weg verbonden met het is. Als u een samenvoegknooppunt wilt verwijderen, laat u slechts één pad geselecteerd.
-* _Schakelt tussen rekening en mensen_: U kunt niet de selectie van rekeningen aan mensen veranderen zonder alle verdere knopen in elke weg te schrappen.
+* _Schakelt tussen rekening en mensen_: Het veranderen van de selectie van rekeningen aan mensen schrapt alle verdere knopen in elke weg.
 
 ## Een knooppunt toevoegen
 
@@ -107,15 +107,19 @@ Wanneer u een reis publiceert, kan het onmiddellijk of op een geplande toekomsti
 
 1. Klik op **[!UICONTROL Save]**.
 
-   Wanneer u klaar bent om uw reis te publiceren, kunt u deze montages herzien wanneer u _[!UICONTROL Publish]_&#x200B;klikt.
+   Wanneer u klaar bent om uw reis te publiceren, kunt u deze montages herzien wanneer u _[!UICONTROL Publish]_klikt.
 
 ## Een accountreis publiceren
 
-U kunt een reis publiceren als er geen blocker fouten zijn. Wanneer gepubliceerd, verandert de reisstatus in _Levend_. Als de rit fouten bevat, wordt de knop _[!UICONTROL Publish]_&#x200B;grijs weergegeven met de inhoudsgegevens: `Resolve errors before publishing` .
+U kunt een reis publiceren als er geen blocker fouten zijn. Wanneer gepubliceerd, verandert de reisstatus in _Levend_. Als de rit fouten bevat, wordt de knop _[!UICONTROL Publish]_grijs weergegeven met de inhoudsgegevens: `Resolve errors before publishing` .
+
+>[!NOTE]
+>
+>Na het publiceren van een rekeningreis is er een vertraging van maximaal 24 uur voor in aanmerking komende accounts om de reis te betreden.
 
 1. Klik in de rechterbovenhoek van het reisoverzicht op **[!UICONTROL Publish]** .
 
-1. Stel in het dialoogvenster _[!UICONTROL Review journey settings]_&#x200B;de startopties voor de rit in.
+1. Stel in het dialoogvenster _[!UICONTROL Review journey settings]_de startopties voor de rit in.
 
    Als u reeds de reismontages plaatst om een programma te bepalen, herzie de montages.
 
@@ -137,4 +141,4 @@ U kunt een reis publiceren als er geen blocker fouten zijn. Wanneer gepubliceerd
 
 ## Video over overzicht
 
->[!VIDEO](https://video.tv.adobe.com/v/3443225/?learn=on&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)
