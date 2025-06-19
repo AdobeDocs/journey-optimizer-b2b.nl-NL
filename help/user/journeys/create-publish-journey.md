@@ -107,11 +107,11 @@ Wanneer u een reis publiceert, kan het onmiddellijk of op een geplande toekomsti
 
 1. Klik op **[!UICONTROL Save]**.
 
-   Wanneer u klaar bent om uw reis te publiceren, kunt u deze montages herzien wanneer u _[!UICONTROL Publish]_klikt.
+   Wanneer u klaar bent om uw reis te publiceren, kunt u deze montages herzien wanneer u _[!UICONTROL Publish]_&#x200B;klikt.
 
 ## Een accountreis publiceren
 
-U kunt een reis publiceren als er geen blocker fouten zijn. Wanneer gepubliceerd, verandert de reisstatus in _Levend_. Als de rit fouten bevat, wordt de knop _[!UICONTROL Publish]_grijs weergegeven met de inhoudsgegevens: `Resolve errors before publishing` .
+U kunt een reis publiceren als er geen blocker fouten zijn. Wanneer gepubliceerd, verandert de reisstatus in _Levend_. Als de rit fouten bevat, wordt de knop _[!UICONTROL Publish]_&#x200B;grijs weergegeven met de inhoudsgegevens: `Resolve errors before publishing` .
 
 >[!NOTE]
 >
@@ -119,7 +119,7 @@ U kunt een reis publiceren als er geen blocker fouten zijn. Wanneer gepubliceerd
 
 1. Klik in de rechterbovenhoek van het reisoverzicht op **[!UICONTROL Publish]** .
 
-1. Stel in het dialoogvenster _[!UICONTROL Review journey settings]_de startopties voor de rit in.
+1. Stel in het dialoogvenster _[!UICONTROL Review journey settings]_&#x200B;de startopties voor de rit in.
 
    Als u reeds de reismontages plaatst om een programma te bepalen, herzie de montages.
 
