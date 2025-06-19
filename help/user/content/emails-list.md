@@ -4,16 +4,16 @@ description: Gebruik de lijst E-mails om je e-mailinhoud in Adobe Journey Optimi
 feature: Email Authoring, Content
 role: User
 exl-id: e7ea71dc-83dc-4044-aa02-8b745368193d
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 23fe51dd0df0b958a61ada25521f35d8acd8bcc4
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
 
 # E-mails
 
-Wanneer u [ e-mails ](./add-email.md) creeert, voegt u hen in de context van een reisknoop toe. Als u buiten het reisoverzicht met e-mail wilt werken, gebruikt u de lijst _[!UICONTROL Emails]_&#x200B;om het e-mailbericht te zoeken en bij te werken. U kunt e-mailberichten controleren of de instellingen en inhoud bijwerken.
+Wanneer u [ e-mails ](./add-email.md) creeert, voegt u hen in de context van een reisknoop toe. Als u met e-mailinhoud buiten het reisoverzicht wilt werken, gebruikt u de lijst van _[!UICONTROL Emails]_om het e-mailbericht te zoeken en bij te werken. U kunt e-mailberichten controleren of de instellingen en inhoud bijwerken.
 
 ## E-mails openen en beheren
 
