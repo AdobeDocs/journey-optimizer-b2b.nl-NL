@@ -1,42 +1,43 @@
 ---
-title: Aan de slag met Journey Optimizer B2B edition
-description: Meer informatie over de belangrijkste aandachtspunten om als nieuwe gebruiker aan de slag te gaan met de B2B-editie van Journey Optimizer.
+title: Begeleiding aan boord voor beheerders en markeertekens
+description: Als nieuwe beheerder of gebruiker in Journey Optimizer B2B edition, leer over de belangrijkste gebieden in het onboarding proces.
 role: Admin, User
+level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: d0bd2d5153b972df92ff42c6f1eebb25448b222f
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 6%
+source-wordcount: '685'
+ht-degree: 3%
 
 ---
 
-# Aan de slag met Journey Optimizer B2B edition
+# Richtlijnen voor onboarding
 
-De functies en gereedschappen die u in Adobe Journey Optimizer B2B edition wilt gebruiken, zijn afhankelijk van uw rol binnen uw team.
-
-Op basis van uw organisatie kunnen beheerders verschillende typen gebruikers definiëren en hun toegang verlenen tot bepaalde mogelijkheden, afhankelijk van hun machtigingen.
+De functies en gereedschappen die u in Adobe Journey Optimizer B2B edition wilt gebruiken, zijn afhankelijk van uw rol binnen uw team. Op basis van uw organisatie kunnen beheerders verschillende typen gebruikers definiëren en hun toegang verlenen tot bepaalde mogelijkheden, afhankelijk van hun machtigingen.
 
 >[!TIP]
 >
->Controleer ook uw vergunningsrechten en de overeenkomstige [ productbeschrijving ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} over prestatiesgaranties en statische beperkingen.
+>Controleer ook uw vergunningsrechten en de overeenkomstige [ productbeschrijving ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} over prestatiesgaranties en statische beperkingen.
 
 >[!BEGINTABS]
 
->[!TAB  Snelle start van de Beheerder ]
+>[!TAB  Beheerder ]
 
 Voordat uw team de Adobe Journey Optimizer B2B edition-functies kan gaan gebruiken, moet u verschillende stappen uitvoeren om uw omgeving voor te bereiden. Voer deze stappen uit zodat de gegevenstechnicus en de markeerfunctie kunnen gaan werken met Adobe Journey Optimizer B2B edition.
 
-Als systeembeheerder, moet u productprofielen begrijpen en toestemmingen voor zandbakbeleid en kanaalconfiguratie toewijzen. U moet ook sandboxen instellen en deze beheren voor de beschikbare productprofielen. U kunt vervolgens teamleden toewijzen aan de productprofielen. Deze mogelijkheden kunnen worden beheerd door productbeheerders die toegang hebben tot de Adobe Admin Console. [ leer meer over Adobe Admin Console ](https://helpx.adobe.com/nl/enterprise/using/admin-console.html).
+Als systeembeheerder, moet u productprofielen begrijpen en toestemmingen voor zandbakbeleid en kanaalconfiguratie toewijzen. U moet ook sandboxen instellen en deze beheren voor de beschikbare productprofielen. U kunt vervolgens teamleden toewijzen aan de productprofielen. Productbeheerders die toegang hebben tot de Adobe Admin Console kunnen deze mogelijkheden beheren. [ leer meer over Adobe Admin Console ](https://helpx.adobe.com/nl/enterprise/using/admin-console.html).
 
 Meer informatie over toegangsbeheer vindt u op de volgende pagina&#39;s:
 
-1. **creeer zandbakken** om uw instanties in afzonderlijke, geïsoleerde virtuele milieu&#39;s te verdelen. [Meer informatie](https://experienceleague.adobe.com/nl/docs/experience-platform/sandbox/home#understanding-sandboxes){target="_blank"}
+1. **creeer zandbakken** om uw instanties in afzonderlijke, geïsoleerde virtuele milieu&#39;s te verdelen. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home#understanding-sandboxes){target="_blank"}
+
+1. **Werk met uw gegevensingenieur** om uw B2B publiek en profielactivering te plannen en uit te voeren. Bekijk de gepubliceerde blauwdrukken en volg de richtlijnen op basis van uw vereisten. [Meer informatie](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
 
 1. **opstelling het productprofiel**. Een productprofiel is een reeks eenheidrechten in Adobe Experience Platform die gebruikers toegang tot bepaalde functies of objecten in de interface biedt. [Meer informatie](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
 1. **de toestemmingen van de Opstelling van de gebruikerstoestand** voor productprofielen, met inbegrip van zandbakken, en geven toegang tot uw teamleden door hen aan verschillende productprofielen toe te wijzen. Deze taak wordt uitgevoerd in de Admin Console. [Meer informatie](../admin/user-management.md#create-a-user-group)
 
-1. **vorm e-maillevering** in Marketo Engage, die uw team toelaat om e-mailinhoud van rekeningsreizen te verzenden. [Meer informatie](https://experienceleague.adobe.com/nl/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability){target="_blank"}
+1. **vorm e-maillevering** in Marketo Engage, die uw team toelaat om e-mailinhoud van rekeningsreizen te verzenden. [Meer informatie](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability){target="_blank"}
 
 1. **vorm de diensten van SMS**. Stel een van de ondersteunde SMS-providers van derden in die de services voor tekstberichten onafhankelijk aanbieden en de accountgegevens in Adobe Journey Optimizer B2B edition configureren. [Meer informatie](../admin/configure-channels-sms.md)
 
@@ -44,7 +45,7 @@ Meer informatie over toegangsbeheer vindt u op de volgende pagina&#39;s:
 
 1. **de definities van de Gebeurtenis van de Ervaring van de Opstelling Adobe Experience Platform (AEP)** voor teams verantwoordelijk voor het creëren van rekeningsreizen die aan de Gebeurtenissen van de Ervaring van AEP luisteren. [Meer informatie](../admin/configure-aep-events.md)
 
->[!TAB  Snel begin van de Markering ]
+>[!TAB  Marketer ]
 
 Als marktleider, of een _Praktijk van de Reis van de Rekening_, bent u verantwoordelijk voor het ontwerpen van reizen en het creëren van inhoud. U kunt met Adobe Journey Optimizer B2B edition beginnen te werken nadat de systeembeheerder en de gegevensengineer uw omgeving hebben voorbereid en u toegang hebben verleend.
 
@@ -66,7 +67,7 @@ Raadpleeg de volgende secties voor het instellen van de eerste rit, het toevoege
 
    * Gebruik de ingebouwde kanaalacties (e-mail en SMS) om berichten te verzenden die in Journey Optimizer B2B edition zijn ontworpen.
 
-   * In de reisontwerper, bouw uw multi-step gebruiksgevallen, voeg voorwaarden toe en verzend gepersonaliseerde berichten.
+   * In het reisoverzicht, bouw uw multi-step gebruiksgevallen, voeg voorwaarden toe en verzend gepersonaliseerde berichten.
 
 [Meer informatie](../journeys/journey-overview.md)
 
