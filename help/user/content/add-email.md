@@ -4,9 +4,9 @@ description: Leer e-mailhandelingen toe te voegen, te definiëren en te optimali
 feature: Email Authoring, Account Journeys
 role: User
 exl-id: 21a6ce0f-b59d-4be2-abc3-fda5c6a6334f
-source-git-commit: cc3f8299af353f6b4578524fffe4ac01c027577f
+source-git-commit: 2aaecfb1b71e449f0cf82fb77a976389fd22d11c
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1097'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,13 @@ Gebruik Adobe Journey Optimizer B2B edition om e-mailberichten naar uw klanten t
 
 ## Een e-mailactieknooppunt toevoegen tijdens een rit
 
-U kunt opstelling e-mailleveringen in een reis plaatsen wanneer u [ a _[!UICONTROL Take an action]_&#x200B;knoop ](../journeys/action-nodes.md) toevoegt en het volgende doet:
+U kunt opstelling e-mailleveringen in een reis plaatsen wanneer u [ a _[!UICONTROL Take an action]_knoop ](../journeys/action-nodes.md) toevoegt en het volgende doet:
 
-1. Kies **[!UICONTROL People]** voor het doel _[!UICONTROL Action on]_.
+1. Kies _[!UICONTROL Action on]_voor het doel **[!UICONTROL People]**.
 
-1. Kies **[!UICONTROL Send email]** bij _[!UICONTROL Action on people]_.
+1. Kies _[!UICONTROL Action on people]_bij **[!UICONTROL Send email]**.
 
-1. Kies in het tekstvak _[!UICONTROL Email source]_&#x200B;hoe u de e-mail die u wilt verzenden, wilt verzenden.
+1. Kies in het tekstvak _[!UICONTROL Email source]_hoe u de e-mail die u wilt verzenden, wilt verzenden.
 
    ![ neem een actie - verzend een e-mail ](assets/journey-node-send-email.png){width="700" zoomable="yes"}
 
@@ -37,7 +37,7 @@ U kunt opstelling e-mailleveringen in een reis plaatsen wanneer u [ a _[!UICONTR
 
      +++Nieuwe e-mail
 
-     Gebruik de optie _[!UICONTROL New email]_&#x200B;als u een e-mailbericht wilt maken met een leeg canvas of een e-mailsjabloon.
+     Gebruik de optie _[!UICONTROL New email]_als u een e-mailbericht wilt maken met een leeg canvas of een e-mailsjabloon.
 
       1. Kies **[!UICONTROL New email]** in het dialoogvenster.
 
@@ -47,17 +47,17 @@ U kunt opstelling e-mailleveringen in een reis plaatsen wanneer u [ a _[!UICONTR
 
       1. Klik op **[!UICONTROL Create]**.
 
-         In de sectie _[!UICONTROL Email properties]_&#x200B;van de pagina met e-mailinhoud zijn de velden&#x200B;_[!UICONTROL From email]_ en _[!UICONTROL Reply to address]_&#x200B;al geconfigureerd. U kunt waarden invoeren voor de velden&#x200B;_[!UICONTROL From name]_ en _[!UICONTROL Description]_(optioneel).
+         In de sectie _[!UICONTROL Email properties]_van de pagina met e-mailinhoud zijn de velden_[!UICONTROL From email]_ en _[!UICONTROL Reply to address]_al geconfigureerd. U kunt waarden invoeren voor de velden_[!UICONTROL From name]_ en _[!UICONTROL Description]_(optioneel).
 
       1. Klik **[!UICONTROL Edit email]** om de e-mail [ montages ](#define-the-email-settings) te bepalen en de [ inhoud ](./email-authoring.md) te ontwerpen.
 
-     +++
++++
 
      +++Bestaande e-mail dupliceren
 
      Als u een e-mail wilt maken met een bestaande e-mail van de huidige reis of van een andere reis, gebruikt u de optie _[!UICONTROL Duplicate existing email]_. U kunt wijzigingen aanbrengen in het gedupliceerde e-mailadres, afhankelijk van uw doel voor het knooppunt van de rit.
 
-      1. Kies **[!UICONTROL Duplicate existing email]** in het dialoogvenster _[!UICONTROL Create new email]_.
+      1. Kies _[!UICONTROL Create new email]_in het dialoogvenster **[!UICONTROL Duplicate existing email]**.
 
       1. Voor **[!UICONTROL Existing email to duplicate]**, klik het _pictogram van de Selectie_ ( ![ pictogram van de Selectie ](../assets/do-not-localize/icon-email-select.svg)) en selecteer e-mail die u voor de reisknoop wilt dupliceren en gebruiken.
 
@@ -73,11 +73,11 @@ U kunt opstelling e-mailleveringen in een reis plaatsen wanneer u [ a _[!UICONTR
 
       1. Klik op **[!UICONTROL Create]**.
 
-         In de sectie _[!UICONTROL Email properties]_&#x200B;van de pagina met e-mailinhoud zijn de velden&#x200B;_[!UICONTROL From email]_ en _[!UICONTROL Reply to address]_&#x200B;al geconfigureerd. U kunt waarden invoeren voor de velden&#x200B;_[!UICONTROL From name]_ en _[!UICONTROL Description]_(optioneel).
+         In de sectie _[!UICONTROL Email properties]_van de pagina met e-mailinhoud zijn de velden_[!UICONTROL From email]_ en _[!UICONTROL Reply to address]_al geconfigureerd. U kunt waarden invoeren voor de velden_[!UICONTROL From name]_ en _[!UICONTROL Description]_(optioneel).
 
       1. Indien nodig, klik **[!UICONTROL Edit email]** om e-mail [ montages ](#define-the-email-settings) en [ inhoud ](./email-authoring.md) te wijzigen.
 
-     +++
++++
 
    * Kies **[!UICONTROL Select email from Adobe Marketo Engage]** om een van de vooraf geschreven e-mails in Marketo Engage te gebruiken en te verzenden als onderdeel van de reis.
 
@@ -101,7 +101,7 @@ Met het **[!UICONTROL Details]** lusje dat in het _Summiere_ paneel op het recht
 | [!UICONTROL Subject line] | De tekst die in het onderwerpveld voor de e-mail wordt weergegeven. De standaardwaarde wordt gevuld met de tekst die u hebt ingevoerd in het dialoogvenster _[!UICONTROL Create new email]_. U kunt de tekst desgewenst wijzigen. Klik_ personaliseren _pictogram ( ![ personaliseer pictogram ](../assets/do-not-localize/icon-personalize.svg)) om een verpersoonlijkingstoken op het gebied te gebruiken.<!-- Click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate the subject line based on the current email content.--> |
 | [!UICONTROL Operational email] | Schakel het selectievakje in als u de e-mail als operationeel wilt aanmerken. Operationele e-mails zijn uitgesloten van de lijst met niet-geabonneerde of niet-geabonneerde e-mails en van de communicatielimieten. Selecteer deze optie alleen als de ontvanger het e-mailbericht niet als een ongevraagd commercieel bericht (SPAM) kan beschouwen. |
 | [!UICONTROL Include view as web page] | Schakel het selectievakje in om een koppeling op te nemen naar een webpagina die wordt gegenereerd op basis van de inhoud van het e-mailbericht. E-mailberichten hebben meer mogelijkheden dan webpagina&#39;s, zodat het handig is voor JavaScript, uitgebreide CSS en formulieren. De tekst die wordt gebruikt om de verbinding te produceren wordt gevormd in de [ montages van de e-mailkanaallevering ](../admin/configure-channels-emails.md#delivery-settings) ([!UICONTROL View as web page HTML] en [!UICONTROL View as web page text]). |
-| [!UICONTROL Disable open tracking] | Schakel het selectievakje in als u de activiteiten voor het openen van e-mail niet wilt bijhouden. Als de functie is uitgeschakeld, worden het aantal geopende e-mailactiviteiten alleen verhoogd wanneer een unieke persoon het e-mailbericht opent. U kunt het volgen voor de verbindingen van de e-mailinhoud [&#128279;](./email-authoring.md#content-authoring---link-tracking) beheren wanneer u de inhoud van het e-maillichaam ontwerpt. |
+| [!UICONTROL Disable open tracking] | Schakel het selectievakje in als u de activiteiten voor het openen van e-mail niet wilt bijhouden. Als de functie is uitgeschakeld, worden het aantal geopende e-mailactiviteiten alleen verhoogd wanneer een unieke persoon het e-mailbericht opent. U kunt het volgen voor de verbindingen van de e-mailinhoud [ beheren wanneer u de inhoud van het e-maillichaam ontwerpt.](./email-authoring.md#content-authoring---link-tracking) |
 | [!UICONTROL Preheader] | Schakel het selectievakje in om een voorheader op te nemen. Een preheader is de korte samenvattingstekst die na de onderwerpregel in sommige e-mailclients wordt weergegeven. Het verstrekt gewoonlijk een korte samenvatting van e-mail, en is typisch één enkele zin. Ga de summiere tekst op het gebied <!-- , or click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate summary text based on the current email content --> in. |
 | [!UICONTROL Fields used as CC addresses] | Selecteer, indien beschikbaar, maximaal 25 velden voor leads of bedrijven die in Marketo Engage zijn ingesteld met het type `Email` . |
 
@@ -115,7 +115,7 @@ Er kunnen twee soorten waarschuwingen worden gedetecteerd:
 
 * **_Waarschuwingen_** die naar aanbevelingen en beste praktijken, zoals verwijzen:
 
-   * `The opt-out link is not present in the email body`: u kunt het beste een koppeling zonder abonnement toevoegen aan uw e-mailadres.
+   * `The opt-out link is not present in the email body`: Het is aan te raden een koppeling zonder abonnement aan uw e-mailadres toe te voegen.
 
      >[!NOTE]
      >
@@ -125,10 +125,12 @@ Er kunnen twee soorten waarschuwingen worden gedetecteerd:
 
    * `Empty link is present in email body`: controleer of alle koppelingen in uw e-mail correct zijn.
 
-   * `Email size has exceeded the limit of 100KB`: zorg ervoor dat de grootte van uw e-mail voor optimale levering niet groter is dan 100 kB.
+   * `Email size has exceeded the limit of 100KB`: Voor optimale levering moet u ervoor zorgen dat de e-mailgrootte niet groter is dan 100 kB.
 
 * **_Fouten_** die u verhinderen de reis/de campagne te testen of te activeren zolang zij niet, zoals worden opgelost:
 
-   * `The subject line is missing`: e-mailonderwerpregel is verplicht.
+   * `From name is empty`: Het e-mailgebied _van_ (vereist) wordt niet bepaald.
 
-   * `The email version of the message is empty`: deze fout wordt weergegeven wanneer de e-mailinhoud niet is geconfigureerd.
+   * `The subject line is missing`: De onderwerpregel van de e-mail (vereist) is niet gedefinieerd.
+
+   * `The email version of the message is empty`: De e-mailinhoud is niet gedefinieerd.
