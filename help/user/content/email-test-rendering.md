@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # E-mailrendering testen met Litmus
 
-Om uw e-mails te testen, kunt u hefboomwerking a [ de rekening van de Onderneming van de 1} litmus van Journey Optimizer B2B edition. ](https://www.litmus.com/email-testing){target="_blank"} Met deze integratie kunt u een voorvertoning van uw e-mailrendering weergeven in populaire e-mailclients. Met dit gereedschap kunt u ervoor zorgen dat uw e-mailinhoud er goed uitziet en werkt zoals deze in elke Postvak IN is ontworpen.
+Om uw e-mails te testen, kunt u hefboomwerking a [ de rekening van de Onderneming van de 1&rbrace; litmus van Journey Optimizer B2B edition. ](https://www.litmus.com/email-testing){target="_blank"} Met deze integratie kunt u een voorvertoning van uw e-mailrendering weergeven in populaire e-mailclients. Met dit gereedschap kunt u ervoor zorgen dat uw e-mailinhoud er goed uitziet en werkt zoals deze in elke Postvak IN is ontworpen.
 
 >[!NOTE]
 >
