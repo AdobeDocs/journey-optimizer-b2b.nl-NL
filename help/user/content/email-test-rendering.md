@@ -5,20 +5,20 @@ feature: Email Authoring, Integrations
 level: Intermediate
 role: User
 exl-id: 26d87a56-6bd1-4d4a-8090-71f5b0a7e9f8
-source-git-commit: dbb1c0d57f3d0b9818dc284047bda9562cfb40f6
+source-git-commit: dbb678f40b8d637f4eb534acb31328ebea0c182a
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
 
 # E-mailrendering testen met Litmus
 
-Om uw e-mails te testen, kunt u hefboomwerking a [ de rekening van de Onderneming van de 1&rbrace; litmus van Journey Optimizer B2B edition. ](https://www.litmus.com/email-testing){target="_blank"} Met deze integratie kunt u een voorvertoning van uw e-mailrendering weergeven in populaire e-mailclients. Met dit gereedschap kunt u ervoor zorgen dat uw e-mailinhoud er goed uitziet en werkt zoals deze in elke Postvak IN is ontworpen.
+Om uw e-mails te testen, kunt u hefboomwerking a [ de rekening van de Onderneming van de 1} litmus van Journey Optimizer B2B edition. ](https://www.litmus.com/email-testing){target="_blank"} Met deze integratie kunt u een voorvertoning van uw e-mailrendering weergeven in populaire e-mailclients. Met dit gereedschap kunt u ervoor zorgen dat uw e-mailinhoud er goed uitziet en werkt zoals deze in elke Postvak IN is ontworpen.
 
->[!NOTE]
+>[!AVAILABILITY]
 >
->Deze integratie is alleen beschikbaar voor Litmus Enterprise-accounts. Voor meer informatie, verwijs naar de [ oplossingspagina op de website van het Malplaatje ](https://www.litmus.com/solutions/esp/adobe-journey-optimizer){target="_blank"}.
+>Deze integratie is alleen beschikbaar voor Journey Optimizer B2B edition-gebruikers met Litmus Enterprise-accounts. Voor meer informatie, verwijs naar de [ oplossingspagina op de website van het Malplaatje ](https://www.litmus.com/solutions/esp/adobe-journey-optimizer){target="_blank"}.
 
 1. Wanneer uw e-mailontwerp gereed is en klaar is om te worden getest, klikt u op **[!UICONTROL Simulate content]** in de ontwerpruimte voor e-mail.
 
