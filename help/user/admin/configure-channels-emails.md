@@ -17,7 +17,7 @@ Adobe Journey Optimizer B2B edition gebruikt de kanaalfuncties en gebeurtenistra
 
 ## Afleveringsinstellingen
 
-De standaardinstellingen voor e-mailberichten worden gebruikt wanneer marketers een e-mailbericht maken voor een accountreis. Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** om de instellingen voor e-maillevering te bekijken. Selecteer onder _[!UICONTROL Email]_in het navigatievenster de optie **[!UICONTROL Delivery Settings]**.
+De standaardinstellingen voor e-mailberichten worden gebruikt wanneer marketers een e-mailbericht maken voor een accountreis. Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** om de instellingen voor e-maillevering te bekijken. Selecteer onder _[!UICONTROL Email]_&#x200B;in het navigatievenster de optie **[!UICONTROL Delivery Settings]**.
 
 ![ heb toegang tot de montages van de e-maillevering ](./assets/config-email-delivery-email-header.png){width="800" zoomable="yes"}
 
@@ -63,13 +63,13 @@ Als u de aangepaste koptekstopties wilt bekijken, klikt u op de tab **[!UICONTRO
 
 ![ heb toegang tot de opties van de douanekopbal ](./assets/config-email-delivery-custom-header.png){width="700" zoomable="yes"}
 
-Wanneer _[!UICONTROL Strict Transport Security]_is ingeschakeld, garandeert dit dat koppelingen worden weergegeven via HTTPS (alleen voor abonnementen met koppelingen die zijn beveiligd door SSL).
+Wanneer _[!UICONTROL Strict Transport Security]_&#x200B;is ingeschakeld, garandeert dit dat koppelingen worden weergegeven via HTTPS (alleen voor abonnementen met koppelingen die zijn beveiligd door SSL).
 
 ## Communicatielimieten
 
 Communicatielimieten bepalen de hoeveelheid e-mail die uw organisatie verzendt. Het is aan te raden om limieten in te stellen zodat u ontvangers niet te veel e-mails van uw organisatie ontvangt.
 
-Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** om de huidige instellingen te bekijken. Selecteer onder _[!UICONTROL Email]_in het navigatievenster de optie **[!UICONTROL Communication limits]**.
+Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** om de huidige instellingen te bekijken. Selecteer onder _[!UICONTROL Email]_&#x200B;in het navigatievenster de optie **[!UICONTROL Communication limits]**.
 
 ![ heb toegang tot de montages van communicatielimieten ](./assets/config-email-communication-limits.png){width="700" zoomable="yes"}
 
@@ -85,7 +85,7 @@ Voor meer informatie over het vormen van de communicatie grenzen, verwijs naar d
 
 Verbeter uw tarieven van de e-maillevering door SPF (het Kader van het Beleid van de Afzender) en DKIM (Domain Keys Identified Mail) in uw DNS montages op te nemen. Deze technologieën verzekeren uw ontvangers dat uw e-mails geen spam zijn. Als u wilt voorkomen dat spamfilters van ontvangers e-mailberichten afwijzen, zorgt u ervoor dat SPF en DKIM zijn ingesteld voor uw domeinen.
 
-Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** om de huidige instellingen te bekijken. Selecteer onder _[!UICONTROL Email]_in het navigatievenster de optie **[!UICONTROL SPF/DKIM]**.
+Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** om de huidige instellingen te bekijken. Selecteer onder _[!UICONTROL Email]_&#x200B;in het navigatievenster de optie **[!UICONTROL SPF/DKIM]**.
 
 ![ heb toegang tot SPF/de configuratie van DKIM ](./assets/config-email-spf-dkim.png){width="700" zoomable="yes"}
 
@@ -136,7 +136,7 @@ Voor e-mailkoppelingen en open activiteiten via e-mail worden nieuwe kenmerken g
 * De activiteiten die als niet zijn worden geïdentificeerd hebben _Bot Activiteit_ als `False` en _het Patroon van de Activiteit van de Bot_ als `N/A`.
 * De activiteiten die gebeuren alvorens de attributen werden geïntroduceerd hebben _Bot Activiteit_ als leeg (ongeldig) en _het Patroon van de Activiteit van de Bot_ als leeg (ongeldig)
 
-Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** om de huidige instellingen te bekijken. Selecteer onder _[!UICONTROL Email]_in het navigatievenster de optie **[!UICONTROL Bot activity]**.
+Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** om de huidige instellingen te bekijken. Selecteer onder _[!UICONTROL Email]_&#x200B;in het navigatievenster de optie **[!UICONTROL Bot activity]**.
 
 ![ heb toegang tot de configuratie van de beide activiteit voor e-maillevering ](./assets/config-email-bot-activity.png){width="700" zoomable="yes"}
 

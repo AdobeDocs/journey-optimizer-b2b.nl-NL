@@ -14,9 +14,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >De knop **[!UICONTROL Add custom CSS]** is alleen beschikbaar wanneer de component _[!UICONTROL Body]_is geselecteerd. U kunt echter aangepaste CSS-stijlen toepassen op alle componenten in de stijl.
+   >De knop **[!UICONTROL Add custom CSS]** is alleen beschikbaar wanneer de component _[!UICONTROL Body]_&#x200B;is geselecteerd. U kunt echter aangepaste CSS-stijlen toepassen op alle componenten in de stijl.
 
-   De pop-upeditor van _[!UICONTROL Add custom CSS]_wordt weergegeven met opmerkingen voor plaatsaanduidingscode.
+   De pop-upeditor van _[!UICONTROL Add custom CSS]_&#x200B;wordt weergegeven met opmerkingen voor plaatsaanduidingscode.
 
 1. Voer uw CSS-code in de editor in.
 

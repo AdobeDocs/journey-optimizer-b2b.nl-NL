@@ -147,7 +147,7 @@ Voer de volgende taakvolgorde uit om de aangepaste koppeling als een URL-veld to
    ![ Nieuw gebied voor de entiteit van het Contact ](./assets/crm-linking-dynamics-url-field-new.png){width="800" zoomable="yes"}
 
 1. Sla de veldconfiguratie op.
-1. Selecteer op het tabblad _[!UICONTROL Solution]_de optie **[!UICONTROL Web Resources]**.
+1. Selecteer op het tabblad _[!UICONTROL Solution]_&#x200B;de optie **[!UICONTROL Web Resources]**.
 1. Klik op **[!UICONTROL New]** en configureer de volgende JScript-webbron (Script):
 
    ```js
@@ -193,7 +193,7 @@ Voer de volgende taakvolgorde uit om de aangepaste koppeling als een URL-veld to
 
 **3 - voeg het JS Webmiddel aan de vormbibliotheken** toe
 
-1. Klik op de tab _[!UICONTROL Home]_bovenaan op **[!UICONTROL Form Properties]**.
+1. Klik op de tab _[!UICONTROL Home]_&#x200B;bovenaan op **[!UICONTROL Form Properties]**.
 1. Klik op **[!UICONTROL Add]**.
 
    ![ voeg vormeigenschappen ](./assets/crm-linking-dynamics-url-form-properties.png){width="500" zoomable="yes"} toe
@@ -204,13 +204,13 @@ Voer de volgende taakvolgorde uit om de aangepaste koppeling als een URL-veld to
 
 1. Selecteer de toegevoegde bron en klik op **[!UICONTROL Add]** onder _[!UICONTROL Event Handlers]_.
 1. Voeg de functie `setViewInAjoB2b` toe aan **[!UICONTROL Event Handlers]** .
-1. Selecteer de functie in de lijst _[!UICONTROL Event Handlers]_en stel **[!UICONTROL Control]**in op `Form` en **[!UICONTROL Event]**op `OnLoad` .
+1. Selecteer de functie in de lijst _[!UICONTROL Event Handlers]_&#x200B;en stel **[!UICONTROL Control]**&#x200B;in op `Form` en **[!UICONTROL Event]**&#x200B;op `OnLoad` .
 
    ![ voeg de manager ](./assets/crm-linking-dynamics-url-handler-properties.png){width="500" zoomable="yes"} toe
 
 1. Klik op **[!UICONTROL OK]**.
 
-1. Klik op de tab _[!UICONTROL Home]_boven in het scherm op **[!UICONTROL Save]**en vervolgens op **[!UICONTROL Publish]**.
+1. Klik op de tab _[!UICONTROL Home]_&#x200B;boven in het scherm op **[!UICONTROL Save]**&#x200B;en vervolgens op **[!UICONTROL Publish]**.
 
 **4 - verifieer de verbinding**
 
@@ -234,7 +234,7 @@ Voer de volgende taakvolgorde uit om de aangepaste koppeling toe te voegen als e
 
 1. Ga naar **[!UICONTROL Advanced Settings]** > **[!UICONTROL Customize the system]** en selecteer de tab **[!UICONTROL Solution]** .
 
-1. Selecteer op het tabblad _[!UICONTROL Solution]_de optie **[!UICONTROL Web Resources]**.
+1. Selecteer op het tabblad _[!UICONTROL Solution]_&#x200B;de optie **[!UICONTROL Web Resources]**.
 
 1. Klik op **[!UICONTROL New]** en configureer de volgende JScript-webbron (Script) met de volgende functie:
 
@@ -299,13 +299,13 @@ Voer de volgende taakvolgorde uit om de aangepaste koppeling toe te voegen als e
 
 1. Selecteer de toegevoegde bron en klik op **[!UICONTROL Add]** onder _[!UICONTROL Event Handlers]_.
 1. Voeg de functie `getFormContext` toe aan **[!UICONTROL Event Handlers]** .
-1. Selecteer de functie in de lijst _[!UICONTROL Event Handlers]_en stel **[!UICONTROL Control]**in op `Form` en **[!UICONTROL Event]**op `OnLoad` .
+1. Selecteer de functie in de lijst _[!UICONTROL Event Handlers]_&#x200B;en stel **[!UICONTROL Control]**&#x200B;in op `Form` en **[!UICONTROL Event]**&#x200B;op `OnLoad` .
 
    ![ voeg de manager ](./assets/crm-linking-dynamics-web-resources-handler-properties.png){width="500" zoomable="yes"} toe
 
 1. Klik op **[!UICONTROL OK]**.
 
-1. Klik op de tab _[!UICONTROL Home]_boven in het scherm op **[!UICONTROL Save]**en vervolgens op **[!UICONTROL Publish]**.
+1. Klik op de tab _[!UICONTROL Home]_&#x200B;boven in het scherm op **[!UICONTROL Save]**&#x200B;en vervolgens op **[!UICONTROL Publish]**.
 
 **3 - vorm**
 
@@ -327,7 +327,7 @@ Voer de volgende taakvolgorde uit om de aangepaste koppeling toe te voegen als e
 
    ![ middel van het Web dat aan de summiere sectie van de vorm ](./assets/crm-linking-dynamics-web-resource-layout-displayed.png){width="800" zoomable="yes"} wordt toegevoegd
 
-1. Klik op de tab _[!UICONTROL Home]_boven in het scherm op **[!UICONTROL Save]**en vervolgens op **[!UICONTROL Publish]**.
+1. Klik op de tab _[!UICONTROL Home]_&#x200B;boven in het scherm op **[!UICONTROL Save]**&#x200B;en vervolgens op **[!UICONTROL Publish]**.
 
 **4 - verifieer de verbinding**
 

@@ -15,9 +15,9 @@ ht-degree: 0%
 
 Veel e-mailproviders en de meeste bedrijfssystemen maken gebruik van een spamfilterproces. Het verzenden van e-mails die deze filters activeren, kan de leesbaarheid ernstig beïnvloeden. In Journey Optimizer B2B edition kunt u spamscoring in e-mailinhoud controleren door een spamrapport te genereren. Dit rapport gebruikt [[!DNL SpamAssassin] ](https://spamassassin.apache.org/) om e-mail te testen en helpt u om te bepalen of een bericht als spam door anti-spamhulpmiddelen kon worden beschouwd. U kunt de informatie in het rapport gebruiken om acties te ondernemen die de score en de prestaties van de e-mailinhoud verbeteren.
 
-Wanneer u uw e-mailmontages herziet of de inhoud uitgeeft, open de _[!UICONTROL Simulate]_pagina en produceer het rapport van a_ Spam _aan overzicht het scoren en de gemarkeerde elementen die anti-spam het filtreren kunnen teweegbrengen.
+Wanneer u uw e-mailmontages herziet of de inhoud uitgeeft, open de _[!UICONTROL Simulate]_&#x200B;pagina en produceer het rapport van a_ Spam _aan overzicht het scoren en de gemarkeerde elementen die anti-spam het filtreren kunnen teweegbrengen.
 
-1. Klik op de pagina _[!UICONTROL Simulate]_rechtsboven op **[!UICONTROL Spam report]**.
+1. Klik op de pagina _[!UICONTROL Simulate]_&#x200B;rechtsboven op **[!UICONTROL Spam report]**.
 
    ![ Spam- rapportknoop ](./assets/email-spam-report-button.png){width="700" zoomable="yes"}
 
@@ -39,7 +39,7 @@ Wanneer u uw e-mailmontages herziet of de inhoud uitgeeft, open de _[!UICONTROL 
 
 1. Als de e-mailinhoud bepaalde elementen bevat die kunnen worden verbeterd, bewerkt u de inhoud om de benodigde updates toe te passen.
 
-1. Wanneer de wijzigingen zijn voltooid, gaat u terug naar de pagina _[!UICONTROL Simulate]_en klikt u nogmaals op **[!UICONTROL Spam report]**om te controleren of de resultaten zijn verbeterd.
+1. Wanneer de wijzigingen zijn voltooid, gaat u terug naar de pagina _[!UICONTROL Simulate]_&#x200B;en klikt u nogmaals op **[!UICONTROL Spam report]**&#x200B;om te controleren of de resultaten zijn verbeterd.
 
 
 

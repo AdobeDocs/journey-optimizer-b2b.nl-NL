@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Uw e-mailinhoud voorvertonen en testen
 
-Gebruik _simuleren inhoud_ eigenschap om de e-mailinhoud voor te vertonen en testleveringen naar specifieke ontvangers te verzenden. De vereiste e-mailvelden moeten zijn gedefinieerd, inclusief _[!UICONTROL From name]_,_[!UICONTROL From address]_ , _[!UICONTROL Reply-to address]_en_[!UICONTROL Subject line]_ , voor toegang tot de voorvertoning- en testfuncties.
+Gebruik _simuleren inhoud_ eigenschap om de e-mailinhoud voor te vertonen en testleveringen naar specifieke ontvangers te verzenden. De vereiste e-mailvelden moeten zijn gedefinieerd, inclusief _[!UICONTROL From name]_,_[!UICONTROL From address]_ , _[!UICONTROL Reply-to address]_&#x200B;en&#x200B;_[!UICONTROL Subject line]_ , voor toegang tot de voorvertoning- en testfuncties.
 
 >[!IMPORTANT]
 >
@@ -22,7 +22,7 @@ Gebruik _simuleren inhoud_ eigenschap om de e-mailinhoud voor te vertonen en tes
 
 ## De e-mailvoorvertoning weergeven
 
-U kunt tot de teruggevende voorproef van de [ e-mailontwerpruimte ](./email-authoring.md) toegang hebben, of van _[!UICONTROL Summary]_wanneer u [ een e-mail van de lijst E-mail ](./emails-list.md#edit-emails) opent.
+U kunt tot de teruggevende voorproef van de [ e-mailontwerpruimte ](./email-authoring.md) toegang hebben, of van _[!UICONTROL Summary]_&#x200B;wanneer u [ een e-mail van de lijst E-mail ](./emails-list.md#edit-emails) opent.
 
 1. Klik op **[!UICONTROL Simulate Content]** boven.
 
@@ -32,13 +32,13 @@ U kunt tot de teruggevende voorproef van de [ e-mailontwerpruimte ](./email-auth
    >
    >Deze knop is niet beschikbaar als er fouten zijn of als de vereiste velden niet zijn gedefinieerd voor de e-mail.
 
-1. Selecteer op de pagina _[!UICONTROL Simulate]_een personenprofiel in de lijst **[!UICONTROL People]**dat u wilt gebruiken voor het weergeven van de e-mail.
+1. Selecteer op de pagina _[!UICONTROL Simulate]_&#x200B;een personenprofiel in de lijst **[!UICONTROL People]**&#x200B;dat u wilt gebruiken voor het weergeven van de e-mail.
 
    In de voorvertoning van de inhoud worden gepersonaliseerde elementen gevuld volgens het geselecteerde persoonlijke profiel.
 
    ![ selecteer een personenprofiel om de simulatie ](./assets/email-simulate-content-preview.png){width="800" zoomable="yes"} terug te geven
 
-   Als de _[!UICONTROL People]_lijst op de linkerzijde leeg is, [ voegt mensen ](#add-people-to-the-profiles-list) toe gebruikend contacten van de verbonden instantie van Marketo Engage.
+   Als de _[!UICONTROL People]_&#x200B;lijst op de linkerzijde leeg is, [ voegt mensen ](#add-people-to-the-profiles-list) toe gebruikend contacten van de verbonden instantie van Marketo Engage.
 
    >[!TIP]
    >
@@ -76,11 +76,11 @@ Een bewijs is een geleverd testbericht dat u en uw teamleden toestaat om een e-m
 
 ## Personen toevoegen aan de lijst met profielen
 
-1. Klik boven aan de lijst _[!UICONTROL People]_op **[!UICONTROL Add People]**.
+1. Klik boven aan de lijst _[!UICONTROL People]_&#x200B;op **[!UICONTROL Add People]**.
 
    ![ pas de voorproefvertoning ](assets/email-simulate-content-add-people.png){width="500"} aan
 
-1. Voer in het dialoogvenster _[!UICONTROL Add people for testing]_het volledige e-mailadres voor de contactpersoon in.
+1. Voer in het dialoogvenster _[!UICONTROL Add people for testing]_&#x200B;het volledige e-mailadres voor de contactpersoon in.
 
    Om veelvoudige contacten toe te voegen, ga veelvoudige adressen in die door een komma worden gescheiden.
 
