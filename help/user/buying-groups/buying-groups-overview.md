@@ -4,10 +4,10 @@ description: Leer hoe kopersgroepen in Journey Optimizer B2B edition de doeltref
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: d1130841ed3c560208bc93c53a54169f9b0b94aa
+source-git-commit: 92916a9d018084dd10681cbe9e9e54a5970c3c94
 workflow-type: tm+mt
-source-wordcount: '1756'
-ht-degree: 7%
+source-wordcount: '1988'
+ht-degree: 6%
 
 ---
 
@@ -18,20 +18,34 @@ Voor B2B-verkoop- en marketingactiviteiten zijn rekeningen van essentieel belang
 
 ![ diagram van de rollen van de Rekening ](assets/account-roles-diagram.png){width="800"}
 
-Binnen de rekening, zou er een ondergroep van mensen kunnen zijn die uit de _het kopen groep_ bestaan. Deze mensen nemen uiteindelijk het aankoopbesluit, dus ze hebben speciale aandacht van de marketeer nodig en hebben mogelijk andere informatie nodig die ze ontvangen dan de andere personen die bij de rekening horen. Kopersgroepen kunnen een verschillende groep personen voor verschillende productlijnen of aanbiedingen omvatten. Een product voor cyberbeveiliging kan bijvoorbeeld doorgaans een Chief Information Officer of Chief Security Officer en een vertegenwoordiger van de juridische afdeling vragen om een aankoop goed te keuren, maar een product voor het opsporen van fouten kan doorgaans een VP van Engineering en een IT Director hebben als leden van de inkoopgroep.
+Binnen de rekening, zou er een ondergroep van mensen kunnen zijn die uit de _het kopen groep_ bestaan. Deze mensen nemen uiteindelijk het aankoopbesluit, dus ze hebben speciale aandacht van de marketeer nodig en hebben mogelijk andere informatie nodig die ze ontvangen dan de andere personen die bij de rekening horen. Kopersgroepen kunnen een verschillende groep personen voor verschillende productlijnen of aanbiedingen omvatten. Een product voor cyberbeveiliging kan bijvoorbeeld gewoonlijk een Chief Information Officer of Chief Security Officer vereisen, en een vertegenwoordiger van de Juridische Dienst om een aankoop goed te keuren. Een insectenvolgend product zou typisch een VP van Techniek en een Directeur van IT als leden van de het kopen groep kunnen hebben.
 
 ![ Video ](../../assets/do-not-localize/icon-video.svg){width="30"} [ bekijk het videooverzicht ](#overview-video)
 
 ## Belangrijkste componenten
 
-U kunt de doeltreffendheid van marketing verhogen door in Journey Optimizer B2B edition inkoopgroepen op te richten die ontbrekende leden voor uw doelaccountlijsten identificeren op basis van de oplossingen die uw verkoopteams verantwoordelijk zijn voor de verkoop. Voordat u en uw marketingteam beginnen met het maken van uw inkoopgroepen, moet u controleren of de belangrijkste componenten zijn gedefinieerd. Deze componenten zijn kritiek voor het ontmoeten van uw bedrijfsdoelstellingen en doelstellingen.
+U kunt de doeltreffendheid van marketing verhogen door koopgroepen in Journey Optimizer B2B edition te vestigen die leden voor uw doelaccountlijsten identificeren die op de oplossingen worden gebaseerd die uw teams van de Verkoop voor de verkoop verantwoordelijk zijn. Voordat u en uw marketingteam beginnen met het maken van uw inkoopgroepen, moet u controleren of de belangrijkste componenten zijn gedefinieerd. Deze componenten zijn kritiek voor het ontmoeten van uw bedrijfsdoelstellingen en doelstellingen.
 
 | Component | Doel |
 | --------- | ------- |
 | Oplossingsrente | Deze component geeft het antwoord op: <ul><li>Wat verkoopt u als marketingorganisatie?</li><li>Welk product of welke inzameling van producten richt u om te verkopen?</li></ul>  **_Voorbeeld:_** Het dwars-verkopen van nieuw Product X aan bestaande klanten |
-| Accountpubliek | Deze component geeft het antwoord op: <ul><li>Aan wie verkoopt u?</li><li>Wat is de lijst van rekeningen die u richt?</li></ul> **_Voorbeeld:_** segment van de Rekening dat door rekeningen met Product Y wordt bepaald die opbrengst over 1M hebben |
-| Rolinesjablonen voor groepen kopen | Deze component geeft het antwoord op: <ul><li>Welke rollen richt u zich?</li><li>Welke reeks regels worden gebruikt om te bepalen wie aan het kopen van groepsrollen wordt toegewezen?</li></ul>  **_Voorbeeld:_** wijs een persoon met de titel van Com aan de rol van de Maker van het Besluit toe |
+| Accountpubliek | Deze component geeft het antwoord op: <ul><li>Aan wie verkoopt u?</li><li>Wat is de lijst van rekeningen die u richt?</li></ul> **_Example:_** het segment van de Rekening die door rekeningen met Product Y wordt bepaald die opbrengst over 1M hebben |
+| Rolinesjablonen voor groepen kopen | Deze component geeft het antwoord op: <ul><li>Welke rollen richt u zich?</li><li>Welke reeks regels worden gebruikt om te bepalen wie aan het kopen van groepsrollen wordt toegewezen?</li></ul>  **_Voorbeeld:_** Wijs een persoon met de titel van Com aan de rol van de Maker van het Besluit toe |
 | Groepsfasen voor kopen | (Optioneel) Deze component geeft het antwoord op: Hoe volgt de inkoopgroep op succes of falen? |
+
+## Lidopdracht
+
+Er zijn drie manieren waarop leden worden toegewezen aan of verwijderd uit een inkoopgroep. In de volgende lijst worden deze methoden voor toevoegen en verwijderen in de volgorde van prioriteit beschreven. De bovenste methode heeft de hoogste prioriteit en een lagere methode kan deze niet overschrijven.
+
+1. **_Handmatige actie_** - een handboek voegt lid toe of verwijdert lidactie die door een verkoopgebruiker voor de het kopen groep wordt uitgevoerd
+2. **_actie van de Reis_** - Reis [ actieknooppunten voor het kopen van groepslidmaatschap ](../journeys/action-nodes.md#add-a-people-based-action) (_wijs aan het Kopen groep_ toe of _verwijder uit het Kopen groep_)
+3. **_de banen van het Systeem_** - het Kopen groep [ creatie ](../buying-groups/buying-groups-create.md#buying-group-creation-jobs) en onderhoudstaken.
+
+Om ervoor te zorgen dat de lidtoewijzing in een koopgroep niet verkeerd wordt met voeten getreden, is deze lijst in de orde van belangrijkheid die in het systeem wordt gevolgd om nauwkeurige lidtoewijzing te verzekeren. Wanneer een verkoopgebruiker bijvoorbeeld handmatig een lid aan de inkoopgroep toevoegt, wil hij niet dat een onderhoudstaak die toevoeging wijzigt. Gebruikend de belangrijkheidsorde, worden de volgende scenario&#39;s afgedwongen:
+
+* Als een gebruiker manueel een lid aan een het kopen groep toewijst, en dit door een het kopen baan van het groepsonderhoud wordt gevolgd die het zelfde lid uit de het kopen groep verwijdert, verwijdert de onderhoudstaak **niet** dat lid en kan niet de handtaak met voeten treden.
+* Als een gebruiker manueel een lid aan een het kopen groep toewijst, en dit door een teweeggebrachte reisknoop wordt gevolgd die het zelfde lid uit de het kopen groep verwijdert, verwijdert de knoopactie **niet** dat lid en kan niet de handtaak met voeten treden.
+* Als een teweeggebrachte knoop van de reisactie een lid aan een het kopen groep toevoegt, en dit door een het kopen baan van het groepsonderhoud wordt gevolgd die het zelfde lid uit de het kopen groep verwijdert, verwijdert de onderhoudstaak **niet** dat lid en kan niet de taak van de reisactie met voeten treden.
 
 ## Workflow voor groepen kopen
 
@@ -40,11 +54,11 @@ U kunt de doeltreffendheid van marketing verhogen door in Journey Optimizer B2B 
    * Bepaal [ oplossingsrente ](./solution-interests.md) en [ rolmalplaatje ](./buying-groups-role-templates.md)
    * [ creeer de het kopen groep ](./buying-groups-create.md#create-buying-groups) en wijs [ het kopen groepsstadia ](./buying-group-stages.md) toe.
 
-1. Vermiste personen identificeren.
+1. Ontbrekende personen volledig identificeren.
 
    Analyseer de inkoopgroep met gebruik van filters.
 
-   **_Voorbeeld:_** de rol van de Maker van het Besluit mist en de volledigheidsscore is &lt; 50
+   **_Example:_** de rol van de Maker van het Besluit mist en de volledigheidsscore is &lt; 50
 
 1. Vul de definities van inkoopgroepen in.
 <!--
@@ -52,31 +66,31 @@ U kunt de doeltreffendheid van marketing verhogen door in Journey Optimizer B2B 
    * Send to LinkedIn Destination
    * Enrich with Zoominfo -->
 
-1. Gebruik de koopgroep voor reizen naar je account.
+1. Voeg groepsacties voor kopen toe aan uw accountreizen.
 
 ## Koopgroepen en componenten weergeven
 
 Vouw **[!UICONTROL Accounts]** uit in de linkernavigatie en klik op **[!UICONTROL Buying groups]** .
 
-De pagina _[!UICONTROL Buying groups]_&#x200B;is ingedeeld als tabbladen:
+De pagina _[!UICONTROL Buying groups]_is ingedeeld als tabbladen:
 
 | Tab | Beschrijving |
 | --- | ----------- |
 | [!UICONTROL Overview] | Dit lusje is het gebrek en toont [ het Kopen groepen dashboard ](../dashboards/buying-groups-dashboard.md). |
-| [!UICONTROL Browse] | Dit tabblad biedt ondersteuning voor de volgende activiteiten: <ul><li>De lijst met bestaande inkoopgroepen weergeven. </li><li>Zoeken door groepsnaam te kopen. </li><li>Filteren op interesse van oplossing. </li><li>Meld u aan bij het kopen van groepsgegevens. </li><li>Maak een inkoopgroep. </li></ul> |
-| [!UICONTROL Solution interests] | Dit tabblad biedt ondersteuning voor de volgende activiteiten: <ul><li>De lijst met bestaande inkoopgroepen weergeven. </li><li>Zoeken door groepsnaam te kopen. </li><li>De toegang en geeft de eigenschappen van oplossingsbelang uit. </li><li>Creëer een oplossingsbelang. </li><li>Verwijder een belang voor de oplossing. </li><li>Groeptaken voor kopen weergeven en verwijderen. </li></ul> |
+| [!UICONTROL Browse] | Dit tabblad biedt ondersteuning voor de volgende activiteiten: <ul><li>De lijst met bestaande inkoopgroepen weergeven. </li><li>Zoeken op de naam van de inkoopgroep. </li><li>Filteren op interesse van oplossing. </li><li>Meld u aan bij het kopen van groepsgegevens. </li><li>Maak een inkoopgroep. </li></ul> |
+| [!UICONTROL Solution interests] | Dit tabblad biedt ondersteuning voor de volgende activiteiten: <ul><li>De lijst met bestaande inkoopgroepen weergeven. </li><li>Zoeken op de naam van de inkoopgroep. </li><li>De toegang en geeft de eigenschappen van oplossingsbelang uit. </li><li>Creëer een oplossingsbelang. </li><li>Verwijder een belang voor de oplossing. </li><li>Groeptaken voor kopen weergeven en verwijderen. </li></ul> |
 | [!UICONTROL Roles Templates] | Dit tabblad biedt ondersteuning voor de volgende activiteiten: <ul><li>Bekijk de lijst met bestaande rolmalplaatjes. </li><li>Zoeken op naam van rolsjabloon. </li><li>Toegang tot en geef de eigenschappen en voorwaarden van het rolmalplaatje uit. </li><li>Een rolsjabloon maken. </li><li>Een rolsjabloon verwijderen. </li></ul> |
 | [!UICONTROL Stages] | Dit tabblad biedt ondersteuning voor de volgende activiteiten: <ul><li>Bekijk het bestaande model voor inkoopgroepen. </li><li>Open en bewerk het concept groepsfasemodel voor het kopen. </li><li>Maak het model voor de inkoopgroepfasen. </li></ul> |
 
 ## Zoeken en filteren van groepen
 
-Gebruik het tabblad _[!UICONTROL Browse]_&#x200B;om de lijst met inkoopgroepen weer te geven. U kunt op naam zoeken en de lijst door oplossingsbelang filtreren.
+Gebruik het tabblad _[!UICONTROL Browse]_om de lijst met inkoopgroepen weer te geven. U kunt op naam zoeken en de lijst door oplossingsbelang filtreren.
 
 ![ Kopende groep doorbladert pagina ](assets/buying-groups-browse.png){width="800" zoomable="yes"}
 
 ## Gegevens van groep kopen
 
-Klik op de naam van de inkoopgroep op het tabblad _[!UICONTROL Browse]_&#x200B;als u details voor een inkoopgroep wilt weergeven. [Meer informatie](./buying-group-details.md)
+Klik op de naam van de inkoopgroep op het tabblad _[!UICONTROL Browse]_als u details voor een inkoopgroep wilt weergeven. [Meer informatie](./buying-group-details.md)
 
 ![ het Kopen groepdetails ](assets/buying-group-details.png){width="600" zoomable="yes"}
 
@@ -100,46 +114,52 @@ De score voor groepsbetrokkenheid kopen is een getal om de betrokkenheid van de 
 
 +++Activiteiten die worden gebruikt voor scores
 
+>[!BEGINSHADEBOX]
+
 | Naam activiteit | Beschrijving | Type betrokkenheid | Maximale dagelijkse frequentie | Activiteitsgewicht |
 | --- | --- | --- | --- | --- |
-| Registreren voor gebeurtenis | Registreert voor een gebeurtenis die aan een campagne is gekoppeld | Gebeurtenis | 20 | 60 |
-| Gebeurtenis bijwonen | Voert een campagnegebeurtenis bij | Gebeurtenis | 20 | 90 |
-| E-mail openen | Hiermee opent u een e-mail | E-mail | 20 | 30 |
-| Klik op E-mail | Klik op een koppeling in een e-mailbericht | E-mail | 20 | 30 |
-| Verkoopbericht openen | Hiermee opent u een e-mail met verkoopgegevens | E-mail | 20 | 30 |
-| Klik op E-mail verkoop | Klik op een koppeling in een e-mailbericht voor verkopen | E-mail | 20 | 30 |
-| Interessant moment | Heeft een interessant moment | Gekromd | 20 | 60 |
-| Tik op pushmelding | Hiermee wordt een pushmelding ontvangen | Mobiel | 20 | 30 |
-| Mobiele toepassingsactiviteit | Hiermee wordt een activiteit uitgevoerd op een mobiele app | Mobiel | 20 | 30 |
-| Mobiele App-sessie | Is actief op mobiele toepassingssessie | Mobiel | 20 | 30 |
-| Formulier Advertentie Facebook invullen | Vult een formulier voor advertentieplaatsen in en verzendt het op een Facebook-pagina | Sociaal | 20 | 30 |
-| Klik de Vraag van RTP aan Actie | Klik een gepersonaliseerde vraag aan actie | Web | 20 | 60 |
-| Bericht in app weergeven | Hiermee wordt een bericht in de app weergegeven | Mobiel | 20 | 30 |
-| Tik in-app-bericht | Tapt op een bericht in de app | Mobiel | 20 | 30 |
-| SMS abonneren | Abonneren op SMS-communicatie | SMS | 20 | 90 |
-| Reageren op e-mail over verkoop | Reageert op een e-mail met verkopen | E-mail | 20 | 30 |
-| Bij een dialoogvenster | Afbeeldingen met een Dynamic Chat-dialoogvenster | Chat | 20 | 90 |
-| Interactie met document in dialoogvenster | Interacties maken met een document in een Dynamic Chat-dialoogvenster | Chat | 20 | 90 |
-| Geplande vergadering in dialoogvenster | Hiermee wordt een afspraak in een Dynamic Chat-dialoogvenster opgenomen | Chat | 20 | 90 |
-| Dialoogvenster bereikt | Hiermee wordt een doel bereikt in een Dynamic Chat-dialoogvenster |  | 20 | 90 |
-| Reageerd op een opiniepeiling in webinar | Hiermee wordt gereageerd op een opiniepeiling in een webinar-gebeurtenis | Chat | 20 | 90 |
-| Aanroep van handeling geklikt in webinar | Klik een vraag-aan-actie verbinding in een webinar gebeurtenis | Bellen | 20 | 30 |
-| Downloads van bedrijfsmiddelen in webinar | Hiermee wordt een bestand/middel gedownload in een webinar-gebeurtenis | Gebeurtenis | 20 | 60 |
-| Vragen in webinar | Hiermee worden vragen gesteld in een webinar-gebeurtenis | Gebeurtenis | 20 | 60 |
-| Heeft gebeurtenis bijgewoond | Een gebeurtenis bijgewoond | Gebeurtenis | 20 | 60 |
-| Betrokken met een Agent in Dialoog | Betrokkenen bij een agent in een Dynamic Chat-dialoogvenster | Chat | 20 | 90 |
-| Klikte koppeling in chatvenster | Klik op een koppeling in een Dynamic Chat-dialoogvenster | Chat | 20 | 90 |
-| Gegenereerd met een gespreksstroom | Beelden met een Dynamic Chat-gespreksstroom | Chat | 20 | 90 |
-| Geplande vergadering in Conversational Flow | Hiermee wordt een afspraak in een Dynamic Chat-gespreksstroom gepland | Chat | 20 | 90 |
-| Het bereikte doel van de discussiestroom | Hiermee wordt een doel bereikt in een Dynamic Chat-gespreksstroom | Chat | 20 | 90 |
-| Werkt met Document in Gesprek Stroom | Communiceert met een document in een Dynamic Chat-gespreksstroom | Chat | 20 | 90 |
-| Betrokken met een Agent in de Conversationele Stroom | Ondersteunt een agent in een Dynamic Chat-gespreksstroom | Chat | 20 | 90 |
-| Klikte koppeling in chat in omschakelingsstroom | Klik op een koppeling in een Dynamic Chat-gespreksstroom | Chat | 20 | 90 |
-| Klik op Koppeling in SMS V2 | Klik op een koppeling in een SMS-bericht | SMS | 20 | 90 |
+| [!UICONTROL Visit Webpage] | Een lid bezoekt een webpagina | Web | 20 | 40 |
+| [!UICONTROL Fill Out Form] | Een lid vult een formulier in en verzendt het op een webpagina | Web | 20 | 40 |
+| [!UICONTROL Click Link] | Een lid klikt op een koppeling op een webpagina | Web | 20 | 40 |
+| [!UICONTROL Open Email] | Een lid opent een e-mail | E-mail | 20 | 30 |
+| [!UICONTROL Click Email] | Een lid klikt op een koppeling in een e-mailbericht | E-mail | 20 | 30 |
+| [!UICONTROL Open Sales Email] | Een lid opent een e-mail over verkopen | E-mail | 20 | 30 |
+| [!UICONTROL Click Sales Email] | Een lid klikt op een koppeling in een e-mailbericht voor verkopen | E-mail | 20 | 30 |
+| [!UICONTROL Interesting Moment] | Een lid heeft een interessant moment | Gekromd | 20 | 60 |
+| [!UICONTROL Tap Push Notification] | Een lid ontvangt een pushmelding | Mobiel | 20 | 30 |
+| [!UICONTROL Mobile App Activity] | Een lid voert een activiteit uit op een mobiele app | Mobiel | 20 | 30 |
+| [!UICONTROL Mobile App Session] | Een lid is actief op een mobiele app-sessie | Mobiel | 20 | 30 |
+| [!UICONTROL Fill Out Facebook Lead Ads Form] | Een lid vult een formulier voor advertentieplaatsen in en verzendt dit op een Facebook-pagina | Sociaal | 20 | 30 |
+| [!UICONTROL Click RTP Call to Action] | Een lid klikt op een gepersonaliseerde call to action | Web | 20 | 60 |
+| [!UICONTROL View In-App Message] | Een lid bekijkt een bericht in de app | Mobiel | 20 | 30 |
+| [!UICONTROL Tap In-App Message] | Een lid tikt op een bericht in de app | Mobiel | 20 | 30 |
+| [!UICONTROL Subscribe SMS] | Een lid abonneert op SMS-communicatie | SMS | 20 | 90 |
+| [!UICONTROL Reply to Sales Email] | Een lid antwoordt op een e-mail over verkopen | E-mail | 20 | 30 |
+| [!UICONTROL Engaged with a Dialogue] | Een lid maakt deel uit van een Dynamic Chat-dialoogvenster | Chat | 20 | 90 |
+| [!UICONTROL Interacted with Document in Dialogue] | Een lid communiceert met een document in een Dynamic Chat-dialoogvenster | Chat | 20 | 90 |
+| [!UICONTROL Scheduled Meeting in Dialogue] | Een lid plant een afspraak in een Dynamic Chat-dialoog | Chat | 20 | 90 |
+| [!UICONTROL Reached Dialogue Goal] | Een lid bereikt een doel in een Dynamic Chat-dialoog |  | 20 | 90 |
+| [!UICONTROL Responded to a poll in webinar] | Een lid reageert op een opiniepeiling in een webinar-gebeurtenis | Chat | 20 | 90 |
+| [!UICONTROL Call to action clicked in webinar] | Een lid klikt op een call-to-action-koppeling in een webinar-gebeurtenis | Bellen | 20 | 30 |
+| [!UICONTROL Asset downloads in webinar] | Een lid downloadt een bestand/middel in een webinar-gebeurtenis | Gebeurtenis | 20 | 60 |
+| [!UICONTROL Asks questions in webinar] | Een lid stelt vragen in een webinar-gebeurtenis | Gebeurtenis | 20 | 60 |
+| [!UICONTROL Has attended event] | Een lid woonde een gebeurtenis bij | Gebeurtenis | 20 | 60 |
+| [!UICONTROL Engaged with an Agent in Dialogue] | Een lid maakt verbinding met een agent in een Dynamic Chat-dialoogvenster | Chat | 20 | 90 |
+| [!UICONTROL Clicked Link in Chat in Dialogue] | Een lid klikt op een koppeling in een Dynamic Chat-dialoogvenster | Chat | 20 | 90 |
+| [!UICONTROL Engaged with a Conversational Flow] | Een lid werkt met een Dynamic Chat-gespreksstroom | Chat | 20 | 90 |
+| [!UICONTROL Scheduled Meeting in Conversational Flow] | Een lid plant een benoeming in een de gespreksstroom van Dynamic Chat | Chat | 20 | 90 |
+| [!UICONTROL Reached Conversational Flow Goal] | Een lid bereikt een doel in een Dynamic Chat-gespreksstroom | Chat | 20 | 90 |
+| [!UICONTROL Interacted with Document in Conversational Flow] | Een lid communiceert met een document in een Dynamic Chat gespreksstroom | Chat | 20 | 90 |
+| [!UICONTROL Engaged with an Agent in Conversational Flow] | Een lid gaat met een Agent in een Dynamic Chat gespreksstroom in dienst | Chat | 20 | 90 |
+| [!UICONTROL Clicked Link in Chat in Conversational Flow] | Een lid klikt op een koppeling in een Dynamic Chat-omzettingsstroom | Chat | 20 | 90 |
+| [!UICONTROL Click Link in SMS V2] | Een lid klikt op een koppeling in een SMS-bericht | SMS | 20 | 90 |
+
+
+>[!ENDSHADEBOX]
 
 >[!NOTE]
 >
->De de scoreactiviteiten van het engagement worden geregistreerd in het de activiteitenlogboek van Marketo Engage [ voor een persoon ](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}.
+>De de scoreactiviteiten van het engagement worden geregistreerd in het de activiteitenlogboek van Marketo Engage [ voor een persoon ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}.
 
 +++
 
@@ -157,7 +177,7 @@ Elk wegingsniveau wordt omgezet in een waarde die wordt gebruikt voor het bereke
 * [!UICONTROL Important] = 80
 * [!UICONTROL Vital] = 100
 
-Een rolmalplaatje met drie rollen gewogen zoals _[!UICONTROL Vital]_,_[!UICONTROL Important]_, en _[!UICONTROL Normal]_&#x200B;zet in de volgende gewogen percentages om:
+Een rolmalplaatje met drie rollen gewogen zoals _[!UICONTROL Vital]_,_[!UICONTROL Important]_, en _[!UICONTROL Normal]_zet in de volgende gewogen percentages om:
 
 | Functie | Weging | Systeemwaarde | Waarde berekenen | Percentage |
 |-------------- |--------- |------------- |------------------ |---------- |
@@ -205,4 +225,4 @@ De uiteindelijke betrokkenheidsscore wordt berekend door de weging toe te passen
 
 ## Video over overzicht
 
->[!VIDEO](https://video.tv.adobe.com/v/3452939/?learn=on&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

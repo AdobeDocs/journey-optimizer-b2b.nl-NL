@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentatie voor de B2B-editie van Journey Optimizer
 user-guide-description: Meer informatie over de B2B-editie van Adobe Journey Optimizer en hoe u deze kunt gebruiken om account- en inkoopgroeptrajecten te orkestreren met behulp van ingebouwde generatieve AI en toonaangevende automatisering.
-source-git-commit: 2aaecfb1b71e449f0cf82fb77a976389fd22d11c
+source-git-commit: d50e7eb067e40bdcc18c93baec1a0b6713bf793c
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 20%
+source-wordcount: '282'
+ht-degree: 19%
 
 ---
 
@@ -51,7 +51,6 @@ ht-degree: 20%
       + [Oplossingsbelangen](./buying-groups/solution-interests.md)
       + [Rolsjablonen](./buying-groups/buying-groups-role-templates.md)
       + [Groepsfasen voor kopen](./buying-groups/buying-group-stages.md)
-      + [Gegevens van groep kopen](./buying-groups/buying-group-details.md)
       + [Koopgroepen maken](./buying-groups/buying-groups-create.md)
       + [Accountlijst exporteren](./audiences/account-list-export.md)
       + [Gekoppeld publiek voor account gekoppeld](./data/linkedin-account-matched-audiences.md)
@@ -59,14 +58,19 @@ ht-degree: 20%
    + Accountlijsten {#account-lists}
       + [Overzicht](./accounts/account-lists.md)
       + [Gebruik tijdens reizen en programma&#39;s](./accounts/account-lists-journeys.md)
-   + [Accountgegevens](./accounts/account-details.md)
    + [XDM-velden](./data/field-mapping.md)
+   + Verkoopervaring {#sales-experience}
+      + [Accountgegevens](./accounts/account-details.md)
+      + [Gegevens van groep kopen](./buying-groups/buying-group-details.md)
+      + [Persoonsgegevens](./accounts/person-details.md)
+      + [CRM-koppeling](./accounts/crm-linking.md)
 + Inhoudsbeheer {#content-management}
    + E-mails {#emails}
-      + [ Werk met e-mailinhoud ](./content/emails-list.md)
-Voorvertoning en validatie  {#preview}
+      + [Werken met e-mailinhoud](./content/emails-list.md)
+      + Voorvertoning en validatie {#preview}
          + [Inhoud simuleren](./content/email-simulate-content.md)
          + [E-mailrendering testen](./content/email-test-rendering.md)
+         + [Spam-rapport](./content/email-spam-report.md)
    + Assets {#assets}
       + [Overzicht](./content/assets-overview.md)
       + Marketo Engage-middelen {#marketo-engage-dam}
@@ -91,6 +95,7 @@ Voorvertoning en validatie  {#preview}
       + [Overzicht](./content/landing-pages.md)
       + [Ontwerp bestemmingspagina](./content/landing-page-design.md)
    + [Voorwaardelijke inhoud](./content/conditional-content.md)
+   + [Aangepaste CSS](./content/design-custom-css.md)
 + Inhoudsdashboards {#dashboards}
    + [Intelligent dashboard](./dashboards/intelligent-dashboard.md)
    + [Overzicht van betrokkenheid](./dashboards/engagement-dashboard.md)

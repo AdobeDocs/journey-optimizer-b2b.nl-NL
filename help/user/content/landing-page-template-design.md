@@ -5,9 +5,9 @@ feature: Templates, Landing Pages, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Deze functie bevindt zich momenteel in een beperkte bètaversie"
 exl-id: 3dc6a523-1a33-4560-8f3c-ce8d0bf9f064
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 9b053f81e3074f03740fe1f3b69f632219ad269a
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,16 @@ Nadat u [ een het landen paginamalplaatje ](./landing-page-templates.md#create-a
 >abstract="Inhoudscomponenten zijn lege plaatsaanduidingen voor inhoud die u kunt gebruiken om de lay-out van een sjabloon voor een bestemmingspagina te maken."
 
 {{$include /help/_includes/content-design-components.md}}
+
+### Aangepaste CSS toevoegen
+
+U kunt uw eigen aangepaste CSS rechtstreeks toevoegen binnen de ontwerpruimte van de bestemmingspagina. Gebruik aangepaste CSS om geavanceerde en specifieke stijlen toe te passen, voor meer flexibiliteit en controle over de weergave van uw inhoud. Het wordt aanbevolen deze opmaak op het hoogste niveau toe te voegen voordat u componenten zoals afbeeldingen, knoppen en tekst opneemt.
+
+Selecteer met ten minste één inhoudscomponent op het canvas de component **[!UICONTROL Body]** in de linkernavigatiestructuur voor toegang tot de aangepaste CSS-editor.
+
+![ heb toegang tot de lichaamstijlen ](./assets/landing-page-body-styles-css.png){width="800" zoomable="yes"}
+
+{{$include /help/_includes/content-design-custom-css.md}}
 
 ### Elementen toevoegen
 
@@ -68,11 +78,11 @@ Gebruik de opties voor weergave- en inhoudsvalidatie die beschikbaar zijn in de 
 
 ### Meer opties
 
-Vanuit het menu _[!UICONTROL More ...]_&#x200B;boven aan de visuele ontwerpruimte kunt u de volgende handelingen uitvoeren:
+Vanuit het menu _[!UICONTROL More ...]_boven aan de visuele ontwerpruimte kunt u de volgende handelingen uitvoeren:
 
 ![ klik Meer om tot malplaatjeacties ](./assets/landing-page-designer-more-menu.png){width="500"} toegang te hebben
 
 * **[!UICONTROL Reset landing page]** - Klik op deze optie om het visuele ontwerpcanvas op een lege leisteen te wissen en de opbouw van de pagina-inhoud opnieuw te starten.
-* **[!UICONTROL Change your design]** - Ga terug naar de _[!UICONTROL Create your primary landing page]_&#x200B;startpagina. Van daar, kunt u een andere malplaatje kiezen om het ontwerpproces opnieuw te beginnen, of verkiezen om de pagina van kras in een leeg canvas te ontwerpen.
+* **[!UICONTROL Change your design]** - Ga terug naar de _[!UICONTROL Create your primary landing page]_startpagina. Van daar, kunt u een andere malplaatje kiezen om het ontwerpproces opnieuw te beginnen, of verkiezen om de pagina van kras in een leeg canvas te ontwerpen.
 <!--- * **[!UICONTROL Save as content template]** - Save the page body as a landing page template to be reused across multiple landing pages. You provide a name and description for the template and save it to the list of saved  landing page templates. -->
 * **[!UICONTROL Export HTML]** - Download de inhoud in het visuele canvas naar uw lokale systeem in de HTML-indeling die is verpakt als een zip-bestand.

@@ -4,9 +4,9 @@ description: Leer hoe u e-mailsjablonen voor inhoud kunt ontwerpen die u kunt ge
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: 45335eeba059ca8b4b390b336fbcb0ef29bd90ca
+source-git-commit: 9b053f81e3074f03740fe1f3b69f632219ad269a
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -29,11 +29,21 @@ Nadat u [ een e-mailmalplaatje ](./email-templates.md#create-an-email-template) 
 
 {{$include /help/_includes/content-design-components.md}}
 
+### Aangepaste CSS toevoegen
+
+U kunt uw eigen aangepaste CSS rechtstreeks toevoegen binnen de ontwerpruimte van de e-mailsjabloon. Gebruik aangepaste CSS om geavanceerde en specifieke stijlen toe te passen, voor meer flexibiliteit en controle over de weergave van uw inhoud. Het wordt aanbevolen deze opmaak op het hoogste niveau toe te voegen voordat u componenten zoals afbeeldingen, knoppen en tekst opneemt.
+
+Selecteer met ten minste één inhoudscomponent op het canvas de component **[!UICONTROL Body]** in de linkernavigatiestructuur voor toegang tot de aangepaste CSS-editor.
+
+![ heb toegang tot de lichaamstijlen ](./assets/email-template-body-styles.png){width="800" zoomable="yes"}
+
+{{$include /help/_includes/content-design-custom-css.md}}
+
 ### Fragmenten toevoegen
 
 {{$include /help/_includes/content-design-use-fragments.md}}
 
-Nadat de sjabloon is opgeslagen, wordt deze weergegeven op de pagina met fragmentdetails wanneer u het tabblad _[!UICONTROL Used By]_&#x200B;in het overzicht selecteert.
+Nadat de sjabloon is opgeslagen, wordt deze weergegeven op de pagina met fragmentdetails wanneer u het tabblad _[!UICONTROL Used By]_in het overzicht selecteert.
 
 ### Elementen toevoegen
 
@@ -63,7 +73,7 @@ Gebruik de opties voor weergave- en inhoudsvalidatie die beschikbaar zijn in de 
 
 ### Meer opties
 
-Vanuit het menu _[!UICONTROL More ...]_&#x200B;boven aan de ontwerpruimte voor e-mail kunt u de volgende handelingen uitvoeren:
+Vanuit het menu _[!UICONTROL More ...]_boven aan de ontwerpruimte voor e-mail kunt u de volgende handelingen uitvoeren:
 
 ![ klik Meer om tot malplaatjeacties ](./assets/visual-designer-more-menu.png){width="500"} toegang te hebben
 

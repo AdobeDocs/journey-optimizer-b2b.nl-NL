@@ -2,10 +2,10 @@
 title: Documentatie voor Adobe Journey Optimizer B2B Edition
 description: Leer hoe u de Adobe Journey Optimizer B2B edition-functies kunt gebruiken voor het ordenen van accounts en het kopen van groepsreizen met behulp van ingebouwde generatieve AI en toonaangevende automatisering.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 0e1cfb13d3597f06ddb08d8b861de8909478eafd
+source-git-commit: ef8f8b4cdea143aec1add8af9b825c36053ccdf0
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 4%
+source-wordcount: '610'
+ht-degree: 5%
 
 ---
 
@@ -23,43 +23,41 @@ Integreer GenStudio for Performance Marketing e-mailervaringen met Journey Optim
 
 [!BADGE Meer informatie]{type=Informative url="/help/user/content/genstudio-email-workflow.md" tooltip="Meer informatie over GenStudio e-mailervaringen"}
 
->[!TAB  de lijsten van de Rekening ]
+>[!TAB  Spam opsporing rapporterend ]
 
-Maak een accountlijst, die bestaat uit een verzameling benoemde accounts die Marktdeelnemers kunnen gebruiken voor een doelgerichte reisorganisatie. Een accountlijst kan zich richten op benoemde accounts op basis van uw gedefinieerde criteria, zoals de branche, locatie of grootte van het bedrijf.
+Met de nieuwe Spam- rapporten, kunt u spamfilters vermijden en ervoor zorgen dat de berichten aan publieksinboxes worden geleverd. Produceer het rapport van a _Spam_ direct in de e-mailontwerpruimte.
 
-[!BADGE Meer informatie]{type=Informative url="/help/user/accounts/account-lists.md" tooltip="Meer informatie over accountlijsten"}
+[!BADGE Meer informatie]{type=Informative url="/help/user/content/email-spam-report.md" tooltip="Meer informatie over Spam-detectie"}
 
->[!TAB  de lijstfilters van de Rekening voor slimme lijsten ]
+>[!TAB  Rekening en het kopen groepsacties ]
 
-U kunt nu slimme Marketo Engage-lijsten filteren met accountlijstfilters. Met deze filters kunt u leden van accountlijsten onderdrukken en opnemen in alle Marketo Engage-campagnes en -programma&#39;s vanaf reizen binnen Journey Optimizer B2B edition.
+Handelingen rechtstreeks vanuit accountdetails en pagina&#39;s met inkoopgroepdetails voor tijdige en opzettelijke betrokkenheid.
 
-[!BADGE Meer informatie]{type=Informative url="/help/user/accounts/account-lists-journeys.md#marketo-engame-program-member-of-account-list" tooltip="Meer informatie over filters voor accountlijsten die worden gebruikt in slimme Marketo Engage-lijsten"}
+Gebruik _verzendt e-mail_ actie om een goedgekeurde e-mail van Marketo Engage naar geselecteerde rekeningscontacten te verzenden of groepsleden te kopen.
 
->[!TAB  de geschiedenisfilters van de Inactiviteit ]
+[!BADGE Meer informatie]{type=Informative url="/help/user/accounts/account-details.md#send-email" tooltip="Meer informatie over het verzenden van e-mails naar contactpersonen voor account"}
 
-Voortgangsreizen op basis van inactiviteit in Marketo Engage-campagnes en -programma&#39;s, zoals e-mail, interessante momenten, wijzigingen in gegevenswaarde en bezochte webpagina&#39;s.
+Van de het kopen groepsdetails, omvatten de acties ook _Wijs een nieuw lid_ toe, _verwijder een lid_, en _geef een rol_ uit.
 
-[!BADGE Meer informatie]{type=Informative url="/help/user/journeys/split-merge-paths-nodes.md#activity-filtering" tooltip="Meer informatie over filters voor inactiviteitsgeschiedenis"}
+[!BADGE Meer informatie]{type=Informative url="/help/user/buying-groups/buying-group-details.md#members-tab" tooltip="Meer informatie over groepsacties kopen"}
 
->[!TAB  de duplicatie van de Reis ]
+>[!TAB  de Steun van CSS van de Douane ]
 
-Dupliceer de reisstructuren van uw account om handmatige fouten tot een minimum te beperken en consistente instellingen, stromen en paden te garanderen. In de gedupliceerde reis, kunt u inhoud of acties aanpassen, die het gemakkelijker maken om grotere en complexere &#x200B; te beheren.
+U kunt nu uw eigen aangepaste CSS toevoegen wanneer u e-mail ontwerpt en pagina-inhoud in de ontwerpruimte plaatst.
 
-[!BADGE Meer informatie]{type=Informative url="/help/user/journeys/journey-overview.md#duplicate-trip" tooltip="Meer informatie over het dupliceren van reizen"}
+[!BADGE Meer informatie]{type=Informative url="/help/user/content/design-custom-css.md" tooltip="Meer informatie over het gebruik van aangepaste CSS"}
 
->[!TAB  Intelligent inzichten dashboard ]
+>[!TAB  de sleutelwoordafbeelding van de Intentie ]
 
-Met het nieuwe intelligente dashboard kunt u zien hoe het aanschaffen van groepskwalificatie geleidelijk verloopt. Weten welke inkoopgroepen snel bewegen en welke stagneren, zodat je de reizen kunt beperken om ze waar nodig te voeden. U hebt ook gegevens op het niveau van de inkoopgroep en de account, die meer context- en historische gegevens voor de betrokkenheid van de klant bieden.
+Als u het model Intentiedetectie wilt activeren en beheren, kunt u nu een spreadsheet uploaden om een categorie voor de toewijzing van intentiegegevens te definiëren.
 
-[!BADGE Meer informatie]{type=Informative url="/help/user/dashboards/intelligent-dashboard.md" tooltip="Meer informatie over het intelligente dashboard"}
+[!BADGE Meer informatie]{type=Informative url="/help/user/admin/intent-data.md" tooltip="Meer informatie over de configuratie voor het toewijzen van trefwoorden in Intentie"}
 
->[!TAB  beeld het uitgeven van Adobe Express ]
+>[!TAB  E-mail het testen met Litmus ]
 
-Met de Snelle acties van Adobe Express kunt u uw inhoud bijwerken met uitsnijden, vergroten/verkleinen, verwijderen van de achtergrond en het omzetten van indelingen. De intuïtieve gebruikersinterface van Adobe Express is ingebouwd zodat u uw afbeeldingselementen snel kunt perfectioneren.
+Met een Litmus-account kunt u nu een voorbeeld van uw e-mailrendering weergeven in populaire e-mailclients van Journey Optimizer B2B edition. Dankzij deze integratie kunt u ervoor zorgen dat uw e-mailinhoud er goed uitziet en werkt zoals deze in elk Postvak IN is ontworpen.
 
-Met Adobe Express Enterprise-licenties kunt u een volledige reeks Adobe Express-mogelijkheden benutten. Gebruik deze functies om afbeeldingen te verfraaien en te verbeteren, terwijl u zich aan de richtlijnen voor merken houdt, en om wegversperringen in de toeleveringsketen van inhoud te verwijderen.
-
-[!BADGE Meer informatie]{type=Informative url="/help/user/content/image-edit-adobe-express.md" tooltip="Meer informatie over het bewerken van afbeeldingen met Adobe Express"}
+[!BADGE Meer informatie]{type=Informative url="/help/user/content/email-test-rendering.md" tooltip="Meer informatie over de integratie van het Litmus e-mailtesten"}
 
 >[!ENDTABS]
 
@@ -139,15 +137,15 @@ Ontdek de onderdelen van een inkoopgroep en begrijp de basisbeginselen van het m
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong> Adobe Journey Optimizer B2B edition </strong><br/>
-<a href="https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank"> Video's en leerprogramma's </a> - <a href="https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank"> beschrijving van het Product </a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank"> Video's en leerprogramma's </a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank"> beschrijving van het Product </a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong> Adobe Experience Platform </strong><br/>
-<a href="https://experienceleague.adobe.com/nl/docs/experience-platform/landing/home" target="_blank"> Documentatie </a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank"> middelen van de Ontwikkelaar </a>
+<a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/home" target="_blank"> Documentatie </a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank"> middelen van de Ontwikkelaar </a>
 </td></tr>
 <tr><td><strong> Adobe Real-Time Customer Data Platform </strong><br/>
-<a href="https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/home" target="_blank"> Documentatie </a> - <a href="https://experienceleague.adobe.com/nl/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank"> zelfstudies van de Ontwikkelaar </a>
+<a href="https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home" target="_blank"> Documentatie </a> - <a href="https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank"> zelfstudies van de Ontwikkelaar </a>
 </td><td><strong> Adobe Marketo Engage </strong><br/>
-<a href="https://experienceleague.adobe.com/nl/docs/marketo/using/home" target="_blank"> documentatie van de Gebruiker </a> - <a href="https://experienceleague.adobe.com/nl/docs/marketo-developer/marketo/home" target="_blank"> documentatie van de Ontwikkelaar </a>
+<a href="https://experienceleague.adobe.com/en/docs/marketo/using/home" target="_blank"> documentatie van de Gebruiker </a> - <a href="https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/home" target="_blank"> documentatie van de Ontwikkelaar </a>
 </td>
 </tr></table>
 

@@ -4,16 +4,16 @@ description: Gebruik de lijst E-mails om je e-mailinhoud in Adobe Journey Optimi
 feature: Email Authoring, Content
 role: User
 exl-id: e7ea71dc-83dc-4044-aa02-8b745368193d
-source-git-commit: 23fe51dd0df0b958a61ada25521f35d8acd8bcc4
+source-git-commit: 4bbe641305065888a59b3e77357e9b39fa6d402e
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
 
 # E-mails
 
-Wanneer u [ e-mails ](./add-email.md) creeert, voegt u hen in de context van een reisknoop toe. Als u met e-mailinhoud buiten het reisoverzicht wilt werken, gebruikt u de lijst van _[!UICONTROL Emails]_&#x200B;om het e-mailbericht te zoeken en bij te werken. U kunt e-mailberichten controleren of de instellingen en inhoud bijwerken.
+Wanneer u [ e-mails ](./add-email.md) creeert, voegt u hen in de context van een reisknoop toe. Als u met e-mailinhoud buiten het reisoverzicht wilt werken, gebruikt u de lijst van _[!UICONTROL Emails]_om het e-mailbericht te zoeken en bij te werken. U kunt e-mailberichten controleren of de instellingen en inhoud bijwerken.
 
 ## E-mails openen en beheren
 
@@ -25,10 +25,12 @@ Als u op naam naar een e-mailbericht wilt zoeken, voert u een tekstreeks in op d
 
 ![ heb toegang tot de bibliotheek en de filter van e-mailmalplaatjes door naam en data ](./assets/emails-list-filtered.png){width="700" zoomable="yes"}
 
-## E-mails bewerken
+## E-mails openen en bewerken
 
 Klik op de e-mailnaam in de lijst om deze te openen. U kunt de [ e-mailmontages ](./add-email.md#define-the-email-settings) herzien en veranderen. Klik **[!UICONTROL Edit email content]** om [ updates aan de inhoud ](./email-authoring.md) te maken.
 
 Als [ alarm ](./add-email.md#check-alerts) bij het hoogste recht van de pagina wordt getoond, klik om de waarschuwingen of de fouten te herzien en de punten te richten zoals nodig.
 
 ![ open e-mail om updates te maken ](./assets/email-open-update.png){width="700" zoomable="yes"}
+
+U kunt ook het [_[!UICONTROL Simulate content]_](./email-simulate-content.md) -venster openen. Met deze gereedschappen kunt u een voorvertoning van de inhoud weergeven met behulp van een testprofiel, proefdrukken verzenden en de e-mail testen op leesbaarheid en rendering van e-mailclients.

@@ -4,24 +4,26 @@ description: Meer informatie over uitgebreide informatie en algemene AI-overzich
 feature: Account Insights
 role: User
 exl-id: 12be33de-0a43-43d9-90b8-fe4411a50599
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 31c79208503e01964475230ea950eb8bdfadd176
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 1%
+source-wordcount: '615'
+ht-degree: 0%
 
 ---
 
 # Accountgegevens
 
-Als u ergens in Journey Optimizer B2B edition op een accountnaam klikt, worden de accountgegevens weergegeven. Deze informatie biedt nuttige informatie over de account, waaronder algemene AI-overzichten.
+Wanneer u een rekeningsnaam van overal in Journey Optimizer B2B edition klikt, wordt de _pagina van de Details van de Rekening_ getoond. Deze pagina bevat nuttige informatie over de account, waaronder algemene AI-overzichten. Er zijn ook [ acties ](#account-actions) die u voor contacten verbonden aan de rekening kunt uitvoeren.
 
 ![ heb toegang tot de rekeningsdetails ](./assets/account-details.png){width="700" zoomable="yes"}
 
-{{intent-data-note}}
+Gebruik het tabblad **[!UICONTROL Overview]** om informatie over de account te bekijken en het tabblad **[!UICONTROL Contacts]** om toegang te krijgen tot een lijst met contactpersonen voor de account.
+
+## [!UICONTROL Overview] tab
 
 De pagina met accountdetails bestaat uit drie primaire secties:
 
-## Accountoverzicht
+### Accountoverzicht
 
 ![ Overzicht van de Rekening ](./assets/details-page-account-overview.png){zoomable="yes"}
 
@@ -31,14 +33,26 @@ Het gedeelte Accountoverzicht bevat de volgende accountgegevens:
 * Aantal personen op de account
 * Marktsegment
 * Open kansen
-* De drie meest recente rekeningreizen waar de account momenteel wordt gebruikt (klik op de naam om de reisgegevens te openen)
+* De drie meest recente rekeningsreizen waar de rekening momenteel in gebruik is (klik de reisnaam om het [ reisoverzicht ](../journeys/journey-overview.md) te openen)
 * Generatieve AI-samenvatting van de rekening, die informatie bevat over de belangrijkste betrokken inkoopgroepen.
 
-## Contact opnemen
+### Intentgegevens
+
+In Journey Optimizer B2B edition voorspelt het Intent Detection-model een oplossing/product van interesse met voldoende vertrouwen op basis van de activiteit van het rekeningcontact. De intent of account contacten kan worden geïnterpreteerd als de waarschijnlijkheid dat een product geïnteresseerd is.
+
+{{intent-data-note}}
+
+![ Gegevens van de Intentie - rekeningsdetails ](./assets/intent-data-panel.png){width="700" zoomable="yes"}
+
+* Intentieniveaus
+* Typen intentsignalen - Trefwoorden, product en oplossing
+
+
+### Contact opnemen
 
 ![ de contactdekking van de Rekening ](./assets/details-page-contact-coverage.png){width="800" zoomable="yes"}
 
-De _[!UICONTROL Contact coverage]_&#x200B;sectie toont het aantal contacten van de rekening met een specifieke rol verbonden aan een oplossingsbelang. De toewijzing van rol en oplossingsbelang is gebaseerd op het het kopen malplaatje van de rollen van de groep. Klik op een cel om gedetailleerde informatie weer te geven:
+De _[!UICONTROL Contact coverage]_sectie toont het aantal contacten van de rekening met een specifieke rol verbonden aan een oplossingsbelang. De toewijzing van rol en oplossingsbelang is gebaseerd op het het kopen malplaatje van de rollen van de groep. Klik op een cel om de volgende details weer te geven:
 
 * Beschrijving, in het volgende formaat: _x de mensen hebben y rol voor de rente van de oplossing van z_
 * Kolommen
@@ -55,11 +69,11 @@ Klik het _pictogram van de Filter_ ( ![ pictogram van de Filter ](../assets/do-n
 * Oplossingsrente
 * Tijdsperiode
 
-## Contactoverlapping
+### Contactoverlapping
 
 ![ het contactoverlapping van de Rekening ](./assets/details-page-contact-overlap.png){width="800" zoomable="yes"}
 
-In de sectie _[!UICONTROL Contact overlap]_&#x200B;worden contactpersonen van de account weergegeven die deel uitmaken van meer dan één inkoopgroep omdat ze aan meerdere belangen van oplossingen zijn gekoppeld. Deze informatie bestaat uit een tabel met de volgende kolommen:
+In de sectie _[!UICONTROL Contact overlap]_worden contactpersonen van de account weergegeven die deel uitmaken van meer dan één inkoopgroep omdat ze aan meerdere belangen van oplossingen zijn gekoppeld. Deze informatie bestaat uit een tabel met de volgende kolommen:
 
 * Naam
 * Functie
@@ -68,13 +82,53 @@ In de sectie _[!UICONTROL Contact overlap]_&#x200B;worden contactpersonen van de
 
 Klik de _Informatie_ ( ![ pictogram van de Informatie ](../assets/do-not-localize/icon-info.svg)) naast de contactnaam om een lijst met de volgende details te tonen:
 
-* Groep kopen (klik op de naam om de gegevens van de inkoopgroep te openen)
+* Het kopen groep (klik de naam om de [ het kopen groepsdetails ](../buying-groups/buying-group-details.md) te openen)
 * Functie
 * Oplossingsrente
-* Productintentie (indien geconfigureerd)
+* De intentie van het product (als [ gevormd ](../admin/intent-data.md))
 * Product
 
 Klik het _pictogram van de Filter_ ( ![ pictogram van de Filter ](../assets/do-not-localize/icon-filter.svg) ) bij de bovenkant verlaten om de gegevensvertoning te filtreren gebruikend om het even welk van deze attributen:
 
 * Oplossingsrente
 * Rollen
+
+## [!UICONTROL Contacts] tab
+
+Selecteer het tabblad **[!UICONTROL Contacts]** om een lijst weer te geven met alle personen die aan het account zijn gekoppeld en die naar Experience Platform worden gesynchroniseerd. Elke vermelde contactpersoon bevat de naam, het e-mailadres en de betrokkenheidsscore.
+
+![ de details van de Rekening - Contacten tabel ](./assets/account-details-contacts-tab.png){width="700" zoomable="yes"}
+
+## E-mail verzenden
+
+U kunt een door een markeerteken goedgekeurde e-mail naar een of meer geselecteerde contactpersonen (maximaal 50 tegelijk) of naar alle contactpersonen voor de account verzenden. De lijst met beschikbare e-mails is beperkt tot goedgekeurde e-mailberichten van het aangesloten Marketo Engage-exemplaar.
+
+>[!BEGINTABS]
+
+>[!TAB  Alle rekeningscontacten ]
+
+1. Klik in het tabblad _[!UICONTROL Overview]_rechtsboven op **[!UICONTROL Send email]**.
+
+   ![ de details van de Rekening - selecteren e-mail ](../accounts/assets/account-details-send-email.png){width="700" zoomable="yes"}
+
+1. Selecteer in het dialoogvenster _[!UICONTROL Send email]_de Marketo Engage-werkruimte en schakel vervolgens het selectievakje in voor de e-mail die u wilt verzenden.
+
+   ![ selecteer een e-mail om naar het kopen groepsleden te verzenden ](../accounts/assets/account-details-send-email-dialog.png){width="700" zoomable="yes"}
+
+1. Klik op **[!UICONTROL Send]**.
+
+>[!TAB  Geselecteerde contacten ]
+
+1. Selecteer op het tabblad _[!UICONTROL Contacts]_de selectievakjes voor de contactpersonen die u de e-mail wilt ontvangen.
+
+1. Klik op **[!UICONTROL Send email]** rechtsboven of in de selectiebalk onderaan.
+
+   ![ Leden tabel - verzend e-mail ](../accounts/assets/account-details-send-email-selections.png){width="700" zoomable="yes"}
+
+1. Selecteer in het dialoogvenster _[!UICONTROL Send email]_de Marketo Engage-werkruimte en schakel vervolgens het selectievakje in voor de e-mail die u wilt verzenden.
+
+   ![ selecteer een e-mail om naar het kopen groepsleden te verzenden ](../accounts/assets/account-details-send-email-dialog.png){width="700" zoomable="yes"}
+
+1. Klik op **[!UICONTROL Send]**.
+
+>[!ENDTABS]
