@@ -33,7 +33,7 @@ Meer informatie over toegangsbeheer vindt u op de volgende pagina&#39;s:
 
 1. **Werk met uw gegevensingenieur** om uw B2B publiek en profielactivering te plannen en uit te voeren. Bekijk de gepubliceerde blauwdrukken en volg de richtlijnen op basis van uw vereisten. [Meer informatie](https://experienceleague.adobe.com/nl/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
 
-1. **Plan en voer de integratie van Marketo Engage** uit om douaneschema, opname van profielen en rekeningen, en de organisatie van gepersonaliseerde reizen voor het kopen van groepen op te nemen. [Meer informatie](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2b-journeys-with-marketo){target="_blank"}
+1. **Plan en voer de integratie van Marketo Engage** uit om douaneschema, opname van profielen en rekeningen, en de organisatie van gepersonaliseerde reizen voor het kopen van groepen op te nemen. [Meer informatie](https://experienceleague.adobe.com/nl/docs/blueprints-learn/architecture/b2b-activation/b2b-journeys-with-marketo){target="_blank"}
 
 1. **opstelling het productprofiel**. Een productprofiel is een reeks eenheidrechten in Adobe Experience Platform die gebruikers toegang tot bepaalde functies of objecten in de interface biedt. [Meer informatie](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
