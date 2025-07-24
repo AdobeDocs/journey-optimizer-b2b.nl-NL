@@ -180,4 +180,4 @@ Het statuut van de dynamische rekeningslijst verandert in _[!UICONTROL Live]_&#x
 
 ## Video over overzicht
 
->[!VIDEO](https://video.tv.adobe.com/v/3448636/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448655/?learn=on&captions=dut)
