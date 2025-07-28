@@ -74,7 +74,7 @@ Een bepaald merk verstrekt de _bron van waarheid_ voor uw creatief team om te ge
 
 De beheerders van het product kunnen toegang tot het merkbeheer en merkgroepering eigenschappen toelaten door de **[!UICONTROL Manage brand kit]** of **[!UICONTROL Enable AI assistant]** middeltoestemmingen door _toe te wijzen toestemmingen_ app in Adobe Experience Cloud.
 
-1. In de toepassing van Toestemmingen, ga naar het **[!UICONTROL Roles]** lusje en selecteer de gewenste [ rol ](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/abac/permissions-ui/roles){target="_blank"}.
+1. In de toepassing van Toestemmingen, ga naar het **[!UICONTROL Roles]** lusje en selecteer de gewenste [ rol ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/roles){target="_blank"}.
 
 1. Klik op **[!UICONTROL Edit]** om de machtigingen te wijzigen.
 
@@ -90,11 +90,11 @@ De beheerders van het product kunnen toegang tot het merkbeheer en merkgroeperin
 
    De toestemmingen worden automatisch bijgewerkt voor om het even welke gebruikers die reeds aan de rol worden toegewezen.
 
-1. Als u deze rol aan nieuwe gebruikers wilt toewijzen, selecteert u de tab **[!UICONTROL Users]** in het _[!UICONTROL Roles]_&#x200B;dashboard en klikt u op **[!UICONTROL Add User]**.
+1. Als u deze rol aan nieuwe gebruikers wilt toewijzen, selecteert u de tab **[!UICONTROL Users]** in het _[!UICONTROL Roles]_dashboard en klikt u op **[!UICONTROL Add User]**.
 
    * Voer de gebruikersnaam en het e-mailadres in of kies een bestaande gebruiker in de lijst.
 
-     Als de gebruiker nog niet wordt gecreeerd, verwijs naar de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}.
+     Als de gebruiker nog niet wordt gecreeerd, verwijs naar de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}.
 
    * Klik op **[!UICONTROL Save]** om de wijzigingen toe te passen.
 
