@@ -77,7 +77,7 @@ Als u richtlijnen voor uw merk wilt maken en definiëren, kunt u de details invo
 
 ### Voeg het merk toe
 
-1. Klik rechtsboven op de pagina _[!UICONTROL Brands]_op **[!UICONTROL Create brand]**.
+1. Klik rechtsboven op de pagina _[!UICONTROL Brands]_&#x200B;op **[!UICONTROL Create brand]**.
 
 1. Voer een **[!UICONTROL Name]** in voor uw merk.
 
@@ -299,7 +299,7 @@ To define the overall style for the category, click **[!UICONTROL Add style]**. 
 
 #### Voorbeeldafbeeldingen
 
-Als u een afbeelding wilt toevoegen waarin het juiste of onjuiste gebruik wordt getoond, kiest u **[!UICONTROL Example]** in het pop-updialoogvenster _[!UICONTROL Add guideline]_of_[!UICONTROL Add exclusion]_ . Klik op **[!UICONTROL Select image]** om een afbeeldingsbestand van uw systeem te kiezen. Klik op **[!UICONTROL Add]** om de afbeelding te uploaden en de miniatuur voor het gebied weer te geven.
+Als u een afbeelding wilt toevoegen waarin het juiste of onjuiste gebruik wordt getoond, kiest u **[!UICONTROL Example]** in het pop-updialoogvenster _[!UICONTROL Add guideline]_&#x200B;of&#x200B;_[!UICONTROL Add exclusion]_ . Klik op **[!UICONTROL Select image]** om een afbeeldingsbestand van uw systeem te kiezen. Klik op **[!UICONTROL Add]** om de afbeelding te uploaden en de miniatuur voor het gebied weer te geven.
 
 ![ voeg voorbeeldbeeld ](./assets/brands-guidelines-example-image.png){width="500" zoomable="yes"} toe
 
