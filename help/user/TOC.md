@@ -1,9 +1,9 @@
 ---
 user-guide-title: Documentatie voor de B2B-editie van Journey Optimizer
 user-guide-description: Meer informatie over de B2B-editie van Adobe Journey Optimizer en hoe u deze kunt gebruiken om account- en inkoopgroeptrajecten te orkestreren met behulp van ingebouwde generatieve AI en toonaangevende automatisering.
-source-git-commit: d50e7eb067e40bdcc18c93baec1a0b6713bf793c
+source-git-commit: 99e859e352cb2682e1d3fb5f0000eb55eacf2642
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '292'
 ht-degree: 19%
 
 ---
@@ -88,12 +88,16 @@ ht-degree: 19%
    + Fragmenten {#visual-fragments}
       + [Overzicht](./content/fragments.md)
       + [Fragmentauthoring](./content/fragment-authoring.md)
-   + Forms {#forms}
+   + Forms (Beta) {#forms}
       + [Overzicht](./content/forms.md)
       + [Formulierontwerp](./content/form-design.md)
-   + Openingspagina&#39;s {#landing-pages}
+   + Openingspagina&#39;s (Beta) {#landing-pages}
       + [Overzicht](./content/landing-pages.md)
       + [Ontwerp bestemmingspagina](./content/landing-page-design.md)
+   + Merken (Beta) {#brands}
+      + [Overzicht](./content/brands-overview.md)
+      + [Beheren en maken](./content/brands-manage-create.md)
+      + [ Merk groepering ](./content/brand-alignment.md)
    + [Voorwaardelijke inhoud](./content/conditional-content.md)
    + [Aangepaste CSS](./content/design-custom-css.md)
 + Inhoudsdashboards {#dashboards}
