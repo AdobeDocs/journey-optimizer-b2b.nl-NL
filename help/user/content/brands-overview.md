@@ -90,7 +90,7 @@ De beheerders van het product kunnen toegang tot het merkbeheer en merkgroeperin
 
    De toestemmingen worden automatisch bijgewerkt voor om het even welke gebruikers die reeds aan de rol worden toegewezen.
 
-1. Als u deze rol aan nieuwe gebruikers wilt toewijzen, selecteert u de tab **[!UICONTROL Users]** in het _[!UICONTROL Roles]_dashboard en klikt u op **[!UICONTROL Add User]**.
+1. Als u deze rol aan nieuwe gebruikers wilt toewijzen, selecteert u de tab **[!UICONTROL Users]** in het _[!UICONTROL Roles]_&#x200B;dashboard en klikt u op **[!UICONTROL Add User]**.
 
    * Voer de gebruikersnaam en het e-mailadres in of kies een bestaande gebruiker in de lijst.
 
