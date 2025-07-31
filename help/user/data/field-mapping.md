@@ -4,9 +4,9 @@ description: Controleer de standaardkenmerkvelden die zijn gesynchroniseerd tuss
 feature: Data Management, Integrations
 role: User
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: 9ad8ba495cdae4c88d9422f758ea912ca84e143c
+source-git-commit: b62891e3d87ac4ff5345dac564d63c0b8aaa9669
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '1097'
 ht-degree: 6%
 
 ---
@@ -17,7 +17,7 @@ Accountpublieksgegevens worden opgeslagen als kenmerken in zowel de XDM Business
 
 >[!TIP]
 >
->U kunt de klassen van de Zakelijke Persoon XDM en van de Zakelijke Rekening XDM in een vele-aan-vele verhouding modelleren door de klasse van de Verhouding van de Person van de Onderneming XDM te gebruiken XDM zoals die in de [ documentatie XDM van Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"} wordt beschreven.
+>U kunt de klassen van de Zakelijke Persoon XDM en van de Zakelijke Rekening XDM in een vele-aan-vele verhouding modelleren door de klasse van de Verhouding van de Person van de Onderneming XDM te gebruiken XDM zoals die in de [ documentatie XDM van Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"} wordt beschreven.
 
 ## Kenmerken XDM Zakelijke account persoon relatie
 
@@ -29,7 +29,10 @@ Accountpublieksgegevens worden opgeslagen als kenmerken in zowel de XDM Business
 
 >[!IMPORTANT]
 >
->Het attribuut `workEmail.Address` is vereist. Als het voor een lid van het rekeningspubliek leeg is, wordt die persoon niet gegeten en weggelaten van rekeningsreizen en het kopen groepen die het publiek van verwijzingen voorzien.
+>Het e-mailadreskenmerk is vereist en moet worden ingevuld voor de juiste functionaliteit. Standaard gebruikt het systeem `workEmail.Address` . Als u een verschillend attribuut van plan bent te gebruiken, contacteer de Steun van Adobe alvorens om het even welke reizen te publiceren om juiste configuratie te verzekeren.<br/>
+>
+>Zorg ervoor dat het e-mailkenmerk niet null is, omdat dit van invloed kan zijn op gegevenssynchronisatie en downstreamprocessen.
+><ul><li>Als het e-mailkenmerk null is in CDP B2B in realtime en de persoon bestaat in Journey Optimizer B2B edition, wordt het kenmerk in overschreven in Journey Optimizer B2B edition met de waarde null tijdens de synchronisatie. Vervolgens blijft de waarde null in Marketo Engage.<li>Als het e-mailkenmerk null is in CDP B2B in realtime en de persoon niet bestaat in Journey Optimizer B2B edition, wordt het persoonrecord niet gesynchroniseerd.<ul/>
 
 | [ Bezit ](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md){target="_blank"} | Weergavenaam | Journey Optimizer B2B-weergavenaam | Gegevenstype | Beschrijving |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
@@ -81,7 +84,7 @@ Accountpublieksgegevens worden opgeslagen als kenmerken in zowel de XDM Business
 
 <!-- ## XDM Business Opportunity attributes
 
-Additionally, opportunity data is stored as attributes in the XDM Business Opportunity class, which can be associated with the XDM Business Account class through a many-to-one relationship, as described in the [Exerience Platform documentation](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
+Additionally, opportunity data is stored as attributes in the XDM Business Opportunity class, which can be associated with the XDM Business Account class through a many-to-one relationship, as described in the [Exerience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
 
 |[Property](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md){target="_blank"} |Display name |Journey Optimizer B2B display name |Data type |Description |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
