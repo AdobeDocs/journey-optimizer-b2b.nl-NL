@@ -121,7 +121,7 @@ Voor informatie over gebruikersbeheer, zie [ de gebruikers van Admin Console ](h
 
 1. Ga naar [ https://adminconsole.adobe.com ](https://adminconsole.adobe.com).
 
-1. Klik onder _[!UICONTROL Quick links]_op **[!UICONTROL Add users]**.
+1. Klik onder _[!UICONTROL Quick links]_&#x200B;op **[!UICONTROL Add users]**.
 
 1. Voeg elke gebruiker toe:
 
@@ -268,7 +268,7 @@ For information about user management, see [Admin Console users](https://helpx.a
 
 1. Selecteer **[!UICONTROL Roles]** in de linkernavigatie en selecteer **[!UICONTROL Create role]**.
 
-1. In de _[!UICONTROL Create new role]_dialoog, ga een naam voor de rol, zoals_ B2B Marketers _, en een beschrijving (facultatief) in.
+1. In de _[!UICONTROL Create new role]_&#x200B;dialoog, ga een naam voor de rol, zoals_ B2B Marketers _, en een beschrijving (facultatief) in.
 
 1. Klik op **[!UICONTROL Confirm]**.
 
@@ -278,7 +278,7 @@ For information about user management, see [Admin Console users](https://helpx.a
 
 1. Voeg de profielmachtigingen toe:
 
-   * In de _[!UICONTROL Resources]_lijst op de linkerzijde, bepaal de plaats van het **[!UICONTROL Profile Management]**punt en klik_ toevoegen _(**+**) pictogram om de attributen toe te voegen.
+   * In de _[!UICONTROL Resources]_&#x200B;lijst op de linkerzijde, bepaal de plaats van het **[!UICONTROL Profile Management]**&#x200B;punt en klik_ toevoegen _(**+**) pictogram om de attributen toe te voegen.
 
    * Voeg voor het kenmerk de volgende machtigingen toe:
       * [!UICONTROL View segments]
@@ -294,7 +294,7 @@ For information about user management, see [Admin Console users](https://helpx.a
 
    Verwijs naar de lijst van [ B2B producttoestemmingen ](#b2b-product-permissions) om te bepalen welke productmogelijkheden die u voor de rol wilt.
 
-   In de _[!UICONTROL Resources]_lijst op de linkerzijde, bepaal de plaats van de **[!UICONTROL B2B]**punten en klik_ _toevoegen (**+**) pictogram om elk attribuut toe te voegen dat u voor de rol wilt toelaten.
+   In de _[!UICONTROL Resources]_&#x200B;lijst op de linkerzijde, bepaal de plaats van de **[!UICONTROL B2B]**&#x200B;punten en klik_ _toevoegen (**+**) pictogram om elk attribuut toe te voegen dat u voor de rol wilt toelaten.
 
    U kunt _B2B_ in het onderzoekshulpmiddel ingaan om de lijst voor de B2B producttoestemmingen te filtreren.
 
