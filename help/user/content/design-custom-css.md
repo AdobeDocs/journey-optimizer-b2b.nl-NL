@@ -56,7 +56,7 @@ De aangepaste CSS wordt met het kenmerk `<head>` toegevoegd aan de sectie `<styl
 
 >[!NOTE]
 >
->De aangepaste CSS wordt niet weerspiegeld of gevalideerd in het deelvenster _[!UICONTROL Styles]_voor een geselecteerde component. Deze is volledig onafhankelijk en kan alleen worden gewijzigd met de optie [!UICONTROL Add Custom CSS] op het niveau van de hoofdcomponent.
+>De aangepaste CSS wordt niet weerspiegeld of gevalideerd in het deelvenster _[!UICONTROL Styles]_&#x200B;voor een geselecteerde component. Deze is volledig onafhankelijk en kan alleen worden gewijzigd met de optie [!UICONTROL Add Custom CSS] op het niveau van de hoofdcomponent.
 
 ## Aangepaste CSS toevoegen
 
@@ -68,9 +68,9 @@ De aangepaste CSS wordt met het kenmerk `<head>` toegevoegd aan de sectie `<styl
 
    >[!NOTE]
    >
-   >De knop _[!UICONTROL Add custom CSS]_is alleen beschikbaar wanneer de component_[!UICONTROL Body]_ is geselecteerd. U kunt echter aangepaste CSS-stijlen toepassen op alle componenten in de stijl.
+   >De knop _[!UICONTROL Add custom CSS]_&#x200B;is alleen beschikbaar wanneer de component&#x200B;_[!UICONTROL Body]_ is geselecteerd. U kunt echter aangepaste CSS-stijlen toepassen op alle componenten in de stijl.
 
-   De pop-upeditor van _[!UICONTROL Add custom CSS]_wordt weergegeven met opmerkingen voor plaatsaanduidingscode.
+   De pop-upeditor van _[!UICONTROL Add custom CSS]_&#x200B;wordt weergegeven met opmerkingen voor plaatsaanduidingscode.
 
 1. Voer uw CSS-code in de editor in.
 

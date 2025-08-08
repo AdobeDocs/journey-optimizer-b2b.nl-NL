@@ -12,7 +12,7 @@ ht-degree: 0%
 
 1. Als u het inhoudsontwerp wilt starten, sleept u een item van de **[!UICONTROL Structures]** naar het canvas.
 
-   Voeg zoveel items vanuit _[!UICONTROL Structures]_toe als u nodig hebt en bewerk de instellingen voor elk item in het rechterdeelvenster.
+   Voeg zoveel items vanuit _[!UICONTROL Structures]_&#x200B;toe als u nodig hebt en bewerk de instellingen voor elk item in het rechterdeelvenster.
 
    >[!TIP]
    >
@@ -28,7 +28,7 @@ ht-degree: 0%
    <!--
    reference to the contents elements when we have a completed reference for each.--->
 
-1. Indien nodig kunt u aanvullende aanpassingen aanbrengen voor elke component op de tabbladen _[!UICONTROL Settings]_of_[!UICONTROL Style]_ .
+1. Indien nodig kunt u aanvullende aanpassingen aanbrengen voor elke component op de tabbladen _[!UICONTROL Settings]_&#x200B;of&#x200B;_[!UICONTROL Style]_ .
 
    U kunt bijvoorbeeld de tekststijl, opvulling of marge van elke component wijzigen.
 

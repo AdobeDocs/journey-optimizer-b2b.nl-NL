@@ -10,7 +10,7 @@ ht-degree: 0%
 
 # Inhoud ontwerpen - koppelingen bijhouden
 
-1. Klik het _[!UICONTROL Links]_pictogram ( ![ toon het verbindingspictogram ](../assets/do-not-localize/icon-links.svg)) op de linkerzijde om alle verbonden URLs in uw te volgen inhoud te tonen.
+1. Klik het _[!UICONTROL Links]_&#x200B;pictogram ( ![ toon het verbindingspictogram ](../assets/do-not-localize/icon-links.svg)) op de linkerzijde om alle verbonden URLs in uw te volgen inhoud te tonen.
 
 1. Indien nodig, klik _uitgeven_ ( ![ geef pictogram ](../user/assets/do-not-localize/icon-edit.svg) uit) pictogram en wijzig **[!UICONTROL Tracking Type]** of **[!UICONTROL Label]**.
 
