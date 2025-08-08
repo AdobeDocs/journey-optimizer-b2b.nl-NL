@@ -53,7 +53,7 @@ In de sectie **[!UICONTROL Contents]** onder aan de Componentenbibliotheek worde
 
 Elk type inhoudscomponent geeft een werkbalk weer wanneer u de component op het canvas selecteert. De beschikbare hulpmiddelen, die door het componenttype variëren, verstrekken een gemakkelijke manier om met de component direct in de teruggegeven inhoud te werken. Het omvat het formatteren en functionele mogelijkheden die voor het componenttype van toepassing zijn.
 
-![ de componententoolbar van 0} Inhoud](../assets/do-not-localize/toolbar-content.png){width="450"}
+![ de componententoolbar van 0&rbrace; Inhoud](../assets/do-not-localize/toolbar-content.png){width="450"}
 
 ### Opmaakgereedschappen
 
@@ -239,7 +239,7 @@ Wijzig de instelling **[!UICONTROL Display Options]** als u de component wilt ui
 
 Gebruik een container om specifieke opmaak toe te passen op een groep inhoudcomponenten. Voeg een [!UICONTROL Container] -component toe en voeg vervolgens andere inhoudscomponenten toe. Deze component is vergelijkbaar met het gebruik van een `div` -element in HTML. U kunt een afzonderlijke stijl op de container toepassen die verschilt van de stijl die is toegepast op de inhoudcomponenten die de container bevat.
 
-Voeg bijvoorbeeld een component _[!UICONTROL Container]_toe en voeg vervolgens een component_[!UICONTROL Button]_ in die container toe. U kunt een specifieke gebiedsstijl voor de container gebruiken, en de knoop en zijn achtergrond opmaken zoals u nodig hebt.
+Voeg bijvoorbeeld een component _[!UICONTROL Container]_&#x200B;toe en voeg vervolgens een component&#x200B;_[!UICONTROL Button]_ in die container toe. U kunt een specifieke gebiedsstijl voor de container gebruiken, en de knoop en zijn achtergrond opmaken zoals u nodig hebt.
 
 ![ de componentenstijlen van de inhoudcomponent van de Container ](./assets/content-components-container.png){width="600" zoomable="yes"}
 
@@ -287,7 +287,7 @@ Wanneer u de tekst van het knoplabel invoert en de opmaak instelt, wordt de groo
 
 #### Koppelingsopties instellen
 
-Gebruik op het tabblad _[!UICONTROL Settings]_de opties van **[!UICONTROL Link]**om de knoptekst, het doel van de koppeling en het browsergedrag voor het laden van de doelpagina te definiëren.
+Gebruik op het tabblad _[!UICONTROL Settings]_&#x200B;de opties van **[!UICONTROL Link]**&#x200B;om de knoptekst, het doel van de koppeling en het browsergedrag voor het laden van de doelpagina te definiëren.
 
 1. Stel de **[!UICONTROL Type]** voor de koppeling in:
 
@@ -307,7 +307,7 @@ Gebruik op het tabblad _[!UICONTROL Settings]_de opties van **[!UICONTROL Link]*
 
    De grootte van de knop wordt aangepast aan de tekst en de stijl die u instelt.
 
-1. Voor ** [!UICONTROL Target**], kies hoe de verbonden bestemming van e-mail of pagina wordt opnieuw gericht:
+1. Voor **&#x200B; [!UICONTROL Target**], kies hoe de verbonden bestemming van e-mail of pagina wordt opnieuw gericht:
 
    * _[!UICONTROL None]_- De koppeling wordt geopend met het standaardgedrag van de browser of client (standaard).
    * _[!UICONTROL Blank]_- Hiermee opent u de koppeling in een nieuw venster of op een nieuw tabblad.
@@ -531,7 +531,7 @@ Gebruik de component [!UICONTROL Image] om een afbeeldingselement in te voegen i
 
 #### Afbeeldingselement toevoegen
 
-Kies het [ type van middelbron 0} ](./assets-overview.md) en selecteer een beelddossier:
+Kies het [ type van middelbron 0&rbrace; ](./assets-overview.md) en selecteer een beelddossier:
 
 * **[!UICONTROL Marketo Engage Assets]** - Kies dit type om door een afbeeldingselement te bladeren en dit te selecteren in de Journey Optimizer B2B edition-bibliotheek of in de aangesloten Market Engage-instantie.
 
@@ -549,7 +549,7 @@ Kies het [ type van middelbron 0} ](./assets-overview.md) en selecteer een beeld
 
 * **[!UICONTROL Experience Manager Assets]** - kies dit type om een beeldactiva van a te doorbladeren en te selecteren [ gevormde Ervaring beheert de bewaarplaats van Assets ](../admin/configure-aem-repositories.md).
 
-  Kies in het dialoogvenster _[!UICONTROL Select Assets]_een afbeelding met de beschikbare gereedschappen om te zoeken naar het benodigde element en klik op **[!UICONTROL Select]**.:
+  Kies in het dialoogvenster _[!UICONTROL Select Assets]_&#x200B;een afbeelding met de beschikbare gereedschappen om te zoeken naar het benodigde element en klik op **[!UICONTROL Select]**.:
 
    * Wijzig de **[!UICONTROL Repository]** rechtsboven.
 
@@ -571,7 +571,7 @@ Kies het [ type van middelbron 0} ](./assets-overview.md) en selecteer een beeld
 
 * **[!UICONTROL Import media]** - Kies dit type om een bestand op uw systeem te selecteren en in de Journey Optimizer B2B edition-bibliotheek met middelen te importeren.
 
-  Sleep in het dialoogvenster _[!UICONTROL Upload image]_een bestand van uw systeem naar het bestandsvak. De maximale bestandsgrootte is 100 MB.
+  Sleep in het dialoogvenster _[!UICONTROL Upload image]_&#x200B;een bestand van uw systeem naar het bestandsvak. De maximale bestandsgrootte is 100 MB.
 
   ![ de Invoer een beelddossier in ](./assets/email-designer-image-upload.png){width="450"}
 
@@ -585,7 +585,7 @@ U kunt een afbeeldingstitel en alternatieve tekst voor de afbeelding toevoegen i
 
 #### Koppelingsopties instellen
 
-Gebruik op het tabblad _[!UICONTROL Settings]_de opties van **[!UICONTROL Link]**om de afbeelding te koppelen aan een doel en het browsergedrag voor het laden van de doelpagina.
+Gebruik op het tabblad _[!UICONTROL Settings]_&#x200B;de opties van **[!UICONTROL Link]**&#x200B;om de afbeelding te koppelen aan een doel en het browsergedrag voor het laden van de doelpagina.
 
 1. Stel de **[!UICONTROL Type]** voor de koppeling in:
 
@@ -605,7 +605,7 @@ Gebruik op het tabblad _[!UICONTROL Settings]_de opties van **[!UICONTROL Link]*
 
    De grootte van de knop wordt aangepast aan de tekst en de stijl die u instelt.
 
-1. Voor ** [!UICONTROL Target**], kies hoe de verbonden bestemming van e-mail of pagina wordt opnieuw gericht:
+1. Voor **&#x200B; [!UICONTROL Target**], kies hoe de verbonden bestemming van e-mail of pagina wordt opnieuw gericht:
 
    * _[!UICONTROL None]_- De koppeling wordt geopend met het standaardgedrag van de browser of client (standaard).
    * _[!UICONTROL Blank]_- Hiermee opent u de koppeling in een nieuw venster of op een nieuw tabblad.
