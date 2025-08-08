@@ -5,9 +5,9 @@ feature: Landing Pages, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Deze functie bevindt zich momenteel in een beperkte bètaversie"
 exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
-source-git-commit: 9b053f81e3074f03740fe1f3b69f632219ad269a
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
@@ -17,16 +17,6 @@ ht-degree: 0%
 Nadat u [ een het landen pagina ](./landing-pages.md#create-a-landing-page) creeert, gebruik de visuele ontwerpruimte aan auteur de structuur en inhoudscomponenten in uw pagina.
 
 ## Structuur en inhoud toevoegen {#structure-content-landing-page}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_landing_page_structure"
->title="Structuurcomponenten toevoegen aan de bestemmingspagina"
->abstract="Structuurcomponenten definiëren de indeling van de bestemmingspagina. De belemmering en laat vallen component van de a **Structuur** in het canvas beginnen de inhoud voor uw pagina te ontwerpen."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_landing_page_content_components"
->title="Informatie over inhoudscomponenten voor het openen van pagina&#39;s"
->abstract="Inhoudscomponenten zijn lege plaatsaanduidingen voor inhoud die u kunt gebruiken om de lay-out van een bestemmingspagina te maken."
 
 {{$include /help/_includes/content-design-components.md}}
 
@@ -78,11 +68,11 @@ Gebruik de opties voor weergave- en inhoudsvalidatie die beschikbaar zijn in de 
 
 ### Meer opties
 
-Vanuit het menu _[!UICONTROL More ...]_&#x200B;boven aan de visuele ontwerpruimte kunt u de volgende handelingen uitvoeren:
+Vanuit het menu _[!UICONTROL More ...]_boven aan de visuele ontwerpruimte kunt u de volgende handelingen uitvoeren:
 
 ![ klik Meer om tot malplaatjeacties ](./assets/landing-page-designer-more-menu.png){width="500"} toegang te hebben
 
 * **[!UICONTROL Reset landing page]** - Klik op deze optie om het visuele ontwerpcanvas op een lege leisteen te wissen en de opbouw van de pagina-inhoud opnieuw te starten.
-* **[!UICONTROL Change your design]** - Ga terug naar de _[!UICONTROL Create your primary landing page]_&#x200B;startpagina. Van daar, kunt u een andere malplaatje kiezen om het ontwerpproces opnieuw te beginnen, of verkiezen om de pagina van kras in een leeg canvas te ontwerpen.
+* **[!UICONTROL Change your design]** - Ga terug naar de _[!UICONTROL Create your primary landing page]_startpagina. Van daar, kunt u een andere malplaatje kiezen om het ontwerpproces opnieuw te beginnen, of verkiezen om de pagina van kras in een leeg canvas te ontwerpen.
 <!--- * **[!UICONTROL Save as content template]** - Save the page body as a landing page template to be reused across multiple landing pages. You provide a name and description for the template and save it to the list of saved  landing page templates. -->
 * **[!UICONTROL Export HTML]** - Download de inhoud in het visuele canvas naar uw lokale systeem in de HTML-indeling die is verpakt als een zip-bestand.

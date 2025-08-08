@@ -4,9 +4,9 @@ description: Meer informatie over middelenbeheer in Journey Optimizer B2B editio
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 323b2d781e9ee46b71e3ea01853f6c1321739de0
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Maak gebruik van Adobe Experience Manager Assets om marketing- en creatieve work
 
 Adobe Journey Optimizer B2B edition kan verbinding maken met Adobe Experience Manager Assets as a Cloud Service voor gecentraliseerd beheer van bedrijfsmiddelen, waardoor uw creatieve systeem wordt uitgebreid en digitale middelen worden verenigd voor een betere ervaring. Adobe Experience Manager Assets as a Cloud Service biedt een gebruiksvriendelijke cloudoplossing voor efficiënt beheer van digitale bedrijfsmiddelen en dynamische mediabewerkingen. Het omvat naadloos geavanceerde eigenschappen, met inbegrip van Kunstmatige Intelligentie en het Leren van de Machine.
 
-Leer meer in de [ documentatie van Adobe Experience Manager as a Cloud Service ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/overview){target="_blank"}.
+Leer meer in de [ documentatie van Adobe Experience Manager as a Cloud Service ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview){target="_blank"}.
 
 {{aem-assets-licensing-note}}
 
@@ -47,7 +47,7 @@ U kunt momenteel alleen afbeeldingen uit Adobe Experience Manager Assets in Adob
 
 Gebruik elementen bij het ontwerpen van uw e-mails, e-mailsjablonen en visuele fragmenten. De visuele inhoudeditor biedt toegang tot de afbeeldingen in uw verbonden opslagruimten voor elementen. Als u een abonnement hebt op Experience Manager Assets as a Cloud Service samen met de standaard Adobe Marketo Engage Design Studio, kunt u afbeeldingselementen kiezen uit een van beide bronnen. U kunt ook een afbeeldingselement uploaden, waardoor het in de Journey Optimizer B2B edition-werkruimte van de verbonden Marketo Engage Design Studio-opslagplaats wordt geplaatst.
 
-U kunt de afbeeldingsbron kiezen wanneer u de instellingen voor een afbeeldingscomponent bewerkt of rechtstreeks op het canvas.
+U kunt de afbeeldingsbron kiezen wanneer u de instellingen voor een afbeeldingscomponent bewerkt of rechtstreeks op het canvas:
 
 * **_de componentenmontages van het Beeld_** - wanneer u een beeldcomponent hebt die in de visuele ontwerper wordt geselecteerd, kunt u de montages in het juiste paneel bekijken en uitgeven. Als u het afbeeldingsbestand dat in de component wordt weergegeven, wilt toevoegen of wijzigen, kiest u het brontype en selecteert u een afbeeldingsbestand.
 
@@ -61,7 +61,7 @@ U kunt de afbeeldingsbron kiezen wanneer u de instellingen voor een afbeeldingsc
 
   ![ Gebruik de toolbar om een bron te kiezen om een beelddossier voor de beeldcomponent te selecteren ](./assets/content-assets-image-toolbar-settings.png){width="500"}
 
-Afhankelijk van de bron van het afbeeldingselement kunt u tijdens het ontwerpen van de inhoud een afbeeldingselement toevoegen.
+Afhankelijk van de bron van het afbeeldingselement kunt u tijdens het ontwerpen van de inhoud een afbeeldingselement toevoegen. U kunt ook een afbeeldingselement kiezen in de achtergrondinstellingen voor een structuurcomponent.
 
 >[!BEGINTABS]
 

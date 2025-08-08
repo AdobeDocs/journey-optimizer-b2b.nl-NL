@@ -4,9 +4,9 @@ description: Leer hoe u inhoudsfragmenten ontwerpt die opnieuw kunnen worden geb
 feature: Fragments, Content Design Tools
 role: User
 exl-id: d29754cf-6721-489c-bff8-cde034456db2
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -16,16 +16,6 @@ ht-degree: 0%
 Nadat u [ een fragment ](./fragments.md#create-fragments) creeert, gebruik de visuele redacteur aan auteur de structuur en inhoudscomponenten in uw fragment.
 
 ## Structuur en inhoud toevoegen {#design-fragment}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_fragment"
->title="Structuurcomponenten toevoegen"
->abstract="Structuurcomponenten definiëren de indeling van het fragment. De belemmering en laat vallen component van de a **Structuur** in het canvas beginnen de inhoud van uw fragment te ontwerpen."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_fragment"
->title="Informatie over contentonderdelen"
->abstract="Inhoudscomponenten zijn lege plaatsaanduidingen voor inhoud die u kunt gebruiken om de lay-out van een fragment te maken."
 
 {{$include /help/_includes/content-design-components.md}}
 

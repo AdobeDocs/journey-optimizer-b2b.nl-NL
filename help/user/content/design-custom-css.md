@@ -1,9 +1,10 @@
 ---
 title: Aangepaste CSS toevoegen voor uw inhoud
 description: Leer hoe u aangepaste CSS toevoegt aan uw e-mail en pagina-inhoud landt.
-feature: Email Authoring, Landing Pages, Content Design Tools
+feature: Content Design Tools, Email Authoring, Landing Pages
 role: User
-source-git-commit: 9d753873ed24f10b5747ed64b7f85188dec52fa0
+exl-id: 5a961190-8a65-41b0-90d0-5dd44e5cdf8a
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 0%
@@ -55,7 +56,7 @@ De aangepaste CSS wordt met het kenmerk `<head>` toegevoegd aan de sectie `<styl
 
 >[!NOTE]
 >
->De aangepaste CSS wordt niet weerspiegeld of gevalideerd in het deelvenster _[!UICONTROL Styles]_&#x200B;voor een geselecteerde component. Deze is volledig onafhankelijk en kan alleen worden gewijzigd met de optie [!UICONTROL Add Custom CSS] op het niveau van de hoofdcomponent.
+>De aangepaste CSS wordt niet weerspiegeld of gevalideerd in het deelvenster _[!UICONTROL Styles]_voor een geselecteerde component. Deze is volledig onafhankelijk en kan alleen worden gewijzigd met de optie [!UICONTROL Add Custom CSS] op het niveau van de hoofdcomponent.
 
 ## Aangepaste CSS toevoegen
 
@@ -67,9 +68,9 @@ De aangepaste CSS wordt met het kenmerk `<head>` toegevoegd aan de sectie `<styl
 
    >[!NOTE]
    >
-   >De knop _[!UICONTROL Add custom CSS]_&#x200B;is alleen beschikbaar wanneer de component&#x200B;_[!UICONTROL Body]_ is geselecteerd. U kunt echter aangepaste CSS-stijlen toepassen op alle componenten in de stijl.
+   >De knop _[!UICONTROL Add custom CSS]_is alleen beschikbaar wanneer de component_[!UICONTROL Body]_ is geselecteerd. U kunt echter aangepaste CSS-stijlen toepassen op alle componenten in de stijl.
 
-   De pop-upeditor van _[!UICONTROL Add custom CSS]_&#x200B;wordt weergegeven met opmerkingen voor plaatsaanduidingscode.
+   De pop-upeditor van _[!UICONTROL Add custom CSS]_wordt weergegeven met opmerkingen voor plaatsaanduidingscode.
 
 1. Voer uw CSS-code in de editor in.
 
@@ -214,4 +215,3 @@ Als uw aangepaste CSS niet wordt toegepast zoals u had verwacht, gebruikt u de b
   background: red !important;
   }
   ```
-
