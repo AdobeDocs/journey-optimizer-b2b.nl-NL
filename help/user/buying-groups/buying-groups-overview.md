@@ -4,9 +4,9 @@ description: Leer hoe kopersgroepen in Journey Optimizer B2B edition de doeltref
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: ada98f505aad848f958cf8325ed90d66692a6cac
+source-git-commit: a2917ea8c389c35129a77d427528051be499addf
 workflow-type: tm+mt
-source-wordcount: '1988'
+source-wordcount: '2007'
 ht-degree: 6%
 
 ---
@@ -72,7 +72,7 @@ Om ervoor te zorgen dat de lidtoewijzing in een koopgroep niet verkeerd wordt me
 
 Vouw **[!UICONTROL Accounts]** uit in de linkernavigatie en klik op **[!UICONTROL Buying groups]** .
 
-De pagina _[!UICONTROL Buying groups]_&#x200B;is ingedeeld als tabbladen:
+De pagina _[!UICONTROL Buying groups]_is ingedeeld als tabbladen:
 
 | Tab | Beschrijving |
 | --- | ----------- |
@@ -84,13 +84,13 @@ De pagina _[!UICONTROL Buying groups]_&#x200B;is ingedeeld als tabbladen:
 
 ## Zoeken en filteren van groepen
 
-Gebruik het tabblad _[!UICONTROL Browse]_&#x200B;om de lijst met inkoopgroepen weer te geven. U kunt op naam zoeken en de lijst door oplossingsbelang filtreren.
+Gebruik het tabblad _[!UICONTROL Browse]_om de lijst met inkoopgroepen weer te geven. U kunt op naam zoeken en de lijst door oplossingsbelang filtreren.
 
 ![ Kopende groep doorbladert pagina ](assets/buying-groups-browse.png){width="800" zoomable="yes"}
 
 ## Gegevens van groep kopen
 
-Klik op de naam van de inkoopgroep op het tabblad _[!UICONTROL Browse]_&#x200B;als u details voor een inkoopgroep wilt weergeven. [Meer informatie](./buying-group-details.md)
+Klik op de naam van de inkoopgroep op het tabblad _[!UICONTROL Browse]_als u details voor een inkoopgroep wilt weergeven. [Meer informatie](./buying-group-details.md)
 
 ![ het Kopen groepdetails ](assets/buying-group-details.png){width="600" zoomable="yes"}
 
@@ -102,7 +102,12 @@ Als er bijvoorbeeld vier rollen binnen een inkoopgroep zijn en drie van de vier 
 
 De volledigheidsscore van de inkoopgroep wordt telkens opnieuw berekend wanneer een inkoopgroep wordt gemaakt of bijgewerkt.
 
-### Betrokkenheidsscore voor groep kopen
+### Betrokkenheidsscore voor groep kopen {#engagement-score}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_buying_group_engagement_score"
+>title="Betrokkenheidsscore"
+>abstract="De betrokkenheidsscores bepalen het betrokkenheidsniveau voor het kopen van groepsleden."
 
 De score voor groepsbetrokkenheid kopen is een getal om de betrokkenheid van de leden van een inkoopgroep te bepalen op basis van de activiteiten die zij uitvoeren.
 
@@ -112,7 +117,7 @@ De score voor groepsbetrokkenheid kopen is een getal om de betrokkenheid van de 
 * Voor elke activiteit geldt een dagelijkse maximale frequentie van 20. Als een lid van een inkoopgroep meer dan 20 keer per dag dezelfde activiteit uitoefent, wordt het aantal activiteiten beperkt tot 20 en niet tot een hoger aantal.
 * De weergegeven score wordt afgerond. Een score van 75,89999 wordt bijvoorbeeld weergegeven als 76.
 
-+++Activiteiten die worden gebruikt voor scores
++++Activiteiten die worden gebruikt voor scoring
 
 | Naam activiteit | Beschrijving | Type betrokkenheid | Maximale dagelijkse frequentie | Activiteitsgewicht |
 | --- | --- | --- | --- | --- |
@@ -154,13 +159,18 @@ De score voor groepsbetrokkenheid kopen is een getal om de betrokkenheid van de 
 
 >[!NOTE]
 >
->De de scoreactiviteiten van het engagement worden geregistreerd in het de activiteitenlogboek van Marketo Engage [ voor een persoon ](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}.
+>De de scoreactiviteiten van het engagement worden geregistreerd in het de activiteitenlogboek van Marketo Engage [ voor een persoon ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}.
 
 +++
 
-#### Weging
+#### Weging {#engagement-score-weighting}
 
-De gebruikers kunnen _weging_ aan elke rol in het rolmalplaatje toewijzen om verschillende gewichten voor een rol toe te wijzen om de betrokkenheidsscore te berekenen.
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_buying_group_engagement_score_weighting"
+>title="weging van de betrokkenheidsscore"
+>abstract="Gebruik weging om de berekening van de betrokkenheidsscore aan te passen."
+
+De gebruikers kunnen _weging_ aan elke rol in het [ rolmalplaatje ](./buying-groups-role-templates.md) toewijzen om verschillende gewichten voor een rol toe te wijzen.
 
 ![ plaats weging aan elke rol in het rolmalplaatje ](./assets/roles-templates-weighting.png){width="700" zoomable="yes"}
 
@@ -172,7 +182,7 @@ Elk wegingsniveau wordt omgezet in een waarde die wordt gebruikt voor het bereke
 * [!UICONTROL Important] = 80
 * [!UICONTROL Vital] = 100
 
-Een rolmalplaatje met drie rollen gewogen zoals _[!UICONTROL Vital]_,_[!UICONTROL Important]_, en _[!UICONTROL Normal]_&#x200B;zet in de volgende gewogen percentages om:
+Een rolmalplaatje met drie rollen gewogen zoals _[!UICONTROL Vital]_,_[!UICONTROL Important]_, en _[!UICONTROL Normal]_zet in de volgende gewogen percentages om:
 
 | Functie | Weging | Systeemwaarde | Waarde berekenen | Percentage |
 |-------------- |--------- |------------- |------------------ |---------- |
@@ -220,4 +230,4 @@ De uiteindelijke betrokkenheidsscore wordt berekend door de weging toe te passen
 
 ## Video over overzicht
 
->[!VIDEO](https://video.tv.adobe.com/v/3452939/?learn=on&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
