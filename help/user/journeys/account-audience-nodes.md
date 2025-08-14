@@ -55,4 +55,4 @@ Gebruik een van de volgende invoeropties voor dit transportknooppunt:
 
    ![ creeer een publiekssegment ](./assets/audiences-list-create.png){width="800" zoomable="yes"}
 
-1. Volg de stappen in de [ gids van de Dienst van de Segmentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/types/account-audiences){target="_blank"}.
+1. Volg de stappen in de [ gids van de Dienst van de Segmentatie ](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/types/account-audiences){target="_blank"}.
