@@ -33,7 +33,7 @@ Gebruik een van de volgende invoeropties voor dit transportknooppunt:
 
      Kies de optie voor het accountpubliek. Klik vervolgens op **[!UICONTROL Add account audience]** .
 
-     Selecteer in het dialoogvenster _[!UICONTROL Add audience]_een eerder gemaakt publiekssegment. Klik vervolgens op **[!UICONTROL Add audience]**.
+     Selecteer in het dialoogvenster _[!UICONTROL Add audience]_&#x200B;een eerder gemaakt publiekssegment. Klik vervolgens op **[!UICONTROL Add audience]**.
 
      ![ selecteer een publiekssegment voor de knoop ](./assets/node-audience-add-dialog.png){width="700" zoomable="yes"}
 
