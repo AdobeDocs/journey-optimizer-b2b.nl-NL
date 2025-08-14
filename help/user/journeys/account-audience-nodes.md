@@ -4,54 +4,55 @@ description: Meer informatie over het type accountpubliek dat u kunt gebruiken v
 feature: Account Journeys, Audiences, Account Lists
 role: User
 exl-id: 288ac5a8-79ed-4654-8ac1-83da2af04f2c
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 82553c9ee6205e0ad47cc5a56112590471c03d0e
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
 
+
 # Transparante knooppunten voor het publiek
 
-Het het publieksknoop van de Rekening bepaalt de inputrekeningen voor de reis. Wanneer u [ een rekeningsreis ](./journey-overview.md#create-an-account-journey) creeert, begint het altijd met een _het publiek van de Rekening_ knoop die de input voor de reis bepaalt.
+De knoop van het rekeningspubliek specificeert welke rekeningen de reis ingaan. Wanneer u [ een rekeningsreis ](./journey-overview.md#create-an-account-journey) creeert, begint de reis altijd met een knoop van het rekeningspubliek die zijn input bepaalt.
 
-Er zijn twee typen invoer die u voor dit knooppunt kunt gebruiken:
+Gebruik een van de volgende invoeropties voor dit transportknooppunt:
 
-* **[het publiek van de Rekening](../audiences/account-audience-overview.md)** - dit is het basispubliek dat van de Dienst van de Segmentatie van Experience Platform wordt gesynchroniseerd.
-* **[lijst van de Rekening](../accounts/account-lists.md)** - dit is een inzameling van genoemde rekeningen die u voor gerichte reisorchestratie kunt gebruiken. Een accountlijst bevat benoemde accounts op basis van de gedefinieerde criteria, zoals de industrie, locatie of grootte van het bedrijf.
+* **[het publiek van de Rekening](../audiences/account-audience-overview.md)** - het rekeningspubliek vertegenwoordigt het basispubliek dat van de Dienst van de Segmentatie van Experience Platform synchroniseert.
+* **[lijst van de Rekening](../accounts/account-lists.md)** — De rekeningslijst is een inzameling van genoemde rekeningen die u voor gerichte reisorchestratie gebruikt. Een accountlijst richt zich op benoemde accounts met behulp van gedefinieerde criteria, zoals de branche, locatie of bedrijfsgrootte.
 
-_om het publiek voor de knoop te plaatsen:_
+## Het publiek voor het accountpubliek instellen
 
-1. Klik op het knooppunt **[!UICONTROL Account audience]** om de knoopeigenschappen aan de rechterkant weer te geven.
+1. Klik op het knooppunt **[!UICONTROL Account audience]** . Deze actie toont de knoopeigenschappen op het recht.
 
-   ![ de publieksknoop van de Rekening ](./assets/account-journey-account-audience-node.png){width="700" zoomable="yes"}
+   ![ de wegknoop van de het publiek van de Rekening ](./assets/account-journey-account-audience-node.png){width="700" zoomable="yes"}
 
-1. Kies het invoertype voor accounts die de rit moeten invoeren:
+1. Kies het invoertype voor de accounts die de reis ingaan:
 
    * **[!UICONTROL Account audience]**
 
-     Kies dit type en klik op **[!UICONTROL Add account audience]** .
+     Kies de optie voor het accountpubliek. Klik vervolgens op **[!UICONTROL Add account audience]** .
 
-     Selecteer in het dialoogvenster _[!UICONTROL Add audience]_&#x200B;een publiekssegment dat eerder is gemaakt en klik op **[!UICONTROL Add audience]**.
+     Selecteer in het dialoogvenster _[!UICONTROL Add audience]_een eerder gemaakt publiekssegment. Klik vervolgens op **[!UICONTROL Add audience]**.
 
      ![ selecteer een publiekssegment voor de knoop ](./assets/node-audience-add-dialog.png){width="700" zoomable="yes"}
 
    * **[!UICONTROL Account list]**
 
-     Kies dit type en klik op **[!UICONTROL Add account list]** .
+     Kies de optie voor de accountlijst. Klik op **[!UICONTROL Add account list]**.
 
-     Selecteer in het dialoogvenster _[!UICONTROL Select live account list]_&#x200B;een accountlijst die eerder is gepubliceerd en klik op **[!UICONTROL Save]**.
+     Selecteer een gepubliceerde accountlijst in het dialoogvenster _[!UICONTROL Select live account list]_. Klik vervolgens op **[!UICONTROL Save]**.
 
      ![ selecteer een levende rekeningslijst voor de knoop ](./assets/account-journey-account-audience-select-account-list.png){width="700" zoomable="yes"}
 
-     Ga naar [ Lijsten van de Rekening ](../accounts/account-lists.md) voor gedetailleerde informatie over het creëren van en het publiceren van rekeningslijsten.
+     Voor meer informatie over het creëren van en het publiceren van rekeningslijsten, zie [ lijsten van de Rekening ](../accounts/account-lists.md).
 
-_om een publiekssegment tot stand te brengen:_
+## Een publiekssegment maken
 
-1. Kies in de linkernavigatie **[!UICONTROL Accounts]** > **[!UICONTROL Audiences]** .
+1. Selecteer **[!UICONTROL Accounts]** > **[!UICONTROL Audiences]** in de linkernavigatie.
 
-1. Klik op **[!UICONTROL Create audience]** rechtsboven.
+1. Klik op **[!UICONTROL Create audience]** in de rechterbovenhoek.
 
    ![ creeer een publiekssegment ](./assets/audiences-list-create.png){width="800" zoomable="yes"}
 
-1. Volg de stappen die in de [ gids van de Dienst van de Segmentatie ](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/account-audiences){target="_blank"} worden beschreven.
+1. Volg de stappen in de [ gids van de Dienst van de Segmentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/types/account-audiences){target="_blank"}.
