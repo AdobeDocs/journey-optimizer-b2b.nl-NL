@@ -35,7 +35,7 @@ Maak gebruik van [!DNL Adobe Experience Manager Assets] om marketing- en creatie
 
 [!DNL Adobe Journey Optimizer B2B Edition] kan verbinding maken met [!DNL Adobe Experience Manager Assets as a Cloud Service] voor gecentraliseerd beheer van bedrijfsmiddelen, waarmee u uw creatieve systeem kunt uitbreiden en digitale middelen kunt verenigen voor een gebruiksvriendelijke ervaring. [!DNL Adobe Experience Manager Assets as a Cloud Service] biedt een gebruiksvriendelijke cloudoplossing voor efficiënt beheer van digitale bedrijfsmiddelen en dynamische mediabewerkingen. Het omvat naadloos geavanceerde eigenschappen, met inbegrip van Kunstmatige Intelligentie en het Leren van de Machine.
 
-Leer meer in de [ documentatie van Adobe Experience Manager as a Cloud Service ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview){target="_blank"}.
+Leer meer in de [ documentatie van Adobe Experience Manager as a Cloud Service ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/overview){target="_blank"}.
 
 {{aem-assets-licensing-note}}
 
