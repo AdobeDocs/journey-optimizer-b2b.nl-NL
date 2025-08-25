@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Licenties voor AEM Assets as a Cloud Service en Dynamic Media-licentie zijn voorwaarden voor integratie. Zorg ervoor dat [ Dynamische Media met Open API ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} wordt toegelaten. De integratie is beperkt tot bewaarplaatsen van de _rij van de Levering_. Als u de _rij van de Auteur_ gebruikt en het wilt omzetten, contacteer de Steun van Adobe Experience Manager.<br/>
+>Licenties voor AEM Assets as a Cloud Service en Dynamic Media-licentie zijn voorwaarden voor integratie. Zorg ervoor dat [ Dynamische Media met Open API ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} wordt toegelaten. De integratie is beperkt tot bewaarplaatsen van de _rij van de Levering_. Als u de _rij van de Auteur_ gebruikt en het wilt omzetten, contacteer de Steun van Adobe Experience Manager.<br/>
 >&#x200B;>Afhankelijk van uw contract en configuratie kunt u Adobe Experience Manager Assets as a Cloud Service rechtstreeks vanuit Adobe Journey Optimizer B2B edition openen bij het ontwerpen van visuele inhoud.
 
 ## Inhoud ontwerpen - componenten - stap Structuren {#structures-step}
