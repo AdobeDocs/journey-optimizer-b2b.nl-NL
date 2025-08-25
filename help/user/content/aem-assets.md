@@ -4,36 +4,36 @@ description: Leer hoe u afbeeldingselementen van een verbonden AEM Assets-opslag
 feature: Assets, Content, Integrations
 role: User
 exl-id: c6864981-209c-4123-8d3f-24deb07026a0
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: ea2093b03ba89f9e8d3f0db60b65cb143603c217
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
 
 # Werken met Experience Manager-middelen
 
-Wanneer Adobe Experience Manager Assets as a Cloud Service is geïntegreerd met Adobe Journey Optimizer B2B edition, kunt u eenvoudig digitale middelen detecteren en openen voor gebruik in uw marketinginhoud. Aangezien u uw inhoud ontwerpt, zijn de activa toegankelijk van het _Experience Manager Assets_ punt op de linkernavigatie, en wanneer het ontwerpen van e-mailinhoud voor een rekeningsreis.
+Wanneer [!DNL Adobe Experience Manager Assets as a Cloud Service] is geïntegreerd met [!DNL Adobe Journey Optimizer B2B Edition] , kunt u gemakkelijk digitale elementen detecteren en openen voor gebruik in uw marketinginhoud. Terwijl u de inhoud ontwerpt, zijn de elementen toegankelijk via het _[!UICONTROL Experience Manager Assets]_-item in de linkernavigatie en wanneer u e-mailinhoud ontwerpt voor een accountreis.
 
 {{aem-assets-licensing-note}}
 
-Wanneer u deze digitale middelen gebruikt, geven de meest recente wijzigingen in Assets as a Cloud Service automatisch door aan live e-mailcampagnes via gekoppelde verwijzingen. Als afbeeldingen worden verwijderd in Adobe Experience Manager Assets as a Cloud Service, worden de afbeeldingen weergegeven met een verbroken verwijzing in de e-mails. Wanneer de activa die momenteel binnen rekeningreizen worden gebruikt worden gewijzigd of geschrapt, worden de reisauteurs op de hoogte gebracht van de beeldveranderingen en de lijst van reizen die het beeld gebruiken. Alle wijzigingen in de activa moeten plaatsvinden in de centrale gegevensbank van Adobe Experience Manager Assets.
+Wanneer u deze digitale elementen gebruikt, geven de laatste wijzigingen in [!DNL Assets as a Cloud Service] automatisch door aan live e-mailcampagnes via gekoppelde verwijzingen. Als afbeeldingen worden verwijderd in [!DNL Adobe Experience Manager Assets as a Cloud Service] , worden de afbeeldingen weergegeven met een verbroken verwijzing in de e-mails. Wanneer de activa die momenteel binnen rekeningreizen worden gebruikt worden gewijzigd of geschrapt, worden de reisauteurs op de hoogte gebracht van de beeldveranderingen en de lijst van reizen die het beeld gebruiken. Alle wijzigingen in de elementen moeten worden doorgevoerd in de centrale opslagplaats van [!DNL Adobe Experience Manager Assets] .
 
-Wanneer uw milieu één of meerdere [ Assets bewaart verbindingen ](../admin/configure-aem-repositories.md) heeft, kunnen de inhoudsauteurs AEM Assets als bron voor activa gebruiken wanneer het creëren van een e-mail, e-mailmalplaatje, of visueel fragment.
+Wanneer uw milieu één of meerdere [ Assets bewaart verbindingen ](../admin/configure-aem-repositories.md) heeft, kunnen de inhoudsauteurs [!DNL Experience Manager Assets] als bron voor activa gebruiken wanneer het creëren van een e-mail, e-mailmalplaatje, of visueel fragment.
 
 >[!IMPORTANT]
 >
->Een beheerder moet gebruikers die toegang tot Assets nodig hebben, toevoegen aan de profielen Assets Consumer Users of/and Assets Users Product. [Meer informatie](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
+>Een beheerder moet gebruikers die toegang tot Assets nodig hebben, toevoegen aan de profielen Assets Consumer Users of/and Assets Users Product. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
 
 ## AEM Assets-afbeeldingen openen
 
-In de visuele inhoudsredacteur, klik het _Experience Manager Assets_ ( ![ het pictogram van Experience Manager Assets ](../../assets/do-not-localize/icon-assets-aem.svg)) pictogram in linkerzijbalk. Hiermee wijzigt u het deelvenster Gereedschappen in een lijst met beschikbare middelen in de geselecteerde opslagplaats.
+In de ruimte van het inhoudsontwerp, klik het _[!UICONTROL Experience Manager Assets]_( ![ pictogram van Experience Manager Assets ](../../assets/do-not-localize/icon-assets-aem.svg)) pictogram in linkerzijbalk. Hiermee wijzigt u het deelvenster Gereedschappen in een lijst met beschikbare middelen in de geselecteerde opslagplaats.
 
 ![ klik het de selecteurspictogram van Assets om tot de beeldactiva ](./assets/content-assets-selector-aem-assets.png){width="700" zoomable="yes"} toegang te hebben
 
 >[!NOTE]
 >
->Momenteel worden alleen afbeeldingselementen van Adobe Experience Manager Assets ondersteund in Adobe Journey Optimizer B2B edition. Wijzigingen in de activa moeten worden aangebracht vanuit de centrale gegevensbank van Adobe Experience Manager Assets. [Meer informatie](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
+>Momenteel worden alleen afbeeldingselementen van [!DNL Adobe Experience Manager Assets] ondersteund in [!DNL Adobe Journey Optimizer B2B Edition] . Wijzigingen in de elementen moeten worden uitgevoerd vanuit de centrale gegevensopslagruimte van [!DNL Adobe Experience Manager Assets] . [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
 
 ### De weergegeven opslagplaats wijzigen
 
@@ -53,7 +53,7 @@ Er zijn meerdere methoden om een afbeeldingselement toe te voegen aan het visuel
 
 ## Een afbeelding zoeken en selecteren
 
-1. Voeg een afbeeldingscomponent toe aan het canvas en klik op **[!UICONTROL Experience Manager Assets]** om het dialoogvenster _[!UICONTROL Select Assets]_&#x200B;te openen.
+1. Voeg een afbeeldingscomponent toe aan het canvas en klik op **[!UICONTROL Experience Manager Assets]** om het dialoogvenster _[!UICONTROL Select Assets]_te openen.
 
    ![ selecteer een activa voor de beeldcomponent ](./assets/content-image-component-empty.png){width="600" zoomable="yes"}
 
