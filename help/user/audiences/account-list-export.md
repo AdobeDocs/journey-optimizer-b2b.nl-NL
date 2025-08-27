@@ -1,19 +1,19 @@
 ---
-title: Accountlijst exporteren
+title: Exportaccounts
 description: Leer hoe u de accountlijst exporteert op basis van het filter voor inkoopgroepen.
 feature: Account Lists
 role: User
 exl-id: 3ec8e8fd-1bc2-4efa-840f-f06520099060
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 124d917de02a2481bcf2558b381c0f932129a255
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
 
-# Accountlijst exporteren
+# Exportaccounts
 
-Gebruik de _eigenschap van de de rekeningslijst van de Uitvoer_ om alle rekeningen of een reeks rekeningen uit te voeren die op het filtreren worden gebaseerd die u bepaalt. Tijdens het exportproces wordt een CSV-bestand gemaakt en wordt de URL voor het opgeslagen bestand binnen een pulsmelding verzonden. U kunt deze functie gebruiken om accounts indien nodig naar externe platforms te verplaatsen.
+Gebruik de _eigenschap van de Rekening van de Uitvoer_ om alle rekeningen of een reeks rekeningen uit te voeren die op het filtreren worden gebaseerd die u bepaalt. Tijdens het exportproces wordt een CSV-bestand gemaakt en wordt de URL voor het opgeslagen bestand binnen een pulsmelding verzonden. U kunt deze functie gebruiken om accounts indien nodig naar externe platforms te verplaatsen.
 
 1. Ga in Journey Optimizer B2B edition naar **[!UICONTROL Accounts]** > **[!UICONTROL Buying groups]** in de linkernavigatie.
 

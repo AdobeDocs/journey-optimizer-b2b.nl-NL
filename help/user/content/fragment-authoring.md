@@ -4,16 +4,16 @@ description: Leer hoe u inhoudsfragmenten ontwerpt die opnieuw kunnen worden geb
 feature: Fragments, Content Design Tools
 role: User
 exl-id: d29754cf-6721-489c-bff8-cde034456db2
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 6028a1ac7989212624be2813d7961f6711080f4e
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
 
 # Fragmentauthoring
 
-Nadat u [ een fragment ](./fragments.md#create-fragments) creeert, gebruik de visuele redacteur aan auteur de structuur en inhoudscomponenten in uw fragment.
+Nadat u [ een fragment ](./fragments.md#create-fragments) creeert, gebruik de visuele ontwerpruimte aan auteur de structuur en inhoudscomponenten in uw fragment.
 
 ## Structuur en inhoud toevoegen {#design-fragment}
 
@@ -30,6 +30,12 @@ Nadat u [ een fragment ](./fragments.md#create-fragments) creeert, gebruik de vi
 ## Inhoud personaliseren
 
 {{$include /help/_includes/content-design-personalization.md}}
+
+## Voorwaardelijke inhoud
+
+Als u voorwaardelijke inhoud wilt toevoegen die de inhoud aanpast aan de doelprofielen op basis van regels, selecteert u een inhoudscomponent en klikt u op de knop **[!UICONTROL Enable conditional content]** op de werkbalk van de component. Wanneer het gepubliceerde fragment in een e-mailbericht wordt opgenomen, bepalen de voorwaardelijke regels de variant van een voorwaardelijke component die in het e-mailbericht wordt weergegeven.
+
+Voor meer informatie, zie [_Voorwaardelijke inhoud_](./conditional-content.md).
 
 ## Fragmentaanpassing inschakelen
 

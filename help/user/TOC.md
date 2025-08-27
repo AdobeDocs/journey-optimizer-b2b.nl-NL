@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentatie voor de B2B-editie van Journey Optimizer
 user-guide-description: Meer informatie over Adobe Journey Optimizer B2B Edition en hoe u deze kunt gebruiken om account- en inkoopgroeptrajecten te orkestreren met behulp van ingebouwde generatieve AI en toonaangevende automatisering.
-source-git-commit: d4fee6639033378ecbbe8836d9f63ce4b81208c5
+source-git-commit: 124d917de02a2481bcf2558b381c0f932129a255
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 19%
+source-wordcount: '309'
+ht-degree: 18%
 
 ---
 
@@ -50,9 +50,11 @@ ht-degree: 19%
       + [Overzicht](./buying-groups/buying-groups-overview.md)
       + [Oplossingsbelangen](./buying-groups/solution-interests.md)
       + [Rolsjablonen](./buying-groups/buying-groups-role-templates.md)
+      + [Standaard- en aangepaste rollen](./buying-groups/default-custom-roles.md)
+      + [Betrokkenheidsscores](./buying-groups/engagement-scores.md)
       + [Groepsfasen voor kopen](./buying-groups/buying-group-stages.md)
       + [Koopgroepen maken](./buying-groups/buying-groups-create.md)
-      + [Accountlijst exporteren](./audiences/account-list-export.md)
+      + [Exportaccounts](./audiences/account-list-export.md)
       + [Gekoppeld publiek voor account gekoppeld](./data/linkedin-account-matched-audiences.md)
       + [Groepsfilters kopen in Marketo Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
    + Accountlijsten {#account-lists}
@@ -116,5 +118,6 @@ ht-degree: 19%
       + [SMS-configuraties](./admin/configure-channels-sms.md)
    + [AEM Assets-opslagruimten configureren](./admin/configure-aem-repositories.md)
    + [AEP-gebeurtenisdefinities configureren](./admin/configure-aep-events.md)
+   + [weging van betrokkenheidsscore configureren](./admin/engagement-score-weighting.md)
    + [Instellingen voor bestemmingspagina](./admin/landing-page-settings.md)
    + [Bestuur](./admin/governance.md)

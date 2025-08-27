@@ -1,23 +1,23 @@
 ---
 title: Voorwaardelijke inhoud
-description: Leer hoe u variaties in inhoud maakt en voorwaardelijke regels toepast bij het ontwerpen van e-mailinhoud voor reizen naar een account.
-feature: Email Authoring, Content
+description: Leer hoe u variaties in inhoud maakt en voorwaardelijke regels toepast bij het ontwerpen van visuele fragmenten en e-mailinhoud voor reizen naar accounts.
+feature: Email Authoring, Fragments, Content
 role: User
 exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
-source-git-commit: 9ad8ba495cdae4c88d9422f758ea912ca84e143c
+source-git-commit: ce6137aac66f2009da9ccabfa3e39ca367e04f4a
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1197'
 ht-degree: 0%
 
 ---
 
 # Voorwaardelijke inhoud
 
-Met voorwaardelijke inhoud kunt u e-mailinhoud aanpassen op basis van voorwaardelijke regels. Deze regels worden gedefinieerd met profielkenmerken of contextuele gebeurtenissen. U kunt voorwaardelijke regels maken in de builder van regels en deze opslaan voor hergebruik tijdens uw accountreizen.
+Met voorwaardelijke inhoud kunt u e-mail- en fragmentinhoud aanpassen op basis van voorwaardelijke regels. Deze regels worden gedefinieerd met profielkenmerken of contextuele gebeurtenissen. U kunt voorwaardelijke regels maken in de builder van regels en deze opslaan voor hergebruik tijdens uw accountreizen.
 
-Om voorwaardelijke inhoud in uw e-mailberichten toe te voegen, staat Adobe Journey Optimizer u toe om voorwaardelijke regels toe te passen die in de _Voorwaarden_ bibliotheek worden opgeslagen. Pas voorwaardelijke regels binnen de ruimte van het e-mailontwerp toe aangezien u [ auteur e-mailinhoud voor een rekeningsreis ](./email-authoring.md).
+Om voorwaardelijke inhoud aan uw fragmenten en e-mailberichten toe te voegen, staat Adobe Journey Optimizer u toe om voorwaardelijke regels toe te passen die in de _Voorwaarden_ bibliotheek worden opgeslagen. Pas voorwaardelijke regels binnen de visuele ontwerpruimte toe aangezien u auteur [ e-mailinhoud voor een rekeningsreis ](./email-authoring.md) of a [ visueel fragment ](./fragment-authoring.md).
 
-## Voorwaardelijke inhoud toevoegen aan e-mails {#email-content}
+## Voorwaardelijke inhoud toevoegen {#email-fragment-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_conditional_content"
@@ -29,11 +29,11 @@ Om voorwaardelijke inhoud in uw e-mailberichten toe te voegen, staat Adobe Journ
 >title="Voorwaardelijke inhoud"
 >abstract="Gebruik een voorwaardelijke regel die u in de bibliotheek hebt opgeslagen of maak een nieuwe regel."
 
-Terwijl u een e-mail voor uw accountreis in de e-mailontwerpruimte ontwerpt, gebruikt u voorwaardelijke regels om meerdere varianten voor een inhoudscomponent te definiëren.
+Wanneer u een fragment of e-mail maakt in de visuele ontwerpruimte, gebruikt u voorwaardelijke regels om meerdere varianten voor een inhoudscomponent te definiëren.
 
 1. Selecteer een inhoudscomponent en klik op het pictogram **[!UICONTROL Enable conditional content]** op de werkbalk van de component.
 
-   De component wordt oranje omlijnd om aan te geven dat deze wordt geactiveerd als een voorwaardelijke component. De **[!UICONTROL Conditional Content]** paneelvertoningen op de linkerzijde met de _Standaard variant_ en _Variant - 1.
+   De component wordt oranje omlijnd om aan te geven dat deze wordt geactiveerd als een voorwaardelijke component. De **[!UICONTROL Conditional Content]** paneelvertoningen op de linkerzijde met de _Standaard variant_ en _Variant - 1_.
 
    ![ laat voorwaardelijke inhoud voor de tekstcomponent ](./assets/conditions-enable.png){width="700" zoomable="yes"} toe
 
@@ -45,7 +45,7 @@ Terwijl u een e-mail voor uw accountreis in de e-mailontwerpruimte ontwerpt, geb
 
    ![ Uitgezochte voorwaarde voor variant ](./assets/conditions-variant-select.png){width="700" zoomable="yes"}
 
-   Het dialoogvenster _[!UICONTROL Select condition]_&#x200B;wordt geopend en de bibliotheek met voorwaarden wordt weergegeven.
+   Het dialoogvenster _[!UICONTROL Select condition]_wordt geopend en de bibliotheek met voorwaarden wordt weergegeven.
 
    Als u details voor een voorwaarde wilt bekijken om het te verzekeren is wat u wilt, klik het _Meer menu_ pictogram (**...**) en kies **[!UICONTROL View Info]**.
 
@@ -94,20 +94,18 @@ Terwijl u een e-mail voor uw accountreis in de e-mailontwerpruimte ontwerpt, geb
 ## Voorwaardelijke regels
 
 Voorwaardelijke regels zijn een set voorwaardelijke expressies die kan worden geëvalueerd als true of false. U kunt deze regels gebruiken om te bepalen welke inhoudvariant in een e-mailbericht wordt weergegeven op basis van verschillende filters, zoals profielkenmerken of contextuele gebeurtenissen.
-
-Voorwaardelijke regels worden opgeslagen in de voorwaardenbibliotheek, waar ze beschikbaar zijn voor hergebruik door reisinhoud voor uw organisatie.
-<!-- 
-
+De regels worden opgeslagen in de voorwaardenbibliotheek, waar zij voor hergebruik over e-mail en fragmentinhoud voor uw organisatie beschikbaar zijn.
+<!--
 >[!NOTE]
 >
->You need the [Manage Library Items](../administration/ootb-product-profiles.md) permission to save or delete conditional rules. Saved conditions are available for use by all users within an organization. -->
+>You need the [Manage Library Items](../administration/ootb-product-profiles.md) permission to save or delete conditional rules. Saved conditions are available for use by all users within an organization.-->
 
 ### Conditiefilters {#condition-filters}
 
 | Type voorwaarde | Filters | Beschrijving |
 | -------------- | ------- | ----------- |
 | **Rekening** | Accountkenmerken | Attributen van het accountprofiel, waaronder: <li>Jaarlijkse ontvangsten</li><li>Stad</li><li>Land</li><li>Werknemersgrootte</li><li>Marktsegment</li><li>Naam</li><li>SIC-code</li><li>Staat</li> |
-| | [!UICONTROL Special filters] > [!UICONTROL Has Buying Group] | De account heeft al dan niet leden van kopersgroepen. Kan ook worden beoordeeld aan de hand van een of meer van de volgende criteria: <li>Belang van oplossing</li><li>Status van kopersgroep</li><li>Complete score</li><li>Engagement Score</li> |
+| | [!UICONTROL Special filters] > [!UICONTROL Has Buying Group] | De account heeft al dan niet leden van kopersgroepen. Het filter kan ook worden beoordeeld aan de hand van een of meer van de volgende criteria: <li>Belang van oplossing</li><li>Status van kopersgroep</li><li>Complete score</li><li>Engagement Score</li> |
 | **Persoon** | [!UICONTROL Activity history] > [!UICONTROL Email] | E-mailactiviteiten in verband met de reis: <li>[!UICONTROL Clicked link in email]</li><li>Geopende e-mail</li><li>Is per e-mail verzonden</li><li>Is per e-mail verzonden</li> Deze voorwaarden worden geëvalueerd aan de hand van een geselecteerd e-mailbericht uit een eerdere reis. |
 |  | [!UICONTROL Person Attributes] | Attributen van het profiel van de persoon, met inbegrip van: <li>Stad</li><li>Land</li><li>Geboortedatum</li><li>E-mailadres</li><li>E-mail is ongeldig</li><li>E-mail is geschorst</li><li>Voornaam</li><li>Overgenomen deelstaatgebied</li><li>Functie</li><li>Achternaam</li><li>Mobiel telefoonnummer</li><li>Telefoonnummer</li><li>Postcode</li><li>Staat</li><li>Niet geabonneerd</li><li>Reden waarop geen abonnement is genomen</li> |
 | | [!UICONTROL Special filters] > [!UICONTROL Member of Buying Group] | De persoon is al dan niet lid van de koopgroep, beoordeeld aan de hand van een of meer van de volgende criteria: <li>Belang van oplossing</li><li>Status van kopersgroep</li><li>Complete score</li><li>Engagement Score</li><li>Functie</li> |
@@ -121,7 +119,7 @@ Voorwaardelijke regels worden opgeslagen in de voorwaardenbibliotheek, waar ze b
 
 U kunt tot de voorwaardelijke regelbouwer van de e-mailontwerpruimte toegang hebben wanneer u een voorwaarde voor een componentenvariant selecteert.
 
-1. Klik in het dialoogvenster _[!UICONTROL Select condition]_&#x200B;op **[!UICONTROL Create new]**&#x200B;en kies het voorwaardetype:
+1. Klik in het dialoogvenster _[!UICONTROL Select condition]_op **[!UICONTROL Create new]**en kies het voorwaardetype:
 
    * **[!UICONTROL Person condition]** - Kies dit type om de voorwaardelijke regel te maken met behulp van personekenmerken en contextuele gebeurtenissen.
    * **[!UICONTROL Account condition]** - Kies dit type om de voorwaardelijke regel samen te stellen met accountkenmerken.

@@ -3,9 +3,10 @@ title: Inhoudscomponenten
 description: Leer hoe u inhoudcomponenten kunt gebruiken om uw e-mail, bestemmingspagina en visuele fragmentinhoud te ontwerpen.
 feature: Content Design Tools
 role: User
-source-git-commit: 592c456ec88bd86f093dcc37862545b180ec0814
+exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
+source-git-commit: ce6137aac66f2009da9ccabfa3e39ca367e04f4a
 workflow-type: tm+mt
-source-wordcount: '2730'
+source-wordcount: '2733'
 ht-degree: 1%
 
 ---
@@ -53,7 +54,7 @@ In de sectie **[!UICONTROL Contents]** onder aan de Componentenbibliotheek worde
 
 Elk type inhoudscomponent geeft een werkbalk weer wanneer u de component op het canvas selecteert. De beschikbare hulpmiddelen, die door het componenttype variëren, verstrekken een gemakkelijke manier om met de component direct in de teruggegeven inhoud te werken. Het omvat het formatteren en functionele mogelijkheden die voor het componenttype van toepassing zijn.
 
-![ de componententoolbar van 0&rbrace; Inhoud](../assets/do-not-localize/toolbar-content.png){width="450"}
+![ de componententoolbar van 0} Inhoud](../assets/do-not-localize/toolbar-content.png){width="450"}
 
 ### Opmaakgereedschappen
 
@@ -91,7 +92,7 @@ Elk type inhoudscomponent geeft een werkbalk weer wanneer u de component op het 
 
 +++
 
-+++lijst maken
++++Lijst maken
 
 <table>
     <tr>
@@ -142,7 +143,7 @@ Elk type inhoudscomponent geeft een werkbalk weer wanneer u de component op het 
 
 +++
 
-+++Fontkleur
++++Lettertypekleur
 
 <table>
     <tr>
@@ -199,10 +200,9 @@ Elk type inhoudscomponent geeft een werkbalk weer wanneer u de component op het 
 | ---- | ---- | ----- |
 | ![ voeg verpersoonlijking ](../assets/do-not-localize/toolbar-button-add-personalization.png){width="40"} toe | Aanpassing toevoegen | Gebruik de verpersoonlijkingsredacteur om verpersoonlijkingstekenen in de componenteninhoud op te nemen. [Meer informatie](./email-authoring.md#personalize-content) |
 | ![ toon de broncode ](../assets/do-not-localize/toolbar-button-show-source-code.png){width="40"} | De broncode weergeven | De HTML-broncode voor de component weergeven in een alleen-lezen pop-up. <br/>![ toon HTML code ](./assets/content-components-show-source-code.png){width="200"} |
-| ![ laat voorwaardelijke inhoud ](../assets/do-not-localize/toolbar-button-enable-conditional-content.png){width="40"} toe | Voorwaardelijke inhoud inschakelen | Voorwaardelijke varianten voor de component inschakelen. [Meer informatie](./conditional-content.md) |
+| ![ laat voorwaardelijke inhoud ](../assets/do-not-localize/toolbar-button-enable-conditional-content.png){width="40"} toe | Voorwaardelijke inhoud inschakelen | (E-mail en fragmenten) Schakel voorwaardelijke varianten voor de component in. [Meer informatie](./conditional-content.md) |
 | ![ Dupliceren ](../assets/do-not-localize/toolbar-button-duplicate.png){width="40"} | Dupliceren | Maak een kopie van de component en voeg deze direct hieronder toe. |
 | ![ Schrapping ](../assets/do-not-localize/toolbar-button-delete.png){width="40"} | Verwijderen | Verwijder de component. |
-
 
 ## Een inhoudscomponent toevoegen aan uw ontwerp
 
@@ -239,11 +239,11 @@ Wijzig de instelling **[!UICONTROL Display Options]** als u de component wilt ui
 
 Gebruik een container om specifieke opmaak toe te passen op een groep inhoudcomponenten. Voeg een [!UICONTROL Container] -component toe en voeg vervolgens andere inhoudscomponenten toe. Deze component is vergelijkbaar met het gebruik van een `div` -element in HTML. U kunt een afzonderlijke stijl op de container toepassen die verschilt van de stijl die is toegepast op de inhoudcomponenten die de container bevat.
 
-Voeg bijvoorbeeld een component _[!UICONTROL Container]_&#x200B;toe en voeg vervolgens een component&#x200B;_[!UICONTROL Button]_ in die container toe. U kunt een specifieke gebiedsstijl voor de container gebruiken, en de knoop en zijn achtergrond opmaken zoals u nodig hebt.
+Voeg bijvoorbeeld een component _[!UICONTROL Container]_toe en voeg vervolgens een component_[!UICONTROL Button]_ in die container toe. U kunt een specifieke gebiedsstijl voor de container gebruiken, en de knoop en zijn achtergrond opmaken zoals u nodig hebt.
 
 ![ de componentenstijlen van de inhoudcomponent van de Container ](./assets/content-components-container.png){width="600" zoomable="yes"}
 
-+++achtergrond
++++Achtergrond
 
 {{styles-background}}
 
@@ -287,7 +287,7 @@ Wanneer u de tekst van het knoplabel invoert en de opmaak instelt, wordt de groo
 
 #### Koppelingsopties instellen
 
-Gebruik op het tabblad _[!UICONTROL Settings]_&#x200B;de opties van **[!UICONTROL Link]**&#x200B;om de knoptekst, het doel van de koppeling en het browsergedrag voor het laden van de doelpagina te definiëren.
+Gebruik op het tabblad _[!UICONTROL Settings]_de opties van **[!UICONTROL Link]**om de knoptekst, het doel van de koppeling en het browsergedrag voor het laden van de doelpagina te definiëren.
 
 1. Stel de **[!UICONTROL Type]** voor de koppeling in:
 
@@ -307,7 +307,7 @@ Gebruik op het tabblad _[!UICONTROL Settings]_&#x200B;de opties van **[!UICONTRO
 
    De grootte van de knop wordt aangepast aan de tekst en de stijl die u instelt.
 
-1. Voor **&#x200B; [!UICONTROL Target**], kies hoe de verbonden bestemming van e-mail of pagina wordt opnieuw gericht:
+1. Voor ** [!UICONTROL Target**], kies hoe de verbonden bestemming van e-mail of pagina wordt opnieuw gericht:
 
    * _[!UICONTROL None]_- De koppeling wordt geopend met het standaardgedrag van de browser of client (standaard).
    * _[!UICONTROL Blank]_- Hiermee opent u de koppeling in een nieuw venster of op een nieuw tabblad.
@@ -319,7 +319,7 @@ Gebruik op het tabblad _[!UICONTROL Settings]_&#x200B;de opties van **[!UICONTRO
 
 Pas de knopopmaak aan op het tabblad **[!UICONTROL Styles]** .
 
-+++achtergrond
++++Achtergrond
 
 {{styles-background}}
 
@@ -347,7 +347,7 @@ Pas de knopopmaak aan op het tabblad **[!UICONTROL Styles]** .
 
 +++
 
-+++knopmarge
++++Knopmarge
 
 +++
 
@@ -375,7 +375,7 @@ Gebruik de component Text om een tekstblok in te voegen in uw inhoud. Wanneer de
 
 Pas de opmaak van de tekstcomponent aan op het tabblad **[!UICONTROL Styles]** .
 
-+++achtergrond
++++Achtergrond
 
 {{styles-background}}
 
@@ -425,13 +425,13 @@ Voeg a _Scheidingscomponent_ toe om een lineaire afdeling tussen secties van uw 
 
 
 
-+++achtergrond
++++Achtergrond
 
 {{styles-background}}
 
 +++
 
-+++regel
++++Lijn
 
 +++
 
@@ -481,7 +481,7 @@ Gebruik de HTML-component om delen van uw bestaande HTML toe te voegen. Met deze
 
 Voor een HTML-component kunt u de volgende stijlen instellen voor de gehele HTML-component in het rechterdeelvenster:
 
-+++achtergrond
++++Achtergrond
 
 {{styles-background}}
 
@@ -531,7 +531,7 @@ Gebruik de component [!UICONTROL Image] om een afbeeldingselement in te voegen i
 
 #### Afbeeldingselement toevoegen
 
-Kies het [ type van middelbron 0&rbrace; ](./assets-overview.md) en selecteer een beelddossier:
+Kies het [ type van middelbron 0} ](./assets-overview.md) en selecteer een beelddossier:
 
 * **[!UICONTROL Marketo Engage Assets]** - Kies dit type om door een afbeeldingselement te bladeren en dit te selecteren in de Journey Optimizer B2B edition-bibliotheek of in de aangesloten Market Engage-instantie.
 
@@ -549,7 +549,7 @@ Kies het [ type van middelbron 0&rbrace; ](./assets-overview.md) en selecteer ee
 
 * **[!UICONTROL Experience Manager Assets]** - kies dit type om een beeldactiva van a te doorbladeren en te selecteren [ gevormde Ervaring beheert de bewaarplaats van Assets ](../admin/configure-aem-repositories.md).
 
-  Kies in het dialoogvenster _[!UICONTROL Select Assets]_&#x200B;een afbeelding met de beschikbare gereedschappen om te zoeken naar het benodigde element en klik op **[!UICONTROL Select]**.:
+  Kies in het dialoogvenster _[!UICONTROL Select Assets]_een afbeelding met de beschikbare gereedschappen om te zoeken naar het benodigde element en klik op **[!UICONTROL Select]**.:
 
    * Wijzig de **[!UICONTROL Repository]** rechtsboven.
 
@@ -571,7 +571,7 @@ Kies het [ type van middelbron 0&rbrace; ](./assets-overview.md) en selecteer ee
 
 * **[!UICONTROL Import media]** - Kies dit type om een bestand op uw systeem te selecteren en in de Journey Optimizer B2B edition-bibliotheek met middelen te importeren.
 
-  Sleep in het dialoogvenster _[!UICONTROL Upload image]_&#x200B;een bestand van uw systeem naar het bestandsvak. De maximale bestandsgrootte is 100 MB.
+  Sleep in het dialoogvenster _[!UICONTROL Upload image]_een bestand van uw systeem naar het bestandsvak. De maximale bestandsgrootte is 100 MB.
 
   ![ de Invoer een beelddossier in ](./assets/email-designer-image-upload.png){width="450"}
 
@@ -585,7 +585,7 @@ U kunt een afbeeldingstitel en alternatieve tekst voor de afbeelding toevoegen i
 
 #### Koppelingsopties instellen
 
-Gebruik op het tabblad _[!UICONTROL Settings]_&#x200B;de opties van **[!UICONTROL Link]**&#x200B;om de afbeelding te koppelen aan een doel en het browsergedrag voor het laden van de doelpagina.
+Gebruik op het tabblad _[!UICONTROL Settings]_de opties van **[!UICONTROL Link]**om de afbeelding te koppelen aan een doel en het browsergedrag voor het laden van de doelpagina.
 
 1. Stel de **[!UICONTROL Type]** voor de koppeling in:
 
@@ -605,7 +605,7 @@ Gebruik op het tabblad _[!UICONTROL Settings]_&#x200B;de opties van **[!UICONTRO
 
    De grootte van de knop wordt aangepast aan de tekst en de stijl die u instelt.
 
-1. Voor **&#x200B; [!UICONTROL Target**], kies hoe de verbonden bestemming van e-mail of pagina wordt opnieuw gericht:
+1. Voor ** [!UICONTROL Target**], kies hoe de verbonden bestemming van e-mail of pagina wordt opnieuw gericht:
 
    * _[!UICONTROL None]_- De koppeling wordt geopend met het standaardgedrag van de browser of client (standaard).
    * _[!UICONTROL Blank]_- Hiermee opent u de koppeling in een nieuw venster of op een nieuw tabblad.
@@ -617,7 +617,7 @@ Gebruik op het tabblad _[!UICONTROL Settings]_&#x200B;de opties van **[!UICONTRO
 
 Stel de stijlen voor de afbeeldingscomponent in het rechterdeelvenster in.
 
-+++achtergrond
++++Achtergrond
 
 {{styles-background}}
 
@@ -683,7 +683,7 @@ Als u een consistente weergavegrootte wilt definiëren voor alle sociale-mediagr
 
 U kunt de volgende stijlopties voor de _Sociale_ component plaatsen:
 
-+++achtergrond
++++Achtergrond
 
 {{styles-background}}
 

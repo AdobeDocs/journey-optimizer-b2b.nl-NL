@@ -5,7 +5,7 @@ feature: Setup, Integrations
 role: Admin
 soultion: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: a7cf25536ac698f99d9d9a54c574f03d0fe5974b
 workflow-type: tm+mt
 source-wordcount: '1698'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Experience Platform-gebeurtenisdefinities configureren
 
-De beheerders kunnen op Adobe Experience Platform (AEP)-Gebaseerde gebeurtenisdefinities vormen, die Marketers toelaten om rekeningsreizen tot stand te brengen die aan [ de Gebeurtenissen van de Ervaring van AEP ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} reageren.
+De beheerders kunnen op Adobe Experience Platform (AEP)-Gebaseerde gebeurtenisdefinities vormen, die Marketers toelaten om rekeningsreizen tot stand te brengen die aan [ de Gebeurtenissen van de Ervaring van AEP ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} reageren.
 
 ![ Video ](../../assets/do-not-localize/icon-video.svg){width="30"} [ bekijk het videooverzicht ](#overview-video)
 
@@ -30,7 +30,7 @@ Voor elke gebeurtenisdefinitie is de volgende Experience Platform-invoer vereist
 
   >[!NOTE]
   >
-  >Coördineer met uw team van de Techniek om ervoor te zorgen dat de benodigde schema&#39;s worden bepaald. [ Creërend XDM- schema&#39;s ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/schema/composition){target="_blank"} is een complex proces dat door gegevensingenieurs wordt uitgevoerd die op gebruiksgevalvereisten over uw organisatie worden gebaseerd.
+  >Coördineer met uw team van de Techniek om ervoor te zorgen dat de benodigde schema&#39;s worden bepaald. [ Creërend XDM- schema&#39;s ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"} is een complex proces dat door gegevensingenieurs wordt uitgevoerd die op gebruiksgevalvereisten over uw organisatie worden gebaseerd.
 
 * **_de types van Gebeurtenis_** - XDM ExperienceEvent eventType (maximum van 20 per gebeurtenisdefinitie).
 
@@ -62,21 +62,21 @@ Houd rekening met het volgende wanneer u gebeurtenisdefinities maakt en beheert 
 
 ## Gebeurtenisdefinities openen en beheren
 
-1. Kies in de linkernavigatie **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** .
+1. Kies in de linkernavigatie **[!UICONTROL Administration]** > **[!UICONTROL Configurations]** .
 
 1. Klik op **[!UICONTROL Events]** in het tussenliggende deelvenster om de lijst met gebeurtenisdefinities weer te geven.
 
-   Van deze pagina, kunt u [&#128279;](#create-an-event-definition) creëren [&#128279;](#publish-an-event-defintion) publiceren, [ uitgeven ](#publish-an-event-defintion), en [ schrappen ](#delete-an-event-definition) gebeurtenisdefinities.
+   Van deze pagina, kunt u [ creëren ](#create-an-event-definition) [ publiceren, ](#publish-an-event-defintion) uitgeven [, en ](#edit-an-event-definition) schrappen [ gebeurtenisdefinities.](#delete-an-event-definition)
 
    ![ heb toegang tot de gevormde gebeurtenisdefinities ](./assets/configuration-events-defs-list.png){width="800" zoomable="yes"}
 
-   De lijst wordt gesorteerd door de _[!UICONTROL Modified]_&#x200B;kolom, met de onlangs bijgewerkte definities bij de bovenkant door gebrek.<!-- Click the column title to change between ascending and descending.-->
+   De lijst wordt gesorteerd door de _[!UICONTROL Modified]_kolom, met de onlangs bijgewerkte definities bij de bovenkant door gebrek.<!-- Click the column title to change between ascending and descending.-->
 
 1. Klik op de naam om de details voor een gebeurtenisdefinitie te openen.
 
 ### Status van gebeurtenisdefinitie en levenscyclus
 
-In de lijst _[!UICONTROL Event definitions]_&#x200B;geeft de kolom **[!UICONTROL Status]**&#x200B;de huidige status voor elke definitie aan. De status bepaalt de beschikbaarheid ervan voor gebruik in accountreizen en de wijzigingen die u daarin kunt aanbrengen.
+In de lijst _[!UICONTROL Event definitions]_geeft de kolom **[!UICONTROL Status]**de huidige status voor elke definitie aan. De status bepaalt de beschikbaarheid ervan voor gebruik in accountreizen en de wijzigingen die u daarin kunt aanbrengen.
 
 | Status | Beschrijving |
 | -------------------- | ----------- |
@@ -116,7 +116,7 @@ Als u naar een gebeurtenisdefinitie op naam wilt zoeken, voert u een tekenreeks 
 
 1. Selecteer de **[!UICONTROL Event types]** die u voor de gebeurtenisdefinitie wilt gebruiken.
 
-   De [ gebeurtenistypen ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"} die u selecteert bepalen de gebeurtenissen die als beperkingen voor a _beschikbaar zijn luisteren naar een gebeurtenis_ knoop in een rekeningsreis.
+   De [ gebeurtenistypen ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"} die u selecteert bepalen de gebeurtenissen die als beperkingen voor a _beschikbaar zijn luisteren naar een gebeurtenis_ knoop in een rekeningsreis.
 
    * Klik op **[!UICONTROL Select event types]**.
    * Selecteer in het dialoogvenster een of meer gebeurtenistypen in de lijst (maximaal 20).
@@ -152,7 +152,7 @@ Wanneer u ervan overtuigd bent dat de definitie van de conceptgebeurtenis naar w
 
 1. Klik op **[!UICONTROL Events]** in het tussenliggende deelvenster om de lijst met gebeurtenisdefinities weer te geven.
 
-1. Klik in de lijst _[!UICONTROL Event definitions]_&#x200B;op de naam van de definitie van de conceptgebeurtenis om de detailpagina te openen.
+1. Klik in de lijst _[!UICONTROL Event definitions]_op de naam van de definitie van de conceptgebeurtenis om de detailpagina te openen.
 
    ![ open de definitie van de ontwerp gebeurtenis ](./assets/configuration-events-publish-draft.png){width="600" zoomable="yes"}
 
@@ -182,7 +182,7 @@ Wanneer u ervan overtuigd bent dat de definitie van de conceptgebeurtenis naar w
 
    ![ de nieuwe definitie van de ontwerpgebeurtenis is vermeld op de pagina ](./assets/configuration-events-create-new-draft.png){width="700" zoomable="yes"}
 
-1. Klik op de aanbiedingspagina van _[!UICONTROL Event definitions]_&#x200B;op de naam van de gebeurtenisdefinitie om deze te openen.
+1. Klik op de aanbiedingspagina van _[!UICONTROL Event definitions]_op de naam van de gebeurtenisdefinitie om deze te openen.
 
 Voer de stappen uit op basis van de status:
 
@@ -218,7 +218,7 @@ Voer de stappen uit op basis van de status:
 
 1. Klik op de naam van de gebeurtenisdefinitie om deze te openen.
 
-   Voor a _Gepubliceerd (met ontwerp)_ gebeurtenisdefinitie, wordt het _[!UICONTROL Published]_&#x200B;versielusje geselecteerd door gebrek.
+   Voor a _Gepubliceerd (met ontwerp)_ gebeurtenisdefinitie, wordt het _[!UICONTROL Published]_versielusje geselecteerd door gebrek.
 
 1. Selecteer het tabblad **[!UICONTROL Draft]** Versie.
 
@@ -240,7 +240,7 @@ Voer de stappen uit op basis van de status:
 
 >[!TAB  Gepubliceerd (met ontwerp) ]
 
-Wanneer u a _Gepubliceerde (met ontwerp)_ gebeurtenisdefinitie opent, wordt het _[!UICONTROL Published]_&#x200B;versielusje geselecteerd door gebrek.
+Wanneer u a _Gepubliceerde (met ontwerp)_ gebeurtenisdefinitie opent, wordt het _[!UICONTROL Published]_versielusje geselecteerd door gebrek.
 
 1. Selecteer het tabblad **[!UICONTROL Draft]** Versie.
 
@@ -282,4 +282,4 @@ U kunt een gebeurtenisdefinitie verwijderen als deze niet wordt gebruikt door ee
 
 ## Video over overzicht
 
->[!VIDEO](https://video.tv.adobe.com/v/3448689/?learn=on&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)
