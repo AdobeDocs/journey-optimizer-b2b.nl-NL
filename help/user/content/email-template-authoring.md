@@ -37,7 +37,7 @@ Selecteer met ten minste één inhoudscomponent op het canvas de component **[!U
 
 {{$include /help/_includes/content-design-use-fragments.md}}
 
-Nadat de sjabloon is opgeslagen, wordt deze weergegeven op de pagina met fragmentdetails wanneer u het tabblad _[!UICONTROL Used By]_in het overzicht selecteert.
+Nadat de sjabloon is opgeslagen, wordt deze weergegeven op de pagina met fragmentdetails wanneer u het tabblad _[!UICONTROL Used By]_&#x200B;in het overzicht selecteert.
 
 ### Elementen toevoegen
 
@@ -67,7 +67,7 @@ Gebruik de opties voor weergave- en inhoudsvalidatie die beschikbaar zijn in de 
 
 ### Meer opties
 
-Vanuit het menu _[!UICONTROL More ...]_boven aan de ontwerpruimte voor e-mail kunt u de volgende handelingen uitvoeren:
+Vanuit het menu _[!UICONTROL More ...]_&#x200B;boven aan de ontwerpruimte voor e-mail kunt u de volgende handelingen uitvoeren:
 
 ![ klik Meer om tot malplaatjeacties ](./assets/visual-designer-more-menu.png){width="500"} toegang te hebben
 
