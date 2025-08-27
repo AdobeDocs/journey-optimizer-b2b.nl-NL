@@ -27,7 +27,7 @@ A _Gesplitste wegen_ knoop bepaalt één of meerdere gesegmenteerde wegen die op
 
 Splitsen op basis van accounts kan zowel handelingen als gebeurtenissen voor account en personen bevatten. Deze paden kunnen verder worden gesplitst.
 
-_**hoe een gespleten weg door rekeningsknoop**_ werkt
+_&#x200B;**hoe een gespleten weg door rekeningsknoop**&#x200B;_ werkt
 
 * Elk pad dat u toevoegt, bevat een eindknooppunt met de mogelijkheid om knooppunten aan elke rand toe te voegen.
 * Splitsen op accountknooppunten kan worden genest (u kunt het pad herhaaldelijk splitsen op accounts).
@@ -88,7 +88,7 @@ _**hoe een gespleten weg door rekeningsknoop**_ werkt
 
 Paden splitsen op basis van personen kunnen alleen acties voor personen bevatten. Deze paden kunnen niet opnieuw worden gesplitst en automatisch met elkaar worden verbonden.
 
-_**hoe een gespleten weg door de knoop van mensen**_ werkt
+_&#x200B;**hoe een gespleten weg door de knoop van mensen**&#x200B;_ werkt
 
 * Splitsen door de functie van personenknopen binnen a _gegroepeerde knoop_ spleet-fusie combinatie. De gesplitste paden worden automatisch samengevoegd, zodat alle mensen naar de volgende stap kunnen gaan zonder hun accountcontext te verliezen.
 * Splitsen op basis van knooppunten kan niet worden genest (u kunt geen gesplitst pad toevoegen voor personen op een pad dat zich in dit gegroepeerde knooppunt bevindt).
@@ -183,7 +183,7 @@ Voor een gesplitst pad naar personen kunt u een pad definiëren op basis van de 
 
 >[!BEGINSHADEBOX  &quot;Inactiviteit het filtreren&quot;]
 
-Voor elk van de _[!UICONTROL Activity history]_-filters kunt u de optie **[!UICONTROL Switch to inactivity filter]**inschakelen. Met deze optie wijzigt u het filter in een evaluatie omdat dat type activiteit ontbreekt. Bijvoorbeeld, als u een weg voor mensen wilt tot stand brengen die _****_geen e-mail van vroeger in de reis open, voeg_[!UICONTROL Email]_ > _[!UICONTROL Opened email]_filter toe. Schakel de optie Inactiviteit in en geef de e-mail op. U kunt het beste de_[!UICONTROL Date of activity]_ -beperking gebruiken om een tijdsperiode voor de inactiviteit te definiëren.
+Voor elk van de _[!UICONTROL Activity history]_-filters kunt u de optie **[!UICONTROL Switch to inactivity filter]**&#x200B;inschakelen. Met deze optie wijzigt u het filter in een evaluatie omdat dat type activiteit ontbreekt. Bijvoorbeeld, als u een weg voor mensen wilt tot stand brengen die _&#x200B;**&#x200B;**&#x200B;_geen e-mail van vroeger in de reis open, voeg&#x200B;_[!UICONTROL Email]_ > _[!UICONTROL Opened email]_&#x200B;filter toe. Schakel de optie Inactiviteit in en geef de e-mail op. U kunt het beste de&#x200B;_[!UICONTROL Date of activity]_ -beperking gebruiken om een tijdsperiode voor de inactiviteit te definiëren.
 
 ![ Gesplitste weg door mensen voorwaarde voor het kopen van groepslidmaatschap ](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
@@ -191,7 +191,7 @@ Voor elk van de _[!UICONTROL Activity history]_-filters kunt u de optie **[!UICO
 
 ### Deelnemerfiltering
 
-Binnen de sectie _[!UICONTROL Special Filters]_zijn er meerdere filters waarmee u het lidmaatschap van een persoon in een inkoopgroep of Marketo Engage-lijst kunt evalueren. Als u bijvoorbeeld een pad wilt maken voor mensen die lid zijn van een inkoopgroep en een bepaalde rol hebben toegewezen, voegt u het filter_[!UICONTROL Special filters]_ > _[!UICONTROL Member of Buying group]_toe. Voor de filter, plaats het lidmaatschap als_ waar _, selecteer a_[!UICONTROL Solution interest]_ dat met één of meerdere het kopen groepen wordt geassocieerd, en plaats _[!UICONTROL Role]_die u wilt aanpassen.
+Binnen de sectie _[!UICONTROL Special Filters]_&#x200B;zijn er meerdere filters waarmee u het lidmaatschap van een persoon in een inkoopgroep of Marketo Engage-lijst kunt evalueren. Als u bijvoorbeeld een pad wilt maken voor mensen die lid zijn van een inkoopgroep en een bepaalde rol hebben toegewezen, voegt u het filter&#x200B;_[!UICONTROL Special filters]_ > _[!UICONTROL Member of Buying group]_&#x200B;toe. Voor de filter, plaats het lidmaatschap als_ waar _, selecteer a&#x200B;_[!UICONTROL Solution interest]_ dat met één of meerdere het kopen groepen wordt geassocieerd, en plaats _[!UICONTROL Role]_&#x200B;die u wilt aanpassen.
 
 ![ Gesplitste weg door mensen voorwaarde voor het kopen van groepslidmaatschap ](./assets/node-split-people-condition-buying-group-membership.png){width="700" zoomable="yes"}
 
