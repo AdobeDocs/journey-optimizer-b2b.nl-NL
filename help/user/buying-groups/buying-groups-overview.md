@@ -4,9 +4,9 @@ description: Leer hoe kopersgroepen in Journey Optimizer B2B edition de doeltref
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: eb80b57b0481837a50c7c0985ac4dc5d71f3577e
+source-git-commit: 20f9620691fe76119797a83b721ca460c0cc39e8
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Voor B2B-verkoop- en marketingactiviteiten zijn rekeningen van essentieel belang
 
 Binnen de rekening, zou er een ondergroep van mensen kunnen zijn die uit de _het kopen groep_ bestaan. Deze mensen nemen uiteindelijk het aankoopbesluit, dus ze hebben speciale aandacht van de marketeer nodig en hebben mogelijk andere informatie nodig die ze ontvangen dan de andere personen die bij de rekening horen. Kopersgroepen kunnen een verschillende groep personen voor verschillende productlijnen of aanbiedingen omvatten. Een product voor cyberbeveiliging kan bijvoorbeeld gewoonlijk een Chief Information Officer of Chief Security Officer vereisen, en een vertegenwoordiger van de Juridische Dienst om een aankoop goed te keuren. Een insectenvolgend product zou typisch een VP van Techniek en een Directeur van IT als leden van de het kopen groep kunnen hebben.
 
-![ Video ](../../assets/do-not-localize/icon-video.svg){width="30"} [ bekijk het videooverzicht ](#overview-video)
+![ het pictogram van de Video ](../../assets/do-not-localize/icon-video.svg){width="30"} [ bekijk het videooverzicht ](#overview-video)
 
 ## Belangrijkste componenten
 
@@ -72,7 +72,7 @@ Om te voorkomen dat een lidtoewijzing in een inkoopgroep onjuist wordt overschre
 
 Vouw **[!UICONTROL Accounts]** uit in de linkernavigatie en klik op **[!UICONTROL Buying groups]** .
 
-De pagina _[!UICONTROL Buying groups]_&#x200B;is ingedeeld als tabbladen:
+De pagina _[!UICONTROL Buying groups]_is ingedeeld als tabbladen:
 
 | Tab | Beschrijving |
 | --- | ----------- |
@@ -84,13 +84,13 @@ De pagina _[!UICONTROL Buying groups]_&#x200B;is ingedeeld als tabbladen:
 
 ## Zoeken en filteren van groepen
 
-Gebruik het tabblad _[!UICONTROL Browse]_&#x200B;om de lijst met inkoopgroepen weer te geven. U kunt op naam zoeken en de lijst door oplossingsbelang filtreren.
+Gebruik het tabblad _[!UICONTROL Browse]_om de lijst met inkoopgroepen weer te geven. U kunt op naam zoeken en de lijst door oplossingsbelang filtreren.
 
 ![ Kopende groep doorbladert pagina ](assets/buying-groups-browse.png){width="800" zoomable="yes"}
 
 ## Gegevens van groep kopen
 
-Klik op de naam van de inkoopgroep op het tabblad _[!UICONTROL Browse]_&#x200B;als u details voor een inkoopgroep wilt weergeven. [Meer informatie](./buying-group-details.md)
+Klik op de naam van de inkoopgroep op het tabblad _[!UICONTROL Browse]_als u details voor een inkoopgroep wilt weergeven. [Meer informatie](./buying-group-details.md)
 
 ![ het Kopen groepdetails ](assets/buying-group-details.png){width="600" zoomable="yes"}
 
@@ -112,4 +112,4 @@ Zie [ de scores van de Betrokkenheid ](./engagement-scores.md) voor gedetailleer
 
 ## Video over overzicht
 
->[!VIDEO](https://video.tv.adobe.com/v/3452939/?learn=on&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

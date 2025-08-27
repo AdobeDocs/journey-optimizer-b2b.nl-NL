@@ -4,22 +4,24 @@ description: Leer hoe u e-mailsjablonen beheert en maakt die worden gebruikt om 
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: f8d70f2e1cff6055ff353bad0c5a0f625d426db8
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1465'
 ht-degree: 0%
 
 ---
 
 # E-mailsjablonen
 
-Voor een versnelde en verbeterde ontwerpprocedure kunt u zelfstandige e-mailsjablonen maken om aangepaste inhoud te hergebruiken voor alle Adobe Journey Optimizer B2B edition-reizen. Via sjablonen kunnen leden van uw inhoudgerichte team buiten de reis aan e-mailinhoud werken. Marketing strategen kunnen deze standalone sjablonen vervolgens hergebruiken en aanpassen binnen hun accountreizen. Eén teamlid is bijvoorbeeld alleen verantwoordelijk voor de inhoud, zonder toegang tot reizen naar de account. Ze kunnen echter een e-mailsjabloon maken die marketers kunnen selecteren als beginpunt voor e-mailcommunicatie en deze kunnen aanpassen aan de vereisten voor de reis.
+Voor een versneld en verbeterd ontwerpproces kunt u zelfstandige e-mailsjablonen maken om aangepaste inhoud te hergebruiken tijdens [!DNL Adobe Journey Optimizer B2B Edition] -reizen. Via sjablonen kunnen leden van uw inhoudgerichte team buiten de reis aan e-mailinhoud werken. Marketing strategen kunnen deze standalone sjablonen vervolgens hergebruiken en aanpassen binnen hun accountreizen. Eén teamlid is bijvoorbeeld alleen verantwoordelijk voor de inhoud, zonder toegang tot reizen naar de account. Ze kunnen echter een e-mailsjabloon maken die marketers kunnen selecteren als beginpunt voor e-mailcommunicatie en deze kunnen aanpassen aan de vereisten voor de reis.
 
 ## E-mailsjablonen openen en beheren
 
-Ga naar de linkernavigatie en klik op **[!UICONTROL Content Management]** > **[!UICONTROL Templates]** om e-mailsjablonen te openen in Adobe Journey Optimizer B2B edition. Met deze handeling wordt een aanbiedingspagina geopend met alle e-mailsjablonen die zijn gemaakt in het exemplaar dat in een tabel wordt vermeld.
+Ga naar de linkernavigatie en klik op [!DNL Journey Optimizer B2B Edition] > **[!UICONTROL Content Management]** om e-mailsjablonen te openen in **[!UICONTROL Templates]** . Selecteer **[!UICONTROL Email templates]** in het zijpaneel.
 
-De tabel wordt standaard gesorteerd op de kolom _[!UICONTROL Modified]_, met de laatst bijgewerkte sjablonen bovenaan. Klik op de kolomtitel om te schakelen tussen oplopend en aflopend.
+Met deze handeling wordt een aanbiedingspagina geopend met alle e-mailsjablonen die in het exemplaar in tabelindeling zijn gemaakt.
+
+De lijst wordt standaard gesorteerd op de kolom _[!UICONTROL Modified]_, met de laatst bijgewerkte sjablonen bovenaan. Klik op de kolomtitel om te schakelen tussen oplopend en aflopend.
 
 Als u naar een sjabloon op naam wilt zoeken, voert u een tekstreeks in de zoekbalk in. Klik het _pictogram van de Filter_ bij de bovenkant verlaten om de lijst volgens verwezenlijking of wijzigingsdata, en malplaatjes te filtreren die u hebt gecreeerd of gewijzigd.
 
@@ -39,11 +41,11 @@ U kunt een e-mailsjabloon maken op basis van de pagina met e-mailsjablonen door 
 
 1. Klik op **[!UICONTROL Create]**.
 
-De pagina _[!UICONTROL Design your template]_&#x200B;wordt geopend en bevat meerdere opties voor het maken van de sjabloon:_[!UICONTROL Design from scratch]_ , _[!UICONTROL Import HTML]_&#x200B;of&#x200B;_[!UICONTROL Select design template]_ .
+De pagina _[!UICONTROL Design your template]_wordt geopend en bevat meerdere opties voor het maken van de sjabloon:_[!UICONTROL Design from scratch]_ , _[!UICONTROL Import HTML]_of_[!UICONTROL Select design template]_ .
 
 ![ kies hoe u met uw ontwerp van het e-mailmalplaatje wilt beginnen ](./assets/templates-create-design.png){width="800" zoomable="yes"}
 
-Nadat u de methode selecteert die u wilt gebruiken om uw ontwerp van het e-mailmalplaatje te beginnen, gebruik de visuele ontwerper aan [ auteur uw inhoud van het e-mailmalplaatje ](./email-template-authoring.md).
+Nadat u de methode selecteert die u wilt gebruiken om uw ontwerp van het e-mailmalplaatje te beginnen, gebruik de visuele ontwerpruimte aan [ auteur uw inhoud van het e-mailmalplaatje ](./email-template-authoring.md).
 
 ### Ontwerpen vanaf nul
 
@@ -53,9 +55,31 @@ Gebruik de visuele inhoudeditor om de structuur van de e-mailinhoud te definiër
 >
 >De beschikbare ontwerphulpmiddelen zijn gelijkwaardig aan de hulpmiddelen die voor [ worden gebruikt e-mailauthoring ](./email-authoring.md). Het verschil is dat deze inhoud dan als malplaatje wordt bewaard dat over veelvoudige _kan worden opnieuw gebruikt verzendt e-mail_ knopen binnen rekeningsreizen.
 
-1. Selecteer de optie **[!UICONTROL Design from scratch]** op de startpagina van _[!UICONTROL Design your template]_.
+1. Selecteer de optie _[!UICONTROL Design your template]_op de startpagina van **[!UICONTROL Design from scratch]**.
+
+1. Kies in het dialoogvenster _[!UICONTROL Create email]_het type e-mailinhoud dat u voor de sjabloon wilt gebruiken.
+
+   * **[!UICONTROL Use Themes]** - kies deze optie om het e-mailmalplaatje op _wijze van het Thema_ tot stand te brengen. In deze modus kunt u een gedefinieerd merkthema gebruiken om het ontwerpproces voor inhoud te stroomlijnen en ervoor te zorgen dat het ontwerp wordt afgestemd op gedefinieerde standaarden.
+
+   ![ creeer uw e-mail - de thema&#39;s van het Gebruik ](./assets/create-email-use-theme.png){width="450"}
+
+   * **[!UICONTROL Manual Styling]** - kies deze optie om het e-mailmalplaatje op _Handmatige wijze_ tot stand te brengen. In deze modus stelt u de opmaak handmatig in voor alle structuur- en inhoudscomponenten die u toevoegt aan het lege canvas.
+
+1. (_de wijze van Thema&#39;s_ slechts) past een thema toe.
+
+   In de e-mailontwerpruimte, klik het _pictogram van Thema&#39;s_ ( ![ pictogram van Thema&#39;s ](../assets/do-not-localize/icon-design-themes.svg)) op het recht.
+
+   ![ E-mail ontwerpruimte - Geselecteerde het pictogram van Thema&#39;s ](./assets/email-design-themes-icon-selected.png){width="600" zoomable="yes"}
+
+   Het standaardthema of het thema dat op de sjabloon wordt toegepast, wordt weergegeven. U kunt schakelen tussen de kleurvarianten voor dit thema.
+
+   Klik op de pijl naast het weergegeven thema om de lijst met beschikbare aangepaste en Adobe-thema&#39;s weer te geven. Selecteer **[!UICONTROL My themes]** om een aangepast thema te gebruiken dat voor uw organisatie is gemaakt.
+
+   Wanneer u buiten de lijst klikt, past het geselecteerde thema de stijlen toe. U kunt schakelen tussen de kleurvarianten.
 
 1. [ voegt structuur en inhoud ](./email-authoring.md#add-structure-and-content) aan het malplaatje toe.
+
+   Als er een toegepast thema is, nemen de toegevoegde componenten automatisch de stijlen over die in het thema worden bepaald.
 
 ### HTML importeren
 
@@ -69,7 +93,7 @@ Met Adobe Journey Optimizer B2B edition kunt u bestaande HTML-inhoud importeren 
 >
 >Als u een `<table>` -tag als eerste laag in een HTML-bestand gebruikt, kan dit leiden tot stijlverlies, zoals de achtergrond- en breedte-instellingen in de bovenste laagtag.
 
-U kunt de geïmporteerde inhoud naar wens aanpassen met de visuele ontwerper.
+U kunt de geïmporteerde inhoud naar wens aanpassen in de ruimte van het visuele ontwerp.
 
 ### Een ontwerpsjabloon selecteren
 
@@ -120,18 +144,18 @@ U kunt een e-mailsjabloon op een van de volgende manieren dupliceren:
 
   ![ klik Meer om tot Schrapping toegang te hebben en acties te dupliceren ](./assets/template-details-more-menu.png){width="400"}
 
-* Van de _E-mailMalplaatjes_ het vermelden pagina, klik de ellips (...) naast het malplaatje en kies **[!UICONTROL Duplicate]**.
+* Klik op de aanbiedingspagina van _[!UICONTROL Email Templates]_op het ovaal (...) naast de sjabloon en kies **[!UICONTROL Duplicate]**.
 
 Voer in het dialoogvenster een nuttige naam (uniek) en beschrijving in. Klik op **[!UICONTROL Duplicate]** om de handeling te voltooien.
 
-Het gedupliceerde (nieuwe) e-mailmalplaatje verschijnt dan in de _E-mailMalplaatjes_ lijst.
+De gedupliceerde (nieuwe) e-mailsjabloon wordt vervolgens weergegeven in de lijst van _[!UICONTROL Email Templates]_.
 
 ## E-mailsjablonen verwijderen
 
 Het verwijderen van een e-mailsjabloon kan niet ongedaan worden gemaakt. Controleer dit voordat u een verwijderactie start. U kunt een e-mailsjabloon op een van de volgende manieren verwijderen:
 
 * Vouw **[!UICONTROL More]** uit en klik op **[!UICONTROL Delete]** in de sjabloondetails aan de rechterkant.
-* Van de _E-mailMalplaatjes_ het vermelden pagina, klik de ellips (...) naast het malplaatje en kies **[!UICONTROL Delete]**.
+* Klik op de aanbiedingspagina van _[!UICONTROL Email Templates]_op het ovaal (...) naast de sjabloon en kies **[!UICONTROL Delete]**.
 
   ![ klik... om tot de Acties van het Dupliceren en van de Schrapping ](./assets/templates-list-more-menu.png){width="500"} toegang te hebben
 
@@ -165,4 +189,4 @@ Voer de volgende stappen uit om uw inhoud te bouwen met een van de gemaakte e-ma
 
 1. Klik op **[!UICONTROL Use this template]** rechtsboven.
 
-1. Bewerk de inhoud zo nodig vanuit de visuele ontwerper.
+1. Bewerk de inhoud zo nodig vanuit de visuele ontwerpruimte.

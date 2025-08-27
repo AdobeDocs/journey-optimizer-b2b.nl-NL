@@ -1,9 +1,9 @@
 ---
 user-guide-title: Documentatie voor de B2B-editie van Journey Optimizer
 user-guide-description: Meer informatie over Adobe Journey Optimizer B2B Edition en hoe u deze kunt gebruiken om account- en inkoopgroeptrajecten te orkestreren met behulp van ingebouwde generatieve AI en toonaangevende automatisering.
-source-git-commit: 124d917de02a2481bcf2558b381c0f932129a255
+source-git-commit: 20f9620691fe76119797a83b721ca460c0cc39e8
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '311'
 ht-degree: 18%
 
 ---
@@ -103,7 +103,8 @@ ht-degree: 18%
    + Merken (Beta) {#brands}
       + [Overzicht](./content/brands-overview.md)
       + [Beheren en maken](./content/brands-manage-create.md)
-      + [ Merk groepering ](./content/brand-alignment.md)
+      + [Merk uitlijnen](./content/brand-alignment.md)
+   + [Merkthema&#39;s](./content/brand-themes.md)
    + [Voorwaardelijke inhoud](./content/conditional-content.md)
 + Inhoudsdashboards {#dashboards}
    + [Intelligent dashboard](./dashboards/intelligent-dashboard.md)

@@ -1,9 +1,9 @@
 ---
 title: Fragmenten
 description: Hergebruikte notities en visuele elementen om een functie of pagina te noteren die van toepassing is op een specifieke editie
-source-git-commit: 124d917de02a2481bcf2558b381c0f932129a255
+source-git-commit: 20f9620691fe76119797a83b721ca460c0cc39e8
 workflow-type: tm+mt
-source-wordcount: '2274'
+source-wordcount: '2275'
 ht-degree: 0%
 
 ---
@@ -22,14 +22,14 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Licenties voor AEM Assets as a Cloud Service en Dynamic Media-licentie zijn voorwaarden voor integratie. Zorg ervoor dat [ Dynamische Media met Open API ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} wordt toegelaten. De integratie is beperkt tot bewaarplaatsen van de _rij van de Levering_. Als u de _rij van de Auteur_ gebruikt en het wilt omzetten, contacteer de Steun van Adobe Experience Manager.<br/>
->&#x200B;>Afhankelijk van uw contract en configuratie kunt u Adobe Experience Manager Assets as a Cloud Service rechtstreeks vanuit Adobe Journey Optimizer B2B edition openen bij het ontwerpen van visuele inhoud.
+>Licenties voor AEM Assets as a Cloud Service en Dynamic Media-licentie zijn voorwaarden voor integratie. Zorg ervoor dat [ Dynamische Media met Open API ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} wordt toegelaten. De integratie is beperkt tot bewaarplaatsen van de _rij van de Levering_. Als u de _rij van de Auteur_ gebruikt en het wilt omzetten, contacteer de Steun van Adobe Experience Manager.<br/>
+>>Afhankelijk van uw contract en configuratie kunt u Adobe Experience Manager Assets as a Cloud Service rechtstreeks vanuit Adobe Journey Optimizer B2B edition openen bij het ontwerpen van visuele inhoud.
 
 ## Inhoud ontwerpen - componenten - stap Structuren {#structures-step}
 
 1. Als u het inhoudsontwerp wilt starten, sleept u een item van de **[!UICONTROL Structures]** naar het canvas.
 
-   Voeg zoveel items vanuit _[!UICONTROL Structures]_&#x200B;toe als u nodig hebt en bewerk de instellingen voor elk item in het rechterdeelvenster.
+   Voeg zoveel items vanuit _[!UICONTROL Structures]_toe als u nodig hebt en bewerk de instellingen voor elk item in het rechterdeelvenster.
 
    >[!TIP]
    >
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 ## Inhoud ontwerpen - componenten - stap Instellingen {#settings-step}
 
-1. Indien nodig kunt u aanvullende aanpassingen aanbrengen voor elke component op de tabbladen _[!UICONTROL Settings]_&#x200B;of&#x200B;_[!UICONTROL Style]_ .
+1. Indien nodig kunt u aanvullende aanpassingen aanbrengen voor elke component op de tabbladen _[!UICONTROL Settings]_of_[!UICONTROL Style]_ .
 
    U kunt bijvoorbeeld de tekststijl, opvulling of marge van elke component wijzigen.
 
@@ -107,7 +107,7 @@ De horizontale uitlijning wordt omgezet in een standaard `text-align` CSS-stijl 
 
 ## Inhoudscomponenten - achtergrondstijlen {#styles-background}
 
-Selecteer de tab _[!UICONTROL Styles]_&#x200B;in het rechterdeelvenster en gebruik de sectie **[!UICONTROL Background]**&#x200B;om de achtergrondkleur voor de component te definiëren.
+Selecteer de tab _[!UICONTROL Styles]_in het rechterdeelvenster en gebruik de sectie **[!UICONTROL Background]**om de achtergrondkleur voor de component te definiëren.
 
 Schakel het selectievakje in en klik op het kleurvakje om een kleur in de kiezer te kiezen. U kunt een kleur kiezen door een bekende RGB-, HSL-, HSB- of hexadecimale waarde in te voeren. U kunt ook de schuifregelaar Kleur en het kleurveld gebruiken om de kleur te selecteren.
 
@@ -115,7 +115,7 @@ Schakel het selectievakje in en klik op het kleurvakje om een kleur in de kiezer
 
 ## Inhoudscomponenten - randstijlen {#styles-border}
 
-1. Vouw in het rechterdeelvenster met de tab _[!UICONTROL Styles]_&#x200B;de sectie **[!UICONTROL Border]**&#x200B;uit en stel de opties in om een rand voor de component weer te geven:
+1. Vouw in het rechterdeelvenster met de tab _[!UICONTROL Styles]_de sectie **[!UICONTROL Border]**uit en stel de opties in om een rand voor de component weer te geven:
 
 1. Verplaats de schakeloptie naar rechts om de weergaveopties voor de randen in te schakelen en stel deze in op basis van uw ontwerpcriteria:
 
@@ -125,7 +125,7 @@ Schakel het selectievakje in en klik op het kleurvakje om een kleur in de kiezer
 
    * Als u **[!UICONTROL Border size]** (lijnbreedte) wilt instellen, klikt u op de pictogrammen Pijl-omhoog en Pijl-omlaag om het aantal pixels te verhogen of te verlagen.
 
-   * Als u de **[!UICONTROL Border style]** wilt instellen, kiest u een waarde in de lijst met standaard CSS `border-style` -waarden.
+   * Als u de **[!UICONTROL Border style]** wilt instellen, kiest u een waarde in de lijst met standaard-CSS `border-style` -waarden.
 
    * Om te bepalen waar de rand wordt weergegeven, schakelt u elk selectievakje **[!UICONTROL Border position]** in.
 
@@ -137,7 +137,7 @@ Schakel het selectievakje in en klik op het kleurvakje om een kleur in de kiezer
 
 ## Inhoudscomponenten - margestijlen {#styles-margin}
 
-Vouw in het rechterdeelvenster met het tabblad _[!UICONTROL Styles]_&#x200B;de sectie **[!UICONTROL Margin]**&#x200B;uit en stel de opties voor de marge-afstand in de structuurcomponent in. Deze stijl dupliceert de CSS `margin` -parameter, die de ruimte buiten een componentrand bestuurt en deze van andere componenten scheidt. Er ontstaat een tussenruimte rondom de component om de positionering en lay-out van omringende inhoud te beïnvloeden.
+Vouw in het rechterdeelvenster met het tabblad _[!UICONTROL Styles]_de sectie **[!UICONTROL Margin]**uit en stel de opties voor de marge-afstand in de structuurcomponent in. Deze stijl dupliceert de CSS `margin` -parameter, die de ruimte buiten een componentrand bestuurt en deze van andere componenten scheidt. Er ontstaat een tussenruimte rondom de component om de positionering en lay-out van omringende inhoud te beïnvloeden.
 
 Stel de margewaarden in pixels in op basis van uw ontwerpvereisten. U kunt de marge voor alle zijden, de bovenkant-bodem, de linkerkant, of elke kant van de component onafhankelijk plaatsen:
 
@@ -157,7 +157,7 @@ Stel de margewaarden in pixels in op basis van uw ontwerpvereisten. U kunt de ma
 
 ## Inhoudscomponenten - opvullingsstijlen {#styles-padding}
 
-Vouw in het rechterdeelvenster met het tabblad _[!UICONTROL Styles]_&#x200B;de sectie **[!UICONTROL Padding]**&#x200B;uit en stel de opties voor opvulling in de structuurcomponent in. Deze stijl dupliceert de CSS `padding` -parameter. Dit is de ruimte tussen de inhoud van een component en de rand ervan. De opvulling biedt interne ruimte die u kunt gebruiken om de afstand tussen de inhoud en de rand van de component te bepalen.
+Vouw in het rechterdeelvenster met het tabblad _[!UICONTROL Styles]_de sectie **[!UICONTROL Padding]**uit en stel de opties voor opvulling in de structuurcomponent in. Deze stijl dupliceert de CSS `padding` -parameter. Dit is de ruimte tussen de inhoud van een component en de rand ervan. De opvulling biedt interne ruimte die u kunt gebruiken om de afstand tussen de inhoud en de rand van de component te bepalen.
 
 Stel de opvullingswaarden in pixels in op basis van uw ontwerpvereisten. U kunt de opvulling voor alle zijden, de bovenkant-bodem, de linkerkant of elke kant van de component onafhankelijk instellen:
 
@@ -177,7 +177,7 @@ Stel de opvullingswaarden in pixels in op basis van uw ontwerpvereisten. U kunt 
 
 ## Inhoudscomponenten - Stijlen vergroten/verkleinen {#styles-size}
 
-Vouw in het rechterdeelvenster met het tabblad _[!UICONTROL Styles]_&#x200B;de sectie **[!UICONTROL Size]**&#x200B;uit en stel de opties voor de hoogte en breedte van de component in:
+Vouw in het rechterdeelvenster met het tabblad _[!UICONTROL Styles]_de sectie **[!UICONTROL Size]**uit en stel de opties voor de hoogte en breedte van de component in:
 
 * **[!UICONTROL Height]** - Klik op de pictogrammen pijl-omhoog en pijl-omlaag om het aantal pixels te vergroten of te verkleinen. Een lege waarde (Auto) is de standaardwaarde en wijzigt de hoogte van het element op basis van de inhoud ervan.
 
@@ -193,7 +193,7 @@ Vouw in het rechterdeelvenster met het tabblad _[!UICONTROL Styles]_&#x200B;de s
 
 ## Inhoudscomponenten - tekststijlen {#styles-text}
 
-Vouw in het rechterdeelvenster met de tab _[!UICONTROL Styles]_&#x200B;de sectie **[!UICONTROL Text]**&#x200B;uit en stel de opties voor de tekststijlen van de component in:
+Vouw in het rechterdeelvenster met de tab _[!UICONTROL Styles]_de sectie **[!UICONTROL Text]**uit en stel de opties voor de tekststijlen van de component in:
 
 * **[!UICONTROL Font family]** - Klik op het pijlpictogram omlaag om een lettertypefamilie voor tekst binnen de component te selecteren.
 
@@ -231,7 +231,7 @@ Er zijn hulpmiddelen beschikbaar om u te helpen van de activa de plaats bepalen 
 
 Kies dit type om een beeldactiva van a [ te doorbladeren en te selecteren gevormde Ervaring beheert de bewaarplaats van Assets ](../user/admin/configure-aem-repositories.md).
 
-Kies in het dialoogvenster _[!UICONTROL Select Assets]_&#x200B;een afbeelding met de beschikbare gereedschappen om te zoeken naar het benodigde element en klik op **[!UICONTROL Select]**.:
+Kies in het dialoogvenster _[!UICONTROL Select Assets]_een afbeelding met de beschikbare gereedschappen om te zoeken naar het benodigde element en klik op **[!UICONTROL Select]**.:
 
 * Wijzig de **[!UICONTROL Repository]** rechtsboven.
 
@@ -255,7 +255,7 @@ Kies in het dialoogvenster _[!UICONTROL Select Assets]_&#x200B;een afbeelding me
 
 Kies dit type om een bestand van uw systeem te selecteren en in de Journey Optimizer B2B edition-elementenbibliotheek te importeren.
 
-Sleep in het dialoogvenster _[!UICONTROL Upload image]_&#x200B;een bestand van uw systeem naar het bestandsvak. De maximale bestandsgrootte is 100 MB.
+Sleep in het dialoogvenster _[!UICONTROL Upload image]_een bestand van uw systeem naar het bestandsvak. De maximale bestandsgrootte is 100 MB.
 
 ![ de Invoer een beelddossier in ](../user/content/assets/email-designer-image-upload.png){width="450"}
 

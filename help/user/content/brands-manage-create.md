@@ -7,9 +7,10 @@ hide: true
 hidefromtoc: true
 role: User
 level: Beginner, Intermediate
-source-git-commit: 98298c41981de45dfc5d0de430913729f3a92453
+exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
+source-git-commit: 3065dfedc4fa70d102d7d39a413ecd7aaf93f3f8
 workflow-type: tm+mt
-source-wordcount: '1903'
+source-wordcount: '1904'
 ht-degree: 0%
 
 ---
@@ -77,7 +78,7 @@ Als u richtlijnen voor uw merk wilt maken en definiëren, kunt u de details invo
 
 ### Voeg het merk toe
 
-1. Klik rechtsboven op de pagina _[!UICONTROL Brands]_&#x200B;op **[!UICONTROL Create brand]**.
+1. Klik rechtsboven op de pagina _[!UICONTROL Brands]_op **[!UICONTROL Create brand]**.
 
 1. Voer een **[!UICONTROL Name]** in voor uw merk.
 
@@ -147,7 +148,7 @@ Als u richtlijnen voor uw merk wilt maken en definiëren, kunt u de details invo
 
    * **voeg of herzie voorbeelden van uw richtlijnen en uitsluitingen** toe.
 
-     In de getoonde voorbeeldtegel, klik _uitgeven_ ( ![ geef pictogram ](../assets/do-not-localize/icon-edit.svg) uit) om het voorbeeld te veranderen, of klik _Schrapping_ ( ![ pictogram van de Schrapping ](../assets/do-not-localize/icon-delete.svg)) om het te verwijderen.
+     In de getoonde voorbeeldtegel, klik _uitgeven_ ( ![ geef pictogram ](../assets/do-not-localize/icon-edit.svg)) pictogram uit om het voorbeeld te veranderen, of klik _Schrapping_ ( ![ pictogram van de Schrapping ](../assets/do-not-localize/icon-delete.svg)) om het te verwijderen.
 
 1. Wanneer u alles hebt bepaald, klik **[!UICONTROL Save]**.
 
@@ -299,7 +300,7 @@ To define the overall style for the category, click **[!UICONTROL Add style]**. 
 
 #### Voorbeeldafbeeldingen
 
-Als u een afbeelding wilt toevoegen waarin het juiste of onjuiste gebruik wordt getoond, kiest u **[!UICONTROL Example]** in het pop-updialoogvenster _[!UICONTROL Add guideline]_&#x200B;of&#x200B;_[!UICONTROL Add exclusion]_ . Klik op **[!UICONTROL Select image]** om een afbeeldingsbestand van uw systeem te kiezen. Klik op **[!UICONTROL Add]** om de afbeelding te uploaden en de miniatuur voor het gebied weer te geven.
+Als u een afbeelding wilt toevoegen waarin het juiste of onjuiste gebruik wordt getoond, kiest u **[!UICONTROL Example]** in het pop-updialoogvenster _[!UICONTROL Add guideline]_of_[!UICONTROL Add exclusion]_ . Klik op **[!UICONTROL Select image]** om een afbeeldingsbestand van uw systeem te kiezen. Klik op **[!UICONTROL Add]** om de afbeelding te uploaden en de miniatuur voor het gebied weer te geven.
 
 ![ voeg voorbeeldbeeld ](./assets/brands-guidelines-example-image.png){width="500" zoomable="yes"} toe
 

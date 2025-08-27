@@ -4,18 +4,18 @@ description: Leer hoe u e-mailinhoud maakt in Adobe Journey Optimizer B2B. Met s
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: f8d70f2e1cff6055ff353bad0c5a0f625d426db8
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '1002'
 ht-degree: 0%
 
 ---
 
 # E-mailbericht schrijven
 
-Nadat u &lbrack; een nieuw <!-- or duplicated --> e-mailmiddel aan een knoop van de reisactie &rbrack;(./add-email.md) toevoegt, kunt u de inhoud voor het e-mailbericht bepalen.
+Nadat u [ een e-mailmiddel aan een knoop van de reisactie ](./add-email.md) toevoegt, kunt u de inhoud voor het e-mailbericht bepalen.
 
-Klik op **[!UICONTROL Edit email content]** op de tab _[!UICONTROL Details]_&#x200B;in het rechterdeelvenster.
+Klik op **[!UICONTROL Edit email content]** op de tab _[!UICONTROL Details]_in het rechterdeelvenster.
 
 ![ Klik op E-mailinhoud bewerken ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
@@ -37,18 +37,25 @@ Nadat u de e-mailinhoud hebt gemaakt en aangepast, kunt u de inhoud exporteren v
 
 Gebruik de ruimte voor het ontwerpen van visuele inhoud om de structuur en inhoud van het e-mailbericht te definiëren. Door structurele componenten toe te voegen en te bewegen met eenvoudige belemmering-en-dalingsacties, kunt u de vorm van de herbruikbare e-mailinhoud binnen seconden ontwerpen.
 
-1. Selecteer de optie _[!UICONTROL Design your template]_&#x200B;op de startpagina van **[!UICONTROL Design from scratch]**.
-1. [ voegt structuur en inhoud ](#add-structure-and-content) aan het e-mailbericht toe.
-1. [ voeg beeldactiva ](#add-assets) aan het e-mailbericht toe.
-1. [ personaliseer de e-mailinhoud ](#personalize-content).
+1. Selecteer de optie _[!UICONTROL Design your template]_op de startpagina van **[!UICONTROL Design from scratch]**.
+
+1. Kies in het dialoogvenster _[!UICONTROL Create email]_het type e-mailinhoud dat u wilt ontwerpen.
+
+   * **[!UICONTROL Use Themes]** - kies deze optie om e-mail op _wijze van het Thema_ tot stand te brengen. In deze modus kunt u een gedefinieerd merkthema gebruiken om het ontwerpproces voor inhoud te stroomlijnen en ervoor te zorgen dat het ontwerp wordt afgestemd op gedefinieerde standaarden.
+
+   * **[!UICONTROL Manual Styling]** - kies deze optie om e-mail op _Handmatige wijze_ tot stand te brengen. In deze modus stelt u de opmaak handmatig in voor alle structuur- en inhoudscomponenten die u toevoegt aan het lege canvas.
+
+1. [ voegt structuur en inhoud ](./email-authoring.md#add-structure-and-content) aan het malplaatje toe.
+
 1. [ Overzicht en werk verbindingen ](#preview-and-edit-linked-urls) bij.
+
 1. [ Test e-mail ](#check-and-test-the-email).
 
 <!-- If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
 
 >[!CAUTION]
 >
->You cannot revert back to the visual designer for this email after switching to the code editor. -->
+>You cannot revert back to the visual design space for this email after switching to the code editor. -->
 
 Als u tevreden bent met de inhoud, klikt u op **[!UICONTROL Save]** .
 
@@ -70,7 +77,7 @@ U kunt de geïmporteerde inhoud naar wens aanpassen met de gereedschappen in de 
 
 >[!NOTE]
 >
-> Op opgeslagen sjablonen kunnen governance-instellingen (inhoudvergrendeling) zijn toegepast op een of meer componenten. De visuele ontwerper verstrekt richtlijnen over gesloten componenten wanneer u [ auteur een e-mail van een geregeerd malplaatje ](./email-authoring-governance.md).
+> Op opgeslagen sjablonen kunnen governance-instellingen (inhoudvergrendeling) zijn toegepast op een of meer componenten. De visuele ontwerpruimte verstrekt richtlijnen over gesloten componenten wanneer u [ auteur een e-mail van een geregeerd malplaatje ](./email-authoring-governance.md).
 
 ## Structuur en inhoud toevoegen {#structure-content}
 
@@ -78,7 +85,7 @@ U kunt de geïmporteerde inhoud naar wens aanpassen met de gereedschappen in de 
 
 ### Aangepaste CSS toevoegen
 
-U kunt uw eigen aangepaste CSS rechtstreeks toevoegen binnen de ontwerpruimte van de e-mail. Gebruik aangepaste CSS om geavanceerde en specifieke stijlen toe te passen, voor meer flexibiliteit en controle over de weergave van uw inhoud. Het wordt aanbevolen deze opmaak op het hoogste niveau toe te voegen voordat u componenten zoals afbeeldingen, knoppen en tekst opneemt.
+U kunt uw eigen aangepaste CSS rechtstreeks toevoegen binnen de ontwerpruimte van de e-mail. Gebruik aangepaste CSS om geavanceerde en specifieke stijlen toe te passen, voor meer flexibiliteit en controle over de weergave van uw inhoud. Het wordt aanbevolen deze opmaak op het hoogste niveau toe te voegen voordat u inhoudcomponenten zoals afbeeldingen, knoppen en tekst opneemt.
 
 Selecteer met ten minste één inhoudscomponent op het canvas de component **[!UICONTROL Body]** in de linkernavigatiestructuur voor toegang tot de aangepaste CSS-editor.
 
@@ -92,9 +99,13 @@ Selecteer met ten minste één inhoudscomponent op het canvas de component **[!U
 
 ### Fragmenten toevoegen
 
+>[!NOTE]
+>
+>De fragmenten zijn niet dwars-compatibel tussen de _wijze van het Thema_ en _Handmatige wijze_ in de e-mailinhoud. Om een fragment in e-mailinhoud te gebruiken waar een thema wordt toegepast, moet het fragment ook op _wijze van het Thema_ worden gecreeerd.
+
 {{$include /help/_includes/content-design-use-fragments.md}}
 
-Nadat het e-mailbericht is opgeslagen, wordt het weergegeven op de pagina met fragmentdetails wanneer u het tabblad _[!UICONTROL Used By]_&#x200B;in het overzicht selecteert.
+Nadat het e-mailbericht is opgeslagen, wordt het weergegeven op de pagina met fragmentdetails wanneer u het tabblad _[!UICONTROL Used By]_in het overzicht selecteert.
 
 ### Elementen toevoegen
 
@@ -110,7 +121,7 @@ Nadat het e-mailbericht is opgeslagen, wordt het weergegeven op de pagina met fr
 
 >[!NOTE]
 >
->Als _[!UICONTROL My Tokens]_&#x200B;is gedefinieerd voor de accountreis, kunt u deze reisspecifieke tokens ook gebruiken voor uw e-mailinhoud. Zie [ de tokens van de Douane voor e-mailverpersoonlijking ](./personalization-my-tokens.md) voor meer informatie.
+>Als _[!UICONTROL My Tokens]_is gedefinieerd voor de accountreis, kunt u deze reisspecifieke tokens ook gebruiken voor uw e-mailinhoud. Zie [ de tokens van de Douane voor e-mailverpersoonlijking ](./personalization-my-tokens.md) voor meer informatie.
 
 ### Gekoppelde URL-tracking bewerken
 
@@ -128,13 +139,13 @@ Gebruik de opties voor weergave- en inhoudsvalidatie die beschikbaar zijn in de 
 
 ## Meer opties
 
-Vanuit het menu _[!UICONTROL More ...]_&#x200B;boven aan de ontwerpruimte voor e-mail kunt u de volgende handelingen uitvoeren:
+Vanuit het menu _[!UICONTROL More ...]_boven aan de visuele ontwerpruimte kunt u de volgende handelingen uitvoeren:
 
 ![ klik Meer om tot malplaatjeacties ](./assets/email-designer-more-menu.png){width="500"} toegang te hebben
 
-* **[!UICONTROL Reset email]** - Klik op deze optie om het canvas van de visuele e-mailontwerper op een lege site te wissen en de opbouw van de inhoud opnieuw te starten.
+* **[!UICONTROL Reset email]** - Klik op deze optie om het canvas voor het e-mailontwerp op een lege site te wissen en de opbouw van de inhoud opnieuw te starten.
 * **[!UICONTROL Save as fragment]** - Sla alle e-mailberichten of delen ervan op als een fragment dat opnieuw moet worden gebruikt in meerdere e-mailsjablonen of e-mailsjablonen. U geeft een naam en beschrijving voor het fragment op en slaat het op in de lijst met beschikbare fragmenten.
-* **[!UICONTROL Change your design]** - terugkeer aan het _Ontwerp uw e-mailpagina_. Van daar, kunt u een andere malplaatje kiezen om het ontwerpproces opnieuw te beginnen, of verkiezen om de inhoud van kras op een zwarte canvas te ontwerpen.\
+* **[!UICONTROL Change your design]** - terugkeer aan het _Ontwerp uw e-mailpagina_. Vervolgens kunt u een andere sjabloon kiezen om het ontwerpproces opnieuw te starten. U kunt ook verkiezen om de inhoud van kras met een leeg canvas (_Klassieke wijze_) te ontwerpen of a [ merkthema ](./brand-themes.md) te gebruiken (_wijze van het Thema_).
 * **[!UICONTROL Save as content template]** - Sla de e-mailtekst op als een e-mailsjabloon die opnieuw moet worden gebruikt in meerdere e-mails of e-mailsjablonen. U geeft een naam en beschrijving voor de sjabloon op en slaat deze op in de lijst met opgeslagen e-mailsjablonen.
 * **[!UICONTROL Export HTML]** - Download de inhoud in het visuele canvas naar uw lokale systeem in de HTML-indeling die is verpakt als een zip-bestand.
 
