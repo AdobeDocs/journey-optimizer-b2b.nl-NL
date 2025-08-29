@@ -6,9 +6,10 @@ hide: true
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Deze functie bevindt zich momenteel in een beperkte bètaversie"
 role: Admin
-source-git-commit: c17e66ae3bc6344a87cbb3e2d3a971babc9612c3
+exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
+source-git-commit: 1eaaf92fdec538bec4f3d70cc65dee141971b0c5
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '875'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 Een betrokkenheidsscore voor een inkoopgroep geeft het niveau van betrokkenheid weer door verschillende activiteiten te evalueren die zijn geregistreerd voor leden van de inkoopgroep. Met een aangepaste score kunnen marketingteams hun eigen modellen definiëren voor het afwegen van de activiteiten die het meest relevant zijn voor de betrokkenheid. Een model van het douaneonderzoek veroorzaakt een nauwkeurigere bezinning van uw pijpleiding door aan het gedrag voorrang te geven dat het nauwkeurigst het kopen intent in uw verkoopproces signaleert.
 
-Als beheerder kunt u meerdere betrokkenheidsscore-modellen definiëren voor uw organisatie, maar slechts één model kan op elk moment actief zijn. U definieert een scoremodel op basis van de activiteiten die u wilt opnemen en het gewicht dat u op elke activiteit toepast.
+Als beheerder kunt u meerdere betrokkenheidsscore-modellen definiëren voor uw organisatie, maar slechts één model kan op elk moment actief zijn. U definieert een scoremodel op basis van het gewicht dat wordt toegepast op elke activiteit in het kader van de betrokkenheidsscore.
 
 ## Toegang krijgen tot de modellen voor de weging van de betrokkenheidsscore
 
@@ -25,11 +26,11 @@ Als beheerder kunt u meerdere betrokkenheidsscore-modellen definiëren voor uw o
 
 1. Klik op **[!UICONTROL Engagement score weighting]** in het tussenliggende deelvenster om de lijst met scoremodellen weer te geven.
 
-   Van deze pagina, kunt u [ tot stand brengen (dubbel) ](#create-an-engagement-score-model), [ activeren ](#activate-a-score-model), en [&#128279;](#change-the-engagement-weighting-settings) modellen van de betrokkenheidsscore uitgeven.
+   Van deze pagina, kunt u [ tot stand brengen (dubbel) ](#create-an-engagement-score-model), [ activeren ](#activate-a-score-model), en [ ](#change-the-engagement-weighting-settings) modellen van de betrokkenheidsscore uitgeven.
 
    ![ heb toegang tot de gevormde gebeurtenisdefinities ](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
 
-   De tabel wordt gesorteerd op de kolom _[!UICONTROL Last updated]_. Standaard staan de laatst bijgewerkte modellen boven. U kunt hiermee ook zoeken op&#x200B;_[!UICONTROL Name]_ . U kunt de getoonde lijst aanpassen door de _montages van de Kolom_ te klikken ( ![ montages van de Kolom ](../assets/do-not-localize/icon-column-settings.svg)) pictogram in de hoger-juiste hoek en het selecteren of ontruimen van kolomcheckboxes.
+   In de tabel worden de meest recent bijgewerkte modellen bovenaan weergegeven (gesorteerd op _[!UICONTROL Last updated]_) en kunt u zoeken op_[!UICONTROL Name]_ . U kunt de getoonde lijst aanpassen door de _montages van de Kolom_ te klikken ( ![ montages van de Kolom ](../assets/do-not-localize/icon-column-settings.svg)) pictogram in de hoger-juiste hoek en het selecteren of ontruimen van kolomcheckboxes.
 
 ![ Kolommen aan vertoning in de lijst van de het wegingsfactor van de betrokkenheidsscore ](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
 
@@ -78,7 +79,7 @@ De instellingen voor gewicht definiëren de banden die u aan elke activiteit in 
 1. Pas voor elke gewichtsklasse de naam of waarden aan uw wensen aan:
 
    * Wijzig de naam in het veld _[!UICONTROL Weighting band]_.
-   * Voer een nieuwe waarde in of klik op **+** of **-** om de waarde te verhogen of te verlagen.
+   * Voer een nieuwe waarde in. U kunt ook op **&amp;plus;** of **-** klikken om de waarde te verhogen of te verlagen.
 
    ![ de montages van het Gewicht van de Betrokkenheid ](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 
@@ -98,7 +99,7 @@ Elk scoremodel bevat de volledige lijst met ondersteunde betrokkenheidsscore-act
 
 {{engagement-activities}}
 
-Stel voor elke activiteit in de lijst de waarde in die u wilt toewijzen voor elke activiteit die optreedt. Klik op de pijl-omlaag in het veld Weging en kies de wegingsband zoals gedefinieerd in de instellingen voor de weging van de betrokkenheid.
+Stel voor elke activiteit in de lijst de waarde in die u wilt toewijzen aan elke activiteit. Klik op de pijl-omlaag in het veld **[!UICONTROL Weighting]** en kies de wegingsband die is gedefinieerd in de instellingen voor de weging van de betrokkenheid.
 
 ![ Vastgestelde activiteitenweging ](./assets/configuration-engagement-scoring-model-set-activity-weighting.png){width="500"}
 
