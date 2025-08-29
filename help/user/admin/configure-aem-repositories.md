@@ -41,7 +41,7 @@ Adobe Experience Manager Cloud Manager wordt georganiseerd in programma&#39;s, e
 -->
 Vanaf hier kunt u de verbindingen met elke AEM-omgeving één voor één configureren.
 
-1. Klik in het vak _[!UICONTROL Adobe Experience Manager Assets]_op de pijl naast **[!UICONTROL Configure a repository]**en kies de gegevensopslagruimte.
+1. Klik in het vak _[!UICONTROL Adobe Experience Manager Assets]_&#x200B;op de pijl naast **[!UICONTROL Configure a repository]**&#x200B;en kies de gegevensopslagruimte.
 
    ![ kies een bewaarplaats van AEM Assets ](./assets/configure-assets-aem-choose-respository.png){width="500"}
 
@@ -77,7 +77,7 @@ Certificaten verlopen elke 365 dagen na de aanmaakdatum. Vervang het certificaat
 
 >[!NOTE]
 >
->[!DNL Adobe Journey Optimizer B2B Edition] communiceert met [!DNL Experience Manager Assets] voor gebruiksinformatie. De verbinding moet actief blijven voor betrouwbare synchronisatie van gebruiksgegevens en om gegevensdiscrepanties te voorkomen. Beheerders ontvangen via de meldingen in de app meldingen meldingen meldingen over het verlopen van certificaten. De data van de vervaldatum worden ook getoond in de _Assets_ onderafdeling van het _[!UICONTROL Administration]_gebied.
+>[!DNL Adobe Journey Optimizer B2B Edition] communiceert met [!DNL Experience Manager Assets] voor gebruiksinformatie. De verbinding moet actief blijven voor betrouwbare synchronisatie van gebruiksgegevens en om gegevensdiscrepanties te voorkomen. Beheerders ontvangen via de meldingen in de app meldingen meldingen meldingen over het verlopen van certificaten. De data van de vervaldatum worden ook getoond in de _Assets_ onderafdeling van het _[!UICONTROL Administration]_&#x200B;gebied.
 
 1. Zoek op de pagina voor beheer van digitale elementen de lijst met geconfigureerde opslagruimten.
 
@@ -115,7 +115,7 @@ U kunt het JSON-certificaatbestand weergeven dat is gekoppeld aan de gegevensops
 
 Als u een opslagplaats verwijdert, verwijdert u de toegang van gebruikers tot de Experience Manager Assets-omgeving in Journey Optimizer B2B edition.
 
-1. Zoek op de pagina _[!UICONTROL Digital asset management]_de lijst met geconfigureerde opslagruimten voor elementen.
+1. Zoek op de pagina _[!UICONTROL Digital asset management]_&#x200B;de lijst met geconfigureerde opslagruimten voor elementen.
 
 1. Klik op de gewenste naam van de opslagplaats om de verbinding te bewerken.
 
