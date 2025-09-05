@@ -23,11 +23,11 @@ Als beheerder kunt u meerdere betrokkenheidsscore-modellen definiëren voor uw o
 
 1. Klik op **[!UICONTROL Engagement score weighting]** in het tussenliggende deelvenster om de lijst met scoremodellen weer te geven.
 
-   Van deze pagina, kunt u [ tot stand brengen (dubbel) ](#create-an-engagement-score-model), [ activeren ](#activate-a-score-model), en [ ](#change-the-engagement-weighting-settings) modellen van de betrokkenheidsscore uitgeven.
+   Van deze pagina, kunt u [ tot stand brengen (dubbel) ](#create-an-engagement-score-model), [ activeren ](#activate-a-score-model), en [&#128279;](#change-the-engagement-weighting-settings) modellen van de betrokkenheidsscore uitgeven.
 
    ![ heb toegang tot de gevormde gebeurtenisdefinities ](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
 
-   In de tabel worden de meest recent bijgewerkte modellen bovenaan weergegeven (gesorteerd op _[!UICONTROL Last updated]_) en kunt u zoeken op_[!UICONTROL Name]_ .
+   In de tabel worden de meest recent bijgewerkte modellen bovenaan weergegeven (gesorteerd op _[!UICONTROL Last updated]_) en kunt u zoeken op&#x200B;_[!UICONTROL Name]_ .
 
    U kunt de getoonde lijst aanpassen door de _montages van de Kolom_ te klikken ( ![ montages van de Kolom ](../assets/do-not-localize/icon-column-settings.svg)) pictogram in de hoger-juiste hoek en het selecteren of ontruimen van kolomcheckboxes.
 
@@ -78,7 +78,7 @@ De instellingen voor gewicht definiëren de banden die u aan elke activiteit in 
 1. Pas voor elke gewichtsklasse de naam of waarden aan uw wensen aan:
 
    * Wijzig de naam in het veld _[!UICONTROL Weighting band]_.
-   * Voer een nieuwe waarde in. U kunt ook op **&amp;plus;** of **-** klikken om de waarde te verhogen of te verlagen.
+   * Voer een nieuwe waarde in. U kunt ook op **&plus;** of **-** klikken om de waarde te verhogen of te verlagen.
 
    ![ de montages van het Gewicht van de Betrokkenheid ](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 
