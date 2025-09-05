@@ -1,9 +1,9 @@
 ---
 user-guide-title: Documentatie voor de B2B-editie van Journey Optimizer
 user-guide-description: Meer informatie over Adobe Journey Optimizer B2B Edition en hoe u deze kunt gebruiken om account- en inkoopgroeptrajecten te orkestreren met behulp van ingebouwde generatieve AI en toonaangevende automatisering.
-source-git-commit: a5df9dc1674d2a4fbc1705423e51318e3367d3c6
+source-git-commit: 2a452537620e357a94a5f1c6b6c66f994d06c3c2
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '314'
 ht-degree: 18%
 
 ---
@@ -112,14 +112,15 @@ ht-degree: 18%
    + [Overzicht van kopersgroepen](./dashboards/buying-groups-dashboard.md)
    + [Overzicht van rekeningreizen](./dashboards/journeys-dashboard.md)
 + Beheer {#admin}
+   + [Bestuur](./admin/governance.md)
    + [Gebruikersbeheer](./admin/user-management.md)
-   + [Intentgegevens](./admin/intent-data.md)
    + Kanalen {#channels}
       + [E-mailconfiguraties](./admin/configure-channels-emails.md)
-      + [ configuraties van SMS ](./admin/configure-channels-sms.md)
+      + [SMS-configuraties](./admin/configure-channels-sms.md)
       + [Instellingen voor bestemmingspagina](./admin/landing-page-settings.md)
       + [Gegevensstromen configureren voor gebeurtenisverzameling](./data/aep-event-collection.md)
-   + [AEM Assets-opslagruimten configureren](./admin/configure-aem-repositories.md)
-   + [AEP-gebeurtenisdefinities configureren](./admin/configure-aep-events.md)
-   + [weging van betrokkenheidsscore configureren](./admin/engagement-score-weighting.md)
-   + [Bestuur](./admin/governance.md)
+   + Configuraties {#configurations}
+      + [AEM Assets repositories](./admin/configure-aem-repositories.md)
+      + [AEP-gebeurtenisdefinities](./admin/configure-aep-events.md)
+      + [Intentgegevens](./admin/intent-data.md)
+      + [weging van de betrokkenheidsscore](./admin/engagement-score-weighting.md)
