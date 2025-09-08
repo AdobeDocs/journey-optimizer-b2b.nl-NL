@@ -18,7 +18,7 @@ Nadat de het kopen groep wordt gecreeerd, is het beschikbaar voor gebruik in een
 
 1. Klik in de linkernavigatie op **[!UICONTROL Buying groups]** .
 
-1. Klik in de _[!UICONTROL Buying groups]_-pagina op **[!UICONTROL Create buying groups]**rechtsboven op de pagina.
+1. Klik in de _[!UICONTROL Buying groups]_-pagina op **[!UICONTROL Create buying groups]**&#x200B;rechtsboven op de pagina.
 
    ![ klik creeer het kopen groepen ](./assets/buying-groups-create.png){width="700" zoomable="yes"}
 
@@ -38,7 +38,7 @@ De eerste pagina biedt richtlijnen over de voorwaarden/componenten die vereist z
 
    * **[!UICONTROL Account audience]** - Klik op # en selecteer een accountpubliek in de lijst.
 
-   Onder _[!UICONTROL Properties]_wordt de naam voor de inkoopgroepen automatisch gegenereerd (alleen-lezen) als &lt; Naam van belang voor oplossing > voor &lt; naam van account >.
+   Onder _[!UICONTROL Properties]_&#x200B;wordt de naam voor de inkoopgroepen automatisch gegenereerd (alleen-lezen) als &lt; Naam van belang voor oplossing > voor &lt; naam van account >.
 
    ![ klik creeer het kopen groepen ](./assets/buying-groups-create-components.png){width="700" zoomable="yes"}
 
@@ -52,7 +52,7 @@ Het bevestigingsvenster bevat een overzicht van het proces van de inkoopgroepen 
 
 ## Groepvaartbanen kopen
 
-De aanmaaktaak maakt automatisch inkoopgroepen voor elke nieuwe account in het accountpubliek. U kunt naar het tabblad _[!UICONTROL Solution interest]_navigeren, waarin het aantal gemaakte aanmaaktaken voor elke interesse van de oplossing wordt weergegeven. Klik op het nummer in de kolom **[!UICONTROL Buying group creation jobs]**om de lijst met aanmaaktaken weer te geven.
+De aanmaaktaak maakt automatisch inkoopgroepen voor elke nieuwe account in het accountpubliek. U kunt naar het tabblad _[!UICONTROL Solution interest]_&#x200B;navigeren, waarin het aantal gemaakte aanmaaktaken voor elke interesse van de oplossing wordt weergegeven. Klik op het nummer in de kolom **[!UICONTROL Buying group creation jobs]**&#x200B;om de lijst met aanmaaktaken weer te geven.
 
 ![ het Kopen groepsbanen door oplossingsrente ](./assets/solution-interest-buying-group-jobs.png){width="700" zoomable="yes"}
 

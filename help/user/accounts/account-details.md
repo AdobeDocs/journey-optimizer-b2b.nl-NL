@@ -52,7 +52,7 @@ In Journey Optimizer B2B edition voorspelt het Intent Detection-model een oploss
 
 ![ de contactdekking van de Rekening ](./assets/details-page-contact-coverage.png){width="800" zoomable="yes"}
 
-De _[!UICONTROL Contact coverage]_sectie toont het aantal contacten van de rekening met een specifieke rol verbonden aan een oplossingsbelang. De toewijzing van rol en oplossingsbelang is gebaseerd op het het kopen malplaatje van de rollen van de groep. Klik op een cel om de volgende details weer te geven:
+De _[!UICONTROL Contact coverage]_&#x200B;sectie toont het aantal contacten van de rekening met een specifieke rol verbonden aan een oplossingsbelang. De toewijzing van rol en oplossingsbelang is gebaseerd op het het kopen malplaatje van de rollen van de groep. Klik op een cel om de volgende details weer te geven:
 
 * Beschrijving, in het volgende formaat: _x de mensen hebben y rol voor de rente van de oplossing van z_
 * Kolommen
@@ -73,7 +73,7 @@ Klik het _pictogram van de Filter_ ( ![ pictogram van de Filter ](../assets/do-n
 
 ![ het contactoverlapping van de Rekening ](./assets/details-page-contact-overlap.png){width="800" zoomable="yes"}
 
-In de sectie _[!UICONTROL Contact overlap]_worden contactpersonen van de account weergegeven die deel uitmaken van meer dan één inkoopgroep omdat ze aan meerdere belangen van oplossingen zijn gekoppeld. Deze informatie bestaat uit een tabel met de volgende kolommen:
+In de sectie _[!UICONTROL Contact overlap]_&#x200B;worden contactpersonen van de account weergegeven die deel uitmaken van meer dan één inkoopgroep omdat ze aan meerdere belangen van oplossingen zijn gekoppeld. Deze informatie bestaat uit een tabel met de volgende kolommen:
 
 * Naam
 * Functie
@@ -107,11 +107,11 @@ U kunt een door een markeerteken goedgekeurde e-mail naar een of meer geselectee
 
 >[!TAB  Alle rekeningscontacten ]
 
-1. Klik in het tabblad _[!UICONTROL Overview]_rechtsboven op **[!UICONTROL Send email]**.
+1. Klik in het tabblad _[!UICONTROL Overview]_&#x200B;rechtsboven op **[!UICONTROL Send email]**.
 
    ![ de details van de Rekening - selecteren e-mail ](../accounts/assets/account-details-send-email.png){width="700" zoomable="yes"}
 
-1. Selecteer in het dialoogvenster _[!UICONTROL Send email]_de Marketo Engage-werkruimte en schakel vervolgens het selectievakje in voor de e-mail die u wilt verzenden.
+1. Selecteer in het dialoogvenster _[!UICONTROL Send email]_&#x200B;de Marketo Engage-werkruimte en schakel vervolgens het selectievakje in voor de e-mail die u wilt verzenden.
 
    ![ selecteer een e-mail om naar het kopen groepsleden te verzenden ](../accounts/assets/account-details-send-email-dialog.png){width="700" zoomable="yes"}
 
@@ -119,13 +119,13 @@ U kunt een door een markeerteken goedgekeurde e-mail naar een of meer geselectee
 
 >[!TAB  Geselecteerde contacten ]
 
-1. Selecteer op het tabblad _[!UICONTROL Contacts]_de selectievakjes voor de contactpersonen die u de e-mail wilt ontvangen.
+1. Selecteer op het tabblad _[!UICONTROL Contacts]_&#x200B;de selectievakjes voor de contactpersonen die u de e-mail wilt ontvangen.
 
 1. Klik op **[!UICONTROL Send email]** rechtsboven of in de selectiebalk onderaan.
 
    ![ Leden tabel - verzend e-mail ](../accounts/assets/account-details-send-email-selections.png){width="700" zoomable="yes"}
 
-1. Selecteer in het dialoogvenster _[!UICONTROL Send email]_de Marketo Engage-werkruimte en schakel vervolgens het selectievakje in voor de e-mail die u wilt verzenden.
+1. Selecteer in het dialoogvenster _[!UICONTROL Send email]_&#x200B;de Marketo Engage-werkruimte en schakel vervolgens het selectievakje in voor de e-mail die u wilt verzenden.
 
    ![ selecteer een e-mail om naar het kopen groepsleden te verzenden ](../accounts/assets/account-details-send-email-dialog.png){width="700" zoomable="yes"}
 

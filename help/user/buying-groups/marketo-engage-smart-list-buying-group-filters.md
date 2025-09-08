@@ -20,7 +20,7 @@ Als Marketer wilt u wellicht de campagnes in Marketo Engage onderdrukken voor me
 
 Als deze voorwaarden waar zijn, kunt u ervoor kiezen om de hoogste score te behalen. Als dat niet het geval is, kunt u ervoor kiezen deze niet te markeren als een voor de markt gekwalificeerde lead (MQL).
 
-In uw Marketo Engage-instantie die is verbonden met Journey Optimizer B2B edition, kunt u het filter _[!UICONTROL Member of Buying Group]_in uw slimme lijsten gebruiken om deze leads te identificeren op basis van uw campagnestrategie.
+In uw Marketo Engage-instantie die is verbonden met Journey Optimizer B2B edition, kunt u het filter _[!UICONTROL Member of Buying Group]_&#x200B;in uw slimme lijsten gebruiken om deze leads te identificeren op basis van uw campagnestrategie.
 
 1. Nadat u [ een Slimme Lijst in Marketo Engage ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"} creeert, selecteer het **[!UICONTROL Smart List]** lusje om de filterredacteur te openen.
 
@@ -30,7 +30,7 @@ In uw Marketo Engage-instantie die is verbonden met Journey Optimizer B2B editio
 
    ![ voeg het Lid van het Kopen filter van de Groep aan de Slimme Lijst ](./assets/me-member-of-buying-group-filter-add.png){width="700" zoomable="yes"} toe
 
-1. Stel de optie _[!UICONTROL Member of Buying Group]_in op **[!UICONTROL true]**of **[!UICONTROL false]**.
+1. Stel de optie _[!UICONTROL Member of Buying Group]_&#x200B;in op **[!UICONTROL true]**&#x200B;of **[!UICONTROL false]**.
 
    Deze beperking is vereist voor de definitie.
 
@@ -48,7 +48,7 @@ In uw Marketo Engage-instantie die is verbonden met Journey Optimizer B2B editio
 
      ![ selecteer een waarde voor de beperking van de lijst ](./assets/me-member-of-buying-group-filter-constraint-list.png){width="600" zoomable="yes"}
 
-     Selecteer de eerste en klik nogmaals op de kiezer om het dialoogvenster _[!UICONTROL Multiple Value Chooser]_te openen.
+     Selecteer de eerste en klik nogmaals op de kiezer om het dialoogvenster _[!UICONTROL Multiple Value Chooser]_&#x200B;te openen.
 
      ![ Uitgezochte veelvoudige waarden voor de beperking ](./assets/me-member-of-buying-group-filter-constraint-multiple-value.png){width="500" zoomable="yes"}
 

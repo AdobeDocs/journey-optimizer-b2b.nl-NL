@@ -13,13 +13,13 @@ ht-degree: 0%
 
 # Standaard- en aangepaste rollen
 
-Journey Optimizer B2B edition bevat een set standaardrollen die worden gebruikt in rolsjablonen voor het kopen van groepen. Maar vele organisaties vereisen douanerollen die zij volgens hun bedrijfsdoelstellingen en strategieën kunnen bepalen. Met de lijst _[!UICONTROL Roles]_kunt u uw eigen rolinstellingen maken die uw inkoopgroepen ondersteunen.
+Journey Optimizer B2B edition bevat een set standaardrollen die worden gebruikt in rolsjablonen voor het kopen van groepen. Maar vele organisaties vereisen douanerollen die zij volgens hun bedrijfsdoelstellingen en strategieën kunnen bepalen. Met de lijst _[!UICONTROL Roles]_&#x200B;kunt u uw eigen rolinstellingen maken die uw inkoopgroepen ondersteunen.
 
 ## Toegangsrollen
 
 1. Klik in de linkernavigatie op **[!UICONTROL Buying groups]** .
 
-1. Selecteer op de pagina _[!UICONTROL Buying groups]_de tab **[!UICONTROL Roles]**.
+1. Selecteer op de pagina _[!UICONTROL Buying groups]_&#x200B;de tab **[!UICONTROL Roles]**.
 
    ![ het lusje van Rollen ](./assets/roles-tab.png){width="700" zoomable="yes"}
 
@@ -47,7 +47,7 @@ Journey Optimizer B2B edition bevat een set standaardrollen die worden gebruikt 
 
 ## Een aangepaste rol maken
 
-1. Klik in het tabblad _[!UICONTROL Roles]_op **[!UICONTROL Create Role]**in de rechterbovenhoek.
+1. Klik in het tabblad _[!UICONTROL Roles]_&#x200B;op **[!UICONTROL Create Role]**&#x200B;in de rechterbovenhoek.
 
 1. Voer in het dialoogvenster een unieke **[!UICONTROL Name]** (vereist) en **[!UICONTROL Description]** (optioneel) voor de rol in.
 
@@ -57,6 +57,6 @@ Journey Optimizer B2B edition bevat een set standaardrollen die worden gebruikt 
 
 ## Aangepaste rollen beheren
 
-U kunt uw aangepaste rollen beheren op het tabblad _[!UICONTROL Roles]_, dat het bewerken van de rolnaam en beschrijving omvat en het verwijderen van een rol uit de lijst met rollen. Klik het_ Meer _menupictogram (**..**) naast de naam van het fasemodel en kies **[!UICONTROL Edit]**of **[!UICONTROL Delete]**.
+U kunt uw aangepaste rollen beheren op het tabblad _[!UICONTROL Roles]_, dat het bewerken van de rolnaam en beschrijving omvat en het verwijderen van een rol uit de lijst met rollen. Klik het_ Meer _menupictogram (**..**) naast de naam van het fasemodel en kies **[!UICONTROL Edit]**&#x200B;of **[!UICONTROL Delete]**.
 
 ![ geef of schrap een douanerol ](./assets/roles-more-menu.png){width="600"} uit

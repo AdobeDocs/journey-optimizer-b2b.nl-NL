@@ -22,7 +22,7 @@ De volgende parameters regelen de toegang tot AI Assistant in Journey Optimizer 
 
 * **toegang tot de toepassing:** u kunt tot AI Medewerker in Adobe Journey Optimizer B2B edition toegang hebben.
 
-* **Toestemmingen:** gebruik [ Toestemmingen UI ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} om toegang tot AI Medewerker in uw organisatie te verlenen of te herroepen. Als u AI Assistant wilt gebruiken, moet een bepaalde gebruiker tot een rol behoren die is geconfigureerd met de machtigingen _[!UICONTROL Enable AI Assistant]_en_[!UICONTROL View Operational Insights]_ .
+* **Toestemmingen:** gebruik [ Toestemmingen UI ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} om toegang tot AI Medewerker in uw organisatie te verlenen of te herroepen. Als u AI Assistant wilt gebruiken, moet een bepaalde gebruiker tot een rol behoren die is geconfigureerd met de machtigingen _[!UICONTROL Enable AI Assistant]_&#x200B;en&#x200B;_[!UICONTROL View Operational Insights]_ .
 
 Als beheerder kunt u:
 
