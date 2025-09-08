@@ -20,7 +20,7 @@ Beheerders moeten ervoor zorgen dat de instellingen van de bestemmingspagina zij
 
 ## Instellingen
 
-Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** om de configuratie van de openingspagina te bekijken. Selecteer onder _[!UICONTROL Landing Pages]_&#x200B;in het navigatievenster de optie **[!UICONTROL Settings]**.
+Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** om de configuratie van de openingspagina te bekijken. Selecteer onder _[!UICONTROL Landing Pages]_in het navigatievenster de optie **[!UICONTROL Settings]**.
 
 ![ het Bestaan van pagina montages ](./assets/config-landing-pages-settings.png){width="800" zoomable="yes"}
 
@@ -82,7 +82,7 @@ Voeg een nieuw subdomein toe voor elk uniek merk-URL dat u wilt hosten op Adobe 
 >
 >Het delegeren van een ongeldig subdomein naar Adobe is niet toegestaan. Zorg ervoor u geldige subdomain ingaat die uw organisatie, zoals _marketing.yourcompany.com_ bezit.
 
-Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** als u de subdomeinen wilt bekijken en nieuwe subdomeinen wilt toevoegen. Selecteer onder _[!UICONTROL Landing Pages]_&#x200B;in het navigatievenster de optie **[!UICONTROL Subdomains]**.
+Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** als u de subdomeinen wilt bekijken en nieuwe subdomeinen wilt toevoegen. Selecteer onder _[!UICONTROL Landing Pages]_in het navigatievenster de optie **[!UICONTROL Subdomains]**.
 
 ![ het Bestaan van pagina subdomeinen ](./assets/config-landing-pages-settings.png){width="800" zoomable="yes"}
 
@@ -90,7 +90,7 @@ _Een subdomein van een bestemmingspagina toevoegen :_
 
 1. Klik op **[!UICONTROL Add subdomain]** rechtsboven.
 
-1. Voer in de _[!UICONTROL Subdomain details]_&#x200B;de subdomeininformatie in:
+1. Voer in de _[!UICONTROL Subdomain details]_de subdomeininformatie in:
 
    * **[!UICONTROL Subdomain]** - De subdomein-URL die moet worden gebruikt, zoals `marketing.yourcompany.com`
    * **[!UICONTROL Default page]** - De URL voor de standaardsubdomeinpagina, zoals `marketing.yourcompany.com/products`
