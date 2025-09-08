@@ -1,12 +1,12 @@
 ---
 title: Intentgegevens
-description: Leer hoe u trefwoorden kunt samenstellen en verzenden voor het genereren van intentiegegevens voor Journey Optimizer B2B edition.
+description: Configureer intentgegevens met behulp van trefwoordtoewijzing om de interesse van klanten te voorspellen en signalen te kopen voor marketing op basis van account in Journey Optimizer B2B edition.
 feature: Setup, Intent, Account Insights
 roles: Admin
 exl-id: c7f9f6fe-2275-42a4-af80-b5c3d1a82837
-source-git-commit: 65c7bdcc998c604125442fbd0a65c2f8ebd3255d
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
@@ -56,11 +56,11 @@ U kunt een dossier van Excel downloaden als malplaatje voor het voorbereiden van
 
 ## Een categoriebestand uploaden
 
-Wanneer uw spreadsheet klaar is, ga aan de _[!UICONTROL Intent Mapping]_&#x200B;configuratiepagina terug en upload het dossier.
+Wanneer uw spreadsheet klaar is, ga aan de _[!UICONTROL Intent Mapping]_configuratiepagina terug en upload het dossier.
 
 1. Klik op **[!UICONTROL Create category]**.
 
-1. Sleep het bestand naar het dialoogvenster _[!UICONTROL Upload files]_&#x200B;of klik op **[!UICONTROL Select a file]**&#x200B;om het bestand op uw systeem te zoeken en te selecteren.
+1. Sleep het bestand naar het dialoogvenster _[!UICONTROL Upload files]_of klik op **[!UICONTROL Select a file]**om het bestand op uw systeem te zoeken en te selecteren.
 
 1. Klik op **[!UICONTROL Next]**.
 
@@ -68,7 +68,7 @@ Wanneer uw spreadsheet klaar is, ga aan de _[!UICONTROL Intent Mapping]_&#x200B;
 
    ![ het bericht van de Pulse ](./assets/intent-data-upload-files-pre-process.png){width="500"}
 
-   Het resultaat wordt getoond in de _Afbeelding van de Intentie 1&rbrace; pagina._
+   Het resultaat wordt getoond in de _Afbeelding van de Intentie 1} pagina._
 
    ![ Geüploade intentcategorie voor goedkeuring ](./assets/intent-data-category-approve.png){width="600" zoomable="yes"}
 

@@ -1,12 +1,12 @@
 ---
 title: Intelligent dashboard
-description: Meer informatie over het intelligente dashboard, dat een uitgebreide weergave biedt van de maatstaven voor inkoopgroepen en -accounts
+description: Toegang tot door AI aangedreven inzichten voor het kopen van groepen en accounts met betrokkenheidsmetriek, intentdetectie en voorspellende analyse in Journey Optimizer B2B edition.
 feature: Dashboards, Intelligent Insights, Buying Groups
 role: User
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
 workflow-type: tm+mt
-source-wordcount: '1667'
+source-wordcount: '1658'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Om gebruik te kunnen maken van de informatie en inzichten die door het Intellige
 >title="Groepsfasen voor kopen"
 >abstract="Dit diagram biedt een overzicht van het aanschaffen van groepsprogressie in verschillende stadia op basis van de geconfigureerde overgangsregels. De eerste balk geeft het aantal inkoopgroepen in een specifiek stadium op de eerste datum van het geselecteerde tijdkader aan ten opzichte van de laatste datum van het geselecteerde tijdkader."
 
-Het _[!UICONTROL Buying Group Stages]_&#x200B;diagram verstrekt een overzicht van het kopen van groepsvooruitgang over verschillende stadia ([ die op overgangsregels worden gebaseerd die door een beheerder ](../buying-groups/buying-group-stages.md) worden opstelling).
+Het _[!UICONTROL Buying Group Stages]_diagram verstrekt een overzicht van het kopen van groepsvooruitgang over verschillende stadia ([ die op overgangsregels worden gebaseerd die door een beheerder ](../buying-groups/buying-group-stages.md) worden opstelling).
 
 >[!NOTE]
 >
@@ -99,7 +99,7 @@ Klik het _pictogram van de Filter_ ( ![ geef pictogram ](../assets/do-not-locali
 >title="Top 5 van statische koopgroepen"
 >abstract="Stagnant inkoopgroepen die ondanks een hoge volledigheidsscore niet geleidelijk door de verschillende fasen worden geleid."
 
-De sectie _[!UICONTROL Buying group highlights]_&#x200B;is in drie rijen ingedeeld om informatie over de inkoopgroepen weer te geven die van belang zijn voor uw organisatie.
+De sectie _[!UICONTROL Buying group highlights]_is in drie rijen ingedeeld om informatie over de inkoopgroepen weer te geven die van belang zijn voor uw organisatie.
 
 ![ het Kopen groepshoogtepunten ](./assets/intelligent-dashboard-buying-group-highlights.png){width="800" zoomable="yes"}
 
@@ -114,7 +114,7 @@ Elke kaart bevat de volgende gegevens:
 * **_Huidige stadium_** voor de het kopen groep.
 * **_score van de Betrokkenheid_** (genormaliseerd over alle het kopen groepen). Als alle inkoopgroepen dezelfde hoogste score hebben, wordt de laatst bijgewerkte score weergegeven.
 * **_score van de Voltooiing_** (die zich van 1-100 uitstrekken). Als alle inkoopgroepen dezelfde hoogste score hebben, wordt de laatst bijgewerkte score weergegeven.
-* **_intent van de Categorie_**. Klik op _[!UICONTROL View details]_&#x200B;om de intentgegevens weer te geven:
+* **_intent van de Categorie_**. Klik op _[!UICONTROL View details]_om de intentgegevens weer te geven:
 
   ![ het Kopen gegevens van de groepsintentie ](./assets/intelligent-dashboard-buying-group-intent-details.png){width="500" zoomable="yes"}
 
@@ -149,11 +149,11 @@ Gebruik het datumfilter rechtsboven om het datumbereik voor de gegevensvisualisa
 >title="Accountopleving"
 >abstract="Accounts met een significante wijziging in de aanstellingsdynamiek binnen het geselecteerde tijdkader."
 
-In de sectie _[!UICONTROL Surging accounts]_&#x200B;wordt een visualisatie van de accounts weergegeven met een aanzienlijke wijziging in de betrokkenheidsdynamiek binnen de geselecteerde tijdsperiode.
+In de sectie _[!UICONTROL Surging accounts]_wordt een visualisatie van de accounts weergegeven met een aanzienlijke wijziging in de betrokkenheidsdynamiek binnen de geselecteerde tijdsperiode.
 
 >[!NOTE]
 >
->Accountschommelingsgegevens zijn beperkt tot accounts die door Journey Optimizer B2B edition voor een accountpubliek worden gebruikt via rekeningreizen of inkoopgroepen.
+>De gegevens over de accounttoename omvatten alleen accounts die Journey Optimizer B2B edition binnenkrijgt via reizen of groepen die objecten kopen.
 
 ![ de visualisatie van de de drukgegevens van de Rekening ](./assets/intelligent-dashboard-account-surge.png){width="800" zoomable="yes"}
 
@@ -193,11 +193,11 @@ Gebruik het datumfilter rechtsboven om het datumbereik voor de gegevensvisualisa
 >title="Risicorekeningen"
 >abstract="Accounts met een significante afname in de aanstellingsdynamiek in het geselecteerde tijdkader."
 
-De sectie _[!UICONTROL Account highlights]_&#x200B;is in twee rijen geordend om informatie over de rekeningen van belang voor uw organisatie te tonen.
+De sectie _[!UICONTROL Account highlights]_is in twee rijen geordend om informatie over de rekeningen van belang voor uw organisatie te tonen.
 
 >[!NOTE]
 >
->De gegevens voor markeren van accounts zijn beperkt tot accounts die door Journey Optimizer B2B edition voor een accountpubliek worden gebruikt via accountreizen of groepen die objecten kopen.
+>De gegevens van accounts bevatten alleen accounts die Journey Optimizer B2B edition binnenkrijgt via reizen of groepen die objecten kopen.
 
 ![ de hoogtepunten van de Rekening ](./assets/intelligent-dashboard-account-highlights.png){width="800" zoomable="yes"}
 
@@ -208,7 +208,7 @@ Elke kaart bevat de volgende gegevens:
 
 * **_naam van de Rekening_**. Klik op de naam om de pagina met accountdetails te openen.
 * **_Generatieve AI samenvatting_** van de rekening.
-* **_Intentie van het Sleutelwoord_**. Klik op _[!UICONTROL View details]_&#x200B;om de intentgegevens weer te geven:
+* **_Intentie van het Sleutelwoord_**. Klik op _[!UICONTROL View details]_om de intentgegevens weer te geven:
 
   ![ gegevens van de intentie van de Rekening ](./assets/intelligent-dashboard-account-intent-details.png){width="500" zoomable="yes"}
 
@@ -242,7 +242,7 @@ Gebruik het datumfilter rechtsboven om het datumbereik voor de gegevensvisualisa
 >title="Contact opnemen"
 >abstract="Toont het aantal contacten met een specifieke rol verbonden aan een oplossingsbelang. De toewijzing van rol en oplossingsrente is gebaseerd op het koopgegroeikalplaatje."
 
-De _[!UICONTROL Contact coverage]_&#x200B;sectie toont een visualisatie van het aantal contacten met een specifieke rol verbonden aan een oplossingsbelang. De toewijzing van rol en oplossingsrente is gebaseerd op het koopgegroeikalplaatje.
+De _[!UICONTROL Contact coverage]_sectie toont een visualisatie van het aantal contacten met een specifieke rol verbonden aan een oplossingsbelang. De toewijzing van rol en oplossingsrente is gebaseerd op het koopgegroeikalplaatje.
 
 >[!NOTE]
 >
@@ -274,7 +274,7 @@ Klik het _pictogram van de Filter_ ( ![ pictogram van de Filter ](../assets/do-n
 >title="Contactoverlapping"
 >abstract="Lijst van contacten die deel van meer dan één het kopen groep als resultaat van het worden verbonden met veelvoudige oplossingsbelangen uitmaken."
 
-De sectie _[!UICONTROL Contact overlap]_&#x200B;toont een lijst van contacten die deel van meer dan één het kopen groep als resultaat van het worden geassocieerd met veelvoudige oplossingsbelangen uitmaken.
+De sectie _[!UICONTROL Contact overlap]_toont een lijst van contacten die deel van meer dan één het kopen groep als resultaat van het worden geassocieerd met veelvoudige oplossingsbelangen uitmaken.
 
 >[!NOTE]
 >

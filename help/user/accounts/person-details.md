@@ -1,11 +1,12 @@
 ---
 title: Persoonsgegevens
-description: Meer informatie over toegang tot gedetailleerde informatie en een algemene AI-samenvatting voor een persoon die is gekoppeld aan een account of inkoopgroep in Journey Optimizer B2B edition.
+description: Bekijk persoonlijke inzichten met AI-overzichten, betrokkenheidsscores, activity tracking en intentdetectie voor het kopen van groepsleden in Journey Optimizer B2B edition.
 feature: Account Insights
 role: User
-source-git-commit: 5382bc89903a567268ee06648a8d6b0bf34695a6
+exl-id: 401d7107-fd20-471e-9adf-a64c590b0080
+source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '297'
 ht-degree: 1%
 
 ---

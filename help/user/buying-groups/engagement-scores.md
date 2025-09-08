@@ -1,15 +1,15 @@
 ---
 title: Betrokkenheidsscore voor kopersgroepen
-description: Leer over het kopen van groep en de scores van de persoonbetrokkenheid, met inbegrip van berekeningslogica en activiteitstypes die scoring bepalen.
-feature: Buying Groups
+description: Houd de score van de inkoopgroep en de persoonlijke betrokkenheid bij met gewogen activiteiten en op rollen gebaseerde berekeningen in Journey Optimizer B2B edition.
+feature: Buying Groups, Engagement
 role: User
-source-git-commit: 9a70cdf73585a1d55cc973046d91fe15c7e80a02
+exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '1130'
-ht-degree: 4%
+source-wordcount: '1242'
+ht-degree: 5%
 
 ---
-
 
 # Betrokkenheidsscores {#engagement-scores}
 
@@ -30,7 +30,7 @@ Er zijn twee soorten betrokkenheidsscores:
 
 * **de betrokkenheidsscore van de Persoon** - de score van de personenbetrokkenheid is gebaseerd op de activiteiten van een individueel het kopen groepslid.
 
-  De score van de personenovereenkomst voor elk het kopen groepslid wordt getoond in de het kopen pagina van de details van de groep [_[!UICONTROL Members]_&#x200B;tabel ](./buying-group-details.md#buying-group-members). Deze scores worden ook weergegeven in pagina&#39;s en dashboards die leden van het hoogste niveau en overlappende contactinformatie bevatten.
+  De score van de personenovereenkomst voor elk het kopen groepslid wordt getoond in de het kopen pagina van de details van de groep [_[!UICONTROL Members]_tabel ](./buying-group-details.md#buying-group-members). Deze scores worden ook weergegeven in pagina&#39;s en dashboards die leden van het hoogste niveau en overlappende contactinformatie bevatten.
 
   ![ het meest betrokken kopen groepsleden ](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 
@@ -50,7 +50,16 @@ Het kopen van groep het scoren is niet _getriggerd-gebaseerd_. Het is een dageli
 
 Voor elke activiteit geldt een dagelijkse maximale frequentie van 20. Als een lid van een inkoopgroep dezelfde activiteit meer dan 20 keer op één dag uitoefent, wordt het aantal voor de activiteit beperkt tot 20.
 
-{{engagement-activities}}
+| Naam activiteit | Beschrijving | Type betrokkenheid | Maximale dagelijkse frequentie | Standaardactiegewicht van model |
+|---------------|-------------|-----------------|---------------------------|-------------------------------|
+| Gebeurtenis bijwonen | Een lid woonde een gebeurtenis bij | Gebeurtenis | 20 | 60 |
+| E-mail geklikt | Een lid klikt op een koppeling in een e-mailbericht | E-mail | 20 | 30 |
+| E-mail geopend | Een lid opent een e-mail | E-mail | 20 | 30 |
+| Formulier ingevuld | Een lid vult een formulier in en verzendt het op een webpagina | Web | 20 | 40 |
+| Interessant moment | Een lid heeft een interessant moment | Gekromd | 20 | 60 |
+| Koppelingsklikken | Een lid klikt op een koppeling op een webpagina | Web | 20 | 40 |
+| Paginaweergaven | Een lid bekijkt een webpagina | Web | 20 | 40 |
+| Registreren voor gebeurtenis | Een lid dat is geregistreerd voor een gebeurtenis | Gebeurtenis | 20 | 60 |
 
 <!-- old list
 
@@ -94,7 +103,7 @@ Voor elke activiteit geldt een dagelijkse maximale frequentie van 20. Als een li
 
 >[!NOTE]
 >
->Activiteiten met betrekking tot de betrokkenheidsscore worden vastgelegd in het Marketo Engage-activiteitenlogboek voor een persoon. U hebt toegang tot dit logbestand in de verbonden Marketo Engage-instantie. Voor meer informatie, zie [ plaats van het Logboek van de Activiteit voor een Persoon ](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"} in de documentatie van Marketo Engage.
+>Activiteiten met betrekking tot de betrokkenheidsscore worden vastgelegd in het Marketo Engage-activiteitenlogboek voor een persoon. U hebt toegang tot dit logbestand in de verbonden Marketo Engage-instantie. Voor meer informatie, zie [ plaats van het Logboek van de Activiteit voor een Persoon ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"} in de documentatie van Marketo Engage.
 
 ## weging rolsjabloon {#engagement-score-weighting}
 
@@ -115,7 +124,7 @@ Elk wegingsniveau wordt omgezet in een waarde die wordt gebruikt voor het bereke
 * [!UICONTROL Important] = 80
 * [!UICONTROL Vital] = 100
 
-Een rolmalplaatje met drie rollen gewogen zoals _[!UICONTROL Vital]_,_[!UICONTROL Important]_, en _[!UICONTROL Normal]_&#x200B;zet in de volgende gewogen percentages om:
+Een rolmalplaatje met drie rollen gewogen zoals _[!UICONTROL Vital]_,_[!UICONTROL Important]_, en _[!UICONTROL Normal]_zet in de volgende gewogen percentages om:
 
 | Functie | Weging | Systeemwaarde | Waarde berekenen | Percentage |
 |-------------- |--------- |------------- |------------------ |---------- |

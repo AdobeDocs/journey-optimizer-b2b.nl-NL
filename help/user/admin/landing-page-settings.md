@@ -1,15 +1,15 @@
 ---
 title: Configuratie bestemmingspagina
-description: Leer hoe u de instellingen van de bestemmingspagina kunt openen en configureren, zodat uw marketingteam webpagina's kan ontwerpen en publiceren ter ondersteuning van hun campagnes.
+description: Configureer subdomeinen van de bestemmingspagina, instellingen van de formuliervoorinvulling en gegevensstreams om publicatie van campagnewebpagina's in Journey Optimizer B2B edition mogelijk te maken.
 feature: Setup, Landing Pages, Content
 role: Admin
 hide: true
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Deze functie bevindt zich momenteel in een beperkte bètaversie"
 exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
-source-git-commit: 8bd3d696a52a813b88de9e3b58145b1cbfb3fa32
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Beheerders moeten ervoor zorgen dat de instellingen van de bestemmingspagina zij
 
 ## Instellingen
 
-Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** om de configuratie van de openingspagina te bekijken. Selecteer onder _[!UICONTROL Landing Pages]_&#x200B;in het navigatievenster de optie **[!UICONTROL Settings]**.
+Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** om de configuratie van de openingspagina te bekijken. Selecteer onder _[!UICONTROL Landing Pages]_in het navigatievenster de optie **[!UICONTROL Settings]**.
 
 ![ het Bestaan van pagina montages ](./assets/config-landing-pages-settings.png){width="800" zoomable="yes"}
 
@@ -52,7 +52,7 @@ Schakel de optie **[!UICONTROL Form prefill]** in als u wilt dat formulieren in 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_missing_datastream"
 >title="Ontbrekende DataStream-id"
->abstract="Subdomian mist een identiteitskaart DataStream, die voor het juiste verpletteren wordt vereist. Configureer dit in Instellingen om door te gaan"
+>abstract="Subdomain mist een identiteitskaart DataStream, die voor het juiste verpletteren wordt vereist. Configureer dit in Instellingen om door te gaan"
 
 Stel de optie **[!UICONTROL Datastream]** in om een gegevensstroom voor het starten van een gebeurtenisverzameling op de pagina te configureren.
 
@@ -82,7 +82,7 @@ Voeg een nieuw subdomein toe voor elk uniek merk-URL dat u wilt hosten op Adobe 
 >
 >Het delegeren van een ongeldig subdomein naar Adobe is niet toegestaan. Zorg ervoor u geldige subdomain ingaat die uw organisatie, zoals _marketing.yourcompany.com_ bezit.
 
-Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** als u de subdomeinen wilt bekijken en nieuwe subdomeinen wilt toevoegen. Selecteer onder _[!UICONTROL Landing Pages]_&#x200B;in het navigatievenster de optie **[!UICONTROL Subdomains]**.
+Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** als u de subdomeinen wilt bekijken en nieuwe subdomeinen wilt toevoegen. Selecteer onder _[!UICONTROL Landing Pages]_in het navigatievenster de optie **[!UICONTROL Subdomains]**.
 
 ![ het Bestaan van pagina subdomeinen ](./assets/config-landing-pages-settings.png){width="800" zoomable="yes"}
 
@@ -90,7 +90,7 @@ _Een subdomein van een bestemmingspagina toevoegen :_
 
 1. Klik op **[!UICONTROL Add subdomain]** rechtsboven.
 
-1. Voer in de _[!UICONTROL Subdomain details]_&#x200B;de subdomeininformatie in:
+1. Voer in de _[!UICONTROL Subdomain details]_de subdomeininformatie in:
 
    * **[!UICONTROL Subdomain]** - De subdomein-URL die moet worden gebruikt, zoals `marketing.yourcompany.com`
    * **[!UICONTROL Default page]** - De URL voor de standaardsubdomeinpagina, zoals `marketing.yourcompany.com/products`

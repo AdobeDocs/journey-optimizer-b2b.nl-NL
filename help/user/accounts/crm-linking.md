@@ -1,21 +1,22 @@
 ---
 title: Toegang tot detailpagina's in CRM
-description: Leer hoe de leden van het team van de Verkoop tot gedetailleerde pagina's voor rekeningen, contacten, en rechtstreeks van hun hulpmiddel van het Beheer van de Verhouding van de Klant (CRM), zoals Salesforce of Microsoft Dynamics kunnen toegang hebben.
+description: Voeg aangepaste koppelingen voor account- en contactgegevens toe om directe toegang tot Journey Optimizer B2B-inzichten van Salesforce en Dynamics CRM mogelijk te maken.
 feature: Integrations, Sales Insights
 role: Admin, User
 badgeBeta: label="Beta" type="informative" tooltip="Deze functie bevindt zich momenteel in een beperkte bètaversie"
-source-git-commit: d50e7eb067e40bdcc18c93baec1a0b6713bf793c
+exl-id: 152ec02c-e8fb-4d69-8e80-ee546fc0304c
+source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1268'
 ht-degree: 0%
 
 ---
 
 # Toegang tot detailpagina&#39;s in CRM
 
-Adobe Journey Optimizer B2B edition stelt leden van verkoopteams en accountmanagers in staat om gedetailleerde pagina&#39;s voor account- en inkoopgroepgegevens rechtstreeks te openen via hun Customer Relationship Management (CRM)-tool, zoals Salesforce of Microsoft Dynamics. Met deze integratie kunnen verkoopvertegenwoordigers snel toegang krijgen tot realtime account en groepsinzichten kopen, zoals betrokkenheidsgeschiedenis, intentsignalen en door AI gegenereerde aanbevelingen. Deze mogelijkheid stelt het verkoopteam in staat om sneller te werken, slimmer prioriteiten te stellen en beter af te stemmen op Marketing.
+Adobe Journey Optimizer B2B edition staat leden van verkoop- en accountteams toe om gedetailleerde pagina&#39;s voor account en groepsgegevens rechtstreeks te openen via hun Customer Relationship Management (CRM)-tool, zoals Salesforce of Microsoft Dynamics. Met deze integratie kunnen verkoopvertegenwoordigers snel toegang krijgen tot realtime account en groepsinzichten kopen, zoals betrokkenheidsgeschiedenis, intentsignalen en door AI gegenereerde aanbevelingen. Deze mogelijkheid stelt het verkoopteam in staat om sneller te werken, slimmer prioriteiten te stellen en beter af te stemmen op Marketing.
 
-Om de teamleden van de Verkoop voor het bekijken van [ rekeningsdetails ](account-details.md) en [ persoondetails ](person-details.md) pagina&#39;s in Journey Optimizer B2B edition van CRM toe te laten, kan Salesforce of de beheerder van de Dynamica een verbinding van Journey Optimizer B2B edition van de rekening, het contact, of de mening van het lood toevoegen.
+Om verkoop en de leden van het rekeningsteam voor het bekijken van [ rekeningsdetails ](account-details.md) en [ persoondetails ](person-details.md) pagina&#39;s in Journey Optimizer B2B edition van CRM toe te laten, kan Salesforce of de beheerder van de Dynamica een verbinding van de rekening, het contact, of de mening van het lood toevoegen.
 
 Wanneer een het teamlid van de Verkoop de verbinding van de instantie van CRM gebruikt, zou zandbak _Prod_ moeten zijn, en de organisatie IMS wordt bepaald volgens de volgende geordende logica:
 
@@ -91,7 +92,7 @@ Gebruik het object `Account` om de 18-teken-id van het account op te halen, zoal
 
 +++
 
-+++knop Detailpagina
++++Knop Detailpagina
 
 1. Ga in Salesforce naar **[!UICONTROL Setup]** > **[!UICONTROL Object Manager]** > **[!UICONTROL Account]**/**[!UICONTROL Contact]**/**[!UICONTROL Lead]** > **[!UICONTROL Buttons, Links, and Actions]** .
 1. Klik op **[!UICONTROL New Button or Link]** in de rechterbovenhoek en maak de knop voor de detailpagina.
@@ -134,7 +135,7 @@ Wanneer u de doel-URL voor de koppeling definieert, kunt u de account-, contact-
 
 **_Examples:_**
 
-+++URL, veld
++++URL-veld
 
 Voer de volgende taakvolgorde uit om de aangepaste koppeling als een URL-veld toe te voegen:
 
@@ -147,7 +148,7 @@ Voer de volgende taakvolgorde uit om de aangepaste koppeling als een URL-veld to
    ![ Nieuw gebied voor de entiteit van het Contact ](./assets/crm-linking-dynamics-url-field-new.png){width="800" zoomable="yes"}
 
 1. Sla de veldconfiguratie op.
-1. Selecteer op het tabblad _[!UICONTROL Solution]_&#x200B;de optie **[!UICONTROL Web Resources]**.
+1. Selecteer op het tabblad _[!UICONTROL Solution]_de optie **[!UICONTROL Web Resources]**.
 1. Klik op **[!UICONTROL New]** en configureer de volgende JScript-webbron (Script):
 
    ```js
@@ -193,7 +194,7 @@ Voer de volgende taakvolgorde uit om de aangepaste koppeling als een URL-veld to
 
 **3 - voeg het JS Webmiddel aan de vormbibliotheken** toe
 
-1. Klik op de tab _[!UICONTROL Home]_&#x200B;bovenaan op **[!UICONTROL Form Properties]**.
+1. Klik op de tab _[!UICONTROL Home]_bovenaan op **[!UICONTROL Form Properties]**.
 1. Klik op **[!UICONTROL Add]**.
 
    ![ voeg vormeigenschappen ](./assets/crm-linking-dynamics-url-form-properties.png){width="500" zoomable="yes"} toe
@@ -204,13 +205,13 @@ Voer de volgende taakvolgorde uit om de aangepaste koppeling als een URL-veld to
 
 1. Selecteer de toegevoegde bron en klik op **[!UICONTROL Add]** onder _[!UICONTROL Event Handlers]_.
 1. Voeg de functie `setViewInAjoB2b` toe aan **[!UICONTROL Event Handlers]** .
-1. Selecteer de functie in de lijst _[!UICONTROL Event Handlers]_&#x200B;en stel **[!UICONTROL Control]**&#x200B;in op `Form` en **[!UICONTROL Event]**&#x200B;op `OnLoad` .
+1. Selecteer de functie in de lijst _[!UICONTROL Event Handlers]_en stel **[!UICONTROL Control]**in op `Form` en **[!UICONTROL Event]**op `OnLoad` .
 
    ![ voeg de manager ](./assets/crm-linking-dynamics-url-handler-properties.png){width="500" zoomable="yes"} toe
 
 1. Klik op **[!UICONTROL OK]**.
 
-1. Klik op de tab _[!UICONTROL Home]_&#x200B;boven in het scherm op **[!UICONTROL Save]**&#x200B;en vervolgens op **[!UICONTROL Publish]**.
+1. Klik op de tab _[!UICONTROL Home]_boven in het scherm op **[!UICONTROL Save]**en vervolgens op **[!UICONTROL Publish]**.
 
 **4 - verifieer de verbinding**
 
@@ -234,7 +235,7 @@ Voer de volgende taakvolgorde uit om de aangepaste koppeling toe te voegen als e
 
 1. Ga naar **[!UICONTROL Advanced Settings]** > **[!UICONTROL Customize the system]** en selecteer de tab **[!UICONTROL Solution]** .
 
-1. Selecteer op het tabblad _[!UICONTROL Solution]_&#x200B;de optie **[!UICONTROL Web Resources]**.
+1. Selecteer op het tabblad _[!UICONTROL Solution]_de optie **[!UICONTROL Web Resources]**.
 
 1. Klik op **[!UICONTROL New]** en configureer de volgende JScript-webbron (Script) met de volgende functie:
 
@@ -299,13 +300,13 @@ Voer de volgende taakvolgorde uit om de aangepaste koppeling toe te voegen als e
 
 1. Selecteer de toegevoegde bron en klik op **[!UICONTROL Add]** onder _[!UICONTROL Event Handlers]_.
 1. Voeg de functie `getFormContext` toe aan **[!UICONTROL Event Handlers]** .
-1. Selecteer de functie in de lijst _[!UICONTROL Event Handlers]_&#x200B;en stel **[!UICONTROL Control]**&#x200B;in op `Form` en **[!UICONTROL Event]**&#x200B;op `OnLoad` .
+1. Selecteer de functie in de lijst _[!UICONTROL Event Handlers]_en stel **[!UICONTROL Control]**in op `Form` en **[!UICONTROL Event]**op `OnLoad` .
 
    ![ voeg de manager ](./assets/crm-linking-dynamics-web-resources-handler-properties.png){width="500" zoomable="yes"} toe
 
 1. Klik op **[!UICONTROL OK]**.
 
-1. Klik op de tab _[!UICONTROL Home]_&#x200B;boven in het scherm op **[!UICONTROL Save]**&#x200B;en vervolgens op **[!UICONTROL Publish]**.
+1. Klik op de tab _[!UICONTROL Home]_boven in het scherm op **[!UICONTROL Save]**en vervolgens op **[!UICONTROL Publish]**.
 
 **3 - vorm**
 
@@ -319,7 +320,7 @@ Voer de volgende taakvolgorde uit om de aangepaste koppeling toe te voegen als e
 
    ![ middel van het Web ](./assets//crm-linking-dynamics-web-resource-form-properties.png){width="500" zoomable="yes"}
 
-   Verwijs naar de [ documentatie van de Apps van de Macht ](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/web-resource-properties-legacy) voor gedetailleerde informatie over Web middeleigenschappen en het formatteren.
+   Voor gedetailleerde informatie over de eigenschappen en het formatteren van het Webmiddel, zie de [ documentatie van de Apps van de Macht ](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/web-resource-properties-legacy).
 
 1. Klik op **[!UICONTROL OK]**.
 
@@ -327,7 +328,7 @@ Voer de volgende taakvolgorde uit om de aangepaste koppeling toe te voegen als e
 
    ![ middel van het Web dat aan de summiere sectie van de vorm ](./assets/crm-linking-dynamics-web-resource-layout-displayed.png){width="800" zoomable="yes"} wordt toegevoegd
 
-1. Klik op de tab _[!UICONTROL Home]_&#x200B;boven in het scherm op **[!UICONTROL Save]**&#x200B;en vervolgens op **[!UICONTROL Publish]**.
+1. Klik op de tab _[!UICONTROL Home]_boven in het scherm op **[!UICONTROL Save]**en vervolgens op **[!UICONTROL Publish]**.
 
 **4 - verifieer de verbinding**
 

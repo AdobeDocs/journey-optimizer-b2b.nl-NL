@@ -1,10 +1,10 @@
 ---
 title: Groepen kopen
-description: Leer hoe kopersgroepen in Journey Optimizer B2B edition de doeltreffendheid van marketing kunnen verhogen door leden voor uw accountlijsten te identificeren en te richten.
+description: Verhoog de marketing op basis van accounts met inkoopgroepen om belangrijke besluitvormers te identificeren, betrokkenheidsscores bij te houden en doelaccounts in Journey Optimizer B2B edition.
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 20f9620691fe76119797a83b721ca460c0cc39e8
+source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
 workflow-type: tm+mt
 source-wordcount: '1180'
 ht-degree: 0%
@@ -72,7 +72,7 @@ Om te voorkomen dat een lidtoewijzing in een inkoopgroep onjuist wordt overschre
 
 Vouw **[!UICONTROL Accounts]** uit in de linkernavigatie en klik op **[!UICONTROL Buying groups]** .
 
-De pagina _[!UICONTROL Buying groups]_&#x200B;is ingedeeld als tabbladen:
+De pagina _[!UICONTROL Buying groups]_is ingedeeld als tabbladen:
 
 | Tab | Beschrijving |
 | --- | ----------- |
@@ -84,13 +84,13 @@ De pagina _[!UICONTROL Buying groups]_&#x200B;is ingedeeld als tabbladen:
 
 ## Zoeken en filteren van groepen
 
-Gebruik het tabblad _[!UICONTROL Browse]_&#x200B;om de lijst met inkoopgroepen weer te geven. U kunt op naam zoeken en de lijst door oplossingsbelang filtreren.
+Gebruik het tabblad _[!UICONTROL Browse]_om de lijst met inkoopgroepen weer te geven. U kunt op naam zoeken en de lijst door oplossingsbelang filtreren.
 
 ![ Kopende groep doorbladert pagina ](assets/buying-groups-browse.png){width="800" zoomable="yes"}
 
 ## Gegevens van groep kopen
 
-Klik op de naam van de inkoopgroep op het tabblad _[!UICONTROL Browse]_&#x200B;als u details voor een inkoopgroep wilt weergeven. [Meer informatie](./buying-group-details.md)
+Klik op de naam van de inkoopgroep op het tabblad _[!UICONTROL Browse]_als u details voor een inkoopgroep wilt weergeven. [Meer informatie](./buying-group-details.md)
 
 ![ het Kopen groepdetails ](assets/buying-group-details.png){width="600" zoomable="yes"}
 
@@ -112,4 +112,4 @@ Zie [ de scores van de Betrokkenheid ](./engagement-scores.md) voor gedetailleer
 
 ## Video over overzicht
 
->[!VIDEO](https://video.tv.adobe.com/v/3452939/?learn=on&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

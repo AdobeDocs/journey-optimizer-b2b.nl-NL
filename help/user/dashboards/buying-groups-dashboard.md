@@ -1,12 +1,12 @@
 ---
 title: Het overzichtdashboard voor inkoopgroepen
-description: Leer over het het Overzicht dashboard van Groepen van het Kopen en hoe het de Afhandeling van de Verkoop van het team van de Marketing toelaat.
+description: Houd de voortgang van de inkoopgroep bij met voltooiingsscores, betrokkenheidsmetriek en analyse van de oplossingsrente om de verkoopoverdracht in Journey Optimizer B2B edition mogelijk te maken.
 feature: Dashboards, Buying Groups
 role: User
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---

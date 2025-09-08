@@ -1,12 +1,12 @@
 ---
 title: SMS-configuraties
-description: Leer hoe u verbindingen met ondersteunde SMS-providers configureert voor gebruik door Journey Optimizer B2B edition SMS-berichten.
+description: Verbind de leveranciers van SMS zoals Sinch, Twilio, en Infobip met API geloofsbrieven om tekstoverseinen in de reizen van Journey Optimizer B2B edition toe te laten.
 feature: Setup, Channels
 role: Admin
 exl-id: bd41a5ec-929f-489f-a757-0720c1b44ed2
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Voordat u een SMS-kanaal configureert in Adobe Journey Optimizer B2B edition, mo
 
 >[!TAB  Sinch ]
 
-_om Sinch als uw leverancier van SMS met Adobe Journey Optimizer B2B edition te vormen:_
+_Om Sinch als uw leverancier van SMS met Adobe Journey Optimizer B2B edition te vormen :_
 
 1. Vouw de sectie **[!UICONTROL Administrator]** in de linkernavigatie uit en klik op **[!UICONTROL Configuration]** .
 
@@ -71,7 +71,7 @@ _om Sinch als uw leverancier van SMS met Adobe Journey Optimizer B2B edition te 
 
 >[!TAB  Twilio ]
 
-_om Twilio als uw leverancier van SMS met Adobe Journey Optimizer B2B edition te vormen:_
+_To configure Twilio as your SMS provider with Adobe Journey Optimizer B2B edition :_
 
 1. Vouw de sectie **[!UICONTROL Administrator]** in de linkernavigatie uit en klik op **[!UICONTROL Configuration]** .
 
@@ -93,7 +93,7 @@ _om Twilio als uw leverancier van SMS met Adobe Journey Optimizer B2B edition te
 
 >[!TAB  Infobip ]
 
-_om Infobip als uw leverancier van SMS met Adobe Journey Optimizer B2B edition te vormen:_
+_Om Infobip als uw leverancier van SMS met Adobe Journey Optimizer B2B edition te vormen :_
 
 1. Vouw de sectie **[!UICONTROL Administrator]** in de linkernavigatie uit en klik op **[!UICONTROL Configuration]** .
 
@@ -115,4 +115,4 @@ _om Infobip als uw leverancier van SMS met Adobe Journey Optimizer B2B edition t
 
 >[!ENDTABS]
 
-Wanneer u op _[!UICONTROL Submit]_&#x200B;klikt, worden de referenties direct gevalideerd en opgeslagen en wordt u omgeleid naar de pagina met&#x200B;_[!UICONTROL API credentials]_ -lijsten. Als de verzonden referenties ongeldig zijn, wordt een foutbericht weergegeven op de pagina met lijsten. In dit geval kunt u de configuratie annuleren of deze bijwerken en opnieuw verzenden.
+Wanneer u op _[!UICONTROL Submit]_klikt, worden de referenties direct gevalideerd en opgeslagen en wordt u omgeleid naar de pagina met_[!UICONTROL API credentials]_ -lijsten. Als de verzonden referenties ongeldig zijn, wordt een foutbericht weergegeven op de pagina met lijsten. In dit geval kunt u de configuratie annuleren of deze bijwerken en opnieuw verzenden.

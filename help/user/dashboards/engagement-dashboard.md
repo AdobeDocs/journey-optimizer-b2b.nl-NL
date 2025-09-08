@@ -1,13 +1,13 @@
 ---
 title: Dashboard Betrokkenheid overzicht
-description: Leer hoe u het dashboard Betrokkenheid overzicht kunt gebruiken om uw betrokkenheidsinspanningen te controleren.
+description: De metriek van de betrokkenheid in real time voor rekeningen, het kopen groepen, en mensen met interactieve grafieken en trendanalyse in Journey Optimizer B2B edition controleren.
 feature: Dashboards, Engagement
 role: User
 exl-id: 46363ed8-755a-4368-b53c-0b3629b64934
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 0%
+source-wordcount: '534'
+ht-degree: 1%
 
 ---
 
@@ -39,7 +39,7 @@ U kunt de weergegeven gegevens filteren op datumbereik en kenmerken.
 
 ### Filter datumbereik
 
-Gebruik _[!UICONTROL Date range filter]_&#x200B;in de rechterbovenhoek om de gegevens te filteren op basis van het datumbereik.
+Gebruik _[!UICONTROL Date range filter]_in de rechterbovenhoek om de gegevens te filteren op basis van het datumbereik.
 
 ![ filter de getoonde gegevens door datumwaaier ](./assets/engagement-date-filter.png){width="380"}
 

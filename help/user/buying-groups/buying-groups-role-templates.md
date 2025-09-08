@@ -1,12 +1,12 @@
 ---
 title: Rolsjablonen voor inkoopgroep
-description: Meer informatie over het definiëren van een rolsjabloon die moet worden gebruikt als onderdeel van een inkoopgroep.
+description: Creëer rolsjablonen voor inkoopgroepen met automatische toewijzingsvoorwaarden om besluitvormers en belanghebbenden in Journey Optimizer B2B edition te identificeren.
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 6fb15d8d7f67105f4e53c346091798908c8727bd
+source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1056'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Op een B2B-markt worden aankoopbeslissingen meestal door meerdere personen genom
 
 1. Klik in de linkernavigatie op **[!UICONTROL Buying groups]** .
 
-1. Selecteer op de pagina _[!UICONTROL Buying groups]_&#x200B;de tab **[!UICONTROL Roles Templates]**.
+1. Selecteer op de pagina _[!UICONTROL Buying groups]_de tab **[!UICONTROL Roles Templates]**.
 
    ![ het lusje van Malplaatjes van Rollen ](assets/roles-templates-tab.png){width="800" zoomable="yes"}
 
@@ -46,7 +46,7 @@ Op een B2B-markt worden aankoopbeslissingen meestal door meerdere personen genom
 
 ## Een rolsjabloon maken
 
-1. Klik in het tabblad _[!UICONTROL Roles Templates]_&#x200B;op **[!UICONTROL Create template]**&#x200B;in de rechterbovenhoek.
+1. Klik in het tabblad _[!UICONTROL Roles Templates]_op **[!UICONTROL Create template]**in de rechterbovenhoek.
 
 1. Voer in het dialoogvenster een unieke **[!UICONTROL Name]** (vereist) en **[!UICONTROL Description]** (optioneel) voor de sjabloon in.
 
@@ -70,7 +70,7 @@ Elke rol die u voor het malplaatje bepaalt gebruikt een reeks filters, of _voorw
 
    * Kies de **[!UICONTROL Buying group role]** in de lijst.
 
-     Er zijn zes standaardrollen: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` en `Other` . De lijst omvat ook om het even welke [ douanerollen die in de _2&rbrace; lijst van Rollen_ worden bepaald.](./default-custom-roles.md#custom-roles)
+     Er zijn zes standaardrollen: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` en `Other` . De lijst omvat ook om het even welke [ douanerollen die in de _2} lijst van Rollen_ worden bepaald.](./default-custom-roles.md#custom-roles)
 
      ![ het Kopen lijst van groepsrollen ](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
@@ -86,7 +86,7 @@ Elke rol die u voor het malplaatje bepaalt gebruikt een reeks filters, of _voorw
 
 1. Klik op **[!UICONTROL Add Condition]** en definieer de voorwaardelijke regel voor de rol.
 
-   * Vouw in het dialoogvenster _[!UICONTROL Condition]_&#x200B;de lijst met **[!UICONTROL Person attributes]**&#x200B;uit en zoek een kenmerk dat u wilt gebruiken om de rol aan te passen. Sleep het naar rechts en zet het neer in de filterruimte.
+   * Vouw in het dialoogvenster _[!UICONTROL Condition]_de lijst met **[!UICONTROL Person attributes]**uit en zoek een kenmerk dat u wilt gebruiken om de rol aan te passen. Sleep het naar rechts en zet het neer in de filterruimte.
 
      ![ het malplaatje van Rollen voegt voorwaarde belemmeringsattributen toe ](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
 
@@ -118,7 +118,7 @@ Vouw **[!UICONTROL Special Filters]** uit en sleep de voorwaarde **[!UICONTROL M
 
 >[!ENDSHADEBOX]
 
-Uw veranderingen worden auto-bewaard in de _status van het Ontwerp_. Als u niet bereid bent om het rolmalplaatje te publiceren, klik de linker (rug) pijl bij de bovenkant van de pagina en terugkeer aan de _[!UICONTROL Roles templates]_&#x200B;lijst.
+Uw veranderingen worden auto-bewaard in de _status van het Ontwerp_. Als u niet bereid bent om het rolmalplaatje te publiceren, klik de linker (rug) pijl bij de bovenkant van de pagina en terugkeer aan de _[!UICONTROL Roles templates]_lijst.
 
 ### Rollensjabloon publiceren
 
@@ -136,7 +136,7 @@ Wijzig een van de instellingen in de koptekst van de rolkaart, inclusief de rol 
 
 ### De voorwaarden voor een rol wijzigen
 
-Om de voorwaarde/het filtreren logica voor om het even welk van de rollen te veranderen, klik _uitgeven_ ( ![ geef pictogram ](../assets/do-not-localize/icon-edit.svg)) op hoogste recht van de rolkaart uit. Met deze actie opent u de werkruimte van _[!UICONTROL Conditions]_&#x200B;waar u een bestaand filter kunt wijzigen, een filter kunt toevoegen of verwijderen of de filterlogica kunt wijzigen.
+Om de voorwaarde/het filtreren logica voor om het even welk van de rollen te veranderen, klik _uitgeven_ ( ![ geef pictogram ](../assets/do-not-localize/icon-edit.svg)) op hoogste recht van de rolkaart uit. Met deze actie opent u de werkruimte van _[!UICONTROL Conditions]_waar u een bestaand filter kunt wijzigen, een filter kunt toevoegen of verwijderen of de filterlogica kunt wijzigen.
 
 ### Een rolkaart verwijderen
 
@@ -162,4 +162,4 @@ U kunt een rolmalplaatje schrappen als het in de _status van het Ontwerp_ is.
 
 ## Video over overzicht
 
->[!VIDEO](https://video.tv.adobe.com/v/3453307/?learn=on&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
