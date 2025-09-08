@@ -103,7 +103,7 @@ Voor elke activiteit geldt een dagelijkse maximale frequentie van 20. Als een li
 
 >[!NOTE]
 >
->Activiteiten met betrekking tot de betrokkenheidsscore worden vastgelegd in het Marketo Engage-activiteitenlogboek voor een persoon. U hebt toegang tot dit logbestand in de verbonden Marketo Engage-instantie. Voor meer informatie, zie [ plaats van het Logboek van de Activiteit voor een Persoon ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"} in de documentatie van Marketo Engage.
+>Activiteiten met betrekking tot de betrokkenheidsscore worden vastgelegd in het Marketo Engage-activiteitenlogboek voor een persoon. U hebt toegang tot dit logbestand in de verbonden Marketo Engage-instantie. Voor meer informatie, zie [ plaats van het Logboek van de Activiteit voor een Persoon ](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"} in de documentatie van Marketo Engage.
 
 ## weging rolsjabloon {#engagement-score-weighting}
 
