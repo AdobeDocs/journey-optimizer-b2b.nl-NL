@@ -1,15 +1,16 @@
 ---
 title: Merken gebruiken voor het genereren en consistent maken van inhoud
-description: Meer informatie over merkrichtlijnen die u in Journey Optimizer B2B edition kunt definiëren voor het genereren en optimaliseren van inhoud volgens uw merkstijlen en stem.
+description: Definieer merkrichtlijnen voor het consistent maken van inhoud. Behoud de visuele identiteit, uitlijning van berichten en authentieke stem in Journey Optimizer B2B edition.
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 hide: true
 hidefromtoc: true
 role: User
 level: Beginner, Intermediate
-source-git-commit: 91424c334c22bf683cd071afcb0ab0660a9ac832
+exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '811'
 ht-degree: 0%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_overview"
 >title="Aan de slag met merken"
->abstract="Creëer en pas uw eigen merken aan om uw unieke visuele en verbale identiteit te bepalen terwijl het gemakkelijker wordt om inhoud te produceren die uw merkstijl en stem aanpast."
+>abstract="Maak en pas uw merken aan om uw unieke visuele en verbale identiteit te definiëren en het tegelijkertijd eenvoudiger te maken om inhoud te genereren die aansluit bij uw merkstijl en stem."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_ai_menu"
@@ -72,9 +73,9 @@ Een bepaald merk verstrekt de _bron van waarheid_ voor uw creatief team om te ge
 
 ## Merkgebonden machtigingen
 
-De beheerders van het product kunnen toegang tot het merkbeheer en merkgroepering eigenschappen toelaten door de **[!UICONTROL Manage brand kit]** of **[!UICONTROL Enable AI assistant]** middeltoestemmingen door _toe te wijzen toestemmingen_ app in Adobe Experience Cloud.
+De beheerders van het product kunnen toegang tot het merkbeheer en merkgroepering eigenschappen toelaten door de **[!UICONTROL Manage brand kit]** of **[!UICONTROL Enable AI assistant]** middeltoestemmingen door _toestemmingen_ UI in Adobe Experience Cloud toe te wijzen.
 
-1. In de toepassing van Toestemmingen, ga naar het **[!UICONTROL Roles]** lusje en selecteer de gewenste [ rol ](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/abac/permissions-ui/roles){target="_blank"}.
+1. In de toepassing van Toestemmingen, ga naar het **[!UICONTROL Roles]** lusje en selecteer de gewenste [ rol ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/roles){target="_blank"}.
 
 1. Klik op **[!UICONTROL Edit]** om de machtigingen te wijzigen.
 
@@ -90,13 +91,12 @@ De beheerders van het product kunnen toegang tot het merkbeheer en merkgroeperin
 
    De toestemmingen worden automatisch bijgewerkt voor om het even welke gebruikers die reeds aan de rol worden toegewezen.
 
-1. Als u deze rol aan nieuwe gebruikers wilt toewijzen, selecteert u de tab **[!UICONTROL Users]** in het _[!UICONTROL Roles]_&#x200B;dashboard en klikt u op **[!UICONTROL Add User]**.
+1. Als u deze rol aan nieuwe gebruikers wilt toewijzen, selecteert u de tab **[!UICONTROL Users]** in het _[!UICONTROL Roles]_dashboard en klikt u op **[!UICONTROL Add User]**.
 
    * Voer de gebruikersnaam en het e-mailadres in of kies een bestaande gebruiker in de lijst.
 
-     Als de gebruiker nog niet wordt gecreeerd, verwijs naar de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}.
+     Als de gebruiker nog niet wordt gecreeerd, verwijs naar de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}.
 
    * Klik op **[!UICONTROL Save]** om de wijzigingen toe te passen.
 
 >[!ENDSHADEBOX]
-

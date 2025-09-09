@@ -1,15 +1,16 @@
 ---
-title: Brand alignment scoring
-description: Leer hoe u on-brand-inhoud kunt maken, valideren en beheren met een merkuitlijningsscore.
+title: Scorebord voor uitlijning van merk
+description: Evalueer e-mailinhoud met scores voor uitlijning van uw merk - valideer kleuren, lettertypen, logo's en schrijfstijl aan de hand van richtlijnen voor het merk in Journey Optimizer B2B edition.
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 hide: true
 hidefromtoc: true
 role: User
 level: Beginner, Intermediate
-source-git-commit: b0b4359128d65c6e765af6d07db1bfeb26d4fbc9
+exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -24,7 +25,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score"
 >title="Brand-uitlijningsscore"
->abstract="Met de uitlijningsscore van uw merk kunt u meten hoe goed uw inhoud voldoet aan de richtlijnen voor het merk. Zo kunt u zorgen voor consistentie in kleuren, lettertypen, logo, afbeeldingen en schrijfstijl."
+>abstract="Met de uitlijningsscore van uw merk kunt u meten hoe goed uw inhoud voldoet aan de richtlijnen voor het merk. Zo bent u verzekerd van consistentie in kleuren, lettertypen, logo, afbeeldingen en schrijfstijl."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_colors"

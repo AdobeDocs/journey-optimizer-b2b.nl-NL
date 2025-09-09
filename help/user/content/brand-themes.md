@@ -1,6 +1,6 @@
 ---
 title: Brand-thema's gebruiken voor e-mailinhoud
-description: Leer hoe u het maken van e-mailinhoud kunt stroomlijnen met herbruikbare thema's, zodat u verzekerd bent van consistentie en efficiëntie bij het ontwerp.
+description: Maak aangepaste merkthema's voor e-mails en sjablonen - definieer kleuren, lettertypen, spatiëring en knoppen voor een consistent ontwerp in Journey Optimizer B2B edition.
 feature: Email Authoring, Brand Identity, Content Design Tools
 topic: Content Management
 role: User
@@ -9,9 +9,10 @@ keywords: E-mailthema's, Herbruikbaarheid, Brand Alignment, E-mailontwerp
 badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: 9d8aa70c23ce85058a23bbe21c198d6e074923ac
+exl-id: 8bdba8e3-d463-46fe-a206-f10ae7884b67
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '2939'
+source-wordcount: '2941'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_brand_theme"
 >title="Een merkthema toepassen op uw e-mail- of e-mailsjabloon"
->abstract="Selecteer een thema voor uw e-mailsjabloon of e-mailsjabloon om een specifieke stijl toe te passen die past bij uw merk en ontwerp."
+>abstract="Selecteer een thema voor uw e-mailsjabloon of e-mailsjabloon om een stijl toe te passen die past bij uw merk en ontwerp."
 
 Met thema&#39;s kunnen niet-technische ontwerpers herbruikbare richtlijnen voor het ontwerpen van e-mailinhoud maken die zijn afgestemd op een specifiek merk en een specifieke stijl. Thema&#39;s stellen marketers in staat visueel aantrekkelijke, merkgebonden e-mails sneller en met minder moeite te gebruiken en bieden geavanceerde aanpassingsopties voor unieke ontwerpbehoeften.
 
@@ -46,7 +47,7 @@ Definieer uw eigen merkthema dat u kunt toepassen op de inhoud van uw e-mailsjab
 
 1. Gebruik een van de volgende methoden om toegang te krijgen tot de themagereedschappen:
 
-   * [ creeer een nieuw e-mailmalplaatje ](./email-templates.md#create-an-email-template) en klik **[!UICONTROL Edit email template]** om de _[!UICONTROL Design your template]_&#x200B;pagina te lanceren.
+   * [ creeer een nieuw e-mailmalplaatje ](./email-templates.md#create-an-email-template) en klik **[!UICONTROL Edit email template]** om de _[!UICONTROL Design your template]_pagina te lanceren.
 
    * Klik op **[!UICONTROL ... More]** rechtsboven in de ontwerpruimte voor e-mailinhoud en kies **[!UICONTROL Change your design]** .
 
@@ -68,7 +69,7 @@ Definieer uw eigen merkthema dat u kunt toepassen op de inhoud van uw e-mailsjab
 
    ![ creeer een thema - geselecteerd standaardthema ](./assets/email-theme-create.png){width="750" zoomable="yes"}
 
-   De pagina _[!UICONTROL Create a theme]_&#x200B;bevat een canvas met de bestaande elementen van alle typen tekst, knoppen en containers uit het beginthema.
+   De pagina _[!UICONTROL Create a theme]_bevat een canvas met de bestaande elementen van alle typen tekst, knoppen en containers uit het beginthema.
 
 1. Gebruik de juiste navigatie om de verschillende tabbladen voor themastijlen te openen en de themainstellingen te wijzigen:
 
@@ -84,7 +85,7 @@ Definieer uw eigen merkthema dat u kunt toepassen op de inhoud van uw e-mailsjab
 
 1. Klik op **[!UICONTROL Save]** wanneer de themadefinitie is voltooid.
 
-1. Klik op **[!UICONTROL Close]** om terug te keren naar de _[!UICONTROL Create a theme]_&#x200B;pagina en vervolgens op **[!UICONTROL Cancel]**&#x200B;om terug te keren naar de ontwerppagina.
+1. Klik op **[!UICONTROL Close]** om terug te keren naar de _[!UICONTROL Create a theme]_pagina en vervolgens op **[!UICONTROL Cancel]**om terug te keren naar de ontwerppagina.
 
    U kunt **[!UICONTROL Design from scratch]** dan kiezen om de visuele ontwerpruimte te openen en [ het thema ](#use-your-theme-for-email-content-authoring) voor e-mail of malplaatje gebruiken.
 
@@ -131,7 +132,7 @@ Selecteer het tabblad **[!UICONTROL Colors]** en gebruik de instellingen om het 
 
   | Type | Instellingen | Beschrijving |
   | ---- | -------- | ----------- |
-  | [!UICONTROL General] | ![ Algemene kleurenmontages voor een variant ](./assets/email-theme-colors-settings-variant-general.png){width="300"} | Met deze instellingen kunt u kleuren instellen voor tekst, structuren, containers, achtergronden, koppelingen, rasters en randen. |
+  | [!UICONTROL General] | ![ Algemene kleurenmontages voor een variant ](./assets/email-theme-colors-settings-variant-general.png){width="300"} | Deze instellingen bepalen de kleuren voor tekst, structuren, containers, achtergronden, koppelingen, rasters en randen. |
   | [!UICONTROL Headings] | ![ de kleurenmontages van de Kop voor een variant ](./assets/email-theme-colors-settings-variant-headings.png){width="300"} | Deze instellingen zijn van toepassing op `Heading` -elementen, waar u tekst en randkleuren kunt instellen voor elk van de zes kopniveaus. Breid elk kopniveau uit dat u de kleur voor de variant wilt plaatsen. |
   | [!UICONTROL Paragraphs] | ![ de kleurenmontages van de Paragraaf voor een variant ](./assets/email-theme-colors-settings-variant-paragraphs.png){width="300"} | Deze instellingen zijn van toepassing op `Paragraph` -elementen, waar u tekst en randkleuren kunt instellen voor elk van de drie alineatypen. Breid elk paragraaftype uit dat u de kleur voor de variant wilt plaatsen. |
   | [!UICONTROL Buttons] | ![ de kleurmontages van de Knoop voor een variant ](./assets/email-theme-colors-settings-variant-buttons.png){width="300"} | De montages zijn op knoopelementen van toepassing, waar u de vullingskleur, grenskleur, en tekstkleur voor elk van de drie knoop vooraf instelt: _Primair_, _Secundair_, en _Tertiair_. |
@@ -148,9 +149,9 @@ Op het tabblad **[!UICONTROL Text settings]** kunt u de algemene lettertypen, st
 
 | Type | Instellingen | Beschrijving |
 | ---- | -------- | ----------- |
-| [!UICONTROL Global] | ![ Uitgezochte bibliotheek voor de globale tekstmontages ](./assets/email-theme-text-settings-global-library.png){width="300"} | Stel de **[!UICONTROL Font library]** in op _[!UICONTROL Standard]_&#x200B;of&#x200B;_[!UICONTROL Google Fonts]_ . Kies vervolgens de lettertypefamilie die u wilt gebruiken. Deze algemene tekstinstellingen worden overal toegepast, tenzij u verschillende tekststijlen instelt voor de kopniveaus en alineatypen. |
-| [!UICONTROL Headings] | ![ de tekststijlen van de Kop voor H1 ](./assets/email-theme-text-settings-headings.png){width="300"} | Selecteer **[!UICONTROL H1]** , **[!UICONTROL H2]** , enzovoort voor het kopniveau dat u wilt instellen. Stel de **[!UICONTROL Font library]** in op _[!UICONTROL Standard]_&#x200B;of&#x200B;_[!UICONTROL Google Fonts]_ . Kies vervolgens de lettertypefamilie, -grootte en -stijl. Kies **[!UICONTROL Text alignment]**: _Linker_, _Gecentreerd_, _Juist_, of _Uitgelijnd_. |
-| [!UICONTROL Paragraphs] | ![ de tekststijlen van de Paragraaf voor type P1 ](./assets/email-theme-text-settings-headings.png){width="300"} | Selecteer **[!UICONTROL P1]** , **[!UICONTROL HP]** , enzovoort voor het kopniveau dat u wilt instellen. Stel de **[!UICONTROL Font library]** in op _[!UICONTROL Standard]_&#x200B;of&#x200B;_[!UICONTROL Google Fonts]_ . Kies vervolgens de lettertypefamilie, -grootte en -stijl. Pas de **[!UICONTROL Line height]** naar wens aan. Kies **[!UICONTROL Text alignment]**: _Linker_, _Gecentreerd_, _Juist_, of _Uitgelijnd_. |
+| [!UICONTROL Global] | ![ Uitgezochte bibliotheek voor de globale tekstmontages ](./assets/email-theme-text-settings-global-library.png){width="300"} | Stel de **[!UICONTROL Font library]** in op _[!UICONTROL Standard]_of_[!UICONTROL Google Fonts]_ . Kies vervolgens de lettertypefamilie die u wilt gebruiken. Deze algemene tekstinstellingen worden overal toegepast, tenzij u verschillende tekststijlen instelt voor de kopniveaus en alineatypen. |
+| [!UICONTROL Headings] | ![ de tekststijlen van de Kop voor H1 ](./assets/email-theme-text-settings-headings.png){width="300"} | Selecteer **[!UICONTROL H1]** , **[!UICONTROL H2]** , enzovoort voor het kopniveau dat u wilt instellen. Stel de **[!UICONTROL Font library]** in op _[!UICONTROL Standard]_of_[!UICONTROL Google Fonts]_ . Kies vervolgens de lettertypefamilie, -grootte en -stijl. Kies **[!UICONTROL Text alignment]**: _Linker_, _Gecentreerd_, _Juist_, of _Uitgelijnd_. |
+| [!UICONTROL Paragraphs] | ![ de tekststijlen van de Paragraaf voor type P1 ](./assets/email-theme-text-settings-headings.png){width="300"} | Selecteer **[!UICONTROL P1]** , **[!UICONTROL HP]** , enzovoort voor het kopniveau dat u wilt instellen. Stel de **[!UICONTROL Font library]** in op _[!UICONTROL Standard]_of_[!UICONTROL Google Fonts]_ . Kies vervolgens de lettertypefamilie, -grootte en -stijl. Pas de **[!UICONTROL Line height]** naar wens aan. Kies **[!UICONTROL Text alignment]**: _Linker_, _Gecentreerd_, _Juist_, of _Uitgelijnd_. |
 
 +++
 
@@ -194,7 +195,7 @@ Op het tabblad **[!UICONTROL Buttons]** kunt u verschillende kenmerken (anders d
 
 | Type | Instellingen | Beschrijving |
 | ---- | -------- | ----------- |
-| [!UICONTROL Text] | ![ de tekstmontages van de Knoop ](./assets/email-theme-button-settings-text.png){width="300"} | Stel de **[!UICONTROL Font library]** in op _[!UICONTROL Standard]_&#x200B;of&#x200B;_[!UICONTROL Google Fonts]_ . Kies vervolgens de lettertypefamilie, -grootte en -stijl. Kies **[!UICONTROL Text alignment]**: _Linker_, _Gecentreerd_, _Juist_, of _Uitgelijnd_. |
+| [!UICONTROL Text] | ![ de tekstmontages van de Knoop ](./assets/email-theme-button-settings-text.png){width="300"} | Stel de **[!UICONTROL Font library]** in op _[!UICONTROL Standard]_of_[!UICONTROL Google Fonts]_ . Kies vervolgens de lettertypefamilie, -grootte en -stijl. Kies **[!UICONTROL Text alignment]**: _Linker_, _Gecentreerd_, _Juist_, of _Uitgelijnd_. |
 | [!UICONTROL Border] | ![ de grensmontages van de Knoop ](./assets/email-theme-button-settings-border.png){width="300"} | Verplaats de schakeloptie **[!UICONTROL Border]** naar rechts om de weergaveopties voor knopranden in te schakelen en stel deze in op basis van uw ontwerpcriteria. Stel de **[!UICONTROL Border size]** (lijndikte) in door het aantal pixels te verhogen of te verlagen. Plaats **[!UICONTROL Border style]** door een waarde van de lijst van standaardCSS `border-style` waarden, zoals _Ononderbroken_ te kiezen, _Gestippeld_, en _Gebroken_. |
 | [!UICONTROL Size] | ![ de grootte van de Knoop montages ](./assets/email-theme-button-settings-size.png){width="300"} | Klik voor de optie **[!UICONTROL Height]** op de pictogrammen pijl-omhoog en pijl-omlaag om het aantal pixels te vergroten of te verkleinen. Een lege waarde (Auto) is de standaardwaarde en wijzigt de hoogte van de knop in overeenstemming met de inhoud ervan. Voor **[!UICONTROL Width]**, gebruik knevel om de breedte door pixel of percentage te plaatsen. Gebruik de schuifregelaar voor een percentage van de breedte om het percentage in te stellen. Het percentage bepaalt de knopgrootte op basis van het inhoudsvak van het bevattende blok, dat opvulling en randen uitsluit. Met een waarde van 50 stelt u de breedte van de knop in op 50% van de breedte van het blok met inhoud. Voor een op pixels gebaseerde breedte klikt u op de pijlpictogrammen omhoog en omlaag om het aantal pixels te vergroten of te verkleinen. Een lege waarde (_Auto_) is het gebrek en de grootte van de knoop volgens zijn inhoud. |
 
@@ -302,21 +303,21 @@ Wanneer u van het thema de plaats bepaalt, klik _Meer menu_ (**..**) pictogram b
 
 ## Een thema gebruiken voor het ontwerpen van e-mailinhoud {#use-email-theme}
 
-Wanneer u een nieuwe e-mail- of e-mailsjabloon maakt, kunt u een merkthema gebruiken dat het ontwerpproces voor inhoud stroomlijnt en ervoor zorgt dat het ontwerp wordt afgestemd op gedefinieerde standaarden. Voor een nieuw fragment kunt u ook een thema toepassen voordat u het fragment opslaat. Het fragment blijft op _wijze van het Thema_ van dat punt en is compatibel om aan e-mail en e-mailmalplaatjes toe te voegen die ook op _wijze van het Thema_ zijn.
+Wanneer u een nieuwe e-mail- of e-mailsjabloon maakt, kunt u ervoor kiezen een merkthema te gebruiken dat het ontwerpproces voor inhoud stroomlijnt en ervoor zorgt dat het ontwerp wordt afgestemd op gedefinieerde standaarden. Voor een nieuw fragment kunt u ook een thema toepassen voordat u het fragment opslaat. Het fragment blijft op _wijze van het Thema_ van dat punt en is compatibel om aan e-mail en e-mailmalplaatjes toe te voegen die ook op _wijze van het Thema_ zijn.
 
 1. Selecteer een van de volgende handelingen:
 
    * Selecteer een e-mailmalplaatje dat een thema (dat in _wordt gecreeerd wijze van het Thema_) opneemt. Het thema dat specifiek is voor elke sjabloon wordt automatisch toegepast.
 
-   * Gebruik de optie _[!UICONTROL Design from scratch]_&#x200B;en selecteer **[!UICONTROL Use Themes]**&#x200B;om te beginnen met een vooraf gedefinieerd opmaakthema.
+   * Gebruik de optie _[!UICONTROL Design from scratch]_en selecteer **[!UICONTROL Use Themes]**om te beginnen met een vooraf gedefinieerd opmaakthema.
 
      ![ creeer uw e-mail - de thema&#39;s van het Gebruik ](./assets/create-email-use-theme.png){width="450"}
 
      >[!IMPORTANT]
      >
-     >Als u de modus _[!UICONTROL Manual Styling]_&#x200B;kiest, moet u het e-mailontwerp opnieuw instellen om een thema toe te passen.
+     >Als u de modus _[!UICONTROL Manual Styling]_kiest, moet u het e-mailontwerp opnieuw instellen om een thema toe te passen.
      >
-     >Als u _[!UICONTROL Themes]_&#x200B;wijze kiest, slechts [ fragmenten ](./fragments.md) die ook op_ Thema&#39;s _wijze worden gecreeerd zijn beschikbaar om aan de e-mailinhoud toe te voegen.
+     >Als u _[!UICONTROL Themes]_wijze kiest, slechts [ fragmenten ](./fragments.md) die ook op_ Thema&#39;s _wijze worden gecreeerd zijn beschikbaar om aan de e-mailinhoud toe te voegen.
 
 1. In de e-mailontwerpruimte, klik het _pictogram van Thema&#39;s_ ( ![ pictogram van Thema&#39;s ](../assets/do-not-localize/icon-design-themes.svg)) op het recht.
 
