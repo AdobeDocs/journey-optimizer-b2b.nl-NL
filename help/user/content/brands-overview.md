@@ -75,7 +75,7 @@ Een bepaald merk verstrekt de _bron van waarheid_ voor uw creatief team om te ge
 
 De beheerders van het product kunnen toegang tot het merkbeheer en merkgroepering eigenschappen toelaten door de **[!UICONTROL Manage brand kit]** of **[!UICONTROL Enable AI assistant]** middeltoestemmingen door _toestemmingen_ UI in Adobe Experience Cloud toe te wijzen.
 
-1. In de toepassing van Toestemmingen, ga naar het **[!UICONTROL Roles]** lusje en selecteer de gewenste [ rol ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/roles){target="_blank"}.
+1. In de toepassing van Toestemmingen, ga naar het **[!UICONTROL Roles]** lusje en selecteer de gewenste [ rol ](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/abac/permissions-ui/roles){target="_blank"}.
 
 1. Klik op **[!UICONTROL Edit]** om de machtigingen te wijzigen.
 
@@ -95,7 +95,7 @@ De beheerders van het product kunnen toegang tot het merkbeheer en merkgroeperin
 
    * Voer de gebruikersnaam en het e-mailadres in of kies een bestaande gebruiker in de lijst.
 
-     Als de gebruiker nog niet wordt gecreeerd, verwijs naar de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}.
+     Als de gebruiker nog niet wordt gecreeerd, verwijs naar de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}.
 
    * Klik op **[!UICONTROL Save]** om de wijzigingen toe te passen.
 
