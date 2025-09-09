@@ -25,7 +25,7 @@ Adobe Journey Optimizer B2B edition gebruikt _Soorten van de Rekening_ en _Soort
 
 >[!NOTE]
 >
->Controleer uw vergunningsrechten en de overeenkomstige [ productbeschrijving ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} over prestatiesgaranties en statische beperkingen.
+>Controleer uw vergunningsrechten en de overeenkomstige [ productbeschrijving ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} over prestatiesgaranties en statische beperkingen.
 
 ### Abonnementsmodel
 

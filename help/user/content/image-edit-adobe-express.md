@@ -70,7 +70,7 @@ Als u een Enterprise-licentie voor Adobe Express hebt, kunt u de Express Editor 
 
 ![ open het beeld in de redacteur van de Onderneming van Adobe Express ](./assets/assets-edit-adobe-express-enterprise-editor.png){width="600" zoomable="yes"}
 
-De [ Gids van de Gebruiker van Adobe Express ](https://helpx.adobe.com/express/web.html){target="_blank"} verstrekt gedetailleerde informatie over de beschikbare het uitgeven mogelijkheden.
+De [ Gids van de Gebruiker van Adobe Express ](https://helpx.adobe.com/nl/express/web.html){target="_blank"} verstrekt gedetailleerde informatie over de beschikbare het uitgeven mogelijkheden.
 
 ## Snelle acties in Adobe Express
 

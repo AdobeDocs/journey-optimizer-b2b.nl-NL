@@ -119,7 +119,7 @@ Als u webpagina&#39;s hebt in een Marketo Engage-exemplaar dat is verbonden, kun
 
 ### Luisteren naar een Experience Event
 
-De beheerders kunnen op Adobe Experience Platform (AEP)-Gebaseerde gebeurtenisdefinities vormen, die Marketers toelaten om rekeningsreizen tot stand te brengen die aan [ de Gebeurtenissen van de Ervaring van AEP ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} reageren. Het gebruik van AEP Experience Events voor reizen in rekening is een proces in twee stappen:
+De beheerders kunnen op Adobe Experience Platform (AEP)-Gebaseerde gebeurtenisdefinities vormen, die Marketers toelaten om rekeningsreizen tot stand te brengen die aan [ de Gebeurtenissen van de Ervaring van AEP ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} reageren. Het gebruik van AEP Experience Events voor reizen in rekening is een proces in twee stappen:
 
 1. [ creeer en publiceer een de gebeurtenisdefinitie van AEP ](../admin/configure-aep-events.md).
 
