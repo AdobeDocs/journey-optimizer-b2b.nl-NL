@@ -1,13 +1,13 @@
 ---
 title: Landingspagina's
-description: Leer meer over landingspagina's en hoe u deze kunt maken en beheren om reizen en campagnes voor uw account te ondersteunen.
+description: bestemmingspagina's maken, ontwerpen en publiceren voor reizen naar uw account - helemaal opnieuw samenstellen, HTML importeren, formulieren toevoegen, inhoud personaliseren en koppelen van e-mails in Journey Optimizer B2B edition.
 feature: Landing Pages, Content
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Deze functie bevindt zich momenteel in een beperkte bètaversie"
 exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '2076'
+source-wordcount: '2086'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ De status van de bestemmingspagina bepaalt de beschikbaarheid voor het verbinden
 
 U kunt een nieuwe openingspagina toevoegen in Journey Optimizer B2B edition door op **[!UICONTROL Create landing page]** rechtsboven te klikken.
 
-1. Voer in het dialoogvenster _[!UICONTROL Create landing page]_&#x200B;een handige **[!UICONTROL Name]**&#x200B;en **[!UICONTROL Description]**(optioneel) in.
+1. Voer in het dialoogvenster _[!UICONTROL Create landing page]_een handige **[!UICONTROL Name]**en **[!UICONTROL Description]**(optioneel) in.
 
    Aanlandingspagina-eisen:
 
@@ -86,7 +86,7 @@ U kunt een nieuwe openingspagina toevoegen in Journey Optimizer B2B edition door
 
 1. Klik op **[!UICONTROL Create]**.
 
-   De startpagina van _[!UICONTROL Create your primary landing page]_&#x200B;wordt geopend en bevat meerdere opties voor het maken van de pagina:_[!UICONTROL Design from scratch]_ , _[!UICONTROL Import HTML]_&#x200B;of het gebruik van een opgeslagen sjabloon.
+   De startpagina van _[!UICONTROL Create your primary landing page]_wordt geopend en bevat meerdere opties voor het maken van de pagina:_[!UICONTROL Design from scratch]_ , _[!UICONTROL Import HTML]_of het gebruik van een opgeslagen sjabloon.
 
    ![ kies hoe u met uw het landen paginaontwerp wilt beginnen ](./assets/landing-page-create-design.png){width="800" zoomable="yes"}
 
@@ -96,7 +96,7 @@ U kunt een nieuwe openingspagina toevoegen in Journey Optimizer B2B edition door
 
 Gebruik de visuele inhoudeditor om de structuur van de inhoud van de bestemmingspagina te definiëren. Door structurele componenten toe te voegen en te bewegen met eenvoudige belemmering-en-dalingsacties, kunt u de vorm van de pagina inhoud binnen seconden ontwerpen.
 
-1. Selecteer de optie **[!UICONTROL Design from scratch]** op de startpagina van _[!UICONTROL Create your primary landing page]_.
+1. Selecteer de optie _[!UICONTROL Create your primary landing page]_op de startpagina van **[!UICONTROL Design from scratch]**.
 
 1. [ voegt structuur en inhoud ](./landing-page-design.md#add-structure-and-content) aan de pagina toe.
 
@@ -122,7 +122,7 @@ U kunt kiezen uit:
 
 * **Bewaarde malplaatjes**. Een opgeslagen aangepaste sjabloon gebruiken die door een lid van uw organisatie is gemaakt via het menu _[!UICONTROL Templates]_<!-- or the _[!UICONTROL Save as content template]_ option when designing a landing page. -->
 
-Gebruik de sectie _[!UICONTROL Select design template]_&#x200B;om uw inhoud op te bouwen van een sjabloon. U kunt een voorbeeldsjabloon of een opgeslagen aangepaste landingspagina gebruiken vanuit uw Journey Optimizer B2B edition-exemplaar.
+Gebruik de sectie _[!UICONTROL Select design template]_om uw inhoud op te bouwen van een sjabloon. U kunt een voorbeeldsjabloon of een opgeslagen aangepaste landingspagina gebruiken vanuit uw Journey Optimizer B2B edition-exemplaar.
 
 >[!BEGINTABS]
 
@@ -169,7 +169,7 @@ Bewerkingen aan een landingspagina zijn afhankelijk van de huidige status:
 
 >[!TAB  Ontwerp ]
 
-1. Klik op de aanbiedingspagina van _[!UICONTROL Landing pages]_&#x200B;op de naam van de bestemmingspagina om deze te openen.
+1. Klik op de aanbiedingspagina van _[!UICONTROL Landing pages]_op de naam van de bestemmingspagina om deze te openen.
 
    Aan de rechterkant wordt een voorbeeld van de visuele inhoud weergegeven met de gegevens van de openingspagina.
 
@@ -193,7 +193,7 @@ Bewerkingen aan een landingspagina zijn afhankelijk van de huidige status:
 
 >[!TAB  Gepubliceerd ]
 
-1. Klik op de aanbiedingspagina van _[!UICONTROL Landing page]_&#x200B;op de paginanaam om deze te openen.
+1. Klik op de aanbiedingspagina van _[!UICONTROL Landing page]_op de paginanaam om deze te openen.
 
    Aan de rechterkant wordt een voorbeeld van de visuele inhoud weergegeven met de gegevens van de openingspagina.
 
@@ -271,7 +271,7 @@ Er kunnen twee soorten waarschuwingen worden gedetecteerd:
 
 U kunt een landingspagina dupliceren met een van de volgende methoden:
 
-* Van de _[!UICONTROL Landing page]_&#x200B;lijstpagina, klik het_ Meer _pictogram (**...**) naast de het landen paginanaam en kies **[!UICONTROL Duplicate]**.
+* Van de _[!UICONTROL Landing page]_lijstpagina, klik het_ Meer _pictogram (**...**) naast de het landen paginanaam en kies **[!UICONTROL Duplicate]**.
 * Klik rechtsboven op de detailpagina van de bestemmingspagina op **[!UICONTROL ... More]** en kies **[!UICONTROL Duplicate]** .
 
 ![ dupliceer de het landen pagina ](./assets/landing-page-details-duplicate-delete.png){width="600" zoomable="yes"}
@@ -286,7 +286,7 @@ De gedupliceerde (nieuwe) pagina verschijnt dan in de _Landing pagina&#39;s_ lij
 
 U kunt een bestemmingspagina schrappen gebruikend één van beide volgende methodes:
 
-* Van de _[!UICONTROL Landing page]_&#x200B;lijstpagina, klik het_ Meer _pictogram (**...**) naast de het landen paginanaam en kies **[!UICONTROL Delete]**.
+* Van de _[!UICONTROL Landing page]_lijstpagina, klik het_ Meer _pictogram (**...**) naast de het landen paginanaam en kies **[!UICONTROL Delete]**.
 * Klik rechtsboven op de detailpagina van de bestemmingspagina op **[!UICONTROL ... More]** en kies **[!UICONTROL Delete]** .
 
 Met deze handeling wordt een bevestigingsvenster geopend. U kunt het proces afbreken door op **[!UICONTROL Cancel]** te klikken of op **[!UICONTROL Delete]** te klikken om het verwijderen te bevestigen.
@@ -301,7 +301,7 @@ Als Marketer of Designer die e-mail, fragment en pagina-inhoud maakt, kunt u kop
 
    De **[!UICONTROL Link]** -opties worden weergegeven in het rechterdeelvenster.
 
-1. Kies **[!UICONTROL Landing page]** bij de optie **[!UICONTROL Type]** .
+1. Kies **[!UICONTROL Type]** bij de optie **[!UICONTROL Landing page]** .
 
    ![ de opties van de Verbinding voor een het landen pagina ](/help/assets/content-design-shared/content-design-link-settings.png){width="700" zoomable="yes"}
 

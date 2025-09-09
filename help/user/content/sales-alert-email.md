@@ -1,12 +1,12 @@
 ---
 title: E-mail verkoopwaarschuwing
-description: Leer hoe u een e-mail met een automatische verkoopwaarschuwing opneemt in uw accountreizen.
+description: E-mails met verkoopwaarschuwingen configureren tijdens reizen van accounts om verkoopteams op de hoogte te stellen - inclusief samenvattingen van inkoopgroepen, AI-inzichten en gegevens van leden in Journey Optimizer B2B edition.
 feature: Email Authoring, Account Journeys
 role: User
 exl-id: 01bffbce-6c73-483a-8731-de4e5569cf61
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Als marketeer kunt u een e-mailknooppunt voor een melding van verkopen configure
 
 ## E-mailinhoud
 
-+++E-mail met verkoopwaarschuwing
++++Voorbeeld van e-mail met verkoopwaarschuwing
 ![ Voorbeeld van een e-mail van het verkoopalarm gebruikend het standaardmalplaatje ](./assets/sales-alert-email-example.png){width="500" zoomable="yes"}
 
 +++
@@ -53,11 +53,11 @@ Als marketeer kunt u een e-mailknooppunt voor een melding van verkopen configure
 
 ## Een e-mailactie voor een verkoopwaarschuwing toevoegen aan een accountreis
 
-U kunt e-mailleveringen voor meldingen bij verkoop instellen in een accountreis wanneer u een knooppunt _[!UICONTROL Take an action]_&#x200B;toevoegt en het volgende doet:
+U kunt e-mailleveringen voor meldingen bij verkoop instellen in een accountreis wanneer u een knooppunt _[!UICONTROL Take an action]_toevoegt en het volgende doet:
 
-1. Kies **[!UICONTROL Account]** voor het doel _[!UICONTROL Action on]_.
+1. Kies _[!UICONTROL Action on]_voor het doel **[!UICONTROL Account]**.
 
-1. Kies **[!UICONTROL Send Sales Alert]** bij _[!UICONTROL Action on accounts]_.
+1. Kies _[!UICONTROL Action on accounts]_bij **[!UICONTROL Send Sales Alert]**.
 
 1. Kies bij **[!UICONTROL Select solution interest]** de interesse van de oplossing die u wilt gebruiken voor de gegenereerde e-mailinhoud.
 
@@ -65,4 +65,4 @@ U kunt e-mailleveringen voor meldingen bij verkoop instellen in een accountreis 
 
    ![ creeer nieuwe e-maildialoog ](assets/sales-alert-email-journey-node.png){width="600" zoomable="yes"}
 
-   Nadat de rekeningreis is gepubliceerd, wordt de verkoopwaarschuwing geleverd volgens deze parameters.
+   Wanneer de reis van de rekening levend is, wordt de verkoopalarm geleverd volgens deze parameters.

@@ -1,25 +1,25 @@
 ---
 title: Standaard- en aangepaste rollen
-description: Beheer standaard en aangepaste inkoopgroeprollen - maak, geef, en vorm roldefinities voor uw bedrijfsbehoeften in Journey Optimizer B2B edition uit.
+description: Standaard het kopen van groepsrollen van de mening en creeer douanerollen - geef, schrap, en vorm roldefinities voor uw zaken in Journey Optimizer B2B edition uit.
 feature: Buying Groups
 role: User
 exl-id: 3981f26e-dcee-4d32-b15f-f8e315457bd6
-source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
+source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '287'
 ht-degree: 0%
 
 ---
 
 # Standaard- en aangepaste rollen
 
-Journey Optimizer B2B edition bevat een set standaardrollen die worden gebruikt in rolsjablonen voor het kopen van groepen. Maar vele organisaties vereisen douanerollen die zij volgens hun bedrijfsdoelstellingen en strategieën kunnen bepalen. Met de lijst _[!UICONTROL Roles]_&#x200B;kunt u uw eigen rolinstellingen maken die uw inkoopgroepen ondersteunen.
+Journey Optimizer B2B edition bevat een set standaardrollen die worden gebruikt in rolsjablonen voor het kopen van groepen. Maar vele organisaties vereisen douanerollen die zij volgens hun bedrijfsdoelstellingen en strategieën kunnen bepalen. Met de lijst _[!UICONTROL Roles]_kunt u uw eigen rolinstellingen maken die uw inkoopgroepen ondersteunen.
 
 ## Toegangsrollen
 
 1. Klik in de linkernavigatie op **[!UICONTROL Buying groups]** .
 
-1. Selecteer op de pagina _[!UICONTROL Buying groups]_&#x200B;de tab **[!UICONTROL Roles]**.
+1. Selecteer op de pagina _[!UICONTROL Buying groups]_de tab **[!UICONTROL Roles]**.
 
    ![ het lusje van Rollen ](./assets/roles-tab.png){width="700" zoomable="yes"}
 
@@ -47,7 +47,7 @@ Journey Optimizer B2B edition bevat een set standaardrollen die worden gebruikt 
 
 ## Een aangepaste rol maken
 
-1. Klik in het tabblad _[!UICONTROL Roles]_&#x200B;op **[!UICONTROL Create Role]**&#x200B;in de rechterbovenhoek.
+1. Klik in het tabblad _[!UICONTROL Roles]_op **[!UICONTROL Create Role]**in de rechterbovenhoek.
 
 1. Voer in het dialoogvenster een unieke **[!UICONTROL Name]** (vereist) en **[!UICONTROL Description]** (optioneel) voor de rol in.
 
@@ -57,6 +57,6 @@ Journey Optimizer B2B edition bevat een set standaardrollen die worden gebruikt 
 
 ## Aangepaste rollen beheren
 
-U kunt uw aangepaste rollen beheren op het tabblad _[!UICONTROL Roles]_, dat het bewerken van de rolnaam en beschrijving omvat en het verwijderen van een rol uit de lijst met rollen. Klik het_ Meer _menupictogram (**..**) naast de naam van het fasemodel en kies **[!UICONTROL Edit]**&#x200B;of **[!UICONTROL Delete]**.
+U kunt uw aangepaste rollen beheren op het tabblad _[!UICONTROL Roles]_, dat het bewerken van de rolnaam en beschrijving omvat en het verwijderen van een rol uit de lijst met rollen. Klik het_ Meer _menupictogram (**..**) naast de naam van het fasemodel en kies **[!UICONTROL Edit]**of **[!UICONTROL Delete]**.
 
 ![ geef of schrap een douanerol ](./assets/roles-more-menu.png){width="600"} uit

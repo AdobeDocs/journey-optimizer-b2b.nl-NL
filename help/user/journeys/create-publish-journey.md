@@ -1,12 +1,12 @@
 ---
 title: Een accountreis maken en publiceren
-description: Leer hoe u accountreizen maakt en publiceert.
+description: Maak accountreizen op het visuele canvas, voeg actie- en gebeurtenisknooppunten toe, configureer het plannen en publiceer voor live orchestratie in Journey Optimizer B2B edition.
 feature: Account Journeys
 role: User
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
-source-git-commit: b88b4d45b8697b24c120f58bf7f85fd298bcfb8d
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
@@ -107,11 +107,11 @@ Wanneer u een reis publiceert, kan het onmiddellijk of op een geplande toekomsti
 
 1. Klik op **[!UICONTROL Save]**.
 
-   Wanneer u klaar bent om uw reis te publiceren, kunt u deze montages herzien wanneer u _[!UICONTROL Publish]_&#x200B;klikt.
+   Wanneer u klaar bent om uw reis te publiceren, kunt u deze montages herzien wanneer u _[!UICONTROL Publish]_klikt.
 
 ## Een accountreis publiceren
 
-U kunt een reis publiceren als er geen blocker fouten zijn. Wanneer gepubliceerd, verandert de reisstatus in _Levend_. Als de rit fouten bevat, wordt de knop _[!UICONTROL Publish]_&#x200B;grijs weergegeven met de inhoudsgegevens: `Resolve errors before publishing` .
+U kunt een reis publiceren als er geen blocker fouten zijn. Wanneer gepubliceerd, verandert de reisstatus in _Levend_. Als de rit fouten bevat, wordt de knop _[!UICONTROL Publish]_grijs weergegeven met de inhoudsgegevens: `Resolve errors before publishing` .
 
 >[!NOTE]
 >
@@ -119,7 +119,7 @@ U kunt een reis publiceren als er geen blocker fouten zijn. Wanneer gepubliceerd
 
 1. Klik in de rechterbovenhoek van het reisoverzicht op **[!UICONTROL Publish]** .
 
-1. Stel in het dialoogvenster _[!UICONTROL Review journey settings]_&#x200B;de startopties voor de rit in.
+1. Stel in het dialoogvenster _[!UICONTROL Review journey settings]_de startopties voor de rit in.
 
    Als u reeds de reismontages plaatst om een programma te bepalen, herzie de montages.
 
@@ -141,4 +141,4 @@ U kunt een reis publiceren als er geen blocker fouten zijn. Wanneer gepubliceerd
 
 ## Video over overzicht
 
->[!VIDEO](https://video.tv.adobe.com/v/3443225/?learn=on&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)

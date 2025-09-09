@@ -1,12 +1,12 @@
 ---
 title: E-mailberichten schrijven
-description: Leer hoe u e-mailinhoud maakt in Adobe Journey Optimizer B2B. Met sjablonen, HTML-import en door AI aangedreven tools kunt u uw e-mailcommunicatie personaliseren en optimaliseren.
+description: Maak e-mails met visuele ontwerpgereedschappen, HTML-import of sjablonen - gebruik de productie van AI Assistant-inhoud, aangepaste CSS en personalisatie in Journey Optimizer B2B edition.
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: f8d70f2e1cff6055ff353bad0c5a0f625d426db8
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1001'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Nadat u [ een e-mailmiddel aan een knoop van de reisactie ](./add-email.md) toevoegt, kunt u de inhoud voor het e-mailbericht bepalen.
 
-Klik op **[!UICONTROL Edit email content]** op de tab _[!UICONTROL Details]_&#x200B;in het rechterdeelvenster.
+Klik op **[!UICONTROL Edit email content]** op de tab _[!UICONTROL Details]_in het rechterdeelvenster.
 
 ![ Klik op E-mailinhoud bewerken ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
@@ -37,9 +37,9 @@ Nadat u de e-mailinhoud hebt gemaakt en aangepast, kunt u de inhoud exporteren v
 
 Gebruik de ruimte voor het ontwerpen van visuele inhoud om de structuur en inhoud van het e-mailbericht te definiëren. Door structurele componenten toe te voegen en te bewegen met eenvoudige belemmering-en-dalingsacties, kunt u de vorm van de herbruikbare e-mailinhoud binnen seconden ontwerpen.
 
-1. Selecteer de optie _[!UICONTROL Design your template]_&#x200B;op de startpagina van **[!UICONTROL Design from scratch]**.
+1. Selecteer de optie _[!UICONTROL Design your template]_op de startpagina van **[!UICONTROL Design from scratch]**.
 
-1. Kies in het dialoogvenster _[!UICONTROL Create email]_&#x200B;het type e-mailinhoud dat u wilt ontwerpen.
+1. Kies in het dialoogvenster _[!UICONTROL Create email]_het type e-mailinhoud dat u wilt ontwerpen.
 
    * **[!UICONTROL Use Themes]** - kies deze optie om e-mail op _wijze van het Thema_ tot stand te brengen. In deze modus kunt u een gedefinieerd merkthema gebruiken om het ontwerpproces voor inhoud te stroomlijnen en ervoor te zorgen dat het ontwerp wordt afgestemd op gedefinieerde standaarden.
 
@@ -105,7 +105,7 @@ Selecteer met ten minste één inhoudscomponent op het canvas de component **[!U
 
 {{$include /help/_includes/content-design-use-fragments.md}}
 
-Nadat het e-mailbericht is opgeslagen, wordt het weergegeven op de pagina met fragmentdetails wanneer u het tabblad _[!UICONTROL Used By]_&#x200B;in het overzicht selecteert.
+Nadat het e-mailbericht is opgeslagen, wordt het weergegeven op de pagina met fragmentdetails wanneer u het tabblad _[!UICONTROL Used By]_in het overzicht selecteert.
 
 ### Elementen toevoegen
 
@@ -121,7 +121,7 @@ Nadat het e-mailbericht is opgeslagen, wordt het weergegeven op de pagina met fr
 
 >[!NOTE]
 >
->Als _[!UICONTROL My Tokens]_&#x200B;is gedefinieerd voor de accountreis, kunt u deze reisspecifieke tokens ook gebruiken voor uw e-mailinhoud. Zie [ de tokens van de Douane voor e-mailverpersoonlijking ](./personalization-my-tokens.md) voor meer informatie.
+>Als _[!UICONTROL My Tokens]_is gedefinieerd voor de accountreis, kunt u deze reisspecifieke tokens ook gebruiken voor uw e-mailinhoud. Zie [ de tokens van de Douane voor e-mailverpersoonlijking ](./personalization-my-tokens.md) voor meer informatie.
 
 ### Gekoppelde URL-tracking bewerken
 
@@ -139,7 +139,7 @@ Gebruik de opties voor weergave- en inhoudsvalidatie die beschikbaar zijn in de 
 
 ## Meer opties
 
-Vanuit het menu _[!UICONTROL More ...]_&#x200B;boven aan de visuele ontwerpruimte kunt u de volgende handelingen uitvoeren:
+Vanuit het menu _[!UICONTROL More ...]_boven aan de visuele ontwerpruimte kunt u de volgende handelingen uitvoeren:
 
 ![ klik Meer om tot malplaatjeacties ](./assets/email-designer-more-menu.png){width="500"} toegang te hebben
 

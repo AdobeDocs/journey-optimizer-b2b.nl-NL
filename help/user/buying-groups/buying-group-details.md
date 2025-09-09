@@ -1,12 +1,12 @@
 ---
 title: Gegevens van kopersgroep
-description: Bekijk details over inkoopgroepen met AI-inzichten, beheer leden en volg de betrokkenheidsscores in Journey Optimizer B2B edition.
+description: Bekijk de details van de inkoopgroep met AI-inzichten, beheer de rollen van leden, volg de betrokkenheidsscores en analyseer de intentgegevens in Journey Optimizer B2B edition.
 feature: Buying Groups, Intelligent Insights
 role: User
 exl-id: f14301dc-d605-4ed2-8867-6a49675019de
-source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
+source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '747'
 ht-degree: 1%
 
 ---
@@ -67,7 +67,7 @@ In Journey Optimizer B2B edition voorspelt het Intent Detection-model een oploss
 
 ![ het Kopen groepsleden ](./assets/details-page-buying-group-members.png){width="800" zoomable="yes"}
 
-In de sectie _[!UICONTROL Buying group members]_&#x200B;worden twee rijen weergegeven die de kopende groepsleden markeren:
+In de sectie _[!UICONTROL Buying group members]_worden twee rijen weergegeven die de kopende groepsleden markeren:
 
 * **[!UICONTROL Decision maker]** - De drie belangrijkste besluitvormers op basis van de betrokkenheidsscore van de persoon
 * **[!UICONTROL Top engaged members]** - Andere leden met de hoogste betrokkenheid op basis van de betrokkenheidsscore van de persoon
@@ -104,11 +104,11 @@ Aan een account kunnen een of meer inkoopgroepen zijn gekoppeld. Het kopen van g
 
 1. Klik op **[!UICONTROL Assign new member]** rechtsboven.
 
-1. Selecteer in het dialoogvenster _[!UICONTROL Assign member]_&#x200B;de accountleads die u aan de inkoopgroep wilt toevoegen en klik op **[!UICONTROL Next]**.
+1. Selecteer in het dialoogvenster _[!UICONTROL Assign member]_de accountleads die u aan de inkoopgroep wilt toevoegen en klik op **[!UICONTROL Next]**.
 
    ![ Leden tabel - wijs nieuwe leden ](./assets/buying-group-details-assign-member.png){width="700" zoomable="yes"} toe
 
-1. Selecteer in het dialoogvenster _[!UICONTROL Edit new member role]_&#x200B;de rol die u aan elk van de nieuwe leden wilt toewijzen.
+1. Selecteer in het dialoogvenster _[!UICONTROL Edit new member role]_de rol die u aan elk van de nieuwe leden wilt toewijzen.
 
    ![ Leden tabel - wijs nieuwe lidrol ](./assets/buying-group-details-assign-member-edit-role.png){width="700" zoomable="yes"} toe
 
@@ -136,7 +136,7 @@ U kunt de rol voor een of meer geselecteerde leden (maximaal 50 per keer) van de
 
    ![ Leden tabel - geef rollen uit ](./assets/buying-group-details-edit-roles.png){width="700" zoomable="yes"}
 
-1. Selecteer in het dialoogvenster _[!UICONTROL Edit member role]_&#x200B;de rol die u aan elk van de leden wilt toewijzen.
+1. Selecteer in het dialoogvenster _[!UICONTROL Edit member role]_de rol die u aan elk van de leden wilt toewijzen.
 
    ![ geef lidrollen uit - kies rollen ](./assets/buying-group-details-edit-roles-choose-roles.png){width="700" zoomable="yes"}
 
@@ -152,7 +152,7 @@ U kunt een door een markter goedgekeurde e-mail verzenden naar een of meer gesel
 
    ![ Leden tabel - verzend e-mail ](./assets/buying-group-details-send-email.png){width="700" zoomable="yes"}
 
-1. Selecteer in het dialoogvenster _[!UICONTROL Send email]_&#x200B;de Marketo Engage-werkruimte en schakel vervolgens het selectievakje in voor de e-mail die u wilt verzenden.
+1. Selecteer in het dialoogvenster _[!UICONTROL Send email]_de Marketo Engage-werkruimte en schakel vervolgens het selectievakje in voor de e-mail die u wilt verzenden.
 
    ![ selecteer een e-mail om naar het kopen groepsleden te verzenden ](../accounts/assets/account-details-send-email-dialog.png){width="700" zoomable="yes"}
 

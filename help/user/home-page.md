@@ -1,12 +1,12 @@
 ---
 title: Aanmelden en startpagina
-description: Leer hoe u de Journey Optimizer B2B edition-app kunt openen en de homepage-informatie kunt gebruiken.
+description: Open Journey Optimizer B2B edition en navigeer naar persoonlijke homepages - verschillende weergaven voor marketers en beheerders met snelle toegang en AI Assistant.
 feature: Home Page
 role: Admin, User
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '414'
 ht-degree: 7%
 
 ---
@@ -21,18 +21,18 @@ Als u toegang wilt tot [!DNL Adobe Journey Optimizer B2B Edition] , maakt u verb
 
 ![ Adobe Experience Platform apps ](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}
 
-De startpagina wordt weergegeven wanneer u zich aanmeldt bij de Adobe Experience Platform en de Adobe Journey Optimizer B2B edition-app selecteert. Deze pagina biedt een overzicht van de huidige toestand van de Journey Optimizer B2B-initiatieven in de vorm van <!-- refined insights and--> snelle toegang tot de relevante modules. <!-- It also provides information about the ideal next action to take and where to find the comprehensive set of tutorials and documentation. -->
+Wanneer u zich aanmeldt bij de Adobe Experience Platform en de Adobe Journey Optimizer B2B edition-app selecteert, wordt de startpagina weergegeven. Deze pagina biedt een overzicht van de huidige status van uw Journey Optimizer B2B-initiatieven in de vorm van <!-- refined insights and--> snelle toegangskoppelingen naar de relevante bronnen. <!-- It also provides information about the ideal next action to take and where to find the comprehensive set of tutorials and documentation. -->
 
 ![ Journey Optimizer B2B edition homepage ](./assets/home-page.png){width="800" zoomable="yes"}
 
-Journey Optimizer B2B edition heeft twee primaire gebruikerspersoonlijkheden: a _&#x200B;**telleraar**&#x200B;_ en een _&#x200B;**beheerder**&#x200B;_. Elke persoon heeft een specifieke homepage voor verschillende (nieuwe of geavanceerde) looptijdstadia. De pagina-inhoud is gebaseerd op wat elk individu nodig heeft op het gebied van informatie en de volgende acties die moeten worden ondernomen.
+Journey Optimizer B2B edition heeft twee primaire gebruikerspersoonlijkheden: a _**telleraar**_ en een _**beheerder**_. Elke persoon heeft een specifieke homepage voor verschillende (nieuwe of geavanceerde) looptijdstadia. De pagina-inhoud is gebaseerd op wat elk individu nodig heeft op het gebied van informatie en de volgende acties die moeten worden ondernomen.
 
-* **Markering - nieuwe gebruiker** - de _de homepage van de Markering_ voor een nieuwe gebruiker helpt hen in het worden gewend aan Journey Optimizer B2B en zijn mogelijkheden. Het omvat een geleide analyse voor de nieuwe marktleider om een onboarding analyse te verkrijgen zodat zij de nuances van het systeem kunnen begrijpen en efficiënt in het ontwikkelen van B2B marketing strategieën en initiatieven kunnen worden.
-* **Markering - Geavanceerde gebruiker** - de _de homepage van de Markering_ voor een geavanceerde marktspeler staat hen bij in het verkrijgen van meer informatie over de huidige vooruitgang van de initiatieven en over specifieke acties en over de volgende beste actie die samen met snelle toegang tot relevante secties moet worden genomen.
-* **Beheerder - nieuwe gebruiker** - de _Admin_ homepage voor een nieuwe beheerder staat hen in het worden gewend aan Journey Optimizer B2B edition en zijn mogelijkheden bij. Het omvat een geleide analyse voor de nieuwe beheerder om een stap-voor-stap reis op instapreis te verkrijgen om de nuances van het systeem te begrijpen en efficiënt te worden in het ontwikkelen van B2B marketing strategieën en initiatieven.
-* **Beheerder - gevorderde gebruiker** - de _Admin_ homepage voor een gevorderde beheerder helpt hen in het verkrijgen van meer informatie over het huidige statuut van de instantie en op specifieke acties die kunnen worden genomen om het efficiënter en effectiever voor de marketers te maken.
+* **Markering - nieuwe gebruiker** - de _de homepage van de Markering_ voor een nieuwe gebruiker helpt hen om gewend aan Journey Optimizer B2B en zijn mogelijkheden te worden. Het omvat een geleide analyse voor de nieuwe marktleider om een onboarding analyse te verkrijgen zodat zij de nuances van het systeem kunnen begrijpen en efficiënt in het ontwikkelen van B2B marketing strategieën en initiatieven kunnen worden.
+* **Markering - Geavanceerde gebruiker** - de _de homepage van de Markering_ voor een geavanceerde marktspeler toont huidige initiatiefvooruitgang, geadviseerde volgende acties, en verleent snelle toegang tot relevante secties.
+* **Beheerder - nieuwe gebruiker** - de _Admin_ homepage voor een nieuwe beheerder helpt hen om gewend aan Journey Optimizer B2B edition en zijn mogelijkheden te worden. Het omvat een geleide analyse voor de nieuwe beheerder om een stap-voor-stap reis op instapreis te verkrijgen om de nuances van het systeem te begrijpen en efficiënt te worden in het ontwikkelen van B2B marketing strategieën en initiatieven.
+* **Beheerder - gevorderde gebruiker** - de _Admin_ homepage voor een geavanceerde beheerder toont de huidige instantiestatus en actionable stappen om efficiency en doeltreffendheid voor beheerders te verbeteren.
 
-De sectie _[!UICONTROL Recently accessed]_&#x200B;bevat een lijst met de laatst geopende elementen voor de Marketer of Beheerder. Gebruik deze lijst om rechtstreeks naar het element te gaan waaraan u onlangs hebt gewerkt, zonder door een reeks elementpagina&#39;s te navigeren en te zoeken.
+De sectie _[!UICONTROL Recently accessed]_bevat een lijst met de laatst geopende elementen voor de Marketer of Beheerder. Gebruik deze lijst om rechtstreeks naar het element te gaan waaraan u onlangs hebt gewerkt, zonder door een reeks elementpagina&#39;s te navigeren en te zoeken.
 
 De pagina omvat ook toegang tot [ AI Medewerker ](./ai-assistant/ai-assistant-overview.md), die gebruikers helpt om snelle informatie over om het even welke specifieke vragen of onderwerpen te krijgen die zij nodig hebben.<!-- and to obtain specific recommendations for their challenges or objectives-->
 

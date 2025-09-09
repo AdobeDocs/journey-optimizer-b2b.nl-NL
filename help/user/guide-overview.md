@@ -1,10 +1,10 @@
 ---
 title: Documentatie voor Adobe Journey Optimizer B2B Edition
-description: Leer hoe u de Adobe Journey Optimizer B2B edition-functies kunt gebruiken voor het ordenen van accounts en het kopen van groepsreizen met behulp van ingebouwde generatieve AI en toonaangevende automatisering.
+description: Volledige documentatie voor Journey Optimizer B2B edition - verken de beschikbare bronnen voor het aan boord nemen, het creëren van inkoopgroepen, het bouwen van accountreizen, en het beheren van inhoud.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: c0ccd7130f14d8f36d15e2ee04cadc1d41ad07bb
+source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '636'
 ht-degree: 5%
 
 ---
@@ -137,15 +137,15 @@ Ontdek de onderdelen van een inkoopgroep en begrijp de basisbeginselen van het m
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong> Adobe Journey Optimizer B2B edition </strong><br/>
-<a href="https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank"> Video's en leerprogramma's </a> - <a href="https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank"> beschrijving van het Product </a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank"> Video's en leerprogramma's </a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank"> beschrijving van het Product </a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong> Adobe Experience Platform </strong><br/>
-<a href="https://experienceleague.adobe.com/nl/docs/experience-platform/landing/home" target="_blank"> Documentatie </a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank"> middelen van de Ontwikkelaar </a>
+<a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/home" target="_blank"> Documentatie </a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank"> middelen van de Ontwikkelaar </a>
 </td></tr>
 <tr><td><strong> Adobe Real-Time Customer Data Platform </strong><br/>
-<a href="https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/home" target="_blank"> Documentatie </a> - <a href="https://experienceleague.adobe.com/nl/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank"> zelfstudies van de Ontwikkelaar </a>
+<a href="https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home" target="_blank"> Documentatie </a> - <a href="https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank"> zelfstudies van de Ontwikkelaar </a>
 </td><td><strong> Adobe Marketo Engage </strong><br/>
-<a href="https://experienceleague.adobe.com/nl/docs/marketo/using/home" target="_blank"> documentatie van de Gebruiker </a> - <a href="https://experienceleague.adobe.com/nl/docs/marketo-developer/marketo/home" target="_blank"> documentatie van de Ontwikkelaar </a>
+<a href="https://experienceleague.adobe.com/en/docs/marketo/using/home" target="_blank"> documentatie van de Gebruiker </a> - <a href="https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/home" target="_blank"> documentatie van de Ontwikkelaar </a>
 </td>
 </tr></table>
 

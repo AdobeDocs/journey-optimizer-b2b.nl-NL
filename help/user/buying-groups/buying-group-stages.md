@@ -1,12 +1,12 @@
 ---
 title: Groepsfasen kopen
-description: Configureer inkoopgroepsfasen om de voortgang van de verkoop van opportuniteit naar klantconversie in Journey Optimizer B2B edition te volgen.
+description: Bouw modellen van het de groepsstadium van de douane het kopen met ingang, succes, en mislukkingsstadia om vooruitgang te volgen en rekeningsreis acties in Journey Optimizer B2B edition teweeg te brengen.
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
+source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
-source-wordcount: '2163'
+source-wordcount: '2170'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 De het kopen groepsstadia worden ontworpen om de vooruitgang van het kopen van groepen in het omzetten van kansen in klanten te volgen. Gebruik deze functie om de voortgang van de inkoopgroep te volgen en de volgende beste acties voor het kopen van groepsleden te identificeren.
 
-Definieer de fasen in één staging-model, waarbij u meerdere fasen definieert en de overgangsstroom tussen de fasen definieert. Een of meer fasen zijn bedoeld om in de levenscyclus te worden binnengebracht. Het model maakt ook niet-lineaire progressie mogelijk, waarbij u overgangen van de ene naar de andere fase kunt opgeven, zoals van fase A naar fase B, C of D. Er moet één fase worden aangewezen als de succesfase, zoals een aankoop of een ondertekend contract. Het is facultatief dat een andere fase als een mislukkingsfase wordt aangewezen, zoals een afgewezen contract of de aankoop van een concurrerende oplossing van een andere verkoper. Dit wordt bereikt door [ intelligente dashboards ](../dashboards/intelligent-dashboard.md) die tonen hoe het kopen groepen in termen van het voltooien van een verkoopkans of het omzetten van een kans in een klant vooruitgaat.
+Definieer de fasen in één staging-model, waarbij u meerdere fasen definieert en de overgangsstroom tussen de fasen definieert. Een of meer fasen zijn bedoeld om in de levenscyclus te worden binnengebracht. Het model maakt ook niet-lineaire progressie mogelijk, waarbij u overgangen van de ene naar de andere fase kunt opgeven, zoals van fase A naar fase B, C of D. Er moet één fase worden aangewezen als de succesfase, zoals een aankoop of een ondertekend contract. Het is facultatief dat een andere fase als een mislukkingsfase wordt aangewezen, zoals een afgewezen contract of de aankoop van een concurrerende oplossing van een andere verkoper. Bewaak deze stadia door [ intelligente dashboards ](../dashboards/intelligent-dashboard.md) die tonen hoe het kopen groepen in termen van de voltooiing van een verkoopkans of het omzetten van een kans in een klant vordert.
 
 ![ het Kopen van de groepsstadia voorbeeld ](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
 
@@ -41,7 +41,7 @@ Wanneer u het het kopen model van het groepsstadium creeert, is het automatisch 
 
    ![ het lusje van Staven ](assets/stages-tab-none.png){width="800" zoomable="yes"}
 
-   Dit _[!UICONTROL Stages]_&#x200B;lusje is in een_ lege _staat tot u het model creeert.
+   Dit _[!UICONTROL Stages]_lusje is in een_ lege _staat tot u het model creeert.
 
 1. Klik op **[!UICONTROL Create model]** in het midden van de pagina.
 
@@ -49,7 +49,7 @@ Wanneer u het het kopen model van het groepsstadium creeert, is het automatisch 
 
    ![ voeg de naam en de beschrijving voor het model ](assets/stages-create-model-dialog.png){width="700" zoomable="yes"} toe
 
-   Als u _[!UICONTROL Cancel]_&#x200B;in deze dialoog klikt, keert u aan het&#x200B;_[!UICONTROL Stages]_ lusje in een _lege_ staat terug.
+   Als u _[!UICONTROL Cancel]_in deze dialoog klikt, keert u aan het_[!UICONTROL Stages]_ lusje in een _lege_ staat terug.
 
 1. Klik op **[!UICONTROL Create]**.
 
@@ -77,11 +77,11 @@ Nadat u het model hebt gemaakt, wordt het geopend in de werkruimte en wordt u ge
 
    >[!IMPORTANT]
    >
-   >**nadat de het kopen groepsstadia worden bewaard, kunnen zij niet worden verwijderd.** Nochtans, kunt u de naam en de beschrijving voor om het even welke stadia veranderen zolang het model in _2&rbrace; status van het Ontwerp &lbrace;blijft._
+   >**nadat de het kopen groepsstadia worden bewaard, kunnen zij niet worden verwijderd.** Nochtans, kunt u de naam en de beschrijving voor om het even welke stadia veranderen zolang het model in _2} status van het Ontwerp {blijft._
 
 ### De workflow en overgangsregels configureren
 
-Nadat u de fasen hebt opgeslagen, gaat u terug naar de modelwerkruimte. De kolom _[!UICONTROL Allowed transit to]_&#x200B;is leeg, wat aangeeft dat de overgangsregels voor de modelfasen nog niet zijn gedefinieerd.
+Nadat u de fasen hebt opgeslagen, gaat u terug naar de modelwerkruimte. De kolom _[!UICONTROL Allowed transit to]_is leeg, wat aangeeft dat de overgangsregels voor de modelfasen nog niet zijn gedefinieerd.
 
 ![ de regels van de Overgang zijn nog niet bepaald ](assets/stages-model-stages-empty-rules.png){width="700" zoomable="yes"}
 
@@ -89,11 +89,11 @@ De overgangsregels bepalen hoe een inkoopgroep van de ene fase naar de andere ka
 
 1. Klik op **[!UICONTROL Edit transition rules]** rechtsboven.
 
-   Met deze handeling wordt het dialoogvenster _[!UICONTROL Edit stage rules]_&#x200B;geopend waarin u de logica voor de flow definieert.
+   Met deze handeling wordt het dialoogvenster _[!UICONTROL Edit stage rules]_geopend waarin u de logica voor de flow definieert.
 
-   Terwijl u de opties instelt, zijn er ingebouwde instructies en berichten om u te helpen logische fouten in de flow te voorkomen. U kunt op _[!UICONTROL Cancel]_&#x200B;klikken om het dialoogvenster te sluiten en zonder wijzigingen terug te keren naar de tabpagina van&#x200B;_[!UICONTROL Stages]_ .
+   Terwijl u de opties instelt, zijn er ingebouwde instructies en berichten om u te helpen logische fouten in de flow te voorkomen. U kunt op _[!UICONTROL Cancel]_klikken om het dialoogvenster te sluiten en zonder wijzigingen terug te keren naar de tabpagina van_[!UICONTROL Stages]_ .
 
-1. Wijs in de sectie _[!UICONTROL Select stage]_&#x200B;de begin- en eindfasen van de flow aan:
+1. Wijs in de sectie _[!UICONTROL Select stage]_de begin- en eindfasen van de flow aan:
 
    * **[!UICONTROL Entry point stage]** (vereist) - Wijs één of meerdere ingangsstadia voor de het kopen groepskans aan.
 
@@ -140,7 +140,7 @@ _Om het ontwerp model te bekijken :_
 
 1. Klik op **[!UICONTROL Edit stages]**.
 
-   In het dialoogvenster _[!UICONTROL Edit stages]_&#x200B;kunt u nieuwe fasen toevoegen of de naam en beschrijving van bestaande fasen wijzigen.
+   In het dialoogvenster _[!UICONTROL Edit stages]_kunt u nieuwe fasen toevoegen of de naam en beschrijving van bestaande fasen wijzigen.
 
    * Wijzig desgewenst de **[!UICONTROL Name]** of **[!UICONTROL Description]** van een werkgebied.
 
@@ -148,7 +148,7 @@ _Om het ontwerp model te bekijken :_
 
 1. Klik op **[!UICONTROL Save]** als u tevreden bent met de stappen die u hebt gedefinieerd.
 
-   U kunt ook op _[!UICONTROL Cancel]_&#x200B;klikken om het dialoogvenster te sluiten en zonder wijzigingen terug te keren naar de pagina met modeldetails.
+   U kunt ook op _[!UICONTROL Cancel]_klikken om het dialoogvenster te sluiten en zonder wijzigingen terug te keren naar de pagina met modeldetails.
 
 ### De overgangsregels voor het model bewerken
 
@@ -160,7 +160,7 @@ _Om het ontwerp model te bekijken :_
 
 1. Klik op **[!UICONTROL Save]** als u tevreden bent met de gedefinieerde overgangsregels.
 
-   U kunt ook op _[!UICONTROL Cancel]_&#x200B;klikken om het dialoogvenster te sluiten en zonder wijzigingen terug te keren naar de pagina met modeldetails.
+   U kunt ook op _[!UICONTROL Cancel]_klikken om het dialoogvenster te sluiten en zonder wijzigingen terug te keren naar de pagina met modeldetails.
 
 ## Het model voor de inkoopgroepfasen publiceren
 
@@ -178,7 +178,7 @@ Als er geen validatiefouten zijn, kan het model worden gepubliceerd. Wanneer het
 
 1. Klik op **[!UICONTROL Publish]** in het bevestigingsdialoogvenster.
 
-   Als u terugkeert naar de pagina met modeldetails, wordt het model aangeduid als _[!UICONTROL Live]_. Klik de_ Achterste _pijl bij de hoogste linkerzijde om aan de&#x200B;_[!UICONTROL Stages]_ lusjepagina terug te keren.
+   Als u terugkeert naar de pagina met modeldetails, wordt het model aangeduid als _[!UICONTROL Live]_. Klik de_ Achterste _pijl bij de hoogste linkerzijde om aan de_[!UICONTROL Stages]_ lusjepagina terug te keren.
 
 ![ het gepubliceerde model ](assets/stages-tab-model-live.png){width="700" zoomable="yes"}
 <!-- list these later when the Published columns are working correctly
@@ -277,7 +277,7 @@ Gebruikend a [ gespleten wegknoop ](../journeys/journey-nodes.md#split-paths), k
 
 1. In de knoopeigenschappen op het recht, kies **[!UICONTROL People]** voor de spleet.
 
-   Laat de standaardwaarde voor _[!UICONTROL Attribute used for conditions]_&#x200B;als **[!UICONTROL People attributes only]**&#x200B;staan.
+   Laat de standaardwaarde voor _[!UICONTROL Attribute used for conditions]_als **[!UICONTROL People attributes only]**staan.
 
 1. Als u een voorwaarde wilt definiëren die van toepassing is op _[!UICONTROL Path 1]_, klikt u op **[!UICONTROL Apply condition]**.
 
@@ -365,4 +365,4 @@ Gebruik het optreden van een wijziging in de inkoopgroep om de account naar de v
 
 ## Video over overzicht
 
->[!VIDEO](https://video.tv.adobe.com/v/3448700/?learn=on&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)

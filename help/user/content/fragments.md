@@ -1,10 +1,10 @@
 ---
 title: Fragmenten
-description: Leer hoe u in Adobe Journey Optimizer B2B edition fragmenten van visuele inhoud maakt en gebruikt als herbruikbare onderdelen voor e-mails en e-mailsjablonen.
+description: Maak, beheer en hergebruik visuele inhoudsfragmenten voor e-mails en sjablonen - maak herbruikbare blokken, publicatieversies, volg het gebruik in Journey Optimizer B2B edition.
 feature: Fragments, Content
 role: User
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: 5e0415268ac3423a6d3004338302b2f756c75a9f
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
 source-wordcount: '2643'
 ht-degree: 0%
@@ -74,7 +74,7 @@ Selecteer in het dialoogvenster de kolommen die u wilt weergeven en klik op **[!
 
 U kunt nieuwe visuele fragmenten maken in Journey Optimizer B2B edition door op **[!UICONTROL Create fragment]** rechtsboven te klikken.
 
-1. Voer in het dialoogvenster _[!UICONTROL Create fragment]_&#x200B;een handige **[!UICONTROL Name]**&#x200B;en **[!UICONTROL Description]**(optioneel) in.
+1. Voer in het dialoogvenster _[!UICONTROL Create fragment]_een handige **[!UICONTROL Name]**en **[!UICONTROL Description]**(optioneel) in.
 
    Fragmentvereisten:
 
@@ -129,7 +129,7 @@ Klik op de naam van een fragment in de lijstpagina om de pagina met fragmentdeta
 
 Klik op **[!UICONTROL Edit fragment]** om het fragment te openen in de visuele inhoudeditor.
 
-Ga de mening op elk ogenblik weg door de _Achter_ pijl bij de hoogste linkerzijde te klikken, die u aan de _pagina van de de 3&rbrace; lijst van Fragmenten &lbrace;terugkeert._
+Ga de mening op elk ogenblik weg door de _Achter_ pijl bij de hoogste linkerzijde te klikken, die u aan de _pagina van de de 3} lijst van Fragmenten {terugkeert._
 
 ## Fragment weergeven dat wordt gebruikt door verwijzingen
 
@@ -152,7 +152,7 @@ Om het even welk fragment dat momenteel in gebruik door om het even welk e-mail 
 U kunt een fragment op een van de volgende manieren verwijderen:
 
 * Klik op **[!UICONTROL Delete]** in de fragmentdetails aan de rechterkant.
-* Klik op de aanbiedingspagina van _[!UICONTROL Fragments]_&#x200B;op de ovaal naast het fragment en kies **[!UICONTROL Delete]**.
+* Klik op de aanbiedingspagina van _[!UICONTROL Fragments]_op de ovaal naast het fragment en kies **[!UICONTROL Delete]**.
 
 Met deze handeling wordt een bevestigingsvenster geopend. U kunt het proces afbreken door op **[!UICONTROL Cancel]** te klikken of op **[!UICONTROL Delete]** te klikken om het verwijderen te bevestigen.
 
@@ -174,7 +174,7 @@ Bewerkingen aan een fragment zijn afhankelijk van de huidige status:
 
 >[!TAB  Ontwerp ]
 
-1. Klik op de aanbiedingspagina van _[!UICONTROL Fragments]_&#x200B;op de fragmentnaam om deze te openen.
+1. Klik op de aanbiedingspagina van _[!UICONTROL Fragments]_op de fragmentnaam om deze te openen.
 
    Er wordt een voorvertoning van de visuele inhoud weergegeven, met de fragmentdetails aan de rechterkant.
 
@@ -199,7 +199,7 @@ Bewerkingen aan een fragment zijn afhankelijk van de huidige status:
 
 >[!TAB  Gepubliceerd ]
 
-1. Klik op de aanbiedingspagina van _[!UICONTROL Fragments]_&#x200B;op de fragmentnaam om deze te openen.
+1. Klik op de aanbiedingspagina van _[!UICONTROL Fragments]_op de fragmentnaam om deze te openen.
 
    Er wordt een voorvertoning van de visuele inhoud weergegeven, met de fragmentdetails aan de rechterkant.
 
@@ -263,7 +263,7 @@ De inhoud bijwerken:
 
 U kunt een fragment op een van de volgende manieren dupliceren:
 
-* Van de _[!UICONTROL Fragments]_&#x200B;lijstpagina, klik het_ Meer _pictogram (**...**) naast de fragmentnaam en kies **[!UICONTROL Duplicate]**.
+* Van de _[!UICONTROL Fragments]_lijstpagina, klik het_ Meer _pictogram (**...**) naast de fragmentnaam en kies **[!UICONTROL Duplicate]**.
 * Klik rechtsboven op de pagina met fragmentdetails op **[!UICONTROL ... More]** en kies **[!UICONTROL Duplicate]** .
 
 ![ dupliceer het fragment ](./assets/fragment-details-duplicate.png){width="600" zoomable="yes"}
@@ -298,11 +298,11 @@ Fragmenten zijn ontworpen voor hergebruik en kunnen worden ingevoegd voor het on
 
 >[!BEGINTABS]
 
->[!TAB voegt fragmenten aan e-mail  toe]
+>[!TAB  voegt fragmenten aan e-mail ] toe
 
 1. Navigeer naar **[!UICONTROL Account Journeys]** en open een bestaande reis of maak een nieuwe reis.
 
-1. Creeer een [_[!UICONTROL Send Email]_&#x200B;knoop ](./add-email.md#add-an-email-action-node-in-a-journey).
+1. Creeer een [_[!UICONTROL Send Email]_knoop ](./add-email.md#add-an-email-action-node-in-a-journey).
 
 1. Creeer of geef [ e-mailinhoud voor de knoop ](./email-authoring.md) uit.
 
@@ -326,11 +326,11 @@ De inhoud van het fragment wordt dynamisch bijgewerkt binnen de structuur om een
 
 >[!TIP]
 >
->Als u het fragment de volledige horizontale lay-out binnen e-mail wilt bezetten, voeg een [!UICONTROL 1:1 kolom &#x200B;] structuur toe en sleep en zet dan het fragment in het.
+>Als u het fragment de volledige horizontale lay-out binnen e-mail wilt bezetten, voeg een [!UICONTROL 1:1 kolom ] structuur toe en sleep en zet dan het fragment in het.
 
-Nadat het e-mailbericht is opgeslagen, wordt het weergegeven op de pagina met fragmentdetails wanneer het tabblad _[!UICONTROL Used By]_&#x200B;is geselecteerd. Fragmenten die aan een e-mail zijn toegevoegd, kunnen niet worden bewerkt in de e-mail of sjabloon. Het gepubliceerde bronfragment definieert de inhoud.
+Nadat het e-mailbericht is opgeslagen, wordt het weergegeven op de pagina met fragmentdetails wanneer het tabblad _[!UICONTROL Used By]_is geselecteerd. Fragmenten die aan een e-mail zijn toegevoegd, kunnen niet worden bewerkt in de e-mail of sjabloon. Het gepubliceerde bronfragment definieert de inhoud.
 
->[!TAB voegt fragmenten aan een e-mailmalplaatje  toe]
+>[!TAB  voegt fragmenten aan een e-mailmalplaatje ] toe
 
 1. Klik in de linkernavigatie op **[!UICONTROL Content Management]** > **[!UICONTROL Templates]** .
 
@@ -360,7 +360,7 @@ Nadat het e-mailbericht is opgeslagen, wordt het weergegeven op de pagina met fr
 >
 >Als u het fragment de volledige horizontale lay-out binnen het e-mailmalplaatje wilt bezetten, voeg een _[!UICONTROL 1:1kolom]_ structuur toe en sleep en zet dan het fragment in het.
 
-Nadat de e-mailsjabloon is opgeslagen, wordt deze weergegeven op de pagina met fragmentdetails wanneer het tabblad _[!UICONTROL Used By]_&#x200B;is geselecteerd. Fragmenten die aan een e-mailsjabloon zijn toegevoegd, kunnen niet worden bewerkt in de sjabloon. Het gepubliceerde bronfragment definieert de inhoud.
+Nadat de e-mailsjabloon is opgeslagen, wordt deze weergegeven op de pagina met fragmentdetails wanneer het tabblad _[!UICONTROL Used By]_is geselecteerd. Fragmenten die aan een e-mailsjabloon zijn toegevoegd, kunnen niet worden bewerkt in de sjabloon. Het gepubliceerde bronfragment definieert de inhoud.
 
 >[!ENDTABS]
 

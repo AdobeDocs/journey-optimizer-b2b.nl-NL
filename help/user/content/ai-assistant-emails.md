@@ -1,17 +1,17 @@
 ---
-title: AI Assistant voor e-mailauthoring
-description: Leer hoe u AI Assistant gebruikt om de e-mailinhoud te optimaliseren die wordt gebruikt in Accountreizen.
+title: AI Assistant voor het genereren van e-mailinhoud
+description: Genereer e-mailinhoud met AI Assistant - maak berichtinhoud, onderwerpregel en voorkopteksten met merkenmiddelen en koop groepstaken die zich richten op Journey Optimizer B2B edition.
 feature: AI Assistant, Email Authoring, Content
 role: User
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '2943'
+source-wordcount: '2960'
 ht-degree: 0%
 
 ---
 
-# AI Assistant voor het schrijven van e-mail
+# AI Assistant voor het genereren van e-mailinhoud
 
 Naarmate de marketingindustrie concurrerender wordt, zoeken merken efficiënte manieren om snel en efficiënt onbruikbare inhoud te genereren. AI Assistant voor het schrijven van e-mails in Adobe Journey Optimizer B2B edition is een Adobe-functie voor het genereren van inhoud die door AI wordt gevoed en die een revolutie betekent in de manier waarop marketeers professionele en merkconsistente e-mailinhoud maken. Met geavanceerde GenAI-modellen en een goed begrip van de richtlijnen voor merken genereert AI Assistant automatisch persoonlijke, aantrekkelijke en effectieve inhoud die is gebaseerd op het marketingdoel, met inhoud die is geoptimaliseerd voor stijlen, lay-outs, kleurtinten en meer met een merk. AI Assistant maakt het maken en uitvoeren van e-mailmarketingcampagnes intuïtief, eenvoudig en probleemloos. Door deze mogelijkheid toe te voegen aan uw workflows kunt u tijd besparen, de efficiëntie verbeteren en betere resultaten behalen.
 
@@ -72,7 +72,7 @@ Wanneer u [ een e-mailactie ](./add-email.md#add-an-email-action-node-in-a-journ
 
 1. Maak een e-mail van een accountreis of open een bestaande e-mail van een transportknooppunt.
 
-   De voorvertoningspagina voor e-mail wordt weergegeven met de _[!UICONTROL Email properties]_&#x200B;aan de rechterkant.
+   De voorvertoningspagina voor e-mail wordt weergegeven met de _[!UICONTROL Email properties]_aan de rechterkant.
 
 1. Selecteer een van de volgende tabbladen voor informatie over het gebruik van AI Assistant in het ontwerpen van e-maileigenschappen.
 
@@ -82,7 +82,7 @@ Wanneer u [ een e-mailactie ](./add-email.md#add-an-email-action-node-in-a-journ
 
 De volgende stappen beschrijven de taakopeenvolging voor het gebruiken van AI Medewerker om een geoptimaliseerde onderwerpregel voor uw e-mail te produceren:
 
-1. In _[!UICONTROL Email Properties]_, klik het AI Hulppictogram ( ![ AI Hulptoegangspictogram ](./assets/email-properties-ai-assistant-button.png){width="30" zoomable="no"}) rechts van het **[!UICONTROL Subject line]**&#x200B;gebied.
+1. In _[!UICONTROL Email Properties]_, klik het AI Hulppictogram ( ![ AI Hulptoegangspictogram ](./assets/email-properties-ai-assistant-button.png){width="30" zoomable="no"}) rechts van het **[!UICONTROL Subject line]**gebied.
 
    ![ AI Hulp toegang voor e-mail onderwerpregel ](./assets/email-properties-ai-assistant-subject-line-icon.png){width="600" zoomable="yes"}
 
@@ -204,11 +204,11 @@ Een e-mailpreheader is de korte samenvattingstekst die volgt op de onderwerprege
 
 Nadat u [ creeert en uw e-mail ](./email-authoring.md) personaliseert, gebruik AI Medewerker in Adobe Journey Optimizer B2B edition, die door generatieve AI wordt aangedreven om uw e-maillichaamsinhoud tot het volgende niveau op te heffen.
 
-In de e-mailontwerper, kan AI Medewerker u helpen de invloed van uw leveringen optimaliseren door het volledige e-maillichaam, gerichte tekstinhoud, en aanbevelingen voor beelden te produceren die met uw publiek resoneren. Deze optimalisatie van uw e-mailcampagnes is ontworpen om een betere betrokkenheid te creëren.
+In de ontwerpruimte van e-mail, kan AI Medewerker u helpen de invloed van uw leveringen optimaliseren door het volledige e-maillichaam, gerichte tekstinhoud, en aanbevelingen voor beelden te produceren die met uw publiek resoneren. Deze optimalisatie van uw e-mailcampagnes is ontworpen om een betere betrokkenheid te creëren.
 
 1. Maak een e-mail van een accountreis en klik op **[!UICONTROL Open Email Designer]** of **[!UICONTROL Add Email Content]** .
 
-1. Selecteer en open een e-mailsjabloon in de visuele e-mailontwerper.
+1. Selecteer en open een e-mailsjabloon in de ruimte voor visueel e-mailontwerp.
 
 1. Pas de e-mail naar wens aan voor het knooppunt van de reis.
 
@@ -220,7 +220,7 @@ In de e-mailontwerper, kan AI Medewerker u helpen de invloed van uw leveringen o
 
 In de volgende stappen wordt de taakvolgorde beschreven voor het gebruik van AI Assistant voor het verfijnen van een bestaande e-mailsjabloon:
 
-1. In de e-mailontwerper, heb toegang tot het AI Hulpmenu door het pictogram ( ![ AI Hulp menuknevel ](../assets/button-ai-assistant.png){width="30" zoomable="no"}) bij het recht te klikken.
+1. In de ruimte van het e-mailontwerp, heb toegang tot het AI Hulpmenu door het pictogram ( ![ AI Hulp menuknevel ](../assets/button-ai-assistant.png){width="30" zoomable="no"}) bij het recht te klikken.
 
    ![ AI Hulp knevel in de e-mailontwerper ](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
@@ -259,15 +259,15 @@ In de volgende stappen wordt de taakvolgorde beschreven voor het gebruik van AI 
 
      ![ AI Medewerker - tekstmontages ](./assets/email-designer-ai-assistant-feedback.png){width="600" zoomable="yes"}
 
-1. Klik op **[!UICONTROL Select]** om de sjablooninhoud te vervangen door de geselecteerde variant en terug te keren naar de e-mailontwerper.
+1. Klik op **[!UICONTROL Select]** om de inhoud van de sjabloon te vervangen door de geselecteerde variant en terug te keren naar de ontwerpruimte van de e-mail.
 
-   In de e-mailontwerper kunt u de bewerkings- en opmaakgereedschappen op het canvas gebruiken om de inhoud en de opties _[!UICONTROL Settings]_&#x200B;en&#x200B;_[!UICONTROL Style]_ aan de rechterkant te wijzigen.
+   In de ontwerpruimte voor e-mail kunt u de bewerkings- en opmaakgereedschappen op het canvas gebruiken om de inhoud en de opties _[!UICONTROL Settings]_en_[!UICONTROL Style]_ aan de rechterkant te wijzigen.
 
 >[!TAB  generatie van de Tekst ]
 
 De volgende stappen beschrijven de taakopeenvolging voor het gebruiken van AI Medewerker om de tekstinhoud voor een bestaande e-mail te verfijnen of te verbeteren:
 
-1. In de e-mailontwerper, heb toegang tot het AI Hulpmenu door het pictogram ( ![ AI Hulp menuknevel ](../assets/button-ai-assistant.png){width="30" zoomable="no"}) bij het recht te klikken.
+1. In de ruimte van het e-mailontwerp, heb toegang tot het AI Hulpmenu door het pictogram ( ![ AI Hulp menuknevel ](../assets/button-ai-assistant.png){width="30" zoomable="no"}) bij het recht te klikken.
 
    ![ AI Hulp knevel in de e-mailontwerper ](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
@@ -315,9 +315,9 @@ De volgende stappen beschrijven de taakopeenvolging voor het gebruiken van AI Me
 
    ![ AI Hulp voorproef van de tekstvariatie en verfijningsopties ](./assets/email-designer-ai-assistant-text-refine.png){width="700" zoomable="yes"}
 
-1. Als u de gewenste inhoud hebt, klikt u op **[!UICONTROL Select]** om de tekst te vervangen door de geselecteerde variant en terug te keren naar de e-mailontwerper.
+1. Als u de gewenste inhoud hebt, klikt u op **[!UICONTROL Select]** om de tekst te vervangen door de geselecteerde variant en terug te keren naar de ontwerpruimte van de e-mail.
 
-   In de e-mailontwerper kunt u de bewerkings- en opmaakgereedschappen op het canvas gebruiken om de tekst en de opties _[!UICONTROL Settings]_&#x200B;en&#x200B;_[!UICONTROL Style]_ aan de rechterkant te wijzigen.
+   In de ontwerpruimte voor e-mail kunt u de bewerkings- en opmaakgereedschappen op het canvas gebruiken om de tekst en de opties _[!UICONTROL Settings]_en_[!UICONTROL Style]_ aan de rechterkant te wijzigen.
 
 >[!TAB  Aanbevelingen van het Beeld ]
 
@@ -345,7 +345,7 @@ U kunt AI Assistant gebruiken om uw elementen te optimaliseren en te verbeteren 
 
 1. Gebruik de afbeeldingsinstellingen om de vraag te verfijnen:
 
-   * **[!UICONTROL Aspect ratio]** - Deze instelling bepaalt de breedte en hoogte van het element. U kunt kiezen uit veelgebruikte verhoudingen, zoals 16:9, 4:3, 3:2 of 1:1, of u kunt een aangepaste grootte invoeren.
+   * **[!UICONTROL Aspect ratio]** - Deze instelling bepaalt de breedte en hoogte van het element. U hebt de optie om van gemeenschappelijke verhoudingen zoals 16 te kiezen :9, 4 :3, 3 :2, of 1 :1, of u kunt een douanegrootte ingaan.
    * **[!UICONTROL Color & tone]** - Deze instelling heeft invloed op de algehele vormgeving van de kleuren in een afbeelding en op de stemming of sfeer die in de afbeelding wordt weergegeven.
    * **[!UICONTROL Content type]** - Deze instelling categoriseert de aard van het visuele element, waarbij onderscheid wordt gemaakt tussen verschillende vormen van visuele representatie, zoals foto&#39;s, afbeeldingen of illustraties.
    * **[!UICONTROL Lighting]** - Met deze instelling past u de bliksemschicht in een afbeelding aan, waardoor de atmosfeer wordt bepaald en specifieke elementen worden gemarkeerd.
@@ -359,12 +359,12 @@ U kunt AI Assistant gebruiken om uw elementen te optimaliseren en te verbeteren 
    >
    >Als er geen afbeeldingen voorkomen in het invoermerkelement of als er geen afbeeldingen zijn die relevant zijn voor de invoerprompt, is de uitvoer leeg.
 
-1. Blader door _[!UICONTROL Variations]_&#x200B;en selecteer het bestand dat het beste bij de e-mail past.
+1. Blader door _[!UICONTROL Variations]_en selecteer het bestand dat het beste bij de e-mail past.
 
    Klik op **[!UICONTROL Preview]** om een versie van de geselecteerde variatie op het volledige scherm weer te geven.
 
-1. Markeer de gewenste afbeelding en klik op **[!UICONTROL Select]** om de afbeelding of tijdelijke aanduiding te vervangen door het geselecteerde item en terug te keren naar de e-mailontwerper.
+1. Markeer de gewenste afbeelding en klik op **[!UICONTROL Select]** om de afbeelding of tijdelijke aanduiding te vervangen door het geselecteerde item en terug te keren naar de ontwerpruimte van de e-mail.
 
-   In de e-mailontwerper kunt u de bewerkings- en opmaakgereedschappen op het canvas gebruiken om de inhoud en de opties _[!UICONTROL Settings]_&#x200B;en&#x200B;_[!UICONTROL Style]_ aan de rechterkant te wijzigen.
+   In de ontwerpruimte voor e-mail kunt u de bewerkings- en opmaakgereedschappen op het canvas gebruiken om de inhoud en de opties _[!UICONTROL Settings]_en_[!UICONTROL Style]_ aan de rechterkant te wijzigen.
 
 >[!ENDTABS]

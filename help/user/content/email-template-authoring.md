@@ -1,12 +1,12 @@
 ---
 title: E-mailsjabloonontwerp
-description: Leer hoe u e-mailsjablonen voor inhoud kunt ontwerpen die u kunt gebruiken voor e-mails over een account, zodat u uw ontwerpen eenvoudig en efficiënt kunt hergebruiken.
+description: Auteur herbruikbare e-mailsjablonen met visuele ontwerpgereedschappen, aangepaste CSS, fragmenten en personalisatie voor accountreizen in Journey Optimizer B2B edition.
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: f8d70f2e1cff6055ff353bad0c5a0f625d426db8
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Selecteer met ten minste één inhoudscomponent op het canvas de component **[!U
 
 {{$include /help/_includes/content-design-use-fragments.md}}
 
-Nadat de sjabloon is opgeslagen, wordt deze weergegeven op de pagina met fragmentdetails wanneer u het tabblad _[!UICONTROL Used By]_&#x200B;in het overzicht selecteert.
+Nadat de sjabloon is opgeslagen, wordt deze weergegeven op de pagina met fragmentdetails wanneer u het tabblad _[!UICONTROL Used By]_in het overzicht selecteert.
 
 ### Elementen toevoegen
 
@@ -67,7 +67,7 @@ Gebruik de opties voor weergave- en inhoudsvalidatie die beschikbaar zijn in de 
 
 ### Meer opties
 
-Vanuit het menu _[!UICONTROL More ...]_&#x200B;boven aan de ontwerpruimte voor e-mail kunt u de volgende handelingen uitvoeren:
+Vanuit het menu _[!UICONTROL More ...]_boven aan de ontwerpruimte voor e-mail kunt u de volgende handelingen uitvoeren:
 
 ![ klik Meer om tot malplaatjeacties ](./assets/visual-designer-more-menu.png){width="500"} toegang te hebben
 

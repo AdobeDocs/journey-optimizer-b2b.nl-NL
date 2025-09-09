@@ -1,19 +1,19 @@
 ---
 title: Details van reizen
-description: Meer informatie over de informatie op de pagina met reisgegevens en over hoe u hiermee de reis van uw gepubliceerde account kunt volgen en beheren.
+description: De prestaties van een account bewaken met voltooiingstarieven, servicemetriek, e-mail-/sms-analyse en AI-inzichten in Journey Optimizer B2B edition.
 feature: Dashboards, Account Journeys
 role: User
 exl-id: 09a0e06a-1fd3-44da-9774-23f125f2823d
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
 
 # Reisgegevens
 
-Wanneer u op de naam van een actieve accountreis klikt, worden de reisgegevens weergegeven. Het tabblad _[!UICONTROL Overview]_&#x200B;bevat nuttige informatie over de rit, waaronder algemene AI-overzichten.
+Wanneer u op de naam van een actieve accountreis klikt, worden de reisgegevens weergegeven. Het tabblad _[!UICONTROL Overview]_bevat nuttige informatie over de rit, waaronder algemene AI-overzichten.
 
 Dit dashboard biedt een uitgebreid overzicht van een geselecteerde accountreis, met een gedetailleerd overzicht van de voortgang van de account aan de hand van cirkel- en lijndiagrammen die voltooide accounts categoriseren en kwantificeren, lopende activiteiten en afbrekingen in de loop van de tijd. Het helpt Marketers de doeltreffendheid van e-mail en de kanalen van SMS door zeer belangrijke levering en betrokkenheidsmetriek evalueren.
 
@@ -69,7 +69,7 @@ Bouw verder met de gegevens door het actiepictogram (**...**) in het hoogste rec
 
 ### Doorboor
 
-Kies voor het _[!UICONTROL Journey status]_-diagram **[!UICONTROL Drill through]**&#x200B;voor een diepgaande analyse van de status van afzonderlijke accounts.
+Kies voor het _[!UICONTROL Journey status]_-diagram **[!UICONTROL Drill through]**voor een diepgaande analyse van de status van afzonderlijke accounts.
 
 ![ de boor door voor de grafiekgegevens ](./assets/journey-status-drill-through.png){width="600" zoomable="yes"}
 <!--

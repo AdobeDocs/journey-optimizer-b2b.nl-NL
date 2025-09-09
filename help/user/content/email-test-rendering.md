@@ -1,20 +1,20 @@
 ---
 title: E-mailrendering testen
-description: Leer hoe u uw Litmus-account kunt gebruiken om rendering te testen voor e-mails in Journey Optimizer B2B edition.
+description: Test de rendering van e-mailberichten op verschillende desktopcomputers, mobiele clients en webclients met Litmus-integratie om ervoor te zorgen dat de inbox-compatibiliteit in Journey Optimizer B2B edition wordt gegarandeerd.
 feature: Email Authoring, Integrations
 level: Intermediate
 role: User
 exl-id: 26d87a56-6bd1-4d4a-8090-71f5b0a7e9f8
-source-git-commit: dbb678f40b8d637f4eb534acb31328ebea0c182a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
 
 # E-mailrendering testen met Litmus
 
-Om uw e-mails te testen, kunt u hefboomwerking a [ de rekening van de Onderneming van de 1&rbrace; litmus van Journey Optimizer B2B edition. ](https://www.litmus.com/email-testing){target="_blank"} Met deze integratie kunt u een voorvertoning van uw e-mailrendering weergeven in populaire e-mailclients. Met dit gereedschap kunt u ervoor zorgen dat uw e-mailinhoud er goed uitziet en werkt zoals deze in elke Postvak IN is ontworpen.
+Om uw e-mails te testen, kunt u hefboomwerking a [ de rekening van de Onderneming van de 1} litmus van Journey Optimizer B2B edition. ](https://www.litmus.com/email-testing){target="_blank"} Met deze integratie kunt u een voorvertoning van uw e-mailrendering weergeven in populaire e-mailclients. Met dit gereedschap kunt u ervoor zorgen dat uw e-mailinhoud er goed uitziet en werkt zoals deze in elke Postvak IN is ontworpen.
 
 >[!AVAILABILITY]
 >

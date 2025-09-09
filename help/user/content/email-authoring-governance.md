@@ -1,19 +1,19 @@
 ---
 title: Auteur van een beheerde sjabloon
-description: Leer hoe u e-mailauthoring kunt gebruiken met een beheerde sjabloon die vergrendelde inhoudsonderdelen bevat.
+description: 'E-mails van auteurs van beheerde sjablonen met vergrendelde inhoud: identificeer bewerkbare gebieden en werk binnen beheerbeperkingen in Journey Optimizer B2B edition.'
 feature: Email Authoring, Content
 role: User
 exl-id: 1af996a6-a010-4899-96e9-bad76f93865c
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
 
 # Auteur uit een beheerde sjabloon
 
-De ontwerpers van de inhoud kunnen [ bestuur (_inhoudsafsluiten_) ](./template-content-governance.md) toelaten wanneer het creëren van e-mailmalplaatjes. De eigenschappen van het bestuur staan hen toe om de delen van het ontwerp aan te wijzen die niet kunnen worden veranderd wanneer gebruikt in een rekeningsreis. Wanneer u [ een bewaarde malplaatje ](./email-authoring.md#select-a-template) aan auteur een e-mail selecteert, laadt de visuele ontwerper het malplaatje zodat u het als basis voor uw e-mail kunt gebruiken.
+De ontwerpers van de inhoud kunnen [ bestuur (_inhoudsafsluiten_) ](./template-content-governance.md) toelaten wanneer het creëren van e-mailmalplaatjes. De eigenschappen van het bestuur staan hen toe om de delen van het ontwerp aan te wijzen die niet kunnen worden veranderd wanneer gebruikt in een rekeningsreis. Wanneer u [ een bewaarde malplaatje ](./email-authoring.md#select-a-template) aan auteur een e-mail selecteert, laadt de visuele ontwerpruimte het malplaatje zodat u het als basis voor uw e-mail kunt gebruiken.
 
 Als governance is ingeschakeld voor de sjabloon, wordt een waarschuwing weergegeven in het deelvenster Eigenschappen aan de rechterkant. U kunt **[!UICONTROL Highlight editable areas]** bij de bovenkant van het canvas aanzetten om te zien welke componenten en inhoudselementen voor gebruik in uw reis editable zijn.
 

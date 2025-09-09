@@ -1,12 +1,12 @@
 ---
 title: Werken met Experience Manager Assets
-description: Leer hoe u afbeeldingselementen van een verbonden AEM Assets-opslagplaats kunt gebruiken bij het ontwerpen van inhoud in Adobe Journey Optimizer B2B edition.
+description: Toegang tot en gebruik AEM Assets-afbeeldingen in het ontwerpen van inhoud - wijzigingen bij slepen en neerzetten, zoeken, filteren en synchroniseren worden automatisch doorgevoerd in Journey Optimizer B2B edition.
 feature: Assets, Content, Integrations
 role: User
 exl-id: c6864981-209c-4123-8d3f-24deb07026a0
-source-git-commit: ea2093b03ba89f9e8d3f0db60b65cb143603c217
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Wanneer uw milieu één of meerdere [ Assets bewaart verbindingen ](../admin/con
 
 >[!IMPORTANT]
 >
->Een beheerder moet gebruikers die toegang tot Assets nodig hebben, toevoegen aan de profielen Assets Consumer Users of/and Assets Users Product. [Meer informatie](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
+>Een beheerder moet gebruikers die toegang tot Assets nodig hebben, toevoegen aan de profielen Assets Consumer Users of/and Assets Users Product. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
 
 ## AEM Assets-afbeeldingen openen
 
@@ -33,7 +33,7 @@ In de ruimte van het inhoudsontwerp, klik het _[!UICONTROL Experience Manager As
 
 >[!NOTE]
 >
->Momenteel worden alleen afbeeldingselementen van [!DNL Adobe Experience Manager Assets] ondersteund in [!DNL Adobe Journey Optimizer B2B Edition] . Wijzigingen in de elementen moeten worden uitgevoerd vanuit de centrale gegevensopslagruimte van [!DNL Adobe Experience Manager Assets] . [Meer informatie](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
+>Momenteel worden alleen afbeeldingselementen van [!DNL Adobe Experience Manager Assets] ondersteund in [!DNL Adobe Journey Optimizer B2B Edition] . Wijzigingen in de elementen moeten worden uitgevoerd vanuit de centrale gegevensopslagruimte van [!DNL Adobe Experience Manager Assets] . [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
 
 ### De weergegeven opslagplaats wijzigen
 
@@ -53,7 +53,7 @@ Er zijn meerdere methoden om een afbeeldingselement toe te voegen aan het visuel
 
 ## Een afbeelding zoeken en selecteren
 
-1. Voeg een afbeeldingscomponent toe aan het canvas en klik op **[!UICONTROL Experience Manager Assets]** om het dialoogvenster _[!UICONTROL Select Assets]_&#x200B;te openen.
+1. Voeg een afbeeldingscomponent toe aan het canvas en klik op **[!UICONTROL Experience Manager Assets]** om het dialoogvenster _[!UICONTROL Select Assets]_te openen.
 
    ![ selecteer een activa voor de beeldcomponent ](./assets/content-image-component-empty.png){width="600" zoomable="yes"}
 

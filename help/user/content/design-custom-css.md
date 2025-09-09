@@ -1,12 +1,12 @@
 ---
 title: Aangepaste CSS toevoegen voor uw inhoud
-description: Leer hoe u aangepaste CSS toevoegt aan uw e-mail en pagina-inhoud landt.
+description: Voeg aangepaste CSS toe aan e-mails en bestemmingspagina's voor geavanceerd opmaken en nauwkeurige ontwerpcontrole naast de standaardcomponenten in Journey Optimizer B2B edition.
 feature: Content Design Tools, Email Authoring, Landing Pages
 role: User
 exl-id: 5a961190-8a65-41b0-90d0-5dd44e5cdf8a
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ De aangepaste CSS wordt met het kenmerk `<head>` toegevoegd aan de sectie `<styl
 
 >[!NOTE]
 >
->De aangepaste CSS wordt niet weerspiegeld of gevalideerd in het deelvenster _[!UICONTROL Styles]_&#x200B;voor een geselecteerde component. Deze is volledig onafhankelijk en kan alleen worden gewijzigd met de optie [!UICONTROL Add Custom CSS] op het niveau van de hoofdcomponent.
+>De aangepaste CSS wordt niet weerspiegeld of gevalideerd in het deelvenster _[!UICONTROL Styles]_voor een geselecteerde component. Deze is volledig onafhankelijk en kan alleen worden gewijzigd met de optie [!UICONTROL Add Custom CSS] op het niveau van de hoofdcomponent.
 
 ## Aangepaste CSS toevoegen
 
@@ -68,9 +68,9 @@ De aangepaste CSS wordt met het kenmerk `<head>` toegevoegd aan de sectie `<styl
 
    >[!NOTE]
    >
-   >De knop _[!UICONTROL Add custom CSS]_&#x200B;is alleen beschikbaar wanneer de component&#x200B;_[!UICONTROL Body]_ is geselecteerd. U kunt echter aangepaste CSS-stijlen toepassen op alle componenten in de stijl.
+   >De knop _[!UICONTROL Add custom CSS]_is alleen beschikbaar wanneer de component_[!UICONTROL Body]_ is geselecteerd. U kunt echter aangepaste CSS-stijlen toepassen op alle componenten in de stijl.
 
-   De pop-upeditor van _[!UICONTROL Add custom CSS]_&#x200B;wordt weergegeven met opmerkingen voor plaatsaanduidingscode.
+   De pop-upeditor van _[!UICONTROL Add custom CSS]_wordt weergegeven met opmerkingen voor plaatsaanduidingscode.
 
 1. Voer uw CSS-code in de editor in.
 
@@ -192,7 +192,7 @@ Houd rekening met het volgende als u aangepaste CSS wilt gebruiken met inhoud di
 
 * Als u externe HTML-inhoud, inclusief CSS, importeert, wordt deze <!-- unless converting that content, --> gevuld in [!UICONTROL Compatibility mode] en is de sectie [!UICONTROL CSS styles] niet beschikbaar.
 
-* Als u inhoud importeert die oorspronkelijk is gemaakt in de ontwerpruimte van de e-mail- of landingspagina, inclusief CSS die is toegepast via de optie [!UICONTROL Add custom CSS] , is de toegepaste CSS zichtbaar en bewerkbaar vanuit dezelfde optie.
+* Als u inhoud importeert die oorspronkelijk is gemaakt in de ontwerpruimte van de e-mail- of landingspagina met de optie [!UICONTROL Add custom CSS] , is de toegepaste CSS zichtbaar en bewerkbaar vanuit dezelfde optie.
 
 ## Problemen oplossen
 

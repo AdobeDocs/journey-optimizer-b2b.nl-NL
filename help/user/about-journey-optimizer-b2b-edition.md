@@ -1,11 +1,11 @@
 ---
 title: Adobe Journey Optimizer B2B edition - Overzicht
-description: Ontdek de belangrijkste functies, gebruiksscenario's en structurering van de B2B-edititie van Adobe Journey Optimizer.
+description: Leer meer over Adobe Journey Optimizer B2B edition - orkestaccountreizen met inkoopgroepen, AI-inzichten en Experience Platform-integratie voor B2B-marketing.
 exl-id: fdfbafdf-826f-44e9-bbb6-5e729d0e18ef
-source-git-commit: 5ca03b12fd459c64b245ad95e60a382c355922f9
+source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 5%
+source-wordcount: '819'
+ht-degree: 3%
 
 ---
 
@@ -15,7 +15,7 @@ Met Adobe Journey Optimizer B2B Edition kunt u account- en inkoopgroepentrajecte
 
 ## Accountreizen met inkoopgroepen
 
-Bij het vergelijken van Adobe Journey Optimizer B2B edition met Marketo Engage en Adobe Journey Optimizer is het belangrijkste onderscheid dat reizen op een rekening door de Reis gaan, niet door mensen. Een persoon die met een account is geassocieerd, heeft doorgaans een niet-lineaire progressie die is gebaseerd op de voortgang van de rekening door de reis, en niet op hun individuele acties. Wanneer een account zich bijvoorbeeld in een vroeg stadium van de koopreis bevindt, kan de verzonden informatie over algemene mogelijkheden of functies van de oplossing gaan. Verder tijdens het aankoopproces kan de inhoud zich meer richten op bepaalde aanbiedingen of andere objecten die op het sluiten van een verkoop zijn gericht. Nadat de oplossing is aangeschaft, kan de informatie opnieuw veranderen om hoe te gidsen, beste praktijken, of informatie over aanstaande gebeurtenissen, of met inhoud over extra upsells te verstrekken. Zelfs als een individu niet met de inhoud van de vroege fase heeft gecommuniceerd, wilt u hen nog tot de huidige fase leiden die niet op hun eigen acties wordt gebaseerd, maar op de acties van de andere mensen binnen hun rekening of het kopen groep.
+Bij het vergelijken van Adobe Journey Optimizer B2B edition met Marketo Engage en Adobe Journey Optimizer is het belangrijkste verschil dat reizen op een rekening door de Reis gaan, niet door mensen. Een persoon die met een account is geassocieerd, heeft doorgaans een niet-lineaire progressie die is gebaseerd op de voortgang van de rekening door de reis, en niet op hun individuele acties. Wanneer een account zich bijvoorbeeld in een vroeg stadium van de koopreis bevindt, kan de verzonden informatie over algemene mogelijkheden of functies van de oplossing gaan. Verder tijdens het aankoopproces kan de inhoud zich meer richten op bepaalde aanbiedingen of andere objecten die op het sluiten van een verkoop zijn gericht. Nadat de oplossing is aangeschaft, kan de informatie opnieuw veranderen om hoe te gidsen, beste praktijken, of informatie over aanstaande gebeurtenissen, of met inhoud over extra upsells te verstrekken. Zelfs als een individu niet met de inhoud van de vroege fase heeft gecommuniceerd, wilt u hen nog tot de huidige fase leiden die niet op hun eigen acties wordt gebaseerd, maar op de acties van de andere mensen binnen hun rekening of het kopen groep.
 
 ## Architectuur op hoog niveau
 
@@ -25,7 +25,7 @@ Adobe Journey Optimizer B2B edition gebruikt _Soorten van de Rekening_ en _Soort
 
 >[!NOTE]
 >
->Controleer uw vergunningsrechten en de overeenkomstige [ productbeschrijving ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}  over prestatiesbegeleiding en statische beperkingen.
+>Controleer uw vergunningsrechten en de overeenkomstige [ productbeschrijving ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} over prestatiesgaranties en statische beperkingen.
 
 ### Abonnementsmodel
 
@@ -37,7 +37,7 @@ Het doel van Experience Platform in deze opstelling is een verenigde mening in d
 
 Accountreizen worden gemaakt in Journey Optimizer B2B edition en opgeslagen in het Marketo Engage-exemplaar dat bij het abonnement hoort. Hoewel het in de gegevensopslag van Marketo Engage wordt opgeslagen, is het niet zichtbaar van de UI van Marketo Engage, en het is slechts ooit bruikbaar van Journey Optimizer B2B edition.
 
-Een accountreis begint altijd met de selectie van een accountsegment dat u wilt gebruiken als het accountpubliek voor de reis. De selectie van de doelgroep maakt gebruik van de standaard Experience Platform-publieksselectorcomponent. De verkopers kunnen dan de rekeningreis uitvoeren door de wegen van de reis volgens hun eigen criteria te verdelen, die rekeningscriteria, personencriteria, of het kopen groepscriteria kunnen omvatten. Voor elke tak, kunnen de acties worden genomen om de reis uit te voeren, zoals het verzenden van een e-mail of het wachten op een gebeurtenis om voor te komen.
+Een accountreis begint altijd met de selectie van een accountsegment dat u wilt gebruiken als het accountpubliek voor de reis. De selectie van de doelgroep maakt gebruik van de standaard Experience Platform-publieksselectorcomponent. Marktdeelnemers kunnen vervolgens de reis op de rekening uitvoeren door de reispaden te splitsen op basis van hun eigen criteria, waaronder accountcriteria, personencriteria of groepscriteria. Voor elke tak, kunnen de acties worden genomen om de reis uit te voeren, zoals het verzenden van een e-mail of het wachten op een gebeurtenis om voor te komen.
 
 Nadat de reis van de rekening wordt gecreeerd, moet het worden gepubliceerd. Op het moment van publicatie wordt de accountreis gevalideerd en omgezet in een reeks Marketo Engage-campagnes die de reis-ervaring implementeren. De Diensten van de Integratie van gegevens worden gecontacteerd om de gegevensstroom te beginnen die, beurtelings, de verrichtingen van de rekeningsreis begint. De eerste stap bestaat uit het maken van de segmenten voor de personen van de account.
 

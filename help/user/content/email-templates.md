@@ -1,12 +1,12 @@
 ---
 title: E-mailsjablonen
-description: Leer hoe u e-mailsjablonen beheert en maakt die worden gebruikt om gemakkelijk en efficiënt e-mails over een accountreis te maken.
+description: Nieuwe e-mailsjablonen maken op basis van een blanco sjabloon, HTML importeren of bestaande ontwerpen - sjablonen beheren voor reizen naar accounts in Journey Optimizer B2B edition.
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: f8d70f2e1cff6055ff353bad0c5a0f625d426db8
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1467'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ U kunt een e-mailsjabloon maken op basis van de pagina met e-mailsjablonen door 
 
 1. Klik op **[!UICONTROL Create]**.
 
-De pagina _[!UICONTROL Design your template]_&#x200B;wordt geopend en bevat meerdere opties voor het maken van de sjabloon:_[!UICONTROL Design from scratch]_ , _[!UICONTROL Import HTML]_&#x200B;of&#x200B;_[!UICONTROL Select design template]_ .
+De pagina _[!UICONTROL Design your template]_wordt geopend en bevat meerdere opties voor het maken van de sjabloon:_[!UICONTROL Design from scratch]_ , _[!UICONTROL Import HTML]_of_[!UICONTROL Select design template]_ .
 
 ![ kies hoe u met uw ontwerp van het e-mailmalplaatje wilt beginnen ](./assets/templates-create-design.png){width="800" zoomable="yes"}
 
@@ -55,9 +55,9 @@ Gebruik de visuele inhoudeditor om de structuur van de e-mailinhoud te definiër
 >
 >De beschikbare ontwerphulpmiddelen zijn gelijkwaardig aan de hulpmiddelen die voor [ worden gebruikt e-mailauthoring ](./email-authoring.md). Het verschil is dat deze inhoud dan als malplaatje wordt bewaard dat over veelvoudige _kan worden opnieuw gebruikt verzendt e-mail_ knopen binnen rekeningsreizen.
 
-1. Selecteer de optie _[!UICONTROL Design your template]_&#x200B;op de startpagina van **[!UICONTROL Design from scratch]**.
+1. Selecteer de optie _[!UICONTROL Design your template]_op de startpagina van **[!UICONTROL Design from scratch]**.
 
-1. Kies in het dialoogvenster _[!UICONTROL Create email]_&#x200B;het type e-mailinhoud dat u voor de sjabloon wilt gebruiken.
+1. Kies in het dialoogvenster _[!UICONTROL Create email]_het type e-mailinhoud dat u voor de sjabloon wilt gebruiken.
 
    * **[!UICONTROL Use Themes]** - kies deze optie om het e-mailmalplaatje op _wijze van het Thema_ tot stand te brengen. In deze modus kunt u een gedefinieerd merkthema gebruiken om het ontwerpproces voor inhoud te stroomlijnen en ervoor te zorgen dat het ontwerp wordt afgestemd op gedefinieerde standaarden.
 
@@ -144,7 +144,7 @@ U kunt een e-mailsjabloon op een van de volgende manieren dupliceren:
 
   ![ klik Meer om tot Schrapping toegang te hebben en acties te dupliceren ](./assets/template-details-more-menu.png){width="400"}
 
-* Klik op de aanbiedingspagina van _[!UICONTROL Email Templates]_&#x200B;op het ovaal (...) naast de sjabloon en kies **[!UICONTROL Duplicate]**.
+* Klik op de aanbiedingspagina van _[!UICONTROL Email Templates]_op het ovaal (...) naast de sjabloon en kies **[!UICONTROL Duplicate]**.
 
 Voer in het dialoogvenster een nuttige naam (uniek) en beschrijving in. Klik op **[!UICONTROL Duplicate]** om de handeling te voltooien.
 
@@ -155,7 +155,7 @@ De gedupliceerde (nieuwe) e-mailsjabloon wordt vervolgens weergegeven in de lijs
 Het verwijderen van een e-mailsjabloon kan niet ongedaan worden gemaakt. Controleer dit voordat u een verwijderactie start. U kunt een e-mailsjabloon op een van de volgende manieren verwijderen:
 
 * Vouw **[!UICONTROL More]** uit en klik op **[!UICONTROL Delete]** in de sjabloondetails aan de rechterkant.
-* Klik op de aanbiedingspagina van _[!UICONTROL Email Templates]_&#x200B;op het ovaal (...) naast de sjabloon en kies **[!UICONTROL Delete]**.
+* Klik op de aanbiedingspagina van _[!UICONTROL Email Templates]_op het ovaal (...) naast de sjabloon en kies **[!UICONTROL Delete]**.
 
   ![ klik... om tot de Acties van het Dupliceren en van de Schrapping ](./assets/templates-list-more-menu.png){width="500"} toegang te hebben
 

@@ -1,6 +1,6 @@
 ---
 title: Merken maken voor het genereren en consistent maken van inhoud
-description: Leer hoe u uw eigen merken kunt maken en aanpassen om inhoud te genereren en te optimaliseren die aansluit bij uw merkstijl en stem.
+description: Richtlijnen voor merken maken en beheren met automatische extractie uit documenten of handmatige invoer - stel standaardmerken in voor consistente inhoud in Journey Optimizer B2B edition.
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 hide: true
@@ -8,9 +8,9 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
-source-git-commit: 3065dfedc4fa70d102d7d39a413ecd7aaf93f3f8
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '1904'
+source-wordcount: '1907'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Als u richtlijnen voor uw merk wilt maken en definiëren, kunt u de details invo
 
 ### Voeg het merk toe
 
-1. Klik rechtsboven op de pagina _[!UICONTROL Brands]_&#x200B;op **[!UICONTROL Create brand]**.
+1. Klik rechtsboven op de pagina _[!UICONTROL Brands]_op **[!UICONTROL Create brand]**.
 
 1. Voer een **[!UICONTROL Name]** in voor uw merk.
 
@@ -300,7 +300,7 @@ To define the overall style for the category, click **[!UICONTROL Add style]**. 
 
 #### Voorbeeldafbeeldingen
 
-Als u een afbeelding wilt toevoegen waarin het juiste of onjuiste gebruik wordt getoond, kiest u **[!UICONTROL Example]** in het pop-updialoogvenster _[!UICONTROL Add guideline]_&#x200B;of&#x200B;_[!UICONTROL Add exclusion]_ . Klik op **[!UICONTROL Select image]** om een afbeeldingsbestand van uw systeem te kiezen. Klik op **[!UICONTROL Add]** om de afbeelding te uploaden en de miniatuur voor het gebied weer te geven.
+Als u een afbeelding wilt toevoegen waarin het juiste of onjuiste gebruik wordt getoond, kiest u **[!UICONTROL Example]** in het pop-updialoogvenster _[!UICONTROL Add guideline]_of_[!UICONTROL Add exclusion]_ . Klik op **[!UICONTROL Select image]** om een afbeeldingsbestand van uw systeem te kiezen. Klik op **[!UICONTROL Add]** om de afbeelding te uploaden en de miniatuur voor het gebied weer te geven.
 
 ![ voeg voorbeeldbeeld ](./assets/brands-guidelines-example-image.png){width="500" zoomable="yes"} toe
 

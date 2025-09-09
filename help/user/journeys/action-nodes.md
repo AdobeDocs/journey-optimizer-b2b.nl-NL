@@ -1,12 +1,12 @@
 ---
 title: Een handeling uitvoeren
-description: Meer informatie over het type Actie-knooppunt nemen dat u kunt gebruiken voor het orchestreren van uw accountreizen in Journey Optimizer B2B edition.
+description: Actieknooppunten voor account- en personenacties configureren - e-mails verzenden, inkoopgroepen bijwerken, scores wijzigen en integreren met Marketo Engage in Journey Optimizer B2B edition.
 feature: Account Journeys
 role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: e42367fad7247446c414a3b6b7a75573806d62cb
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1106'
 ht-degree: 0%
 
 ---
@@ -96,11 +96,11 @@ Met deze actie kunt u mensen naar een extern publiek duwen dat via een betaald m
 
 ![ neem een actie - voeg aan extern klantenpubliek toe ](./assets/node-action-add-to-external-audience-options.png){width="300"}
 
-Wanneer u deze op personen gebaseerde actie selecteert, kunt u een nieuw extern publiek maken of een bestaand extern publiek selecteren. Voor bestaande doelgroepen kunt u kiezen uit externe klantgroepen die alleen in Journey Optimizer B2B edition zijn gemaakt. Wanneer u een publiek creeert en het voor deze reisactie gebruikt, zorg ervoor dat u de bestemming verbindt. Voor meer informatie, zie [ een nieuwe bestemmingsverbinding ](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} en [ Overzicht van de Activering ](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} in de documentatie van Experience Platform creëren.
+Wanneer u deze op personen gebaseerde actie selecteert, kunt u een nieuw extern publiek maken of een bestaand extern publiek selecteren. Voor bestaande doelgroepen kunt u kiezen uit externe klantgroepen die alleen in Journey Optimizer B2B edition zijn gemaakt. Wanneer u een publiek creeert en het voor deze reisactie gebruikt, zorg ervoor dat u de bestemming verbindt. Voor meer informatie, zie [ een nieuwe bestemmingsverbinding ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} en [ Overzicht van de Activering ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} in de documentatie van Experience Platform creëren.
 
 ![ Video ](../../assets/do-not-localize/icon-video.svg){width="30"} [ bekijk een videooverzicht voor betaalde media orchestratie ](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
 
-_om een extern publiek tot stand te brengen:_
+_Om een extern publiek tot stand te brengen :_
 
 1. Kies **[!UICONTROL Create new]** .
 
@@ -118,7 +118,7 @@ _om een extern publiek tot stand te brengen:_
    >
    >Wanneer een nieuw extern klantenpubliek van Journey Optimizer B2B edition wordt gecreeerd, wordt het gezeten met een dummyverslag (`test@email.com`). Deze record wordt overschreven zodra het eerste echte profiel vanaf de reis aan het externe publiek wordt toegevoegd.
 
-_om een bestaand publiek te gebruiken:_
+_Een bestaand publiek gebruiken :_
 
 1. Klik op **[!UICONTROL Select external customer audience]**.
 
@@ -148,7 +148,7 @@ Gebruik deze actie om de waarde van de attributen van het a [ personenprofiel ](
 
 +++[!UICONTROL Change Score]
 
-Gebruik deze handeling om de score voor personen in Marketo Engage te wijzigen. [Meer informatie](https://experienceleague.adobe.com/nl/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
+Gebruik deze handeling om de score voor personen in Marketo Engage te wijzigen. [Meer informatie](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
 
 ![ neem een actie - de score van de Verandering ](./assets/node-action-change-score.png){width="300"}
 
@@ -156,7 +156,7 @@ Gebruik deze handeling om de score voor personen in Marketo Engage te wijzigen. 
 
 +++[!UICONTROL Person Interesting Moment]
 
-Gebruik deze handeling om een interessant moment voor personenprofielen vast te leggen. Kies een type (E-mail, Mijlpaal, of Web) en voeg een beschrijving (facultatief) toe.
+Gebruik deze handeling om een interessant moment voor mensen vast te leggen. Kies een type (E-mail, Mijlpaal, of Web) en voeg een beschrijving (facultatief) toe.
 
 ![ neem een actie - Persoonlijk interessant moment ](./assets/node-action-person-interesting-moment.png){width="300"}
 
@@ -172,7 +172,7 @@ Gebruik deze actie om personenprofielen uit a [ te verwijderen die groep ](../bu
 
 +++[!UICONTROL Send email]
 
-Gebruik deze handeling om een e-mail te verzenden. Nadat u [ e-mail ](../content/add-email.md#add-an-email-to-your-journey) voor de knoop creeert, kunt u, e-mailberichten in de e-mailontwerpruimte ontwerpen personaliseren en voorproef (zie [ E-mail authoring ](../content/email-authoring.md)). U kunt ook een [ e-mail van Marketo Engage ](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"} verzenden. Selecteer de Marketo Engage-werkruimte en selecteer vervolgens het e-mailbericht dat u wilt verzenden.
+Gebruik deze handeling om een e-mail te verzenden. Nadat u [ e-mail ](../content/add-email.md#add-an-email-to-your-journey) voor de knoop creeert, kunt u, e-mailberichten in de e-mailontwerpruimte ontwerpen personaliseren en voorproef (zie [ E-mail authoring ](../content/email-authoring.md)). U kunt ook een [ e-mail van Marketo Engage ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"} verzenden. Selecteer de Marketo Engage-werkruimte en selecteer vervolgens het e-mailbericht dat u wilt verzenden.
 
 ![ neem een actie - verzend email ](./assets/node-action-send-email-from-marketo.png){width="300"}
 
@@ -180,7 +180,7 @@ Gebruik deze handeling om een e-mail te verzenden. Nadat u [ e-mail ](../content
 
 +++[!UICONTROL Send SMS]
 
-Gebruik deze actie om een SMS-bericht te verzenden. U kunt tot stand brengen, personaliseren, en voorproefSMS berichten in de visuele ontwerper (zie [ het auteursrecht van SMS ](../content/sms-authoring.md)).
+Gebruik deze actie om een SMS-bericht te verzenden. U kunt tot stand brengen, personaliseren, en voorproefSMS berichten in de visuele ontwerpruimte (zie [ het auteursrecht van SMS ](../content/sms-authoring.md)).
 
 ![ neem een actie - verzend SMS ](./assets/node-action-send-sms.png){width="300"}
 
@@ -192,7 +192,7 @@ De Marketo Engage-acties op basis van personen zijn ontworpen om uw marketingorg
 
 +++[!UICONTROL Add to list]
 
-Gebruik deze actie om mensen aan a [ Statische Lijst ](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} in Marketo Engage toe te voegen.
+Gebruik deze actie om mensen aan a [ Statische Lijst ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} in Marketo Engage toe te voegen.
 
 Selecteer eerst de werkruimte in de verbonden Marketo Engage-instantie. Selecteer vervolgens de lijstnaam.
 
@@ -202,7 +202,7 @@ Selecteer eerst de werkruimte in de verbonden Marketo Engage-instantie. Selectee
 
 +++[!UICONTROL Add to Marketo Request campaign]
 
-Gebruik deze actie om personenprofielen aan de campagne van het a [ verzoek ](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} in Marketo Engage toe te voegen.
+Gebruik deze actie om personenprofielen aan de campagne van het a [ verzoek ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} in Marketo Engage toe te voegen.
 
 Selecteer eerst de werkruimte in de verbonden Marketo Engage-instantie. Selecteer vervolgens de naam van de aanvraagcampagne.
 
@@ -212,7 +212,7 @@ Selecteer eerst de werkruimte in de verbonden Marketo Engage-instantie. Selectee
 
 +++[!UICONTROL Change people partition in Marketo Engage]
 
-Gebruik deze actie om de [ persoonverdeling ](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/administration/workspaces-and-person-partitions/understanding-workspaces-and-person-partitions#person-partitions){target="_blank"} in Marketo Engage te veranderen.
+Gebruik deze actie om de [ persoonverdeling ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/workspaces-and-person-partitions/understanding-workspaces-and-person-partitions#person-partitions){target="_blank"} in Marketo Engage te veranderen.
 
 ![ neem een actie - de personenverdeling van de Verandering in Marketo Engage ](./assets/node-action-change-people-partition-options.png){width="300"}
 
@@ -220,7 +220,7 @@ Gebruik deze actie om de [ persoonverdeling ](https://experienceleague.adobe.com
 
 +++[!UICONTROL Remove from list]
 
-Gebruik deze actie om mensen uit a [ Statische Lijst ](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} in Marketo Engage te verwijderen. Selecteer eerst de werkruimte in de verbonden Marketo Engage-instantie. Selecteer vervolgens de lijstnaam.
+Gebruik deze actie om mensen uit a [ Statische Lijst ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} in Marketo Engage te verwijderen. Selecteer eerst de werkruimte in de verbonden Marketo Engage-instantie. Selecteer vervolgens de lijstnaam.
 
 ![ neem een actie - verwijder uit lijst ](./assets/node-action-remove-from-list-options.png){width="300"}
 
@@ -230,4 +230,4 @@ Als het profiel van de persoon geen lid was van de slimme lijst, wordt de actie 
 
 ## Video over overzicht
 
->[!VIDEO](https://video.tv.adobe.com/v/3443251/?learn=on&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)

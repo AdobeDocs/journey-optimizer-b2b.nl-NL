@@ -1,12 +1,12 @@
 ---
 title: Voorwaardelijke inhoud
-description: Leer hoe u variaties in inhoud maakt en voorwaardelijke regels toepast bij het ontwerpen van visuele fragmenten en e-mailinhoud voor reizen naar accounts.
+description: Maak dynamische inhoudvarianten met voorwaardelijke regels op basis van profielkenmerken en gebeurtenissen voor persoonlijke e-mails en fragmenten in Journey Optimizer B2B edition.
 feature: Email Authoring, Fragments, Content
 role: User
 exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
-source-git-commit: ce6137aac66f2009da9ccabfa3e39ca367e04f4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '1197'
+source-wordcount: '1200'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Wanneer u een fragment of e-mail maakt in de visuele ontwerpruimte, gebruikt u v
 
    ![ Uitgezochte voorwaarde voor variant ](./assets/conditions-variant-select.png){width="700" zoomable="yes"}
 
-   Het dialoogvenster _[!UICONTROL Select condition]_&#x200B;wordt geopend en de bibliotheek met voorwaarden wordt weergegeven.
+   Het dialoogvenster _[!UICONTROL Select condition]_wordt geopend en de bibliotheek met voorwaarden wordt weergegeven.
 
    Als u details voor een voorwaarde wilt bekijken om het te verzekeren is wat u wilt, klik het _Meer menu_ pictogram (**...**) en kies **[!UICONTROL View Info]**.
 
@@ -119,7 +119,7 @@ De regels worden opgeslagen in de voorwaardenbibliotheek, waar zij voor hergebru
 
 U kunt tot de voorwaardelijke regelbouwer van de e-mailontwerpruimte toegang hebben wanneer u een voorwaarde voor een componentenvariant selecteert.
 
-1. Klik in het dialoogvenster _[!UICONTROL Select condition]_&#x200B;op **[!UICONTROL Create new]**&#x200B;en kies het voorwaardetype:
+1. Klik in het dialoogvenster _[!UICONTROL Select condition]_op **[!UICONTROL Create new]**en kies het voorwaardetype:
 
    * **[!UICONTROL Person condition]** - Kies dit type om de voorwaardelijke regel te maken met behulp van personekenmerken en contextuele gebeurtenissen.
    * **[!UICONTROL Account condition]** - Kies dit type om de voorwaardelijke regel samen te stellen met accountkenmerken.

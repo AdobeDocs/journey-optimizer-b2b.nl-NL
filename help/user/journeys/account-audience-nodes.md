@@ -1,12 +1,12 @@
 ---
 title: Auditienoten account
-description: Meer informatie over het type accountpubliek dat u kunt gebruiken voor het definiëren van de invoer voor uw accountreizen in Journey Optimizer B2B edition.
+description: Configureer de knooppunten voor het accountpubliek met accountsoorten of accountlijsten om de toegangspunten voor reizen voor doelgerichte organisatie in Journey Optimizer B2B edition te definiëren.
 feature: Account Journeys, Audiences, Account Lists
 role: User
 exl-id: 288ac5a8-79ed-4654-8ac1-83da2af04f2c
-source-git-commit: 82553c9ee6205e0ad47cc5a56112590471c03d0e
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Gebruik een van de volgende invoeropties voor dit transportknooppunt:
 
      Kies de optie voor het accountpubliek. Klik vervolgens op **[!UICONTROL Add account audience]** .
 
-     Selecteer in het dialoogvenster _[!UICONTROL Add audience]_&#x200B;een eerder gemaakt publiekssegment. Klik vervolgens op **[!UICONTROL Add audience]**.
+     Selecteer in het dialoogvenster _[!UICONTROL Add audience]_een eerder gemaakt publiekssegment. Klik vervolgens op **[!UICONTROL Add audience]**.
 
      ![ selecteer een publiekssegment voor de knoop ](./assets/node-audience-add-dialog.png){width="700" zoomable="yes"}
 
@@ -55,4 +55,4 @@ Gebruik een van de volgende invoeropties voor dit transportknooppunt:
 
    ![ creeer een publiekssegment ](./assets/audiences-list-create.png){width="800" zoomable="yes"}
 
-1. Volg de stappen in de [ gids van de Dienst van de Segmentatie ](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/types/account-audiences){target="_blank"}.
+1. Volg de stappen in de [ gids van de Dienst van de Segmentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/types/account-audiences){target="_blank"}.

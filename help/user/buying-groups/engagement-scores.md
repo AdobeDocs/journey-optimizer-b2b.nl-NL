@@ -1,12 +1,12 @@
 ---
 title: Betrokkenheidsscore voor kopersgroepen
-description: Houd de score van de inkoopgroep en de persoonlijke betrokkenheid bij met gewogen activiteiten en op rollen gebaseerde berekeningen in Journey Optimizer B2B edition.
+description: Bereken de scores voor inkoopgroep en persoonlijke betrokkenheid met behulp van gewogen activiteiten, op rol gebaseerde berekeningen en 30-daagse scores in Journey Optimizer B2B edition.
 feature: Buying Groups, Engagement
 role: User
 exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
-source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
+source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '1245'
 ht-degree: 5%
 
 ---
@@ -30,7 +30,7 @@ Er zijn twee soorten betrokkenheidsscores:
 
 * **de betrokkenheidsscore van de Persoon** - de score van de personenbetrokkenheid is gebaseerd op de activiteiten van een individueel het kopen groepslid.
 
-  De score van de personenovereenkomst voor elk het kopen groepslid wordt getoond in de het kopen pagina van de details van de groep [_[!UICONTROL Members]_&#x200B;tabel ](./buying-group-details.md#buying-group-members). Deze scores worden ook weergegeven in pagina&#39;s en dashboards die leden van het hoogste niveau en overlappende contactinformatie bevatten.
+  De score van de personenovereenkomst voor elk het kopen groepslid wordt getoond in de het kopen pagina van de details van de groep [_[!UICONTROL Members]_tabel ](./buying-group-details.md#buying-group-members). Deze scores worden ook weergegeven in pagina&#39;s en dashboards die leden van het hoogste niveau en overlappende contactinformatie bevatten.
 
   ![ het meest betrokken kopen groepsleden ](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 
@@ -103,7 +103,7 @@ Voor elke activiteit geldt een dagelijkse maximale frequentie van 20. Als een li
 
 >[!NOTE]
 >
->Activiteiten met betrekking tot de betrokkenheidsscore worden vastgelegd in het Marketo Engage-activiteitenlogboek voor een persoon. U hebt toegang tot dit logbestand in de verbonden Marketo Engage-instantie. Voor meer informatie, zie [ plaats van het Logboek van de Activiteit voor een Persoon ](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"} in de documentatie van Marketo Engage.
+>Activiteiten met betrekking tot de betrokkenheidsscore worden vastgelegd in het Marketo Engage-activiteitenlogboek voor een persoon. U hebt toegang tot dit logbestand in de verbonden Marketo Engage-instantie. Voor meer informatie, zie [ plaats van het Logboek van de Activiteit voor een Persoon ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"} in de documentatie van Marketo Engage.
 
 ## weging rolsjabloon {#engagement-score-weighting}
 
@@ -124,7 +124,7 @@ Elk wegingsniveau wordt omgezet in een waarde die wordt gebruikt voor het bereke
 * [!UICONTROL Important] = 80
 * [!UICONTROL Vital] = 100
 
-Een rolmalplaatje met drie rollen gewogen zoals _[!UICONTROL Vital]_,_[!UICONTROL Important]_, en _[!UICONTROL Normal]_&#x200B;zet in de volgende gewogen percentages om:
+Een rolmalplaatje met drie rollen gewogen zoals _[!UICONTROL Vital]_,_[!UICONTROL Important]_, en _[!UICONTROL Normal]_zet in de volgende gewogen percentages om:
 
 | Functie | Weging | Systeemwaarde | Waarde berekenen | Percentage |
 |-------------- |--------- |------------- |------------------ |---------- |

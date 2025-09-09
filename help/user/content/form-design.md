@@ -1,20 +1,20 @@
 ---
 title: Formulierontwerp
-description: Leer hoe u herbruikbare formulieren ontwerpt die worden gebruikt voor het verzamelen van belangrijke bedrijfsgegevens.
+description: Formulieren ontwerpen met veldtypen, validatie, opmaak en XDM-schemakenmerken voor gegevensverzameling in Journey Optimizer B2B edition.
 feature: Forms, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Deze functie bevindt zich momenteel in een beperkte bètaversie"
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
-source-git-commit: fd26ecdb0457141f7beb7fd46d01e609da011a38
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '1925'
+source-wordcount: '1933'
 ht-degree: 0%
 
 ---
 
 # Formulierontwerp
 
-Nadat u [ een vorm ](./forms.md#create-forms) creeert, opent de visuele ontwerpruimte een ontwerp met een standaardbasisvormdefinitie. Klik in het deelvenster _[!UICONTROL Summary]_&#x200B;aan de rechterkant op **[!UICONTROL Edit form]**&#x200B;en gebruik de visuele ontwerpruimte om de formulieropmaak en veldcomponenten te definiëren.
+Nadat u [ een vorm ](./forms.md#create-forms) creeert, opent de visuele ontwerpruimte een ontwerp met een standaardbasisvormdefinitie. Klik in het deelvenster _[!UICONTROL Summary]_aan de rechterkant op **[!UICONTROL Edit form]**en gebruik de visuele ontwerpruimte om de formulieropmaak en veldcomponenten te definiëren.
 
 ![ heb toegang tot de vormenbibliotheek ](./assets/form-new-design-space.png){width="700" zoomable="yes"}
 
@@ -30,13 +30,13 @@ Gebruik de hulpmiddelen van het gebiedsontwerp om de reeks gebieden en lay-out t
 
 ### Veld toevoegen {#add-field}
 
-1. Sleep in het deelvenster _[!UICONTROL Components]_&#x200B;aan de linkerkant de inhoudcomponent **[!UICONTROL Field]**&#x200B;en zet deze neer op het canvas.
+1. Sleep in het deelvenster _[!UICONTROL Components]_aan de linkerkant de inhoudcomponent **[!UICONTROL Field]**en zet deze neer op het canvas.
 
    ![ voeg een gebiedscomponent aan de vorm ](./assets/form-content-add-field.png){width="700" zoomable="yes"} toe
 
 1. Klik op **[!UICONTROL Select field attribute]**.
 
-1. Selecteer in het dialoogvenster _[!UICONTROL Select field attribute]_&#x200B;het selectievakje voor het personenprofielkenmerk dat u voor het veld wilt gebruiken en klik op **[!UICONTROL Select]**.
+1. Selecteer in het dialoogvenster _[!UICONTROL Select field attribute]_het selectievakje voor het personenprofielkenmerk dat u voor het veld wilt gebruiken en klik op **[!UICONTROL Select]**.
 
    De [ XDM bedrijfsschema&#39;s ](../data/field-mapping.md#xdm-business-person-attributes) bepalen de beschikbare attributen.  Alle aangepaste velden die zijn gedefinieerd voor uw Journey Optimizer B2B edition-exemplaar, zijn ook beschikbaar. Gebruik het tekstvak Zoeken om de lijst op naam te filteren of klik op het pictogram Filter om de lijst op schema/gegevenstype te filteren.
 
@@ -79,11 +79,11 @@ Gebruik de hulpmiddelen van het gebiedsontwerp om de reeks gebieden en lay-out t
      >
      >_Instructies vs. placeholder tekst_<br/>
      >
-     >Gebruik deze twee eigenschappen om bezoekers te begeleiden bij het invullen van het veld. Instructietekst wordt weergegeven als knopinfo/pop-uptekst wanneer u de aanwijzer op het veld plaatst. Plaatsaanduidingstekst verschijnt _gedimd_ binnen het gebied en verdwijnt als de bezoeker hun tekst in het gebied activeert. U kunt beide methoden gebruiken, of slechts één.
+     >Gebruik deze twee eigenschappen om bezoekers te begeleiden bij het invullen van het veld. Instructietekst wordt weergegeven als knopinfo/pop-uptekst wanneer u de aanwijzer op het veld plaatst. Plaatsaanduidingstekst verschijnt _gedimd_ binnen het gebied en verdwijnt als de bezoeker hun tekst in het gebied ingaat. U kunt beide methoden gebruiken, of slechts één.
 
    * **[!UICONTROL Default value]** - Gebruik deze optie om een standaardwaarde voor het veld op te geven.
 
-   * **[!UICONTROL Validation message]** - Gebruik deze optie om een validatiebericht voor het veld op te geven. Dit bericht wordt weergegeven als de bezoeker een ongeldige waarde voor het veld invoert. Het _[!UICONTROL Standard]_-bericht wordt standaard ingesteld. Kies **[!UICONTROL Custom]**&#x200B;en voer uw eigen bericht in.
+   * **[!UICONTROL Validation message]** - Gebruik deze optie om een validatiebericht voor het veld op te geven. Dit bericht wordt weergegeven als de bezoeker een ongeldige waarde voor het veld invoert. Het _[!UICONTROL Standard]_-bericht wordt standaard ingesteld. Kies **[!UICONTROL Custom]**en voer uw eigen bericht in.
 
    * **Max lengte** - ga het maximumaantal karakters in die in het gebied kunnen worden ingegaan.
 
@@ -141,7 +141,7 @@ De verzendknop (voettekstveld) maakt standaard deel uit van het formulier en kan
 
 ### De knopinhoud bewerken {#button-content}
 
-Wijzig de tekst in het veld _[!UICONTROL Content]_&#x200B;terwijl de tab **[!UICONTROL Button text]**&#x200B;in het rechterdeelvenster wordt weergegeven. De knopgrootte wordt aangepast aan de lengte van de tekst.
+Wijzig de tekst in het veld _[!UICONTROL Content]_terwijl de tab **[!UICONTROL Button text]**in het rechterdeelvenster wordt weergegeven. De knopgrootte wordt aangepast aan de lengte van de tekst.
 
 ![ Verandering de knooptekst in de vorm ](./assets//form-field-button-text.png){width="600" zoomable="yes"}
 
@@ -171,7 +171,7 @@ Selecteer de tab **[!UICONTROL Styles]** in het rechterdeelvenster om de opmaak 
 
 ## Formulierstijl {#form-styling}
 
-U kunt stijlen voor het formuliergebied wijzigen wanneer u buiten de structuur- of formuliercomponenten klikt. De vormcomponenten (gebieden en knoop) erven de _1&rbrace; stijlen van het Lichaam &lbrace;bepaald de top-level stijlen, tenzij andere stijlen op het gebied of knoop/footer niveau worden bepaald._
+U kunt stijlen voor het formuliergebied wijzigen wanneer u buiten de structuur- of formuliercomponenten klikt. De vormcomponenten (gebieden en knoop) erven de _1} stijlen van het Lichaam {bepaald de top-level stijlen, tenzij andere stijlen op het gebied of knoop/footer niveau worden bepaald._
 
 ![ plaats de top-level stijlen voor het vormlichaam ](./assets/form-body-styles.png){width="600" zoomable="yes"}
 

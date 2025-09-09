@@ -1,12 +1,12 @@
 ---
 title: Rekeningreizen
-description: Ga aan de slag met uw accountritten en leer hoe u deze kunt beheren met de lijst Accountreizen.
+description: Stroomlijn het genereren van de vraag met reizen van de rekening - creeer, publiceer, beheer het kopen groepbetrokkenheid over e-mail, SMS, en gebeurtenissen in Journey Optimizer B2B edition.
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: a67ab8268676050f0c5f34b94d4aebfd46aaf601
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '972'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Ga tekst in het _hulpmiddel van het Onderzoek_ bij de bovenkant van de lijst in 
 
 ![ filter de lijst van de rekeningsreizen ](./assets/account-journeys-list-search-filter.png){width="800" zoomable="yes"}
 
-De lijstpagina _[!UICONTROL Account Journeys]_&#x200B;bevat de volgende kolommen:
+De lijstpagina _[!UICONTROL Account Journeys]_bevat de volgende kolommen:
 
 * [!UICONTROL Name] (klik op de naam om de rit te openen voor bewerking)
 * [!UICONTROL Status]
@@ -47,7 +47,7 @@ De lijstpagina _[!UICONTROL Account Journeys]_&#x200B;bevat de volgende kolommen
 * [!UICONTROL Published on]
 * [!UICONTROL Published by]
 
-U kunt de lijst sorteren door _[!UICONTROL Status]_&#x200B;te klikken op de kolomkop.
+U kunt de lijst sorteren door _[!UICONTROL Status]_te klikken op de kolomkop.
 
 U kunt de kolommen aanpassen die in de lijst door _worden getoond te klikken aanpassen lijst_ ( ![ aanpassen lijst ](../assets/do-not-localize/icon-column-settings.svg)) pictogram in de hoger-juiste hoek. Schakel de selectievakjes in het dialoogvenster in of uit en klik op **[!UICONTROL Apply]** .
 
@@ -55,7 +55,7 @@ U kunt de kolommen aanpassen die in de lijst door _worden getoond te klikken aan
 
 ## Anatomie van een rekeningreis
 
-Klik op de naam (weergegeven als een koppeling) in de lijst van _[!UICONTROL Account journeys]_&#x200B;om de details te bekijken, wijzigingen aan te brengen en handelingen uit te voeren.
+Klik op de naam (weergegeven als een koppeling) in de lijst van _[!UICONTROL Account journeys]_om de details te bekijken, wijzigingen aan te brengen en handelingen uit te voeren.
 
 ![ de werkruimte van de de reisreis van de Rekening ](./assets/account-journey-workspace.png){width="800" zoomable="yes"}
 
@@ -69,11 +69,11 @@ De status van een reis kan veranderen op basis van de acties die u toepast. Geba
 
 | Status | Beschrijving | Beschikbare acties |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**Ontwerp**&#x200B;_ | Een niet-gepubliceerde reis die bewerkbaar is. | <li>[ publiceer ](./create-publish-journey.md#publish-an-account-journey)<li>[ Dupliceren ](#duplicate-journey) <li>[ Schrapping ](#delete-journey) |
-| _&#x200B;**Levend**&#x200B;_ | De reisstatus verandert van Concept in Live wanneer een reis wordt gepubliceerd. In deze status kan het bestand niet meer worden bewerkt. | <li>[ Dupliceren ](#duplicate-journey)<li>[ dicht aan nieuwe ingangen ](#close-to-new-entries) <li>[ afbreken ](#abort-journey) |
-| _&#x200B;**Gesloten aan nieuwe ingangen**&#x200B;_ | De veranderingen van de reisstatus van _Levend_ in _Gesloten aan nieuwe ingangen_ wanneer u [!UICONTROL Close to new entries] in de hoogste navigatie klikt. | <li>[ Dupliceren ](#duplicate-journey) <li>[ afbreken ](#abort-journey) |
-| _&#x200B;**Geaborteerd**&#x200B;_ | De statusveranderingen van de reis van _Levend_ of _Gesloten aan nieuwe ingangen_ wanneer u een reis afbreekt. Een afgebroken reis kan niet opnieuw worden gestart. | <li>[ Dupliceren ](#duplicate-journey) <li>[ Schrapping ](#delete-journey) |
-| _&#x200B;**Voltooid**&#x200B;_ | Wanneer alle rekeningen in een reis de reis voltooien, verandert de status van _Levend_ of _Gesloten aan nieuwe ingangen_ aan _Voltooid_. | <li>[ Dupliceren ](#duplicate-journey) <li>[ Schrapping ](#delete-journey) |
+| _**Ontwerp**_ | Een niet-gepubliceerde reis die bewerkbaar is. | <li>[ publiceer ](./create-publish-journey.md#publish-an-account-journey)<li>[ Dupliceren ](#duplicate-journey) <li>[ Schrapping ](#delete-journey) |
+| _**Levend**_ | De reisstatus verandert van Concept in Live wanneer een reis wordt gepubliceerd. In deze status kan het bestand niet meer worden bewerkt. | <li>[ Dupliceren ](#duplicate-journey)<li>[ dicht aan nieuwe ingangen ](#close-to-new-entries) <li>[ afbreken ](#abort-journey) |
+| _**Gesloten aan nieuwe ingangen**_ | De veranderingen van de reisstatus van _Levend_ in _Gesloten aan nieuwe ingangen_ wanneer u [!UICONTROL Close to new entries] in de hoogste navigatie klikt. | <li>[ Dupliceren ](#duplicate-journey) <li>[ afbreken ](#abort-journey) |
+| _**Geaborteerd**_ | De statusveranderingen van de reis van _Levend_ of _Gesloten aan nieuwe ingangen_ wanneer u een reis afbreekt. Een afgebroken reis kan niet opnieuw worden gestart. | <li>[ Dupliceren ](#duplicate-journey) <li>[ Schrapping ](#delete-journey) |
+| _**Voltooid**_ | Wanneer alle rekeningen in een reis de reis voltooien, verandert de status van _Levend_ of _Gesloten aan nieuwe ingangen_ aan _Voltooid_. | <li>[ Dupliceren ](#duplicate-journey) <li>[ Schrapping ](#delete-journey) |
 
 ## Reizen beheren
 
@@ -157,4 +157,4 @@ Gebruik een verwijderactie om een reis permanent te verwijderen. U kunt een live
 
 ## Video over overzicht
 
->[!VIDEO](https://video.tv.adobe.com/v/3443213/?learn=on&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)
