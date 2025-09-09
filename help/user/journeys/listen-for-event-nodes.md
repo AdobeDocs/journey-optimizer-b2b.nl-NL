@@ -103,7 +103,7 @@ Als u webpagina&#39;s hebt in een Marketo Engage-exemplaar dat is verbonden, kun
 
 1. Klik op **[!UICONTROL Edit event]** en definieer een of meer webpagina&#39;s die moeten overeenkomen en eventuele extra beperkingen voor de gebeurtenis.
 
-   * (Vereist) Definieer in het dialoogvenster _[!UICONTROL Edit event]_de formulierbeperking **[!UICONTROL Web page]**of Vult uit. Gebruik **[!UICONTROL is]**(standaardwaarde) om overeen te komen op een of meer geselecteerde pagina&#39;s of formulieren. Gebruik **[!UICONTROL is not]**om overeen te komen op alle paginabezoeken/formulieren, met uitzondering van een of meer geselecteerde pagina&#39;s/formulieren. Of gebruik **[!UICONTROL is any]**om een overeenkomst te bereiken op een bezoek of ingevuld formulier op een Marketo Engage-webpagina.
+   * (Vereist) Definieer in het dialoogvenster _[!UICONTROL Edit event]_&#x200B;de formulierbeperking **[!UICONTROL Web page]**&#x200B;of Vult uit. Gebruik **[!UICONTROL is]**(standaardwaarde) om overeen te komen op een of meer geselecteerde pagina&#39;s of formulieren. Gebruik **[!UICONTROL is not]**&#x200B;om overeen te komen op alle paginabezoeken/formulieren, met uitzondering van een of meer geselecteerde pagina&#39;s/formulieren. Of gebruik **[!UICONTROL is any]**&#x200B;om een overeenkomst te bereiken op een bezoek of ingevuld formulier op een Marketo Engage-webpagina.
 
    * (Optioneel) Klik op **[!UICONTROL Add constraint]** en kies het veld dat u voor de restrictie wilt gebruiken. Stel de operator en de waarde voor het veld in.
 
@@ -145,7 +145,7 @@ _Om een Gebeurtenis van de Ervaring in uw reis te omvatten :_
 
 1. Klik op **[!UICONTROL Edit event]** en definieer de gebeurtenistypen en eventuele extra beperkingen voor de gebeurtenis.
 
-   * (Vereist) Definieer het gebeurtenistype in het dialoogvenster _[!UICONTROL Edit event]_. U kunt de operator **[!UICONTROL is]**default gebruiken om een of meer geselecteerde gebeurtenistypen overeen te laten komen. U kunt ook de operator **[!UICONTROL is not]**gebruiken om op alle gebeurtenistypen overeen te komen, met uitzondering van een of meer geselecteerde gebeurtenistypen.
+   * (Vereist) Definieer het gebeurtenistype in het dialoogvenster _[!UICONTROL Edit event]_. U kunt de operator **[!UICONTROL is]**&#x200B;default gebruiken om een of meer geselecteerde gebeurtenistypen overeen te laten komen. U kunt ook de operator **[!UICONTROL is not]**&#x200B;gebruiken om op alle gebeurtenistypen overeen te komen, met uitzondering van een of meer geselecteerde gebeurtenistypen.
 
    * (Optioneel) Klik op **[!UICONTROL Add constraint]** en kies het veld dat u voor de restrictie wilt gebruiken. Stel de operator en de waarde voor het veld in.
 

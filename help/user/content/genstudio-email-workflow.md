@@ -23,7 +23,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->De integratie van GenStudio in [!DNL Adobe Journey Optimizer B2B Edition] is momenteel niet beschikbaar voor gebruik met het **Schild van de Gezondheidszorg** of **Privacy en het 4} toe:voegen-op dienstenaanbod van het Schild van de Veiligheid.**
+>De integratie van GenStudio in [!DNL Adobe Journey Optimizer B2B Edition] is momenteel niet beschikbaar voor gebruik met het **Schild van de Gezondheidszorg** of **Privacy en het 4&rbrace; toe:voegen-op dienstenaanbod van het Schild van de Veiligheid.**
 >
 >Deze integratie is alleen beschikbaar voor het e-mailkanaal.
 
@@ -49,7 +49,7 @@ Eerst exporteert u in Journey Optimizer B2B edition HTML vanuit een e-mailberich
 
 1. In Journey Optimizer B2B edition opent u de inhoud van uw e-mail in de ruimte van het visuele ontwerp.
 
-1. Kies _[!UICONTROL More ...]_in het menu **[!UICONTROL Export HTML]**boven aan de e-mailontwerpruimte.
+1. Kies _[!UICONTROL More ...]_&#x200B;in het menu **[!UICONTROL Export HTML]**&#x200B;boven aan de e-mailontwerpruimte.
 
    ![ klik Meer en kies de Uitvoer HTML ](./assets/email-export-html.png){width="600"}
 
@@ -91,19 +91,19 @@ Voor gedetailleerde informatie over het produceren van gebrandde e-mailervaringe
 
 Ga als volgt te werk om de GenStudio-e-mailvariaties te gebruiken die zijn gemaakt van het geëxporteerde Journey Optimizer B2B edition e-mailbestand HTML:
 
-1. In Journey Optimizer B2B edition, [ voeg een e-mail ](./add-email.md) aan een rekeningsreis toe gebruikend a _[!UICONTROL Take an action]_knoop.
+1. In Journey Optimizer B2B edition, [ voeg een e-mail ](./add-email.md) aan een rekeningsreis toe gebruikend a _[!UICONTROL Take an action]_&#x200B;knoop.
 
-   * Kies _[!UICONTROL Action on]_voor het doel **[!UICONTROL People]**.
+   * Kies _[!UICONTROL Action on]_&#x200B;voor het doel **[!UICONTROL People]**.
 
-   * Kies _[!UICONTROL Action on people]_bij **[!UICONTROL Send email]**.
+   * Kies _[!UICONTROL Action on people]_&#x200B;bij **[!UICONTROL Send email]**.
 
      ![ neem een actie - verzend een e-mail ](./assets/journey-node-send-email.png){width="700" zoomable="yes"}
 
-   * Kies _[!UICONTROL Email source]_voor de optie **[!UICONTROL Create new email]**om de e-mail zelf te maken in Journey Optimizer B2B edition.
+   * Kies _[!UICONTROL Email source]_&#x200B;voor de optie **[!UICONTROL Create new email]**&#x200B;om de e-mail zelf te maken in Journey Optimizer B2B edition.
 
 1. Voor _creeer uw E-mail_ pagina, uitgezochte **[!UICONTROL Import HTML]**.
 
-1. Klik in het dialoogvenster _[!UICONTROL Import your email]_op **[!UICONTROL Adobe GenStudio for Performance Marketing]**.
+1. Klik in het dialoogvenster _[!UICONTROL Import your email]_&#x200B;op **[!UICONTROL Adobe GenStudio for Performance Marketing]**.
 
    ![ de Invoer HTML van GenStudio for Performance Marketing ](./assets/email-import-html-genstudio.png){width="500" zoomable="yes"}
 

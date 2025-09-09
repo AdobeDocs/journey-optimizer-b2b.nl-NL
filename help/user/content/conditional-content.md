@@ -45,7 +45,7 @@ Wanneer u een fragment of e-mail maakt in de visuele ontwerpruimte, gebruikt u v
 
    ![ Uitgezochte voorwaarde voor variant ](./assets/conditions-variant-select.png){width="700" zoomable="yes"}
 
-   Het dialoogvenster _[!UICONTROL Select condition]_wordt geopend en de bibliotheek met voorwaarden wordt weergegeven.
+   Het dialoogvenster _[!UICONTROL Select condition]_&#x200B;wordt geopend en de bibliotheek met voorwaarden wordt weergegeven.
 
    Als u details voor een voorwaarde wilt bekijken om het te verzekeren is wat u wilt, klik het _Meer menu_ pictogram (**...**) en kies **[!UICONTROL View Info]**.
 
@@ -119,7 +119,7 @@ De regels worden opgeslagen in de voorwaardenbibliotheek, waar zij voor hergebru
 
 U kunt tot de voorwaardelijke regelbouwer van de e-mailontwerpruimte toegang hebben wanneer u een voorwaarde voor een componentenvariant selecteert.
 
-1. Klik in het dialoogvenster _[!UICONTROL Select condition]_op **[!UICONTROL Create new]**en kies het voorwaardetype:
+1. Klik in het dialoogvenster _[!UICONTROL Select condition]_&#x200B;op **[!UICONTROL Create new]**&#x200B;en kies het voorwaardetype:
 
    * **[!UICONTROL Person condition]** - Kies dit type om de voorwaardelijke regel te maken met behulp van personekenmerken en contextuele gebeurtenissen.
    * **[!UICONTROL Account condition]** - Kies dit type om de voorwaardelijke regel samen te stellen met accountkenmerken.
