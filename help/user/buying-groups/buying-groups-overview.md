@@ -112,4 +112,4 @@ Zie [ de scores van de Betrokkenheid ](./engagement-scores.md) voor gedetailleer
 
 ## Video over overzicht
 
->[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3452939/?learn=on&captions=dut)
