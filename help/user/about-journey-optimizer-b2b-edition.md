@@ -1,11 +1,11 @@
 ---
 title: Adobe Journey Optimizer B2B edition - Overzicht
-description: Leer meer over Adobe Journey Optimizer B2B edition - orkestaccountreizen met inkoopgroepen, AI-inzichten en Experience Platform-integratie voor B2B-marketing.
+description: 'Leer meer over Adobe Journey Optimizer B2B Edition: orkestreer accounttrajecten met inkoopgroepen, AI-inzichten en Experience Platform-integratie voor B2B-marketing.'
 exl-id: fdfbafdf-826f-44e9-bbb6-5e729d0e18ef
 source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
 workflow-type: tm+mt
-source-wordcount: '819'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Journey Optimizer B2B edition gebruikt _Soorten van de Rekening_ en _Soort
 
 >[!NOTE]
 >
->Controleer uw vergunningsrechten en de overeenkomstige [ productbeschrijving ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} over prestatiesgaranties en statische beperkingen.
+>Controleer uw vergunningsrechten en de overeenkomstige [ productbeschrijving ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} over prestatiesgaranties en statische beperkingen.
 
 ### Abonnementsmodel
 
