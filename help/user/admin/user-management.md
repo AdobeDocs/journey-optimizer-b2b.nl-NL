@@ -56,13 +56,13 @@ Voordat u de Admin Console kunt gebruiken om gebruikers binnen uw team te behere
 
 Wanneer u gebruikers toegang geeft tot een Adobe-oplossing, wilt u ze niet altijd volledige toegang geven. Met productprofielen kan elke oplossing beschikken over een eigen set gebruikersrechten. Gebruik de Admin Console om productprofielen toe te wijzen.
 
-Voor meer informatie over het gebruiken van productprofielen voor gebruikersrechten, zie [ productprofielen voor ondernemingsgebruikers ](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html){target="_blank"} in de documentatie van Admin Console beheren.
+Voor meer informatie over het gebruiken van productprofielen voor gebruikersrechten, zie [ productprofielen voor ondernemingsgebruikers ](https://helpx.adobe.com/nl/enterprise/using/manage-product-profiles.html){target="_blank"} in de documentatie van Admin Console beheren.
 
 >[!BEGINSHADEBOX]
 
 Wanneer u een gebruiker aan het het productprofiel van Marketo Engage toevoegt, worden zij later toegevoegd aan de _Standaardrol van de Gebruiker_ binnen de Standaardwerkruimte van het abonnement van Marketo Engage. Deze rol verleent hen alle _toestemmingen van de StandaardGebruiker_ voor Marketo Engage in die werkruimte. Momenteel moeten alle Journey Optimizer B2B edition-gebruikers Marketo Engage-gebruikers zijn. Een beheerder van Marketo Engage kan toegang beperken door de toestemmingen voor de _Standaardrol van de Gebruiker_ bij te werken of door de gebruiker aan een verschillende de gebruikersrol van Marketo Engage met meer beperkende toestemmingen te bewegen.
 
-Voor meer informatie over het beheren van deze toestemmingen binnen Marketo Engage, zie [ het Leiden Rollen van de Gebruiker en Toestemmingen ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} in de documentatie van Marketo Engage.
+Voor meer informatie over het beheren van deze toestemmingen binnen Marketo Engage, zie [ het Leiden Rollen van de Gebruiker en Toestemmingen ](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} in de documentatie van Marketo Engage.
 
 >[!ENDSHADEBOX]
 
@@ -84,7 +84,7 @@ Voor meer informatie over het beheren van deze toestemmingen binnen Marketo Enga
 
 Een gebruikersgroep is een inzameling van gebruikers wordt verleend een gedeelde reeks toestemmingen. U kunt gebruikers toevoegen aan of verwijderen uit uw gebruikersgroep. De machtigingen voor de groep blijven ongewijzigd wanneer de gebruikers in de groep worden gewijzigd.
 
-Voor meer informatie over hoe de gebruikersgroepen worden gebruikt om toestemmingen te beheren, zie [ gebruikersgroepen beheren ](https://helpx.adobe.com/enterprise/using/user-groups.html){target="_blank"} in de documentatie van Admin Console.
+Voor meer informatie over hoe de gebruikersgroepen worden gebruikt om toestemmingen te beheren, zie [ gebruikersgroepen beheren ](https://helpx.adobe.com/nl/enterprise/using/user-groups.html){target="_blank"} in de documentatie van Admin Console.
 
 ![ de rolvereisten van de Beheerder ](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Een systeembeheerder kan de volgende stappen uitvoeren.
 
@@ -115,7 +115,7 @@ Voor meer informatie over hoe de gebruikersgroepen worden gebruikt om toestemmin
 
 ## Gebruikers aan een groep toevoegen
 
-Voor informatie over gebruikersbeheer, zie [ de gebruikers van Admin Console ](https://helpx.adobe.com/enterprise/using/user-groups.html) in de documentatie van Admin Console.
+Voor informatie over gebruikersbeheer, zie [ de gebruikers van Admin Console ](https://helpx.adobe.com/nl/enterprise/using/user-groups.html) in de documentatie van Admin Console.
 
 ![ de rolvereisten van de Beheerder ](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Een systeembeheerder of productbeheerder kunnen de volgende stappen uitvoeren. Een productbeheerder kan alleen gebruikers toevoegen die al in zijn organisatie bestaan.
 
@@ -143,7 +143,7 @@ Machtigingen zijn eenheidrechten waarmee u de machtigingen kunt definiëren die 
 
 Het _gebied van Toestemmingen_ van Adobe Experience Platform is waar de beheerders gebruikersrollen en toegangsbeleid kunnen bepalen om toegangstoestemmingen voor eigenschappen en voorwerpen binnen een producttoepassing te beheren. In deze app kunt u rollen maken en beheren en kunt u de gewenste resourcemachtigingen voor deze rollen toewijzen. Met machtigingen kunt u ook de sandboxen en gebruikers beheren die aan een specifieke rol zijn gekoppeld.
 
-Voor meer informatie over roltoestemmingen in Experience Platform, zie [ toestemmingen voor een rol ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} in de documentatie van Experience Platform beheren.
+Voor meer informatie over roltoestemmingen in Experience Platform, zie [ toestemmingen voor een rol ](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} in de documentatie van Experience Platform beheren.
 
 ### B2B-productmachtigingen
 
@@ -240,7 +240,7 @@ _Om de toestemmingen voor een rol te veranderen :_
 
 ### Gebruikersgroepen toevoegen aan een rol
 
-Voor informatie over gebruikersbeheer, zie [ de gebruikers van Admin Console ](https://helpx.adobe.com/enterprise/using/user-groups.html) in de documentatie van Admin Console.
+Voor informatie over gebruikersbeheer, zie [ de gebruikers van Admin Console ](https://helpx.adobe.com/nl/enterprise/using/user-groups.html) in de documentatie van Admin Console.
 
 ![ de rolvereisten van de Beheerder ](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Een systeembeheerder of het productbeheerder van AEP kan de volgende stappen uitvoeren.
 
