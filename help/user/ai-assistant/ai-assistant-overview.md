@@ -1,6 +1,6 @@
 ---
 title: AI Assistant in Journey Optimizer B2B edition
-description: Snellere workflows met AI Assistant - u krijgt productkennis, hulp bij het oplossen van problemen en operationele inzichten voor Journey Optimizer B2B edition.
+description: 'Versnel workflows met AI-assistent: ontvang productkennis, hulp bij het oplossen van problemen en operationele inzichten voor Journey Optimizer B2B Edition.'
 feature: AI Assistant
 role: User, Admin
 level: Beginner
@@ -8,13 +8,13 @@ exl-id: 52ff66d2-1969-4e2c-985a-c75e613368de
 source-git-commit: 4fdd89bf32cb9d68b4cdc347f1fd09df8eabe24d
 workflow-type: tm+mt
 source-wordcount: '1258'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 # AI Assistant in Journey Optimizer B2B edition
 
-AI Medewerker in Journey Optimizer B2B edition wordt gecreeerd van de zelfde technologiestichting van [ AI Medewerker in Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/home){target="_blank"}. Het is een conversatie-ervaring die u kunt gebruiken om uw workflows in Adobe Journey Optimizer B2B edition te versnellen. U kunt AI Assistant gebruiken om meer inzicht te krijgen in de productmogelijkheden, problemen op te lossen of informatie te doorzoeken en operationele inzichten voor Journey Optimizer B2B edition te zoeken.
+AI Medewerker in Journey Optimizer B2B edition wordt gecreeerd van de zelfde technologiestichting van [ AI Medewerker in Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}. Het is een conversatie-ervaring die u kunt gebruiken om uw workflows in Adobe Journey Optimizer B2B edition te versnellen. U kunt AI Assistant gebruiken om meer inzicht te krijgen in de productmogelijkheden, problemen op te lossen of informatie te doorzoeken en operationele inzichten voor Journey Optimizer B2B edition te zoeken.
 
 >[!IMPORTANT]
 >
@@ -30,7 +30,7 @@ AI Medewerker in Journey Optimizer B2B edition wordt gecreeerd van de zelfde tec
 
 ## AI Assistant-mogelijkheden in Journey Optimizer B2B edition
 
-Om een antwoord op uw voorgelegde vragen te formuleren, vraagt de Medewerker van AI een gegevensbestand en vertaalt gegevens van het gegevensbestand in een leesbaar antwoord. Deze reactie is een interne vertegenwoordiging van onderliggende gegevens, en is ook genoemd geworden _&#x200B;**_Grafiek van de Kennis_**&#x200B;_ - een uitvoerig Web van concepten, gegevens, en meta-gegevens voor een bepaald antwoord. De Kennisgrafiek bestaat uit subgrafieken waarnaar wordt verwezen wanneer query&#39;s worden verzonden:
+Om een antwoord op uw voorgelegde vragen te formuleren, vraagt de Medewerker van AI een gegevensbestand en vertaalt gegevens van het gegevensbestand in een leesbaar antwoord. Deze reactie is een interne vertegenwoordiging van onderliggende gegevens, en is ook genoemd geworden _**_Grafiek van de Kennis_**_ - een uitvoerig Web van concepten, gegevens, en meta-gegevens voor een bepaald antwoord. De Kennisgrafiek bestaat uit subgrafieken waarnaar wordt verwezen wanneer query&#39;s worden verzonden:
 
 * Experience League-documentatie.
 * Operationele artefacten, zoals schema&#39;s, velden, publiek en reizen.
@@ -92,7 +92,7 @@ AI Assistant in Journey Optimizer B2B edition is gebouwd met privacy, beveiligin
 
 * U moet expliciete toestemming hebben om met AI Medewerker in wisselwerking te staan.
 
-   * Een beheerder kan toestemmingen plaatsen gebruikend [ Toestemmingen UI ](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} en [ Admin Console ](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/ui/browse){target="_blank"}.
+   * Een beheerder kan toestemmingen plaatsen gebruikend [ Toestemmingen UI ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} en [ Admin Console ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"}.
 
    * De toestemmingen zijn korrelig en uw zandbakbeheerder kan vormen welke gebruikers verschillende vraagcategorieën (product kennisgebaseerde vragen met AI Medewerker of vragen over operationele inzichten) kunnen stellen.
 
