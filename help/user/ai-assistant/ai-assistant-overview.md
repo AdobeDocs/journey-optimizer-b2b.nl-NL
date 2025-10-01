@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # AI Assistant in Journey Optimizer B2B edition
 
-AI Medewerker in Journey Optimizer B2B edition wordt gecreeerd van de zelfde technologiestichting van [&#x200B; AI Medewerker in Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}. Het is een conversatie-ervaring die u kunt gebruiken om uw workflows in Adobe Journey Optimizer B2B edition te versnellen. U kunt AI Assistant gebruiken om meer inzicht te krijgen in de productmogelijkheden, problemen op te lossen of informatie te doorzoeken en operationele inzichten voor Journey Optimizer B2B edition te zoeken.
+AI Medewerker in Journey Optimizer B2B edition wordt gecreeerd van de zelfde technologiestichting van [&#x200B; AI Medewerker in Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/home){target="_blank"}. Het is een conversatie-ervaring die u kunt gebruiken om uw workflows in Adobe Journey Optimizer B2B edition te versnellen. U kunt AI Assistant gebruiken om meer inzicht te krijgen in de productmogelijkheden, problemen op te lossen of informatie te doorzoeken en operationele inzichten voor Journey Optimizer B2B edition te zoeken.
 
 >[!IMPORTANT]
 >
@@ -92,7 +92,7 @@ AI Assistant in Journey Optimizer B2B edition is gebouwd met privacy, beveiligin
 
 * U moet expliciete toestemming hebben om met AI Medewerker in wisselwerking te staan.
 
-   * Een beheerder kan toestemmingen plaatsen gebruikend [&#x200B; Toestemmingen UI &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} en [&#x200B; Admin Console &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"}.
+   * Een beheerder kan toestemmingen plaatsen gebruikend [&#x200B; Toestemmingen UI &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} en [&#x200B; Admin Console &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/ui/browse){target="_blank"}.
 
    * De toestemmingen zijn korrelig en uw zandbakbeheerder kan vormen welke gebruikers verschillende vraagcategorieën (product kennisgebaseerde vragen met AI Medewerker of vragen over operationele inzichten) kunnen stellen.
 
