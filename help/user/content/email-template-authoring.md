@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # E-mailsjabloonontwerp
 
-Nadat u [ een e-mailmalplaatje ](./email-templates.md#create-an-email-template) creeert, gebruik de visuele ontwerpruimte aan auteur de structuur en inhoudscomponenten in uw e-mailmalplaatje.
+Nadat u [&#x200B; een e-mailmalplaatje &#x200B;](./email-templates.md#create-an-email-template) creeert, gebruik de visuele ontwerpruimte aan auteur de structuur en inhoudscomponenten in uw e-mailmalplaatje.
 
 ## Structuur en inhoud toevoegen {#structure-content}
 
@@ -25,7 +25,7 @@ U kunt uw eigen aangepaste CSS rechtstreeks toevoegen binnen de ontwerpruimte va
 
 Selecteer met ten minste één inhoudscomponent op het canvas de component **[!UICONTROL Body]** in de linkernavigatiestructuur voor toegang tot de aangepaste CSS-editor.
 
-![ heb toegang tot de lichaamstijlen ](./assets/email-template-body-styles.png){width="800" zoomable="yes"}
+![&#x200B; heb toegang tot de lichaamstijlen &#x200B;](./assets/email-template-body-styles.png){width="800" zoomable="yes"}
 
 {{$include /help/_includes/content-design-custom-css.md}}
 
@@ -37,7 +37,7 @@ Selecteer met ten minste één inhoudscomponent op het canvas de component **[!U
 
 {{$include /help/_includes/content-design-use-fragments.md}}
 
-Nadat de sjabloon is opgeslagen, wordt deze weergegeven op de pagina met fragmentdetails wanneer u het tabblad _[!UICONTROL Used By]_in het overzicht selecteert.
+Nadat de sjabloon is opgeslagen, wordt deze weergegeven op de pagina met fragmentdetails wanneer u het tabblad _[!UICONTROL Used By]_&#x200B;in het overzicht selecteert.
 
 ### Afbeeldingselementen toevoegen
 
@@ -57,11 +57,11 @@ Nadat de sjabloon is opgeslagen, wordt deze weergegeven op de pagina met fragmen
 
 ### Donkere modusstijl toepassen
 
-De wijze van het gebruik _Donker_ om uw e-mailvertoning voor een donker thema in een e-mailcliënt te herzien. In een donkere modus of een thema kan een ondersteunende e-mailclient of app e-mails weergeven met donkere achtergronden en lichtere kleuren voor tekst, knoppen en andere visuele elementen. Bij het hoogste recht van het ontwerpcanvas, verander de selecteur in _Donkere wijze_ ( ![ het de wijzepictogram van de Donkere wijze ](../assets/do-not-localize/icon-content-dark-mode.svg) ). Geef vervolgens een voorvertoning weer van de specifieke aangepaste instellingen die worden gebruikt voor weergave door de ondersteunende e-mailclients wanneer hun donkere thema is ingeschakeld.
+De wijze van het gebruik _Donker_ om uw e-mailvertoning voor een donker thema in een e-mailcliënt te herzien. In een donkere modus of een thema kan een ondersteunende e-mailclient of app e-mails weergeven met donkere achtergronden en lichtere kleuren voor tekst, knoppen en andere visuele elementen. Bij het hoogste recht van het ontwerpcanvas, verander de selecteur in _Donkere wijze_ ( ![&#x200B; het de wijzepictogram van de Donkere wijze &#x200B;](../assets/do-not-localize/icon-content-dark-mode.svg) ). Geef vervolgens een voorvertoning weer van de specifieke aangepaste instellingen die worden gebruikt voor weergave door de ondersteunende e-mailclients wanneer hun donkere thema is ingeschakeld.
 
-![ het ontwerpcanvas van e-mail die de donkere wijzekiezer en e-mailinhoud tonen op donkere wijze wordt getoond ](./assets/email-color-mode-dark-selector.png){width="700" zoomable="yes"}
+![&#x200B; het ontwerpcanvas van e-mail die de donkere wijzekiezer en e-mailinhoud tonen op donkere wijze wordt getoond &#x200B;](./assets/email-color-mode-dark-selector.png){width="700" zoomable="yes"}
 
-Voor meer informatie over donkere wijze het stileren en beste praktijken, zie [ Donkere wijze voor e-mailinhoud ](./email-dark-mode.md).
+Voor meer informatie over donkere wijze het stileren en beste praktijken, zie [&#x200B; Donkere wijze voor e-mailinhoud &#x200B;](./email-dark-mode.md).
 
 ## Weergaveopties
 
@@ -75,11 +75,11 @@ Gebruik de opties voor weergave- en inhoudsvalidatie die beschikbaar zijn in de 
 
 ### Meer opties
 
-Vanuit het menu _[!UICONTROL More ...]_boven aan de ontwerpruimte voor e-mail kunt u de volgende handelingen uitvoeren:
+Vanuit het menu _[!UICONTROL More ...]_&#x200B;boven aan de ontwerpruimte voor e-mail kunt u de volgende handelingen uitvoeren:
 
-![ klik Meer om tot malplaatjeacties ](./assets/visual-designer-more-menu.png){width="500"} toegang te hebben
+![&#x200B; klik Meer om tot malplaatjeacties &#x200B;](./assets/visual-designer-more-menu.png){width="500"} toegang te hebben
 
 * **[!UICONTROL Reset template]** - Klik op deze optie om het ontwerpcanvas op een lege site te wissen en de bouwinhoud opnieuw te starten.
 * **[!UICONTROL Save as fragment]** - Sla de sjabloon geheel of gedeeltelijk op als een fragment dat opnieuw moet worden gebruikt in meerdere e-mails of e-mailsjablonen. U geeft een naam en beschrijving voor het fragment op en slaat het op in de lijst met beschikbare fragmenten.
-* **[!UICONTROL Change your design]** - terugkeer aan het _Ontwerp uw e-mailpagina_. Vervolgens kunt u een andere sjabloon kiezen om het ontwerpproces opnieuw te starten. U kunt ook verkiezen om de inhoud van kras met een leeg canvas (_Klassieke wijze_) te ontwerpen of a [ merkthema ](./brand-themes.md) te gebruiken (_wijze van het Thema_).
+* **[!UICONTROL Change your design]** - terugkeer aan het _Ontwerp uw e-mailpagina_. Vervolgens kunt u een andere sjabloon kiezen om het ontwerpproces opnieuw te starten. U kunt ook verkiezen om de inhoud van kras met een leeg canvas (_Klassieke wijze_) te ontwerpen of a [&#x200B; merkthema &#x200B;](./brand-themes.md) te gebruiken (_wijze van het Thema_).
 * **[!UICONTROL Export HTML]** - Download de inhoud in het visuele canvas naar uw lokale systeem in de HTML-indeling die is verpakt als een zip-bestand.

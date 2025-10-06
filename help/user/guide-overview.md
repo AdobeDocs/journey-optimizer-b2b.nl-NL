@@ -25,7 +25,7 @@ De ontwerpruimte voor e-mail bevat samenwerkingsgereedschappen voor het plaatsen
 
 >[!TAB  Donkere wijze e-mailontwerp ]
 
-De ruimte van het e-mailontwerp omvat nu _voorproef en montages van 0} donkere wijze {._ In de donkere modus kan een ondersteunende e-mailclient of app e-mails weergeven met donkere achtergronden en lichtere kleuren voor tekst, knoppen en andere visuele elementen. Geef een voorvertoning van de rendering weer, pas instellingen aan, zorg voor toegankelijkheid en test alle e-mailclients.
+De ruimte van het e-mailontwerp omvat nu _voorproef en montages van 0&rbrace; donkere wijze &lbrace;._ In de donkere modus kan een ondersteunende e-mailclient of app e-mails weergeven met donkere achtergronden en lichtere kleuren voor tekst, knoppen en andere visuele elementen. Geef een voorvertoning van de rendering weer, pas instellingen aan, zorg voor toegankelijkheid en test alle e-mailclients.
 
 [!BADGE Meer informatie]{type=Informative url="/help/user/content/email-dark-mode.md" tooltip="Meer informatie over het ontwerpen van e-mails in de donkere modus"}
 
@@ -61,7 +61,7 @@ Als u het model Intentiedetectie wilt activeren en beheren, kunt u nu een spread
 
 >[!ENDTABS]
 
-Voor een volledige lijst van nieuwe eigenschappen en verbeteringen, zie de [ versienota&#39;s ](../user/release-notes/release-notes.md). <!-- Stay up-to-date with the latest changes in our documentation by visiting the [documentation updates page](using/rn/documentation-updates.md).-->
+Voor een volledige lijst van nieuwe eigenschappen en verbeteringen, zie de [&#x200B; versienota&#39;s &#x200B;](../user/release-notes/release-notes.md). <!-- Stay up-to-date with the latest changes in our documentation by visiting the [documentation updates page](using/rn/documentation-updates.md).-->
 
 ## Beginnen met de basisbeginselen
 

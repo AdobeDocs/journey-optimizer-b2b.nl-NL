@@ -24,21 +24,21 @@ Er zijn twee soorten betrokkenheidsscores:
 
 * **het Kopen de score van de groepsovereenkomst** - de het kopen score van de groepsovereenkomst is een genormaliseerde score tussen 0 tot 100 en is gebaseerd op de betrokkenheidsscore die op het persoonniveau wordt berekend.
 
-  De het kopen score van de groepsovereenkomst wordt getoond in de [ Kopen pagina van groepsdetails ](./buying-group-details.md). U kunt ook de meest betrokken inkoopgroepen bekijken op het intelligente dashboard.
+  De het kopen score van de groepsovereenkomst wordt getoond in de [&#x200B; Kopen pagina van groepsdetails &#x200B;](./buying-group-details.md). U kunt ook de meest betrokken inkoopgroepen bekijken op het intelligente dashboard.
 
-  ![ het meest betrokken kopen groepen ](./assets/person-engagement-score-attribute-filtering.png){width="700" zoomable="yes"}
+  ![&#x200B; het meest betrokken kopen groepen &#x200B;](./assets/person-engagement-score-attribute-filtering.png){width="700" zoomable="yes"}
 
 * **de betrokkenheidsscore van de Persoon** - de score van de personenbetrokkenheid is gebaseerd op de activiteiten van een individueel het kopen groepslid.
 
-  De score van de personenovereenkomst voor elk het kopen groepslid wordt getoond in de het kopen pagina van de details van de groep [_[!UICONTROL Members]_tabel ](./buying-group-details.md#buying-group-members). Deze scores worden ook weergegeven in pagina&#39;s en dashboards die leden van het hoogste niveau en overlappende contactinformatie bevatten.
+  De score van de personenovereenkomst voor elk het kopen groepslid wordt getoond in de het kopen pagina van de details van de groep [_[!UICONTROL Members]_&#x200B;tabel &#x200B;](./buying-group-details.md#buying-group-members). Deze scores worden ook weergegeven in pagina&#39;s en dashboards die leden van het hoogste niveau en overlappende contactinformatie bevatten.
 
-  ![ het meest betrokken kopen groepsleden ](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
+  ![&#x200B; het meest betrokken kopen groepsleden &#x200B;](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 
 >[!BEGINSHADEBOX]
 
-De score van de personenovereenkomst is een attribuut dat voor het filtreren in [ rolmalplaatjes ](./buying-groups-role-templates.md#add-the-template-roles) en [ reis versplintering-weg-door-mensen knopen ](../journeys/split-merge-paths-nodes.md#people-path-filters) beschikbaar is.
+De score van de personenovereenkomst is een attribuut dat voor het filtreren in [&#x200B; rolmalplaatjes &#x200B;](./buying-groups-role-templates.md#add-the-template-roles) en [&#x200B; reis versplintering-weg-door-mensen knopen &#x200B;](../journeys/split-merge-paths-nodes.md#people-path-filters) beschikbaar is.
 
-![ heb toegang tot de gevormde gebeurtenisdefinities ](./assets/most-engaged-buying-groups.png){width="550" zoomable="yes"}
+![&#x200B; heb toegang tot de gevormde gebeurtenisdefinities &#x200B;](./assets/most-engaged-buying-groups.png){width="550" zoomable="yes"}
 
 >[!ENDSHADEBOX]
 
@@ -103,7 +103,7 @@ Voor elke activiteit geldt een dagelijkse maximale frequentie van 20. Als een li
 
 >[!NOTE]
 >
->Activiteiten met betrekking tot de betrokkenheidsscore worden vastgelegd in het Marketo Engage-activiteitenlogboek voor een persoon. U hebt toegang tot dit logbestand in de verbonden Marketo Engage-instantie. Voor meer informatie, zie [ plaats van het Logboek van de Activiteit voor een Persoon ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"} in de documentatie van Marketo Engage.
+>Activiteiten met betrekking tot de betrokkenheidsscore worden vastgelegd in het Marketo Engage-activiteitenlogboek voor een persoon. U hebt toegang tot dit logbestand in de verbonden Marketo Engage-instantie. Voor meer informatie, zie [&#x200B; plaats van het Logboek van de Activiteit voor een Persoon &#x200B;](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"} in de documentatie van Marketo Engage.
 
 ## weging rolsjabloon {#engagement-score-weighting}
 
@@ -112,9 +112,9 @@ Voor elke activiteit geldt een dagelijkse maximale frequentie van 20. Als een li
 >title="weging van de betrokkenheidsscore"
 >abstract="Gebruik rolweging om de berekening van de betrokkenheidsscore aan te passen."
 
-De gebruikers kunnen _weging_ aan elke rol in het [ rolmalplaatje ](./buying-groups-role-templates.md) toewijzen om verschillende gewichten voor een rol toe te wijzen.
+De gebruikers kunnen _weging_ aan elke rol in het [&#x200B; rolmalplaatje &#x200B;](./buying-groups-role-templates.md) toewijzen om verschillende gewichten voor een rol toe te wijzen.
 
-![ plaats weging aan elke rol in het rolmalplaatje ](./assets/roles-templates-weighting.png){width="700" zoomable="yes"}
+![&#x200B; plaats weging aan elke rol in het rolmalplaatje &#x200B;](./assets/roles-templates-weighting.png){width="700" zoomable="yes"}
 
 Elk wegingsniveau wordt omgezet in een waarde die wordt gebruikt voor het berekenen van de betrokkenheidsscore:
 
@@ -124,7 +124,7 @@ Elk wegingsniveau wordt omgezet in een waarde die wordt gebruikt voor het bereke
 * [!UICONTROL Important] = 80
 * [!UICONTROL Vital] = 100
 
-Een rolmalplaatje met drie rollen gewogen zoals _[!UICONTROL Vital]_,_[!UICONTROL Important]_, en _[!UICONTROL Normal]_zet in de volgende gewogen percentages om:
+Een rolmalplaatje met drie rollen gewogen zoals _[!UICONTROL Vital]_,_[!UICONTROL Important]_, en _[!UICONTROL Normal]_&#x200B;zet in de volgende gewogen percentages om:
 
 | Functie | Weging | Systeemwaarde | Waarde berekenen | Percentage |
 |-------------- |--------- |------------- |------------------ |---------- |

@@ -13,19 +13,19 @@ ht-degree: 0%
 
 # E-mailbericht schrijven
 
-Nadat u [ een e-mailmiddel aan een knoop van de reisactie ](./add-email.md) toevoegt, kunt u de inhoud voor het e-mailbericht bepalen.
+Nadat u [&#x200B; een e-mailmiddel aan een knoop van de reisactie &#x200B;](./add-email.md) toevoegt, kunt u de inhoud voor het e-mailbericht bepalen.
 
-Klik op **[!UICONTROL Edit email content]** op de tab _[!UICONTROL Details]_in het rechterdeelvenster.
+Klik op **[!UICONTROL Edit email content]** op de tab _[!UICONTROL Details]_&#x200B;in het rechterdeelvenster.
 
-![ Klik op E-mailinhoud bewerken ](./assets/add-email-content.png){width="700" zoomable="yes"}
+![&#x200B; Klik op E-mailinhoud bewerken &#x200B;](./assets/add-email-content.png){width="700" zoomable="yes"}
 
 Met deze handeling worden de ontwerpgereedschappen voor e-mail gestart, waarin u kunt kiezen hoe u uw e-mail wilt ontwerpen op basis van de volgende opties:
 
-* [ Ontwerp uw e-mail van kras ](#design-your-email-from-scratch) gebruikend de interface van Designer E-mail.
+* [&#x200B; Ontwerp uw e-mail van kras &#x200B;](#design-your-email-from-scratch) gebruikend de interface van Designer E-mail.
 
-* [ voer bestaande inhoud van HTML ](#import-existing-html-content) van een dossier of een .zip omslag in.
+* [&#x200B; voer bestaande inhoud van HTML &#x200B;](#import-existing-html-content) van een dossier of een .zip omslag in.
 
-* [ selecteer een bestaand malplaatje ](#select-a-template) van een lijst van ingebouwde of douane e-mailmalplaatjes.
+* [&#x200B; selecteer een bestaand malplaatje &#x200B;](#select-a-template) van een lijst van ingebouwde of douane e-mailmalplaatjes.
 
 Nadat u de e-mailinhoud hebt gemaakt en aangepast, kunt u de inhoud exporteren voor validatie of later gebruik. Klik op **[!UICONTROL Export HTML]** om de inhoud op te slaan als een ZIP-bestand dat uw HTML en elementen bevat.
 
@@ -37,19 +37,19 @@ Nadat u de e-mailinhoud hebt gemaakt en aangepast, kunt u de inhoud exporteren v
 
 Gebruik de ruimte voor het ontwerpen van visuele inhoud om de structuur en inhoud van het e-mailbericht te definiëren. Door structurele componenten toe te voegen en te bewegen met eenvoudige belemmering-en-dalingsacties, kunt u de vorm van de herbruikbare e-mailinhoud binnen seconden ontwerpen.
 
-1. Selecteer de optie _[!UICONTROL Design your template]_op de startpagina van **[!UICONTROL Design from scratch]**.
+1. Selecteer de optie _[!UICONTROL Design your template]_&#x200B;op de startpagina van **[!UICONTROL Design from scratch]**.
 
-1. Kies in het dialoogvenster _[!UICONTROL Create email]_het type e-mailinhoud dat u wilt ontwerpen.
+1. Kies in het dialoogvenster _[!UICONTROL Create email]_&#x200B;het type e-mailinhoud dat u wilt ontwerpen.
 
    * **[!UICONTROL Use Themes]** - kies deze optie om e-mail op _wijze van het Thema_ tot stand te brengen. In deze modus kunt u een gedefinieerd merkthema gebruiken om het ontwerpproces voor inhoud te stroomlijnen en ervoor te zorgen dat het ontwerp wordt afgestemd op gedefinieerde standaarden.
 
    * **[!UICONTROL Manual Styling]** - kies deze optie om e-mail op _Handmatige wijze_ tot stand te brengen. In deze modus stelt u de opmaak handmatig in voor alle structuur- en inhoudscomponenten die u toevoegt aan het lege canvas.
 
-1. [ voegt structuur en inhoud ](./email-authoring.md#add-structure-and-content) aan het malplaatje toe.
+1. [&#x200B; voegt structuur en inhoud &#x200B;](./email-authoring.md#add-structure-and-content) aan het malplaatje toe.
 
-1. [ Overzicht en werk verbindingen ](#preview-and-edit-linked-urls) bij.
+1. [&#x200B; Overzicht en werk verbindingen &#x200B;](#preview-and-edit-linked-urls) bij.
 
-1. [ Test e-mail ](#check-and-test-the-email).
+1. [&#x200B; Test e-mail &#x200B;](#check-and-test-the-email).
 
 <!-- If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
 
@@ -63,7 +63,7 @@ Als u tevreden bent met de inhoud, klikt u op **[!UICONTROL Save]** .
 
 {{$include /help/_includes/content-design-import.md}}
 
-![ de invoer HTML- inhoud in een ZIP dossier ](./assets/email-import-zip-file.png){width="500"}
+![&#x200B; de invoer HTML- inhoud in een ZIP dossier &#x200B;](./assets/email-import-zip-file.png){width="500"}
 
 >[!NOTE]
 >
@@ -77,7 +77,7 @@ U kunt de geïmporteerde inhoud naar wens aanpassen met de gereedschappen in de 
 
 >[!NOTE]
 >
-> Op opgeslagen sjablonen kunnen governance-instellingen (inhoudvergrendeling) zijn toegepast op een of meer componenten. De visuele ontwerpruimte verstrekt richtlijnen over gesloten componenten wanneer u [ auteur een e-mail van een geregeerd malplaatje ](./email-authoring-governance.md).
+> Op opgeslagen sjablonen kunnen governance-instellingen (inhoudvergrendeling) zijn toegepast op een of meer componenten. De visuele ontwerpruimte verstrekt richtlijnen over gesloten componenten wanneer u [&#x200B; auteur een e-mail van een geregeerd malplaatje &#x200B;](./email-authoring-governance.md).
 
 ## Structuur en inhoud toevoegen {#structure-content}
 
@@ -91,9 +91,9 @@ Selecteer met ten minste één inhoudscomponent op het canvas de component **[!U
 
 >[!NOTE]
 >
->Als uw e-mailbericht gebruikend a [ malplaatje met gesloten inhoud ](./template-content-governance.md) wordt ontworpen, kunt u geen douaneCSS aan uw inhoud toevoegen. Het knoplabel verandert in **[!UICONTROL View custom CSS]** en eventuele aangepaste CSS die al in de inhoud aanwezig is, is alleen-lezen.
+>Als uw e-mailbericht gebruikend a [&#x200B; malplaatje met gesloten inhoud &#x200B;](./template-content-governance.md) wordt ontworpen, kunt u geen douaneCSS aan uw inhoud toevoegen. Het knoplabel verandert in **[!UICONTROL View custom CSS]** en eventuele aangepaste CSS die al in de inhoud aanwezig is, is alleen-lezen.
 
-![ heb toegang tot de lichaamstijlen ](./assets/email-body-styles.png){width="800" zoomable="yes"}
+![&#x200B; heb toegang tot de lichaamstijlen &#x200B;](./assets/email-body-styles.png){width="800" zoomable="yes"}
 
 {{$include /help/_includes/content-design-custom-css.md}}
 
@@ -105,7 +105,7 @@ Selecteer met ten minste één inhoudscomponent op het canvas de component **[!U
 
 {{$include /help/_includes/content-design-use-fragments.md}}
 
-Nadat het e-mailbericht is opgeslagen, wordt het weergegeven op de pagina met fragmentdetails wanneer u het tabblad _[!UICONTROL Used By]_in het overzicht selecteert.
+Nadat het e-mailbericht is opgeslagen, wordt het weergegeven op de pagina met fragmentdetails wanneer u het tabblad _[!UICONTROL Used By]_&#x200B;in het overzicht selecteert.
 
 ### Afbeeldingselementen toevoegen
 
@@ -121,7 +121,7 @@ Nadat het e-mailbericht is opgeslagen, wordt het weergegeven op de pagina met fr
 
 >[!NOTE]
 >
->Als _[!UICONTROL My Tokens]_is gedefinieerd voor de accountreis, kunt u deze reisspecifieke tokens ook gebruiken voor uw e-mailinhoud. Zie [ de tokens van de Douane voor e-mailverpersoonlijking ](./personalization-my-tokens.md) voor meer informatie.
+>Als _[!UICONTROL My Tokens]_&#x200B;is gedefinieerd voor de accountreis, kunt u deze reisspecifieke tokens ook gebruiken voor uw e-mailinhoud. Zie [&#x200B; de tokens van de Douane voor e-mailverpersoonlijking &#x200B;](./personalization-my-tokens.md) voor meer informatie.
 
 ### Gekoppelde URL-tracking bewerken
 
@@ -129,11 +129,11 @@ Nadat het e-mailbericht is opgeslagen, wordt het weergegeven op de pagina met fr
 
 ### Donkere modusstijl toepassen
 
-De wijze van het gebruik _Donker_ om uw e-mailvertoning voor een donker thema in een e-mailcliënt te herzien. In een donkere modus of een thema kan een ondersteunende e-mailclient of app e-mails weergeven met donkere achtergronden en lichtere kleuren voor tekst, knoppen en andere visuele elementen. Bij het hoogste recht van het ontwerpcanvas, verander de selecteur in _Donkere wijze_ ( ![ het de wijzepictogram van de Donkere wijze ](../assets/do-not-localize/icon-content-dark-mode.svg) ). Geef vervolgens een voorvertoning weer van de specifieke aangepaste instellingen die worden gebruikt voor weergave door de ondersteunende e-mailclients wanneer hun donkere thema is ingeschakeld.
+De wijze van het gebruik _Donker_ om uw e-mailvertoning voor een donker thema in een e-mailcliënt te herzien. In een donkere modus of een thema kan een ondersteunende e-mailclient of app e-mails weergeven met donkere achtergronden en lichtere kleuren voor tekst, knoppen en andere visuele elementen. Bij het hoogste recht van het ontwerpcanvas, verander de selecteur in _Donkere wijze_ ( ![&#x200B; het de wijzepictogram van de Donkere wijze &#x200B;](../assets/do-not-localize/icon-content-dark-mode.svg) ). Geef vervolgens een voorvertoning weer van de specifieke aangepaste instellingen die worden gebruikt voor weergave door de ondersteunende e-mailclients wanneer hun donkere thema is ingeschakeld.
 
-![ het ontwerpcanvas van e-mail die de donkere wijzekiezer en e-mailinhoud tonen op donkere wijze wordt getoond ](./assets/email-color-mode-dark-selector.png){width="700" zoomable="yes"}
+![&#x200B; het ontwerpcanvas van e-mail die de donkere wijzekiezer en e-mailinhoud tonen op donkere wijze wordt getoond &#x200B;](./assets/email-color-mode-dark-selector.png){width="700" zoomable="yes"}
 
-Voor meer informatie over donkere wijze het stileren en beste praktijken, zie [ Donkere wijze voor e-mailinhoud ](./email-dark-mode.md).
+Voor meer informatie over donkere wijze het stileren en beste praktijken, zie [&#x200B; Donkere wijze voor e-mailinhoud &#x200B;](./email-dark-mode.md).
 
 ### Weergaveopties
 
@@ -147,13 +147,13 @@ Gebruik de opties voor weergave- en inhoudsvalidatie die beschikbaar zijn in de 
 
 ## Meer opties
 
-Vanuit het menu _[!UICONTROL More ...]_boven aan de visuele ontwerpruimte kunt u de volgende handelingen uitvoeren:
+Vanuit het menu _[!UICONTROL More ...]_&#x200B;boven aan de visuele ontwerpruimte kunt u de volgende handelingen uitvoeren:
 
-![ klik Meer om tot malplaatjeacties ](./assets/email-designer-more-menu.png){width="500"} toegang te hebben
+![&#x200B; klik Meer om tot malplaatjeacties &#x200B;](./assets/email-designer-more-menu.png){width="500"} toegang te hebben
 
 * **[!UICONTROL Reset email]** - Klik op deze optie om het canvas voor het e-mailontwerp op een lege site te wissen en de opbouw van de inhoud opnieuw te starten.
 * **[!UICONTROL Save as fragment]** - Sla alle e-mailberichten of delen ervan op als een fragment dat opnieuw moet worden gebruikt in meerdere e-mailsjablonen of e-mailsjablonen. U geeft een naam en beschrijving voor het fragment op en slaat het op in de lijst met beschikbare fragmenten.
-* **[!UICONTROL Change your design]** - terugkeer aan het _Ontwerp uw e-mailpagina_. Vervolgens kunt u een andere sjabloon kiezen om het ontwerpproces opnieuw te starten. U kunt ook verkiezen om de inhoud van kras met een leeg canvas (_Klassieke wijze_) te ontwerpen of a [ merkthema ](./brand-themes.md) te gebruiken (_wijze van het Thema_).
+* **[!UICONTROL Change your design]** - terugkeer aan het _Ontwerp uw e-mailpagina_. Vervolgens kunt u een andere sjabloon kiezen om het ontwerpproces opnieuw te starten. U kunt ook verkiezen om de inhoud van kras met een leeg canvas (_Klassieke wijze_) te ontwerpen of a [&#x200B; merkthema &#x200B;](./brand-themes.md) te gebruiken (_wijze van het Thema_).
 * **[!UICONTROL Save as content template]** - Sla de e-mailtekst op als een e-mailsjabloon die opnieuw moet worden gebruikt in meerdere e-mails of e-mailsjablonen. U geeft een naam en beschrijving voor de sjabloon op en slaat deze op in de lijst met opgeslagen e-mailsjablonen.
 * **[!UICONTROL Export HTML]** - Download de inhoud in het visuele canvas naar uw lokale systeem in de HTML-indeling die is verpakt als een zip-bestand.
 
@@ -161,9 +161,9 @@ Vanuit het menu _[!UICONTROL More ...]_boven aan de visuele ontwerpruimte kunt u
 
 Wanneer de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken om deze voor te vertonen, proefdrukken te verzenden en de weergave ervan in hoogte-breedteverhoudingen voor desktops en mobiele apparaten te bekijken. Als u persoonlijke inhoud hebt ingevoegd, kunt u met testprofielgegevens een voorvertoning weergeven van de weergave van deze inhoud in het bericht.
 
-Om [ voorproef de e-mailinhoud ](./email-simulate-content.md), klik **[!UICONTROL Simulate content]** en selecteer een testprofiel om uw bericht te controleren gebruikend de gegevens van het persoonprofiel.
+Om [&#x200B; voorproef de e-mailinhoud &#x200B;](./email-simulate-content.md), klik **[!UICONTROL Simulate content]** en selecteer een testprofiel om uw bericht te controleren gebruikend de gegevens van het persoonprofiel.
 
-![ Simuleer de e-mailinhoud om uw ontwerp te controleren ](./assets/email-designer-simulate-content.png){width="700" zoomable="yes"}
+![&#x200B; Simuleer de e-mailinhoud om uw ontwerp te controleren &#x200B;](./assets/email-designer-simulate-content.png){width="700" zoomable="yes"}
 
 U hebt toegang tot aanvullende gereedschappen voor het valideren en reviseren van de e-mailinhoud:
 
