@@ -1,9 +1,9 @@
 ---
 user-guide-title: Documentatie voor de B2B-editie van Journey Optimizer
 user-guide-description: Meer informatie over Adobe Journey Optimizer B2B Edition en hoe u deze kunt gebruiken om account- en inkoopgroeptrajecten te orkestreren met behulp van ingebouwde generatieve AI en toonaangevende automatisering.
-source-git-commit: 68afc2a865a7640f4fd4d5a08ca2299bdc134887
+source-git-commit: e66d4fe77152ed4edb1c929fd1d38ac693e83ed2
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '329'
 ht-degree: 18%
 
 ---
@@ -25,6 +25,7 @@ ht-degree: 18%
    + [AI-assistent gebruiken](./ai-assistant/use-ai-assistant.md)
 + Accountreizen {#account-journeys}
    + [Overzicht](./journeys/journey-overview.md)
+   + [Journey Build Agent](./agents/journey-agent.md)
    + [Een reis maken en publiceren](./journeys/create-publish-journey.md)
    + [Reisknooppunten](./journeys/journey-nodes.md)
    + Reisknooppunten {#journey-nodes}
@@ -40,12 +41,14 @@ ht-degree: 18%
       + [E-mailontwerp](./content/email-authoring.md)
       + [AI Assistant voor het schrijven van e-mail](./content/ai-assistant-emails.md)
       + [GenStudio-workflows](./content/genstudio-email-workflow.md)
+      + [Donkere modus voor e-mailontwerp](./content/email-dark-mode.md)
       + [Beheerde sjablonen](./content/email-authoring-governance.md)
       + [E-mail met verkoopwaarschuwing](./content/sales-alert-email.md)
    + [Aangepaste personalisatie-tokens](./content/personalization-my-tokens.md)
    + [SMS-authoring](./content/sms-authoring.md)
 + Accounts {#accounts}
    + [Soorten publiek](./audiences/account-audience-overview.md)
+   + [Audience-agent](./agents/audience-agent-b2b.md)
    + Koopgroepen {#buying-groups}
       + [Overzicht](./buying-groups/buying-groups-overview.md)
       + [Oplossingsbelangen](./buying-groups/solution-interests.md)
@@ -74,6 +77,7 @@ ht-degree: 18%
          + [Inhoud simuleren](./content/email-simulate-content.md)
          + [E-mailrendering testen](./content/email-test-rendering.md)
          + [Spam-rapport](./content/email-spam-report.md)
+      + [E-mailsamenwerking](./content/email-collaboration-tools.md)
    + Assets {#assets}
       + [Overzicht](./content/assets-overview.md)
       + Marketo Engage-middelen {#marketo-engage-dam}
