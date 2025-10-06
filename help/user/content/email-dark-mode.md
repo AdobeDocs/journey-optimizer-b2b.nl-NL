@@ -27,9 +27,9 @@ ht-degree: 0%
 
 _Donkere wijze_ staat een ondersteunende e-mailcliënt of app toe om e-mail met donkere achtergronden en lichtere kleuren voor tekst, knopen, en andere visuele elementen te tonen. Dit type beeldscherm kan de oogdruk verminderen, de gebruiksduur van de batterij verminderen en de leesbaarheid in omgevingen met weinig licht verbeteren voor een comfortabeler kijkervaring. Het is nu een belangrijke overweging in het moderne e-mailontwerp om ervoor te zorgen dat de inhoud leesbaar blijft en visueel aantrekkelijk voor alle gebruikers is, omdat dit een groeiende trend is voor grote besturingssystemen en toepassingen.
 
-![&#x200B; Licht en donker diagram van het wijzeconcept die inhoud tonen die in zowel lichte als donkere thema&#39;s teruggeeft &#x200B;](../assets/do-not-localize/light-dark-mode.svg){width="50%"}
+![ Licht en donker diagram van het wijzeconcept die inhoud tonen die in zowel lichte als donkere thema&#39;s teruggeeft ](../assets/do-not-localize/light-dark-mode.svg){width="50%"}
 
-Aangezien u [&#x200B; uw e-mailinhoud &#x200B;](./email-authoring.md) in de [!DNL Journey Optimizer B2B Edition] visuele ontwerpruimte creeert, kunt u op de _&#x200B;**[!UICONTROL Dark mode]**&#x200B;_mening schakelen. In deze weergave kunt u ook specifieke aangepaste instellingen definiëren voor ondersteuning van e-mailclients wanneer de donkere modus is ingeschakeld.
+Aangezien u [ uw e-mailinhoud ](./email-authoring.md) in de [!DNL Journey Optimizer B2B Edition] visuele ontwerpruimte creeert, kunt u op de _**[!UICONTROL Dark mode]**_mening schakelen. In deze weergave kunt u ook specifieke aangepaste instellingen definiëren voor ondersteuning van e-mailclients wanneer de donkere modus is ingeschakeld.
 
 ## Overwegingen voor e-mailclient
 
@@ -77,7 +77,7 @@ Veel van de populairste e-mailclients bieden de optie om de aangepaste donkere m
 
 In dit geval worden de specifieke instellingen die u in [!DNL Journey Optimizer B2B Edition] definieert, gerenderd. Sommige beperkingen kunnen echter van toepassing zijn voor elke e-mailclient. Sommige clients (zoals Apple Mail 16 (macOS 13)) genereren bijvoorbeeld geen donkere modus als de e-mailinhoud afbeeldingen bevat.
 
-Voor optimale resultaten test u de inhoud met de e-mailclients waarop u zich richt. Om een simulatie te zien die zo dicht mogelijk bij het definitieve resultaat voor elke cliënt komt, gebruik de [&#x200B; Loodse e-mailtest die &#x200B;](./email-test-rendering.md) integratie teruggeeft in de e-mailontwerpruimte teruggeeft.
+Voor optimale resultaten test u de inhoud met de e-mailclients waarop u zich richt. Om een simulatie te zien die zo dicht mogelijk bij het definitieve resultaat voor elke cliënt komt, gebruik de [ Loodse e-mailtest die ](./email-test-rendering.md) integratie teruggeeft in de e-mailontwerpruimte teruggeeft.
 
 +++
 
@@ -85,7 +85,7 @@ Voor optimale resultaten test u de inhoud met de e-mailclients waarop u zich ric
 
 Als u uw e-mailinhoud opmaakt in de donkere modus van [!DNL Journey Optimizer B2B Edition] , beschikt de visuele ontwerpruimte over twee typen gereedschappen:
 
-* Gebruik de [&#x200B; voorproeffunctie &#x200B;](#preview-default-dark-mode) om het gebrek te herzien donkere wijze die voor de meeste steunende e-mailcliënten teruggeeft.
+* Gebruik de [ voorproeffunctie ](#preview-default-dark-mode) om het gebrek te herzien donkere wijze die voor de meeste steunende e-mailcliënten teruggeeft.
 
 * Als u de standaardinstellingen voor het ondersteunen van e-mailclients wilt overschrijven, definieert en past u aangepaste instellingen voor de donkere modus toe op uw e-mailinhoud. [Meer informatie](#define-custom-dark-mode)
 
@@ -100,19 +100,19 @@ Als u uw e-mailinhoud opmaakt in de donkere modus van [!DNL Journey Optimizer B2
 
    Rechtsboven op het canvas ziet u een lichtdonkere kiezer die de weergave van de inhoud schakelt tussen de lichte (standaard) en donkere modus.
 
-   ![&#x200B; E-mail ontwerpcanvas die de lichte wijzesselecteur in de hoogste juiste hoek tonen &#x200B;](./assets/email-color-mode-light-selector.png){width="700" zoomable="yes"}
+   ![ E-mail ontwerpcanvas die de lichte wijzesselecteur in de hoogste juiste hoek tonen ](./assets/email-color-mode-light-selector.png){width="700" zoomable="yes"}
 
-1. Verander de selecteur in _Donkere wijze_ ( ![&#x200B; Donker wijzepictogram &#x200B;](../assets/do-not-localize/icon-content-dark-mode.svg) ).
+1. Verander de selecteur in _Donkere wijze_ ( ![ Donker wijzepictogram ](../assets/do-not-localize/icon-content-dark-mode.svg) ).
 
    Het canvas geeft de inhoud weer met behulp van de standaard donkere modus preview.x
 
    Standaard wordt in de voorvertoning in de donkere modus het kleurenschema `full color invert` toegepast op alle elementen behalve afbeeldingen en pictogrammen. Dit kleurenschema detecteert gebieden met lichte en donkere elementen en keert deze om. Lichte achtergronden worden donker en donkere tekst wordt licht, of donkere achtergronden worden licht en lichte tekst wordt donker.
 
-   ![&#x200B; het ontwerpcanvas van e-mail die de donkere wijzekiezer en e-mailinhoud tonen op donkere wijze wordt getoond &#x200B;](./assets/email-color-mode-dark-selector.png){width="700" zoomable="yes"}
+   ![ het ontwerpcanvas van e-mail die de donkere wijzekiezer en e-mailinhoud tonen op donkere wijze wordt getoond ](./assets/email-color-mode-dark-selector.png){width="700" zoomable="yes"}
 
 >[!CAUTION]
 >
->De uiteindelijke rendering kan variëren afhankelijk van de e-mailclient van de ontvanger. Om een simulatie te zien die zo dicht mogelijk bij het definitieve resultaat voor elke e-mailcliënt komt, gebruik de [&#x200B; de testLeiding e-mail teruggevende &#x200B;](./email-test-rendering.md) integratie.
+>De uiteindelijke rendering kan variëren afhankelijk van de e-mailclient van de ontvanger. Om een simulatie te zien die zo dicht mogelijk bij het definitieve resultaat voor elke e-mailcliënt komt, gebruik de [ de testLeiding e-mail teruggevende ](./email-test-rendering.md) integratie.
 
 ### Aangepaste instellingen voor de donkere modus definiëren {#custom-dark-mode}
 
@@ -125,35 +125,35 @@ Na het schakelen naar de donkere modus kunt u specifieke opmaakelementen van uw 
 
 >[!NOTE]
 >
->De uiteindelijke rendering in de donkere modus is afhankelijk van elke e-mailclient. De resultaten kunnen dus per e-mailclient verschillen. Herzie de [&#x200B; overwegingen van de e-mailcliënt &#x200B;](#email-client-considerations) voor meer informatie.
+>De uiteindelijke rendering in de donkere modus is afhankelijk van elke e-mailclient. De resultaten kunnen dus per e-mailclient verschillen. Herzie de [ overwegingen van de e-mailcliënt ](#email-client-considerations) voor meer informatie.
 
 De douane donkere wijze het stileren in de e-mailontwerpruimte gebruikt <!-- `@media (prefers-color-scheme: dark)` method--> `@media (prefers-color-scheme: dark)` CSS-query, die detecteert of de e-mailclient is ingesteld op de donkere modus en past het donkere ontwerp toe dat is gedefinieerd in uw e-mail.
 
 _Aangepaste instellingen voor de donkere modus definiëren :_
 
-1. Indien nodig, verplaats de selecteur naar _Donkere wijze_ ( ![&#x200B; Donkere wijzepictogram &#x200B;](../assets/do-not-localize/icon-content-dark-mode.svg)) bij het hoogste recht van het ontwerpcanvas.
+1. Indien nodig, verplaats de selecteur naar _Donkere wijze_ ( ![ Donkere wijzepictogram ](../assets/do-not-localize/icon-content-dark-mode.svg)) bij het hoogste recht van het ontwerpcanvas.
 
 1. Bewerk alle opmaakkleurkenmerken, zoals tekst, achtergronden of knoppen.
 
-   ![&#x200B; het stileren van de wijzetekst van de donkere wijze instellingenpaneel die kleur en doopvontopties toont &#x200B;](./assets/email-color-mode-dark-text-settings.png){width="700" zoomable="yes"}
+   ![ het stileren van de wijzetekst van de donkere wijze instellingenpaneel die kleur en doopvontopties toont ](./assets/email-color-mode-dark-text-settings.png){width="700" zoomable="yes"}
 
 1. Voor de afbeeldingen en pictogrammen definieert u specifieke elementen alleen voor de donkere modus.
 
    U kunt de kleuren van afbeeldingen en pictogrammen niet wijzigen, maar u kunt wel alternatieve elementen definiëren voor de donkere modus. U kunt experimenteren met verschillende kleurcombinaties voor uw pictogrammen of u kunt de kleur en verzadiging van fotografische afbeeldingen aanpassen.
 
-   ![&#x200B; Pictogrammen met verschillende kleurencombinaties &#x200B;](../assets/do-not-localize/color-contrast-images-diagram.svg){width="80%"}
+   ![ Pictogrammen met verschillende kleurencombinaties ](../assets/do-not-localize/color-contrast-images-diagram.svg){width="80%"}
 
    Selecteer een willekeurige afbeelding en schakel over naar **[!UICONTROL Dark mode]** met de daarvoor bestemde schakeloptie in het deelvenster **[!UICONTROL Settings]** . Selecteer vervolgens een ander afbeeldingselement.
 
-   ![&#x200B; de montages die van het de wijzebeeld van de Donker optie tonen om verschillende beeldactiva voor donkere wijze te selecteren &#x200B;](./assets/email-color-mode-dark-image-settings.png){width="700" zoomable="yes"}
+   ![ de montages die van het de wijzebeeld van de Donker optie tonen om verschillende beeldactiva voor donkere wijze te selecteren ](./assets/email-color-mode-dark-image-settings.png){width="700" zoomable="yes"}
 
-   Zie [&#x200B; beeldactiva &#x200B;](./email-authoring.md#add-image-assets) voor meer informatie over het selecteren van een beeldactiva toevoegen.
+   Zie [ beeldactiva ](./email-authoring.md#add-image-assets) voor meer informatie over het selecteren van een beeldactiva toevoegen.
 
 1. Selecteer **[!UICONTROL Switch to live view]** om te controleren hoe uw inhoud op verschillende apparaatgrootten kan worden gerenderd.
 
-   Van deze mening, verander de selecteur in _Donkere wijze_ ( ![&#x200B; Donkere wijzepictogram &#x200B;](../assets/do-not-localize/icon-content-dark-mode.svg)) om de donkere wijzeversie van uw inhoud over de verschillende apparaten voor te vertonen.
+   Van deze mening, verander de selecteur in _Donkere wijze_ ( ![ Donkere wijzepictogram ](../assets/do-not-localize/icon-content-dark-mode.svg)) om de donkere wijzeversie van uw inhoud over de verschillende apparaten voor te vertonen.
 
-   ![&#x200B; Levend meningspaneel dat e-mailinhoud op donkere wijze over verschillende apparatengrootte toont &#x200B;](./assets/email-color-mode-dark-live-view.png){width="800" zoomable="yes"}
+   ![ Levend meningspaneel dat e-mailinhoud op donkere wijze over verschillende apparatengrootte toont ](./assets/email-color-mode-dark-live-view.png){width="800" zoomable="yes"}
 
    >[!CAUTION]
    >
@@ -161,13 +161,13 @@ _Aangepaste instellingen voor de donkere modus definiëren :_
 
 1. Klik op **[!UICONTROL Simulate Content]** wanneer de wijzigingen in de donkere modus zijn voltooid.
 
-   ![&#x200B; E-mail die het ontwerpcanvas met de knoop van de Inhoud simuleren voor het testen van donkere wijze wordt benadrukt &#x200B;](./assets/email-color-mode-dark-simulate-content.png){width="700" zoomable="yes"}
+   ![ E-mail die het ontwerpcanvas met de knoop van de Inhoud simuleren voor het testen van donkere wijze wordt benadrukt ](./assets/email-color-mode-dark-simulate-content.png){width="700" zoomable="yes"}
 
-   Met de gereedschappen Voorvertoning en Proofing kunt u het e-mailontwerp testen. Zie [&#x200B; Voorproef en test uw e-mailinhoud &#x200B;](./email-simulate-content.md) voor meer informatie.
+   Met de gereedschappen Voorvertoning en Proofing kunt u het e-mailontwerp testen. Zie [ Voorproef en test uw e-mailinhoud ](./email-simulate-content.md) voor meer informatie.
 
 1. Als u een Litmus Enterprise-account hebt, selecteert u **[!UICONTROL Render email]** om de uiteindelijke rendering in donkere modus weer te geven voor verschillende e-mailclients in de Litmus.
 
-   Zie [&#x200B; e-mailteruggeven van de Test met Litmus &#x200B;](./email-test-rendering.md) voor meer informatie.
+   Zie [ e-mailteruggeven van de Test met Litmus ](./email-test-rendering.md) voor meer informatie.
 
    >[!CAUTION]
    >
@@ -175,7 +175,7 @@ _Aangepaste instellingen voor de donkere modus definiëren :_
 
 ## Best practices {#best-practices}
 
-Aangezien de donkere wijzetoepassing over belangrijke e-mailcliënten stijgt, is het essentieel om te overwegen hoe uw e-mail in zowel lichte als donkere milieu&#39;s teruggeeft - of u [&#x200B; douane donkere wijze &#x200B;](#define-custom-dark-mode) of niet gebruikt.
+Aangezien de donkere wijzetoepassing over belangrijke e-mailcliënten stijgt, is het essentieel om te overwegen hoe uw e-mail in zowel lichte als donkere milieu&#39;s teruggeeft - of u [ douane donkere wijze ](#define-custom-dark-mode) of niet gebruikt.
 
 In de donkere modus kunt u kleuren, achtergronden en afbeeldingen wijzigen. Soms worden ontwerpkeuzen genegeerd. Volg de volgende aanbevolen procedures om de visuele consistentie, toegankelijkheid en brandintegriteit te garanderen:
 
@@ -184,7 +184,7 @@ In de donkere modus kunt u kleuren, achtergronden en afbeeldingen wijzigen. Soms
 | Afbeeldingen en logo&#39;s optimaliseren | Checklist:<ul><li>Logo&#39;s en pictogrammen opslaan als PNG-bestanden met transparante achtergronden om zichtbare witte vakken in de donkere modus te voorkomen. <li>Vermijd afbeeldingen met een hardcodeerde witte of lichte achtergrond. <li>Als transparantie geen optie is, plaatst u afbeeldingen op een effen achtergrond in uw ontwerp om ongewenste kleurinversies te voorkomen. |
 | Achtergronden bekijken | Checklist:<ul><li>Zorg voor voldoende contrast tussen tekst en achtergrondkleuren voor leesbaarheid in zowel de lichte als de donkere modus. <li>Vertrouw niet alleen op achtergrondkleuren voor essentiële inhoud. Sommige clients overschrijven achtergrondkleuren in de donkere modus, zodat de essentiële informatie nog steeds zichtbaar is. |
 | Toegankelijke inhoud ontwerpen in donkere modus | Checklist:<ul><li>Gebruik kleurcombinaties die u gemakkelijk kunt herkennen voor mensen met kleurenblindheid. <li>Gebruik een palet met middentonen om contrast tegen zowel lichte als donkere achtergronden te waarborgen. <li>Gebruik toegankelijke kleurcombinaties met hoog contrast om de leesbaarheid te verbeteren en aan [!DNL Web Content Accessibility Guidelines (WCAG)] -standaarden te voldoen. Gebruik gereedschappen zoals [!DNL WebAIM Contrast Checker] om het kleurcontrast te controleren. <li>Vermijd dunne lettertypen omdat dit van invloed is op de leesbaarheid. Als uw merk een dun lettertype nodig heeft, kunt u het vet in de donkere modus drukken. <li>Overslaan puur wit op puur zwart, wat oogdruk kan veroorzaken en automatisch kan worden omgekeerd in sommige e-mailclients. <li>Maak toegankelijke fallback-stijlen als de donkere modus niet wordt ondersteund. |
-| Test uw e-mails in een donkere modus | Checklist:<ul><li>Gebruik de [&#x200B; donkere wijzevoorproef &#x200B;](#preview-dark-mode) in de e-mailontwerpruimte, die omgekeerde kleurenschema&#39;s aan vlekkwesties vroeg gebruikt. <li>Gebruik een Litmus Enterprise-account met de optie [[!UICONTROL Render email]](./email-test-rendering.md) om uw ontwerpen te simuleren voor verschillende grote e-mailclients (zoals Apple Mail, Gmail en Outlook) en om te zien hoe kleuren en afbeeldingen zich gedragen in de donkere modus. |
+| Test uw e-mails in een donkere modus | Checklist:<ul><li>Gebruik de [ donkere wijzevoorproef ](#preview-dark-mode) in de e-mailontwerpruimte, die omgekeerde kleurenschema&#39;s aan vlekkwesties vroeg gebruikt. <li>Gebruik een Litmus Enterprise-account met de optie [[!UICONTROL Render email]](./email-test-rendering.md) om uw ontwerpen te simuleren voor verschillende grote e-mailclients (zoals Apple Mail, Gmail en Outlook) en om te zien hoe kleuren en afbeeldingen zich gedragen in de donkere modus. |
 
 <!--KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on this page.
 If needed, it can be moved to the Design accessible content page:
