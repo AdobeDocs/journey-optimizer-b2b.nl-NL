@@ -37,7 +37,7 @@ De beheerders van het product kunnen toegang tot de hulpmiddelen van de e-mailsa
 
 +++ E-mailmachtigingen inschakelen
 
-1. In de toepassing van Toestemmingen, ga naar het **[!UICONTROL Roles]** lusje en selecteer de gewenste [&#x200B; rol &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/roles){target="_blank"}.
+1. In de toepassing van Toestemmingen, ga naar het **[!UICONTROL Roles]** lusje en selecteer de gewenste [&#x200B; rol &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/abac/permissions-ui/roles){target="_blank"}.
 
 1. Klik op **[!UICONTROL Edit]** om de machtigingen te wijzigen.
 
@@ -53,7 +53,7 @@ De beheerders van het product kunnen toegang tot de hulpmiddelen van de e-mailsa
 
    * Voer de gebruikersnaam en het e-mailadres in of kies een bestaande gebruiker in de lijst.
 
-     Als de gebruiker nog niet wordt gecreeerd, verwijs naar de [&#x200B; documentatie van Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}.
+     Als de gebruiker nog niet wordt gecreeerd, verwijs naar de [&#x200B; documentatie van Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}.
 
    * Klik op **[!UICONTROL Save]** om de wijzigingen toe te passen.
 
