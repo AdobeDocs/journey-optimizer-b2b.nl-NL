@@ -4,9 +4,9 @@ description: Auteur herbruikbare e-mailsjablonen met visuele ontwerpgereedschapp
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 9f8953423e3b6d578155431c7638e4fec9abf86a
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -37,9 +37,9 @@ Selecteer met ten minste één inhoudscomponent op het canvas de component **[!U
 
 {{$include /help/_includes/content-design-use-fragments.md}}
 
-Nadat de sjabloon is opgeslagen, wordt deze weergegeven op de pagina met fragmentdetails wanneer u het tabblad _[!UICONTROL Used By]_&#x200B;in het overzicht selecteert.
+Nadat de sjabloon is opgeslagen, wordt deze weergegeven op de pagina met fragmentdetails wanneer u het tabblad _[!UICONTROL Used By]_in het overzicht selecteert.
 
-### Elementen toevoegen
+### Afbeeldingselementen toevoegen
 
 {{$include /help/_includes/content-design-assets.md}}
 
@@ -55,6 +55,14 @@ Nadat de sjabloon is opgeslagen, wordt deze weergegeven op de pagina met fragmen
 
 {{$include /help/_includes/content-design-links.md}}
 
+### Donkere modusstijl toepassen
+
+De wijze van het gebruik _Donker_ om uw e-mailvertoning voor een donker thema in een e-mailcliënt te herzien. In een donkere modus of een thema kan een ondersteunende e-mailclient of app e-mails weergeven met donkere achtergronden en lichtere kleuren voor tekst, knoppen en andere visuele elementen. Bij het hoogste recht van het ontwerpcanvas, verander de selecteur in _Donkere wijze_ ( ![ het de wijzepictogram van de Donkere wijze ](../assets/do-not-localize/icon-content-dark-mode.svg) ). Geef vervolgens een voorvertoning weer van de specifieke aangepaste instellingen die worden gebruikt voor weergave door de ondersteunende e-mailclients wanneer hun donkere thema is ingeschakeld.
+
+![ het ontwerpcanvas van e-mail die de donkere wijzekiezer en e-mailinhoud tonen op donkere wijze wordt getoond ](./assets/email-color-mode-dark-selector.png){width="700" zoomable="yes"}
+
+Voor meer informatie over donkere wijze het stileren en beste praktijken, zie [ Donkere wijze voor e-mailinhoud ](./email-dark-mode.md).
+
 ## Weergaveopties
 
 Gebruik de opties voor weergave- en inhoudsvalidatie die beschikbaar zijn in de ruimte van het visuele ontwerp.
@@ -67,7 +75,7 @@ Gebruik de opties voor weergave- en inhoudsvalidatie die beschikbaar zijn in de 
 
 ### Meer opties
 
-Vanuit het menu _[!UICONTROL More ...]_&#x200B;boven aan de ontwerpruimte voor e-mail kunt u de volgende handelingen uitvoeren:
+Vanuit het menu _[!UICONTROL More ...]_boven aan de ontwerpruimte voor e-mail kunt u de volgende handelingen uitvoeren:
 
 ![ klik Meer om tot malplaatjeacties ](./assets/visual-designer-more-menu.png){width="500"} toegang te hebben
 

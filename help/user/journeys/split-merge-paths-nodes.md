@@ -4,9 +4,9 @@ description: U kunt padknooppunten splitsen en samenvoegen om accounts en person
 feature: Account Journeys
 role: User
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
+source-git-commit: 2bd5c21221da6b1e747bb133cd17c38225539ada
 workflow-type: tm+mt
-source-wordcount: '1948'
+source-wordcount: '2271'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ A _Gesplitste wegen_ knoop bepaalt één of meerdere gesegmenteerde wegen die op
 
 Splitsen op basis van accounts kan zowel handelingen als gebeurtenissen voor account en personen bevatten. Deze paden kunnen verder worden gesplitst.
 
-_&#x200B;**hoe een gespleten weg door rekeningsknoop**&#x200B;_ werkt
+_**hoe een gespleten weg door rekeningsknoop**_ werkt
 
 * Elk pad dat u toevoegt, bevat een eindknooppunt met de mogelijkheid om knooppunten aan elke rand toe te voegen.
 * Splitsen op accountknooppunten kan worden genest (u kunt het pad herhaaldelijk splitsen op accounts).
@@ -42,7 +42,12 @@ _&#x200B;**hoe een gespleten weg door rekeningsknoop**&#x200B;_ werkt
 | Padvoorwaarden | Beschrijving |
 | --------------- | ----------- |
 | Accountkenmerken | Attributen van het accountprofiel, waaronder: <li>Jaarlijkse ontvangsten <li>Stad <li>Land <li>Werknemersgrootte <li>Marktsegment <li>Naam <li>SIC-code <li>Staat |
-| [!UICONTROL Special filters] > [!UICONTROL Has Buying Group] | De account heeft al dan niet leden van kopersgroepen. Het kan ook worden beoordeeld aan de hand van een of meer van de volgende criteria: <li>Belang van oplossing <li>Status van kopersgroep <li>Complete score <li>Engagement Score |
+| [!UICONTROL Special filters] > [!UICONTROL Account has matched buying group] | De account komt overeen met een of meer inkoopgroepen. Deze kan worden beoordeeld aan de hand van een of meer van de volgende beperkingen voor een overeenkomende koopgroep: <li>Belang van oplossing <li>Fase van kopersgroep <li>Status van kopersgroep <li>Engagement Score <li>Complete score <li> Aantal personen in groepsrol kopen |
+| [!UICONTROL Special filters] > [!UICONTROL Has Buying Group] | De account heeft al dan niet leden van kopersgroepen. Het kan ook worden beoordeeld aan de hand van een of meer van de volgende criteria: <li>Belang van oplossing <li>Fase van kopersgroep <li>Status van kopersgroep <li>Engagement Score <li>Complete score |
+
+>[!NOTE]
+>
+>Het filter _[!UICONTROL Has Buying Group]_wordt gemarkeerd voor toekomstige veroudering. Gebruik voor nieuwe ritten het filter_[!UICONTROL Account has matched buying group]_ , dat alle zelfde beperkingen omvat.
 
 ### Een gesplitst pad toevoegen per accountknooppunt
 
@@ -62,7 +67,7 @@ _&#x200B;**hoe een gespleten weg door rekeningsknoop**&#x200B;_ werkt
 
    * Filterkenmerken slepen en neerzetten vanuit de linkernavigatie en de overeenkomende definitie voltooien.
 
-   * Pas de condities aan door de **[!UICONTROL Filter logic]** aan de bovenkant toe te passen. U kiest ervoor om alle kenmerkvoorwaarden of een voorwaarde aan te passen.
+   * Pas de condities aan door de **[!UICONTROL Filter logic]** aan de bovenkant toe te passen. U kiest ervoor om alle filters of een filter aan te passen.
 
      ![ Gesplitste wegknoop - de logica van de voorwaardenrekeningen ](./assets/node-split-conditions-accounts.png){width="700" zoomable="yes"}
 
@@ -84,11 +89,39 @@ _&#x200B;**hoe een gespleten weg door rekeningsknoop**&#x200B;_ werkt
 
    Wanneer deze optie niet wordt toegelaten, eindigt de reis voor rekeningen die geen bepaald segment/weg binnen de splitsing aanpassen.
 
+### Groepfiltering voor accounts kopen {#buying-group-filtering-accounts}
+
+U kunt een pad definiëren voor accounts die aan inkoopgroepen zijn gekoppeld en het pad filteren aan de hand van criteria voor inkoopgroepen. Gebruik het filter **[!UICONTROL Account has matched buying group]** om het padsegment te definiëren met behulp van een overeenkomende inkoopgroep. Dit filter omvat ook die optie om rekeningen te identificeren die op het aantal toegewezen rollen binnen een overeenkomende het kopen groep worden gebaseerd.
+
+U wilt bijvoorbeeld de gereedheid van de inkoopgroep evalueren op basis van de diepte (aantal personen) die het opneemt in verschillende rollen, zoals drie besluitvormers en twee beïnvloedende instanties. In dit geval stelt u de voorwaarde in om de rekeningen te richten op ten minste drie (3) Besluitvormers en twee (2) Influencers in een gematchte koopgroep:
+
+1. Klik op **[!UICONTROL Add filter]** en kies het filter **[!UICONTROL Number of people in buying group role]** .
+
+   ![ voeg filter voor Rekening toe heeft het kopen groep aangepast en kies Aantal mensen in het kopen van groepsrol ](./assets/node-split-account-condition-matched-buying-group-number-people-role.png){width="700" zoomable="yes"}
+
+1. Definieer de eerste rolparameter.
+
+   * Stel het aantal personen dat wordt geëvalueerd in op `at least` met de waarde `3` .
+   * Stel de rolevaluatie in op `is` en kies `Decision Maker` in de lijst met rollen.
+
+1. Herhaal stap 1 om nog een inkoopgroeprolparameter toe te voegen.
+
+1. Definieer de tweede rolparameter.
+
+   * Stel het aantal personen dat wordt geëvalueerd in op `at least` met de waarde `2` .
+   * Stel de rolevaluatie in op `is` en kies `Influencer` in de lijst met rollen.
+
+   ![ Voorwaarden voorbeeld voor roldiepte in het weerspiegelen het kopen groep voor een rekening ](./assets/node-split-account-condition-matched-buying-group-role-depth-example.png){width="700" zoomable="yes"}
+
+1. Klik op **[!UICONTROL Done]** als u alle voorwaarden voor het pad hebt gedefinieerd.
+
+Voor de geïdentificeerde accounts kunt u een actieknooppunt toevoegen aan het pad om de status van de inkoopgroep of het aankoopstadium bij te werken of een e-mail met een verkoopwaarschuwing te verzenden.
+
 ## Paden splitsen op personen
 
 Paden splitsen op basis van personen kunnen alleen acties voor personen bevatten. Deze paden kunnen niet opnieuw worden gesplitst en automatisch met elkaar worden verbonden.
 
-_&#x200B;**hoe een gespleten weg door de knoop van mensen**&#x200B;_ werkt
+_**hoe een gespleten weg door de knoop van mensen**_ werkt
 
 * Splitsen door de functie van personenknopen binnen a _gegroepeerde knoop_ spleet-fusie combinatie. De gesplitste paden worden automatisch samengevoegd, zodat alle mensen naar de volgende stap kunnen gaan zonder hun accountcontext te verliezen.
 * Splitsen op basis van knooppunten kan niet worden genest (u kunt geen gesplitst pad toevoegen voor personen op een pad dat zich in dit gegroepeerde knooppunt bevindt).
@@ -98,11 +131,11 @@ _&#x200B;**hoe een gespleten weg door de knoop van mensen**&#x200B;_ werkt
 
 ![ knoop van de Reis - gespleten wegen door mensen ](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
-### Padvoorwaarden voor personen
+### Padfilters voor personen
 
-| Padvoorwaarden | Beschrijving |
-| --------------- | ----------- |
-| [!UICONTROL Activity history] > [!UICONTROL Email] | E-mailactiviteiten die zijn gebaseerd op voorwaarden die zijn geëvalueerd aan de hand van een of meer geselecteerde e-mailberichten van eerder in de reis: <li>[!UICONTROL Clicked link in email] <li>Geopende e-mail <li>Is per e-mail verzonden <li>Is verzonden via e-mail <br>**[!UICONTROL Switch to inactivity filter]**- Gebruik deze optie om te filteren op basis van een gebrek aan activiteit (een persoon had de e-mailactiviteit niet). |
+| Filters | Beschrijving |
+| ------------ | ----------- |
+| [!UICONTROL Activity history] > [!UICONTROL Email] | E-mailactiviteiten die zijn gebaseerd op voorwaarden die zijn geëvalueerd aan de hand van een of meer geselecteerde e-mailberichten van eerder in de reis: <li>[!UICONTROL Clicked link in email] <li>E-mail geopend <li>Is per e-mail verzonden <li>Is verzonden via e-mail <br>**[!UICONTROL Switch to inactivity filter]**- Gebruik deze optie om te filteren op basis van een gebrek aan activiteit (een persoon had de e-mailactiviteit niet). |
 | [!UICONTROL Activity history] > [!UICONTROL SMS Message] | De activiteiten van SMS die op voorwaarden worden gebaseerd die gebruikend één of meerdere geselecteerde SMS berichten van vroeger in de reis worden geëvalueerd: <li>[!UICONTROL Clicked link in SMS] <li>[!UICONTROL SMS Bounced] <br>**[!UICONTROL Switch to inactivity filter]**- Gebruik deze optie om te filteren op basis van een gebrek aan activiteit (een persoon had de SMS-activiteit niet). |
 | [!UICONTROL Activity history] > [!UICONTROL Data Value Changed] | Voor een geselecteerd persoonkenmerk is een waardewijziging opgetreden. Deze wijzigingstypen zijn onder meer: <li>Nieuwe waarde<li>Vorige waarde<li>Reden<li>Bron<li>Datum van activiteit<li>Min. aantal keren <br>**[!UICONTROL Switch to inactivity filter]**- Gebruik deze optie om te filteren op basis van een gebrek aan activiteit (een persoon had geen wijziging in de gegevenswaarde). |
 | [!UICONTROL Activity history] > [!UICONTROL Had Interesting Moment] | Interesserende momentactiviteit die in de bijbehorende instantie van Marketo Engage wordt bepaald. Beperkingen zijn: <li>Mijlsteen<li>E-mail<li>Web <br>**[!UICONTROL Switch to inactivity filter]**- Gebruik deze optie om te filteren op basis van een gebrek aan activiteit (een persoon had geen interessant moment). |
@@ -141,7 +174,7 @@ _&#x200B;**hoe een gespleten weg door de knoop van mensen**&#x200B;_ werkt
 
 1. Voeg in de Conditions-editor een of meer filters toe om het gesplitste pad te definiëren.
 
-   * Sleep een van de personentekenmerken van de linkernavigatie naar een andere plaats en voltooi de overeenkomende definitie.
+   * Sleep een van de personenfilters van de linkernavigatie en vul de overeenkomende definitie in.
 
      >[!NOTE]
      >
@@ -183,7 +216,7 @@ Voor een gesplitst pad naar personen kunt u een pad definiëren op basis van de 
 
 >[!BEGINSHADEBOX  &quot;Inactiviteit het filtreren&quot;]
 
-Voor elk van de _[!UICONTROL Activity history]_-filters kunt u de optie **[!UICONTROL Switch to inactivity filter]**&#x200B;inschakelen. Met deze optie wijzigt u het filter in een evaluatie omdat dat type activiteit ontbreekt. Bijvoorbeeld, als u een weg voor mensen wilt tot stand brengen die _&#x200B;**&#x200B;**&#x200B;_geen e-mail van vroeger in de reis open, voeg&#x200B;_[!UICONTROL Email]_ > _[!UICONTROL Opened email]_&#x200B;filter toe. Schakel de optie Inactiviteit in en geef de e-mail op. U kunt het beste de&#x200B;_[!UICONTROL Date of activity]_ -beperking gebruiken om een tijdsperiode voor de inactiviteit te definiëren.
+Voor elk van de _[!UICONTROL Activity history]_-filters kunt u de optie **[!UICONTROL Switch to inactivity filter]**inschakelen. Met deze optie wijzigt u het filter in een evaluatie omdat dat type activiteit ontbreekt. Bijvoorbeeld, als u een weg voor mensen wilt tot stand brengen die _****_geen e-mail van vroeger in de reis open, voeg_[!UICONTROL Email]_ > _[!UICONTROL Opened email]_filter toe. Schakel de optie Inactiviteit in en geef de e-mail op. U kunt het beste de_[!UICONTROL Date of activity]_ -beperking gebruiken om een tijdsperiode voor de inactiviteit te definiëren.
 
 ![ Gesplitste weg door mensen voorwaarde voor het kopen van groepslidmaatschap ](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
@@ -191,7 +224,7 @@ Voor elk van de _[!UICONTROL Activity history]_-filters kunt u de optie **[!UICO
 
 ### Deelnemerfiltering
 
-Binnen de sectie _[!UICONTROL Special Filters]_&#x200B;zijn er meerdere filters waarmee u het lidmaatschap van een persoon in een inkoopgroep of Marketo Engage-lijst kunt evalueren. Als u bijvoorbeeld een pad wilt maken voor mensen die lid zijn van een inkoopgroep en een bepaalde rol hebben toegewezen, voegt u het filter&#x200B;_[!UICONTROL Special filters]_ > _[!UICONTROL Member of Buying group]_&#x200B;toe. Voor de filter, plaats het lidmaatschap als_ waar _, selecteer a&#x200B;_[!UICONTROL Solution interest]_ dat met één of meerdere het kopen groepen wordt geassocieerd, en plaats _[!UICONTROL Role]_&#x200B;die u wilt aanpassen.
+Binnen de sectie _[!UICONTROL Special Filters]_zijn er meerdere filters waarmee u het lidmaatschap van een persoon in een inkoopgroep of Marketo Engage-lijst kunt evalueren. Als u bijvoorbeeld een pad wilt maken voor mensen die lid zijn van een inkoopgroep en een bepaalde rol hebben toegewezen, voegt u het filter_[!UICONTROL Special filters]_ > _[!UICONTROL Member of Buying group]_toe. Voor de filter, plaats het lidmaatschap als_ waar _, selecteer a_[!UICONTROL Solution interest]_ dat met één of meerdere het kopen groepen wordt geassocieerd, en plaats _[!UICONTROL Role]_die u wilt aanpassen.
 
 ![ Gesplitste weg door mensen voorwaarde voor het kopen van groepslidmaatschap ](./assets/node-split-people-condition-buying-group-membership.png){width="700" zoomable="yes"}
 
@@ -233,4 +266,4 @@ Voeg de wegen van de a _Fusie_ knoop toe om verschillende gespleten wegen door r
 
 ## Video over overzicht
 
->[!VIDEO](https://video.tv.adobe.com/v/3443262/?learn=on&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)

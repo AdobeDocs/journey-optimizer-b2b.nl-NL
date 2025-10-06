@@ -2,10 +2,10 @@
 title: Documentatie voor Adobe Journey Optimizer B2B Edition
 description: Volledige documentatie voor Journey Optimizer B2B edition - verken de beschikbare bronnen voor het aan boord nemen, het creëren van inkoopgroepen, het bouwen van accountreizen, en het beheren van inhoud.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
+source-git-commit: b60efa2fb448b6c5542ad0d7894f762ca2372990
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 5%
+source-wordcount: '688'
+ht-degree: 4%
 
 ---
 
@@ -16,6 +16,18 @@ ht-degree: 5%
 Hier volgt een voorbeeld van de meest recente toevoegingen en verbeteringen in de Journey Optimizer B2B edition-toepassing en -documentatie.
 
 >[!BEGINTABS]
+
+>[!TAB  Samenwerking voor e-mailinhoud ]
+
+De ontwerpruimte voor e-mail bevat samenwerkingsgereedschappen voor het plaatsen van opmerkingen en het oplossen van problemen, zodat marketingteams e-mailmiddelen probleemloos kunnen reviseren, bespreken en voltooien in [!DNL Journey Optimizer B2B Edition] . In plaats van concepten te delen via externe tools (zoals chat, e-mailthreads of spreadsheets), kunnen gebruikers opmerkingen maken, wijzigingen voorstellen en feedback in de ontwerpruimte van de e-mail oplossen. U kunt tags toewijzen aan uw teamleden, zodat ze een e-mail- of pulsmelding ontvangen met de details van de opmerking.
+
+[!BADGE Meer informatie]{type=Informative url="/help/user/content/email-collaboration-tools.md" tooltip="Meer informatie over samenwerkingsgereedschappen voor e-mailinhoud"}
+
+>[!TAB  Donkere wijze e-mailontwerp ]
+
+De ruimte van het e-mailontwerp omvat nu _voorproef en montages van 0} donkere wijze {._ In de donkere modus kan een ondersteunende e-mailclient of app e-mails weergeven met donkere achtergronden en lichtere kleuren voor tekst, knoppen en andere visuele elementen. Geef een voorvertoning van de rendering weer, pas instellingen aan, zorg voor toegankelijkheid en test alle e-mailclients.
+
+[!BADGE Meer informatie]{type=Informative url="/help/user/content/email-dark-mode.md" tooltip="Meer informatie over het ontwerpen van e-mails in de donkere modus"}
 
 >[!TAB  de betrokkenheidsscore van de Persoon ]
 
@@ -35,12 +47,6 @@ Wijs aangepaste gewichten toe aan betrokkenheidsactiviteiten, zodat de betrokken
 
 [!BADGE Meer informatie]{type=Informative url="/help/user/admin/engagement-score-weighting.md" tooltip="Meer informatie over de weging van de aangepaste betrokkenheidsscore"}
 
->[!TAB  de e-mailervaringen van GenStudio ]
-
-Integreer GenStudio for Performance Marketing e-mailervaringen met Journey Optimizer B2B edition om de marketingefficiëntie te verbeteren en de consistentie van uw merk te behouden. Met deze integratie kunt u het maken van inhoud met GenStudio AI-functionaliteit combineren met de geavanceerde orchestratiemogelijkheden in Journey Optimizer B2B edition.
-
-[!BADGE Meer informatie]{type=Informative url="/help/user/content/genstudio-email-workflow.md" tooltip="Meer informatie over GenStudio e-mailervaringen"}
-
 >[!TAB  de Steun van CSS van de Douane ]
 
 U kunt nu uw eigen aangepaste CSS toevoegen wanneer u e-mail ontwerpt en pagina-inhoud in de ontwerpruimte plaatst.
@@ -52,12 +58,6 @@ U kunt nu uw eigen aangepaste CSS toevoegen wanneer u e-mail ontwerpt en pagina-
 Als u het model Intentiedetectie wilt activeren en beheren, kunt u nu een spreadsheet uploaden om een categorie voor de toewijzing van intentiegegevens te definiëren.
 
 [!BADGE Meer informatie]{type=Informative url="/help/user/admin/intent-data.md" tooltip="Meer informatie over de configuratie voor het toewijzen van trefwoorden in Intentie"}
-
->[!TAB  Spam opsporing rapporterend ]
-
-Met de nieuwe Spam- rapporten, kunt u spamfilters vermijden en ervoor zorgen dat de berichten aan publieksinboxes worden geleverd. Produceer het rapport van a _Spam_ direct in de e-mailontwerpruimte.
-
-[!BADGE Meer informatie]{type=Informative url="/help/user/content/email-spam-report.md" tooltip="Meer informatie over Spam-detectie"}
 
 >[!ENDTABS]
 
@@ -137,15 +137,15 @@ Ontdek de onderdelen van een inkoopgroep en begrijp de basisbeginselen van het m
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong> Adobe Journey Optimizer B2B edition </strong><br/>
-<a href="https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank"> Video's en leerprogramma's </a> - <a href="https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank"> beschrijving van het Product </a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank"> Video's en leerprogramma's </a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank"> beschrijving van het Product </a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong> Adobe Experience Platform </strong><br/>
-<a href="https://experienceleague.adobe.com/nl/docs/experience-platform/landing/home" target="_blank"> Documentatie </a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank"> middelen van de Ontwikkelaar </a>
+<a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/home" target="_blank"> Documentatie </a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank"> middelen van de Ontwikkelaar </a>
 </td></tr>
 <tr><td><strong> Adobe Real-Time Customer Data Platform </strong><br/>
-<a href="https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/home" target="_blank"> Documentatie </a> - <a href="https://experienceleague.adobe.com/nl/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank"> zelfstudies van de Ontwikkelaar </a>
+<a href="https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home" target="_blank"> Documentatie </a> - <a href="https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank"> zelfstudies van de Ontwikkelaar </a>
 </td><td><strong> Adobe Marketo Engage </strong><br/>
-<a href="https://experienceleague.adobe.com/nl/docs/marketo/using/home" target="_blank"> documentatie van de Gebruiker </a> - <a href="https://experienceleague.adobe.com/nl/docs/marketo-developer/marketo/home" target="_blank"> documentatie van de Ontwikkelaar </a>
+<a href="https://experienceleague.adobe.com/en/docs/marketo/using/home" target="_blank"> documentatie van de Gebruiker </a> - <a href="https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/home" target="_blank"> documentatie van de Ontwikkelaar </a>
 </td>
 </tr></table>
 

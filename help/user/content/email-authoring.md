@@ -4,9 +4,9 @@ description: Maak e-mails met visuele ontwerpgereedschappen, HTML-import of sjab
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 9f8953423e3b6d578155431c7638e4fec9abf86a
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Nadat u [ een e-mailmiddel aan een knoop van de reisactie ](./add-email.md) toevoegt, kunt u de inhoud voor het e-mailbericht bepalen.
 
-Klik op **[!UICONTROL Edit email content]** op de tab _[!UICONTROL Details]_&#x200B;in het rechterdeelvenster.
+Klik op **[!UICONTROL Edit email content]** op de tab _[!UICONTROL Details]_in het rechterdeelvenster.
 
 ![ Klik op E-mailinhoud bewerken ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
@@ -37,9 +37,9 @@ Nadat u de e-mailinhoud hebt gemaakt en aangepast, kunt u de inhoud exporteren v
 
 Gebruik de ruimte voor het ontwerpen van visuele inhoud om de structuur en inhoud van het e-mailbericht te definiëren. Door structurele componenten toe te voegen en te bewegen met eenvoudige belemmering-en-dalingsacties, kunt u de vorm van de herbruikbare e-mailinhoud binnen seconden ontwerpen.
 
-1. Selecteer de optie _[!UICONTROL Design your template]_&#x200B;op de startpagina van **[!UICONTROL Design from scratch]**.
+1. Selecteer de optie _[!UICONTROL Design your template]_op de startpagina van **[!UICONTROL Design from scratch]**.
 
-1. Kies in het dialoogvenster _[!UICONTROL Create email]_&#x200B;het type e-mailinhoud dat u wilt ontwerpen.
+1. Kies in het dialoogvenster _[!UICONTROL Create email]_het type e-mailinhoud dat u wilt ontwerpen.
 
    * **[!UICONTROL Use Themes]** - kies deze optie om e-mail op _wijze van het Thema_ tot stand te brengen. In deze modus kunt u een gedefinieerd merkthema gebruiken om het ontwerpproces voor inhoud te stroomlijnen en ervoor te zorgen dat het ontwerp wordt afgestemd op gedefinieerde standaarden.
 
@@ -105,9 +105,9 @@ Selecteer met ten minste één inhoudscomponent op het canvas de component **[!U
 
 {{$include /help/_includes/content-design-use-fragments.md}}
 
-Nadat het e-mailbericht is opgeslagen, wordt het weergegeven op de pagina met fragmentdetails wanneer u het tabblad _[!UICONTROL Used By]_&#x200B;in het overzicht selecteert.
+Nadat het e-mailbericht is opgeslagen, wordt het weergegeven op de pagina met fragmentdetails wanneer u het tabblad _[!UICONTROL Used By]_in het overzicht selecteert.
 
-### Elementen toevoegen
+### Afbeeldingselementen toevoegen
 
 {{$include /help/_includes/content-design-assets.md}}
 
@@ -121,11 +121,19 @@ Nadat het e-mailbericht is opgeslagen, wordt het weergegeven op de pagina met fr
 
 >[!NOTE]
 >
->Als _[!UICONTROL My Tokens]_&#x200B;is gedefinieerd voor de accountreis, kunt u deze reisspecifieke tokens ook gebruiken voor uw e-mailinhoud. Zie [ de tokens van de Douane voor e-mailverpersoonlijking ](./personalization-my-tokens.md) voor meer informatie.
+>Als _[!UICONTROL My Tokens]_is gedefinieerd voor de accountreis, kunt u deze reisspecifieke tokens ook gebruiken voor uw e-mailinhoud. Zie [ de tokens van de Douane voor e-mailverpersoonlijking ](./personalization-my-tokens.md) voor meer informatie.
 
 ### Gekoppelde URL-tracking bewerken
 
 {{$include /help/_includes/content-design-links.md}}
+
+### Donkere modusstijl toepassen
+
+De wijze van het gebruik _Donker_ om uw e-mailvertoning voor een donker thema in een e-mailcliënt te herzien. In een donkere modus of een thema kan een ondersteunende e-mailclient of app e-mails weergeven met donkere achtergronden en lichtere kleuren voor tekst, knoppen en andere visuele elementen. Bij het hoogste recht van het ontwerpcanvas, verander de selecteur in _Donkere wijze_ ( ![ het de wijzepictogram van de Donkere wijze ](../assets/do-not-localize/icon-content-dark-mode.svg) ). Geef vervolgens een voorvertoning weer van de specifieke aangepaste instellingen die worden gebruikt voor weergave door de ondersteunende e-mailclients wanneer hun donkere thema is ingeschakeld.
+
+![ het ontwerpcanvas van e-mail die de donkere wijzekiezer en e-mailinhoud tonen op donkere wijze wordt getoond ](./assets/email-color-mode-dark-selector.png){width="700" zoomable="yes"}
+
+Voor meer informatie over donkere wijze het stileren en beste praktijken, zie [ Donkere wijze voor e-mailinhoud ](./email-dark-mode.md).
 
 ### Weergaveopties
 
@@ -139,7 +147,7 @@ Gebruik de opties voor weergave- en inhoudsvalidatie die beschikbaar zijn in de 
 
 ## Meer opties
 
-Vanuit het menu _[!UICONTROL More ...]_&#x200B;boven aan de visuele ontwerpruimte kunt u de volgende handelingen uitvoeren:
+Vanuit het menu _[!UICONTROL More ...]_boven aan de visuele ontwerpruimte kunt u de volgende handelingen uitvoeren:
 
 ![ klik Meer om tot malplaatjeacties ](./assets/email-designer-more-menu.png){width="500"} toegang te hebben
 
