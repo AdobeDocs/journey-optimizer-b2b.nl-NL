@@ -10,9 +10,9 @@ ht-degree: 0%
 
 # Inhoud ontwerpen - navigatie
 
-Terwijl u met de inhoud werkt in de visuele ontwerpruimte, hebt u via de navigatiestructuur toegang tot de componenten, kolommen en inhoudselementen. Klik het _[!UICONTROL Navigation tree]_&#x200B;pictogram ( ![ het boompictogram van de Navigatie ](../assets/do-not-localize/icon-navigation-tree.svg)) op de linkerzijde om de boom te tonen.
+Terwijl u met de inhoud werkt in de visuele ontwerpruimte, hebt u via de navigatiestructuur toegang tot de componenten, kolommen en inhoudselementen. Klik het _[!UICONTROL Navigation tree]_&#x200B;pictogram ( ![&#x200B; het boompictogram van de Navigatie &#x200B;](../assets/do-not-localize/icon-navigation-tree.svg)) op de linkerzijde om de boom te tonen.
 
-![ heb toegang tot de inhoudslagen ](../assets/content-design-shared/content-design-layers.png){width="800" zoomable="yes"}
+![&#x200B; heb toegang tot de inhoudslagen &#x200B;](../assets/content-design-shared/content-design-layers.png){width="800" zoomable="yes"}
 
 In het volgende voorbeeld worden stappen beschreven voor het aanpassen van opvulling en verticale uitlijning binnen een structuurcomponent met kolommen.
 
@@ -22,7 +22,7 @@ In het volgende voorbeeld worden stappen beschreven voor het aanpassen van opvul
 
    U kunt deze ook selecteren in de boomstructuur. De bewerkbare parameters voor die kolom worden weergegeven op de tabbladen _[!UICONTROL Settings]_&#x200B;en&#x200B;_[!UICONTROL Styles]_ rechts.
 
-   ![ de componenten van de Kolom die in de visuele ontwerper ](../assets/content-design-shared/content-design-layers-column-select.png){width="800" zoomable="yes"} worden getoond
+   ![&#x200B; de componenten van de Kolom die in de visuele ontwerper &#x200B;](../assets/content-design-shared/content-design-layers-column-select.png){width="800" zoomable="yes"} worden getoond
 
 1. Als u de kolomeigenschappen wilt bewerken, klikt u op de tab _[!UICONTROL Styles]_&#x200B;aan de rechterkant en wijzigt u deze naar wens:
 
@@ -37,7 +37,7 @@ In het volgende voorbeeld worden stappen beschreven voor het aanpassen van opvul
 
    * Vouw de sectie **[!UICONTROL Advanced]** uit om inline stijlen voor de kolom te definiëren.
 
-   ![ verander de stijlen voor de geselecteerde kolom ](../assets/content-design-shared/content-design-layers-column-styles.png){width="700" zoomable="yes"}
+   ![&#x200B; verander de stijlen voor de geselecteerde kolom &#x200B;](../assets/content-design-shared/content-design-layers-column-styles.png){width="700" zoomable="yes"}
 
 1. Herhaal indien nodig deze stappen om de uitlijning en opvulling voor de andere kolommen in de component aan te passen.
 

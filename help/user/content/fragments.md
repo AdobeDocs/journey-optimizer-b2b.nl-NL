@@ -36,7 +36,7 @@ U kunt zo veel mogelijk gebruikmaken van fragmenten in uw workflows:
 
 Ga naar de linkernavigatie en klik op **[!UICONTROL Content Management]** > **[!UICONTROL Fragments]** om visuele fragmenten te openen in Adobe Journey Optimizer B2B edition. Met deze actie opent u een pagina met lijsten met alle fragmenten die in de instantie in een tabel zijn gemaakt.
 
-![ heb toegang tot de fragmentbibliotheek ](./assets/fragments-list.png){width="700" zoomable="yes"}
+![&#x200B; heb toegang tot de fragmentbibliotheek &#x200B;](./assets/fragments-list.png){width="700" zoomable="yes"}
 
 De tabel wordt gesorteerd op de kolom _[!UICONTROL Modified]_, waarbij de meest recente bijgewerkte fragmenten standaard bovenaan staan. Klik op de kolomtitel om te schakelen tussen oplopend en aflopend.
 
@@ -50,7 +50,7 @@ De fragmentstatus bepaalt de beschikbaarheid voor gebruik in een e-mail- of e-ma
 | Gepubliceerd | Wanneer u een fragment publiceert, wordt dit beschikbaar voor gebruik in een e-mail- of e-mailsjabloon. Gepubliceerde fragmentinhoud kan niet worden gewijzigd in de ruimte van het visuele ontwerp. Beschikbare handelingen: <br/><ul><li>Beschrijving bewerken<li>Toevoegen aan een e-mail of sjabloon<li>Conceptversie maken<li>Dupliceren<li>Verwijderen (indien niet in gebruik) |
 | Gepubliceerd met concept | Wanneer u een concept maakt op basis van een gepubliceerd fragment, blijft de gepubliceerde versie beschikbaar voor gebruik in een e-mail- of e-mailsjabloon en kan de conceptinhoud worden gewijzigd in de ruimte van het visuele ontwerp. Als u de conceptversie publiceert, vervangt deze de huidige gepubliceerde versie en wordt de inhoud bijgewerkt in de e-mails en e-mailsjablonen waar deze wordt gebruikt. Beschikbare handelingen: <br/><ul><li>Beschrijving bewerken<li>Toevoegen aan een e-mail of sjabloon<li>Conversie bewerken in de ruimte van het visuele ontwerp<li>Conceptversie publiceren<li>Dupliceren<li>Verwijderen (indien niet in gebruik) |
 
-![ Levenscyclus van de fragmentstatus ](./assets/status-lifecycle-diagram.png){zoomable="yes"}
+![&#x200B; Levenscyclus van de fragmentstatus &#x200B;](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
@@ -58,17 +58,17 @@ De fragmentstatus bepaalt de beschikbaarheid voor gebruik in een e-mail- of e-ma
 
 ### De lijst met fragmenten filteren
 
-Als u naar een fragment op naam wilt zoeken, voert u in de zoekbalk een tekenreeks in voor een overeenkomst. Klik het _pictogram van de Filter_ ( ![ tonen of verbergen filterpictogram ](../assets/do-not-localize/icon-filter.svg)) om de beschikbare filteropties te tonen en de montages te veranderen om de getoonde punten volgens uw gespecificeerde criteria te filtreren.
+Als u naar een fragment op naam wilt zoeken, voert u in de zoekbalk een tekenreeks in voor een overeenkomst. Klik het _pictogram van de Filter_ ( ![&#x200B; tonen of verbergen filterpictogram &#x200B;](../assets/do-not-localize/icon-filter.svg)) om de beschikbare filteropties te tonen en de montages te veranderen om de getoonde punten volgens uw gespecificeerde criteria te filtreren.
 
-![ filter de getoonde fragmenten ](./assets/fragments-list-filtered.png){width="700" zoomable="yes"}
+![&#x200B; filter de getoonde fragmenten &#x200B;](./assets/fragments-list-filtered.png){width="700" zoomable="yes"}
 
 ### De kolomweergave aanpassen
 
-Pas de kolommen aan die u in de lijst wilt tonen door _te klikken aanpassen lijst_ pictogram ( ![ aanpassen lijstpictogram ](../assets/do-not-localize/icon-column-settings.svg)) bij het hoogste recht.
+Pas de kolommen aan die u in de lijst wilt tonen door _te klikken aanpassen lijst_ pictogram ( ![&#x200B; aanpassen lijstpictogram &#x200B;](../assets/do-not-localize/icon-column-settings.svg)) bij het hoogste recht.
 
 Selecteer in het dialoogvenster de kolommen die u wilt weergeven en klik op **[!UICONTROL Apply]** .
 
-![ selecteer de kolommen die u ](./assets/fragments-customize-table-dialog.png){width="300"} wilt tonen
+![&#x200B; selecteer de kolommen die u &#x200B;](./assets/fragments-customize-table-dialog.png){width="300"} wilt tonen
 
 ## Fragmenten maken
 
@@ -86,7 +86,7 @@ U kunt nieuwe visuele fragmenten maken in Journey Optimizer B2B edition door op 
 
    * Gereserveerde karakters zijn **_niet toegestaan_**: `\ / : * ? " < > |`
 
-   ![ creeer fragmentdialoog ](./assets/assets-fragments-create-dialog.png){width="400"}
+   ![&#x200B; creeer fragmentdialoog &#x200B;](./assets/assets-fragments-create-dialog.png){width="400"}
 
 1. Klik op **[!UICONTROL Create]**.
 
@@ -101,15 +101,15 @@ U kunt nieuwe visuele fragmenten maken in Journey Optimizer B2B edition door op 
    * [Aangepaste velden inschakelen](./fragment-authoring.md#enable-fragment-customization)
    * [Gekoppelde URL-tracking bewerken](./fragment-authoring.md#edit-linked-url-tracking)
 
-1. (Facultatief) pas a [ merkthema ](./brand-themes.md) op de fragmentinhoud toe om het fragmentauteursproces te stroomlijnen en ervoor te zorgen dat het ontwerp zich op bepaalde normen richt.
+1. (Facultatief) pas a [&#x200B; merkthema &#x200B;](./brand-themes.md) op de fragmentinhoud toe om het fragmentauteursproces te stroomlijnen en ervoor te zorgen dat het ontwerp zich op bepaalde normen richt.
 
    >[!NOTE]
    >
    >Wanneer u een thema toepast, is de fragmentverenigbaarheid beperkt tot e-mail en e-mailmalplaatjes die op _wijze van het Thema_ worden gecreeerd.
 
-   Klik het _pictogram van Thema&#39;s_ ( ![ pictogram van Thema&#39;s ](../assets/do-not-localize/icon-design-themes.svg)) op het recht.
+   Klik het _pictogram van Thema&#39;s_ ( ![&#x200B; pictogram van Thema&#39;s &#x200B;](../assets/do-not-localize/icon-design-themes.svg)) op het recht.
 
-   ![ het ontwerpruimte van het fragment - Geselecteerde het pictogram van Thema&#39;s ](./assets/fragment-design-themes-icon-selected.png){width="600" zoomable="yes"}
+   ![&#x200B; het ontwerpruimte van het fragment - Geselecteerde het pictogram van Thema&#39;s &#x200B;](./assets/fragment-design-themes-icon-selected.png){width="600" zoomable="yes"}
 
    Selecteer een van de aangepaste thema&#39;s op het tabblad **[!UICONTROL My themes]** of selecteer **[!UICONTROL Adobe themes]** als u een ingebouwd thema wilt gebruiken. Wanneer u buiten de lijst klikt, past het geselecteerde thema de stijlen voor alle componenten op het canvas toe. U kunt desgewenst schakelen tussen de kleurvarianten.
 
@@ -125,7 +125,7 @@ Klik op de naam van een fragment in de lijstpagina om de pagina met fragmentdeta
 >
 >Als een gepubliceerd fragment wordt gebruikt door een e-mailsjabloon, kunt u de naam niet wijzigen of de inhoud niet bewerken. U kunt een conceptversie maken als u wijzigingen in het fragment wilt aanbrengen.
 
-![ de details van de Mening voor een gepubliceerd fragment ](./assets/fragment-details-published.png){width="600" zoomable="yes"}
+![&#x200B; de details van de Mening voor een gepubliceerd fragment &#x200B;](./assets/fragment-details-published.png){width="600" zoomable="yes"}
 
 Klik op **[!UICONTROL Edit fragment]** om het fragment te openen in de visuele inhoudeditor.
 
@@ -141,7 +141,7 @@ Klik op het tabblad **[!UICONTROL Used By]** op de pagina met fragmentdetails om
 
 De verwijzingen worden getoond volgens categorie: _E-mail_ of _E-mailmalplaatje_. E-mails in Journey Optimizer B2B edition worden ingesloten en geschreven binnen accountreizen. De bovenliggende reis van de e-mail die het fragment gebruikt, wordt daarom weergegeven in verwijzingen.
 
-![ Gebruikt door verwijzingen voor het fragment ](./assets/fragment-used-by-published.png){width="600" zoomable="yes"}
+![&#x200B; Gebruikt door verwijzingen voor het fragment &#x200B;](./assets/fragment-used-by-published.png){width="600" zoomable="yes"}
 
 Klik op de koppeling om de bijbehorende sjabloon voor e-mail of e-mail te openen waarin het fragment wordt gebruikt.
 
@@ -156,11 +156,11 @@ U kunt een fragment op een van de volgende manieren verwijderen:
 
 Met deze handeling wordt een bevestigingsvenster geopend. U kunt het proces afbreken door op **[!UICONTROL Cancel]** te klikken of op **[!UICONTROL Delete]** te klikken om het verwijderen te bevestigen.
 
-![ de fragmentdialoog van de Schrapping ](./assets/fragment-delete-dialog.png){width="400"}
+![&#x200B; de fragmentdialoog van de Schrapping &#x200B;](./assets/fragment-delete-dialog.png){width="400"}
 
 Als het fragment momenteel in gebruik is, wordt een informatief dialoogvenster geopend waarin u wordt gewaarschuwd dat het fragment niet kan worden verwijderd. Klik op **[!UICONTROL OK]** om het verwijderen af te breken.
 
-![ de fragmentdialoog van de Schrapping - kan geen in-gebruiks fragment schrappen ](./assets/fragment-delete-dialog-in-use.png){width="400"}
+![&#x200B; de fragmentdialoog van de Schrapping - kan geen in-gebruiks fragment schrappen &#x200B;](./assets/fragment-delete-dialog-in-use.png){width="400"}
 
 ## Fragmenten bewerken
 
@@ -180,7 +180,7 @@ Bewerkingen aan een fragment zijn afhankelijk van de huidige status:
 
 1. Wijzig de gewenste details, zoals de naam en beschrijving.
 
-   ![ Details voor kader met de status van het Ontwerp ](./assets/fragment-draft-details.png){width="600" zoomable="yes"}
+   ![&#x200B; Details voor kader met de status van het Ontwerp &#x200B;](./assets/fragment-draft-details.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Edit fragment]** om de inhoud in de visuele ontwerpruimte te wijzigen.
 
@@ -211,7 +211,7 @@ Bewerkingen aan een fragment zijn afhankelijk van de huidige status:
 
    Klik op **[!UICONTROL OK]** in het dialoogvenster om de conceptversie te openen in de ruimte van het visuele ontwerp.
 
-   ![ creeer de dialoog van de ontwerp versie ](./assets/fragments-create-draft-version.png){width="300"}
+   ![&#x200B; creeer de dialoog van de ontwerp versie &#x200B;](./assets/fragments-create-draft-version.png){width="300"}
 
    Gebruik de gereedschappen voor visueel ontwerp naar wens:
 
@@ -234,7 +234,7 @@ U kunt de conceptversie op twee manieren openen om te bewerken op de pagina met 
 
 * Klik het _Meer_ pictogram (**..**) naast de fragmentnaam en kies **[!UICONTROL Open draft version]**.
 
-  ![ Open ontwerp versie ](./assets/fragments-create-draft-version.png){width="300"}
+  ![&#x200B; Open ontwerp versie &#x200B;](./assets/fragments-create-draft-version.png){width="300"}
 
 * Klik op de fragmentnaam om deze te openen. Klik vervolgens rechtsboven op **[!UICONTROL Open draft version]** .
 
@@ -266,11 +266,11 @@ U kunt een fragment op een van de volgende manieren dupliceren:
 * Van de _[!UICONTROL Fragments]_&#x200B;lijstpagina, klik het_ Meer _pictogram (**...**) naast de fragmentnaam en kies **[!UICONTROL Duplicate]**.
 * Klik rechtsboven op de pagina met fragmentdetails op **[!UICONTROL ... More]** en kies **[!UICONTROL Duplicate]** .
 
-![ dupliceer het fragment ](./assets/fragment-details-duplicate.png){width="600" zoomable="yes"}
+![&#x200B; dupliceer het fragment &#x200B;](./assets/fragment-details-duplicate.png){width="600" zoomable="yes"}
 
 Voer in het dialoogvenster een nuttige naam (uniek) en beschrijving in. Klik op **[!UICONTROL Duplicate]** om de handeling te voltooien.
 
-![ ga een naam en een beschrijving voor het gedupliceerde fragment ](./assets/fragment-duplicate-dialog.png){width="400"} in
+![&#x200B; ga een naam en een beschrijving voor het gedupliceerde fragment &#x200B;](./assets/fragment-duplicate-dialog.png){width="400"} in
 
 Het gedupliceerde (nieuwe) fragment verschijnt dan in de _lijst van Fragmenten_.
 
@@ -302,9 +302,9 @@ Fragmenten zijn ontworpen voor hergebruik en kunnen worden ingevoegd voor het on
 
 1. Navigeer naar **[!UICONTROL Account Journeys]** en open een bestaande reis of maak een nieuwe reis.
 
-1. Creeer een [_[!UICONTROL Send Email]_&#x200B;knoop ](./add-email.md#add-an-email-action-node-in-a-journey).
+1. Creeer een [_[!UICONTROL Send Email]_&#x200B;knoop &#x200B;](./add-email.md#add-an-email-action-node-in-a-journey).
 
-1. Creeer of geef [ e-mailinhoud voor de knoop ](./email-authoring.md) uit.
+1. Creeer of geef [&#x200B; e-mailinhoud voor de knoop &#x200B;](./email-authoring.md) uit.
 
 1. De belemmering en laat vallen een punt van het **[!UICONTROL Components]** menu om a _structuur_ voor het fragment te verstrekken.
 
@@ -316,7 +316,7 @@ Fragmenten zijn ontworpen voor hergebruik en kunnen worden ingevoegd voor het on
    * Schakelen tussen kaart- (miniatuur) en lijstweergaven.
    * Vernieuw de lijst om een van de onlangs gemaakte fragmenten weer te geven.
 
-   ![ Onderzoek naar een fragment in de visuele ontwerper ](./assets/fragments-list-designer-search.png){width="600"}
+   ![&#x200B; Onderzoek naar een fragment in de visuele ontwerper &#x200B;](./assets/fragments-list-designer-search.png){width="600"}
 
 1. Sleep een van de fragmenten naar de tijdelijke aanduiding voor het structuuronderdeel.
 
@@ -346,7 +346,7 @@ Nadat het e-mailbericht is opgeslagen, wordt het weergegeven op de pagina met fr
    * Schakelen tussen kaart- (miniatuur) en lijstweergaven.
    * Vernieuw de lijst om een van de onlangs gemaakte fragmenten weer te geven.
 
-   ![ Onderzoek naar een fragment in de visuele ontwerper ](./assets/fragments-list-designer-search.png){width="600"}
+   ![&#x200B; Onderzoek naar een fragment in de visuele ontwerper &#x200B;](./assets/fragments-list-designer-search.png){width="600"}
 
 1. Sleep een van de fragmenten naar de tijdelijke aanduiding voor het structuuronderdeel.
 
@@ -376,4 +376,4 @@ Wanneer een fragment aan een e-mailsjabloon of e-mailsjabloon wordt toegevoegd, 
 
 Wanneer u het fragment op de editorpagina selecteert, zijn deze acties beschikbaar bij de contexttoolbar en het eigenschappenpaneel op het recht.
 
-![ pas acties op het geselecteerde fragment ](./assets/fragment-actions-email-authoring.png){width="600" zoomable="yes"} toe
+![&#x200B; pas acties op het geselecteerde fragment &#x200B;](./assets/fragment-actions-email-authoring.png){width="600" zoomable="yes"} toe

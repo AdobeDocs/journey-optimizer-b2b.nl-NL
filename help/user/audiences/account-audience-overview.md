@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Een publiek is een groep personen die vergelijkbare gedragingen en/of kenmerken delen. Journey Optimizer B2B edition gebruikt de functies voor de segmentatie van de account die in Adobe Real-Time Customer Data Platform B2B- en B2P-edities zijn gevonden. Met accountsegmentatie kunnen gebruikers een publiek voor de account genereren door gegevens van een van de B2B-entiteiten in het systeem te gebruiken. Dit accountpubliek fungeert als input voor Journey Optimizer B2B edition-reizen, waardoor het gemakkelijker wordt om een naadloze activering en personalisatie uit te voeren.
 
-Leer meer over rekeningspubliek en hoe te om hen in de [ documentatie van de Dienst van de Segmentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/types/account-audiences){target="_blank"} te bepalen.
+Leer meer over rekeningspubliek en hoe te om hen in de [&#x200B; documentatie van de Dienst van de Segmentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/types/account-audiences){target="_blank"} te bepalen.
 
 ## Workflow voor accountpubliek
 
@@ -30,11 +30,11 @@ In Journey Optimizer B2B edition wordt het accountpubliek gebruikt als input voo
 
 Met Journey Optimizer B2B edition kunt u het publiek van de Adobe Experience Platform-account (AEP) rechtstreeks vanaf de linkernavigatie maken en deze opnemen in uw accountreizen.
 
-![ de rekeningspubliek van de Toegang ](./assets/account-audiences-browse.png){width="800" zoomable="yes"}
+![&#x200B; de rekeningspubliek van de Toegang &#x200B;](./assets/account-audiences-browse.png){width="800" zoomable="yes"}
 
 ## Een publiek voor een account maken
 
-Definieer het accountpubliek door een accountsegmentatie te maken. U hebt de optie om de rekeningssegmentatie direct binnen de toepassing van Journey Optimizer B2B edition tot stand te brengen, of u kunt de [ Bouwer van het Segment gebruiken UI ](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-builder){target="_blank"}. Hieronder vindt u de stappen waarmee u een accountsegmentatie kunt maken in Journey Optimizer B2B edition.
+Definieer het accountpubliek door een accountsegmentatie te maken. U hebt de optie om de rekeningssegmentatie direct binnen de toepassing van Journey Optimizer B2B edition tot stand te brengen, of u kunt de [&#x200B; Bouwer van het Segment gebruiken UI &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-builder){target="_blank"}. Hieronder vindt u de stappen waarmee u een accountsegmentatie kunt maken in Journey Optimizer B2B edition.
 
 1. Kies in de linkernavigatie **[!UICONTROL Accounts]** > **[!UICONTROL Audiences]** .
 
@@ -52,7 +52,7 @@ Definieer het accountpubliek door een accountsegmentatie te maken. U hebt de opt
 
    In het volgende voorbeeld wordt een publiek gedefinieerd dat is gemaakt met `Country Code` , `Revenue Amount` en `Market segment` . De vraag in het Engels zou zijn: &quot;Ik wil alle rekeningen in de V.S. die in het Segment van Financiën zijn waarvan opbrengst $1M overschrijdt.&quot;
 
-   ![ de bouwervoorbeeld van de de segmentbouwer van het rekeningspubliek ](./assets/audience-segment-builder-US-finance-1M.png){width="700" zoomable="yes"}
+   ![&#x200B; de bouwervoorbeeld van de de segmentbouwer van het rekeningspubliek &#x200B;](./assets/audience-segment-builder-US-finance-1M.png){width="700" zoomable="yes"}
    <br/>
 
    >[!IMPORTANT]
@@ -64,4 +64,4 @@ Definieer het accountpubliek door een accountsegmentatie te maken. U hebt de opt
 
 1. Klik op **[!UICONTROL Save and Close]** rechtsboven.
 
-Om uw rekeningspubliek voor Journey Optimizer B2B edition te activeren, moet u het [ toevoegen aan een rekeningsreis ](../journeys/journey-overview.md#add-the-account-audience-for-your-journey) en [ de reis ](../journeys/journey-overview.md) publiceren.
+Om uw rekeningspubliek voor Journey Optimizer B2B edition te activeren, moet u het [&#x200B; toevoegen aan een rekeningsreis &#x200B;](../journeys/journey-overview.md#add-the-account-audience-for-your-journey) en [&#x200B; de reis &#x200B;](../journeys/journey-overview.md) publiceren.

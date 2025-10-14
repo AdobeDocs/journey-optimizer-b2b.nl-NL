@@ -15,12 +15,12 @@ ht-degree: 1%
 
 Nadat de levering is voltooid en de zandbakken verbindend zijn, voltooi de volgende stappen om Adobe Journey Optimizer B2B edition toegang voor uw team en gebruikers te verlenen.
 
-1. [ creeer een het productprofiel van Marketo Engage ](#marketo-engage-profile) in Admin Console (nieuwe instantie van Marketo Engage slechts).
-1. [ creeer een gebruikersgroep ](#create-user-group) in Admin Console.
-1. [ geef ingebouwde rollen ](#edit-roles) uit of [ creeer een douanerol ](#create-a-custom-role) met de toestemmingen van Journey Optimizer B2B edition.
-1. [ voegt gebruikers ](#add-users) of [ groepen ](#add-user-groups-to-a-role) aan rollen toe.
+1. [&#x200B; creeer een het productprofiel van Marketo Engage &#x200B;](#marketo-engage-profile) in Admin Console (nieuwe instantie van Marketo Engage slechts).
+1. [&#x200B; creeer een gebruikersgroep &#x200B;](#create-user-group) in Admin Console.
+1. [&#x200B; geef ingebouwde rollen &#x200B;](#edit-roles) uit of [&#x200B; creeer een douanerol &#x200B;](#create-a-custom-role) met de toestemmingen van Journey Optimizer B2B edition.
+1. [&#x200B; voegt gebruikers &#x200B;](#add-users) of [&#x200B; groepen &#x200B;](#add-user-groups-to-a-role) aan rollen toe.
 
-Als beheerder kunt u deze taken uitvoeren in de Adobe Admin Console, een centrale plaats voor het beheer en beheer van uw Adobe-productlicenties en -gebruikers. In de Admin Console kunt u gebruikers maken en beheren op één locatie in plaats van binnen uw verschillende individuele oplossingen. Verwijs naar de [ overzicht van Admin Console ](https://helpx.adobe.com/nl/enterprise/using/admin-console.html) pagina om meer over zijn functies en mogelijkheden te leren.
+Als beheerder kunt u deze taken uitvoeren in de Adobe Admin Console, een centrale plaats voor het beheer en beheer van uw Adobe-productlicenties en -gebruikers. In de Admin Console kunt u gebruikers maken en beheren op één locatie in plaats van binnen uw verschillende individuele oplossingen. Verwijs naar de [&#x200B; overzicht van Admin Console &#x200B;](https://helpx.adobe.com/nl/enterprise/using/admin-console.html) pagina om meer over zijn functies en mogelijkheden te leren.
 
 ## Toegang tot de Admin Console
 
@@ -32,7 +32,7 @@ Voordat u de Admin Console kunt gebruiken om gebruikers binnen uw team te behere
 
 1. Klik op de koppeling **[!UICONTROL Get started]** in uw welkomstbericht om naar de Admin Console te navigeren.
 
-   Als u niet e-mail kunt vinden, open direct browser aan Admin Console in [ https://adminconsole.adobe.com ](https://adminconsole.adobe.com).
+   Als u niet e-mail kunt vinden, open direct browser aan Admin Console in [&#x200B; https://adminconsole.adobe.com &#x200B;](https://adminconsole.adobe.com).
 
 1. Meld u aan met uw Adobe ID.
 
@@ -44,7 +44,7 @@ Voordat u de Admin Console kunt gebruiken om gebruikers binnen uw team te behere
 
 1. Selecteer **[!UICONTROL Administrators]** op de _[!UICONTROL Users]_-kaart om te controleren of u systeembeheerder bent.
 
-   ![ overzicht van Admin Console - klik Beheerders ](./assets/admin-console-overview-administrators.png){width="700" zoomable="yes"}
+   ![&#x200B; overzicht van Admin Console - klik Beheerders &#x200B;](./assets/admin-console-overview-administrators.png){width="700" zoomable="yes"}
 
 1. Zoek door je Adobe ID-e-mail, gebruikersnaam, voornaam of achternaam in te voeren.
 
@@ -56,25 +56,25 @@ Voordat u de Admin Console kunt gebruiken om gebruikers binnen uw team te behere
 
 Wanneer u gebruikers toegang geeft tot een Adobe-oplossing, wilt u ze niet altijd volledige toegang geven. Met productprofielen kan elke oplossing beschikken over een eigen set gebruikersrechten. Gebruik de Admin Console om productprofielen toe te wijzen.
 
-Voor meer informatie over het gebruiken van productprofielen voor gebruikersrechten, zie [ productprofielen voor ondernemingsgebruikers ](https://helpx.adobe.com/nl/enterprise/using/manage-product-profiles.html){target="_blank"} in de documentatie van Admin Console beheren.
+Voor meer informatie over het gebruiken van productprofielen voor gebruikersrechten, zie [&#x200B; productprofielen voor ondernemingsgebruikers &#x200B;](https://helpx.adobe.com/nl/enterprise/using/manage-product-profiles.html){target="_blank"} in de documentatie van Admin Console beheren.
 
 >[!BEGINSHADEBOX]
 
 Wanneer u een gebruiker aan het het productprofiel van Marketo Engage toevoegt, worden zij later toegevoegd aan de _Standaardrol van de Gebruiker_ binnen de Standaardwerkruimte van het abonnement van Marketo Engage. Deze rol verleent hen alle _toestemmingen van de StandaardGebruiker_ voor Marketo Engage in die werkruimte. Momenteel moeten alle Journey Optimizer B2B edition-gebruikers Marketo Engage-gebruikers zijn. Een beheerder van Marketo Engage kan toegang beperken door de toestemmingen voor de _Standaardrol van de Gebruiker_ bij te werken of door de gebruiker aan een verschillende de gebruikersrol van Marketo Engage met meer beperkende toestemmingen te bewegen.
 
-Voor meer informatie over het beheren van deze toestemmingen binnen Marketo Engage, zie [ het Leiden Rollen van de Gebruiker en Toestemmingen ](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} in de documentatie van Marketo Engage.
+Voor meer informatie over het beheren van deze toestemmingen binnen Marketo Engage, zie [&#x200B; het Leiden Rollen van de Gebruiker en Toestemmingen &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} in de documentatie van Marketo Engage.
 
 >[!ENDSHADEBOX]
 
-![ de rolvereisten van de Beheerder ](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Een systeembeheerder of het productbeheerder van Marketo Engage kan de volgende stappen uitvoeren.
+![&#x200B; de rolvereisten van de Beheerder &#x200B;](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Een systeembeheerder of het productbeheerder van Marketo Engage kan de volgende stappen uitvoeren.
 
-1. Login aan [ https://adminconsole.adobe.com ](https://adminconsole.adobe.com).
+1. Login aan [&#x200B; https://adminconsole.adobe.com &#x200B;](https://adminconsole.adobe.com).
 
 1. Selecteer het tabblad **[!UICONTROL Products]**. 
 
 1. Open de Marketo Engage-instantie waar u het profiel wilt toevoegen en klik op **[!UICONTROL New profile]** .
 
-   ![ Admin Console - de instantie van Marketo Engage - Nieuw profiel ](./assets/admin-console-marketo-engage-instance-new-profile.png){width="700" zoomable="yes"}
+   ![&#x200B; Admin Console - de instantie van Marketo Engage - Nieuw profiel &#x200B;](./assets/admin-console-marketo-engage-instance-new-profile.png){width="700" zoomable="yes"}
 
 1. Ga een naam van het productprofiel, zoals _StandaardGebruiker_ in.
 
@@ -84,11 +84,11 @@ Voor meer informatie over het beheren van deze toestemmingen binnen Marketo Enga
 
 Een gebruikersgroep is een inzameling van gebruikers wordt verleend een gedeelde reeks toestemmingen. U kunt gebruikers toevoegen aan of verwijderen uit uw gebruikersgroep. De machtigingen voor de groep blijven ongewijzigd wanneer de gebruikers in de groep worden gewijzigd.
 
-Voor meer informatie over hoe de gebruikersgroepen worden gebruikt om toestemmingen te beheren, zie [ gebruikersgroepen beheren ](https://helpx.adobe.com/nl/enterprise/using/user-groups.html){target="_blank"} in de documentatie van Admin Console.
+Voor meer informatie over hoe de gebruikersgroepen worden gebruikt om toestemmingen te beheren, zie [&#x200B; gebruikersgroepen beheren &#x200B;](https://helpx.adobe.com/nl/enterprise/using/user-groups.html){target="_blank"} in de documentatie van Admin Console.
 
-![ de rolvereisten van de Beheerder ](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Een systeembeheerder kan de volgende stappen uitvoeren.
+![&#x200B; de rolvereisten van de Beheerder &#x200B;](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Een systeembeheerder kan de volgende stappen uitvoeren.
 
-1. Login aan [ https://adminconsole.adobe.com ](https://adminconsole.adobe.com).
+1. Login aan [&#x200B; https://adminconsole.adobe.com &#x200B;](https://adminconsole.adobe.com).
 
 1. Selecteer het tabblad **[!UICONTROL Users]**. 
 
@@ -109,17 +109,17 @@ Voor meer informatie over hoe de gebruikersgroepen worden gebruikt om toestemmin
    * [!UICONTROL Adobe Experience Platform Data Collection]
    * [!UICONTROL Data Collection All Access]
 
-   ![ Admin Console - gebruiker-groep - voeg producten ](./assets/admin-console-user-group-add-products.png){width="700" zoomable="yes"} toe
+   ![&#x200B; Admin Console - gebruiker-groep - voeg producten &#x200B;](./assets/admin-console-user-group-add-products.png){width="700" zoomable="yes"} toe
 
 1. Klik op **[!UICONTROL Save]**.
 
 ## Gebruikers aan een groep toevoegen
 
-Voor informatie over gebruikersbeheer, zie [ de gebruikers van Admin Console ](https://helpx.adobe.com/nl/enterprise/using/user-groups.html) in de documentatie van Admin Console.
+Voor informatie over gebruikersbeheer, zie [&#x200B; de gebruikers van Admin Console &#x200B;](https://helpx.adobe.com/nl/enterprise/using/user-groups.html) in de documentatie van Admin Console.
 
-![ de rolvereisten van de Beheerder ](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Een systeembeheerder of productbeheerder kunnen de volgende stappen uitvoeren. Een productbeheerder kan alleen gebruikers toevoegen die al in zijn organisatie bestaan.
+![&#x200B; de rolvereisten van de Beheerder &#x200B;](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Een systeembeheerder of productbeheerder kunnen de volgende stappen uitvoeren. Een productbeheerder kan alleen gebruikers toevoegen die al in zijn organisatie bestaan.
 
-1. Ga naar [ https://adminconsole.adobe.com ](https://adminconsole.adobe.com).
+1. Ga naar [&#x200B; https://adminconsole.adobe.com &#x200B;](https://adminconsole.adobe.com).
 
 1. Klik onder _[!UICONTROL Quick links]_&#x200B;op **[!UICONTROL Add users]**.
 
@@ -127,7 +127,7 @@ Voor informatie over gebruikersbeheer, zie [ de gebruikers van Admin Console ](h
 
    * Voer het e-mailadres, de voornaam en de achternaam van de gebruiker in.
 
-     ![ Experience Platform - voeg profielen voor de nieuwe rol ](./assets/admin-console-add-users.png){width="600" zoomable="yes"} toe
+     ![&#x200B; Experience Platform - voeg profielen voor de nieuwe rol &#x200B;](./assets/admin-console-add-users.png){width="600" zoomable="yes"} toe
 
    * Voor **[!UICONTROL User groups]**, klik **+**.
 
@@ -143,7 +143,7 @@ Machtigingen zijn eenheidrechten waarmee u de machtigingen kunt definiëren die 
 
 Het _gebied van Toestemmingen_ van Adobe Experience Platform is waar de beheerders gebruikersrollen en toegangsbeleid kunnen bepalen om toegangstoestemmingen voor eigenschappen en voorwerpen binnen een producttoepassing te beheren. In deze app kunt u rollen maken en beheren en kunt u de gewenste resourcemachtigingen voor deze rollen toewijzen. Met machtigingen kunt u ook de sandboxen en gebruikers beheren die aan een specifieke rol zijn gekoppeld.
 
-Voor meer informatie over roltoestemmingen in Experience Platform, zie [ toestemmingen voor een rol ](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} in de documentatie van Experience Platform beheren.
+Voor meer informatie over roltoestemmingen in Experience Platform, zie [&#x200B; toestemmingen voor een rol &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} in de documentatie van Experience Platform beheren.
 
 ### B2B-productmachtigingen
 
@@ -182,7 +182,7 @@ In het volgende voorbeeld, wilt u toestemmingen met betrekking tot het middel va
 
 _Om de toestemmingen voor een rol te veranderen :_
 
-1. Ga naar [ experience.adobe.com ](https://experience.adobe.com/).
+1. Ga naar [&#x200B; experience.adobe.com &#x200B;](https://experience.adobe.com/).
 
 1. Selecteer _[!UICONTROL Quick access]_&#x200B;in het deelvenster **[!UICONTROL Permissions]**.
 
@@ -190,7 +190,7 @@ _Om de toestemmingen voor een rol te veranderen :_
    >
    >Als u _[!UICONTROL Permissions]_&#x200B;niet ziet, moet u mogelijk op **[!UICONTROL View all]**&#x200B;klikken en deze selecteren in de beschikbare toepassingen.
 
-   ![ Experience Platform - de toestemmingen van de toegang ](./assets/aep-permissions.png){width="700" zoomable="yes"}
+   ![&#x200B; Experience Platform - de toestemmingen van de toegang &#x200B;](./assets/aep-permissions.png){width="700" zoomable="yes"}
 
 1. Selecteer **[!UICONTROL Roles]** in de linkernavigatie.
 
@@ -198,7 +198,7 @@ _Om de toestemmingen voor een rol te veranderen :_
 
 1. Klik in de detailpagina op **[!UICONTROL Edit]** rechtsboven.
 
-   ![ Experience Platform - geef de rol ](./assets/aep-permissions-role-edit.png){width="700" zoomable="yes"} uit
+   ![&#x200B; Experience Platform - geef de rol &#x200B;](./assets/aep-permissions-role-edit.png){width="700" zoomable="yes"} uit
 
    In de rolredacteur, toont het _[!UICONTROL Resources]_&#x200B;menu de lijst van middelen die op Experience Cloud - Platform aangedreven toepassingsproducten van toepassing zijn.
 
@@ -206,19 +206,19 @@ _Om de toestemmingen voor een rol te veranderen :_
 
 1. Klik _toevoegen_ pictogram (**+**) voor het middel van de Reizen B2B.
 
-   ![ Experience Platform - geef de rol ](./assets/aep-permissions-role-edit-b2b-journeys-add.png){width="700" zoomable="yes"} uit
+   ![&#x200B; Experience Platform - geef de rol &#x200B;](./assets/aep-permissions-role-edit-b2b-journeys-add.png){width="700" zoomable="yes"} uit
 
 1. Selecteer _[!UICONTROL B2B Journeys]_&#x200B;op de **[!UICONTROL Manage B2B Account Journeys]**&#x200B;machtigingskaart.
 
 1. Klik op **[!UICONTROL Save]**.
 
-   ![ Experience Platform - geef de rol ](./assets/aep-permissions-role-edit-b2b-journeys-done.png){width="700" zoomable="yes"} uit
+   ![&#x200B; Experience Platform - geef de rol &#x200B;](./assets/aep-permissions-role-edit-b2b-journeys-done.png){width="700" zoomable="yes"} uit
 
 1. Klik op **[!UICONTROL Close]** om terug te keren naar de detailpagina.
 
 ### Gebruikers aan een rol toevoegen
 
-![ de rolvereisten van de Beheerder ](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Een systeembeheerder of het productbeheerder van AEP kan de volgende stappen uitvoeren.
+![&#x200B; de rolvereisten van de Beheerder &#x200B;](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Een systeembeheerder of het productbeheerder van AEP kan de volgende stappen uitvoeren.
 
 1. Open de roldetails en selecteer het **[!UICONTROL Users]** lusje.
 
@@ -226,7 +226,7 @@ _Om de toestemmingen voor een rol te veranderen :_
 
 1. Klik op **[!UICONTROL Add users]**.
 
-   ![ Experience Platform - voeg gebruikers aan de rol ](./assets/aep-permissions-role-add-users.png){width="700" zoomable="yes"} toe
+   ![&#x200B; Experience Platform - voeg gebruikers aan de rol &#x200B;](./assets/aep-permissions-role-add-users.png){width="700" zoomable="yes"} toe
 
 1. Zoek in het dialoogvenster _[!UICONTROL Add users]_&#x200B;de gebruikers die u aan de rol wilt toevoegen en selecteer deze.
 
@@ -234,15 +234,15 @@ _Om de toestemmingen voor een rol te veranderen :_
 
    * Schakel het selectievakje voor elke gebruiker in.
 
-   ![ Experience Platform - voeg gebruikersdialoog ](./assets/aep-permissions-role-add-users-dialog.png){width="600" zoomable="yes"} toe
+   ![&#x200B; Experience Platform - voeg gebruikersdialoog &#x200B;](./assets/aep-permissions-role-add-users-dialog.png){width="600" zoomable="yes"} toe
 
 1. Klik op **[!UICONTROL Save]** als u alle gebruikers hebt geselecteerd die u wilt toevoegen.
 
 ### Gebruikersgroepen toevoegen aan een rol
 
-Voor informatie over gebruikersbeheer, zie [ de gebruikers van Admin Console ](https://helpx.adobe.com/nl/enterprise/using/user-groups.html) in de documentatie van Admin Console.
+Voor informatie over gebruikersbeheer, zie [&#x200B; de gebruikers van Admin Console &#x200B;](https://helpx.adobe.com/nl/enterprise/using/user-groups.html) in de documentatie van Admin Console.
 
-![ de rolvereisten van de Beheerder ](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Een systeembeheerder of het productbeheerder van AEP kan de volgende stappen uitvoeren.
+![&#x200B; de rolvereisten van de Beheerder &#x200B;](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Een systeembeheerder of het productbeheerder van AEP kan de volgende stappen uitvoeren.
 
 1. Open de roldetails en selecteer het **[!UICONTROL User groups]** lusje.
 
@@ -250,7 +250,7 @@ Voor informatie over gebruikersbeheer, zie [ de gebruikers van Admin Console ](h
 
 1. Klik op **[!UICONTROL Add Groups]**.
 
-   ![ Experience Platform - voeg gebruikers aan de rol ](./assets/aep-permissions-role-add-groups.png){width="700" zoomable="yes"} toe
+   ![&#x200B; Experience Platform - voeg gebruikers aan de rol &#x200B;](./assets/aep-permissions-role-add-groups.png){width="700" zoomable="yes"} toe
 
 1. Zoek in het dialoogvenster _[!UICONTROL Add groups]_&#x200B;de groepen die u aan de rol wilt toevoegen en selecteer deze.
 
@@ -258,13 +258,13 @@ Voor informatie over gebruikersbeheer, zie [ de gebruikers van Admin Console ](h
 
    * Schakel het selectievakje voor elke gebruikersgroep in.
 
-   ![ Experience Platform - voeg de dialoog van groepen ](./assets/aep-permissions-role-add-groups-dialog.png){width="600" zoomable="yes"} toe
+   ![&#x200B; Experience Platform - voeg de dialoog van groepen &#x200B;](./assets/aep-permissions-role-add-groups-dialog.png){width="600" zoomable="yes"} toe
 
 1. Klik op **[!UICONTROL Save]** als u alle gebruikers hebt geselecteerd die u wilt toevoegen.
 
 ## Een aangepaste rol maken
 
-![ de rolvereisten van de Beheerder ](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Een systeembeheerder of het productbeheerder van AEP kan de volgende stappen uitvoeren.
+![&#x200B; de rolvereisten van de Beheerder &#x200B;](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Een systeembeheerder of het productbeheerder van AEP kan de volgende stappen uitvoeren.
 
 1. Selecteer **[!UICONTROL Roles]** in de linkernavigatie en selecteer **[!UICONTROL Create role]**.
 
@@ -274,7 +274,7 @@ Voor informatie over gebruikersbeheer, zie [ de gebruikers van Admin Console ](h
 
 1. Selecteer uw sandboxen.
 
-   ![ Experience Platform - voeg zandbakken voor de nieuwe rol toe ](./assets/aep-permissions-role-sandboxes.png){width="700" zoomable="yes"}
+   ![&#x200B; Experience Platform - voeg zandbakken voor de nieuwe rol toe &#x200B;](./assets/aep-permissions-role-sandboxes.png){width="700" zoomable="yes"}
 
 1. Voeg de profielmachtigingen toe:
 
@@ -288,11 +288,11 @@ Voor informatie over gebruikersbeheer, zie [ de gebruikers van Admin Console ](h
       * [!UICONTROL View B2B profile]
       * [!UICONTROL Manage B2B profile]
 
-   ![ Experience Platform - voeg profielen voor de nieuwe rol ](./assets/aep-permissions-role-profiles.png){width="700" zoomable="yes"} toe
+   ![&#x200B; Experience Platform - voeg profielen voor de nieuwe rol &#x200B;](./assets/aep-permissions-role-profiles.png){width="700" zoomable="yes"} toe
 
 1. B2B-productmachtigingen toevoegen:
 
-   Verwijs naar de lijst van [ B2B producttoestemmingen ](#b2b-product-permissions) om te bepalen welke productmogelijkheden die u voor de rol wilt.
+   Verwijs naar de lijst van [&#x200B; B2B producttoestemmingen &#x200B;](#b2b-product-permissions) om te bepalen welke productmogelijkheden die u voor de rol wilt.
 
    In de _[!UICONTROL Resources]_&#x200B;lijst op de linkerzijde, bepaal de plaats van de **[!UICONTROL B2B]**&#x200B;punten en klik_ _toevoegen (**+**) pictogram om elk attribuut toe te voegen dat u voor de rol wilt toelaten.
 
@@ -304,7 +304,7 @@ Voor informatie over gebruikersbeheer, zie [ de gebruikers van Admin Console ](h
 
 1. Klik op **[!UICONTROL Add Groups]**.
 
-   ![ Experience Platform - voeg profielen voor de nieuwe rol ](./assets/aep-permissions-role-add-groups.png){width="700" zoomable="yes"} toe
+   ![&#x200B; Experience Platform - voeg profielen voor de nieuwe rol &#x200B;](./assets/aep-permissions-role-add-groups.png){width="700" zoomable="yes"} toe
 
 1. Schakel het selectievakje in naast de gebruikersgroep die u eerder in de Admin Console hebt gemaakt.
 

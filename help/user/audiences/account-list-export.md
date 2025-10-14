@@ -21,11 +21,11 @@ Gebruik de _eigenschap van de Rekening van de Uitvoer_ om alle rekeningen of een
 
 1. Klik op **[!UICONTROL Export accounts]** rechtsboven.
 
-   ![ geef rekeningsdetails ](./assets/export-accounts.png){width="800" zoomable="yes"} uit
+   ![&#x200B; geef rekeningsdetails &#x200B;](./assets/export-accounts.png){width="800" zoomable="yes"} uit
 
 1. Definieer in het dialoogvenster de parameters van het accountpubliek dat u wilt exporteren.
 
-   ![ specificeer het rekeningspubliek filtreren ](./assets/export-accounts-dialog.png){width="400"}
+   ![&#x200B; specificeer het rekeningspubliek filtreren &#x200B;](./assets/export-accounts-dialog.png){width="400"}
 
    Voor **[!UICONTROL Engagement score]** is de operator `Between` inclusief, evenals percentagebereiken. Bijvoorbeeld, zijn 5.1 en 5 zowel _tussen_ 5 en 6.
 
@@ -35,7 +35,7 @@ Gebruik de _eigenschap van de Rekening van de Uitvoer_ om alle rekeningen of een
 
 1. Wanneer u het bericht ontvangt dat het exporteren is voltooid, klikt u op de meldingskoppeling om het CSV-bestand te openen.
 
-   ![ klik het bericht om het uitgevoerde dossier van de rekeningslijst CSV ](./assets/export-accounts-notification.png){width="425"} te downloaden
+   ![&#x200B; klik het bericht om het uitgevoerde dossier van de rekeningslijst CSV &#x200B;](./assets/export-accounts-notification.png){width="425"} te downloaden
 
    >[!NOTE]
    >

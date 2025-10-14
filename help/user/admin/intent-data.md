@@ -18,9 +18,9 @@ In Journey Optimizer B2B edition voorspelt het Intent Detection-model een oploss
 * Niveaus van intentie - Beschikbaar op bekend niveau voor leads, accounts en inkoopgroepen.
 * Typen intentsignalen - Trefwoorden, product en oplossing
 
-De intentgegevens worden gebruikt in het [_Intelligente dashboard_](../dashboards/intelligent-dashboard.md), [_de details van de Rekening_ pagina ](../accounts/account-details.md), [_het Kopen van groepsdetails_ pagina ](../buying-groups/buying-group-details.md), en [_de details van de Persoon_ pagina ](../accounts/person-details.md).
+De intentgegevens worden gebruikt in het [_Intelligente dashboard_](../dashboards/intelligent-dashboard.md), [_de details van de Rekening_ pagina &#x200B;](../accounts/account-details.md), [_het Kopen van groepsdetails_ pagina &#x200B;](../buying-groups/buying-group-details.md), en [_de details van de Persoon_ pagina &#x200B;](../accounts/person-details.md).
 
-![ de gegevensvisualisatie van de Intentie ](../data/assets/intent-data-visualization.png){width="700" zoomable="yes"}
+![&#x200B; de gegevensvisualisatie van de Intentie &#x200B;](../data/assets/intent-data-visualization.png){width="700" zoomable="yes"}
 
 ## Uw intenttoewijzingsgegevens voorbereiden
 
@@ -40,7 +40,7 @@ U kunt een dossier van Excel downloaden als malplaatje voor het voorbereiden van
 
 1. Klik op de koppeling **[!UICONTROL Download file template]** in het dialoogvenster.
 
-   ![ het dossier van het de gegevensdownloadmalplaatje van de Intentie ](./assets/intent-data-upload-files.png){width="500"}
+   ![&#x200B; het dossier van het de gegevensdownloadmalplaatje van de Intentie &#x200B;](./assets/intent-data-upload-files.png){width="500"}
 
 1. Klik op **[!UICONTROL Cancel]**.
 
@@ -52,7 +52,7 @@ U kunt een dossier van Excel downloaden als malplaatje voor het voorbereiden van
    * Verander elke lusjes volgens uw productnamen, zoals _Journey Optimizer B2B_, _Marketo Engage_, en _Experience Manager_.
    * Voeg de productsleutelwoorden voor elk lusje, zoals _B2B Marketing_ toe, _de Erkenning van het Merk_, en _Betrokkenheid van het Lood_.
 
-   ![ spreadsheet van de Categorie ](./assets/intent-category-spreadsheet.png){width="600" zoomable="yes"}
+   ![&#x200B; spreadsheet van de Categorie &#x200B;](./assets/intent-category-spreadsheet.png){width="600" zoomable="yes"}
 
 ## Een categoriebestand uploaden
 
@@ -66,11 +66,11 @@ Wanneer uw spreadsheet klaar is, ga aan de _[!UICONTROL Intent Mapping]_&#x200B;
 
    De preprocessing looppas aan cluster gelijkaardige sleutelwoorden, die intentopsporing verbetert en sleutelwoordverdunning vermijdt. Er wordt een pulsmelding weergegeven zodra deze voorbehandeling is voltooid (maximaal 15 minuten, afhankelijk van de gegevens).
 
-   ![ het bericht van de Pulse ](./assets/intent-data-upload-files-pre-process.png){width="500"}
+   ![&#x200B; het bericht van de Pulse &#x200B;](./assets/intent-data-upload-files-pre-process.png){width="500"}
 
    Het resultaat wordt getoond in de _Afbeelding van de Intentie 1&rbrace; pagina._
 
-   ![ Geüploade intentcategorie voor goedkeuring ](./assets/intent-data-category-approve.png){width="600" zoomable="yes"}
+   ![&#x200B; Geüploade intentcategorie voor goedkeuring &#x200B;](./assets/intent-data-category-approve.png){width="600" zoomable="yes"}
 
 ## De categorie goedkeuren of afwijzen
 
@@ -84,4 +84,4 @@ Als u niet tevreden bent met de lijst, kunt u op **[!UICONTROL Delete]** klikken
 
 Als u een andere categorie toevoegt en de bijbehorende taxonomie van invloed is op een bestaande categorie, wordt een waarschuwing weergegeven. Houd rekening met dit effect wanneer u besluit de categorie goed te keuren of af te wijzen. Als het product in meer dan één categorie wordt gebruikt, moet de koppeling tussen product en trefwoord voor alle categorieën hetzelfde zijn.
 
-![ Alarm van bestaand categorieeffect ](./assets/intent-data-category-overlap.png){width="600" zoomable="yes"}
+![&#x200B; Alarm van bestaand categorieeffect &#x200B;](./assets/intent-data-category-overlap.png){width="600" zoomable="yes"}

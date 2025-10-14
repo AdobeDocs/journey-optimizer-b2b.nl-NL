@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Aangepaste tokens voor e-mailpersonalisatie
 
-Bij de personalisatie van inhoud worden tokens gebruikt als plaatsaanduidingen of als variabelen die worden gevuld wanneer het inhoudsartefact wordt gegenereerd. Standaardpersonalisatietokens zijn beschikbaar voor e-mails, openingspagina&#39;s, fragmenten en sjablonen. U kunt ook een set aangepaste tokens definiëren met waarden die specifiek zijn voor de accountreis. Deze reeks douanetokens wordt genoemd _Mijn Tokens_ en om het even welk van deze douanetokens zijn voor verpersoonlijking wanneer [ creatie reis e-mails ](./email-authoring.md#content-authoring---personalization).
+Bij de personalisatie van inhoud worden tokens gebruikt als plaatsaanduidingen of als variabelen die worden gevuld wanneer het inhoudsartefact wordt gegenereerd. Standaardpersonalisatietokens zijn beschikbaar voor e-mails, openingspagina&#39;s, fragmenten en sjablonen. U kunt ook een set aangepaste tokens definiëren met waarden die specifiek zijn voor de accountreis. Deze reeks douanetokens wordt genoemd _Mijn Tokens_ en om het even welk van deze douanetokens zijn voor verpersoonlijking wanneer [&#x200B; creatie reis e-mails &#x200B;](./email-authoring.md#content-authoring---personalization).
 
 Naast _Mijn Tokens_, die voor de rekeningsreis specifiek zijn, kunt u om het even welke standaard (ingebouwde) tokens voor e-mailverpersoonlijking gebruiken.
 
@@ -29,11 +29,11 @@ _Om tot de douanetokens voor een rekeningsreis toegang te hebben :_
 
 1. Klik op het menu **[!UICONTROL More...]** rechtsboven en kies **[!UICONTROL My Tokens]** .
 
-   ![ klik meer bij het hoogste recht ](../journeys/assets/account-journey-draft-more-menu.png){width="450"}
+   ![&#x200B; klik meer bij het hoogste recht &#x200B;](../journeys/assets/account-journey-draft-more-menu.png){width="450"}
 
    De _Mijn 1&rbrace; pagina van Tokens &lbrace;maakt een lijst van alle douanetokens die voor de reis worden bepaald._
 
-   ![ Mijn tokens ](./assets/my-tokens-list-page.png){width="700" zoomable="yes"}
+   ![&#x200B; Mijn tokens &#x200B;](./assets/my-tokens-list-page.png){width="700" zoomable="yes"}
 
 ### Een token maken
 
@@ -45,13 +45,13 @@ _Om tot de douanetokens voor een rekeningsreis toegang te hebben :_
 
 1. Voer in het dialoogvenster de waarden **[!UICONTROL Name]** en **[!UICONTROL Value]** voor het token in.
 
-   ![ ga een naam en een waarde voor het tekstteken ](./assets/my-tokens-create-text-token-dialog.png){width="400"} in
+   ![&#x200B; ga een naam en een waarde voor het tekstteken &#x200B;](./assets/my-tokens-create-text-token-dialog.png){width="400"} in
 
    U kunt geen spaties of speciale karakters in de symbolische naam gebruiken. U kunt _camel geval_, zoals `EventType` gebruiken, om een multi-woordnaam te gebruiken die gemakkelijk wordt geïdentificeerd.
 
    Als u het teken van het a _Aantal_ bepaalt, kan de waarde slechts numerieke karakters bevatten. U kunt een decimale waarde gebruiken.
 
-   ![ ga een naam en een waarde voor het aantalteken ](./assets/my-tokens-create-number-token-dialog.png){width="400"} in
+   ![&#x200B; ga een naam en een waarde voor het aantalteken &#x200B;](./assets/my-tokens-create-number-token-dialog.png){width="400"} in
 
 1. Klik op **[!UICONTROL Add]**.
 
@@ -61,11 +61,11 @@ Terwijl de reis van de rekening in ontwerpstatus blijft, kunt u om het even welk
 
 1. In de _[!UICONTROL My Tokens]_&#x200B;pagina, klik het_ Meer acties _pictogram (**...**) naast de symbolische naam en kies **[!UICONTROL Edit]**.
 
-   ![ Symbolisch Meer actiemenu ](./assets/my-tokens-more-actions.png){width="430"}
+   ![&#x200B; Symbolisch Meer actiemenu &#x200B;](./assets/my-tokens-more-actions.png){width="430"}
 
 1. Wijzig in het dialoogvenster de **[!UICONTROL Name]** en **[!UICONTROL Value]** naar wens voor de rit.
 
-   ![ verander de naam en de waarde voor het teken ](./assets/my-tokens-edit-text-token-dialog.png){width="400"}
+   ![&#x200B; verander de naam en de waarde voor het teken &#x200B;](./assets/my-tokens-edit-text-token-dialog.png){width="400"}
 
 1. Klik op **[!UICONTROL Edit]**.
 
@@ -81,9 +81,9 @@ U kunt een douanetoken van de _Mijn Tokens_ lijst schrappen, maar u zou ervoor m
 
 Wanneer u e-mailinhoud voor uw rekeningsreis creeert, kunt u om het even welke tokens van de _Mijn Tokens_ lijst gebruiken wanneer u de verpersoonlijkingshulpmiddelen in de visuele ontwerpruimte gebruikt.
 
-1. Selecteer de tekstcomponent en klik _verpersoonlijking_ toevoegen ( ![ verpersoonlijkingspictogram ](../../assets/do-not-localize/icon-personalization-field.svg)) pictogram in de toolbar.
+1. Selecteer de tekstcomponent en klik _verpersoonlijking_ toevoegen ( ![&#x200B; verpersoonlijkingspictogram &#x200B;](../../assets/do-not-localize/icon-personalization-field.svg)) pictogram in de toolbar.
 
-   ![ klik het Add verpersoonlijkingspictogram ](./assets/email-personalize-text.png){width="600"}
+   ![&#x200B; klik het Add verpersoonlijkingspictogram &#x200B;](./assets/email-personalize-text.png){width="600"}
 
    Deze actie opent _geeft Personalization_ dialoog uit. Het dialoogvenster bevat een map _[!UICONTROL My tokens]_&#x200B;in de&#x200B;_[!UICONTROL Personalization Tokens]_ -bibliotheek als er aangepaste tokens zijn gedefinieerd voor de accountreis.
 
@@ -91,6 +91,6 @@ Wanneer u e-mailinhoud voor uw rekeningsreis creeert, kunt u om het even welke t
 
    Desgewenst kunt u aanvullende statische tekst toevoegen.
 
-   ![ construeert gepersonaliseerde tekst gebruikend Mijn tokens ](./assets/personalization-edit-dialog-my-tokens.png){width="700" zoomable="yes"}
+   ![&#x200B; construeert gepersonaliseerde tekst gebruikend Mijn tokens &#x200B;](./assets/personalization-edit-dialog-my-tokens.png){width="700" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save]**.

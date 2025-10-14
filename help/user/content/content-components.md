@@ -41,20 +41,20 @@ In de sectie **[!UICONTROL Contents]** onder aan de Componentenbibliotheek worde
 
 | Pictogram | Component | Beschrijving |
 | --------- | ---- | ----------- |
-| ![ pictogram van de Container ](../../assets/do-not-localize/icon-content-component-container.svg) | [ Container ](#container) | Voeg deze component aan uw ontwerp toe om een rechthoekige container te omvatten die u kunt gebruiken om componenten te groeperen of achtergrond of randstijl op een gebied toe te passen. |
-| ![ pictogram van de Knoop ](../../assets/do-not-localize/icon-content-component-button.svg) | [ Knoop ](#button) | Voeg deze component aan uw ontwerp toe om een klikbaar knoopelement te omvatten. |
-| ![ pictogram van de Tekst ](../../assets/do-not-localize/icon-content-component-text.svg) | [ Tekst ](#text) | Voeg deze component aan uw ontwerp toe om een lichaam van tekst te omvatten. |
-| ![ Scheidingspictogram ](../../assets/do-not-localize/icon-content-component-divider.svg) | [ Scheidingsreiziger ](#divider) | Voeg deze component aan uw ontwerp toe om een horizontale lijn te omvatten om gebieden van uw inhoud te scheiden. |
-| ![ het pictogram van HTML ](../../assets/do-not-localize/icon-content-component-html.svg) | [ HTML ](#html) | Voeg deze component aan uw ontwerp toe om de verschillende delen van uw bestaande HTML te kopiëren-kleven. Gebruik deze component om een vrij modulair HTML-blok te maken voor hergebruik van externe inhoud. |
-| ![ pictogram van het Beeld ](../../assets/do-not-localize/icon-content-component-image.svg) | [ Beeld ](#image) | Voeg deze component aan uw ontwerp toe om een beelddossier op te nemen. |
-| ![ Sociale pictogram ](../../assets/do-not-localize/icon-content-component-social.svg) | [ Sociale ](#social) | Voeg deze component aan uw ontwerp toe om verbindingen aan sociale media pagina&#39;s op te nemen. |
-| ![ pictogram van de Vorm ](../../assets/do-not-localize/icon-content-component-form.svg) | [ Vorm ](#form) | **_beschikbaar voor het landen slechts pagina&#39;s._** Voeg deze component aan uw ontwerp toe om een gemaakt formulier in te voegen. |
+| ![&#x200B; pictogram van de Container &#x200B;](../../assets/do-not-localize/icon-content-component-container.svg) | [&#x200B; Container &#x200B;](#container) | Voeg deze component aan uw ontwerp toe om een rechthoekige container te omvatten die u kunt gebruiken om componenten te groeperen of achtergrond of randstijl op een gebied toe te passen. |
+| ![&#x200B; pictogram van de Knoop &#x200B;](../../assets/do-not-localize/icon-content-component-button.svg) | [&#x200B; Knoop &#x200B;](#button) | Voeg deze component aan uw ontwerp toe om een klikbaar knoopelement te omvatten. |
+| ![&#x200B; pictogram van de Tekst &#x200B;](../../assets/do-not-localize/icon-content-component-text.svg) | [&#x200B; Tekst &#x200B;](#text) | Voeg deze component aan uw ontwerp toe om een lichaam van tekst te omvatten. |
+| ![&#x200B; Scheidingspictogram &#x200B;](../../assets/do-not-localize/icon-content-component-divider.svg) | [&#x200B; Scheidingsreiziger &#x200B;](#divider) | Voeg deze component aan uw ontwerp toe om een horizontale lijn te omvatten om gebieden van uw inhoud te scheiden. |
+| ![&#x200B; het pictogram van HTML &#x200B;](../../assets/do-not-localize/icon-content-component-html.svg) | [&#x200B; HTML &#x200B;](#html) | Voeg deze component aan uw ontwerp toe om de verschillende delen van uw bestaande HTML te kopiëren-kleven. Gebruik deze component om een vrij modulair HTML-blok te maken voor hergebruik van externe inhoud. |
+| ![&#x200B; pictogram van het Beeld &#x200B;](../../assets/do-not-localize/icon-content-component-image.svg) | [&#x200B; Beeld &#x200B;](#image) | Voeg deze component aan uw ontwerp toe om een beelddossier op te nemen. |
+| ![&#x200B; Sociale pictogram &#x200B;](../../assets/do-not-localize/icon-content-component-social.svg) | [&#x200B; Sociale &#x200B;](#social) | Voeg deze component aan uw ontwerp toe om verbindingen aan sociale media pagina&#39;s op te nemen. |
+| ![&#x200B; pictogram van de Vorm &#x200B;](../../assets/do-not-localize/icon-content-component-form.svg) | [&#x200B; Vorm &#x200B;](#form) | **_beschikbaar voor het landen slechts pagina&#39;s._** Voeg deze component aan uw ontwerp toe om een gemaakt formulier in te voegen. |
 
 ## Werkbalken van de component Inhoud
 
 Elk type inhoudscomponent geeft een werkbalk weer wanneer u de component op het canvas selecteert. De beschikbare hulpmiddelen, die door het componenttype variëren, verstrekken een gemakkelijke manier om met de component direct in de teruggegeven inhoud te werken. Het omvat het formatteren en functionele mogelijkheden die voor het componenttype van toepassing zijn.
 
-![ de componententoolbar van 0&rbrace; Inhoud](../assets/do-not-localize/toolbar-content.png){width="450"}
+![&#x200B; de componententoolbar van 0&rbrace; Inhoud](../assets/do-not-localize/toolbar-content.png){width="450"}
 
 ### Opmaakgereedschappen
 
@@ -198,29 +198,29 @@ Elk type inhoudscomponent geeft een werkbalk weer wanneer u de component op het 
 
 | Gereedschap | Naam | Gebruik |
 | ---- | ---- | ----- |
-| ![ voeg verpersoonlijking ](../assets/do-not-localize/toolbar-button-add-personalization.png){width="40"} toe | Aanpassing toevoegen | Gebruik de verpersoonlijkingsredacteur om verpersoonlijkingstekenen in de componenteninhoud op te nemen. [Meer informatie](./email-authoring.md#personalize-content) |
-| ![ toon de broncode ](../assets/do-not-localize/toolbar-button-show-source-code.png){width="40"} | De broncode weergeven | De HTML-broncode voor de component weergeven in een alleen-lezen pop-up. <br/>![ toon HTML code ](./assets/content-components-show-source-code.png){width="200"} |
-| ![ laat voorwaardelijke inhoud ](../assets/do-not-localize/toolbar-button-enable-conditional-content.png){width="40"} toe | Voorwaardelijke inhoud inschakelen | (E-mail en fragmenten) Schakel voorwaardelijke varianten voor de component in. [Meer informatie](./conditional-content.md) |
-| ![ Dupliceren ](../assets/do-not-localize/toolbar-button-duplicate.png){width="40"} | Dupliceren | Maak een kopie van de component en voeg deze direct hieronder toe. |
-| ![ Schrapping ](../assets/do-not-localize/toolbar-button-delete.png){width="40"} | Verwijderen | Verwijder de component. |
+| ![&#x200B; voeg verpersoonlijking &#x200B;](../assets/do-not-localize/toolbar-button-add-personalization.png){width="40"} toe | Aanpassing toevoegen | Gebruik de verpersoonlijkingsredacteur om verpersoonlijkingstekenen in de componenteninhoud op te nemen. [Meer informatie](./email-authoring.md#personalize-content) |
+| ![&#x200B; toon de broncode &#x200B;](../assets/do-not-localize/toolbar-button-show-source-code.png){width="40"} | De broncode weergeven | De HTML-broncode voor de component weergeven in een alleen-lezen pop-up. <br/>![&#x200B; toon HTML code &#x200B;](./assets/content-components-show-source-code.png){width="200"} |
+| ![&#x200B; laat voorwaardelijke inhoud &#x200B;](../assets/do-not-localize/toolbar-button-enable-conditional-content.png){width="40"} toe | Voorwaardelijke inhoud inschakelen | (E-mail en fragmenten) Schakel voorwaardelijke varianten voor de component in. [Meer informatie](./conditional-content.md) |
+| ![&#x200B; Dupliceren &#x200B;](../assets/do-not-localize/toolbar-button-duplicate.png){width="40"} | Dupliceren | Maak een kopie van de component en voeg deze direct hieronder toe. |
+| ![&#x200B; Schrapping &#x200B;](../assets/do-not-localize/toolbar-button-delete.png){width="40"} | Verwijderen | Verwijder de component. |
 
 ## Een inhoudscomponent toevoegen aan uw ontwerp
 
 1. In de visuele ontwerpruimte gebruikt u een bestaande sjabloon of voegt u de benodigde structuurcomponenten toe aan een leeg canvas om de lay-out te definiëren.
 
-1. In de **[!UICONTROL Components]** bibliotheek, pak het _handvat van de Belemmering_ ![ handvat van de Belemmering ](../../assets/do-not-localize/icon-drag-handle.svg) voor de inhoudcomponent van uw keus, dan belemmering en laat vallen het op de structuurcomponenten.
+1. In de **[!UICONTROL Components]** bibliotheek, pak het _handvat van de Belemmering_ ![&#x200B; handvat van de Belemmering &#x200B;](../../assets/do-not-localize/icon-drag-handle.svg) voor de inhoudcomponent van uw keus, dan belemmering en laat vallen het op de structuurcomponenten.
 
    U kunt meerdere componenten toevoegen aan één structuurcomponent en aan elke kolom van een structuurcomponent.
 
-   ![ sleep de inhoudscomponent in de structuurcomponent ](./assets/content-components-drag.png){width="600" zoomable="yes"}
+   ![&#x200B; sleep de inhoudscomponent in de structuurcomponent &#x200B;](./assets/content-components-drag.png){width="600" zoomable="yes"}
 
 1. Pas de componentweergave aan met de tabbladen **[!UICONTROL Settings]** en **[!UICONTROL Style]** aan de rechterkant of met de contextwerkbalk die op het canvas wordt weergegeven.
 
    U kunt bijvoorbeeld de tekststijl, opvulling of marge van de component wijzigen.
 
-   ![ bepaal de montages en de stijlen voor de inhoudscomponent ](./assets/content-components-settings-styles.png){width="600" zoomable="yes"}
+   ![&#x200B; bepaal de montages en de stijlen voor de inhoudscomponent &#x200B;](./assets/content-components-settings-styles.png){width="600" zoomable="yes"}
 
-Aangezien u met uw ontwerp werkt, kunt u [ of ](#remove-a-content-component) ook verwijderen [ een component.](#duplicate-a-content-component)
+Aangezien u met uw ontwerp werkt, kunt u [&#x200B; of &#x200B;](#remove-a-content-component) ook verwijderen [&#x200B; een component.](#duplicate-a-content-component)
 
 ## Instellingen en stijlen van de component Inhoud
 
@@ -233,7 +233,7 @@ Wijzig de instelling **[!UICONTROL Display Options]** als u de component wilt ui
 * _[!UICONTROL Show only on desktop devices]_- Kies deze instelling wanneer u de component wilt weergeven op bureaubladapparaten en deze wilt uitsluiten voor mobiele apparaten.
 * _[!UICONTROL Show only on mobile devices]_- Kies deze instelling als u de component wilt weergeven op mobiele apparaten, zoals telefoons en tablets, en deze wilt uitsluiten voor bureaubladapparaten.
 
-![ de opties van de Vertoning voor inhoudscomponent ](./assets/content-components-display-options.png){width="400" zoomable="yes"}
+![&#x200B; de opties van de Vertoning voor inhoudscomponent &#x200B;](./assets/content-components-display-options.png){width="400" zoomable="yes"}
 
 ### Container
 
@@ -241,7 +241,7 @@ Gebruik een container om specifieke opmaak toe te passen op een groep inhoudcomp
 
 Voeg bijvoorbeeld een component _[!UICONTROL Container]_&#x200B;toe en voeg vervolgens een component&#x200B;_[!UICONTROL Button]_ in die container toe. U kunt een specifieke gebiedsstijl voor de container gebruiken, en de knoop en zijn achtergrond opmaken zoals u nodig hebt.
 
-![ de componentenstijlen van de inhoudcomponent van de Container ](./assets/content-components-container.png){width="600" zoomable="yes"}
+![&#x200B; de componentenstijlen van de inhoudcomponent van de Container &#x200B;](./assets/content-components-container.png){width="600" zoomable="yes"}
 
 +++Achtergrond
 
@@ -283,7 +283,7 @@ Wanneer de knopcomponent op het canvas wordt weergegeven, bevat de werkbalk opti
 
 Wanneer u de tekst van het knoplabel invoert en de opmaak instelt, wordt de grootte van de knop aangepast aan de inhoud.
 
-![ component van de Knoop die met toolbar ](./assets/content-components-button.png){width="500" zoomable="yes"} wordt getoond
+![&#x200B; component van de Knoop die met toolbar &#x200B;](./assets/content-components-button.png){width="500" zoomable="yes"} wordt getoond
 
 #### Koppelingsopties instellen
 
@@ -293,15 +293,15 @@ Gebruik op het tabblad _[!UICONTROL Settings]_&#x200B;de opties van **[!UICONTRO
 
    * **[!UICONTROL External link]** - Kies dit type als u een standaard-URL als doel voor de koppeling wilt gebruiken.
 
-     Voer in **[!UICONTROL Url]** de URL in voor het doel van de koppeling. Klik _personaliseren_ pictogram ( ![ Persoonlijk pictogram ](../assets/do-not-localize/icon-personalize.svg)) om een verpersoonlijkingstoken als parameter in URL te gebruiken.
+     Voer in **[!UICONTROL Url]** de URL in voor het doel van de koppeling. Klik _personaliseren_ pictogram ( ![&#x200B; Persoonlijk pictogram &#x200B;](../assets/do-not-localize/icon-personalize.svg)) om een verpersoonlijkingstoken als parameter in URL te gebruiken.
 
-     ![ bepaal een externe verbinding voor een knoopcomponent ](./assets/component-button-link-options-external.png){width="200"}
+     ![&#x200B; bepaal een externe verbinding voor een knoopcomponent &#x200B;](./assets/component-button-link-options-external.png){width="200"}
 
    * **het Bestaan pagina** - kies dit type om een gepubliceerde het landen pagina in <!-- Journey Optimizer B2B Edition (_Beta_) or --> de verbonden instantie van Marketo Engage te selecteren.
 
-     Selecteer voor de optie **[!UICONTROL Landing Page]** de gepubliceerde bestemmingspagina. Klik het _Uitgezochte pagina_ pictogram ( ![ toon het verbindingspictogram ](/help/assets/do-not-localize/icon-landing-page-select.svg)) en [ selecteer de gepubliceerde het landen pagina ](./landing-pages.md#link-to-a-landing-page).
+     Selecteer voor de optie **[!UICONTROL Landing Page]** de gepubliceerde bestemmingspagina. Klik het _Uitgezochte pagina_ pictogram ( ![&#x200B; toon het verbindingspictogram &#x200B;](/help/assets/do-not-localize/icon-landing-page-select.svg)) en [&#x200B; selecteer de gepubliceerde het landen pagina &#x200B;](./landing-pages.md#link-to-a-landing-page).
 
-     ![ bepaal een verbinding aan een het landen pagina voor een knoopcomponent ](./assets/component-button-link-options-landing-page.png){width="200"}
+     ![&#x200B; bepaal een verbinding aan een het landen pagina voor een knoopcomponent &#x200B;](./assets/component-button-link-options-landing-page.png){width="200"}
 
 1. Voer bij **[!UICONTROL Label]** de tekst in die u in de knop wilt weergeven.
 
@@ -471,11 +471,11 @@ Gebruik de HTML-component om delen van uw bestaande HTML toe te voegen. Met deze
 
 1. Selecteer de component op het canvas en klik _tonen het pictogram van de broncode_ in de toolbar.
 
-   [ open de coderedacteur om HTML ](./assets/content-components-html-show-code.png){width="450"} toe te voegen
+   [&#x200B; open de coderedacteur om HTML &#x200B;](./assets/content-components-html-show-code.png){width="450"} toe te voegen
 
 1. Plak de HTML in het tekstvak en klik op **[!UICONTROL Save]** .
 
-   [ geef de dialoog van HTML uit ](./assets/content-components-html-edit-dialog.png){width="600" zoomable="yes"}
+   [&#x200B; geef de dialoog van HTML uit &#x200B;](./assets/content-components-html-edit-dialog.png){width="600" zoomable="yes"}
 
    Als de HTML geldig is, wordt het element op het canvas weergegeven. Als het een element is dat aan één van de andere inhoudscomponenten toewijst, kunt u de montages en de stijlen in het juiste paneel volgens het componenttype veranderen. Als dit niet het geval is, blijft het een HTML-component.
 
@@ -527,15 +527,15 @@ Voor een HTML-component kunt u de volgende stijlen instellen voor de gehele HTML
 
 Gebruik de component [!UICONTROL Image] om een afbeeldingselement in te voegen in uw inhoud. Wanneer de _component van het Beeld_ in het canvas wordt geselecteerd, kunt u het getoonde dossier van de beeldactiva toevoegen of veranderen.
 
-![ component van het Beeld die met toolbar ](./assets/content-components-image.png){width="400" zoomable="yes"} wordt getoond
+![&#x200B; component van het Beeld die met toolbar &#x200B;](./assets/content-components-image.png){width="400" zoomable="yes"} wordt getoond
 
 #### Afbeeldingselement toevoegen
 
-Kies het [ type van middelbron 0&rbrace; ](./assets-overview.md) en selecteer een beelddossier:
+Kies het [&#x200B; type van middelbron 0&rbrace; &#x200B;](./assets-overview.md) en selecteer een beelddossier:
 
 * **[!UICONTROL Marketo Engage Assets]** - Kies dit type om door een afbeeldingselement te bladeren en dit te selecteren in de Journey Optimizer B2B edition-bibliotheek of in de aangesloten Market Engage-instantie.
 
-  ![ doorblader de beschikbare beeldactiva ](./assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
+  ![&#x200B; doorblader de beschikbare beeldactiva &#x200B;](./assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
 
   In het dialoogvenster kunt u een afbeelding kiezen in de geselecteerde opslagplaats en werkruimte. Klik op **[!UICONTROL Select]** om het element toe te voegen.
 
@@ -545,9 +545,9 @@ Kies het [ type van middelbron 0&rbrace; ](./assets-overview.md) en selecteer ee
 
    * Ga tekst op het _gebied van het Onderzoek_ in om de getoonde punten voor een gelijke van de activanaam te filtreren.
 
-     ![ Gebruik de filters en het onderzoeksgebied om het middel te vinden dat u ](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"} nodig hebt
+     ![&#x200B; Gebruik de filters en het onderzoeksgebied om het middel te vinden dat u &#x200B;](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"} nodig hebt
 
-* **[!UICONTROL Experience Manager Assets]** - kies dit type om een beeldactiva van a te doorbladeren en te selecteren [ gevormde Ervaring beheert de bewaarplaats van Assets ](../admin/configure-aem-repositories.md).
+* **[!UICONTROL Experience Manager Assets]** - kies dit type om een beeldactiva van a te doorbladeren en te selecteren [&#x200B; gevormde Ervaring beheert de bewaarplaats van Assets &#x200B;](../admin/configure-aem-repositories.md).
 
   Kies in het dialoogvenster _[!UICONTROL Select Assets]_&#x200B;een afbeelding met de beschikbare gereedschappen om te zoeken naar het benodigde element en klik op **[!UICONTROL Select]**.:
 
@@ -559,7 +559,7 @@ Kies het [ type van middelbron 0&rbrace; ](./assets-overview.md) en selecteer ee
 
    * Klik het _pictogram van de Sorteervolgorde_ om de sorteervolgorde tussen het stijgen en het dalen te veranderen.
 
-     ![ hulpmiddelen van het Gebruik in de Uitgezochte dialoog van Assets om een beeldactiva ](./assets/content-select-assets-dialog-aem.png){width="700" zoomable="yes"} te vinden en te selecteren
+     ![&#x200B; hulpmiddelen van het Gebruik in de Uitgezochte dialoog van Assets om een beeldactiva &#x200B;](./assets/content-select-assets-dialog-aem.png){width="700" zoomable="yes"} te vinden en te selecteren
 
    * Klik op de menupijl **[!UICONTROL Sort by]** om de sorteercriteria te wijzigen in **[!UICONTROL Name]** , **[!UICONTROL Size]** of **[!UICONTROL Modified]** .
 
@@ -567,13 +567,13 @@ Kies het [ type van middelbron 0&rbrace; ](./assets-overview.md) en selecteer ee
 
    * Ga tekst op het _gebied van het Onderzoek_ in om de getoonde punten voor een gelijke van de activanaam te filtreren.
 
-  ![ Gebruik de filters en het onderzoeksgebied om van de activa ](./assets/content-select-assets-dialog-aem-filter.png){width="700" zoomable="yes"} de plaats te bepalen
+  ![&#x200B; Gebruik de filters en het onderzoeksgebied om van de activa &#x200B;](./assets/content-select-assets-dialog-aem-filter.png){width="700" zoomable="yes"} de plaats te bepalen
 
 * **[!UICONTROL Import media]** - Kies dit type om een bestand op uw systeem te selecteren en in de Journey Optimizer B2B edition-bibliotheek met middelen te importeren.
 
   Sleep in het dialoogvenster _[!UICONTROL Upload image]_&#x200B;een bestand van uw systeem naar het bestandsvak. De maximale bestandsgrootte is 100 MB.
 
-  ![ de Invoer een beelddossier in ](./assets/email-designer-image-upload.png){width="450"}
+  ![&#x200B; de Invoer een beelddossier in &#x200B;](./assets/email-designer-image-upload.png){width="450"}
 
   De bestandsnamen van de geselecteerde afbeeldingen worden weergegeven in het dialoogvenster. Namen van elementbestanden moeten uniek zijn (in verschillende mappen). Als er al een bestand met de naam bestaat, wordt er een bericht weergegeven. Namen kunnen maximaal 100 tekens hebben en mogen geen speciale tekens bevatten (zoals `;` , `:` , `\` en `|` ).
 
@@ -581,7 +581,7 @@ Kies het [ type van middelbron 0&rbrace; ](./assets-overview.md) en selecteer ee
 
 U kunt een afbeeldingstitel en alternatieve tekst voor de afbeelding toevoegen in het rechterdeelvenster.
 
-![ montages van het Beeld ](./assets/content-components-image-settings.png){width="250"}
+![&#x200B; montages van het Beeld &#x200B;](./assets/content-components-image-settings.png){width="250"}
 
 #### Koppelingsopties instellen
 
@@ -591,15 +591,15 @@ Gebruik op het tabblad _[!UICONTROL Settings]_&#x200B;de opties van **[!UICONTRO
 
    * **[!UICONTROL External link]** - Kies dit type als u een standaard-URL als doel voor de koppeling wilt gebruiken.
 
-     Voer in **[!UICONTROL Url]** de URL in voor het doel van de koppeling. Klik _personaliseren_ pictogram ( ![ Persoonlijk pictogram ](../assets/do-not-localize/icon-personalize.svg)) om een verpersoonlijkingstoken als parameter in URL te gebruiken.
+     Voer in **[!UICONTROL Url]** de URL in voor het doel van de koppeling. Klik _personaliseren_ pictogram ( ![&#x200B; Persoonlijk pictogram &#x200B;](../assets/do-not-localize/icon-personalize.svg)) om een verpersoonlijkingstoken als parameter in URL te gebruiken.
 
-     ![ bepaal een externe verbinding voor een knoopcomponent ](./assets/component-button-link-options-external.png){width="250"}
+     ![&#x200B; bepaal een externe verbinding voor een knoopcomponent &#x200B;](./assets/component-button-link-options-external.png){width="250"}
 
    * **het Bestaan pagina** - kies dit type om een gepubliceerde het landen pagina in <!-- Journey Optimizer B2B Edition (_Beta_) or --> de verbonden instantie van Marketo Engage te selecteren.
 
-     Selecteer voor de optie **[!UICONTROL Landing Page]** de gepubliceerde bestemmingspagina. Klik het _Uitgezochte pagina_ pictogram ( ![ toon het verbindingspictogram ](/help/assets/do-not-localize/icon-landing-page-select.svg)) en [ selecteer de gepubliceerde het landen pagina ](./landing-pages.md#link-to-a-landing-page).
+     Selecteer voor de optie **[!UICONTROL Landing Page]** de gepubliceerde bestemmingspagina. Klik het _Uitgezochte pagina_ pictogram ( ![&#x200B; toon het verbindingspictogram &#x200B;](/help/assets/do-not-localize/icon-landing-page-select.svg)) en [&#x200B; selecteer de gepubliceerde het landen pagina &#x200B;](./landing-pages.md#link-to-a-landing-page).
 
-     ![ bepaal een verbinding aan een het landen pagina voor een knoopcomponent ](./assets/component-button-link-options-landing-page.png){width="250"}
+     ![&#x200B; bepaal een verbinding aan een het landen pagina voor een knoopcomponent &#x200B;](./assets/component-button-link-options-landing-page.png){width="250"}
 
 1. Voer bij **[!UICONTROL Label]** de tekst in die u in de knop wilt weergeven.
 
@@ -663,21 +663,21 @@ Stel de stijlen voor de afbeeldingscomponent in het rechterdeelvenster in.
 
 Gebruik de _Sociale_ component om verbindingen aan sociale media pagina&#39;s in uw inhoud op te nemen. Het omvat drie standaard sociale mediatypen, maar u kunt de typen naar wens toevoegen of verwijderen.
 
-![ Nieuwe sociale component met standaardtypes ](./assets/content-components-social-settings.png){width="600" zoomable="yes"}
+![&#x200B; Nieuwe sociale component met standaardtypes &#x200B;](./assets/content-components-social-settings.png){width="600" zoomable="yes"}
 
 * Om een sociaal media type toe te voegen, klik _toevoegen_ ( **+**) pictogram en kies een sociaal media type dat u wilt toevoegen.
 
-  ![ klik + om sociaal media type ](./assets/content-components-social-settings-add-type.png){width="250"} toe te voegen
+  ![&#x200B; klik + om sociaal media type &#x200B;](./assets/content-components-social-settings-add-type.png){width="250"} toe te voegen
 
 * Om een sociaal media type te verwijderen, klik **X** naast het sociale media pictogram.
 
 Selecteer een type sociale media en stel de opties voor dat type in:
 
 * **[!UICONTROL URL]** - Voer de URL van de sociale media in die u aan de afbeelding of het pictogram van de sociale media wilt koppelen.
-* **[!UICONTROL Source]** - Als u uw eigen afbeelding wilt gebruiken in plaats van de standaardafbeelding, kiest u en maakt u een afbeelding. U kunt een afbeelding selecteren in de verbonden opslagplaats voor Marketo Engage-middelen, een Experience Manager Assets-opslagplaats (indien geconfigureerd) of een afbeeldingsbestand importeren van uw systeem. Verwijs naar de [ componenteninformatie van het Beeld ](#add-the-image-asset) voor details over het selecteren van en het invoeren van beeldactiva.
+* **[!UICONTROL Source]** - Als u uw eigen afbeelding wilt gebruiken in plaats van de standaardafbeelding, kiest u en maakt u een afbeelding. U kunt een afbeelding selecteren in de verbonden opslagplaats voor Marketo Engage-middelen, een Experience Manager Assets-opslagplaats (indien geconfigureerd) of een afbeeldingsbestand importeren van uw systeem. Verwijs naar de [&#x200B; componenteninformatie van het Beeld &#x200B;](#add-the-image-asset) voor details over het selecteren van en het invoeren van beeldactiva.
 * **[!UICONTROL Alt text]** - Voer de alternatieve tekst in voor de weergegeven afbeelding.
 
-  ![ Montages voor het geselecteerde sociale media type ](./assets/content-components-social-settings-for-type.png){width="250"}
+  ![&#x200B; Montages voor het geselecteerde sociale media type &#x200B;](./assets/content-components-social-settings-for-type.png){width="250"}
 
 Als u een consistente weergavegrootte wilt definiëren voor alle sociale-mediagrafieken, stelt u de **[!UICONTROL Size of images]** in.
 
@@ -729,11 +729,11 @@ U kunt de volgende stijlopties voor de _Sociale_ component plaatsen:
 
 [!BADGE Bèta]{type=Informative url="/help/user/content/forms.md" tooltip="Beta-functie"}
 
-Gebruik de _component van de Vorm_ om een gepubliceerde vorm aan een het landen pagina of het landen paginamalplaatje toe te voegen. Voor meer informatie over het creëren van en het publiceren van vormen, zie [ Forms ](./forms.md).
+Gebruik de _component van de Vorm_ om een gepubliceerde vorm aan een het landen pagina of het landen paginamalplaatje toe te voegen. Voor meer informatie over het creëren van en het publiceren van vormen, zie [&#x200B; Forms &#x200B;](./forms.md).
 
 1. Klik het _hulpmiddel van de Vorm_ in de componententoolbar, of gebruik de **[!UICONTROL Embed Form]** eigenschappen op het recht om de gepubliceerde vorm te selecteren.
 
-   ![ selecteer de gepubliceerde vorm ](../../assets/content-design-shared/content-design-add-form-properties.png){width="600"}
+   ![&#x200B; selecteer de gepubliceerde vorm &#x200B;](../../assets/content-design-shared/content-design-add-form-properties.png){width="600"}
 
 1. Als u de standaardinstelling **[!UICONTROL Follow up type]** voor het formulier wilt overschrijven, wijzigt u de instelling op basis van de vereisten voor de pagina of sjabloon.
 
@@ -749,7 +749,7 @@ Gebruik de _component van de Vorm_ om een gepubliceerde vorm aan een het landen 
      >
      >Als u het formulier wilt gebruiken voor het downloaden van een bestand, kunt u een URL voor het gehoste bestand opgeven. Met deze configuratie werkt de verzendknop als een downloadknop.
 
-     ![ Verandering follow-up plaatsen ](../../assets/content-design-shared/content-design-add-form-follow-up.png){width="280"}
+     ![&#x200B; Verandering follow-up plaatsen &#x200B;](../../assets/content-design-shared/content-design-add-form-follow-up.png){width="280"}
 
 Selecteer zo nodig de tab **[!UICONTROL Styles]** in het rechterdeelvenster om de formuliermarges in te stellen binnen de structuurcomponent.
 

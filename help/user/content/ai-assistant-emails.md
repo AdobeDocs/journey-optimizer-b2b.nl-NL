@@ -31,7 +31,7 @@ Lees de volgende richtlijnen voordat u aan de slag gaat met AI Assistant in Adob
    * De maximale grootte voor een geüpload merk is 50 MB. Grotere bestanden of grote hoeveelheden afbeeldingen kunnen werken, maar de verwerkingstijd neemt toe.
 * Gebruik door Adobe Journey Optimizer B2B edition geschreven e-mailsjablonen, bij voorkeur de ingebouwde sjablonen of voorbeeldsjablonen, een merkspecifieke sjabloon of een aangepaste sjabloon om uw e-mailinhoud te maken. E-mailsjablonen met maximaal acht tot tien afbeeldingen worden aanbevolen.
 * Zorg ervoor om het even welke problematische output te melden gebruikend duim neer of vlagpictogrammen tegen een geproduceerde variant.
-* Uw gebruik van AI Medewerker is onderworpen aan de [ Generatieve AI Richtlijnen van de Gebruiker van Adobe ](https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html).
+* Uw gebruik van AI Medewerker is onderworpen aan de [&#x200B; Generatieve AI Richtlijnen van de Gebruiker van Adobe &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html).
 
 De volgende beperkingen gelden voor AI Assistant in Adobe Journey Optimizer B2B edition voor het genereren van e-mailinhoud:
 
@@ -46,7 +46,7 @@ De volgende beperkingen gelden voor AI Assistant in Adobe Journey Optimizer B2B 
 
 Een effectieve prompt is essentieel voor het genereren van de best mogelijke inhoud. Als u hulp bij het ontwerpen van uw herinnering nodig hebt, heb toegang tot de _Snelle Bibliotheek_. Deze bibliotheek biedt diverse snelle ideeën om het genereren van inhoud te verbeteren.
 
-![ AI Medewerker - toegang tot de Snelle Bibliotheek ](./assets/email-designer-ai-assistant-prompt-library.png){width="500" zoomable="no"}
+![&#x200B; AI Medewerker - toegang tot de Snelle Bibliotheek &#x200B;](./assets/email-designer-ai-assistant-prompt-library.png){width="500" zoomable="no"}
 
 Selecteer de vraag die uw voorgenomen doelstellingen het best weerspiegelt en voeg de noodzakelijke waarden toe die uw merk, het aanbieden, campagne, en gebruiksgevallen specificeren.
 
@@ -68,7 +68,7 @@ Het kiezen van één van deze het kopen groepsrollen past automatisch de output 
 
 ## E-maileigenschappen genereren met AI Assistant
 
-Wanneer u [ een e-mailactie ](./add-email.md#add-an-email-action-node-in-a-journey) aan een rekeningsreis toevoegt, bepaalt u een reeks e-maileigenschappen die voor het verzenden van e-mail worden gebruikt. De Medewerker van AI kan helpen betere e-mailovereenkomst bereiken door geadviseerde inhoud voor de e-mail **onderwerpregel** en **preheader** te produceren.
+Wanneer u [&#x200B; een e-mailactie &#x200B;](./add-email.md#add-an-email-action-node-in-a-journey) aan een rekeningsreis toevoegt, bepaalt u een reeks e-maileigenschappen die voor het verzenden van e-mail worden gebruikt. De Medewerker van AI kan helpen betere e-mailovereenkomst bereiken door geadviseerde inhoud voor de e-mail **onderwerpregel** en **preheader** te produceren.
 
 1. Maak een e-mail van een accountreis of open een bestaande e-mail van een transportknooppunt.
 
@@ -82,9 +82,9 @@ Wanneer u [ een e-mailactie ](./add-email.md#add-an-email-action-node-in-a-journ
 
 De volgende stappen beschrijven de taakopeenvolging voor het gebruiken van AI Medewerker om een geoptimaliseerde onderwerpregel voor uw e-mail te produceren:
 
-1. In _[!UICONTROL Email Properties]_, klik het AI Hulppictogram ( ![ AI Hulptoegangspictogram ](./assets/email-properties-ai-assistant-button.png){width="30" zoomable="no"}) rechts van het **[!UICONTROL Subject line]**&#x200B;gebied.
+1. In _[!UICONTROL Email Properties]_, klik het AI Hulppictogram ( ![&#x200B; AI Hulptoegangspictogram &#x200B;](./assets/email-properties-ai-assistant-button.png){width="30" zoomable="no"}) rechts van het **[!UICONTROL Subject line]**&#x200B;gebied.
 
-   ![ AI Hulp toegang voor e-mail onderwerpregel ](./assets/email-properties-ai-assistant-subject-line-icon.png){width="600" zoomable="yes"}
+   ![&#x200B; AI Hulp toegang voor e-mail onderwerpregel &#x200B;](./assets/email-properties-ai-assistant-subject-line-icon.png){width="600" zoomable="yes"}
 
    Het pop-upvenster AI Assistant wordt geopend met de instellingen voor het genereren van de onderwerpregel van de e-mail.
 
@@ -96,7 +96,7 @@ De volgende stappen beschrijven de taakopeenvolging voor het gebruiken van AI Me
 
 1. Voer in het veld **[!UICONTROL Prompt]** een beschrijving in van wat u wilt genereren.
 
-   Gebruik de [ Snelle Bibliotheek ](#prompt-library) als u wat hulp met het ontwerpen van een efficiënte herinnering nodig hebt.
+   Gebruik de [&#x200B; Snelle Bibliotheek &#x200B;](#prompt-library) als u wat hulp met het ontwerpen van een efficiënte herinnering nodig hebt.
 
 1. Geef een merkelement op dat inhoud bevat die als bron voor het genereren van tekst moet dienen.
 
@@ -104,7 +104,7 @@ De volgende stappen beschrijven de taakopeenvolging voor het gebruiken van AI Me
 
    * Klik op **[!UICONTROL Upload brand asset]** om het merkmiddelenbestand toe te voegen.
 
-   ![ AI Medewerker - onderwerpregel ](./assets/email-properties-ai-assistant-subject-line.png){width="600" zoomable="yes"}
+   ![&#x200B; AI Medewerker - onderwerpregel &#x200B;](./assets/email-properties-ai-assistant-subject-line.png){width="600" zoomable="yes"}
 
 1. Blader zo nodig en selecteer de **[!UICONTROL Buying group role]** die u als doelgroep voor de gegenereerde tekst wilt gebruiken.
 
@@ -134,7 +134,7 @@ De volgende stappen beschrijven de taakopeenvolging voor het gebruiken van AI Me
 
    * **[!UICONTROL Use simpler language]** - Gebruik AI Assistant om uw taal te vereenvoudigen, zodat een groter publiek er helderheid en toegankelijkheid van krijgt.
 
-   ![ AI Medewerker - de verfijning van de onderwerpregel ](./assets/email-properties-ai-assistant-subject-line-refine.png){width="600" zoomable="yes"}
+   ![&#x200B; AI Medewerker - de verfijning van de onderwerpregel &#x200B;](./assets/email-properties-ai-assistant-subject-line-refine.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Select]** om de tekst van de onderwerpregel te vervangen door de geselecteerde variant en terug te keren naar de e-maileigenschappen.
 
@@ -142,9 +142,9 @@ De volgende stappen beschrijven de taakopeenvolging voor het gebruiken van AI Me
 
 Een e-mailpreheader is de korte samenvattingstekst die volgt op de onderwerpregel wanneer een e-mailbericht wordt weergegeven in het Postvak IN. Het is een optioneel element voor een e-mail, maar een geweldige kans om de betrokkenheid te verbeteren. De volgende stappen beschrijven de taakopeenvolging voor het gebruiken van AI Medewerker om een geoptimaliseerde preheader voor uw e-mail te produceren:
 
-1. In E-mailEigenschappen, selecteer **[!UICONTROL Preheader]** checkbox en klik het AI Hulppictogram ( ![ AI Hulptoegangspictogram ](./assets/email-properties-ai-assistant-button.png){width="30" zoomable="no"}) bij het recht.
+1. In E-mailEigenschappen, selecteer **[!UICONTROL Preheader]** checkbox en klik het AI Hulppictogram ( ![&#x200B; AI Hulptoegangspictogram &#x200B;](./assets/email-properties-ai-assistant-button.png){width="30" zoomable="no"}) bij het recht.
 
-   ![ AI Hulp toegang voor e-mailpreheader ](./assets/email-properties-ai-assistant-preheader-icon.png){width="600" zoomable="yes"}
+   ![&#x200B; AI Hulp toegang voor e-mailpreheader &#x200B;](./assets/email-properties-ai-assistant-preheader-icon.png){width="600" zoomable="yes"}
 
    Het pop-upvenster AI Assistant wordt geopend met de instellingen voor het genereren van de e-mailpreheader.
 
@@ -156,7 +156,7 @@ Een e-mailpreheader is de korte samenvattingstekst die volgt op de onderwerprege
 
 1. Voer in het veld **[!UICONTROL Prompt]** een beschrijving in van wat u wilt genereren.
 
-   Gebruik de [ Snelle Bibliotheek ](#prompt-library) als u wat hulp met het ontwerpen van een efficiënte herinnering nodig hebt.
+   Gebruik de [&#x200B; Snelle Bibliotheek &#x200B;](#prompt-library) als u wat hulp met het ontwerpen van een efficiënte herinnering nodig hebt.
 
 1. Geef een merkelement op dat inhoud bevat die als bron voor het genereren van tekst moet dienen.
 
@@ -164,7 +164,7 @@ Een e-mailpreheader is de korte samenvattingstekst die volgt op de onderwerprege
 
    * Klik op **[!UICONTROL Upload brand asset]** om het merkmiddelenbestand toe te voegen.
 
-   ![ AI Medewerker - preheader ](./assets/email-properties-ai-assistant-preheader.png){width="600" zoomable="yes"}
+   ![&#x200B; AI Medewerker - preheader &#x200B;](./assets/email-properties-ai-assistant-preheader.png){width="600" zoomable="yes"}
 
 1. Blader zo nodig en selecteer de **[!UICONTROL Buying group role]** die u als doelgroep voor de gegenereerde tekst wilt gebruiken.
 
@@ -194,7 +194,7 @@ Een e-mailpreheader is de korte samenvattingstekst die volgt op de onderwerprege
 
    * **[!UICONTROL Use simpler language]** - Gebruik AI Assistant om uw taal te vereenvoudigen, zodat een groter publiek er helderheid en toegankelijkheid van krijgt.
 
-   ![ AI Medewerker - preheader verfijning ](./assets/email-properties-ai-assistant-preheader-refine.png){width="600" zoomable="yes"}
+   ![&#x200B; AI Medewerker - preheader verfijning &#x200B;](./assets/email-properties-ai-assistant-preheader-refine.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Select]** om de voorheader te vervangen door de geselecteerde variant en terug te keren naar de e-maileigenschappen.
 
@@ -202,7 +202,7 @@ Een e-mailpreheader is de korte samenvattingstekst die volgt op de onderwerprege
 
 ## E-mailinhoud genereren met AI Assistant
 
-Nadat u [ creeert en uw e-mail ](./email-authoring.md) personaliseert, gebruik AI Medewerker in Adobe Journey Optimizer B2B edition, die door generatieve AI wordt aangedreven om uw e-maillichaamsinhoud tot het volgende niveau op te heffen.
+Nadat u [&#x200B; creeert en uw e-mail &#x200B;](./email-authoring.md) personaliseert, gebruik AI Medewerker in Adobe Journey Optimizer B2B edition, die door generatieve AI wordt aangedreven om uw e-maillichaamsinhoud tot het volgende niveau op te heffen.
 
 In de ontwerpruimte van e-mail, kan AI Medewerker u helpen de invloed van uw leveringen optimaliseren door het volledige e-maillichaam, gerichte tekstinhoud, en aanbevelingen voor beelden te produceren die met uw publiek resoneren. Deze optimalisatie van uw e-mailcampagnes is ontworpen om een betere betrokkenheid te creëren.
 
@@ -220,17 +220,17 @@ In de ontwerpruimte van e-mail, kan AI Medewerker u helpen de invloed van uw lev
 
 In de volgende stappen wordt de taakvolgorde beschreven voor het gebruik van AI Assistant voor het verfijnen van een bestaande e-mailsjabloon:
 
-1. In de ruimte van het e-mailontwerp, heb toegang tot het AI Hulpmenu door het pictogram ( ![ AI Hulp menuknevel ](../assets/button-ai-assistant.png){width="30" zoomable="no"}) bij het recht te klikken.
+1. In de ruimte van het e-mailontwerp, heb toegang tot het AI Hulpmenu door het pictogram ( ![&#x200B; AI Hulp menuknevel &#x200B;](../assets/button-ai-assistant.png){width="30" zoomable="no"}) bij het recht te klikken.
 
-   ![ AI Hulp knevel in de e-mailontwerper ](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
+   ![&#x200B; AI Hulp knevel in de e-mailontwerper &#x200B;](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
    De AI Hulp montages op het recht wijzen op _montages van de Generatie (volledige e-mail)_.
 
 1. Voer in het veld **[!UICONTROL Prompt]** een beschrijving in van wat u wilt genereren.
 
-   Gebruik de [ Snelle Bibliotheek ](#prompt-library) als u wat hulp met het ontwerpen van een efficiënte herinnering nodig hebt.
+   Gebruik de [&#x200B; Snelle Bibliotheek &#x200B;](#prompt-library) als u wat hulp met het ontwerpen van een efficiënte herinnering nodig hebt.
 
-   ![ AI Medewerker - tekstmontages ](./assets/email-designer-ai-assistant-full.png){width="600" zoomable="yes"}
+   ![&#x200B; AI Medewerker - tekstmontages &#x200B;](./assets/email-designer-ai-assistant-full.png){width="600" zoomable="yes"}
 
 1. Geef een merkelement op dat inhoud bevat die extra context voor AI Assistant kan bieden.
 
@@ -257,7 +257,7 @@ In de volgende stappen wordt de taakvolgorde beschreven voor het gebruik van AI 
 
    * Verstrek terugkoppel voor de geproduceerde varianten door de _Duimen omhoog_, _duimen neer_, of _Vlag_ te klikken pictogram en de reden te kiezen die het best uw samenvat terugkoppelt.
 
-     ![ AI Medewerker - tekstmontages ](./assets/email-designer-ai-assistant-feedback.png){width="600" zoomable="yes"}
+     ![&#x200B; AI Medewerker - tekstmontages &#x200B;](./assets/email-designer-ai-assistant-feedback.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Select]** om de inhoud van de sjabloon te vervangen door de geselecteerde variant en terug te keren naar de ontwerpruimte van de e-mail.
 
@@ -267,9 +267,9 @@ In de volgende stappen wordt de taakvolgorde beschreven voor het gebruik van AI 
 
 De volgende stappen beschrijven de taakopeenvolging voor het gebruiken van AI Medewerker om de tekstinhoud voor een bestaande e-mail te verfijnen of te verbeteren:
 
-1. In de ruimte van het e-mailontwerp, heb toegang tot het AI Hulpmenu door het pictogram ( ![ AI Hulp menuknevel ](../assets/button-ai-assistant.png){width="30" zoomable="no"}) bij het recht te klikken.
+1. In de ruimte van het e-mailontwerp, heb toegang tot het AI Hulpmenu door het pictogram ( ![&#x200B; AI Hulp menuknevel &#x200B;](../assets/button-ai-assistant.png){width="30" zoomable="no"}) bij het recht te klikken.
 
-   ![ AI Hulp knevel in de e-mailontwerper ](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
+   ![&#x200B; AI Hulp knevel in de e-mailontwerper &#x200B;](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
 1. Selecteer de component van de a _Tekst_ om de specifieke inhoud te richten.
 
@@ -277,9 +277,9 @@ De volgende stappen beschrijven de taakopeenvolging voor het gebruiken van AI Me
 
 1. Voer in het veld **[!UICONTROL Prompt]** een beschrijving in van wat u wilt genereren.
 
-   ![ AI Medewerker - tekstmontages ](./assets/email-designer-ai-assistant-text.png){width="600" zoomable="yes"}
+   ![&#x200B; AI Medewerker - tekstmontages &#x200B;](./assets/email-designer-ai-assistant-text.png){width="600" zoomable="yes"}
 
-   Gebruik de [ Snelle Bibliotheek ](#prompt-library) als u wat hulp met het ontwerpen van een efficiënte herinnering nodig hebt.
+   Gebruik de [&#x200B; Snelle Bibliotheek &#x200B;](#prompt-library) als u wat hulp met het ontwerpen van een efficiënte herinnering nodig hebt.
 
 1. Geef een merkelement op dat inhoud bevat die als bron voor het genereren van tekst moet dienen.
 
@@ -313,7 +313,7 @@ De volgende stappen beschrijven de taakopeenvolging voor het gebruiken van AI Me
 
    * **[!UICONTROL Use simpler language]** - Gebruik AI Assistant om uw taal te vereenvoudigen, zodat een groter publiek er helderheid en toegankelijkheid van krijgt.
 
-   ![ AI Hulp voorproef van de tekstvariatie en verfijningsopties ](./assets/email-designer-ai-assistant-text-refine.png){width="700" zoomable="yes"}
+   ![&#x200B; AI Hulp voorproef van de tekstvariatie en verfijningsopties &#x200B;](./assets/email-designer-ai-assistant-text-refine.png){width="700" zoomable="yes"}
 
 1. Als u de gewenste inhoud hebt, klikt u op **[!UICONTROL Select]** om de tekst te vervangen door de geselecteerde variant en terug te keren naar de ontwerpruimte van de e-mail.
 
@@ -323,9 +323,9 @@ De volgende stappen beschrijven de taakopeenvolging voor het gebruiken van AI Me
 
 U kunt AI Assistant gebruiken om uw elementen te optimaliseren en te verbeteren en een gebruiksvriendelijkere ervaring te garanderen. De volgende stappen beschrijven de taakopeenvolging voor het gebruiken van AI Medewerker om de beeldinhoud van e-mail te verbeteren:
 
-1. Heb toegang tot het AI Hulpmenu door het pictogram ( ![ AI Hulpmenuknevel ](../assets/button-ai-assistant.png){width="30" zoomable="no"}) bij het recht te klikken.
+1. Heb toegang tot het AI Hulpmenu door het pictogram ( ![&#x200B; AI Hulpmenuknevel &#x200B;](../assets/button-ai-assistant.png){width="30" zoomable="no"}) bij het recht te klikken.
 
-   ![ AI Hulp knevel in de e-mailontwerper ](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
+   ![&#x200B; AI Hulp knevel in de e-mailontwerper &#x200B;](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
 1. Selecteer een _component van het Beeld_ om de specifieke inhoud te richten en tot het AI Hulpmenu toegang te hebben.
 
@@ -333,9 +333,9 @@ U kunt AI Assistant gebruiken om uw elementen te optimaliseren en te verbeteren 
 
 1. Voer in het veld **[!UICONTROL Prompt]** een beschrijving in van wat u wilt om het element te perfectioneren.
 
-   ![ AI Medewerker - tekstmontages ](./assets/email-designer-ai-assistant-image.png){width="600" zoomable="yes"}
+   ![&#x200B; AI Medewerker - tekstmontages &#x200B;](./assets/email-designer-ai-assistant-image.png){width="600" zoomable="yes"}
 
-   Gebruik de [ Snelle Bibliotheek ](#prompt-library) als u wat hulp met het ontwerpen van een efficiënte herinnering nodig hebt.
+   Gebruik de [&#x200B; Snelle Bibliotheek &#x200B;](#prompt-library) als u wat hulp met het ontwerpen van een efficiënte herinnering nodig hebt.
 
 1. Klik op **[!UICONTROL Upload brand asset]** om merkelementen met inhoud toe te voegen die extra context voor AI Assistant kunnen bieden.
 

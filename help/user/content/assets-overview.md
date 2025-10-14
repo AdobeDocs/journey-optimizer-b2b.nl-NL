@@ -35,7 +35,7 @@ Maak gebruik van [!DNL Adobe Experience Manager Assets] om marketing- en creatie
 
 [!DNL Adobe Journey Optimizer B2B Edition] kan verbinding maken met [!DNL Adobe Experience Manager Assets as a Cloud Service] voor gecentraliseerd beheer van bedrijfsmiddelen, waarmee u uw creatieve systeem kunt uitbreiden en digitale middelen kunt verenigen voor een gebruiksvriendelijke ervaring. [!DNL Adobe Experience Manager Assets as a Cloud Service] biedt een gebruiksvriendelijke cloudoplossing voor efficiënt beheer van digitale bedrijfsmiddelen en dynamische mediabewerkingen. Het omvat naadloos geavanceerde eigenschappen, met inbegrip van Kunstmatige Intelligentie en het Leren van de Machine.
 
-Leer meer in de [ documentatie van Adobe Experience Manager as a Cloud Service ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/overview){target="_blank"}.
+Leer meer in de [&#x200B; documentatie van Adobe Experience Manager as a Cloud Service &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/overview){target="_blank"}.
 
 {{aem-assets-licensing-note}}
 
@@ -51,15 +51,15 @@ U kunt de afbeeldingsbron kiezen wanneer u de instellingen voor een afbeeldingsc
 
 * **_de componentenmontages van het Beeld_** - wanneer u een beeldcomponent hebt die in de visuele ontwerpruimte wordt geselecteerd, kunt u de montages in het juiste paneel bekijken en uitgeven. Als u het afbeeldingsbestand dat in de component wordt weergegeven, wilt toevoegen of wijzigen, kiest u het brontype en selecteert u een afbeeldingsbestand.
 
-  ![ geef de montages van de beeldcomponent in het juiste paneel ](./assets/content-assets-image-settings.png){width="350"} uit
+  ![&#x200B; geef de montages van de beeldcomponent in het juiste paneel &#x200B;](./assets/content-assets-image-settings.png){width="350"} uit
 
 * **_Lege component_** - wanneer u een beeldcomponent in de visuele ontwerpruimte toevoegt, is het leeg en verleent gemakkelijke toegang om een bron te kiezen en een beelddossier te selecteren.
 
-  ![ kies een bron om een beelddossier voor de lege beeldcomponent te selecteren ](./assets/content-assets-image-component-empty.png){width="500"}
+  ![&#x200B; kies een bron om een beelddossier voor de lege beeldcomponent te selecteren &#x200B;](./assets/content-assets-image-component-empty.png){width="500"}
 
 * **_de componententoolbar van het Beeld_** - wanneer u een beeldcomponent hebt die in de visuele ontwerpruimte wordt geselecteerd, verleent de toolbar gemakkelijke toegang om een bron te kiezen en het beelddossier te selecteren.
 
-  ![ Gebruik de toolbar om een bron te kiezen om een beelddossier voor de beeldcomponent te selecteren ](./assets/content-assets-image-toolbar-settings.png){width="500"}
+  ![&#x200B; Gebruik de toolbar om een bron te kiezen om een beelddossier voor de beeldcomponent te selecteren &#x200B;](./assets/content-assets-image-toolbar-settings.png){width="500"}
 
 Afhankelijk van de bron van het afbeeldingselement kunt u tijdens het ontwerpen van de inhoud een afbeeldingselement toevoegen. U kunt ook een afbeeldingselement kiezen in de achtergrondinstellingen voor een structuurcomponent.
 
@@ -69,27 +69,27 @@ Afhankelijk van de bron van het afbeeldingselement kunt u tijdens het ontwerpen 
 
 Klik op **[!UICONTROL Marketo Engage Assets]** om de elementenkiezer te openen, waar u een afbeelding kunt kiezen in een [!DNL Marketo Engage] -werkruimte of in de Journey Optimizer B2B edition-werkruimte.
 
-![ selecteer een beeldactiva van de werkruimte ](./assets/content-assets-image-me-selected.png){width="700" zoomable="yes"}
+![&#x200B; selecteer een beeldactiva van de werkruimte &#x200B;](./assets/content-assets-image-me-selected.png){width="700" zoomable="yes"}
 
 U kunt zoeken en filters gebruiken om het gewenste afbeeldingselement te zoeken. Selecteer het element en klik op **[!UICONTROL Select]** om het te gebruiken voor de afbeeldingscomponent.
 
-Voor meer gedetailleerde informatie over het gebruiken van [!DNL Marketo Engage] beeldactiva, zie [ activa van het Gebruik in uw inhoud ](./marketo-engage-design-studio.md#use-assets-in-your-content).
+Voor meer gedetailleerde informatie over het gebruiken van [!DNL Marketo Engage] beeldactiva, zie [&#x200B; activa van het Gebruik in uw inhoud &#x200B;](./marketo-engage-design-studio.md#use-assets-in-your-content).
 
 >[!TAB  Experience Manager Assets ]
 
 Klik op **[!UICONTROL Experience Manager Assets]** om de elementenkiezer te openen, waar u een afbeelding kunt kiezen in de Experience Manage Assets-opslagplaats.
 
-![ Uitgezocht een beeldactiva van de folder van AEM Assets ](./assets/content-assets-image-aem-selected.png){width="700" zoomable="yes"}
+![&#x200B; Uitgezocht een beeldactiva van de folder van AEM Assets &#x200B;](./assets/content-assets-image-aem-selected.png){width="700" zoomable="yes"}
 
 U kunt zoeken en filters gebruiken om het gewenste afbeeldingselement te zoeken. Selecteer het element en klik op **[!UICONTROL Select]** om het te gebruiken voor de afbeeldingscomponent.
 
-Voor meer gedetailleerde informatie over het gebruiken van beelddossiers van [!DNL Experience Manager Assets], zie [ de beelden van AEM Assets van de Toegang ](./aem-assets.md#access-aem-assets-images).
+Voor meer gedetailleerde informatie over het gebruiken van beelddossiers van [!DNL Experience Manager Assets], zie [&#x200B; de beelden van AEM Assets van de Toegang &#x200B;](./aem-assets.md#access-aem-assets-images).
 
 >[!TAB  de media van de Invoer ]
 
 Klik op **[!UICONTROL Import media]** om een afbeeldingsbestand te selecteren en te importeren als een element dat kan worden gebruikt voor Journey Optimizer B2B edition-inhoud.
 
-![ selecteer uw eigen beelddossier om als activa ](./assets/content-assets-image-import-file-selected.png){width="500" zoomable="yes"} in te voeren
+![&#x200B; selecteer uw eigen beelddossier om als activa &#x200B;](./assets/content-assets-image-import-file-selected.png){width="500" zoomable="yes"} in te voeren
 
 Klik op **[!UICONTROL Import]** nadat u het bestand hebt gesleept en neergezet of vanuit het bestandssysteem hebt geselecteerd. Het geïmporteerde element wordt opgeslagen in de [!DNL Journey Optimizer B2B Edition] -werkruimte van de [!DNL Adobe Marketo Engage Design Studio] -opslagplaats.
 

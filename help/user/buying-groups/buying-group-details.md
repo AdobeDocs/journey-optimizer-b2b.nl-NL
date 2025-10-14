@@ -13,9 +13,9 @@ ht-degree: 1%
 
 # Gegevens van groep kopen
 
-Als u ergens in Journey Optimizer B2B edition op de naam van een inkoopgroep klikt, worden de gegevens van de inkoopgroep weergegeven. Dit overzicht bevat nuttige informatie over de inkoopgroep, waaronder generatieve AI-overzichten. Er zijn ook [ acties ](#buying-group-actions) die u voor contacten verbonden aan de rekening kunt uitvoeren.
+Als u ergens in Journey Optimizer B2B edition op de naam van een inkoopgroep klikt, worden de gegevens van de inkoopgroep weergegeven. Dit overzicht bevat nuttige informatie over de inkoopgroep, waaronder generatieve AI-overzichten. Er zijn ook [&#x200B; acties &#x200B;](#buying-group-actions) die u voor contacten verbonden aan de rekening kunt uitvoeren.
 
-![ heb toegang tot de het kopen groepdetails ](./assets/buying-group-details.png){width="800" zoomable="yes"}
+![&#x200B; heb toegang tot de het kopen groepdetails &#x200B;](./assets/buying-group-details.png){width="800" zoomable="yes"}
 
 Gebruik het tabblad **[!UICONTROL Overview]** om informatie over de account te bekijken en het tabblad **[!UICONTROL Members]** om een lijst met de leden van de inkoopgroep te openen.
 
@@ -25,23 +25,23 @@ Het tabblad Overzicht bestaat uit drie primaire secties:
 
 ### Samenvatting van kopersgroep
 
-![ het Kopen groepssamenvatting ](./assets/details-page-buying-group-overview.png){zoomable="yes"}
+![&#x200B; het Kopen groepssamenvatting &#x200B;](./assets/details-page-buying-group-overview.png){zoomable="yes"}
 
 De overzichtssectie voor inkoopgroepen bevat de volgende informatie over inkoopgroepen:
 
 * Naam van kopersgroep
-* De naam van de rekening (klik de naam om de [ rekeningsdetails ](../accounts/account-details.md) te openen)
+* De naam van de rekening (klik de naam om de [&#x200B; rekeningsdetails &#x200B;](../accounts/account-details.md) te openen)
 * Aantal leden in de koopgroep
 * Betrokkenheidsscore
 * Volledigheidsscore
 * Huidige groepsfase voor kopen
-* Het malplaatje van de rol (klik de naam om het [ rolmalplaatje ](buying-groups-role-templates.md#access-and-browse-role-templates) te openen)
+* Het malplaatje van de rol (klik de naam om het [&#x200B; rolmalplaatje &#x200B;](buying-groups-role-templates.md#access-and-browse-role-templates) te openen)
 * Laatst gewijzigd/bijgewerkt op
 * Generatieve AI-samenvatting van de koopgroep
 
 ### Accountoverzicht
 
-![ het Kopen overzicht van de groepsrekening ](./assets/details-page-buying-group-account-overview.png){zoomable="yes"}
+![&#x200B; het Kopen overzicht van de groepsrekening &#x200B;](./assets/details-page-buying-group-account-overview.png){zoomable="yes"}
 
 Het gedeelte Accountoverzicht bevat de volgende accountgegevens:
 
@@ -58,14 +58,14 @@ In Journey Optimizer B2B edition voorspelt het Intent Detection-model een oploss
 
 {{intent-data-note}}
 
-![ Gegevens van de Intentie - het kopen van groepsdetails ](../accounts/assets/intent-data-panel.png){width="700" zoomable="yes"}
+![&#x200B; Gegevens van de Intentie - het kopen van groepsdetails &#x200B;](../accounts/assets/intent-data-panel.png){width="700" zoomable="yes"}
 
 * Intentieniveaus
 * Typen intentsignalen - Trefwoorden, product en oplossing
 
 ### Groepsleden kopen
 
-![ het Kopen groepsleden ](./assets/details-page-buying-group-members.png){width="800" zoomable="yes"}
+![&#x200B; het Kopen groepsleden &#x200B;](./assets/details-page-buying-group-members.png){width="800" zoomable="yes"}
 
 In de sectie _[!UICONTROL Buying group members]_&#x200B;worden twee rijen weergegeven die de kopende groepsleden markeren:
 
@@ -88,13 +88,13 @@ Klik op **[!UICONTROL View details]** voor toegang tot de volgende informatie ov
 * E-mailadres
 * Telefoonnummer
 
-![ Mening meer details voor een het kopen groepslid ](./assets/details-page-buying-group-members-view-details.png){width="600" zoomable="yes"}
+![&#x200B; Mening meer details voor een het kopen groepslid &#x200B;](./assets/details-page-buying-group-members-view-details.png){width="600" zoomable="yes"}
 
 ## Tabblad Leden
 
 Selecteer het tabblad **[!UICONTROL Members]** om een lijst weer te geven met alle leden van de inkoopgroep. Elke lijst met leden bevat de naam, rol, functie, e-mailadres, telefoonnummer en bron.
 
-![ Leden tabel - het kopen groepsdetails ](./assets/buying-group-details-members-tab.png){width="700" zoomable="yes"}
+![&#x200B; Leden tabel - het kopen groepsdetails &#x200B;](./assets/buying-group-details-members-tab.png){width="700" zoomable="yes"}
 
 Er zijn veelvoudige acties die u van het _Leden_ lusje kunt uitvoeren:
 
@@ -106,11 +106,11 @@ Aan een account kunnen een of meer inkoopgroepen zijn gekoppeld. Het kopen van g
 
 1. Selecteer in het dialoogvenster _[!UICONTROL Assign member]_&#x200B;de accountleads die u aan de inkoopgroep wilt toevoegen en klik op **[!UICONTROL Next]**.
 
-   ![ Leden tabel - wijs nieuwe leden ](./assets/buying-group-details-assign-member.png){width="700" zoomable="yes"} toe
+   ![&#x200B; Leden tabel - wijs nieuwe leden &#x200B;](./assets/buying-group-details-assign-member.png){width="700" zoomable="yes"} toe
 
 1. Selecteer in het dialoogvenster _[!UICONTROL Edit new member role]_&#x200B;de rol die u aan elk van de nieuwe leden wilt toewijzen.
 
-   ![ Leden tabel - wijs nieuwe lidrol ](./assets/buying-group-details-assign-member-edit-role.png){width="700" zoomable="yes"} toe
+   ![&#x200B; Leden tabel - wijs nieuwe lidrol &#x200B;](./assets/buying-group-details-assign-member-edit-role.png){width="700" zoomable="yes"} toe
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -122,7 +122,7 @@ U kunt een of meer geselecteerde leden (maximaal 50 per keer) verwijderen uit de
 
 1. Klik op **[!UICONTROL Remove members]** in de selectiebalk onderaan.
 
-   ![ Leden tabel - verwijder leden ](./assets/buying-group-details-remove-selected.png){width="700" zoomable="yes"}
+   ![&#x200B; Leden tabel - verwijder leden &#x200B;](./assets/buying-group-details-remove-selected.png){width="700" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Remove]** in het bevestigingsdialoogvenster.
 
@@ -134,11 +134,11 @@ U kunt de rol voor een of meer geselecteerde leden (maximaal 50 per keer) van de
 
 1. Klik op **[!UICONTROL Edit roles]** in de selectiebalk onderaan.
 
-   ![ Leden tabel - geef rollen uit ](./assets/buying-group-details-edit-roles.png){width="700" zoomable="yes"}
+   ![&#x200B; Leden tabel - geef rollen uit &#x200B;](./assets/buying-group-details-edit-roles.png){width="700" zoomable="yes"}
 
 1. Selecteer in het dialoogvenster _[!UICONTROL Edit member role]_&#x200B;de rol die u aan elk van de leden wilt toewijzen.
 
-   ![ geef lidrollen uit - kies rollen ](./assets/buying-group-details-edit-roles-choose-roles.png){width="700" zoomable="yes"}
+   ![&#x200B; geef lidrollen uit - kies rollen &#x200B;](./assets/buying-group-details-edit-roles-choose-roles.png){width="700" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -150,10 +150,10 @@ U kunt een door een markter goedgekeurde e-mail verzenden naar een of meer gesel
 
 1. Klik op **[!UICONTROL Send email]** rechtsboven of in de selectiebalk onderaan.
 
-   ![ Leden tabel - verzend e-mail ](./assets/buying-group-details-send-email.png){width="700" zoomable="yes"}
+   ![&#x200B; Leden tabel - verzend e-mail &#x200B;](./assets/buying-group-details-send-email.png){width="700" zoomable="yes"}
 
 1. Selecteer in het dialoogvenster _[!UICONTROL Send email]_&#x200B;de Marketo Engage-werkruimte en schakel vervolgens het selectievakje in voor de e-mail die u wilt verzenden.
 
-   ![ selecteer een e-mail om naar het kopen groepsleden te verzenden ](../accounts/assets/account-details-send-email-dialog.png){width="700" zoomable="yes"}
+   ![&#x200B; selecteer een e-mail om naar het kopen groepsleden te verzenden &#x200B;](../accounts/assets/account-details-send-email-dialog.png){width="700" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Send]**.

@@ -10,7 +10,7 @@ ht-degree: 0%
 
 # Inhoud ontwerpen - elementen
 
-In de visuele inhoudsredacteur, selecteer het _Marketo Engage Assets_ ( ![ het pictogram van Assets van Marketo Engage ](../../help/assets/do-not-localize/icon-assets-me.svg)) pictogram of _Experience Manager Assets_ ( ![ het pictogram van AEM Assets ](../../help/assets/do-not-localize/icon-assets-aem.svg)) pictogram in de linkernavigatiebar. Vanuit de elementenkiezer kunt u rechtstreeks in de bronbibliotheek opgeslagen elementen selecteren.
+In de visuele inhoudsredacteur, selecteer het _Marketo Engage Assets_ ( ![&#x200B; het pictogram van Assets van Marketo Engage &#x200B;](../../help/assets/do-not-localize/icon-assets-me.svg)) pictogram of _Experience Manager Assets_ ( ![&#x200B; het pictogram van AEM Assets &#x200B;](../../help/assets/do-not-localize/icon-assets-aem.svg)) pictogram in de linkernavigatiebar. Vanuit de elementenkiezer kunt u rechtstreeks in de bronbibliotheek opgeslagen elementen selecteren.
 
 >[!NOTE]
 >
@@ -18,10 +18,10 @@ In de visuele inhoudsredacteur, selecteer het _Marketo Engage Assets_ ( ![ het p
 
 * Voeg een nieuw element toe door het afbeeldingselement naar een structuurcomponent te slepen.
 
-  ![ belemmering een activa van Marketo Engage op het canvas en pas de montages ](../assets/content-design-shared/content-design-add-asset.png){width="800" zoomable="yes"} aan
+  ![&#x200B; belemmering een activa van Marketo Engage op het canvas en pas de montages &#x200B;](../assets/content-design-shared/content-design-add-asset.png){width="800" zoomable="yes"} aan
 
 * Vervang een bestaand afbeeldingselement door dit te selecteren op het canvas en op **[!UICONTROL Select an asset]** te klikken in de brongereedschappen van de afbeelding.
 
-  ![ Uitgezocht een middel van de bronbibliotheek ](../assets/content-design-shared/visual-designer-select-an-asset.png){width="600" zoomable="yes"}
+  ![&#x200B; Uitgezocht een middel van de bronbibliotheek &#x200B;](../assets/content-design-shared/visual-designer-select-an-asset.png){width="600" zoomable="yes"}
 
-Voor meer informatie over het gebruiken van activa van uw brontype, zie [ activa van het Gebruik voor inhoud creatie ](../user/content/assets-overview.md#use-assets-for-content-authoring).
+Voor meer informatie over het gebruiken van activa van uw brontype, zie [&#x200B; activa van het Gebruik voor inhoud creatie &#x200B;](../user/content/assets-overview.md#use-assets-for-content-authoring).

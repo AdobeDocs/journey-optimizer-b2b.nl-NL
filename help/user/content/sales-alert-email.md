@@ -19,12 +19,12 @@ Als marketeer kunt u een e-mailknooppunt voor een melding van verkopen configure
 
 >[!IMPORTANT]
 >
->Zorg ervoor dat de lijst van gewenste personen van uw organisatie wordt bijgewerkt zodat een e-mail van het waakzaam bericht van de Verkoop kan worden geleverd. Voor meer informatie, zie [ Protocollen voor het volgen en e-maillevering ](../start/email-protocols.md).
+>Zorg ervoor dat de lijst van gewenste personen van uw organisatie wordt bijgewerkt zodat een e-mail van het waakzaam bericht van de Verkoop kan worden geleverd. Voor meer informatie, zie [&#x200B; Protocollen voor het volgen en e-maillevering &#x200B;](../start/email-protocols.md).
 
 ## E-mailinhoud
 
 +++Voorbeeld van e-mail met verkoopwaarschuwing
-![ Voorbeeld van een e-mail van het verkoopalarm gebruikend het standaardmalplaatje ](./assets/sales-alert-email-example.png){width="500" zoomable="yes"}
+![&#x200B; Voorbeeld van een e-mail van het verkoopalarm gebruikend het standaardmalplaatje &#x200B;](./assets/sales-alert-email-example.png){width="500" zoomable="yes"}
 
 +++
 
@@ -63,6 +63,6 @@ U kunt e-mailleveringen voor meldingen bij verkoop instellen in een accountreis 
 
 1. Voer bij **[!UICONTROL Send Email To]** elk e-mailadres of elke alias in die u voor de levering wilt opnemen.
 
-   ![ creeer nieuwe e-maildialoog ](assets/sales-alert-email-journey-node.png){width="600" zoomable="yes"}
+   ![&#x200B; creeer nieuwe e-maildialoog &#x200B;](assets/sales-alert-email-journey-node.png){width="600" zoomable="yes"}
 
    Wanneer de reis van de rekening levend is, wordt de verkoopalarm geleverd volgens deze parameters.

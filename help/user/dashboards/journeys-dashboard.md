@@ -17,7 +17,7 @@ Dit dashboard biedt een uitgebreid overzicht van uw actieve accountreizen, waari
 
 Dit overzicht is beschikbaar voor gepubliceerde accountreizen en het duurt ongeveer vier uur voordat gegevens de diagrammen en tabellen invullen.
 
-![ Overzicht van de Reis ](./assets/journey-overview.png){width="700" zoomable="yes"}
+![&#x200B; Overzicht van de Reis &#x200B;](./assets/journey-overview.png){width="700" zoomable="yes"}
 
 ## Distributie van voltooiingssnelheden voor reizen
 
@@ -25,7 +25,7 @@ Dit diagram illustreert de verdeling van reizen op basis van hun voltooiingsperc
 
 Als u meer gedetailleerde informatie wilt weergeven, klikt u op het menupictogram **..** rechtsboven.
 
-![ de distributie van het de voltooiingstarief van de Reis ](./assets/journey-completion-rate-distribution.png){width="500"}
+![&#x200B; de distributie van het de voltooiingstarief van de Reis &#x200B;](./assets/journey-completion-rate-distribution.png){width="500"}
 
 ## Reizen per betrokkenheidstype
 
@@ -33,7 +33,7 @@ Dit staafdiagram toont de verdeling van reizen op basis van het soort service en
 
 Als u meer gedetailleerde informatie wilt weergeven, klikt u op het menupictogram **..** rechtsboven.
 
-![ de distributie van het de voltooiingstarief van de Reis ](./assets/journeys-by-engagement-type.png){width="500"}
+![&#x200B; de distributie van het de voltooiingstarief van de Reis &#x200B;](./assets/journeys-by-engagement-type.png){width="500"}
 
 ## Betrokkenheid bij de gegevens
 
@@ -43,15 +43,15 @@ Als u gegevens wilt gebruiken, gebruikt u het menu **..** rechtsboven in elk dia
 
 Kies **[!UICONTROL Drill through]** voor een diepgaande analyse van de gegevens in het cirkeldiagram.
 
-![ Boor door om tot de grafiekgegevens toegang te hebben ](./assets/journey-completion-rate-drill-through.png){width="700" zoomable="yes"}
+![&#x200B; Boor door om tot de grafiekgegevens toegang te hebben &#x200B;](./assets/journey-completion-rate-drill-through.png){width="700" zoomable="yes"}
 
-U kunt _klikken Meer_ (**..**) menu bij top-right en kiezen **[!UICONTROL View more]** aan [ mening uitgebreide gegevens ](#view-more).
+U kunt _klikken Meer_ (**..**) menu bij top-right en kiezen **[!UICONTROL View more]** aan [&#x200B; mening uitgebreide gegevens &#x200B;](#view-more).
 
 ### [!UICONTROL View more]
 
 Kies **[!UICONTROL View more]** om uitgebreide gegevens en inzichten weer te geven.
 
-![ Mening uitgebreide gegevens ](./assets/journeys-by-engagement-view-more.png){width="700" zoomable="yes"}
+![&#x200B; Mening uitgebreide gegevens &#x200B;](./assets/journeys-by-engagement-view-more.png){width="700" zoomable="yes"}
 
 Het weergegeven pop-upvenster bevat een diagram en een tabel met de uitsplitsing van de reisgegevens.
 

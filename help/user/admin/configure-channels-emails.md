@@ -13,13 +13,13 @@ ht-degree: 0%
 
 # E-mailkanaalconfiguraties
 
-Adobe Journey Optimizer B2B edition gebruikt de kanaalfuncties en gebeurtenistracering in Marketo Engage. De beheerders zouden moeten ervoor zorgen dat de levering en het volgen configuraties op zijn plaats zijn om kanaallevering voor Marketers toe te laten. Voor informatie over de protocollen nodig voor e-maillevering en het volgen door Marketo Engage, zie [ Protocollen voor het volgen en e-maillevering ](../start/email-protocols.md).
+Adobe Journey Optimizer B2B edition gebruikt de kanaalfuncties en gebeurtenistracering in Marketo Engage. De beheerders zouden moeten ervoor zorgen dat de levering en het volgen configuraties op zijn plaats zijn om kanaallevering voor Marketers toe te laten. Voor informatie over de protocollen nodig voor e-maillevering en het volgen door Marketo Engage, zie [&#x200B; Protocollen voor het volgen en e-maillevering &#x200B;](../start/email-protocols.md).
 
 ## Afleveringsinstellingen
 
 De standaardinstellingen voor e-mailberichten worden gebruikt wanneer marketers een e-mailbericht maken voor een accountreis. Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** om de instellingen voor e-maillevering te bekijken. Selecteer onder _[!UICONTROL Email]_&#x200B;in het navigatievenster de optie **[!UICONTROL Delivery Settings]**.
 
-![ heb toegang tot de montages van de e-maillevering ](./assets/config-email-delivery-email-header.png){width="800" zoomable="yes"}
+![&#x200B; heb toegang tot de montages van de e-maillevering &#x200B;](./assets/config-email-delivery-email-header.png){width="800" zoomable="yes"}
 
 De instellingen zijn alleen-lezen in Journey Optimizer B2B edition. Klik op **[!UICONTROL Edit settings]** rechtsboven in het scherm om toegang te krijgen tot de configuratieopties in het aangesloten Marketo Engage-exemplaar.
 
@@ -49,19 +49,19 @@ De parameters van de e-mailkopbal bepalen de standaardwaarden voor het volgende:
 
 Klik op de tab **[!UICONTROL Branding domains]** om de brandingdomeinen te bekijken.
 
-![ heb toegang tot de brandende domeinen montages ](./assets/config-email-delivery-branding-domains.png){width="700" zoomable="yes"}
+![&#x200B; heb toegang tot de brandende domeinen montages &#x200B;](./assets/config-email-delivery-branding-domains.png){width="700" zoomable="yes"}
 
-Deze instelling definieert uw primaire domein voor een of meer werkruimten in de verbonden Marketo Engage-instantie. De nieuwe e-mails gebruiken dit domein als gebrek, maar de marketers kunnen [ het op een per-e-mailbasis ](../content/add-email.md#define-the-email-settings) met voeten treden. Voor meer informatie over het bepalen van het standaard brandende domein, verwijs naar de [ documentatie van Marketo Engage ](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}.
+Deze instelling definieert uw primaire domein voor een of meer werkruimten in de verbonden Marketo Engage-instantie. De nieuwe e-mails gebruiken dit domein als gebrek, maar de marketers kunnen [&#x200B; het op een per-e-mailbasis &#x200B;](../content/add-email.md#define-the-email-settings) met voeten treden. Voor meer informatie over het bepalen van het standaard brandende domein, verwijs naar de [&#x200B; documentatie van Marketo Engage &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}.
 
 >[!NOTE]
 >
->Als u meerdere merken op de markt brengt en u wilt dat elk merk een eigen merktraceringskoppeling heeft, kunt u een extra brandingdomein toevoegen. Voor meer informatie over het toevoegen van veelvoudige brandende domeinen, verwijs naar de [ documentatie van Marketo Engage ](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}.
+>Als u meerdere merken op de markt brengt en u wilt dat elk merk een eigen merktraceringskoppeling heeft, kunt u een extra brandingdomein toevoegen. Voor meer informatie over het toevoegen van veelvoudige brandende domeinen, verwijs naar de [&#x200B; documentatie van Marketo Engage &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}.
 
 ### [!UICONTROL Custom header options] {#custom-header-options}
 
 Als u de aangepaste koptekstopties wilt bekijken, klikt u op de tab **[!UICONTROL Custom header options]** .
 
-![ heb toegang tot de opties van de douanekopbal ](./assets/config-email-delivery-custom-header.png){width="700" zoomable="yes"}
+![&#x200B; heb toegang tot de opties van de douanekopbal &#x200B;](./assets/config-email-delivery-custom-header.png){width="700" zoomable="yes"}
 
 Wanneer _[!UICONTROL Strict Transport Security]_&#x200B;is ingeschakeld, garandeert dit dat koppelingen worden weergegeven via HTTPS (alleen voor abonnementen met koppelingen die zijn beveiligd door SSL).
 
@@ -71,7 +71,7 @@ Communicatielimieten bepalen de hoeveelheid e-mail die uw organisatie verzendt. 
 
 Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** om de huidige instellingen te bekijken. Selecteer onder _[!UICONTROL Email]_&#x200B;in het navigatievenster de optie **[!UICONTROL Communication limits]**.
 
-![ heb toegang tot de montages van communicatielimieten ](./assets/config-email-communication-limits.png){width="700" zoomable="yes"}
+![&#x200B; heb toegang tot de montages van communicatielimieten &#x200B;](./assets/config-email-communication-limits.png){width="700" zoomable="yes"}
 
 De instellingen zijn alleen-lezen in Journey Optimizer B2B edition. Klik op **[!UICONTROL Edit settings]** rechtsboven in het scherm om toegang te krijgen tot de configuratieopties in het aangesloten Marketo Engage-exemplaar.
 
@@ -79,7 +79,7 @@ De instellingen zijn alleen-lezen in Journey Optimizer B2B edition. Klik op **[!
 >
 >Voor toegang tot en het bewerken van deze instellingen in Adobe Marketo Engage hebt u productbeheerdersmachtigingen nodig.
 
-Voor meer informatie over het vormen van de communicatie grenzen, verwijs naar de [ documentatie van Marketo Engage ](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}.
+Voor meer informatie over het vormen van de communicatie grenzen, verwijs naar de [&#x200B; documentatie van Marketo Engage &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}.
 
 ## SPF/DKIM
 
@@ -87,7 +87,7 @@ Verbeter uw tarieven van de e-maillevering door SPF (het Kader van het Beleid va
 
 Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** om de huidige instellingen te bekijken. Selecteer onder _[!UICONTROL Email]_&#x200B;in het navigatievenster de optie **[!UICONTROL SPF/DKIM]**.
 
-![ heb toegang tot SPF/de configuratie van DKIM ](./assets/config-email-spf-dkim.png){width="700" zoomable="yes"}
+![&#x200B; heb toegang tot SPF/de configuratie van DKIM &#x200B;](./assets/config-email-spf-dkim.png){width="700" zoomable="yes"}
 
 De instellingen zijn alleen-lezen in Journey Optimizer B2B edition. Klik op **[!UICONTROL Edit settings]** rechtsboven in het scherm om toegang te krijgen tot de configuratieopties in het aangesloten Marketo Engage-exemplaar.
 
@@ -113,7 +113,7 @@ DKIM is een verificatieprotocol dat door e-mailontvangers wordt gebruikt om de a
 
 Wanneer u de openbare sleutel in uw DNS verslag en het verzendende domein in de verbonden instantie van Marketo Engage wordt geactiveerd, wordt het ondertekenen van douaneDKIM gebruikt voor uw uitgaande berichten. De aangepaste DKIM-ondertekening omvat een gecodeerde digitale handtekening bij elke e-mail die wordt verzonden. De ontvangers zijn dan in staat om de digitale handtekening te decrypteren door omhoog de _openbare sleutel_ in DNS van uw verzendend domein te kijken. Als de sleutel in de e-mail met de sleutel in het DNS verslag beantwoordt, is de ontvangende postserver waarschijnlijker om e-mail te aanvaarden die door Marketo Engage wordt verzonden.
 
-Voor meer informatie over het vormen van een handtekening van douaneDKIM voor e-maillevering, verwijs naar de [ documentatie van Marketo Engage ](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"}.
+Voor meer informatie over het vormen van een handtekening van douaneDKIM voor e-maillevering, verwijs naar de [&#x200B; documentatie van Marketo Engage &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"}.
 
 ## Bot-activiteit
 
@@ -138,7 +138,7 @@ Voor e-mailkoppelingen en open activiteiten via e-mail worden nieuwe kenmerken g
 
 Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** om de huidige instellingen te bekijken. Selecteer onder _[!UICONTROL Email]_&#x200B;in het navigatievenster de optie **[!UICONTROL Bot activity]**.
 
-![ heb toegang tot de configuratie van de beide activiteit voor e-maillevering ](./assets/config-email-bot-activity.png){width="700" zoomable="yes"}
+![&#x200B; heb toegang tot de configuratie van de beide activiteit voor e-maillevering &#x200B;](./assets/config-email-bot-activity.png){width="700" zoomable="yes"}
 
 De instellingen zijn alleen-lezen in Journey Optimizer B2B edition. Klik op **[!UICONTROL Edit settings]** rechtsboven in het scherm om toegang te krijgen tot de configuratieopties in het aangesloten Marketo Engage-exemplaar.
 
@@ -146,4 +146,4 @@ De instellingen zijn alleen-lezen in Journey Optimizer B2B edition. Klik op **[!
 >
 >Voor toegang tot en het bewerken van deze instellingen in Adobe Marketo Engage hebt u productbeheerdersmachtigingen nodig.
 
-Voor meer informatie over het vormen van de opties van de beide activiteit, verwijs naar de [ documentatie van Marketo Engage ](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}.
+Voor meer informatie over het vormen van de opties van de beide activiteit, verwijs naar de [&#x200B; documentatie van Marketo Engage &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}.

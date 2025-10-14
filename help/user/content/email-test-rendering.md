@@ -14,23 +14,23 @@ ht-degree: 0%
 
 # E-mailrendering testen met Litmus
 
-Om uw e-mails te testen, kunt u hefboomwerking a [ de rekening van de Onderneming van de 1&rbrace; litmus van Journey Optimizer B2B edition. ](https://www.litmus.com/email-testing){target="_blank"} Met deze integratie kunt u een voorvertoning van uw e-mailrendering weergeven in populaire e-mailclients. Met dit gereedschap kunt u ervoor zorgen dat uw e-mailinhoud er goed uitziet en werkt zoals deze in elke Postvak IN is ontworpen.
+Om uw e-mails te testen, kunt u hefboomwerking a [&#x200B; de rekening van de Onderneming van de 1&rbrace; litmus van Journey Optimizer B2B edition. &#x200B;](https://www.litmus.com/email-testing){target="_blank"} Met deze integratie kunt u een voorvertoning van uw e-mailrendering weergeven in populaire e-mailclients. Met dit gereedschap kunt u ervoor zorgen dat uw e-mailinhoud er goed uitziet en werkt zoals deze in elke Postvak IN is ontworpen.
 
 >[!AVAILABILITY]
 >
->Deze integratie is alleen beschikbaar voor Journey Optimizer B2B edition-gebruikers met Litmus Enterprise-accounts. Voor meer informatie, verwijs naar de [ oplossingspagina op de website van het Malplaatje ](https://www.litmus.com/solutions/esp/adobe-journey-optimizer){target="_blank"}.
+>Deze integratie is alleen beschikbaar voor Journey Optimizer B2B edition-gebruikers met Litmus Enterprise-accounts. Voor meer informatie, verwijs naar de [&#x200B; oplossingspagina op de website van het Malplaatje &#x200B;](https://www.litmus.com/solutions/esp/adobe-journey-optimizer){target="_blank"}.
 
 1. Wanneer uw e-mailontwerp gereed is en klaar is om te worden getest, klikt u op **[!UICONTROL Simulate content]** in de ontwerpruimte voor e-mail.
 
 1. Klik op **[!UICONTROL Render email]** rechtsboven.
 
-   ![ teruggeeft e-mailknoop ](./assets/email-simulate-render-button.png){width="700" zoomable="yes"}
+   ![&#x200B; teruggeeft e-mailknoop &#x200B;](./assets/email-simulate-render-button.png){width="700" zoomable="yes"}
 
    Als u nog geen verbinding hebt gemaakt met uw Litmus-account vanuit Journey Optimizer B2B edition, biedt de weergegeven pagina een optie voor het starten van een proefaccount of het maken van verbinding met uw bestaande account.
 
 1. Klik op **[!UICONTROL Connect your Litmus account]** rechtsboven of gebruik de koppeling in de pagina.
 
-   ![ verbind uw rekening van de Samenhang ](./assets/email-simulate-render-litmus-connect.png){width="700" zoomable="yes"}
+   ![&#x200B; verbind uw rekening van de Samenhang &#x200B;](./assets/email-simulate-render-litmus-connect.png){width="700" zoomable="yes"}
 
 1. Voer uw aanmeldingsgegevens voor uw account in en klik op **[!UICONTROL Sign in]** .
 
@@ -42,14 +42,14 @@ Om uw e-mails te testen, kunt u hefboomwerking a [ de rekening van de Ondernemin
 
 1. Klik op **[!UICONTROL Run test]** rechtsboven om e-mailvoorvertoningen te genereren.
 
-   ![ stel een Lijn in werking teruggevend test ](./assets/email-simulate-render-litmus-run-test.png){width="700" zoomable="yes"}
+   ![&#x200B; stel een Lijn in werking teruggevend test &#x200B;](./assets/email-simulate-render-litmus-run-test.png){width="700" zoomable="yes"}
 
 1. Controleer uw e-mailinhoud in populaire desktops, mobiele en webclients.
 
    Klik op de weergegeven miniatuur om de details voor een van de gerenderde clienttests weer te geven.
 
-   ![ de e-mailvoorproeven van de Samenhang ](./assets/email-simulate-render-litmus-previews.png){width="700" zoomable="yes"}
+   ![&#x200B; de e-mailvoorproeven van de Samenhang &#x200B;](./assets/email-simulate-render-litmus-previews.png){width="700" zoomable="yes"}
 
-1. Wanneer u klaar bent met het herzien, klik de achterpijl ( ![ toon of verberg filterpictogram ](../../assets/do-not-localize/icon_back-arrow.svg)) bij top-left om op de Simulate inhoudspagina terug te komen.
+1. Wanneer u klaar bent met het herzien, klik de achterpijl ( ![&#x200B; toon of verberg filterpictogram &#x200B;](../../assets/do-not-localize/icon_back-arrow.svg)) bij top-left om op de Simulate inhoudspagina terug te komen.
 
    U kunt een ander profiel selecteren en een andere renderingstest uitvoeren, of terugkeren naar de ontwerpruimte van de e-mail om de benodigde aanpassingen aan te brengen op basis van uw revisie.

@@ -64,7 +64,7 @@ De aangepaste CSS wordt met het kenmerk `<head>` toegevoegd aan de sectie `<styl
 
 1. Selecteer het _lusje van Stijlen_ op het recht en klik **[!UICONTROL Add custom CSS]**.
 
-   ![ heb toegang tot de lichaamstijlen ](./assets/email-body-styles.png){width="800" zoomable="yes"}
+   ![&#x200B; heb toegang tot de lichaamstijlen &#x200B;](./assets/email-body-styles.png){width="800" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -74,15 +74,15 @@ De aangepaste CSS wordt met het kenmerk `<head>` toegevoegd aan de sectie `<styl
 
 1. Voer uw CSS-code in de editor in.
 
-   Zorg ervoor dat de aangepaste CSS geldig is en de juiste syntaxis volgt. Als de ingevoerde CSS ongeldig is, wordt een foutbericht weergegeven en kan de CSS niet worden opgeslagen. Meer leren, zie [ CSS geldigheid ](#css-validity).
+   Zorg ervoor dat de aangepaste CSS geldig is en de juiste syntaxis volgt. Als de ingevoerde CSS ongeldig is, wordt een foutbericht weergegeven en kan de CSS niet worden opgeslagen. Meer leren, zie [&#x200B; CSS geldigheid &#x200B;](#css-validity).
 
-   ![ ga douaneCSS in de redacteur in ](./assets/content-design-add-custom-css.png){width="450"}
+   ![&#x200B; ga douaneCSS in de redacteur in &#x200B;](./assets/content-design-add-custom-css.png){width="450"}
 
 1. Klik op **[!UICONTROL Save]** om de aangepaste CSS op te slaan.
 
-   Het aangepaste stijlblad wordt toegepast op de bestaande inhoud. U kunt controleren of uw aangepaste CSS is toegepast naar wens. Voor informatie over hoe te om veranderingen aan te brengen en de toepassing van het stijlblad aan te passen, zie [ het Oplossen van problemen ](#troubleshooting).
+   Het aangepaste stijlblad wordt toegepast op de bestaande inhoud. U kunt controleren of uw aangepaste CSS is toegepast naar wens. Voor informatie over hoe te om veranderingen aan te brengen en de toepassing van het stijlblad aan te passen, zie [&#x200B; het Oplossen van problemen &#x200B;](#troubleshooting).
 
-   ![ Aangepaste CSS die op inhoud ](assets/email-body-custom-css-applied.png){width="600" zoomable="yes"} wordt toegepast
+   ![&#x200B; Aangepaste CSS die op inhoud &#x200B;](assets/email-body-custom-css-applied.png){width="600" zoomable="yes"} wordt toegepast
 
 ## CSS-geldigheid
 

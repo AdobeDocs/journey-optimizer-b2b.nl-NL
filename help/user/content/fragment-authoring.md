@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Fragmentauthoring
 
-Nadat u [ een fragment ](./fragments.md#create-fragments) creeert, gebruik de visuele ontwerpruimte aan auteur de structuur en inhoudscomponenten in uw fragment.
+Nadat u [&#x200B; een fragment &#x200B;](./fragments.md#create-fragments) creeert, gebruik de visuele ontwerpruimte aan auteur de structuur en inhoudscomponenten in uw fragment.
 
 ## Structuur en inhoud toevoegen {#design-fragment}
 
@@ -39,7 +39,7 @@ Voor meer informatie, zie [_Voorwaardelijke inhoud_](./conditional-content.md).
 
 ## Fragmentaanpassing inschakelen
 
-Wanneer een auteur een fragment aan een [ e-mail ](./email-authoring.md#content-authoring---use-visual-fragments) of [ e-mailmalplaatje ](./email-template-authoring.md#content-authoring---use-visual-fragments) toevoegt, wordt de fragmentinhoud gesloten door gebrek. Wijzigingen in het gepubliceerde fragment worden automatisch doorgegeven aan alle inhoudselementen waar het fragment wordt gebruikt. Wanneer u een parameter voor een component in het fragment toewijst als bewerkbaar, kan de auteur van de e-mail of sjabloon een aangepaste veldwaarde opgeven die specifiek is voor zijn of haar behoeften. Deze aanpassingsvlag is beperkt tot beeld, tekst, en knoop visuele componenten.
+Wanneer een auteur een fragment aan een [&#x200B; e-mail &#x200B;](./email-authoring.md#content-authoring---use-visual-fragments) of [&#x200B; e-mailmalplaatje &#x200B;](./email-template-authoring.md#content-authoring---use-visual-fragments) toevoegt, wordt de fragmentinhoud gesloten door gebrek. Wijzigingen in het gepubliceerde fragment worden automatisch doorgegeven aan alle inhoudselementen waar het fragment wordt gebruikt. Wanneer u een parameter voor een component in het fragment toewijst als bewerkbaar, kan de auteur van de e-mail of sjabloon een aangepaste veldwaarde opgeven die specifiek is voor zijn of haar behoeften. Deze aanpassingsvlag is beperkt tot beeld, tekst, en knoop visuele componenten.
 
 Als u bijvoorbeeld een herbruikbare banner ontwerpt die een klikbare knop bevat, kunt u de URL-parameter voor de knop instellen als bewerkbaar. E-mailauteurs kunnen vervolgens een URL gebruiken die specifieker is voor hun e-mailcampagne. Met deze aanpasbare velden kunnen marketers herbruikbare inhoud beheren en aanpassen zonder dat ze geheel nieuwe inhoudsblokken hoeven te maken of de overgeërfde updates van het oorspronkelijke fragment moeten onderbreken.
 
@@ -49,7 +49,7 @@ Als u bijvoorbeeld een herbruikbare banner ontwerpt die een klikbare knop bevat,
 
 1. Klik op de optie **[!UICONTROL Enable edition]** om te schakelen en stel de bewerkbare velden in.
 
-   ![ laat editable gebieden voor een component van het fragmentbeeld ](./assets/fragment-editable-fields-image.png){width="700" zoomable="yes"} toe
+   ![&#x200B; laat editable gebieden voor een component van het fragmentbeeld &#x200B;](./assets/fragment-editable-fields-image.png){width="700" zoomable="yes"} toe
 
    U kunt aanpassingen inschakelen voor de weergegeven velden, afhankelijk van het componenttype en de parameters die in het fragment zijn gedefinieerd.
 
@@ -57,7 +57,7 @@ Als u bijvoorbeeld een herbruikbare banner ontwerpt die een klikbare knop bevat,
 
 1. Klik op **[!UICONTROL Overview]** om alle bewerkbare velden en de bijbehorende standaardwaarden te bekijken.
 
-   ![ herzie de editable gebieden en hun standaardwaarden ](./assets/fragment-editable-fields-image-overview.png){width="700" zoomable="yes"}
+   ![&#x200B; herzie de editable gebieden en hun standaardwaarden &#x200B;](./assets/fragment-editable-fields-image-overview.png){width="700" zoomable="yes"}
 
 1. Sla uw wijzigingen op.
 

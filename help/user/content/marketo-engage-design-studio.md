@@ -32,7 +32,7 @@ Assets dat zich in de Marketo Engage-werkruimten bevindt, heeft alleen lezentoeg
 
 Ga naar de linkernavigatie en klik op **[!UICONTROL Content Management]** > **[!UICONTROL Assets]** om Adobe Marketo Engage-elementen van Journey Optimizer B2B edition te openen. Met deze handeling wordt een aanbiedingspagina geopend met alle vermelde elementen.
 
-![ doorblader de activa van Marketo Engage ](assets/assets-list-page.png){width="800" zoomable="yes"}
+![&#x200B; doorblader de activa van Marketo Engage &#x200B;](assets/assets-list-page.png){width="800" zoomable="yes"}
 
 De Journey Optimizer B2B edition-werkruimte is standaard geselecteerd. De andere werkruimten worden hieronder weergegeven.
 
@@ -42,7 +42,7 @@ De Journey Optimizer B2B edition-werkruimte is standaard geselecteerd. De andere
 
 * Als u wilt zoeken naar een afbeeldingselement in de geselecteerde werkruimte of map, voert u een tekenreeks in op de zoekbalk.
 
-* Om de kolommen aan te passen die in de lijst worden getoond, klik _aanpassen lijst_ pictogram ( ![ pas lijst ](../assets/do-not-localize/icon-column-settings.svg)) op het hoogste recht aan.
+* Om de kolommen aan te passen die in de lijst worden getoond, klik _aanpassen lijst_ pictogram ( ![&#x200B; pas lijst &#x200B;](../assets/do-not-localize/icon-column-settings.svg)) op het hoogste recht aan.
 
   Selecteer de kolommen die u in de lijst wilt weergeven en klik op **[!UICONTROL Apply]** .
 
@@ -50,7 +50,7 @@ De Journey Optimizer B2B edition-werkruimte is standaard geselecteerd. De andere
 
 Klik op de naam van een element om de pagina met elementdetails te openen.
 
-![ de activadetails van de Toegang ](assets/assets-details.png){width="700" zoomable="yes"}
+![&#x200B; de activadetails van de Toegang &#x200B;](assets/assets-details.png){width="700" zoomable="yes"}
 
 ## Middel weergeven dat wordt gebruikt door verwijzingen
 
@@ -64,7 +64,7 @@ Het paneel toont de verwijzingen door categorie: _E-mail_, _E-mailmalplaatje_, o
 
 Als u op de koppeling klikt, wordt u naar het bijbehorende e-mailbericht, de bijbehorende e-mailsjabloon of het bijbehorende fragment geleid waar het element wordt gebruikt.
 
-![ Mening de inhoudspunten die de activa ](assets/assets-used-by.png){width="700" zoomable="yes"} gebruiken
+![&#x200B; Mening de inhoudspunten die de activa &#x200B;](assets/assets-used-by.png){width="700" zoomable="yes"} gebruiken
 
 ## Elementen toevoegen
 
@@ -74,7 +74,7 @@ Van de _Assets_ lijstpagina, kunt u beeldactiva aan de werkruimte van Journey Op
 
 1. Sleep in het dialoogvenster _[!UICONTROL Add assets]_&#x200B;een of meer bestanden van uw systeem naar het bestandsvak.
 
-   ![ voegt activa aan een werkruimte ](./assets/assets-add-dialog.png){width="500"} toe
+   ![&#x200B; voegt activa aan een werkruimte &#x200B;](./assets/assets-add-dialog.png){width="500"} toe
 
    U kunt ook op de koppeling _[!UICONTROL Select a file from your computer]_&#x200B;klikken om bestanden te zoeken en te selecteren met uw lokale bestandssysteem.
 
@@ -100,11 +100,11 @@ Gebruik een van de volgende methoden om een element te verwijderen dat zich bevi
 
 * Ga naar de elementdetails, klik op **[!UICONTROL ... More]** rechtsboven en kies **[!UICONTROL Delete]** uit de opties.
 
-  ![ de acties van de Toegang voor de activa ](./assets/assets-details-more-menu.png){width="600" zoomable="yes"}
+  ![&#x200B; de acties van de Toegang voor de activa &#x200B;](./assets/assets-details-more-menu.png){width="600" zoomable="yes"}
 
 * Voor de _[!UICONTROL Assets]_&#x200B;lijstpagina, klik het_ Meer _pictogram (**[!UICONTROL ...]**) naast het activa punt en kies **[!UICONTROL Delete]**&#x200B;van de opties.
 
-  ![ de acties van de Toegang voor de activa ](./assets/assets-list-file-more-menu.png){width="600" zoomable="yes"}
+  ![&#x200B; de acties van de Toegang voor de activa &#x200B;](./assets/assets-list-file-more-menu.png){width="600" zoomable="yes"}
 
   >[!NOTE]
   >
@@ -124,7 +124,7 @@ Gebruik een van de volgende methoden om een element in de werkruimte van _[!UICO
 
 Sleep het vervangende bestand van uw systeem naar het bestandsvak in het dialoogvenster _[!UICONTROL Replace asset]_. U kunt ook op de koppeling&#x200B;_[!UICONTROL Select a file from your computer]_ klikken om een bestand te selecteren met uw lokale bestandssysteem. (Als u meerdere bestanden op uw lokale systeem selecteert, wordt het eerste geselecteerde bestand gebruikt voor de vervanging.)
 
-![ vervang activadialoog ](./assets/assets-replace-dialog.png){width="500"}
+![&#x200B; vervang activadialoog &#x200B;](./assets/assets-replace-dialog.png){width="500"}
 
 Klik op **[!UICONTROL Replace]** om door te gaan. U kunt het proces afbreken door op **[!UICONTROL Cancel]** te klikken.
 
@@ -144,7 +144,7 @@ Klik in het bevestigingsvenster op **[!UICONTROL Download]** om het element naar
 
 Selecteer op de aanbiedingspagina (_[!UICONTROL Content Management]_>_[!UICONTROL Assets]_ ) meerdere elementen tegelijk door elk selectievakje links van elkaar te selecteren. Onderaan wordt een berichtenbanner weergegeven wanneer u meerdere elementen selecteert.
 
-![ Geselecteerde activa ](./assets/assets-list-selected.png){width="700" zoomable="yes"}
+![&#x200B; Geselecteerde activa &#x200B;](./assets/assets-list-selected.png){width="700" zoomable="yes"}
 
 U kunt de volgende bulkacties uitvoeren voor geselecteerde elementen die zich in de _[!UICONTROL Journey Optimizer B2B Edition]_-werkruimte bevinden:
 
@@ -184,7 +184,7 @@ U kunt de volgende bulkacties uitvoeren voor geselecteerde elementen die zich in
 
    Mapnamen moeten uniek zijn, mogen maximaal 100 tekens bevatten en mogen geen speciale tekens bevatten, zoals `;` , `:` , `\` , `|` .
 
-   ![ creeer omslagdialoog ](./assets/assets-create-folder-dialog.png){width="500"}
+   ![&#x200B; creeer omslagdialoog &#x200B;](./assets/assets-create-folder-dialog.png){width="500"}
 
 1. Klik op **[!UICONTROL Add]**.
 
@@ -192,7 +192,7 @@ U kunt de volgende bulkacties uitvoeren voor geselecteerde elementen die zich in
 
 In de werkruimte van _[!UICONTROL Journey Optimizer B2B Edition]_&#x200B;kunt u acties toepassen op een map of elementen in de map. Klik het_ Meer _pictogram (**..**) naast de omslag om de acties te openbaren die u op het kunt toepassen.
 
-![ pas acties op een omslag of activa binnen de omslag toe ](./assets/assets-folder-menu-options.png){width="700" zoomable="yes"}
+![&#x200B; pas acties op een omslag of activa binnen de omslag toe &#x200B;](./assets/assets-folder-menu-options.png){width="700" zoomable="yes"}
 
 U kunt de volgende acties op mapniveau uitvoeren:
 
@@ -270,11 +270,11 @@ Als u een map archiveert, kunnen de bestanden in de map niet worden doorzocht. G
 
 Assets kan worden gebruikt in de e-mail-, e-mailsjabloon- of visuele fragmentauthoring van uw team vanuit de visuele inhoudeditor.
 
-Van de visuele ontwerpruimte, selecteer het _Marketo Engage Assets_ pictogram ( ![ het pictogram van Assets van Marketo Engage ](../../assets/do-not-localize/icon-assets-me.svg)) op linkerzijbalk.
+Van de visuele ontwerpruimte, selecteer het _Marketo Engage Assets_ pictogram ( ![&#x200B; het pictogram van Assets van Marketo Engage &#x200B;](../../assets/do-not-localize/icon-assets-me.svg)) op linkerzijbalk.
 
 Met deze actie wijzigt u het deelvenster Gereedschappen waarin een gestructureerde lijst met beschikbare elementen in de geselecteerde werkruimte wordt weergegeven. Selecteer de werkruimte die u wilt weergeven voor het kiezen van een element.
 
-![ Geselecteerde activa ](./assets/asset-design-workspace-select.png){width="700" zoomable="yes"}
+![&#x200B; Geselecteerde activa &#x200B;](./assets/asset-design-workspace-select.png){width="700" zoomable="yes"}
 
 Er zijn meerdere methoden om een afbeeldingselement toe te voegen aan het visuele canvas:
 
@@ -282,7 +282,7 @@ Er zijn meerdere methoden om een afbeeldingselement toe te voegen aan het visuel
 
 * Voeg een afbeeldingscomponent toe aan het canvas en klik op **[!UICONTROL Marketo Engage Assets]** in de component om het dialoogvenster _[!UICONTROL Select Asset from Adobe Marketo Engage]_&#x200B;te openen.
 
-  ![ Gebruik de filters en het onderzoeksgebied om het middel te vinden dat u ](./assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"} nodig hebt
+  ![&#x200B; Gebruik de filters en het onderzoeksgebied om het middel te vinden dat u &#x200B;](./assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"} nodig hebt
 
   In het dialoogvenster kunt u een afbeelding kiezen in de geselecteerde opslagplaats. Klik op **[!UICONTROL Select]** om het element toe te voegen.
 
@@ -292,4 +292,4 @@ Er zijn meerdere methoden om een afbeeldingselement toe te voegen aan het visuel
 
    * Ga tekst op het _gebied van het Onderzoek_ in om de getoonde punten voor een gelijke van de activanaam te filtreren.
 
-  ![ Gebruik de filters en het onderzoeksgebied om het middel te vinden dat u ](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"} nodig hebt
+  ![&#x200B; Gebruik de filters en het onderzoeksgebied om het middel te vinden dat u &#x200B;](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"} nodig hebt

@@ -22,13 +22,13 @@ Als deze voorwaarden waar zijn, kunt u ervoor kiezen om de hoogste score te beha
 
 In uw Marketo Engage-instantie die is verbonden met Journey Optimizer B2B edition, kunt u het filter _[!UICONTROL Member of Buying Group]_&#x200B;in uw slimme lijsten gebruiken om deze leads te identificeren op basis van uw campagnestrategie.
 
-1. Nadat u [ een Slimme Lijst in Marketo Engage ](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"} creeert, selecteer het **[!UICONTROL Smart List]** lusje om de filterredacteur te openen.
+1. Nadat u [&#x200B; een Slimme Lijst in Marketo Engage &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"} creeert, selecteer het **[!UICONTROL Smart List]** lusje om de filterredacteur te openen.
 
 1. Blader in de lijst met filters aan de rechterkant omlaag en vouw de map **[!UICONTROL Special Filters]** uit.
 
 1. Klik op het filter **[!UICONTROL Member of Buying Group]** en sleep het naar het filterdefinitiegebied.
 
-   ![ voeg het Lid van het Kopen filter van de Groep aan de Slimme Lijst ](./assets/me-member-of-buying-group-filter-add.png){width="700" zoomable="yes"} toe
+   ![&#x200B; voeg het Lid van het Kopen filter van de Groep aan de Slimme Lijst &#x200B;](./assets/me-member-of-buying-group-filter-add.png){width="700" zoomable="yes"} toe
 
 1. Stel de optie _[!UICONTROL Member of Buying Group]_&#x200B;in op **[!UICONTROL true]**&#x200B;of **[!UICONTROL false]**.
 
@@ -38,7 +38,7 @@ In uw Marketo Engage-instantie die is verbonden met Journey Optimizer B2B editio
 
    * Klik op **[!UICONTROL Add Constraint]** rechtsboven op de filterkaart.
 
-     ![ Uitgezochte een andere beperking ](./assets/me-member-of-buying-group-filter-add-constraint.png){width="700" zoomable="yes"}
+     ![&#x200B; Uitgezochte een andere beperking &#x200B;](./assets/me-member-of-buying-group-filter-add-constraint.png){width="700" zoomable="yes"}
 
    * Selecteer de beperking die u, zoals _Score van de Voltooiing_ of _Interesse van de Oplossing_ wilt toevoegen.
 
@@ -46,14 +46,14 @@ In uw Marketo Engage-instantie die is verbonden met Journey Optimizer B2B editio
 
      Voor een afzonderlijk item, zoals de belangen van de oplossing die in Journey Optimizer B2B edition zijn gedefinieerd, kunt u een of meer items voor de lijst selecteren.
 
-     ![ selecteer een waarde voor de beperking van de lijst ](./assets/me-member-of-buying-group-filter-constraint-list.png){width="600" zoomable="yes"}
+     ![&#x200B; selecteer een waarde voor de beperking van de lijst &#x200B;](./assets/me-member-of-buying-group-filter-constraint-list.png){width="600" zoomable="yes"}
 
      Selecteer de eerste en klik nogmaals op de kiezer om het dialoogvenster _[!UICONTROL Multiple Value Chooser]_&#x200B;te openen.
 
-     ![ Uitgezochte veelvoudige waarden voor de beperking ](./assets/me-member-of-buying-group-filter-constraint-multiple-value.png){width="500" zoomable="yes"}
+     ![&#x200B; Uitgezochte veelvoudige waarden voor de beperking &#x200B;](./assets/me-member-of-buying-group-filter-constraint-multiple-value.png){width="500" zoomable="yes"}
 
      Plaats de resterende items naar rechts en klik op **[!UICONTROL OK]** wanneer u de lijst met items hebt die u voor de beperking wilt gebruiken.
 
    * Herhaal deze handelingen om zoveel beperkingen toe te voegen als u nodig hebt.
 
-   ![ Lid van het Kopen filter van de Groep met veelvoudige beperkingen ](./assets/me-member-of-buying-group-filter-constraints-complete.png){width="600" zoomable="yes"}
+   ![&#x200B; Lid van het Kopen filter van de Groep met veelvoudige beperkingen &#x200B;](./assets/me-member-of-buying-group-filter-constraints-complete.png){width="600" zoomable="yes"}

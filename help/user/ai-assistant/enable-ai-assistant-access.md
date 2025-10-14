@@ -22,7 +22,7 @@ De volgende parameters regelen de toegang tot AI Assistant in Journey Optimizer 
 
 * **toegang tot de toepassing:** u kunt tot AI Medewerker in Adobe Journey Optimizer B2B edition toegang hebben.
 
-* **Toestemmingen:** gebruik [ Toestemmingen UI ](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} om toegang tot AI Medewerker in uw organisatie te verlenen of te herroepen. Als u AI Assistant wilt gebruiken, moet een bepaalde gebruiker tot een rol behoren die is geconfigureerd met de machtigingen _[!UICONTROL Enable AI Assistant]_&#x200B;en&#x200B;_[!UICONTROL View Operational Insights]_ .
+* **Toestemmingen:** gebruik [&#x200B; Toestemmingen UI &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} om toegang tot AI Medewerker in uw organisatie te verlenen of te herroepen. Als u AI Assistant wilt gebruiken, moet een bepaalde gebruiker tot een rol behoren die is geconfigureerd met de machtigingen _[!UICONTROL Enable AI Assistant]_&#x200B;en&#x200B;_[!UICONTROL View Operational Insights]_ .
 
 Als beheerder kunt u:
 
@@ -30,13 +30,13 @@ Als beheerder kunt u:
 
 * Voeg de machtiging **[!UICONTROL View Operational Insights]** toe aan een bepaalde rol en voeg een gebruiker toe aan die rol. Deze toestemming staat de gebruiker toe om de AI Medewerker operationele inzichten mogelijkheden te gebruiken.
 
-![ wijs AI Hulp toestemmingen ](./assets/ai-assistant-permissions.png){width="800" zoomable="yes"} toe
+![&#x200B; wijs AI Hulp toestemmingen &#x200B;](./assets/ai-assistant-permissions.png){width="800" zoomable="yes"} toe
 
-Met de interface voor machtigingen kunt u machtigingen verlenen voor het gebruik van AI Assistant in Journey Optimizer B2B edition. Voor informatie over de toegang tot van AI Medewerker in Experience Platform en andere toepassingen van Experience Cloud, verwijs naar de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/access){target="_blank"}.
+Met de interface voor machtigingen kunt u machtigingen verlenen voor het gebruik van AI Assistant in Journey Optimizer B2B edition. Voor informatie over de toegang tot van AI Medewerker in Experience Platform en andere toepassingen van Experience Cloud, verwijs naar de [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/access){target="_blank"}.
 
 Wanneer de gebruiker de noodzakelijke toestemmingen heeft, kunnen zij tot AI Medewerker toegang hebben door het _AI Medewerker_ pictogram op de hoogste kopbal van de toepassing te selecteren die u gebruikt.
 
-![ AI Hulp pictogram in de toepassingskopbal ](./assets/ai-assistant-icon-header.png){width="800" zoomable="yes"}
+![&#x200B; AI Hulp pictogram in de toepassingskopbal &#x200B;](./assets/ai-assistant-icon-header.png){width="800" zoomable="yes"}
 
 ## Video over het toegangsoverzicht van AI Assistant
 

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Journey Optimizer B2B edition biedt de mogelijkheid om een publiek voor LinkedIn-advertenties te genereren via een publiek dat overeenkomt met een account en is ontworpen om u te helpen lege rollen in uw inkoopgroepen te vullen. Door een reeks het kopen groepsfilters te bepalen, kunt u een LinkedIn Gelijke Publiek aan doelvooruitzichten handhaven die uw het kopen groepsparameters aanpassen. Deze functie gebruikt Experience Platform Destination om bepaalde aspecten van de integratie te beheren. Er geldt een limiet van tien gegevensstromen.
 
-Alvorens u een dataflow van Journey Optimizer B2B edition in werking stelt, moet u minstens één geval van [ (Bedrijven) LinkedIn Gelijke de bestemmingsschakelaar van de Publiek ](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"} met een rekening hebben LinkedIn de Manager van de Campagne die in uw toepassing van Experience Platform wordt gevormd.
+Alvorens u een dataflow van Journey Optimizer B2B edition in werking stelt, moet u minstens één geval van [&#x200B; (Bedrijven) LinkedIn Gelijke de bestemmingsschakelaar van de Publiek &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"} met een rekening hebben LinkedIn de Manager van de Campagne die in uw toepassing van Experience Platform wordt gevormd.
 
 ## Een nieuwe LinkedIn-accountverbinding configureren {#linkedin-destination-setup}
 
@@ -34,17 +34,17 @@ Alvorens u een dataflow van Journey Optimizer B2B edition in werking stelt, moet
 
 1. In de schakelaarkaart, klik _Meer_ (**..**) pictogram en kies **[!UICONTROL Configure new destination]**.
 
-   ![ toegang tot de (Bedrijven) LinkedIn Gelijke schakelaar van de Audience ](./assets/aep-destinations-catalog-linkedin.png){width="800" zoomable="yes"}
+   ![&#x200B; toegang tot de (Bedrijven) LinkedIn Gelijke schakelaar van de Audience &#x200B;](./assets/aep-destinations-catalog-linkedin.png){width="800" zoomable="yes"}
 
 1. Selecteer **[!UICONTROL New Account]** en klik op **[!UICONTROL Connect to destination]** .
 
-   ![ verbind een nieuwe LinkedIn rekening ](./assets/aep-destinations-catalog-linkedin-new-account.png){width="500"}
+   ![&#x200B; verbind een nieuwe LinkedIn rekening &#x200B;](./assets/aep-destinations-catalog-linkedin-new-account.png){width="500"}
 
 1. Geef uw LinkedIn-referenties op en meld u aan.
 
    Na authentificatie, wordt LinkedIn rekening verbonden als bestemming in Experience Platform.
 
-   ![ de verbindingsbevestiging van de Rekening wordt getoond ](./assets/aep-destinations-catalog-linkedin-connected.png){width="400"}
+   ![&#x200B; de verbindingsbevestiging van de Rekening wordt getoond &#x200B;](./assets/aep-destinations-catalog-linkedin-connected.png){width="400"}
 
    >[!IMPORTANT]
    >
@@ -58,11 +58,11 @@ De naam en beschrijving van de LinkedIn-account zijn zichtbaar voor inkoopgroepe
 
 1. Voor de nieuwe rekening die u creeerde, klik _Meer_ (**..**) menu en kies **[!UICONTROL Edit details]**.
 
-   ![ geef rekeningsdetails ](./assets/aep-destinations-accounts-edit-details.png){width="800" zoomable="yes"} uit
+   ![&#x200B; geef rekeningsdetails &#x200B;](./assets/aep-destinations-accounts-edit-details.png){width="800" zoomable="yes"} uit
 
 1. Werk de naam en beschrijving bij in het dialoogvenster.
 
-   ![ geef de naam en de beschrijving ](./assets/destinations-linkedin-account-edit-details-dialog.png){width="500"} uit
+   ![&#x200B; geef de naam en de beschrijving &#x200B;](./assets/destinations-linkedin-account-edit-details-dialog.png){width="500"} uit
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -78,17 +78,17 @@ De naam en beschrijving van de LinkedIn-account zijn zichtbaar voor inkoopgroepe
 
 1. Klik op **[!UICONTROL Activate to LinkedIn Destination]** rechtsboven.
 
-   ![ geef rekeningsdetails ](./assets/activate-linkedin-destination.png){width="800" zoomable="yes"} uit
+   ![&#x200B; geef rekeningsdetails &#x200B;](./assets/activate-linkedin-destination.png){width="800" zoomable="yes"} uit
 
 1. Geef de gegevensstroom een beschrijvende naam en beschrijving (optioneel).
 
    Nadat u het bewaart, wordt de naam die u voor dataflow specificeert prepended met _AJOB2B_ aan hulp in het identificeren van dataflow in Experience Platform.
 
-1. Ga [ identiteitskaart van de Rekening van uw LinkedIn Rekening van de Manager van de Campagne ](https://www.linkedin.com/help/lms/answer/a424270) in.
+1. Ga [&#x200B; identiteitskaart van de Rekening van uw LinkedIn Rekening van de Manager van de Campagne &#x200B;](https://www.linkedin.com/help/lms/answer/a424270) in.
 
    U kunt uw account-id vinden op basis van uw accountnaam in de gebruikersinterface van Campagnebeheer.
 
-   ![ voeg de gegevens dataflow ](./assets/destinations-linkedin-activate-details.png){width="700" zoomable="yes"} toe
+   ![&#x200B; voeg de gegevens dataflow &#x200B;](./assets/destinations-linkedin-activate-details.png){width="700" zoomable="yes"} toe
 
 1. Klik op **[!UICONTROL Select buying group filters]** en definieer de parameters van het publiek van uw account.
 
@@ -96,7 +96,7 @@ De naam en beschrijving van de LinkedIn-account zijn zichtbaar voor inkoopgroepe
    >
    >Op dit moment kunnen filters niet worden bewerkt nadat de gegevensstroom is geactiveerd. Controleer uw werk voordat u de gegevensstroom activeert.
 
-   ![ specificeer het rekeningspubliek die volgens het kopen groepen filtreren ](./assets/destinations-linkedin-activate-buying-group-filters.png){width="400"}
+   ![&#x200B; specificeer het rekeningspubliek die volgens het kopen groepen filtreren &#x200B;](./assets/destinations-linkedin-activate-buying-group-filters.png){width="400"}
 
    Voor **[!UICONTROL Engagement score]** is de operator `Between` inclusief, evenals percentagebereiken. Bijvoorbeeld, zijn 5.1 en 5 zowel _tussen_ 5 en 6.
 

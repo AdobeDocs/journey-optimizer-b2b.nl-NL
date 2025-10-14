@@ -27,11 +27,11 @@ Gebruik _simuleren inhoud_ eigenschap om de e-mailinhoud voor te vertonen en tes
 
 ## De e-mailvoorvertoning weergeven
 
-U kunt tot de teruggevende voorproef van de [ e-mailontwerpruimte ](./email-authoring.md) toegang hebben, of van _[!UICONTROL Summary]_&#x200B;wanneer u [ een e-mail van de lijst E-mail ](./emails-list.md#edit-emails) opent.
+U kunt tot de teruggevende voorproef van de [&#x200B; e-mailontwerpruimte &#x200B;](./email-authoring.md) toegang hebben, of van _[!UICONTROL Summary]_&#x200B;wanneer u [&#x200B; een e-mail van de lijst E-mail &#x200B;](./emails-list.md#edit-emails) opent.
 
 1. Klik op **[!UICONTROL Simulate Content]** boven.
 
-   ![ klik Simuleren inhoud ](assets/email-simulate-content.png){width="800" zoomable="yes"}
+   ![&#x200B; klik Simuleren inhoud &#x200B;](assets/email-simulate-content.png){width="800" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -41,23 +41,23 @@ U kunt tot de teruggevende voorproef van de [ e-mailontwerpruimte ](./email-auth
 
    In de voorvertoning van de inhoud worden gepersonaliseerde elementen gevuld volgens het geselecteerde persoonlijke profiel.
 
-   ![ selecteer een personenprofiel om de simulatie ](./assets/email-simulate-content-preview.png){width="800" zoomable="yes"} terug te geven
+   ![&#x200B; selecteer een personenprofiel om de simulatie &#x200B;](./assets/email-simulate-content-preview.png){width="800" zoomable="yes"} terug te geven
 
-   Als de _[!UICONTROL People]_&#x200B;lijst op de linkerzijde leeg is, [ voegt mensen ](#add-people-to-the-profiles-list) toe gebruikend contacten van de verbonden instantie van Marketo Engage.
+   Als de _[!UICONTROL People]_&#x200B;lijst op de linkerzijde leeg is, [&#x200B; voegt mensen &#x200B;](#add-people-to-the-profiles-list) toe gebruikend contacten van de verbonden instantie van Marketo Engage.
 
    >[!TIP]
    >
-   >U kunt [ Litmus gebruiken test het teruggeven integratie ](./email-test-rendering.md) om e-mailbericht het teruggeven in populaire Desktop, mobiele, en web-based cliënten te controleren.
+   >U kunt [&#x200B; Litmus gebruiken test het teruggeven integratie &#x200B;](./email-test-rendering.md) om e-mailbericht het teruggeven in populaire Desktop, mobiele, en web-based cliënten te controleren.
 
 ## De weergaveopties aanpassen
 
 Met de weergavegereedschappen kunt u de voorvertoning wijzigen op basis van het apparaattype of het zoomniveau:
 
-* Selecteer het _Desktop_ ( ![ de vertoningspictogram van de Desktop ](../../assets/do-not-localize/icon-device-desktop.svg)) pictogram om de voorproef te tonen gebruikend de Desktop het stileren en aspectverhouding.
-* Selecteer het _Mobiele_ ( ![ Mobiele vertoningspictogram ](../../assets/do-not-localize/icon-device-mobile.svg)) pictogram om de voorproef te tonen gebruikend het mobiele apparaat het stileren en aspectverhouding.
+* Selecteer het _Desktop_ ( ![&#x200B; de vertoningspictogram van de Desktop &#x200B;](../../assets/do-not-localize/icon-device-desktop.svg)) pictogram om de voorproef te tonen gebruikend de Desktop het stileren en aspectverhouding.
+* Selecteer het _Mobiele_ ( ![&#x200B; Mobiele vertoningspictogram &#x200B;](../../assets/do-not-localize/icon-device-mobile.svg)) pictogram om de voorproef te tonen gebruikend het mobiele apparaat het stileren en aspectverhouding.
 * Klik het _niveau van het Gezoem_ pijl en selecteer een gezoempercentage om te herzien hoe de inhoud volgens het gezoemniveau verandert.
 
-![ pas de voorproefvertoning ](assets/email-simulate-content-preview-display-options.png){width="600" zoomable="yes"} aan
+![&#x200B; pas de voorproefvertoning &#x200B;](assets/email-simulate-content-preview-display-options.png){width="600" zoomable="yes"} aan
 
 ## Proefdrukken verzenden
 
@@ -65,7 +65,7 @@ Een bewijs is een geleverd testbericht dat u en uw teamleden toestaat om een e-m
 
 1. Klik op **[!UICONTROL Send proof]** rechtsboven.
 
-   ![ klik verzendt proef ](assets/email-simulate-content-preview-send-proof.png){width="500"}
+   ![&#x200B; klik verzendt proef &#x200B;](assets/email-simulate-content-preview-send-proof.png){width="500"}
 
 1. In _verzend proef_ pagina, ga het eerste e-mailadres van de ontvanger in.
 
@@ -75,7 +75,7 @@ Een bewijs is een geleverd testbericht dat u en uw teamleden toestaat om een e-m
 
 1. Stel voor elke ontvanger het veld **[!UICONTROL Simulate as]** in door een testprofiel te selecteren voor het aanpassen van de inhoud van het bericht.
 
-   ![ voeg ontvangers toe en plaats testprofielen ](assets/email-simulate-content-preview-send-proof-recipients.png){width="700" zoomable="yes"}
+   ![&#x200B; voeg ontvangers toe en plaats testprofielen &#x200B;](assets/email-simulate-content-preview-send-proof-recipients.png){width="700" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Send proof]**.
 
@@ -83,7 +83,7 @@ Een bewijs is een geleverd testbericht dat u en uw teamleden toestaat om een e-m
 
 1. Klik boven aan de lijst _[!UICONTROL People]_&#x200B;op **[!UICONTROL Add People]**.
 
-   ![ pas de voorproefvertoning ](assets/email-simulate-content-add-people.png){width="500"} aan
+   ![&#x200B; pas de voorproefvertoning &#x200B;](assets/email-simulate-content-add-people.png){width="500"} aan
 
 1. Voer in het dialoogvenster _[!UICONTROL Add people for testing]_&#x200B;het volledige e-mailadres voor de contactpersoon in.
 
@@ -91,6 +91,6 @@ Een bewijs is een geleverd testbericht dat u en uw teamleden toestaat om een e-m
 
 1. Schakel het selectievakje in voor elke overeenkomende contactpersoon die u wilt toevoegen aan de lijst met testprofielen.
 
-   ![ pas de voorproefvertoning ](assets/email-simulate-content-add-people-addresses.png){width="700" zoomable="yes"} aan
+   ![&#x200B; pas de voorproefvertoning &#x200B;](assets/email-simulate-content-add-people-addresses.png){width="700" zoomable="yes"} aan
 
 1. Klik op **[!UICONTROL Add]** rechtsboven.

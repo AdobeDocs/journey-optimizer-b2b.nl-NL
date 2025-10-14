@@ -44,21 +44,21 @@ Met deze handeling wordt een aanbiedingspagina geopend met alle vermelde element
 
    * Als u wilt zoeken naar een afbeeldingselement in de geselecteerde werkruimte of map, voert u een tekenreeks in op de zoekbalk.
 
-   ![ doorbladert activa in de werkruimte van Journey Optimizer B2B edition ](./assets/assets-native-workspace-filtered.png){width="800" zoomable="yes"}
+   ![&#x200B; doorbladert activa in de werkruimte van Journey Optimizer B2B edition &#x200B;](./assets/assets-native-workspace-filtered.png){width="800" zoomable="yes"}
 
 1. Klik op de naam van het afbeeldingselement om het te openen en de details ervan weer te geven.
 
    >[!TIP]
    >
-   >Het is beste praktijken om [ het _[!UICONTROL Used By]_&#x200B;lusje ](./marketo-engage-design-studio.md#view-asset-used-by-references) in de beelddetails te selecteren en de inhoud te herzien waar het beeld momenteel wordt gebruikt alvorens u te werk gaat om aan het beelddossier uit te geven.
+   >Het is beste praktijken om [&#x200B; het _[!UICONTROL Used By]_&#x200B;lusje &#x200B;](./marketo-engage-design-studio.md#view-asset-used-by-references) in de beelddetails te selecteren en de inhoud te herzien waar het beeld momenteel wordt gebruikt alvorens u te werk gaat om aan het beelddossier uit te geven.
 
 1. Klik in de afbeelding _[!UICONTROL Details]_&#x200B;aan de rechterkant op **[!UICONTROL Edit with Adobe Express]**.
 
-   ![ open het beeld in de redacteur van Adobe Express ](./assets/assets-edit-adobe-express.png){width="600" zoomable="yes"}
+   ![&#x200B; open het beeld in de redacteur van Adobe Express &#x200B;](./assets/assets-edit-adobe-express.png){width="600" zoomable="yes"}
 
    Als de afbeelding in gebruik is, verschijnt er een waarschuwingsvenster waarin u wordt gewaarschuwd dat de wijzigingen van invloed zijn op die inhoud. Klik op **[!UICONTROL Continue]** om door te gaan naar de Adobe Express-editor.
 
-   ![ een alarm verstrekt informatie over beeldgebruik ](./assets/assets-edit-adobe-express-usage-alert.png){width="300"}
+   ![&#x200B; een alarm verstrekt informatie over beeldgebruik &#x200B;](./assets/assets-edit-adobe-express-usage-alert.png){width="300"}
 
 ## Adobe Express Enterprise-licentie
 
@@ -66,11 +66,11 @@ Als u een Enterprise-licentie voor Adobe Express hebt, kunt u de Express Editor 
 
 >[!NOTE]
 >
->Uw Adobe Express Enterprise-licentie moet onder dezelfde IMS-organisatie worden aangeschaft om toegang te krijgen tot deze volledige editormogelijkheden van Journey Optimizer B2B edition. Als individueel lid van de organisatie IMS, hebt u een toegewezen vergunning in de instantie van Adobe Express nodig. Anders, wordt uw toegang van Adobe Express beperkt tot de [ snelle acties op Adobe Express ](#quick-actions-in-adobe-express) van Journey Optimizer B2B edition.
+>Uw Adobe Express Enterprise-licentie moet onder dezelfde IMS-organisatie worden aangeschaft om toegang te krijgen tot deze volledige editormogelijkheden van Journey Optimizer B2B edition. Als individueel lid van de organisatie IMS, hebt u een toegewezen vergunning in de instantie van Adobe Express nodig. Anders, wordt uw toegang van Adobe Express beperkt tot de [&#x200B; snelle acties op Adobe Express &#x200B;](#quick-actions-in-adobe-express) van Journey Optimizer B2B edition.
 
-![ open het beeld in de redacteur van de Onderneming van Adobe Express ](./assets/assets-edit-adobe-express-enterprise-editor.png){width="600" zoomable="yes"}
+![&#x200B; open het beeld in de redacteur van de Onderneming van Adobe Express &#x200B;](./assets/assets-edit-adobe-express-enterprise-editor.png){width="600" zoomable="yes"}
 
-De [ Gids van de Gebruiker van Adobe Express ](https://helpx.adobe.com/nl/express/web.html){target="_blank"} verstrekt gedetailleerde informatie over de beschikbare het uitgeven mogelijkheden.
+De [&#x200B; Gids van de Gebruiker van Adobe Express &#x200B;](https://helpx.adobe.com/nl/express/web.html){target="_blank"} verstrekt gedetailleerde informatie over de beschikbare het uitgeven mogelijkheden.
 
 ## Snelle acties in Adobe Express
 
@@ -84,7 +84,7 @@ Als u geen Adobe Express Enterprise-licentie hebt, hebt u toegang tot de Adobe E
    * [**[!UICONTROL Convert to PNG]**](#convert-file-format) (wanneer een JPEG-afbeelding wordt geladen)
    * [**[!UICONTROL Convert to JPEG]**](#convert-file-format) (wanneer een PNG-afbeelding wordt geladen)
 
-   ![ selecteer een uitgeeft type om het beeld ](./assets/assets-edit-adobe-express-left-menu.png){width="600" zoomable="yes"} te wijzigen
+   ![&#x200B; selecteer een uitgeeft type om het beeld &#x200B;](./assets/assets-edit-adobe-express-left-menu.png){width="600" zoomable="yes"} te wijzigen
 
 1. Wanneer u terugkeert naar de hoofdredacteur van de Snelle Acties van Adobe Express, klik **[!UICONTROL Save]** om het gewijzigde beelddossier in de de activawerkruimte van Journey Optimizer B2B edition op te slaan gebruikend de zelfde dossiernaam.
 
@@ -98,13 +98,13 @@ Als u geen Adobe Express Enterprise-licentie hebt, hebt u toegang tot de Adobe E
 
    * Als u de oorspronkelijke staat van de afbeelding wilt herstellen, klikt u op **[!UICONTROL Reset]** .
 
-   ![ geef met Adobe Express uit resize beeld ](./assets/assets-edit-adobe-express-resize-image.png){width="600" zoomable="yes"}
+   ![&#x200B; geef met Adobe Express uit resize beeld &#x200B;](./assets/assets-edit-adobe-express-resize-image.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Apply]** als u tevreden bent met het resultaat.
 
 ## Achtergrond verwijderen
 
-![ geef met Adobe Express uit - verwijder achtergrond ](./assets/assets-edit-adobe-express-remove-background.png){width="600" zoomable="yes"}
+![&#x200B; geef met Adobe Express uit - verwijder achtergrond &#x200B;](./assets/assets-edit-adobe-express-remove-background.png){width="600" zoomable="yes"}
 
 Adobe Express verwijdert automatisch de achtergrond om het primaire object in de afbeelding te isoleren. Als u tevreden bent met het resultaat, klikt u op **[!UICONTROL Apply]** .
 
@@ -112,7 +112,7 @@ Adobe Express verwijdert automatisch de achtergrond om het primaire object in de
 
 1. Sleep de grepen op de hoeken van de afbeelding om de buitenste gebieden te verwijderen die u niet in het afbeeldingselement wilt opnemen.
 
-   ![ geef met Adobe Express uit - gewassenbeeld ](./assets/assets-edit-adobe-express-crop-image.png){width="600" zoomable="yes"}
+   ![&#x200B; geef met Adobe Express uit - gewassenbeeld &#x200B;](./assets/assets-edit-adobe-express-crop-image.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Apply]** als u tevreden bent met het resultaat.
 
@@ -121,6 +121,6 @@ Adobe Express verwijdert automatisch de achtergrond om het primaire object in de
 * **[!UICONTROL Convert to JPEG]** - Voor een PNG-afbeelding kunt u de afbeelding omzetten in een JPEG-afbeeldingsbestand en deze opslaan als een nieuw element in de werkruimte.
 * **[!UICONTROL Convert to PNG]** - Voor een JPEG-afbeelding kunt u de afbeelding omzetten in een PNG-afbeeldingsbestand en deze opslaan als een nieuw element in de werkruimte.
 
-![ geef met Adobe Express uit - zet in PNG ](./assets/assets-edit-adobe-express-convert-to-png.png){width="600" zoomable="yes"} om
+![&#x200B; geef met Adobe Express uit - zet in PNG &#x200B;](./assets/assets-edit-adobe-express-convert-to-png.png){width="600" zoomable="yes"} om
 
 1. Klik op **[!UICONTROL Apply]**.

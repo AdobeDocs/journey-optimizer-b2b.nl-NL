@@ -21,7 +21,7 @@ Journey Optimizer B2B edition bevat een set standaardrollen die worden gebruikt 
 
 1. Selecteer op de pagina _[!UICONTROL Buying groups]_&#x200B;de tab **[!UICONTROL Roles]**.
 
-   ![ het lusje van Rollen ](./assets/roles-tab.png){width="700" zoomable="yes"}
+   ![&#x200B; het lusje van Rollen &#x200B;](./assets/roles-tab.png){width="700" zoomable="yes"}
 
    Het tabblad bevat een overzicht van alle bestaande rollen en geeft de volgende informatie weer in kolomindeling:
 
@@ -51,7 +51,7 @@ Journey Optimizer B2B edition bevat een set standaardrollen die worden gebruikt 
 
 1. Voer in het dialoogvenster een unieke **[!UICONTROL Name]** (vereist) en **[!UICONTROL Description]** (optioneel) voor de rol in.
 
-   ![ creeer de dialoog van de Rol ](./assets/roles-create-dialog.png){width="400"}
+   ![&#x200B; creeer de dialoog van de Rol &#x200B;](./assets/roles-create-dialog.png){width="400"}
 
 1. Klik op **[!UICONTROL Create]**.
 
@@ -59,4 +59,4 @@ Journey Optimizer B2B edition bevat een set standaardrollen die worden gebruikt 
 
 U kunt uw aangepaste rollen beheren op het tabblad _[!UICONTROL Roles]_, dat het bewerken van de rolnaam en beschrijving omvat en het verwijderen van een rol uit de lijst met rollen. Klik het_ Meer _menupictogram (**..**) naast de naam van het fasemodel en kies **[!UICONTROL Edit]**&#x200B;of **[!UICONTROL Delete]**.
 
-![ geef of schrap een douanerol ](./assets/roles-more-menu.png){width="600"} uit
+![&#x200B; geef of schrap een douanerol &#x200B;](./assets/roles-more-menu.png){width="600"} uit

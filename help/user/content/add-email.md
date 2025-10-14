@@ -17,11 +17,11 @@ Gebruik Adobe Journey Optimizer B2B edition om e-mailberichten naar uw klanten t
 
 >[!NOTE]
 >
->Als u een e-mail voor het eerst verzendt, zorg ervoor dat het e-mailkanaal van binnen Adobe Marketo Engage wordt gevormd. Meer leren, zie [ Protocollen voor het volgen en e-maillevering ](../start/email-protocols.md).
+>Als u een e-mail voor het eerst verzendt, zorg ervoor dat het e-mailkanaal van binnen Adobe Marketo Engage wordt gevormd. Meer leren, zie [&#x200B; Protocollen voor het volgen en e-maillevering &#x200B;](../start/email-protocols.md).
 
 ## Een e-mailactieknooppunt toevoegen tijdens een rit
 
-U kunt opstelling e-mailleveringen in een reis plaatsen wanneer u [ a _[!UICONTROL Take an action]_&#x200B;knoop ](../journeys/action-nodes.md) toevoegt en het volgende doet:
+U kunt opstelling e-mailleveringen in een reis plaatsen wanneer u [&#x200B; a _[!UICONTROL Take an action]_&#x200B;knoop &#x200B;](../journeys/action-nodes.md) toevoegt en het volgende doet:
 
 1. Kies _[!UICONTROL Action on]_&#x200B;voor het doel **[!UICONTROL People]**.
 
@@ -29,7 +29,7 @@ U kunt opstelling e-mailleveringen in een reis plaatsen wanneer u [ a _[!UICONTR
 
 1. Kies in het tekstvak _[!UICONTROL Email source]_&#x200B;hoe u de e-mail die u wilt verzenden, wilt verzenden.
 
-   ![ neem een actie - verzend een e-mail ](assets/journey-node-send-email.png){width="700" zoomable="yes"}
+   ![&#x200B; neem een actie - verzend een e-mail &#x200B;](assets/journey-node-send-email.png){width="700" zoomable="yes"}
 
    * Kies **[!UICONTROL Create new email]** om het e-mailbericht zelf te maken in Journey Optimizer B2B edition.
 
@@ -43,13 +43,13 @@ U kunt opstelling e-mailleveringen in een reis plaatsen wanneer u [ a _[!UICONTR
 
       1. Voer een unieke **[!UICONTROL Name]** in voor de e-mail en een **[!UICONTROL Subject line]** .
 
-         ![ creeer nieuwe e-maildialoog - nieuwe e-mail ](assets/create-new-email.png){width="400"}
+         ![&#x200B; creeer nieuwe e-maildialoog - nieuwe e-mail &#x200B;](assets/create-new-email.png){width="400"}
 
       1. Klik op **[!UICONTROL Create]**.
 
          In de sectie _[!UICONTROL Email properties]_&#x200B;van de pagina met e-mailinhoud zijn de velden&#x200B;_[!UICONTROL From email]_ en _[!UICONTROL Reply to address]_&#x200B;al geconfigureerd. U kunt waarden invoeren voor de velden&#x200B;_[!UICONTROL From name]_ en _[!UICONTROL Description]_(optioneel).
 
-      1. Klik **[!UICONTROL Edit email]** om de e-mail [ montages ](#define-the-email-settings) te bepalen en de [ inhoud ](./email-authoring.md) te ontwerpen.
+      1. Klik **[!UICONTROL Edit email]** om de e-mail [&#x200B; montages &#x200B;](#define-the-email-settings) te bepalen en de [&#x200B; inhoud &#x200B;](./email-authoring.md) te ontwerpen.
 
      +++
 
@@ -59,23 +59,23 @@ U kunt opstelling e-mailleveringen in een reis plaatsen wanneer u [ a _[!UICONTR
 
       1. Kies _[!UICONTROL Create new email]_&#x200B;in het dialoogvenster **[!UICONTROL Duplicate existing email]**.
 
-      1. Voor **[!UICONTROL Existing email to duplicate]**, klik het _pictogram van de Selectie_ ( ![ pictogram van de Selectie ](../assets/do-not-localize/icon-email-select.svg)) en selecteer e-mail die u voor de reisknoop wilt dupliceren en gebruiken.
+      1. Voor **[!UICONTROL Existing email to duplicate]**, klik het _pictogram van de Selectie_ ( ![&#x200B; pictogram van de Selectie &#x200B;](../assets/do-not-localize/icon-email-select.svg)) en selecteer e-mail die u voor de reisknoop wilt dupliceren en gebruiken.
 
          U kunt de lijst met e-mailberichten filteren door een tekstreeks in te voeren in het zoekveld, zodat deze overeenkomt met de e-mailnaam.
 
-         ![ Uitgezochte e-mail ](assets/create-new-email-duplicate-select-email.png){width="600" zoomable="yes"}
+         ![&#x200B; Uitgezochte e-mail &#x200B;](assets/create-new-email-duplicate-select-email.png){width="600" zoomable="yes"}
 
          Schakel het selectievakje in voor de e-mail die u wilt dupliceren en klik op **[!UICONTROL Select]** .
 
       1. Voer een unieke **[!UICONTROL Name]** in voor de e-mail en een **[!UICONTROL Subject line]** .
 
-         ![ creeer nieuwe e-maildialoog - dupliceer bestaande e-mail ](assets/create-new-email-duplicate.png){width="400"}
+         ![&#x200B; creeer nieuwe e-maildialoog - dupliceer bestaande e-mail &#x200B;](assets/create-new-email-duplicate.png){width="400"}
 
       1. Klik op **[!UICONTROL Create]**.
 
          In de sectie _[!UICONTROL Email properties]_&#x200B;van de pagina met e-mailinhoud zijn de velden&#x200B;_[!UICONTROL From email]_ en _[!UICONTROL Reply to address]_&#x200B;al geconfigureerd. U kunt waarden invoeren voor de velden&#x200B;_[!UICONTROL From name]_ en _[!UICONTROL Description]_(optioneel).
 
-      1. Indien nodig, klik **[!UICONTROL Edit email]** om e-mail [ montages ](#define-the-email-settings) en [ inhoud ](./email-authoring.md) te wijzigen.
+      1. Indien nodig, klik **[!UICONTROL Edit email]** om e-mail [&#x200B; montages &#x200B;](#define-the-email-settings) en [&#x200B; inhoud &#x200B;](./email-authoring.md) te wijzigen.
 
      +++
 
@@ -83,7 +83,7 @@ U kunt opstelling e-mailleveringen in een reis plaatsen wanneer u [ a _[!UICONTR
 
      Als u meer dan één werkruimte beschikbaar in de aangesloten instantie van de Ingenieur van de Markt hebt, selecteer de werkruimte. Selecteer vervolgens de goedgekeurde e-mail die u wilt verzenden voor het knooppunt van de rit.
 
-     ![ Uitgezochte Marketo Engage e-mail ](./assets/email-select-marketo.png){width="500" zoomable="yes"}
+     ![&#x200B; Uitgezochte Marketo Engage e-mail &#x200B;](./assets/email-select-marketo.png){width="500" zoomable="yes"}
 
      Met deze optie wordt het knooppunt ingesteld en hoeft de e-mailinhoud tijdens de rit niet verder te worden gedefinieerd.
 
@@ -91,19 +91,19 @@ U kunt opstelling e-mailleveringen in een reis plaatsen wanneer u [ a _[!UICONTR
 
 Met het **[!UICONTROL Details]** lusje dat in het _Summiere_ paneel op het recht wordt geselecteerd, rol aan de bodem om de e-mailmontages te bekijken en te bepalen.
 
-![ E-mailmontages ](./assets/email-summary-details-settings.png){width="700" zoomable="yes"}
+![&#x200B; E-mailmontages &#x200B;](./assets/email-summary-details-settings.png){width="700" zoomable="yes"}
 
 | Optie | Beschrijving |
 | ------ | ----------- |
-| [!UICONTROL From name] | De naam van de afzender die in de e-mailkoptekst wordt gebruikt. Ga de naam van de afzender in aangezien u het aan de ontvanger wilt verschijnen. Klik _personaliseren_ pictogram ( ![ Persoonlijk pictogram ](../assets/do-not-localize/icon-personalize.svg)) om een verpersoonlijkingstoken op het gebied te gebruiken. |
-| [!UICONTROL From email] | Het adres van de afzender dat in de e-mailkopbal wordt gebruikt. De standaardwaarde wordt bevolkt van de [ montages van de e-mailkanaallevering ](../admin/configure-channels-emails.md#delivery-settings). Klik _personaliseren_ pictogram ( ![ Persoonlijk pictogram ](../assets/do-not-localize/icon-personalize.svg)) om een verpersoonlijkingstoken op het gebied te gebruiken. |
-| [!UICONTROL Reply-to address] | Het adres van de afzender dat in de e-mailkopbal wordt gebruikt. De standaardwaarde wordt bevolkt van de [ montages van de e-mailkanaallevering ](../admin/configure-channels-emails.md#delivery-settings) ([!UICONTROL From Label]). Voer het e-mailadres in dat u wilt invullen als de ontvanger de antwoordfunctie gebruikt (deze kan anders zijn of hetzelfde zijn als het afzenderadres). Klik _personaliseren_ pictogram ( ![ Persoonlijk pictogram ](../assets/do-not-localize/icon-personalize.svg)) om een verpersoonlijkingstoken op het gebied te gebruiken. |
-| [!UICONTROL Subject line] | De tekst die in het onderwerpveld voor de e-mail wordt weergegeven. De standaardwaarde wordt gevuld met de tekst die u hebt ingevoerd in het dialoogvenster _[!UICONTROL Create new email]_. U kunt de tekst desgewenst wijzigen. Klik_ personaliseren _pictogram ( ![ personaliseer pictogram ](../assets/do-not-localize/icon-personalize.svg)) om een verpersoonlijkingstoken op het gebied te gebruiken.<!-- Click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate the subject line based on the current email content.--> |
-| [!UICONTROL Branding domain] | Als u meer dan één [ brandend domein ](../admin/configure-channels-emails.md#branding-domains) hebt dat in het systeem wordt bepaald, selecteer het brandende domein voor het verzenden van e-mail te gebruiken. Gebruik een specifiek brandingdomein om e-mails te verzenden die van uw merk lijken te komen in plaats van het bedrijf als geheel. Het bouwt vertrouwen met het merk, past de e-mailervaring aan, en verhoogt open en reactiesnelheden. |
-| [!UICONTROL Dedicated IP] | Als u meer dan één specifiek bepaald IP adres hebt, selecteer een specifiek IP adres voor het verzenden van e-mail te gebruiken. Wanneer u specifieke specifieke specifieke IP voor uw programma&#39;s gebruikt, kunt u prestaties volgen en volgen en aan om het even welke veranderingen in uw leveringsmetriek snel antwoorden. Voor meer informatie over het toevoegen van specifieke IP voor de verbonden instantie van Marketo Engage, verwijs naar de [ documentatie van Marketo Engage ](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/email-marketing/deliverability/use-your-dedicated-ip-addresses-to-send-emails){target="_blank"}. |
+| [!UICONTROL From name] | De naam van de afzender die in de e-mailkoptekst wordt gebruikt. Ga de naam van de afzender in aangezien u het aan de ontvanger wilt verschijnen. Klik _personaliseren_ pictogram ( ![&#x200B; Persoonlijk pictogram &#x200B;](../assets/do-not-localize/icon-personalize.svg)) om een verpersoonlijkingstoken op het gebied te gebruiken. |
+| [!UICONTROL From email] | Het adres van de afzender dat in de e-mailkopbal wordt gebruikt. De standaardwaarde wordt bevolkt van de [&#x200B; montages van de e-mailkanaallevering &#x200B;](../admin/configure-channels-emails.md#delivery-settings). Klik _personaliseren_ pictogram ( ![&#x200B; Persoonlijk pictogram &#x200B;](../assets/do-not-localize/icon-personalize.svg)) om een verpersoonlijkingstoken op het gebied te gebruiken. |
+| [!UICONTROL Reply-to address] | Het adres van de afzender dat in de e-mailkopbal wordt gebruikt. De standaardwaarde wordt bevolkt van de [&#x200B; montages van de e-mailkanaallevering &#x200B;](../admin/configure-channels-emails.md#delivery-settings) ([!UICONTROL From Label]). Voer het e-mailadres in dat u wilt invullen als de ontvanger de antwoordfunctie gebruikt (deze kan anders zijn of hetzelfde zijn als het afzenderadres). Klik _personaliseren_ pictogram ( ![&#x200B; Persoonlijk pictogram &#x200B;](../assets/do-not-localize/icon-personalize.svg)) om een verpersoonlijkingstoken op het gebied te gebruiken. |
+| [!UICONTROL Subject line] | De tekst die in het onderwerpveld voor de e-mail wordt weergegeven. De standaardwaarde wordt gevuld met de tekst die u hebt ingevoerd in het dialoogvenster _[!UICONTROL Create new email]_. U kunt de tekst desgewenst wijzigen. Klik_ personaliseren _pictogram ( ![&#x200B; personaliseer pictogram &#x200B;](../assets/do-not-localize/icon-personalize.svg)) om een verpersoonlijkingstoken op het gebied te gebruiken.<!-- Click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate the subject line based on the current email content.--> |
+| [!UICONTROL Branding domain] | Als u meer dan één [&#x200B; brandend domein &#x200B;](../admin/configure-channels-emails.md#branding-domains) hebt dat in het systeem wordt bepaald, selecteer het brandende domein voor het verzenden van e-mail te gebruiken. Gebruik een specifiek brandingdomein om e-mails te verzenden die van uw merk lijken te komen in plaats van het bedrijf als geheel. Het bouwt vertrouwen met het merk, past de e-mailervaring aan, en verhoogt open en reactiesnelheden. |
+| [!UICONTROL Dedicated IP] | Als u meer dan één specifiek bepaald IP adres hebt, selecteer een specifiek IP adres voor het verzenden van e-mail te gebruiken. Wanneer u specifieke specifieke specifieke IP voor uw programma&#39;s gebruikt, kunt u prestaties volgen en volgen en aan om het even welke veranderingen in uw leveringsmetriek snel antwoorden. Voor meer informatie over het toevoegen van specifieke IP voor de verbonden instantie van Marketo Engage, verwijs naar de [&#x200B; documentatie van Marketo Engage &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/email-marketing/deliverability/use-your-dedicated-ip-addresses-to-send-emails){target="_blank"}. |
 | [!UICONTROL Operational email] | Schakel het selectievakje in als u de e-mail als operationeel wilt aanmerken. Operationele e-mails zijn uitgesloten van de lijst met niet-geabonneerde of niet-geabonneerde e-mails en van de communicatielimieten. Selecteer deze optie alleen als de ontvanger het e-mailbericht niet als een ongevraagd commercieel bericht (SPAM) kan beschouwen. |
-| [!UICONTROL Include view as web page] | Schakel het selectievakje in om een koppeling op te nemen naar een webpagina die wordt gegenereerd op basis van de inhoud van het e-mailbericht. E-mailberichten hebben meer mogelijkheden dan webpagina&#39;s, zodat het handig is voor JavaScript, uitgebreide CSS en formulieren. De tekst die wordt gebruikt om de verbinding te produceren wordt gevormd in de [ montages van de e-mailkanaallevering ](../admin/configure-channels-emails.md#delivery-settings) ([!UICONTROL View as web page HTML] en [!UICONTROL View as web page text]). |
-| [!UICONTROL Disable open tracking] | Schakel het selectievakje in als u de activiteiten voor het openen van e-mail niet wilt bijhouden. Als de functie is uitgeschakeld, worden het aantal geopende e-mailactiviteiten alleen verhoogd wanneer een unieke persoon het e-mailbericht opent. U kunt [ e-mailinhoudkoppeling het volgen ](./email-authoring.md#content-authoring---link-tracking) beheren wanneer u de inhoud van het e-maillichaam ontwerpt. |
+| [!UICONTROL Include view as web page] | Schakel het selectievakje in om een koppeling op te nemen naar een webpagina die wordt gegenereerd op basis van de inhoud van het e-mailbericht. E-mailberichten hebben meer mogelijkheden dan webpagina&#39;s, zodat het handig is voor JavaScript, uitgebreide CSS en formulieren. De tekst die wordt gebruikt om de verbinding te produceren wordt gevormd in de [&#x200B; montages van de e-mailkanaallevering &#x200B;](../admin/configure-channels-emails.md#delivery-settings) ([!UICONTROL View as web page HTML] en [!UICONTROL View as web page text]). |
+| [!UICONTROL Disable open tracking] | Schakel het selectievakje in als u de activiteiten voor het openen van e-mail niet wilt bijhouden. Als de functie is uitgeschakeld, worden het aantal geopende e-mailactiviteiten alleen verhoogd wanneer een unieke persoon het e-mailbericht opent. U kunt [&#x200B; e-mailinhoudkoppeling het volgen &#x200B;](./email-authoring.md#content-authoring---link-tracking) beheren wanneer u de inhoud van het e-maillichaam ontwerpt. |
 | [!UICONTROL Preheader] | Schakel het selectievakje in om een voorheader op te nemen. Een preheader is de korte samenvattingstekst die na de onderwerpregel in sommige e-mailclients wordt weergegeven. Het verstrekt gewoonlijk een korte samenvatting van e-mail, en is typisch één enkele zin. Ga de summiere tekst op het gebied <!-- , or click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate summary text based on the current email content --> in. |
 | [!UICONTROL Fields used as CC addresses] | Selecteer, indien beschikbaar, maximaal 25 velden voor leads of bedrijven die in Marketo Engage zijn ingesteld met het type `Email` . |
 
@@ -111,7 +111,7 @@ Met het **[!UICONTROL Details]** lusje dat in het _Summiere_ paneel op het recht
 
 Terwijl u de inhoud van uw e-mailbericht ontwerpt, worden waarschuwingen weergegeven in de interface (rechtsboven op de pagina) wanneer er geen sleutelinstellingen aanwezig zijn. Als deze knop niet wordt weergegeven, zijn er geen problemen gedetecteerd.
 
-![ E-mailalarm ](./assets/email-alerts.png){width="600" zoomable="yes"}
+![&#x200B; E-mailalarm &#x200B;](./assets/email-alerts.png){width="600" zoomable="yes"}
 
 Er kunnen twee soorten waarschuwingen worden gedetecteerd:
 

@@ -42,35 +42,35 @@ ht-degree: 0%
 >title="Logos score"
 >abstract="Logos score"
 
-De merkgroeperingsevaluatie en de scores helpen u om, inhoud tot stand te brengen te herzien en te beheren die aan de richtlijnen [ volgt die in het geselecteerde merk ](./brands-manage-create.md#brand-definitions) worden bepaald. Het zorgt voor consistentie in toon, overseinen, en visuele identiteit over uw e-mailcampagnes, terwijl ook als kwaliteitscontrole dient alvorens uw inhoud live gaat.
+De merkgroeperingsevaluatie en de scores helpen u om, inhoud tot stand te brengen te herzien en te beheren die aan de richtlijnen [&#x200B; volgt die in het geselecteerde merk &#x200B;](./brands-manage-create.md#brand-definitions) worden bepaald. Het zorgt voor consistentie in toon, overseinen, en visuele identiteit over uw e-mailcampagnes, terwijl ook als kwaliteitscontrole dient alvorens uw inhoud live gaat.
 
 >[!AVAILABILITY]
 >
 >Dit vermogen is momenteel beschikbaar als privé bèta, met progressieve beschikbaarheid die voor alle klanten in toekomstige versies wordt gepland.
 >
->De a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} wordt vereist alvorens u AI-aangedreven eigenschappen in Adobe Journey Optimizer B2B edition kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>De a [&#x200B; gebruikersovereenkomst &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} wordt vereist alvorens u AI-aangedreven eigenschappen in Adobe Journey Optimizer B2B edition kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 >
->Zie [ merk-verwante toestemmingen ](./brands-overview.md#brand-related-permissions) voor informatie over hoe de productbeheerders deze eigenschappen kunnen toelaten.
+>Zie [&#x200B; merk-verwante toestemmingen &#x200B;](./brands-overview.md#brand-related-permissions) voor informatie over hoe de productbeheerders deze eigenschappen kunnen toelaten.
 
 ## De uitlijning van uw merk valideren
 
 Wanneer uw merk goed gedefinieerd en gepubliceerd is, kunt u de score voor uitlijning van uw merk direct binnen de ontwerpruimte van de e-mail beoordelen om ervoor te zorgen dat de inhoud in overeenstemming is met de richtlijnen van uw merk:
 
-1. Nadat u de e-mailinhoud creeert, klik de _groepering van het Merk_ ( ![ pictogram van de groepering van het Merk ](../assets/do-not-localize/icon-brand-compliance.svg) ) op het recht om het _Merk groeperings_ juiste paneel in de e-mailontwerpruimte te openen.
+1. Nadat u de e-mailinhoud creeert, klik de _groepering van het Merk_ ( ![&#x200B; pictogram van de groepering van het Merk &#x200B;](../assets/do-not-localize/icon-brand-compliance.svg) ) op het recht om het _Merk groeperings_ juiste paneel in de e-mailontwerpruimte te openen.
 
-   Het [ standaardmerk ](./brands-manage-create.md#default-brand) wordt automatisch geselecteerd.
+   Het [&#x200B; standaardmerk &#x200B;](./brands-manage-create.md#default-brand) wordt automatisch geselecteerd.
 
-   ![ heb toegang tot de de groeperingshulpmiddelen van het Merk ](./assets/brands-alignment-sidebar.png){width="600" zoomable="yes"}
+   ![&#x200B; heb toegang tot de de groeperingshulpmiddelen van het Merk &#x200B;](./assets/brands-alignment-sidebar.png){width="600" zoomable="yes"}
 
-   U kunt het _Volledige scherm_ ( ![ Volledige het schermpictogram ](../assets/do-not-localize/icon-full-screen.svg)) pictogram bij de bovenkant van het paneel klikken om de merkgroeperingshulpmiddelen op het volledig-schermwijze te tonen.
+   U kunt het _Volledige scherm_ ( ![&#x200B; Volledige het schermpictogram &#x200B;](../assets/do-not-localize/icon-full-screen.svg)) pictogram bij de bovenkant van het paneel klikken om de merkgroeperingshulpmiddelen op het volledig-schermwijze te tonen.
 
-1. Indien nodig, klik de **[!UICONTROL Brand]** menupijl ( ![ Omlaag pijl ](../assets/do-not-localize/icon-down-menu.svg)) om een ander gepubliceerd merk te kiezen.
+1. Indien nodig, klik de **[!UICONTROL Brand]** menupijl ( ![&#x200B; Omlaag pijl &#x200B;](../assets/do-not-localize/icon-down-menu.svg)) om een ander gepubliceerd merk te kiezen.
 
 1. Klik op **[!UICONTROL Evaluate score]** om de inhoud uit te lijnen met het geselecteerde merk.
 
    Het systeem evalueert de inhoud tegen de richtlijnen voor het geselecteerde merk en geeft de resulterende score weer.
 
-   ![ score van de de groeperingsevaluatie van de Merk ](./assets/brands-alignment-evaluation.png){width="600" zoomable="yes"}
+   ![&#x200B; score van de de groeperingsevaluatie van de Merk &#x200B;](./assets/brands-alignment-evaluation.png){width="600" zoomable="yes"}
 
 ## Herziening van de evaluatie
 
@@ -81,9 +81,9 @@ De score wordt berekend op basis van geconstateerde overtredingen in de geëvalu
 * 60-79 = Redelijk - Sommige belangrijke schendingen
 * Onder 60 = Slecht - Grote schendingen verdienen aandacht
 
-U kunt de evaluatieresultaten in meer detail herzien om u te helpen schendingen identificeren en uw scores van de categorielijn verbeteren (_Hoog_, _Medium_, en _Laag_) en de details herzien. Voor **[!UICONTROL Writing style]** of **[!UICONTROL Visual content]**, klik _uitbreiden_ ( ![ breid pijl ](../assets/do-not-localize/icon-expand-right.svg)) pijl uit om de details voor de evaluatie te tonen.
+U kunt de evaluatieresultaten in meer detail herzien om u te helpen schendingen identificeren en uw scores van de categorielijn verbeteren (_Hoog_, _Medium_, en _Laag_) en de details herzien. Voor **[!UICONTROL Writing style]** of **[!UICONTROL Visual content]**, klik _uitbreiden_ ( ![&#x200B; breid pijl &#x200B;](../assets/do-not-localize/icon-expand-right.svg)) pijl uit om de details voor de evaluatie te tonen.
 
-![ de details van de de groeperingsevaluatie van de Merk ](./assets/brands-alignment-evaluation-details.png){width="600" zoomable="yes"}
+![&#x200B; de details van de de groeperingsevaluatie van de Merk &#x200B;](./assets/brands-alignment-evaluation-details.png){width="600" zoomable="yes"}
 
 Selecteer een gemarkeerde hulplijn om specifieke feedback en suggesties weer te geven.
 

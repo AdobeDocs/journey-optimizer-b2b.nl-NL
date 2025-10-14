@@ -22,7 +22,7 @@ Beheerders moeten ervoor zorgen dat de instellingen van de bestemmingspagina zij
 
 Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** om de configuratie van de openingspagina te bekijken. Selecteer onder _[!UICONTROL Landing Pages]_&#x200B;in het navigatievenster de optie **[!UICONTROL Settings]**.
 
-![ het Bestaan van pagina montages ](./assets/config-landing-pages-settings.png){width="800" zoomable="yes"}
+![&#x200B; het Bestaan van pagina montages &#x200B;](./assets/config-landing-pages-settings.png){width="800" zoomable="yes"}
 
 ### Accounttekenreeks {#account-string}
 
@@ -84,7 +84,7 @@ Voeg een nieuw subdomein toe voor elk uniek merk-URL dat u wilt hosten op Adobe 
 
 Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** als u de subdomeinen wilt bekijken en nieuwe subdomeinen wilt toevoegen. Selecteer onder _[!UICONTROL Landing Pages]_&#x200B;in het navigatievenster de optie **[!UICONTROL Subdomains]**.
 
-![ het Bestaan van pagina subdomeinen ](./assets/config-landing-pages-settings.png){width="800" zoomable="yes"}
+![&#x200B; het Bestaan van pagina subdomeinen &#x200B;](./assets/config-landing-pages-settings.png){width="800" zoomable="yes"}
 
 _Een subdomein van een bestemmingspagina toevoegen :_
 
@@ -96,6 +96,6 @@ _Een subdomein van een bestemmingspagina toevoegen :_
    * **[!UICONTROL Default page]** - De URL voor de standaardsubdomeinpagina, zoals `marketing.yourcompany.com/products`
    * **[!UICONTROL Fallback page]** - De URL voor de fallback-pagina die moet worden gebruikt als een bestemmingspagina op het subdomein niet actief is, zoals `marketing.yourcompany.com/expired`
 
-   ![ voeg het landen pagina subdomain ](./assets/config-landing-pages-add-subdomain.png){width="700" zoomable="yes"} toe
+   ![&#x200B; voeg het landen pagina subdomain &#x200B;](./assets/config-landing-pages-add-subdomain.png){width="700" zoomable="yes"} toe
 
 1. Klik op **[!UICONTROL Save]**.

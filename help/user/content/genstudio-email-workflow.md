@@ -35,11 +35,11 @@ Een technische markator die bijvoorbeeld Journey Optimizer B2B edition gebruikt 
 
 ## GenStudio-mogelijkheden voor het genereren van inhoud
 
-[ Adobe GenStudio for Performance Marketing ](https://business.adobe.com/products/genstudio-for-performance-marketing.html){target="_blank"} is een generatieve AI-eerste toepassing die marketing teams machtigt om impactful, gepersonaliseerde advertenties en e-mails tot stand te brengen die aan merknormen voldoen en aan hun ondernemingsbeleid voldoen. Door gebruik te maken van Adobe AI-technologie, biedt deze technologie een uitgebreide reeks hulpmiddelen die de complexiteit van het maken en beheren van content vereenvoudigen, zodat creatieve mensen zich kunnen richten op innovatie.
+[&#x200B; Adobe GenStudio for Performance Marketing &#x200B;](https://business.adobe.com/products/genstudio-for-performance-marketing.html){target="_blank"} is een generatieve AI-eerste toepassing die marketing teams machtigt om impactful, gepersonaliseerde advertenties en e-mails tot stand te brengen die aan merknormen voldoen en aan hun ondernemingsbeleid voldoen. Door gebruik te maken van Adobe AI-technologie, biedt deze technologie een uitgebreide reeks hulpmiddelen die de complexiteit van het maken en beheren van content vereenvoudigen, zodat creatieve mensen zich kunnen richten op innovatie.
 
-![ Video ](../../assets/do-not-localize/icon-video.svg){width="30"} [ creeer on-brand marketing e-mails ](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing-learn/tutorials/creating-experiences/creating-on-brand-emails){target="_blank"}
+![&#x200B; Video &#x200B;](../../assets/do-not-localize/icon-video.svg){width="30"} [&#x200B; creeer on-brand marketing e-mails &#x200B;](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing-learn/tutorials/creating-experiences/creating-on-brand-emails){target="_blank"}
 
-Leer meer over de mogelijkheden van GenStudio for Performance Marketing in de [ documentatie ](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/home){target="_blank"}
+Leer meer over de mogelijkheden van GenStudio for Performance Marketing in de [&#x200B; documentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/home){target="_blank"}
 
 >[!ENDSHADEBOX]
 
@@ -51,7 +51,7 @@ Eerst exporteert u in Journey Optimizer B2B edition HTML vanuit een e-mailberich
 
 1. Kies _[!UICONTROL More ...]_&#x200B;in het menu **[!UICONTROL Export HTML]**&#x200B;boven aan de e-mailontwerpruimte.
 
-   ![ klik Meer en kies de Uitvoer HTML ](./assets/email-export-html.png){width="600"}
+   ![&#x200B; klik Meer en kies de Uitvoer HTML &#x200B;](./assets/email-export-html.png){width="600"}
 
    Met deze handeling wordt een gedownload ZIP-bestand gegenereerd dat de HTML- en afbeeldingsbestanden bevat.
 
@@ -73,7 +73,7 @@ GenStudio for Performance Marketing herkent bepaalde elementen in de geïmportee
 
 Gebruik het HTML-bestand om een sjabloon te maken in GenStudio for Performance Marketing.
 
-Voor gedetailleerde informatie over het uploaden van een malplaatje van HTML in GenStudio in Adobe GenStudio for Performance Marketing, verwijs naar [ een malplaatje ](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template) in de documentatie van GenStudio for Performance Marketing toevoegen.
+Voor gedetailleerde informatie over het uploaden van een malplaatje van HTML in GenStudio in Adobe GenStudio for Performance Marketing, verwijs naar [&#x200B; een malplaatje &#x200B;](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template) in de documentatie van GenStudio for Performance Marketing toevoegen.
 
 Wanneer u de geëxporteerde HTML als een sjabloon uploadt, zoekt GenStudio for Performance Marketing het HTML-bestand naar herkende velden. Gebruik de voorvertoning om uw sjabloonelementen te bekijken en te bevestigen dat u deze correct hebt geïdentificeerd met de herkende veldnamen.
 
@@ -81,7 +81,7 @@ Wanneer u de geëxporteerde HTML als een sjabloon uploadt, zoekt GenStudio for P
 
 In GenStudio for Performance Marketing gebruikt u de sjabloon om verschillende variaties in e-mailervaringen te maken en op te slaan.
 
-Voor gedetailleerde informatie over het produceren van gebrandde e-mailervaringen, verwijs naar [ creeer een e-mailervaring ](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience) in de documentatie van GenStudio for Performance Marketing.
+Voor gedetailleerde informatie over het produceren van gebrandde e-mailervaringen, verwijs naar [&#x200B; creeer een e-mailervaring &#x200B;](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience) in de documentatie van GenStudio for Performance Marketing.
 
 ## Gegenereerde e-mailervaringen toevoegen aan Journey Optimizer B2B edition
 
@@ -91,13 +91,13 @@ Voor gedetailleerde informatie over het produceren van gebrandde e-mailervaringe
 
 Ga als volgt te werk om de GenStudio-e-mailvariaties te gebruiken die zijn gemaakt van het geëxporteerde Journey Optimizer B2B edition e-mailbestand HTML:
 
-1. In Journey Optimizer B2B edition, [ voeg een e-mail ](./add-email.md) aan een rekeningsreis toe gebruikend a _[!UICONTROL Take an action]_&#x200B;knoop.
+1. In Journey Optimizer B2B edition, [&#x200B; voeg een e-mail &#x200B;](./add-email.md) aan een rekeningsreis toe gebruikend a _[!UICONTROL Take an action]_&#x200B;knoop.
 
    * Kies _[!UICONTROL Action on]_&#x200B;voor het doel **[!UICONTROL People]**.
 
    * Kies _[!UICONTROL Action on people]_&#x200B;bij **[!UICONTROL Send email]**.
 
-     ![ neem een actie - verzend een e-mail ](./assets/journey-node-send-email.png){width="700" zoomable="yes"}
+     ![&#x200B; neem een actie - verzend een e-mail &#x200B;](./assets/journey-node-send-email.png){width="700" zoomable="yes"}
 
    * Kies _[!UICONTROL Email source]_&#x200B;voor de optie **[!UICONTROL Create new email]**&#x200B;om de e-mail zelf te maken in Journey Optimizer B2B edition.
 
@@ -105,13 +105,13 @@ Ga als volgt te werk om de GenStudio-e-mailvariaties te gebruiken die zijn gemaa
 
 1. Klik in het dialoogvenster _[!UICONTROL Import your email]_&#x200B;op **[!UICONTROL Adobe GenStudio for Performance Marketing]**.
 
-   ![ de Invoer HTML van GenStudio for Performance Marketing ](./assets/email-import-html-genstudio.png){width="500" zoomable="yes"}
+   ![&#x200B; de Invoer HTML van GenStudio for Performance Marketing &#x200B;](./assets/email-import-html-genstudio.png){width="500" zoomable="yes"}
 
 1. Blader door de gepubliceerde ervaringen.
 
    U kunt de ervaringen op verscheidene criteria, zoals _Malplaatje_ filtreren en _creeerde door_.
 
-   ![ de Invoer HTML van GenStudio for Performance Marketing ](./assets/email-import-select-gen-studio-experience.png){width="600" zoomable="yes"}
+   ![&#x200B; de Invoer HTML van GenStudio for Performance Marketing &#x200B;](./assets/email-import-select-gen-studio-experience.png){width="600" zoomable="yes"}
 
 1. Selecteer een ervaring en klik op **[!UICONTROL Use]** om uw e-mailinhoud samen te stellen.
 
@@ -119,6 +119,6 @@ Ga als volgt te werk om de GenStudio-e-mailvariaties te gebruiken die zijn gemaa
    >
    >GenStudio-ervaringen die zijn gemaakt met een Journey Optimizer B2B edition- of Marketo Engage-sjabloon, worden rechtstreeks geïmporteerd in de ontwerpruimte voor e-mail. Ervaringen die zonder een Journey Optimizer B2B edition-sjabloon zijn gemaakt, worden geïmporteerd in de compatibiliteitsmodus.
 
-1. Gebruik de [ e-mailinhoud en verpersoonlijkingshulpmiddelen ](./email-authoring.md) om uw e-mail zoals nodig uit te geven en het te bewaren.
+1. Gebruik de [&#x200B; e-mailinhoud en verpersoonlijkingshulpmiddelen &#x200B;](./email-authoring.md) om uw e-mail zoals nodig uit te geven en het te bewaren.
 
-   ![ de Invoer HTML van GenStudio for Performance Marketing ](./assets/email-imported-experience.png){width="800" zoomable="yes"}
+   ![&#x200B; de Invoer HTML van GenStudio for Performance Marketing &#x200B;](./assets/email-imported-experience.png){width="800" zoomable="yes"}

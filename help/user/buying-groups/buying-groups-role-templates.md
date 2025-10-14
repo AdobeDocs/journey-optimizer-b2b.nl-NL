@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Op een B2B-markt worden aankoopbeslissingen meestal door meerdere personen genomen. Deze personen nemen deel aan het besluitvormingsproces overeenkomstig hun rol binnen de organisatie. Creëer de rolmalplaatjes van de Groep van de Kopiëer die een groep roldefinities volgens elk product bevatten die type of rekeningsgebruik aanbieden geval.
 
-![ Video ](../../assets/do-not-localize/icon-video.svg){width="30"} [ bekijk de overzichtsvideo ](#overview-video)
+![&#x200B; Video &#x200B;](../../assets/do-not-localize/icon-video.svg){width="30"} [&#x200B; bekijk de overzichtsvideo &#x200B;](#overview-video)
 
 ## Rolsjablonen openen en doorbladeren
 
@@ -23,7 +23,7 @@ Op een B2B-markt worden aankoopbeslissingen meestal door meerdere personen genom
 
 1. Selecteer op de pagina _[!UICONTROL Buying groups]_&#x200B;de tab **[!UICONTROL Roles Templates]**.
 
-   ![ het lusje van Malplaatjes van Rollen ](assets/roles-templates-tab.png){width="800" zoomable="yes"}
+   ![&#x200B; het lusje van Malplaatjes van Rollen &#x200B;](assets/roles-templates-tab.png){width="800" zoomable="yes"}
 
    Het tabblad bevat een overzicht van alle bestaande rolsjablonen en geeft de volgende informatie weer in kolomindeling:
 
@@ -42,7 +42,7 @@ Op een B2B-markt worden aankoopbeslissingen meestal door meerdere personen genom
 
    Voer de eerste paar tekens van de naam in om de weergegeven lijst te beperken tot de overeenkomende items.
 
-   ![ het filtreren van Malplaatjes van Rollen door onderzoekskoord ](assets/roles-templates-search.png){width="700" zoomable="yes"}
+   ![&#x200B; het filtreren van Malplaatjes van Rollen door onderzoekskoord &#x200B;](assets/roles-templates-search.png){width="700" zoomable="yes"}
 
 ## Een rolsjabloon maken
 
@@ -50,7 +50,7 @@ Op een B2B-markt worden aankoopbeslissingen meestal door meerdere personen genom
 
 1. Voer in het dialoogvenster een unieke **[!UICONTROL Name]** (vereist) en **[!UICONTROL Description]** (optioneel) voor de sjabloon in.
 
-   ![ creeer de dialoog van het Malplaatje van Rollen ](assets/roles-template-create-dialog.png){width="400"}
+   ![&#x200B; creeer de dialoog van het Malplaatje van Rollen &#x200B;](assets/roles-template-create-dialog.png){width="400"}
 
 1. Klik op **[!UICONTROL Create]**.
 
@@ -64,15 +64,15 @@ Elke rol die u voor het malplaatje bepaalt gebruikt een reeks filters, of _voorw
 | ---- | --------- |
 | Persoonskenmerken | <li>E-mailadres <li>E-mail is ongeldig <li>E-mail is geschorst <li>Fax <li>Voornaam <li>Overgenomen deelstaatgebied <li>Functie <li>Achternaam <li>Tweede voornaam <li>Mobiel telefoonnummer <li>Persoonlijke betrokkenheidsscore <li>Telefoonnummer <li>Postcode <li>Staat <li>Niet geabonneerd <li>Reden waarop geen abonnement is genomen |
 | Speciale filters | <li>Lid van de lijst <li>Lid van het programma |
-| Intentgegevens | Categorie-intentie <li>Productintentie <li>De intentie van het sleutelwoord <br/>[ leert over intentgegevens ](../admin/intent-data.md). |
+| Intentgegevens | Categorie-intentie <li>Productintentie <li>De intentie van het sleutelwoord <br/>[&#x200B; leert over intentgegevens &#x200B;](../admin/intent-data.md). |
 
 1. Voor de eerste rolkaart, bepaal de roleigenschappen.
 
    * Kies de **[!UICONTROL Buying group role]** in de lijst.
 
-     Er zijn zes standaardrollen: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` en `Other` . De lijst omvat ook om het even welke [ douanerollen die in de _2&rbrace; lijst van Rollen_ worden bepaald.](./default-custom-roles.md#custom-roles)
+     Er zijn zes standaardrollen: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` en `Other` . De lijst omvat ook om het even welke [&#x200B; douanerollen die in de _2&rbrace; lijst van Rollen_ worden bepaald.](./default-custom-roles.md#custom-roles)
 
-     ![ het Kopen lijst van groepsrollen ](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
+     ![&#x200B; het Kopen lijst van groepsrollen &#x200B;](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
    * Stel de **[!UICONTROL Weighting]** in voor de rol, die wordt gebruikt om de betrokkenheidsscore te berekenen.
 
@@ -88,7 +88,7 @@ Elke rol die u voor het malplaatje bepaalt gebruikt een reeks filters, of _voorw
 
    * Vouw in het dialoogvenster _[!UICONTROL Condition]_&#x200B;de lijst met **[!UICONTROL Person attributes]**&#x200B;uit en zoek een kenmerk dat u wilt gebruiken om de rol aan te passen. Sleep het naar rechts en zet het neer in de filterruimte.
 
-     ![ het malplaatje van Rollen voegt voorwaarde belemmeringsattributen toe ](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
+     ![&#x200B; het malplaatje van Rollen voegt voorwaarde belemmeringsattributen toe &#x200B;](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
 
      >[!NOTE]
      >
@@ -98,7 +98,7 @@ Elke rol die u voor het malplaatje bepaalt gebruikt een reeks filters, of _voorw
 
      In het volgende voorbeeld, wordt het attribuut van de Titel van de Baan gebruikt om een gelijke voor de Maker van het Besluit te identificeren. Elke waarde voor een titel die begint met `Director` of `Sr Director` wordt als true beschouwd voor de voorwaarde.
 
-     ![ het voorbeeld van de het malplaatjevoorwaarde van Rollen gebruikend baantitel ](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}
+     ![&#x200B; het voorbeeld van de het malplaatjevoorwaarde van Rollen gebruikend baantitel &#x200B;](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}
 
    * Voeg zo nodig een ander kenmerk en een andere voorwaarde toe die de criteria voor een overeenkomst met de rol verder verfijnen.
 
@@ -106,7 +106,7 @@ Elke rol die u voor het malplaatje bepaalt gebruikt een reeks filters, of _voorw
 
 1. Voor elke aanvullende rol die u voor de sjabloon wilt opnemen, klikt u op **[!UICONTROL Add another role]** en herhaalt u stap 1 en 2 om de rol te definiëren.
 
-   ![ het malplaatje van Rollen met veelvoudige bepaalde rollen ](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
+   ![&#x200B; het malplaatje van Rollen met veelvoudige bepaalde rollen &#x200B;](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
 >[!BEGINSHADEBOX  &quot;Marketo Engage list membership&quot;]
 
@@ -114,7 +114,7 @@ In Marketo Engage, _Slimme Campagnes_ controlelidmaatschap van programma&#39;s o
 
 Vouw **[!UICONTROL Special Filters]** uit en sleep de voorwaarde **[!UICONTROL Member of List]** naar de filterruimte als u een lijstlidmaatschap als rolvoorwaarde wilt gebruiken. Voer vervolgens de filterdefinitie in om het lidmaatschap in een of meer Marketo Engage-lijsten te evalueren.
 
-![ het malplaatjevoorwaarde van Rollen voor het lijstlidmaatschap van Marketo Engage ](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
+![&#x200B; het malplaatjevoorwaarde van Rollen voor het lijstlidmaatschap van Marketo Engage &#x200B;](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
 
 >[!ENDSHADEBOX]
 
@@ -132,21 +132,21 @@ Wanneer een rolmalplaatje in de staat van het Ontwerp van het a __ is, kunt u de
 
 Wijzig een van de instellingen in de koptekst van de rolkaart, inclusief de rol van de inkoopgroep, weging, automatische toewijzing en de vereiste voor het bijhouden van volledigheid.
 
-![ Verandering die de eigenschappen van de groepsrol koopt ](./assets/roles-template-role-properties.png){width="600"}
+![&#x200B; Verandering die de eigenschappen van de groepsrol koopt &#x200B;](./assets/roles-template-role-properties.png){width="600"}
 
 ### De voorwaarden voor een rol wijzigen
 
-Om de voorwaarde/het filtreren logica voor om het even welk van de rollen te veranderen, klik _uitgeven_ ( ![ geef pictogram ](../assets/do-not-localize/icon-edit.svg)) op hoogste recht van de rolkaart uit. Met deze actie opent u de werkruimte van _[!UICONTROL Conditions]_&#x200B;waar u een bestaand filter kunt wijzigen, een filter kunt toevoegen of verwijderen of de filterlogica kunt wijzigen.
+Om de voorwaarde/het filtreren logica voor om het even welk van de rollen te veranderen, klik _uitgeven_ ( ![&#x200B; geef pictogram &#x200B;](../assets/do-not-localize/icon-edit.svg)) op hoogste recht van de rolkaart uit. Met deze actie opent u de werkruimte van _[!UICONTROL Conditions]_&#x200B;waar u een bestaand filter kunt wijzigen, een filter kunt toevoegen of verwijderen of de filterlogica kunt wijzigen.
 
 ### Een rolkaart verwijderen
 
-Als u een rol uit het malplaatje wilt verwijderen, klik _Schrapping_ ( ![ pictogram van de Schrapping ](../assets/do-not-localize/icon-delete.svg)) pictogram in de rolkaart.
+Als u een rol uit het malplaatje wilt verwijderen, klik _Schrapping_ ( ![&#x200B; pictogram van de Schrapping &#x200B;](../assets/do-not-localize/icon-delete.svg)) pictogram in de rolkaart.
 
 ### De prioriteit voor rollen instellen
 
 U kunt de rollen binnen het malplaatje opnieuw in orde brengen, dat de prioriteit voor het toewijzen bepaalt leidt tot een rol. Rechts van elke rolkaart wordt een **[!UICONTROL Priority]** -controller weergegeven. Klik _Omhoog_ of _Omlaag_ pijl bij het recht om de rolkaart omhoog of neer in prioriteit te bewegen.
 
-![ de rolprioriteit van de Verandering ](./assets/roles-template-role-priority.png){width="700"}
+![&#x200B; de rolprioriteit van de Verandering &#x200B;](./assets/roles-template-role-priority.png){width="700"}
 
 ## Een rolsjabloon verwijderen
 
@@ -156,7 +156,7 @@ U kunt een rolmalplaatje schrappen als het in de _status van het Ontwerp_ is.
 
 1. Klik op **[!UICONTROL Delete]** rechtsboven.
 
-   ![ de rolprioriteit van de Verandering ](./assets/roles-template-delete.png){width="700"}
+   ![&#x200B; de rolprioriteit van de Verandering &#x200B;](./assets/roles-template-delete.png){width="700"}
 
 1. Klik in het dialoogvenster op **[!UICONTROL Delete]** om te bevestigen.
 

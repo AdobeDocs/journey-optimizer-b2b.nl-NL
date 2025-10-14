@@ -24,12 +24,12 @@ In het volgende voorbeeld worden stappen beschreven voor het aanpassen van inhou
 
 1. Selecteer de tekstcomponent en klik _verpersoonlijking_ pictogram in de toolbar toevoegen.
 
-   ![ klik het Persoonlijke pictogram ](../assets/content-design-shared/visual-designer-personalize-icon.png){width="600"}
+   ![&#x200B; klik het Persoonlijke pictogram &#x200B;](../assets/content-design-shared/visual-designer-personalize-icon.png){width="600"}
 
    Deze actie opent _geeft Personalization_ dialoog uit.
 
 1. Klik **+** of **..** om een teken aan de lege ruimte toe te voegen.
 
-   ![ construeert gepersonaliseerde tekst gebruikend tokens ](../assets/content-design-shared/visual-designer-personalize-dialog.png){width="700" zoomable="yes"}
+   ![&#x200B; construeert gepersonaliseerde tekst gebruikend tokens &#x200B;](../assets/content-design-shared/visual-designer-personalize-dialog.png){width="700" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save]**.

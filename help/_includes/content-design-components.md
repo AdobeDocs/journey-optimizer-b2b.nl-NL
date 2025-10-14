@@ -18,13 +18,13 @@ ht-degree: 0%
    >
    >Selecteer de _[!UICONTROL n:nkolom]_ component om het aantal kolommen van uw keus (tussen drie en 10) te bepalen. U kunt ook de breedte van elke kolom definiëren door de pijlen onder de kolom te verplaatsen.
 
-   ![ sleep een structuur op het canvas en pas de montages ](../assets/content-design-shared/content-design-add-structure.png){width="800" zoomable="yes"} aan
+   ![&#x200B; sleep een structuur op het canvas en pas de montages &#x200B;](../assets/content-design-shared/content-design-add-structure.png){width="800" zoomable="yes"} aan
 
    Elke kolomgrootte mag niet kleiner zijn dan 10% van de totale breedte van de structuurcomponent. Alleen lege kolommen kunnen worden verwijderd.
 
 1. Vouw de sectie **[!UICONTROL Contents]** uit en voeg zoveel inhoudscomponenten toe als u nodig hebt in een of meer structuurcomponenten.
 
-   ![ sleep een inhoudselement op het canvas en pas de montages ](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"} aan
+   ![&#x200B; sleep een inhoudselement op het canvas en pas de montages &#x200B;](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"} aan
    <!--
    reference to the contents elements when we have a completed reference for each.--->
 

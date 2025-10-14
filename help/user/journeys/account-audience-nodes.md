@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Transparante knooppunten voor het publiek
 
-De knoop van het rekeningspubliek specificeert welke rekeningen de reis ingaan. Wanneer u [ een rekeningsreis ](./journey-overview.md#create-an-account-journey) creeert, begint de reis altijd met een knoop van het rekeningspubliek die zijn input bepaalt.
+De knoop van het rekeningspubliek specificeert welke rekeningen de reis ingaan. Wanneer u [&#x200B; een rekeningsreis &#x200B;](./journey-overview.md#create-an-account-journey) creeert, begint de reis altijd met een knoop van het rekeningspubliek die zijn input bepaalt.
 
 Gebruik een van de volgende invoeropties voor dit transportknooppunt:
 
@@ -25,7 +25,7 @@ Gebruik een van de volgende invoeropties voor dit transportknooppunt:
 
 1. Klik op het knooppunt **[!UICONTROL Account audience]** . Deze actie toont de knoopeigenschappen op het recht.
 
-   ![ de wegknoop van de het publiek van de Rekening ](./assets/account-journey-account-audience-node.png){width="700" zoomable="yes"}
+   ![&#x200B; de wegknoop van de het publiek van de Rekening &#x200B;](./assets/account-journey-account-audience-node.png){width="700" zoomable="yes"}
 
 1. Kies het invoertype voor de accounts die de reis ingaan:
 
@@ -35,7 +35,7 @@ Gebruik een van de volgende invoeropties voor dit transportknooppunt:
 
      Selecteer in het dialoogvenster _[!UICONTROL Add audience]_&#x200B;een eerder gemaakt publiekssegment. Klik vervolgens op **[!UICONTROL Add audience]**.
 
-     ![ selecteer een publiekssegment voor de knoop ](./assets/node-audience-add-dialog.png){width="700" zoomable="yes"}
+     ![&#x200B; selecteer een publiekssegment voor de knoop &#x200B;](./assets/node-audience-add-dialog.png){width="700" zoomable="yes"}
 
    * **[!UICONTROL Account list]**
 
@@ -43,9 +43,9 @@ Gebruik een van de volgende invoeropties voor dit transportknooppunt:
 
      Selecteer een gepubliceerde accountlijst in het dialoogvenster _[!UICONTROL Select live account list]_. Klik vervolgens op **[!UICONTROL Save]**.
 
-     ![ selecteer een levende rekeningslijst voor de knoop ](./assets/account-journey-account-audience-select-account-list.png){width="700" zoomable="yes"}
+     ![&#x200B; selecteer een levende rekeningslijst voor de knoop &#x200B;](./assets/account-journey-account-audience-select-account-list.png){width="700" zoomable="yes"}
 
-     Voor meer informatie over het creëren van en het publiceren van rekeningslijsten, zie [ lijsten van de Rekening ](../accounts/account-lists.md).
+     Voor meer informatie over het creëren van en het publiceren van rekeningslijsten, zie [&#x200B; lijsten van de Rekening &#x200B;](../accounts/account-lists.md).
 
 ## Een publiekssegment maken
 
@@ -53,6 +53,6 @@ Gebruik een van de volgende invoeropties voor dit transportknooppunt:
 
 1. Klik op **[!UICONTROL Create audience]** in de rechterbovenhoek.
 
-   ![ creeer een publiekssegment ](./assets/audiences-list-create.png){width="800" zoomable="yes"}
+   ![&#x200B; creeer een publiekssegment &#x200B;](./assets/audiences-list-create.png){width="800" zoomable="yes"}
 
-1. Volg de stappen in de [ gids van de Dienst van de Segmentatie ](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/types/account-audiences){target="_blank"}.
+1. Volg de stappen in de [&#x200B; gids van de Dienst van de Segmentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/types/account-audiences){target="_blank"}.

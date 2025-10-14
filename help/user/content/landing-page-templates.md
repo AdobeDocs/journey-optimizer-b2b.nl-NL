@@ -26,11 +26,11 @@ De weergegeven aanbiedingspagina bevat alle sjablonen van de bestemmingspagina d
 
 Als u naar een sjabloon op naam wilt zoeken, voert u een tekstreeks in de zoekbalk in.
 
-![ heb toegang tot de bibliotheek en de filter van de landende paginasjablonen door naam ](./assets/landing-page-templates-list-search.png){width="700" zoomable="yes"}
+![&#x200B; heb toegang tot de bibliotheek en de filter van de landende paginasjablonen door naam &#x200B;](./assets/landing-page-templates-list-search.png){width="700" zoomable="yes"}
 
-Klik het _pictogram van de Filter_ ( ![ pictogram van de Filter ](../assets/do-not-localize/icon-filter.svg)) bij de hoogste linkerzijde om de lijst volgens verwezenlijking of wijzigingsdata, en malplaatjes te filtreren die u hebt gecreeerd of gewijzigd.
+Klik het _pictogram van de Filter_ ( ![&#x200B; pictogram van de Filter &#x200B;](../assets/do-not-localize/icon-filter.svg)) bij de hoogste linkerzijde om de lijst volgens verwezenlijking of wijzigingsdata, en malplaatjes te filtreren die u hebt gecreeerd of gewijzigd.
 
-Pas de kolommen aan die u in de lijst wilt tonen door _te klikken aanpassen lijst_ pictogram ( ![ aanpassen lijstpictogram ](../assets/do-not-localize/icon-column-settings.svg)) bij het hoogste recht. Selecteer de kolommen die u wilt weergeven en klik op **[!UICONTROL Apply]** .
+Pas de kolommen aan die u in de lijst wilt tonen door _te klikken aanpassen lijst_ pictogram ( ![&#x200B; aanpassen lijstpictogram &#x200B;](../assets/do-not-localize/icon-column-settings.svg)) bij het hoogste recht. Selecteer de kolommen die u wilt weergeven en klik op **[!UICONTROL Apply]** .
 
 Vanuit de weergegeven lijst met sjablonen kunt u de in de volgende secties beschreven handelingen uitvoeren.
 
@@ -40,15 +40,15 @@ U kunt een sjabloon van een bestemmingspagina maken op de sjabloonlijstpagina va
 
 1. Voer in het dialoogvenster een uniek **[!UICONTROL Name]** (vereist) en nuttig **[!UICONTROL Description]** (optioneel) in.
 
-   ![ ga aanvankelijke eigenschappen voor het nieuwe het landen paginamalplaatje in ](./assets/landing-page-templates-create-dialog.png){width="400"}
+   ![&#x200B; ga aanvankelijke eigenschappen voor het nieuwe het landen paginamalplaatje in &#x200B;](./assets/landing-page-templates-create-dialog.png){width="400"}
 
 1. Klik op **[!UICONTROL Create]**.
 
 De pagina _[!UICONTROL Create your primary landing page]_&#x200B;wordt geopend en bevat opties voor het maken van de sjabloon:_[!UICONTROL Design from scratch]_ , _[!UICONTROL Import HTML]_&#x200B;of selecteer een van de&#x200B;_[!UICONTROL Saved templates]_ .
 
-![ kies hoe u met uw het landen sjabloonontwerp van de pagina wilt beginnen ](./assets/landing-page-templates-create-design.png){width="800" zoomable="yes"}
+![&#x200B; kies hoe u met uw het landen sjabloonontwerp van de pagina wilt beginnen &#x200B;](./assets/landing-page-templates-create-design.png){width="800" zoomable="yes"}
 
-Nadat u de methode selecteert die u wilt gebruiken om uw malplaatjeontwerp te beginnen, gebruik de visuele ontwerpruimte om [ uw het landen van paginamalplaatsinhoud ](./landing-page-design.md) te ontwerpen.
+Nadat u de methode selecteert die u wilt gebruiken om uw malplaatjeontwerp te beginnen, gebruik de visuele ontwerpruimte om [&#x200B; uw het landen van paginamalplaatsinhoud &#x200B;](./landing-page-design.md) te ontwerpen.
 
 ### Ontwerpen vanaf nul
 
@@ -60,7 +60,7 @@ Gebruik de visuele ontwerpruimte om de structuur van de inhoud van de openingspa
 
 1. Selecteer de optie _[!UICONTROL Design your template]_&#x200B;op de startpagina van **[!UICONTROL Design from scratch]**.
 
-1. [ voegt structuur en inhoud ](./landing-page-design.md#add-structure-and-content) aan het malplaatje toe.
+1. [&#x200B; voegt structuur en inhoud &#x200B;](./landing-page-design.md#add-structure-and-content) aan het malplaatje toe.
 
 ### HTML importeren
 
@@ -68,7 +68,7 @@ Met Adobe Journey Optimizer B2B edition kunt u bestaande HTML-inhoud importeren 
 
 {{$include /help/_includes/content-design-import.md}}
 
-![ de invoer HTML- inhoud in een ZIP dossier ](./assets/templates-import-zip-file.png){width="500"}
+![&#x200B; de invoer HTML- inhoud in een ZIP dossier &#x200B;](./assets/templates-import-zip-file.png){width="500"}
 
 >[!NOTE]
 >
@@ -84,7 +84,7 @@ U kunt de geïmporteerde inhoud naar wens aanpassen met de visuele ontwerpruimte
 
 In de _het Bestaan paginasjablonen_ van de paginalijst, klik de naam van een het landen paginamalplaatje om de detailspagina te openen. Vanaf hier kunt u de basiseigenschappen van de sjabloon van de bestemmingspagina bekijken en de visuele ontwerpruimte openen om wijzigingen aan te brengen in de sjablooninhoud.
 
-![ herzie de het landen sjabloondetails van de pagina ](./assets/template-details.png){width="700" zoomable="yes"}
+![&#x200B; herzie de het landen sjabloondetails van de pagina &#x200B;](./assets/template-details.png){width="700" zoomable="yes"}
 
 * Geef de sjabloondetails weer, zoals naam en beschrijving. Deze instellingen kunnen worden bewerkt. Klik buiten het beschrijvingsvak om de wijzigingen automatisch op te slaan.
 
@@ -100,7 +100,7 @@ In de _het Bestaan paginasjablonen_ van de paginalijst, klik de naam van een het
 
 Klik in de pagina met sjabloondetails op het tabblad **[!UICONTROL Used By]** om details weer te geven van de plaats waar deze sjabloon wordt gebruikt op een bestemmingspagina.
 
-![ klik Gebruikt door lusje om malplaatjegebruik ](./assets/template-details-used-by.png){width="400"} te controleren
+![&#x200B; klik Gebruikt door lusje om malplaatjegebruik &#x200B;](./assets/template-details-used-by.png){width="400"} te controleren
 
 * Als u op de koppeling klikt, gaat u naar de bijbehorende bestemmingspagina waar de sjabloon wordt gebruikt.
 
@@ -113,7 +113,7 @@ Deze actie kan worden uitgevoerd op:
 * De detailpagina - klik **[!UICONTROL Edit landing page template]**.
 * De lijstpagina - klik de ellips (**...**) naast een malplaatje en kies **[!UICONTROL Edit]**.
 
-Deze actie neemt u aan het _Ontwerp uw malplaatje_ pagina of de visuele pagina van de inhoudsredacteur (die op het laatste bewaarde statuut van het het landen paginamalplaatje wordt gebaseerd). Vanaf hier kunt u de sjablooninhoud van de bestemmingspagina naar wens bewerken. Zie [ een het landen paginamalplaatje ](#create-a-landing-page-template) voor informatie over het uitgeven opties creëren.
+Deze actie neemt u aan het _Ontwerp uw malplaatje_ pagina of de visuele pagina van de inhoudsredacteur (die op het laatste bewaarde statuut van het het landen paginamalplaatje wordt gebaseerd). Vanaf hier kunt u de sjablooninhoud van de bestemmingspagina naar wens bewerken. Zie [&#x200B; een het landen paginamalplaatje &#x200B;](#create-a-landing-page-template) voor informatie over het uitgeven opties creëren.
 
 ## Sjablonen voor bestemmingspagina dupliceren
 
@@ -121,7 +121,7 @@ U kunt een landingspagina-sjabloon dupliceren met een van de volgende methoden:
 
 * Vouw **[!UICONTROL More]** uit en klik op **[!UICONTROL Duplicate]** in de sjabloondetails aan de rechterkant.
 
-  ![ klik Meer om tot Schrapping toegang te hebben en acties te dupliceren ](./assets/template-details-more-menu.png){width="400"}
+  ![&#x200B; klik Meer om tot Schrapping toegang te hebben en acties te dupliceren &#x200B;](./assets/template-details-more-menu.png){width="400"}
 
 * Klik op de aanbiedingspagina van _[!UICONTROL Landing page templates]_&#x200B;op het ovaal (...) naast de sjabloon en kies **[!UICONTROL Duplicate]**.
 
@@ -136,7 +136,7 @@ Het verwijderen van een sjabloon van een landingspagina kan niet ongedaan worden
 * Vouw **[!UICONTROL More]** uit en klik op **[!UICONTROL Delete]** in de sjabloondetails aan de rechterkant.
 * Van de _het Bestaan paginasjablonen_ vermeldingspagina, klik de ellips (...) naast het malplaatje en kies **[!UICONTROL Delete]**.
 
-  ![ klik... om tot de Acties van het Dupliceren en van de Schrapping ](./assets/templates-list-more-menu.png){width="500"} toegang te hebben
+  ![&#x200B; klik... om tot de Acties van het Dupliceren en van de Schrapping &#x200B;](./assets/templates-list-more-menu.png){width="500"} toegang te hebben
 
 Met deze handeling wordt een bevestigingsvenster geopend. U kunt het proces afbreken door op **[!UICONTROL Cancel]** te klikken of op **[!UICONTROL Delete]** te klikken om het verwijderen te bevestigen.
 
@@ -144,7 +144,7 @@ Met deze handeling wordt een bevestigingsvenster geopend. U kunt het proces afbr
 
 Selecteer op de pagina met sjablonen voor landingspagina&#39;s meerdere sjablonen tegelijk door de selectievakjes links te selecteren. Onderaan wordt een banner weergegeven wanneer u meerdere sjablonen selecteert.
 
-![ de banner van A toont het aantal geselecteerde malplaatjes en het pictogram van de Schrapping ](./assets/templates-multi-select-banner.png){width="600"}
+![&#x200B; de banner van A toont het aantal geselecteerde malplaatjes en het pictogram van de Schrapping &#x200B;](./assets/templates-multi-select-banner.png){width="600"}
 
 **[!UICONTROL Delete]** — U kunt maximaal 20 sjablonen tegelijk verwijderen. In een bevestigingsvenster kunt u de handeling afbreken of bevestigen dat de sjablonen zijn verwijderd.
 

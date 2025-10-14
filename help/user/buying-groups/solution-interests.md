@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Voordat je koopgroepen maakt, moet je weten wat je verkoopt en wie je als doel wilt instellen. Uw marketing en verkoopstrategie zou moeten worden gericht zodat u de oplossingsrente voor de het kopen groepen kunt toevoegen.
 
-![ Video ](../../assets/do-not-localize/icon-video.svg){width="30"} [ bekijk de overzichtsvideo ](#overview-video)
+![&#x200B; Video &#x200B;](../../assets/do-not-localize/icon-video.svg){width="30"} [&#x200B; bekijk de overzichtsvideo &#x200B;](#overview-video)
 
 ## De toegang en doorbladeren van oplossingsbelangen
 
@@ -29,19 +29,19 @@ Voordat je koopgroepen maakt, moet je weten wat je verkoopt en wie je als doel w
 
    Ga tekst in het _hulpmiddel van het Onderzoek_ bij de bovenkant van de lijst in om de getoonde lijst door naam te filtreren.
 
-   ![ de Rente tabel van de Oplossing ](assets/solution-interest-tab.png){width="700" zoomable="yes"}
+   ![&#x200B; de Rente tabel van de Oplossing &#x200B;](assets/solution-interest-tab.png){width="700" zoomable="yes"}
 
 ## Groeptaken voor kopen weergeven en verwijderen
 
 Op het tabblad _[!UICONTROL Solution interest]_&#x200B;wordt in de kolom **[!UICONTROL Buying group creation jobs]**&#x200B;het aantal taken weergegeven dat voor elke interesse in de oplossing is gemaakt. Klik het aantal om een dialoog te openen die de lijst van banen toont die voor de oplossingsrente worden gecreeerd.
 
-![ het Kopen groepsbanen voor oplossingsrente ](assets/buying-group-jobs-for-solution-interest.png){width="700" zoomable="yes"}
+![&#x200B; het Kopen groepsbanen voor oplossingsrente &#x200B;](assets/buying-group-jobs-for-solution-interest.png){width="700" zoomable="yes"}
 
 U kunt een taak van een inkoopgroep verwijderen door te klikken op de ovaal (...) naast de naam van de taak en vervolgens **[!UICONTROL Delete]** te kiezen.
 
 ## Een interesse voor een oplossing maken
 
-Alvorens u een oplossingsbelang creeert, moet u een levende (gepubliceerde) rolmalplaatje hebben dat de rollen bepaalt u wilt richten. Zie [ het Kopen de rolmalplaatjes van de Groep ](./buying-groups-role-templates.md) voor meer informatie over het creëren van een rolmalplaatje en het publiceren van een rolmalplaatje.
+Alvorens u een oplossingsbelang creeert, moet u een levende (gepubliceerde) rolmalplaatje hebben dat de rollen bepaalt u wilt richten. Zie [&#x200B; het Kopen de rolmalplaatjes van de Groep &#x200B;](./buying-groups-role-templates.md) voor meer informatie over het creëren van een rolmalplaatje en het publiceren van een rolmalplaatje.
 
 1. Klik in het tabblad _[!UICONTROL Solution Interest]_&#x200B;op **[!UICONTROL Create solution interest]**&#x200B;rechtsboven.
 
@@ -51,11 +51,11 @@ Alvorens u een oplossingsbelang creeert, moet u een levende (gepubliceerde) rolm
 
    Klik op **[!UICONTROL Select roles template]** en kies een sjabloon voor live rollen in de lijst in het dialoogvenster. U kunt slechts één levende rolmalplaatje met een oplossingsbelang associëren. Klik op **[!UICONTROL Save]** om terug te keren naar de pagina _[!UICONTROL Create solution interest]_&#x200B;waar de sjabloon voor geselecteerde rollen wordt weergegeven.
 
-   ![ voeg een rolmalplaatje aan de oplossingsrente toe ](assets/solution-interest-create.png){width="700" zoomable="yes"}
+   ![&#x200B; voeg een rolmalplaatje aan de oplossingsrente toe &#x200B;](assets/solution-interest-create.png){width="700" zoomable="yes"}
 
 1. Selecteer de **[!UICONTROL Buying group stage model]** om de progressie van het koopgedrag-groepswerkgebied te gebruiken (optioneel).
 
-   Voor meer informatie over het gebruiken van het kopen groepsstadia voor het volgen van rekeningsprogressie, zie [ het Kopen groepsstadia ](./buying-group-stages.md).
+   Voor meer informatie over het gebruiken van het kopen groepsstadia voor het volgen van rekeningsprogressie, zie [&#x200B; het Kopen groepsstadia &#x200B;](./buying-group-stages.md).
 
 1. Schakel de instelling **[!UICONTROL Update existing buying groups]** (optioneel) in.
 
@@ -74,7 +74,7 @@ Op elk ogenblik, kunt u de naam en de beschrijving voor een oplossingsbelang ver
    * Klik de naam van de oplossingsrente.
    * Klik op de ellips (**..**) naast de ellips en kies **[!UICONTROL Edit]** .
 
-   ![ de rente van de Oplossing meer menu ](assets/solution-interests-more-menu.png){width="500" zoomable="no"}
+   ![&#x200B; de rente van de Oplossing meer menu &#x200B;](assets/solution-interests-more-menu.png){width="500" zoomable="no"}
 
 1. Breng de benodigde updates voor de interessemontages van de oplossing aan:
 
@@ -82,7 +82,7 @@ Op elk ogenblik, kunt u de naam en de beschrijving voor een oplossingsbelang ver
 
    * Selecteer de **[!UICONTROL Buying group stage model]** die wordt gebruikt voor het bijhouden van de voortgang van het inkoopgroepswerkgebied.
 
-     Voor meer informatie over het gebruiken van het kopen groepsstadia voor het volgen van reisvooruitgang tegen verkoop, zie [ het Kopen groepsstadia ](./buying-group-stages.md).
+     Voor meer informatie over het gebruiken van het kopen groepsstadia voor het volgen van reisvooruitgang tegen verkoop, zie [&#x200B; het Kopen groepsstadia &#x200B;](./buying-group-stages.md).
 
    * Wijzig de instelling **[!UICONTROL Update existing buying groups]** .
 

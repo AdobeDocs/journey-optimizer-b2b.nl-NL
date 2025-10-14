@@ -67,4 +67,4 @@ De volgende lijst bevat voorbeelden van vragen die momenteel niet worden onderst
 
 ## Volgende stappen
 
-Voor informatie over hoe te om de AI Hulpeigenschappen tijdens uw werkschema&#39;s te gebruiken, zie [ Medewerker van AI van het Gebruik in Journey Optimizer B2B edition ](./use-ai-assistant.md).
+Voor informatie over hoe te om de AI Hulpeigenschappen tijdens uw werkschema&#39;s te gebruiken, zie [&#x200B; Medewerker van AI van het Gebruik in Journey Optimizer B2B edition &#x200B;](./use-ai-assistant.md).

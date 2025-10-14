@@ -18,11 +18,11 @@ In Journey Optimizer B2B edition is AI Assistant een gebruikersinterfacefunctie 
 
 >[!IMPORTANT]
 >
->U moet akkoord gaan met de Adobe Experience Cloud Generative AI-gebruikersrichtlijnen voordat u de AI Assistant kunt gebruiken. Voor meer informatie over deze overeenkomst en gebruiksrichtlijnen, zie de [ Generatieve AI Richtlijnen van de Gebruiker van Adobe Experience Cloud ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
+>U moet akkoord gaan met de Adobe Experience Cloud Generative AI-gebruikersrichtlijnen voordat u de AI Assistant kunt gebruiken. Voor meer informatie over deze overeenkomst en gebruiksrichtlijnen, zie de [&#x200B; Generatieve AI Richtlijnen van de Gebruiker van Adobe Experience Cloud &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
 
 U opent de AI-assistent door op het pictogram in de koptekst te klikken. AI Assistant wordt in een deelvenster aan de rechterkant geopend.
 
-![ klik het pictogram om tot de Medewerker toegang te hebben AI ](./assets/ai-assistant-icon-displayed.png){width="420"}
+![&#x200B; klik het pictogram om tot de Medewerker toegang te hebben AI &#x200B;](./assets/ai-assistant-icon-displayed.png){width="420"}
 
 De interface AI Assistant wordt weergegeven en bevat direct informatie die u nodig hebt om aan de slag te gaan. U kunt de opties gebruiken die onder _Ideeën worden verstrekt om_ begonnen te worden om vragen en bevelen, zoals te beantwoorden:
 
@@ -42,11 +42,11 @@ Vragen over productkennis gaan over Journey Optimizer B2B edition-concepten en &
 
 Als u een productvraag wilt stellen, voert u deze in in het veld onder aan het venster en drukt u op Enter. Bijvoorbeeld, wanneer u moet leren hoe te om een het kopen groep in een reis te gebruiken. In dit geval, gaat u _in hoe ik een het kopen groep in een reis gebruik?_ Nadat u de vraag hebt verzonden, vraagt AI Assistant naar de bijbehorende kennisbasis en wordt een antwoord in een paar seconden gecompileerd.
 
-![ ga een vraag in het tekstvakje ](./assets/ai-assistant-ask-question.png){width="420"} in
+![&#x200B; ga een vraag in het tekstvakje &#x200B;](./assets/ai-assistant-ask-question.png){width="420"} in
 
 +++Een voorbeeldantwoord weergeven
 
-![ ga een vraag in het tekstvakje ](./assets/ai-assistant-product-answer.png){width="420"} in
+![&#x200B; ga een vraag in het tekstvakje &#x200B;](./assets/ai-assistant-product-answer.png){width="420"} in
 
 +++
 
@@ -62,19 +62,19 @@ AI Assistant moet zich in een actieve sandbox bevinden om een voldoende antwoord
 
 >[!NOTE]
 >
->De enige voorwerpen van Adobe Journey Optimizer B2B edition die door de AI Medewerker operationele vragen van inzichten worden gesteund zijn vermeld in de [ operationele lijst van het inzichten ](./ai-assistant-overview.md#operational-insights). Deze kan alleen toegang krijgen tot gegevens voor de sandbox waarin u zich momenteel bevindt.
+>De enige voorwerpen van Adobe Journey Optimizer B2B edition die door de AI Medewerker operationele vragen van inzichten worden gesteund zijn vermeld in de [&#x200B; operationele lijst van het inzichten &#x200B;](./ai-assistant-overview.md#operational-insights). Deze kan alleen toegang krijgen tot gegevens voor de sandbox waarin u zich momenteel bevindt.
 
 Als u een vraag over operationele inzichten wilt stellen, voert u deze in in het veld onder aan het deelvenster en drukt u op Enter. Wanneer u bijvoorbeeld wilt weten wat het publiek is voor uw sandbox. In dit geval, gaat u _in hoeveel publiek er zijn?_.  AI Assistant geeft een telling van de doelgroepen in uw sandbox en een uitleg van hoe het antwoord is berekend. In het volgende voorbeeldantwoord, verstrekt AI Assistant een verbinding om tot de soorten publiek in UI toegang te hebben en schetst de stappen het nam om het aantal soorten publiek te identificeren.
 
-![ AI Hulp reactie voor hoeveel publiek ](./assets/ai-assistant-insights-answer.png){width="420"}
+![&#x200B; AI Hulp reactie voor hoeveel publiek &#x200B;](./assets/ai-assistant-insights-answer.png){width="420"}
 
-U kunt uw eerste onderzoek volgen door om een lijst van artefacten te vragen, zoals _maak een lijst van top 5 door grootte_. De Medewerker van AI keert een lijst met de hoogste vijf punten in de vraag en hun overeenkomstige IDs terug. Klik het _pictogram van de Download_ ( ![ pictogram van de Download ](../assets/do-not-localize/icon-download.svg)) om de lijst als Csv- dossier te downloaden.
+U kunt uw eerste onderzoek volgen door om een lijst van artefacten te vragen, zoals _maak een lijst van top 5 door grootte_. De Medewerker van AI keert een lijst met de hoogste vijf punten in de vraag en hun overeenkomstige IDs terug. Klik het _pictogram van de Download_ ( ![&#x200B; pictogram van de Download &#x200B;](../assets/do-not-localize/icon-download.svg)) om de lijst als Csv- dossier te downloaden.
 
-![ AI Hulp reactie voor een lijst van levende reizen ](./assets/ai-assistant-artifacts-query.png){width="420"}
+![&#x200B; AI Hulp reactie voor een lijst van levende reizen &#x200B;](./assets/ai-assistant-artifacts-query.png){width="420"}
 
-Om de volledige lijst in AI Medewerker te bekijken, klik _maximaliseren_ ( ![ maximaliseer pictogram ](../assets/do-not-localize/icon-maximize.svg)) pictogram. Klik in de uitgebreide tabelweergave op **[!UICONTROL Download CSV]** om de informatie op te slaan als een CSV-bestand.
+Om de volledige lijst in AI Medewerker te bekijken, klik _maximaliseren_ ( ![&#x200B; maximaliseer pictogram &#x200B;](../assets/do-not-localize/icon-maximize.svg)) pictogram. Klik in de uitgebreide tabelweergave op **[!UICONTROL Download CSV]** om de informatie op te slaan als een CSV-bestand.
 
-![ AI Hulp reactie voor een lijst van levende reizen ](./assets/ai-assistant-artifacts-maximize.png){width="600" zoomable="yes"}
+![&#x200B; AI Hulp reactie voor een lijst van levende reizen &#x200B;](./assets/ai-assistant-artifacts-maximize.png){width="600" zoomable="yes"}
 
 ## Reacties verifiëren
 
@@ -86,7 +86,7 @@ Nadat u een antwoord voor een productvraag hebt ontvangen, selecteert u **[!UICO
 
 AI Assistant biedt koppelingen naar de documentatie die de eerste reactie bevestigt. Er worden ook voetnoten toegevoegd aan het antwoord om de specifieke delen van het antwoord aan te geven die verwijzen naar de gekoppelde documentatiebronnen.
 
-![ Resultaten van de AI Hulp vraag ](./assets/ai-assistant-product-answer-sources.png){width="420"}
+![&#x200B; Resultaten van de AI Hulp vraag &#x200B;](./assets/ai-assistant-product-answer-sources.png){width="420"}
 
 ### Operationele informatiebronnen
 
@@ -94,15 +94,15 @@ Nadat u een antwoord hebt ontvangen voor een vraag over operationele inzichten, 
 
 U kunt elke reactie met betrekking tot operationele vragen van inzichten verifiëren gebruikend een SQL vraag die AI Medewerker verstrekt. Wanneer gevraagd met een operationele inzichten vraag, verstrekt AI Assistant een SQL vraag die u kunt gebruiken om het proces te verifiëren dat het nam om het antwoord te berekenen. Deze bronvraag is slechts voor verificatiedoeleinden en wordt niet gesteund op de Dienst van de Vraag.
 
-![ Resultaten van de AI Hulp vraag ](./assets/ai-assistant-artifacts-query-source.png){width="550" zoomable="yes"}
+![&#x200B; Resultaten van de AI Hulp vraag &#x200B;](./assets/ai-assistant-artifacts-query-source.png){width="550" zoomable="yes"}
 
 ## Feedback geven
 
-Gebruik de _Duim omhoog_ ( ![ duim omhoog ](../assets/do-not-localize/icon-thumb-up.svg)) of _duim neer_ ( ![ duim neer ](../assets/do-not-localize/icon-thumb-down.svg)) pictogrammen om het nut en de kwaliteit van de reactie te schatten. Vul het korte enquêteformulier in op basis van uw ervaring en klik op **[!UICONTROL Submit]** . De informatie die u verstrekt wordt gebruikt om verbeteringen in AI Medewerker aan te brengen.
+Gebruik de _Duim omhoog_ ( ![&#x200B; duim omhoog &#x200B;](../assets/do-not-localize/icon-thumb-up.svg)) of _duim neer_ ( ![&#x200B; duim neer &#x200B;](../assets/do-not-localize/icon-thumb-down.svg)) pictogrammen om het nut en de kwaliteit van de reactie te schatten. Vul het korte enquêteformulier in op basis van uw ervaring en klik op **[!UICONTROL Submit]** . De informatie die u verstrekt wordt gebruikt om verbeteringen in AI Medewerker aan te brengen.
 
-Als u iets in de reactie opmerkt die problematisch is, klik het _pictogram van de Vlag_ ( ![ het pictogram van de Vlag ](../assets/do-not-localize/icon-flag.svg)). Gebruik het formulier om het probleem te beschrijven en klik op **[!UICONTROL Submit]** om het probleem te melden.
+Als u iets in de reactie opmerkt die problematisch is, klik het _pictogram van de Vlag_ ( ![&#x200B; het pictogram van de Vlag &#x200B;](../assets/do-not-localize/icon-flag.svg)). Gebruik het formulier om het probleem te beschrijven en klik op **[!UICONTROL Submit]** om het probleem te melden.
 
-![ AI Hulp reactie - terugkoppel pictogrammen ](./assets/ai-assistant-response-feedback-icons.png){width="420"}
+![&#x200B; AI Hulp reactie - terugkoppel pictogrammen &#x200B;](./assets/ai-assistant-response-feedback-icons.png){width="420"}
 
 +++Formulieren weergeven
 
@@ -110,15 +110,15 @@ Als u iets in de reactie opmerkt die problematisch is, klik het _pictogram van d
 
 >[!TAB  Duim omhoog ]
 
-![ AI Hulp reactie - duim omhoog positieve terugkoppelt vorm ](./assets/ai-assistant-response-feedback-positive-form.png){width="600" zoomable="yes"}
+![&#x200B; AI Hulp reactie - duim omhoog positieve terugkoppelt vorm &#x200B;](./assets/ai-assistant-response-feedback-positive-form.png){width="600" zoomable="yes"}
 
 >[!TAB  duim neer ]
 
-![ AI Hulp reactie - de Duim ontwon negatieve terugkoppelt vorm ](./assets/ai-assistant-response-feedback-negative-form.png){width="600" zoomable="yes"}
+![&#x200B; AI Hulp reactie - de Duim ontwon negatieve terugkoppelt vorm &#x200B;](./assets/ai-assistant-response-feedback-negative-form.png){width="600" zoomable="yes"}
 
 >[!TAB  Vlag ]
 
-![ AI Hulp reactie - het probleem van de vlag koppelt vorm ](./assets/ai-assistant-response-feedback-flagged-form.png){width="600" zoomable="yes"} terug
+![&#x200B; AI Hulp reactie - het probleem van de vlag koppelt vorm &#x200B;](./assets/ai-assistant-response-feedback-flagged-form.png){width="600" zoomable="yes"} terug
 
 >[!ENDTABS]
 

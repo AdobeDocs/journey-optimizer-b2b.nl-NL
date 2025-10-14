@@ -19,11 +19,11 @@ Met Adobe Journey Optimizer B2B Edition kunt u account- en inkoopgroepentrajecte
 -->
 Als u toegang wilt tot [!DNL Adobe Journey Optimizer B2B Edition] , maakt u verbinding met Adobe Experience Cloud met uw Adobe ID en selecteert u [!DNL Journey Optimizer B2B Edition] .
 
-![ Adobe Experience Platform apps ](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}
+![&#x200B; Adobe Experience Platform apps &#x200B;](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}
 
 Wanneer u zich aanmeldt bij de Adobe Experience Platform en de Adobe Journey Optimizer B2B edition-app selecteert, wordt de startpagina weergegeven. Deze pagina biedt een overzicht van de huidige status van uw Journey Optimizer B2B-initiatieven in de vorm van <!-- refined insights and--> snelle toegangskoppelingen naar de relevante bronnen. <!-- It also provides information about the ideal next action to take and where to find the comprehensive set of tutorials and documentation. -->
 
-![ Journey Optimizer B2B edition homepage ](./assets/home-page.png){width="800" zoomable="yes"}
+![&#x200B; Journey Optimizer B2B edition homepage &#x200B;](./assets/home-page.png){width="800" zoomable="yes"}
 
 Journey Optimizer B2B edition heeft twee primaire gebruikerspersoonlijkheden: a _&#x200B;**telleraar**&#x200B;_ en een _&#x200B;**beheerder**&#x200B;_. Elke persoon heeft een specifieke homepage voor verschillende (nieuwe of geavanceerde) looptijdstadia. De pagina-inhoud is gebaseerd op wat elk individu nodig heeft op het gebied van informatie en de volgende acties die moeten worden ondernomen.
 
@@ -34,7 +34,7 @@ Journey Optimizer B2B edition heeft twee primaire gebruikerspersoonlijkheden: a 
 
 De sectie _[!UICONTROL Recently accessed]_&#x200B;bevat een lijst met de laatst geopende elementen voor de Marketer of Beheerder. Gebruik deze lijst om rechtstreeks naar het element te gaan waaraan u onlangs hebt gewerkt, zonder door een reeks elementpagina&#39;s te navigeren en te zoeken.
 
-De pagina omvat ook toegang tot [ AI Medewerker ](./ai-assistant/ai-assistant-overview.md), die gebruikers helpt om snelle informatie over om het even welke specifieke vragen of onderwerpen te krijgen die zij nodig hebben.<!-- and to obtain specific recommendations for their challenges or objectives-->
+De pagina omvat ook toegang tot [&#x200B; AI Medewerker &#x200B;](./ai-assistant/ai-assistant-overview.md), die gebruikers helpt om snelle informatie over om het even welke specifieke vragen of onderwerpen te krijgen die zij nodig hebben.<!-- and to obtain specific recommendations for their challenges or objectives-->
 
 <!-- 
 

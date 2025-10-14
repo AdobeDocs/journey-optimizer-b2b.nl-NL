@@ -20,11 +20,11 @@ ht-degree: 0%
 
 1. Voer uw CSS-code in de editor in.
 
-   Zorg ervoor dat de aangepaste CSS geldig is en de juiste syntaxis volgt. Als de ingevoerde CSS ongeldig is, wordt een foutbericht weergegeven en kan de CSS niet worden opgeslagen. Meer leren, zie [ CSS geldigheid ](../user/content/design-custom-css.md#css-validity).
+   Zorg ervoor dat de aangepaste CSS geldig is en de juiste syntaxis volgt. Als de ingevoerde CSS ongeldig is, wordt een foutbericht weergegeven en kan de CSS niet worden opgeslagen. Meer leren, zie [&#x200B; CSS geldigheid &#x200B;](../user/content/design-custom-css.md#css-validity).
 
 1. Klik op **[!UICONTROL Save]** om de aangepaste CSS op te slaan.
 
-   Het aangepaste stijlblad wordt toegepast op de bestaande inhoud. U kunt controleren of uw aangepaste CSS is toegepast naar wens. Voor informatie over hoe te om veranderingen aan te brengen en de toepassing van het stijlblad aan te passen, zie [ het Oplossen van problemen ](../user/content/design-custom-css.md#troubleshooting).
+   Het aangepaste stijlblad wordt toegepast op de bestaande inhoud. U kunt controleren of uw aangepaste CSS is toegepast naar wens. Voor informatie over hoe te om veranderingen aan te brengen en de toepassing van het stijlblad aan te passen, zie [&#x200B; het Oplossen van problemen &#x200B;](../user/content/design-custom-css.md#troubleshooting).
 
 >[!NOTE]
 >

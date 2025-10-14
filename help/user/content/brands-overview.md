@@ -49,7 +49,7 @@ Uw organisatie kan aanzienlijke voordelen realiseren door een merk te gebruiken 
 >
 >Dit vermogen is momenteel beschikbaar als privé bèta, met progressieve beschikbaarheid die voor alle klanten in toekomstige versies wordt gepland.
 >
->De a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} wordt vereist alvorens u AI-aangedreven eigenschappen in Adobe Journey Optimizer B2B edition kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>De a [&#x200B; gebruikersovereenkomst &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} wordt vereist alvorens u AI-aangedreven eigenschappen in Adobe Journey Optimizer B2B edition kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
 Een bepaald merk verstrekt de _bron van waarheid_ voor uw creatief team om te gebruiken wanneer zij om het even welke visuele of geschreven inhoud creëren. Wanneer deze richtlijnen worden samengesteld en de merkmiddelen worden gedeeld, kan elk teamlid of medewerker on-brand inhoud voor uw product tot stand brengen. Voer de volgende taken uit om het maken van online-inhoud in Journey Optimizer B2B edition mogelijk te maken:
 
@@ -61,11 +61,11 @@ Een bepaald merk verstrekt de _bron van waarheid_ voor uw creatief team om te ge
 
 1. U kunt deze gegevens samenstellen in een of meer PDF-bestanden.
 
-1. Gebruik het dossier van PDF [ om het merk ](./brands-manage-create.md#create-and-define-a-brand) in Journey Optimizer B2B edition tot stand te brengen.
+1. Gebruik het dossier van PDF [&#x200B; om het merk &#x200B;](./brands-manage-create.md#create-and-define-a-brand) in Journey Optimizer B2B edition tot stand te brengen.
 
-1. Wanneer het klaar voor gebruik is, [ publiceer het merk ](./brands-manage-create.md#publish-the-brand).
+1. Wanneer het klaar voor gebruik is, [&#x200B; publiceer het merk &#x200B;](./brands-manage-create.md#publish-the-brand).
 
-1. Gebruik het merk voor [ e-mailinhoudgroepering ](./brand-alignment.md).
+1. Gebruik het merk voor [&#x200B; e-mailinhoudgroepering &#x200B;](./brand-alignment.md).
 <!-- 
 1. Use the brand to generate content. -->
 
@@ -75,7 +75,7 @@ Een bepaald merk verstrekt de _bron van waarheid_ voor uw creatief team om te ge
 
 De beheerders van het product kunnen toegang tot het merkbeheer en merkgroepering eigenschappen toelaten door de **[!UICONTROL Manage brand kit]** of **[!UICONTROL Enable AI assistant]** middeltoestemmingen door _toestemmingen_ UI in Adobe Experience Cloud toe te wijzen.
 
-1. In de toepassing van Toestemmingen, ga naar het **[!UICONTROL Roles]** lusje en selecteer de gewenste [ rol ](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/abac/permissions-ui/roles){target="_blank"}.
+1. In de toepassing van Toestemmingen, ga naar het **[!UICONTROL Roles]** lusje en selecteer de gewenste [&#x200B; rol &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/abac/permissions-ui/roles){target="_blank"}.
 
 1. Klik op **[!UICONTROL Edit]** om de machtigingen te wijzigen.
 
@@ -85,7 +85,7 @@ De beheerders van het product kunnen toegang tot het merkbeheer en merkgroeperin
    >
    >De machtiging **[!UICONTROL Enable Ai assistant]** biedt alleen-lezen toegang tot de **[!UICONTROL Brands]** -bibliotheek.
 
-   ![ voeg AI Assitant toestemming voor brandkentoegang ](./assets/brands-aep-permissions.png){width="700" zoomable="yes"} toe
+   ![&#x200B; voeg AI Assitant toestemming voor brandkentoegang &#x200B;](./assets/brands-aep-permissions.png){width="700" zoomable="yes"} toe
 
 1. Klik op **[!UICONTROL Save]** om de wijzigingen toe te passen.
 
@@ -95,7 +95,7 @@ De beheerders van het product kunnen toegang tot het merkbeheer en merkgroeperin
 
    * Voer de gebruikersnaam en het e-mailadres in of kies een bestaande gebruiker in de lijst.
 
-     Als de gebruiker nog niet wordt gecreeerd, verwijs naar de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}.
+     Als de gebruiker nog niet wordt gecreeerd, verwijs naar de [&#x200B; documentatie van Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}.
 
    * Klik op **[!UICONTROL Save]** om de wijzigingen toe te passen.
 

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Met Adobe Journey Optimizer B2B edition kunt u SMS-berichten (text messages) naar uw klanten verzenden op hun mobiele apparaten. U kunt berichten in tekstformaat van de redacteur van SMS tot stand brengen, personaliseren en voorproef.
 
-Alvorens de berichten van SMS voor rekeningsreizen te creëren, zorg ervoor dat de [ dienstverlener van SMS ](../admin/configure-channels-sms.md) van de _[!UICONTROL Administrator]_&#x200B;montages wordt gevormd.
+Alvorens de berichten van SMS voor rekeningsreizen te creëren, zorg ervoor dat de [&#x200B; dienstverlener van SMS &#x200B;](../admin/configure-channels-sms.md) van de _[!UICONTROL Administrator]_&#x200B;montages wordt gevormd.
 
 ## Een SMS-actie toevoegen aan een accountreis
 
@@ -25,13 +25,13 @@ U kunt tekstberichtenleveringen instellen tijdens een accountreis wanneer u een 
 
 1. Kies _[!UICONTROL Action on people]_&#x200B;bij **[!UICONTROL Send SMS]**.
 
-   ![ neem een actie - verzend sms ](assets/journey-node-send-sms.png){width="800" zoomable="yes"}
+   ![&#x200B; neem een actie - verzend sms &#x200B;](assets/journey-node-send-sms.png){width="800" zoomable="yes"}
 
 1. Klik onder aan het deelvenster _[!UICONTROL Take an action]_&#x200B;op **[!UICONTROL Create SMS]**.
 
 1. Voer in het dialoogvenster een unieke **[!UICONTROL Name]** voor het SMS-bericht in.
 
-   ![ creeer nieuwe dialoog van SMS ](assets/create-new-sms.png){width="400"}
+   ![&#x200B; creeer nieuwe dialoog van SMS &#x200B;](assets/create-new-sms.png){width="400"}
 
 1. Klik op **[!UICONTROL Create]**.
 
@@ -49,11 +49,11 @@ Voer in het veld **[!UICONTROL Message]** de tekst in die u wilt verzenden.
 
 U kunt een bericht van maximaal 1600 karakters tot stand brengen, met elke 160 karakters die als één enkel SMS-bericht worden beschouwd.
 
-![ klik het Persoonlijke pictogram om tokens aan het bericht toe te voegen ](./assets/sms-message-compose.png){width="800" zoomable="yes"}
+![&#x200B; klik het Persoonlijke pictogram om tokens aan het bericht toe te voegen &#x200B;](./assets/sms-message-compose.png){width="800" zoomable="yes"}
 
 #### Het tekstbericht aanpassen
 
-1. Op om het even welk ogenblik terwijl het ontwerpen van het tekstbericht, klik _personaliseren_ pictogram ( ![ aanpassen pictogram ](../assets/do-not-localize/icon-personalize.svg)) rechts van het tekstberichtvakje.
+1. Op om het even welk ogenblik terwijl het ontwerpen van het tekstbericht, klik _personaliseren_ pictogram ( ![&#x200B; aanpassen pictogram &#x200B;](../assets/do-not-localize/icon-personalize.svg)) rechts van het tekstberichtvakje.
 
    De weergegeven pagina biedt toegang tot uw Adobe Marketo Engage Lead- en System-tokens. Zowel standaard als aangepaste tokens zijn inbegrepen. U kunt de _bar van het Onderzoek_ gebruiken om van het teken de plaats te bepalen u nodig hebt, of door de omslagboom te navigeren om het even welke lood/systeemtekenen te vinden en te selecteren.
 
@@ -63,11 +63,11 @@ U kunt een bericht van maximaal 1600 karakters tot stand brengen, met elke 160 k
 
    Als u het teken met een reserve (gebrek wilt toevoegen dat in het geval verschijnt dat het gebied niet beschikbaar voor een lood) is, klik het _Meer_ pictogram ( **..**) en kies **[!UICONTROL Insert with fallback text]**.
 
-   ![ klik de ellipsen om een reserve voor het teken ](./assets/sms-message-personalize-ellipsis-fallback.png){width="700" zoomable="yes"} te gebruiken
+   ![&#x200B; klik de ellipsen om een reserve voor het teken &#x200B;](./assets/sms-message-personalize-ellipsis-fallback.png){width="700" zoomable="yes"} te gebruiken
 
 1. Voer in het dialoogvenster _[!UICONTROL Enter fallback value]_&#x200B;de tekst in die als fallback wordt weergegeven en klik op **[!UICONTROL Add]**.
 
-   ![ ga de reservetekst voor het teken ](./assets/sms-message-personalize-fallback-text.png){width="400"} in
+   ![&#x200B; ga de reservetekst voor het teken &#x200B;](./assets/sms-message-personalize-fallback-text.png){width="400"} in
 
 1. Wanneer uw personalisatietokens worden geplaatst, klik **[!UICONTROL Save]** om veranderingen te bewaren en aan de belangrijkste het auteurswerkruimte van SMS terug te keren.
 
@@ -75,7 +75,7 @@ U kunt een bericht van maximaal 1600 karakters tot stand brengen, met elke 160 k
 
 #### Koppelingen (URL&#39;s) toevoegen aan het tekstbericht
 
-1. Na het ingaan van uw berichttekst, klik het _pictogram van de Verbinding_ ( ![ pictogram van de Verbinding ](../assets/do-not-localize/icon-link.svg)) rechts van het tekstberichtvakje.
+1. Na het ingaan van uw berichttekst, klik het _pictogram van de Verbinding_ ( ![&#x200B; pictogram van de Verbinding &#x200B;](../assets/do-not-localize/icon-link.svg)) rechts van het tekstberichtvakje.
 
 1. Kies in het dialoogvenster het type URL&#39;s dat u wilt koppelen:
 
@@ -92,9 +92,9 @@ U kunt een bericht van maximaal 1600 karakters tot stand brengen, met elke 160 k
      >[!NOTE]
      >
      >Wanneer u tekstspatiëring toestaat maar _[!UICONTROL Include mkt_tok]_&#x200B;uitschakelt, bevat de doel-URL na omleiding niet de parameter voor de `mkt_tok` querytekenreeks. Deze parameter wordt gebruikt door Marketo Engage landingspagina&#39;s en Munchkin om ervoor te zorgen dat het volgen van persoonactiviteiten (zoals wanneer een persoon van een e-mail afmeldt). Schakel deze optie alleen uit als de parameter problemen veroorzaakt op uw website.<br/>
-     >Voor meer informatie over het gebruiken van het volgen van Munchkin codes op uw website, verwijs naar de [ documentatie van Marketo Engage ](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
+     >Voor meer informatie over het gebruiken van het volgen van Munchkin codes op uw website, verwijs naar de [&#x200B; documentatie van Marketo Engage &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
 
-   ![ voeg verbindingsdialoog voor SMS bericht toe ](./assets/sms-add-link-dialog.png){width="470"}
+   ![&#x200B; voeg verbindingsdialoog voor SMS bericht toe &#x200B;](./assets/sms-add-link-dialog.png){width="470"}
 
 1. Wanneer de koppelingsopties zijn voltooid, klikt u op **[!UICONTROL Add]** om de wijzigingen op te slaan en de URL-koppeling toe te voegen aan het SMS-bericht.
 
@@ -115,7 +115,7 @@ U kunt een bericht van maximaal 1600 karakters tot stand brengen, met elke 160 k
 
 1. Voer de **[!UICONTROL Sender number]** &#x200B; in die u voor uw communicatie wilt gebruiken.
 
-   ![ neem een actie - verzend sms ](./assets/sms-properties.png){width="700" zoomable="yes"}
+   ![&#x200B; neem een actie - verzend sms &#x200B;](./assets/sms-properties.png){width="700" zoomable="yes"}
 
    Het nummer van de ontvanger wordt altijd toegewezen aan het veld `Lead.mobilePhone` in Marketo Engage.
 

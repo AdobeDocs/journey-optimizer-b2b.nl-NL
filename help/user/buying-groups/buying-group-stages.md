@@ -15,11 +15,11 @@ ht-degree: 0%
 
 De het kopen groepsstadia worden ontworpen om de vooruitgang van het kopen van groepen in het omzetten van kansen in klanten te volgen. Gebruik deze functie om de voortgang van de inkoopgroep te volgen en de volgende beste acties voor het kopen van groepsleden te identificeren.
 
-Definieer de fasen in één staging-model, waarbij u meerdere fasen definieert en de overgangsstroom tussen de fasen definieert. Een of meer fasen zijn bedoeld om in de levenscyclus te worden binnengebracht. Het model maakt ook niet-lineaire progressie mogelijk, waarbij u overgangen van de ene naar de andere fase kunt opgeven, zoals van fase A naar fase B, C of D. Er moet één fase worden aangewezen als de succesfase, zoals een aankoop of een ondertekend contract. Het is facultatief dat een andere fase als een mislukkingsfase wordt aangewezen, zoals een afgewezen contract of de aankoop van een concurrerende oplossing van een andere verkoper. Bewaak deze stadia door [ intelligente dashboards ](../dashboards/intelligent-dashboard.md) die tonen hoe het kopen groepen in termen van de voltooiing van een verkoopkans of het omzetten van een kans in een klant vordert.
+Definieer de fasen in één staging-model, waarbij u meerdere fasen definieert en de overgangsstroom tussen de fasen definieert. Een of meer fasen zijn bedoeld om in de levenscyclus te worden binnengebracht. Het model maakt ook niet-lineaire progressie mogelijk, waarbij u overgangen van de ene naar de andere fase kunt opgeven, zoals van fase A naar fase B, C of D. Er moet één fase worden aangewezen als de succesfase, zoals een aankoop of een ondertekend contract. Het is facultatief dat een andere fase als een mislukkingsfase wordt aangewezen, zoals een afgewezen contract of de aankoop van een concurrerende oplossing van een andere verkoper. Bewaak deze stadia door [&#x200B; intelligente dashboards &#x200B;](../dashboards/intelligent-dashboard.md) die tonen hoe het kopen groepen in termen van de voltooiing van een verkoopkans of het omzetten van een kans in een klant vordert.
 
-![ het Kopen van de groepsstadia voorbeeld ](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
+![&#x200B; het Kopen van de groepsstadia voorbeeld &#x200B;](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
 
-![ Video ](../../assets/do-not-localize/icon-video.svg){width="30"} [ bekijk het videooverzicht ](#overview-video)
+![&#x200B; Video &#x200B;](../../assets/do-not-localize/icon-video.svg){width="30"} [&#x200B; bekijk het videooverzicht &#x200B;](#overview-video)
 
 ## Uw model voor inkoopgroepfasen definiëren
 
@@ -39,7 +39,7 @@ Wanneer u het het kopen model van het groepsstadium creeert, is het automatisch 
 
 1. Selecteer de tab **[!UICONTROL Stages]** op de pagina Groepen kopen.
 
-   ![ het lusje van Staven ](assets/stages-tab-none.png){width="800" zoomable="yes"}
+   ![&#x200B; het lusje van Staven &#x200B;](assets/stages-tab-none.png){width="800" zoomable="yes"}
 
    Dit _[!UICONTROL Stages]_&#x200B;lusje is in een_ lege _staat tot u het model creeert.
 
@@ -47,7 +47,7 @@ Wanneer u het het kopen model van het groepsstadium creeert, is het automatisch 
 
 1. Voer in het dialoogvenster de opties **[!UICONTROL Name]** (vereist) en **[!UICONTROL Description]** (optioneel) voor het model in.
 
-   ![ voeg de naam en de beschrijving voor het model ](assets/stages-create-model-dialog.png){width="700" zoomable="yes"} toe
+   ![&#x200B; voeg de naam en de beschrijving voor het model &#x200B;](assets/stages-create-model-dialog.png){width="700" zoomable="yes"} toe
 
    Als u _[!UICONTROL Cancel]_&#x200B;in deze dialoog klikt, keert u aan het&#x200B;_[!UICONTROL Stages]_ lusje in een _lege_ staat terug.
 
@@ -59,11 +59,11 @@ Nadat u het model hebt gemaakt, wordt het geopend in de werkruimte en wordt u ge
 
 1. Klik op **[!UICONTROL Edit stages]**.
 
-   ![ voeg stadia aan het lege model ](assets/stages-model-empty.png){width="700" zoomable="yes"} toe
+   ![&#x200B; voeg stadia aan het lege model &#x200B;](assets/stages-model-empty.png){width="700" zoomable="yes"} toe
 
 1. Definieer het eerste werkgebied door de waarden **[!UICONTROL Name]** (vereist) en **[!UICONTROL Description]** (optioneel) in te voeren.
 
-   ![ voeg de naam en de beschrijving voor het eerste stadium toe ](assets/stages-model-stage-1.png){width="700" zoomable="yes"}
+   ![&#x200B; voeg de naam en de beschrijving voor het eerste stadium toe &#x200B;](assets/stages-model-stage-1.png){width="700" zoomable="yes"}
 
    De fasen hoeven niet in een specifieke volgorde te worden toegevoegd, maar het bepaalt wel hoe de fasen worden weergegeven op de pagina met modeldetails. Wanneer u de overgangsregels definieert, geeft u de invoerfase en de stroom tussen de fasen aan.
 
@@ -71,7 +71,7 @@ Nadat u het model hebt gemaakt, wordt het geopend in de werkruimte en wordt u ge
 
    Herhaal deze stap totdat u de benodigde stappen voor het model hebt uitgevoerd.
 
-   ![ Gedefinieerde Stages voor het model ](assets/stages-model-stages-added.png){width="700" zoomable="yes"}
+   ![&#x200B; Gedefinieerde Stages voor het model &#x200B;](assets/stages-model-stages-added.png){width="700" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save]** als u tevreden bent met de stappen die u hebt gedefinieerd.
 
@@ -83,7 +83,7 @@ Nadat u het model hebt gemaakt, wordt het geopend in de werkruimte en wordt u ge
 
 Nadat u de fasen hebt opgeslagen, gaat u terug naar de modelwerkruimte. De kolom _[!UICONTROL Allowed transit to]_&#x200B;is leeg, wat aangeeft dat de overgangsregels voor de modelfasen nog niet zijn gedefinieerd.
 
-![ de regels van de Overgang zijn nog niet bepaald ](assets/stages-model-stages-empty-rules.png){width="700" zoomable="yes"}
+![&#x200B; de regels van de Overgang zijn nog niet bepaald &#x200B;](assets/stages-model-stages-empty-rules.png){width="700" zoomable="yes"}
 
 De overgangsregels bepalen hoe een inkoopgroep van de ene fase naar de andere kan gaan. Het kan bijvoorbeeld van een entry-stage naar een middle-stage gaan, en van een middenfase naar verschillende andere fasen. Een invoerfase is een eerste fase die een inkoopgroep vanuit een leeg land kan betreden, en de bestemmingsfasen worden geclassificeerd als een succes- of een mislukkingsfase.
 
@@ -101,13 +101,13 @@ De overgangsregels bepalen hoe een inkoopgroep van de ene fase naar de andere ka
 
    * **[!UICONTROL Failure stage]** (optioneel) - Wijs een of meer fasen aan die aangeven dat de kans op een inkoopgroep een punt van mislukking heeft bereikt (bestemming).
 
-   ![ vorm de stadia van het ingangspunt en een facultatieve mislukkingsstadium ](./assets/stages-model-edit-stage-rules.png){width="700" zoomable="yes"}
+   ![&#x200B; vorm de stadia van het ingangspunt en een facultatieve mislukkingsstadium &#x200B;](./assets/stages-model-edit-stage-rules.png){width="700" zoomable="yes"}
 
 1. Definieer voor elk niet-doelstadium een of meer stadia die volgende in de flow (overgang) komen.
 
    Voor alle niet-doelfasen moet ten minste één **[!UICONTROL Allowed transit to]** werkgebied zijn geselecteerd. Anders, is de modellogica niet geldig en de rekeningen kunnen _geplakt_ in dat stadium zonder manier aan succes of mislukking worden.
 
-   ![ vorm overdrachten tussen niet-bestemmingsstadia ](./assets/stages-model-edit-stage-rules-transitons.png){width="700" zoomable="yes"}
+   ![&#x200B; vorm overdrachten tussen niet-bestemmingsstadia &#x200B;](./assets/stages-model-edit-stage-rules-transitons.png){width="700" zoomable="yes"}
 
    U kunt desgewenst een overgang opgeven vanuit een mislukkingsfase. Bijvoorbeeld, zou u een stadium kunnen aanwijzen genoemd _Geen reactie_ als mislukkingsstadium. Maar wijs ook een stadium genoemd _Heropleving_ als mogelijke overgang aan om gevallen te identificeren waar een slapende rekening wordt opnieuw geactiveerd.
 
@@ -122,7 +122,7 @@ De overgangsregels bepalen hoe een inkoopgroep van de ene fase naar de andere ka
 | **[!UICONTROL Entry point stage]** | Geeft aan of het werkgebied geldig is als een werkgebied met een ingangspunt ([!UICONTROL Yes] of [!UICONTROL No]). |
 | **[!UICONTROL Destination]** | Geeft aan of het werkgebied is aangewezen als een doelwerkgebied ([!UICONTROL Success] of [!UICONTROL Failure]). |
 
-![ Stages en transmissieregels die voor een ontwerp model ](assets/stages-model-draft-details.png){width="700" zoomable="yes"} worden bepaald
+![&#x200B; Stages en transmissieregels die voor een ontwerp model &#x200B;](assets/stages-model-draft-details.png){width="700" zoomable="yes"} worden bepaald
 
 ## Een conceptmodel bewerken
 
@@ -156,7 +156,7 @@ _Om het ontwerp model te bekijken :_
 
 1. In _geef de dialoog van de het werkgebiedregels_ uit, verander de stroomopties zoals nodig.
 
-   Zie [ het werkschema en de overgangsregels ](#configure-the-workflow-and-transition-rules) voor meer informatie over deze opties vormen en hoe zij de modelstroom beïnvloeden.
+   Zie [&#x200B; het werkschema en de overgangsregels &#x200B;](#configure-the-workflow-and-transition-rules) voor meer informatie over deze opties vormen en hoe zij de modelstroom beïnvloeden.
 
 1. Klik op **[!UICONTROL Save]** als u tevreden bent met de gedefinieerde overgangsregels.
 
@@ -180,7 +180,7 @@ Als er geen validatiefouten zijn, kan het model worden gepubliceerd. Wanneer het
 
    Als u terugkeert naar de pagina met modeldetails, wordt het model aangeduid als _[!UICONTROL Live]_. Klik de_ Achterste _pijl bij de hoogste linkerzijde om aan de&#x200B;_[!UICONTROL Stages]_ lusjepagina terug te keren.
 
-![ het gepubliceerde model ](assets/stages-tab-model-live.png){width="700" zoomable="yes"}
+![&#x200B; het gepubliceerde model &#x200B;](assets/stages-tab-model-live.png){width="700" zoomable="yes"}
 <!-- list these later when the Published columns are working correctly
 
 Columns - Name, Status, Created by, Created date, Last updated by, Last update, Published by, Published on.
@@ -198,7 +198,7 @@ U kunt het model voor de inkoopgroepfasen verwijderen wanneer dit zich in een co
 
 1. Klik het _Meer_ menupictogram (**...**) naast de naam van het fasemodel en kies **[!UICONTROL Delete]**.
 
-   ![ het Kopen van groepsstadia model Meer menu ](./assets/stages-model-list-more-menu.png){width="700"}
+   ![&#x200B; het Kopen van groepsstadia model Meer menu &#x200B;](./assets/stages-model-list-more-menu.png){width="700"}
 
 1. Klik in het dialoogvenster op **[!UICONTROL Delete]** om te bevestigen.
 
@@ -208,7 +208,7 @@ Wanneer het het kopen fasemodel in a _Levende_ (gepubliceerde) status is, voeg h
 
 ### Vereniging van het belang van de oplossing
 
-Voor elke bestaande oplossingsbelang waar u het de prijsverhogende model van groepsstadia wilt associëren, open de details van de oplossingsrente en voeg het model toe. U kunt het model aan de eigenschappen ook toevoegen wanneer u [ een oplossingsrente ](./solution-interests.md#create-a-solution-interest) creeert.
+Voor elke bestaande oplossingsbelang waar u het de prijsverhogende model van groepsstadia wilt associëren, open de details van de oplossingsrente en voeg het model toe. U kunt het model aan de eigenschappen ook toevoegen wanneer u [&#x200B; een oplossingsrente &#x200B;](./solution-interests.md#create-a-solution-interest) creeert.
 
 1. Selecteer het tabblad _[!UICONTROL Solution interest]_. 
 
@@ -217,11 +217,11 @@ Voor elke bestaande oplossingsbelang waar u het de prijsverhogende model van gro
    * Klik de naam van de oplossingsrente.
    * Klik op de ellips (**..**) naast de ellips en kies **[!UICONTROL Edit]** .
 
-   ![ de rente van de Oplossing meer menu ](assets/solution-interests-more-menu.png){width="500" zoomable="no"}
+   ![&#x200B; de rente van de Oplossing meer menu &#x200B;](assets/solution-interests-more-menu.png){width="500" zoomable="no"}
 
 1. Selecteer de **[!UICONTROL Buying group stage model]** om de progressie van het koopgedrag-groepswerkgebied te gebruiken (optioneel).
 
-   ![ selecteer het kopen model van groepsstadia voor de oplossingsrente ](assets/solution-interest-edit-buying-group-stages-model.png){width="700" zoomable="yes"}
+   ![&#x200B; selecteer het kopen model van groepsstadia voor de oplossingsrente &#x200B;](assets/solution-interest-edit-buying-group-stages-model.png){width="700" zoomable="yes"}
 
 1. Wijzig indien nodig de instelling voor **[!UICONTROL Update existing buying groups]** .
 
@@ -231,7 +231,7 @@ Voor elke bestaande oplossingsbelang waar u het de prijsverhogende model van gro
 
 ### Paden splitsen
 
-Gebruikend a [ gespleten wegknoop ](../journeys/journey-nodes.md#split-paths), kunt u op het rekeningsniveau of het personenniveau filtreren volgens het kopen van groepsstadia. Voeg bijvoorbeeld een inkoopgroepsstadium als padvoorwaarde toe bij het splitsen van paden door groepslid te kopen.
+Gebruikend a [&#x200B; gespleten wegknoop &#x200B;](../journeys/journey-nodes.md#split-paths), kunt u op het rekeningsniveau of het personenniveau filtreren volgens het kopen van groepsstadia. Voeg bijvoorbeeld een inkoopgroepsstadium als padvoorwaarde toe bij het splitsen van paden door groepslid te kopen.
 
 >[!BEGINTABS]
 
@@ -241,13 +241,13 @@ Gebruikend a [ gespleten wegknoop ](../journeys/journey-nodes.md#split-paths), k
 
 1. Klik op de plusknop ( **+** ) op een pad en kies **[!UICONTROL Split paths]** .
 
-   ![ voeg reisknoop toe - gespleten wegen ](../journeys/assets/add-node-split.png){width="300"}
+   ![&#x200B; voeg reisknoop toe - gespleten wegen &#x200B;](../journeys/assets/add-node-split.png){width="300"}
 
 1. In de knoopeigenschappen op het recht, kies **[!UICONTROL Accounts]** voor de spleet.
 
 1. Als u een voorwaarde wilt definiëren die van toepassing is op _[!UICONTROL Path 1]_, klikt u op **[!UICONTROL Apply condition]**.
 
-   ![ Gesplitste wegknoop - voeg voorwaarde ](../journeys/assets/node-split-properties-apply-condition.png){width="500"} toe
+   ![&#x200B; Gesplitste wegknoop - voeg voorwaarde &#x200B;](../journeys/assets/node-split-properties-apply-condition.png){width="500"} toe
 
 1. Voeg in de Conditions-editor het filter voor de inkoopgroep toe om het gesplitste pad te definiëren.
 
@@ -257,13 +257,13 @@ Gebruikend a [ gespleten wegknoop ](../journeys/journey-nodes.md#split-paths), k
 
    * Klik op **[!UICONTROL Add constraint]** en kies **[!UICONTROL Buying group stage]** .
 
-     ![ Gesplitste wegknoop - logica van het voorwaardenfilter ](./assets/stages-split-condition-buying-group-stage.png){width="700" zoomable="yes"}
+     ![&#x200B; Gesplitste wegknoop - logica van het voorwaardenfilter &#x200B;](./assets/stages-split-condition-buying-group-stage.png){width="700" zoomable="yes"}
 
    * Klik op **[!UICONTROL Done]**.
 
    Het gesplitste pad wordt gedefinieerd in de knoopeigenschappen aan de rechterkant.
 
-   ![ Reis gespleten knoopeigenschappen ](./assets/stages-split-node-account-properties.png){width="600" zoomable="yes"}
+   ![&#x200B; Reis gespleten knoopeigenschappen &#x200B;](./assets/stages-split-node-account-properties.png){width="600" zoomable="yes"}
 
 1. Blijf andere wegen voor de gespleten knoop bepalen en sparen de reis.
 
@@ -273,7 +273,7 @@ Gebruikend a [ gespleten wegknoop ](../journeys/journey-nodes.md#split-paths), k
 
 1. Klik op de plusknop ( **+** ) op een pad en kies **[!UICONTROL Split paths]** .
 
-   ![ voeg reisknoop toe - gespleten wegen ](../journeys/assets/add-node-split.png){width="300"}
+   ![&#x200B; voeg reisknoop toe - gespleten wegen &#x200B;](../journeys/assets/add-node-split.png){width="300"}
 
 1. In de knoopeigenschappen op het recht, kies **[!UICONTROL People]** voor de spleet.
 
@@ -281,7 +281,7 @@ Gebruikend a [ gespleten wegknoop ](../journeys/journey-nodes.md#split-paths), k
 
 1. Als u een voorwaarde wilt definiëren die van toepassing is op _[!UICONTROL Path 1]_, klikt u op **[!UICONTROL Apply condition]**.
 
-   ![ Gesplitste wegknoop - voeg voorwaarde ](../journeys/assets/node-split-properties-apply-condition.png){width="500"} toe
+   ![&#x200B; Gesplitste wegknoop - voeg voorwaarde &#x200B;](../journeys/assets/node-split-properties-apply-condition.png){width="500"} toe
 
 1. Voeg in de Conditions-editor het filter voor de inkoopgroep toe om het gesplitste pad te definiëren.
 
@@ -291,13 +291,13 @@ Gebruikend a [ gespleten wegknoop ](../journeys/journey-nodes.md#split-paths), k
 
    * Klik op **[!UICONTROL Add constraint]** en kies **[!UICONTROL Buying group stage]** .
 
-     ![ Gesplitste wegknoop - logica van het voorwaardenfilter ](./assets/stages-split-condition-member-of-buying-group.png){width="700" zoomable="yes"}
+     ![&#x200B; Gesplitste wegknoop - logica van het voorwaardenfilter &#x200B;](./assets/stages-split-condition-member-of-buying-group.png){width="700" zoomable="yes"}
 
    * Klik op **[!UICONTROL Done]**.
 
    Het gesplitste pad wordt gedefinieerd in de knoopeigenschappen aan de rechterkant.
 
-   ![ knoop van de Reis - luister aan gebeurtenissen op rekening ](./assets/stages-split-node-people-properties.png){width="600" zoomable="yes"}
+   ![&#x200B; knoop van de Reis - luister aan gebeurtenissen op rekening &#x200B;](./assets/stages-split-node-people-properties.png){width="600" zoomable="yes"}
 
 1. Blijf andere wegen voor de gespleten knoop bepalen en sparen de reis.
 
@@ -305,7 +305,7 @@ Gebruikend a [ gespleten wegknoop ](../journeys/journey-nodes.md#split-paths), k
 
 ### Actie voor groepsgewijze account voor kopen bijwerken
 
-Gebruikend een [ knoop van de rekeningsactie ](../journeys/journey-nodes.md#add-an-account-action), kunt u het het kopen groepsstadium bijwerken. Wanneer u dit knooppunt definieert, selecteert u de interesse van de oplossing en definieert u het nieuwe stadium voor de inkoopgroep.
+Gebruikend een [&#x200B; knoop van de rekeningsactie &#x200B;](../journeys/journey-nodes.md#add-an-account-action), kunt u het het kopen groepsstadium bijwerken. Wanneer u dit knooppunt definieert, selecteert u de interesse van de oplossing en definieert u het nieuwe stadium voor de inkoopgroep.
 
 >[!NOTE]
 >
@@ -315,7 +315,7 @@ Gebruikend een [ knoop van de rekeningsactie ](../journeys/journey-nodes.md#add-
 
 1. Klik op de plusknop ( **+** ) op een pad en kies **[!UICONTROL Take an action]** .
 
-   ![ voeg reisknoop toe - neem een actie ](../journeys/assets/add-node-action.png){width="400"}
+   ![&#x200B; voeg reisknoop toe - neem een actie &#x200B;](../journeys/assets/add-node-action.png){width="400"}
 
 1. In de knoopeigenschappen op het recht, kies **[!UICONTROL Accounts]** voor de actie.
 
@@ -329,7 +329,7 @@ Gebruikend een [ knoop van de rekeningsactie ](../journeys/journey-nodes.md#add-
 
    De actie wordt bepaald in de knoopeigenschappen op het recht.
 
-   ![ knoop van de Reis - neem een actie op een rekening ](./assets/stages-take-action-node-update-buying-group-stage.png){width="600" zoomable="yes"}
+   ![&#x200B; knoop van de Reis - neem een actie op een rekening &#x200B;](./assets/stages-take-action-node-update-buying-group-stage.png){width="600" zoomable="yes"}
 
 1. Blijf andere wijzigingen aanbrengen en sla de reis op.
 
@@ -341,7 +341,7 @@ Gebruik het optreden van een wijziging in de inkoopgroep om de account naar de v
 
 1. Klik op de plusknop ( **+** ) op een pad en kies **[!UICONTROL Listen for an event]** .
 
-   ![ voeg reisknoop toe - let op een gebeurtenis ](../journeys/assets/add-node-event.png){width="400"}
+   ![&#x200B; voeg reisknoop toe - let op een gebeurtenis &#x200B;](../journeys/assets/add-node-event.png){width="400"}
 
 1. In de knoopeigenschappen op het recht, kies **[!UICONTROL Accounts]** voor het gebeurtenistype.
 
@@ -353,13 +353,13 @@ Gebruik het optreden van een wijziging in de inkoopgroep om de account naar de v
 
    * Klik op **[!UICONTROL Add constraint]** en selecteer de wijziging in het inkoopgroepwerkgebied die u wilt gebruiken om de gebeurtenis te activeren.
 
-     ![ knoop van de Reis - luister aan gebeurtenissen op rekening ](./assets/stages-event-node-edit-buying-group-stage-change.png){width="700" zoomable="yes"}
+     ![&#x200B; knoop van de Reis - luister aan gebeurtenissen op rekening &#x200B;](./assets/stages-event-node-edit-buying-group-stage-change.png){width="700" zoomable="yes"}
 
    * Klik op **[!UICONTROL Done]**.
 
    De gebeurtenis wordt bepaald in de knoopeigenschappen op het recht.
 
-   ![ knoop van de Reis - luister aan gebeurtenissen op rekening ](./assets/stages-event-node-stage-change-properties.png){width="700" zoomable="yes"}
+   ![&#x200B; knoop van de Reis - luister aan gebeurtenissen op rekening &#x200B;](./assets/stages-event-node-stage-change-properties.png){width="700" zoomable="yes"}
 
 1. Blijf andere wijzigingen aanbrengen en sla de reis op.
 

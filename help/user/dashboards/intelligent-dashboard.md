@@ -17,7 +17,7 @@ Het intelligente dashboard biedt een uitgebreid overzicht van het kopen van maat
 
 Om tot het _Intelligente dashboard_ toegang te hebben, selecteer het **[!UICONTROL Dashboard]** punt in de linkernavigatie.
 
-![ toegang tot het Intelligente dashboard ](./assets/intelligent-dashboard.png){width="800" zoomable="yes"}
+![&#x200B; toegang tot het Intelligente dashboard &#x200B;](./assets/intelligent-dashboard.png){width="800" zoomable="yes"}
 
 Het intelligente dashboard biedt ook toegang tot detailpagina&#39;s van accounts en inkoopgroepen die twee typen generatieve AI-functies bevatten:
 
@@ -30,14 +30,14 @@ Om gebruik te kunnen maken van de informatie en inzichten die door het Intellige
 
 | Type | Vereiste |
 | ---- | ----------- |
-| [ het Kopen groepsstadia ](#buying-group-stages) | Opstelling die groepsstadia kopen **en** toevoegen aan gecreeerde het kopen groepen. |
-| [ het Kopen groepshoogtepunten ](#buying-group-highlights) | Opstelling die groepsstadia kopen **en** toevoegen aan gecreeerde het kopen groepen. |
-| [ de schommeling van de Rekening ](#surging-accounts) | Één of meerdere gepubliceerde reizen **of** creeerde het kopen groepen. |
-| [ de hoogtepunten van de Rekening ](#account-highlights) | Één of meerdere gepubliceerde reizen **of** creeerde het kopen groepen. |
-| [ dekking van het Contact ](#contact-coverage) | Een of meer gemaakte inkoopgroepen (fasen niet nodig). |
-| [ overlap van het contact ](#contact-overlap) | Een of meer gemaakte inkoopgroepen (fasen niet nodig). |
-| [ pagina van de Details van de Rekening ](../accounts/account-details.md) | Een of meer gepubliceerde ritten. |
-| [ het Kopen pagina van het groepsdetail ](../buying-groups/buying-group-details.md) | Een of meer gemaakte inkoopgroepen (fasen niet nodig). |
+| [&#x200B; het Kopen groepsstadia &#x200B;](#buying-group-stages) | Opstelling die groepsstadia kopen **en** toevoegen aan gecreeerde het kopen groepen. |
+| [&#x200B; het Kopen groepshoogtepunten &#x200B;](#buying-group-highlights) | Opstelling die groepsstadia kopen **en** toevoegen aan gecreeerde het kopen groepen. |
+| [&#x200B; de schommeling van de Rekening &#x200B;](#surging-accounts) | Één of meerdere gepubliceerde reizen **of** creeerde het kopen groepen. |
+| [&#x200B; de hoogtepunten van de Rekening &#x200B;](#account-highlights) | Één of meerdere gepubliceerde reizen **of** creeerde het kopen groepen. |
+| [&#x200B; dekking van het Contact &#x200B;](#contact-coverage) | Een of meer gemaakte inkoopgroepen (fasen niet nodig). |
+| [&#x200B; overlap van het contact &#x200B;](#contact-overlap) | Een of meer gemaakte inkoopgroepen (fasen niet nodig). |
+| [&#x200B; pagina van de Details van de Rekening &#x200B;](../accounts/account-details.md) | Een of meer gepubliceerde ritten. |
+| [&#x200B; het Kopen pagina van het groepsdetail &#x200B;](../buying-groups/buying-group-details.md) | Een of meer gemaakte inkoopgroepen (fasen niet nodig). |
 
 ## Groepsfasen voor kopen {#buying-group-stages}
 
@@ -46,23 +46,23 @@ Om gebruik te kunnen maken van de informatie en inzichten die door het Intellige
 >title="Groepsfasen voor kopen"
 >abstract="Dit diagram biedt een overzicht van het aanschaffen van groepsprogressie in verschillende stadia op basis van de geconfigureerde overgangsregels. De eerste balk geeft het aantal inkoopgroepen in een specifiek stadium op de eerste datum van het geselecteerde tijdkader aan ten opzichte van de laatste datum van het geselecteerde tijdkader."
 
-Het _[!UICONTROL Buying Group Stages]_&#x200B;diagram verstrekt een overzicht van het kopen van groepsvooruitgang over verschillende stadia ([ die op overgangsregels worden gebaseerd die door een beheerder ](../buying-groups/buying-group-stages.md) worden opstelling).
+Het _[!UICONTROL Buying Group Stages]_&#x200B;diagram verstrekt een overzicht van het kopen van groepsvooruitgang over verschillende stadia ([&#x200B; die op overgangsregels worden gebaseerd die door een beheerder &#x200B;](../buying-groups/buying-group-stages.md) worden opstelling).
 
 >[!NOTE]
 >
->Voor de beschikbaarheid van de aankoopgroepsfasen moet de aankoopgroepsfase worden geconfigureerd. Zie [ het Kopen groepsstadia ](../buying-groups/buying-group-stages.md) voor gedetailleerde informatie over stadia en hoe te om stadia voor het kopen van groepen te bepalen en toe te laten.
+>Voor de beschikbaarheid van de aankoopgroepsfasen moet de aankoopgroepsfase worden geconfigureerd. Zie [&#x200B; het Kopen groepsstadia &#x200B;](../buying-groups/buying-group-stages.md) voor gedetailleerde informatie over stadia en hoe te om stadia voor het kopen van groepen te bepalen en toe te laten.
 
-![ het Kopen de visualisatie van groepsfasegegevens ](./assets/intelligent-dashboards-buying-group-stages.png){width="800" zoomable="yes"}
+![&#x200B; het Kopen de visualisatie van groepsfasegegevens &#x200B;](./assets/intelligent-dashboards-buying-group-stages.png){width="800" zoomable="yes"}
 
 In de grafiek worden de fasen van de inkoopgroep uit de meest recente gepubliceerde versie van het model van de inkoopgroepfasen gebruikt. Er zijn twee balken voor elk werkgebied. De eerste balk geeft het aantal inkoopgroepen aan op de eerste datum van het geselecteerde tijdkader. En de tweede (in vergelijking) is het aantal koopgroepen op de laatste datum van de tijdsperiode. U kunt de muisaanwijzer boven elke balk houden om het aantal inkoopgroepen in elk stadium te zien.
 
-![ Beweeg over de bar om gedetailleerde aantallen ](./assets/intelligent-dashboard-buying-group-stages-hover-bar.png){width="400"} te bekijken
+![&#x200B; Beweeg over de bar om gedetailleerde aantallen &#x200B;](./assets/intelligent-dashboard-buying-group-stages-hover-bar.png){width="400"} te bekijken
 
 ### Samenvatting van algemene AI
 
 Klik op een balk om een generatieve AI-samenvatting weer te geven van de inkoopgroepen in dat stadium voor de geselecteerde tijdsperiode.
 
-![ klik de bar om een generatieve AI samenvatting ](./assets/intelligent-dashboard-buying-group-stages-click-bar.png){width="500"} te bekijken
+![&#x200B; klik de bar om een generatieve AI samenvatting &#x200B;](./assets/intelligent-dashboard-buying-group-stages-click-bar.png){width="500"} te bekijken
 
 De gegenereerde samenvatting biedt een overzicht van de voortgang van de inkoopgroep in verschillende stadia op basis van de geconfigureerde overgangsregels.
 
@@ -74,7 +74,7 @@ Gebruik het datumfilter rechtsboven om het datumbereik voor de gegevensvisualisa
 
 ### Kenmerk, filter {#attribute-filter-stages}
 
-Klik het _pictogram van de Filter_ ( ![ geef pictogram ](../assets/do-not-localize/icon-filter.svg) uit) bij de bovenkant verlaten om de gegevensvertoning te filtreren gebruikend om het even welk van deze attributen:
+Klik het _pictogram van de Filter_ ( ![&#x200B; geef pictogram &#x200B;](../assets/do-not-localize/icon-filter.svg) uit) bij de bovenkant verlaten om de gegevensvertoning te filtreren gebruikend om het even welk van deze attributen:
 
 * Belang van oplossing
 * Account
@@ -101,7 +101,7 @@ Klik het _pictogram van de Filter_ ( ![ geef pictogram ](../assets/do-not-locali
 
 De sectie _[!UICONTROL Buying group highlights]_&#x200B;is in drie rijen ingedeeld om informatie over de inkoopgroepen weer te geven die van belang zijn voor uw organisatie.
 
-![ het Kopen groepshoogtepunten ](./assets/intelligent-dashboard-buying-group-highlights.png){width="800" zoomable="yes"}
+![&#x200B; het Kopen groepshoogtepunten &#x200B;](./assets/intelligent-dashboard-buying-group-highlights.png){width="800" zoomable="yes"}
 
 * **Hoogste 5 die groepen door overeenkomst** kopen - Deze rij toont de hoogste betrokken koopgroepen die op hun genormaliseerde betrokkenheidsscore worden gebaseerd.
 * **Hoogste 5 Hoge snelheid die groepen** kopen - Deze rij toont de hoogste die groepen kopen die op de snelheid worden gebaseerd waarmee zij door de het kopen groepsstadia vorderen.
@@ -116,7 +116,7 @@ Elke kaart bevat de volgende gegevens:
 * **_score van de Voltooiing_** (die zich van 1-100 uitstrekken). Als alle inkoopgroepen dezelfde hoogste score hebben, wordt de laatst bijgewerkte score weergegeven.
 * **_intent van de Categorie_**. Klik op _[!UICONTROL View details]_&#x200B;om de intentgegevens weer te geven:
 
-  ![ het Kopen gegevens van de groepsintentie ](./assets/intelligent-dashboard-buying-group-intent-details.png){width="500" zoomable="yes"}
+  ![&#x200B; het Kopen gegevens van de groepsintentie &#x200B;](./assets/intelligent-dashboard-buying-group-intent-details.png){width="500" zoomable="yes"}
 
    * De detailpopup toont de categorienaam met intentniveau bij de bovenkant.
    * De gegevens voor elke rij worden in kolommen geordend: de productnaam, de sterkte van de productintentie en de bovenste trefwoorden op sterkte van de intentie.
@@ -128,7 +128,7 @@ Bij het hoogste recht van de _Kopen groep hoogtepunten_ paneel, klik **[!UICONTR
 
 ### Kenmerk, filter {#attribute-filter-bg-highlights}
 
-Klik het _pictogram van de Filter_ ( ![ geef pictogram ](../assets/do-not-localize/icon-filter.svg) uit) bij de bovenkant verlaten om de gegevensvertoning te filtreren gebruikend om het even welk van deze attributen:
+Klik het _pictogram van de Filter_ ( ![&#x200B; geef pictogram &#x200B;](../assets/do-not-localize/icon-filter.svg) uit) bij de bovenkant verlaten om de gegevensvertoning te filtreren gebruikend om het even welk van deze attributen:
 
 * Oplossingsrente
 * Groep voor kopen
@@ -155,19 +155,19 @@ In de sectie _[!UICONTROL Surging accounts]_&#x200B;wordt een visualisatie van d
 >
 >De gegevens over de accounttoename omvatten alleen accounts die Journey Optimizer B2B edition binnenkrijgt via reizen of groepen die objecten kopen.
 
-![ de visualisatie van de de drukgegevens van de Rekening ](./assets/intelligent-dashboard-account-surge.png){width="800" zoomable="yes"}
+![&#x200B; de visualisatie van de de drukgegevens van de Rekening &#x200B;](./assets/intelligent-dashboard-account-surge.png){width="800" zoomable="yes"}
 
 Houd de cursor boven elke balk om het aantal accounts in elke categorie weer te geven.
 
-![ Beweeg over de bar om de gedetailleerde aantallen ](./assets/intelligent-dashboard-account-surge-hover-bar.png){width="400"} te bekijken
+![&#x200B; Beweeg over de bar om de gedetailleerde aantallen &#x200B;](./assets/intelligent-dashboard-account-surge-hover-bar.png){width="400"} te bekijken
 
 Klik op een balk om een generatieve AI-samenvatting weer te geven van de accounts in de categorie voor het geselecteerde tijdkader.
 
-![ klik de bar om een generatieve AI samenvatting ](./assets/intelligent-dashboard-account-surge-click-bar.png){width="500"} te bekijken
+![&#x200B; klik de bar om een generatieve AI samenvatting &#x200B;](./assets/intelligent-dashboard-account-surge-click-bar.png){width="500"} te bekijken
 
 ### Kenmerk, filter {#attribute-filter-acct-surge}
 
-Klik het _pictogram van de Filter_ ( ![ geef pictogram ](../assets/do-not-localize/icon-filter.svg) uit) bij de bovenkant verlaten om de gegevensvertoning te filtreren gebruikend om het even welk van deze attributen:
+Klik het _pictogram van de Filter_ ( ![&#x200B; geef pictogram &#x200B;](../assets/do-not-localize/icon-filter.svg) uit) bij de bovenkant verlaten om de gegevensvertoning te filtreren gebruikend om het even welk van deze attributen:
 
 * Oplossingsrente
 * Marktsegment
@@ -199,7 +199,7 @@ De sectie _[!UICONTROL Account highlights]_&#x200B;is in twee rijen geordend om 
 >
 >De gegevens van accounts bevatten alleen accounts die Journey Optimizer B2B edition binnenkrijgt via reizen of groepen die objecten kopen.
 
-![ de hoogtepunten van de Rekening ](./assets/intelligent-dashboard-account-highlights.png){width="800" zoomable="yes"}
+![&#x200B; de hoogtepunten van de Rekening &#x200B;](./assets/intelligent-dashboard-account-highlights.png){width="800" zoomable="yes"}
 
 * **het Oplopen rekeningen** - Deze rij toont de rekeningen met een significante verhoging in betrokkenheidsdynamum over het geselecteerde tijdkader.
 * **Op risico rekeningen** - Deze rij toont de rekeningen met een significante daling in betrokkenheidsdynamum over het geselecteerde tijdkader.
@@ -210,7 +210,7 @@ Elke kaart bevat de volgende gegevens:
 * **_Generatieve AI samenvatting_** van de rekening.
 * **_Intentie van het Sleutelwoord_**. Klik op _[!UICONTROL View details]_&#x200B;om de intentgegevens weer te geven:
 
-  ![ gegevens van de intentie van de Rekening ](./assets/intelligent-dashboard-account-intent-details.png){width="500" zoomable="yes"}
+  ![&#x200B; gegevens van de intentie van de Rekening &#x200B;](./assets/intelligent-dashboard-account-intent-details.png){width="500" zoomable="yes"}
 
    * De detailpopup toont de categorienaam met intentniveau bij de bovenkant.
    * De gegevens voor elke rij worden in kolommen geordend: de productnaam, de sterkte van de productintentie en de bovenste trefwoorden op sterkte van de intentie.
@@ -222,7 +222,7 @@ At the top right of the _Buying group highlights_ panel, click **[!UICONTROL Vie
 
 ### Kenmerk, filter {#attribute-filter-acct-highlights}
 
-Klik het _pictogram van de Filter_ ( ![ pictogram van de Filter ](../assets/do-not-localize/icon-filter.svg) ) bij de bovenkant verlaten om de gegevensvertoning te filtreren gebruikend om het even welk van deze attributen:
+Klik het _pictogram van de Filter_ ( ![&#x200B; pictogram van de Filter &#x200B;](../assets/do-not-localize/icon-filter.svg) ) bij de bovenkant verlaten om de gegevensvertoning te filtreren gebruikend om het even welk van deze attributen:
 
 * Oplossingsrente
 * Groep voor kopen
@@ -248,19 +248,19 @@ De _[!UICONTROL Contact coverage]_&#x200B;sectie toont een visualisatie van het 
 >
 >De dekkingsgegevens van de contactpersoon zijn gebaseerd op de inkoopgroepen die zijn gemaakt in het Journey Optimizer B2B edition-exemplaar.
 
-![ de visualisatie van de de drukgegevens van de Rekening ](./assets/intelligent-dashboard-contact-coverage.png){width="800" zoomable="yes"}
+![&#x200B; de visualisatie van de de drukgegevens van de Rekening &#x200B;](./assets/intelligent-dashboard-contact-coverage.png){width="800" zoomable="yes"}
 
 Beweeg over elke cel om het aantal contacten in de rol/oplossingsrente te bekijken.
 
-![ Beweeg over de bar om de gedetailleerde aantallen ](./assets/intelligent-dashboard-contact-coverage-hover-cell.png){width="400"} te bekijken
+![&#x200B; Beweeg over de bar om de gedetailleerde aantallen &#x200B;](./assets/intelligent-dashboard-contact-coverage-hover-cell.png){width="400"} te bekijken
 
 Klik een cel om gedetailleerde informatie voor de contacten in de rol/oplossingsbelang te bekijken.
 
-![ klik de cel om contactdetails ](./assets/intelligent-dashboard-contact-coverage-click-cell.png){width="700" zoomable="yes"} te bekijken
+![&#x200B; klik de cel om contactdetails &#x200B;](./assets/intelligent-dashboard-contact-coverage-click-cell.png){width="700" zoomable="yes"} te bekijken
 
 ### Kenmerk, filter {#attribute-filter-contact-coverage}
 
-Klik het _pictogram van de Filter_ ( ![ pictogram van de Filter ](../assets/do-not-localize/icon-filter.svg) ) bij de bovenkant verlaten om de gegevensvertoning te filtreren gebruikend om het even welk van deze attributen:
+Klik het _pictogram van de Filter_ ( ![&#x200B; pictogram van de Filter &#x200B;](../assets/do-not-localize/icon-filter.svg) ) bij de bovenkant verlaten om de gegevensvertoning te filtreren gebruikend om het even welk van deze attributen:
 
 * Oplossingsrente
 * Accounts
@@ -280,9 +280,9 @@ De sectie _[!UICONTROL Contact overlap]_&#x200B;toont een lijst van contacten di
 >
 >De overlappende gegevens van de contactpersoon zijn gebaseerd op de inkoopgroepen die zijn gemaakt in het Journey Optimizer B2B edition-exemplaar.
 
-![ het contact overlapt lijst ](./assets/intelligent-dashboard-contact-overlap.png){width="800" zoomable="yes"}
+![&#x200B; het contact overlapt lijst &#x200B;](./assets/intelligent-dashboard-contact-overlap.png){width="800" zoomable="yes"}
 
-Klik de _Informatie_ ( ![ pictogram van de Informatie ](../assets/do-not-localize/icon-info.svg)) om een lijst met de volgende details te tonen:
+Klik de _Informatie_ ( ![&#x200B; pictogram van de Informatie &#x200B;](../assets/do-not-localize/icon-info.svg)) om een lijst met de volgende details te tonen:
 
 * Naam van groep kopen (klik op de naam om de pagina met gegevens over de koopgroep te openen)
 * Functie
@@ -290,11 +290,11 @@ Klik de _Informatie_ ( ![ pictogram van de Informatie ](../assets/do-not-localiz
 * Productintentie
 * Product
 
-![ de overlappende details van het contact ](./assets/intelligent-dashboard-contact-overlap-detail-info.png){width="600" zoomable="yes"}
+![&#x200B; de overlappende details van het contact &#x200B;](./assets/intelligent-dashboard-contact-overlap-detail-info.png){width="600" zoomable="yes"}
 
 ### Kenmerk, filter {#attribute-filter-contact-overage}
 
-Klik het _pictogram van de Filter_ ( ![ pictogram van de Filter ](../assets/do-not-localize/icon-filter.svg) ) bij de bovenkant verlaten om de gegevensvertoning te filtreren gebruikend om het even welk van deze attributen:
+Klik het _pictogram van de Filter_ ( ![&#x200B; pictogram van de Filter &#x200B;](../assets/do-not-localize/icon-filter.svg) ) bij de bovenkant verlaten om de gegevensvertoning te filtreren gebruikend om het even welk van deze attributen:
 
 * Oplossingsrente
 * Rollen

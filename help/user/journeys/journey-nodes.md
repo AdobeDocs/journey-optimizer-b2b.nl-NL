@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Rekeningknooppunten
 
-Nadat u [ een rekeningsreis ](journey-overview.md#create-an-account-journey) creeert en [ het publiek ](journey-overview.md#add-the-account-audience-for-your-journey) toevoegt, bouwt de reis uit gebruikend knopen. De reiskaart biedt een canvas waar u meerdere stappen B2B-marketinggebruiksscenario&#39;s kunt maken.
+Nadat u [&#x200B; een rekeningsreis &#x200B;](journey-overview.md#create-an-account-journey) creeert en [&#x200B; het publiek &#x200B;](journey-overview.md#add-the-account-audience-for-your-journey) toevoegt, bouwt de reis uit gebruikend knopen. De reiskaart biedt een canvas waar u meerdere stappen B2B-marketinggebruiksscenario&#39;s kunt maken.
 
 Bouw de reis van uw rekening door de verschillende actie, gebeurtenis, en orchestration knopen als multi-step, dwars-kanaalscenario te combineren. Elke knoop van een reis vertegenwoordigt een stap langs een logische weg. Gebruik de volgende knooppunttypes om een rekeningsreis te construeren:
 

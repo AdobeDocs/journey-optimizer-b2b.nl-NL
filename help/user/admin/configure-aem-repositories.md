@@ -15,13 +15,13 @@ ht-degree: 0%
 
 [!DNL Adobe Journey Optimizer B2B Edition] kan worden geïntegreerd met [!DNL Adobe Experience Manager Assets as a Cloud Service] , zodat elementen in uw e-mailinhoud kunnen worden gebruikt. Dit zorgt voor transparantie door informatie uit te wisselen met [!DNL Experience Manager Assets] . Configureer de verbinding met [!DNL Adobe Experience Assets] om deze mogelijkheid in te schakelen.
 
-Adobe Experience Manager Cloud Manager wordt georganiseerd in programma&#39;s, en elk programma heeft veelvoudige milieu&#39;s en bewaarplaatsen ([ Leer meer ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}). Wanneer u Adobe Experience Manager Assets configureert in Adobe Journey Optimizer B2B edition, stelt u verbindingen in met elke repository die u wilt gebruiken voor toegang tot digitale middelen.
+Adobe Experience Manager Cloud Manager wordt georganiseerd in programma&#39;s, en elk programma heeft veelvoudige milieu&#39;s en bewaarplaatsen ([&#x200B; Leer meer &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}). Wanneer u Adobe Experience Manager Assets configureert in Adobe Journey Optimizer B2B edition, stelt u verbindingen in met elke repository die u wilt gebruiken voor toegang tot digitale middelen.
 
 {{aem-assets-licensing-note}}
 
 ## Vereisten
 
-* Produceer de dienstgeloofsbrieven voor het gewenste milieu op Developer Console zonder hoofd van AEM ([ Leer meer ](https://experienceleague.adobe.com/nl/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}).
+* Produceer de dienstgeloofsbrieven voor het gewenste milieu op Developer Console zonder hoofd van AEM ([&#x200B; Leer meer &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}).
 * Verwerk de certificaten die nodig zijn voor de verbinding. Als beste praktijk, zorg ervoor dat de certificaten minstens zes maanden vóór afloop van de geldigheidsduur resteren. De certificaten verlopen elke 365 dagen.
 * Adobe Journey Optimizer B2B edition ondersteunt de toegang tot één digitale bron voor middelenbeheer tegelijk. Zorg ervoor dat de vereiste middelen beschikbaar zijn in Adobe Experience Manager voordat u overschakelt.
 
@@ -35,7 +35,7 @@ Adobe Experience Manager Cloud Manager wordt georganiseerd in programma&#39;s, e
 
 1. Klik op **[!UICONTROL Assets]** in het middelste deelvenster.
 
-   ![ heb toegang tot de de configuratieruimte van Assets ](./assets/configuration-assets-aem.png){width="700" zoomable="yes"}
+   ![&#x200B; heb toegang tot de de configuratieruimte van Assets &#x200B;](./assets/configuration-assets-aem.png){width="700" zoomable="yes"}
 
 <!--   The default digital asset management option is configured as `Adobe Marketo Engage`.
 -->
@@ -43,13 +43,13 @@ Vanaf hier kunt u de verbindingen met elke AEM-omgeving één voor één configu
 
 1. Klik in het vak _[!UICONTROL Adobe Experience Manager Assets]_&#x200B;op de pijl naast **[!UICONTROL Configure a repository]**&#x200B;en kies de gegevensopslagruimte.
 
-   ![ kies een bewaarplaats van AEM Assets ](./assets/configure-assets-aem-choose-respository.png){width="500"}
+   ![&#x200B; kies een bewaarplaats van AEM Assets &#x200B;](./assets/configure-assets-aem-choose-respository.png){width="500"}
 
 1. Klik op **[!UICONTROL Add a certificate]** en gebruik de dialooggereedschappen om het bestand te uploaden.
 
    U kunt een .json-bestand uploaden door het naar het dialoogvenster te slepen. U kunt ook op de koppeling klikken om een bestand op uw systeem te zoeken en te selecteren.
 
-   ![ uploadt het certificaat JSON- dossier ](./assets/configuration-assets-aem-upload-cert.png){width="500"}
+   ![&#x200B; uploadt het certificaat JSON- dossier &#x200B;](./assets/configuration-assets-aem-upload-cert.png){width="500"}
 
    Na het uploaden wordt het certificaat onderaan weergegeven.
 
@@ -63,7 +63,7 @@ Vanaf hier kunt u de verbindingen met elke AEM-omgeving één voor één configu
 
    De geconfigureerde opslagplaats wordt weergegeven in de tabel onder het selectievenster. U kunt een andere opslagplaats toevoegen door stap 3-4 te herhalen.
 
-   ![ herzie de gevormde activa van AEM bewaarplaatsen ](./assets/configuration-assets-aem-repositories.png){width="600" zoomable="yes"}
+   ![&#x200B; herzie de gevormde activa van AEM bewaarplaatsen &#x200B;](./assets/configuration-assets-aem-repositories.png){width="600" zoomable="yes"}
 
 Wanneer u klaar bent met het configureren van de opslagruimten, kunnen teamleden de [!DNL Adobe Experience Manager Assets] selecteren bij het ontwerpen van inhoud.
 
@@ -85,13 +85,13 @@ Certificaten verlopen elke 365 dagen na de aanmaakdatum. Vervang het certificaat
 
 1. Klik op het pictogram met de ovalen (**...** ) voor het certificaatbestand om de opties voor handelingen op het bestand weer te geven.
 
-   ![ heb toegang tot het optiemenu voor het certificaat van de activabewaarplaats van AEM ](./assets/configuration-assets-aem-repo-menu.png){width="600" zoomable="yes"}
+   ![&#x200B; heb toegang tot het optiemenu voor het certificaat van de activabewaarplaats van AEM &#x200B;](./assets/configuration-assets-aem-repo-menu.png){width="600" zoomable="yes"}
 
 1. Kies **[!UICONTROL Replace]** om het dialoogvenster voor het uploaden van bestanden te openen.
 
 1. Upload een bestand door het naar het dialoogvenster te slepen of door de koppeling te gebruiken. Zorg ervoor dat het bestand van het JSON-type is.
 
-   ![ uploadt het vervangingscertificaat JSON van de de middelenbewaarplaats van AEM activa ](./assets/configuration-assets-aem-upload-replacement-cert.png){width="500"}
+   ![&#x200B; uploadt het vervangingscertificaat JSON van de de middelenbewaarplaats van AEM activa &#x200B;](./assets/configuration-assets-aem-upload-replacement-cert.png){width="500"}
 
 1. Klik op **[!UICONTROL Replace]** om het uploaden te bevestigen.
 
@@ -107,7 +107,7 @@ U kunt het JSON-certificaatbestand weergeven dat is gekoppeld aan de gegevensops
 
 1. Kies **[!UICONTROL View]** .
 
-   ![ Mening het certificaat JSON dossier voor een verbonden de activabewaarplaats van AEM ](./assets/configuration-assets-aem-view-cert.png){width="600"}
+   ![&#x200B; Mening het certificaat JSON dossier voor een verbonden de activabewaarplaats van AEM &#x200B;](./assets/configuration-assets-aem-view-cert.png){width="600"}
 
 1. Klik op **[!UICONTROL Close]** om terug te keren naar de pagina Opslagplaats configureren.
 

@@ -26,8 +26,8 @@ _Om een wachtende knoop voor uw rekeningsreis te bepalen :_
 
 1. Klik op de plusknop ( **+** ) op een pad en kies **[!UICONTROL Wait]** .
 
-   ![ voeg reisknoop toe - wacht ](./assets/add-node-wait.png){width="400"}
+   ![&#x200B; voeg reisknoop toe - wacht &#x200B;](./assets/add-node-wait.png){width="400"}
 
 1. In de knoopeigenschappen op het recht, plaats **[!UICONTROL Type]** van tijd te wachten alvorens de reis aan de volgende knoop in de weg te werk gaat.
 
-   ![ knoop van de Reis - wacht ](./assets/node-wait.png){width="700" zoomable="yes"}
+   ![&#x200B; knoop van de Reis - wacht &#x200B;](./assets/node-wait.png){width="700" zoomable="yes"}

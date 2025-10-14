@@ -16,7 +16,7 @@ In het volgende voorbeeld worden de stappen beschreven waarmee u een formulier t
 
 1. Sleep het item **[!UICONTROL Form]** onder de sectie **[!UICONTROL Contents]** naar een structuurcomponent in de ruimte voor het paginaontwerp.
 
-   ![ sleep een component van de Vorm in de visuele ontwerpruimte ](../assets/content-design-shared/content-design-add-form.png){width="600"}
+   ![&#x200B; sleep een component van de Vorm in de visuele ontwerpruimte &#x200B;](../assets/content-design-shared/content-design-add-form.png){width="600"}
 
    >[!TIP]
    >
@@ -24,7 +24,7 @@ In het volgende voorbeeld worden de stappen beschreven waarmee u een formulier t
 
 1. Klik het _pictogram van de Vorm_ in componententoolbar, of gebruik de **[!UICONTROL Embed Form]** eigenschappen op het recht om de gepubliceerde vorm te selecteren.
 
-   ![ selecteer de gepubliceerde vorm ](../assets/content-design-shared/content-design-add-form-properties.png){width="600"}
+   ![&#x200B; selecteer de gepubliceerde vorm &#x200B;](../assets/content-design-shared/content-design-add-form-properties.png){width="600"}
 
 1. Als u de standaardinstelling **[!UICONTROL Follow up type]** voor het formulier wilt overschrijven, wijzigt u de instelling op basis van de vereisten voor de pagina of sjabloon.
 
@@ -40,7 +40,7 @@ In het volgende voorbeeld worden de stappen beschreven waarmee u een formulier t
      >
      >Als u het formulier wilt gebruiken voor het downloaden van een bestand, kunt u een URL voor het gehoste bestand opgeven. Met deze configuratie werkt de knop Verzenden als een downloadknop.
 
-   ![ Verandering follow-up plaatsen ](../assets/content-design-shared/content-design-add-form-follow-up.png){width="280"}
+   ![&#x200B; Verandering follow-up plaatsen &#x200B;](../assets/content-design-shared/content-design-add-form-follow-up.png){width="280"}
 
 1. Als u de weergave van het formulier wilt beperken op apparaattype, wijzigt u de instelling voor **[!UICONTROL Display Options]** :
 

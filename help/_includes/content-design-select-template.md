@@ -26,13 +26,13 @@ Op het _Ontwerp uw malplaatje_ homepage, wordt het _malplaatjes van de Steekproe
 
 De lijst met alle e-mailsjablonen die in de huidige sandbox zijn gemaakt, wordt weergegeven. U kunt ze sorteren op _[!UICONTROL Name]_,_[!UICONTROL Last modified]_ en _[!UICONTROL Last created]_.
 
-![ kies een bewaard malplaatje ](../assets/content-design-shared/templates-design-saved-sort-by.png){width="800" zoomable="yes"}
+![&#x200B; kies een bewaard malplaatje &#x200B;](../assets/content-design-shared/templates-design-saved-sort-by.png){width="800" zoomable="yes"}
 
 Selecteer de gewenste sjabloon in de lijst.
 
 Na de selectie wordt een voorbeeld van de sjabloon weergegeven. In de voorvertoningsmodus kunt u met de rechter- en linkerpijltoets navigeren tussen alle sjablonen van één categorie (voorbeeld of opgeslagen, afhankelijk van uw selectie).
 
-![ Voorproef het bewaarde malplaatje ](../assets/content-design-shared/templates-design-saved-preview.png){width="800" zoomable="yes"}
+![&#x200B; Voorproef het bewaarde malplaatje &#x200B;](../assets/content-design-shared/templates-design-saved-preview.png){width="800" zoomable="yes"}
 
 Wanneer de weergave overeenkomt met wat u wilt gebruiken, klikt u op **[!UICONTROL Use this template]** rechtsboven in het voorvertoningsvenster.
 
@@ -42,6 +42,6 @@ Met deze actie kopieert u de inhoud naar de visuele ontwerper van de inhoud, waa
 
 De Uitgave van Adobe Journey Optimizer B2B biedt een selectie van e-mailmalplaatjes aan die _worden aangeboden uit-van-de-doos_, die voor het creëren van e-mails en e-mailmalplaatjes kan worden gebruikt.
 
-![ kies een malplaatje dat door Adobe ](../assets/content-design-shared/templates-design-samples.png){width="800" zoomable="yes"} wordt verstrekt
+![&#x200B; kies een malplaatje dat door Adobe &#x200B;](../assets/content-design-shared/templates-design-samples.png){width="800" zoomable="yes"} wordt verstrekt
 
 >[!ENDTABS]
