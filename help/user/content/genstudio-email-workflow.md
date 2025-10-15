@@ -35,7 +35,7 @@ Een technische markator die bijvoorbeeld Journey Optimizer B2B edition gebruikt 
 
 ## GenStudio-mogelijkheden voor het genereren van inhoud
 
-[&#x200B; Adobe GenStudio for Performance Marketing &#x200B;](https://business.adobe.com/products/genstudio-for-performance-marketing.html){target="_blank"} is een generatieve AI-eerste toepassing die marketing teams machtigt om impactful, gepersonaliseerde advertenties en e-mails tot stand te brengen die aan merknormen voldoen en aan hun ondernemingsbeleid voldoen. Door gebruik te maken van Adobe AI-technologie, biedt deze technologie een uitgebreide reeks hulpmiddelen die de complexiteit van het maken en beheren van content vereenvoudigen, zodat creatieve mensen zich kunnen richten op innovatie.
+[&#x200B; Adobe GenStudio for Performance Marketing &#x200B;](https://business.adobe.com/nl/products/genstudio-for-performance-marketing.html){target="_blank"} is een generatieve AI-eerste toepassing die marketing teams machtigt om impactful, gepersonaliseerde advertenties en e-mails tot stand te brengen die aan merknormen voldoen en aan hun ondernemingsbeleid voldoen. Door gebruik te maken van Adobe AI-technologie, biedt deze technologie een uitgebreide reeks hulpmiddelen die de complexiteit van het maken en beheren van content vereenvoudigen, zodat creatieve mensen zich kunnen richten op innovatie.
 
 ![&#x200B; Video &#x200B;](../../assets/do-not-localize/icon-video.svg){width="30"} [&#x200B; creeer on-brand marketing e-mails &#x200B;](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing-learn/tutorials/creating-experiences/creating-on-brand-emails){target="_blank"}
 
