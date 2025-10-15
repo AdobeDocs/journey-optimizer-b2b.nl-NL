@@ -3,8 +3,7 @@ title: Audience Agent B2B
 description: Audience Agent B2B in Journey OptimizerB2B Edition maakt gebruik van intentanalyse en persona mapping om inkoopgroepen te maken en B2B-marketingworkflows te versnellen.
 feature: Audiences, AI Assistant
 role: User
-hidefromtoc: true
-source-git-commit: 9cb77da73778c313392af1c42632d6b9e7e92f3b
+source-git-commit: 890e7dc012ac08fc112d647f1294f26ce096041b
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 0%
@@ -13,13 +12,13 @@ ht-degree: 0%
 
 # Audience Agent B2B
 
-Aangedreven door [&#x200B; Adobe Experience Platform Agent Orchestrator &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator), is Audience Agent B2B beschikbaar in Journey Optimizer B2B edition. Het gebruik van deze agent verbetert de efficiëntie en effectiviteit bij het verkennen en schalen van doelgroepen, versnelt het aanschaffen van groepen en naadloze workflows voor het activeren van de reis:
+Aangedreven door [ Adobe Experience Platform Agent Orchestrator ](https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator), is Audience Agent B2B beschikbaar in Journey Optimizer B2B edition. Het gebruik van deze agent verbetert de efficiëntie en effectiviteit bij het verkennen en schalen van doelgroepen, versnelt het aanschaffen van groepen en naadloze workflows voor het activeren van de reis:
 
 * **_Prioritize doelpubliek door intent_** - neem persona&#39;s over die op productintentie voor diverse publiek worden gebaseerd en stroomlijnt campagneplanning, die tijd aan publieksbevestiging wordt doorgebracht.
 
 * **_Leverage AI om het kopen groepen_** te ontdekken - gebruik AI, gestructureerde, ongestructureerde gegevens, en verenigde eerste-partijgegevens om het kopen groepsontdekking en verwezenlijking te stroomlijnen.
 
-![&#x200B; Audience Agent B2B op volledige paginamodus &#x200B;](./assets/audience-agent-full.png){width="700" zoomable="yes"}
+![ Audience Agent B2B op volledige paginamodus ](./assets/audience-agent-full.png){width="700" zoomable="yes"}
 
 ## Audience Agent-mogelijkheden
 
