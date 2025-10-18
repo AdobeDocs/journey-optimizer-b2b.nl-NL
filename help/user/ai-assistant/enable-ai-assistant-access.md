@@ -42,7 +42,7 @@ Wanneer de gebruiker de noodzakelijke toestemmingen heeft, kunnen zij tot AI Med
 
 Bekijk de volgende video om te leren hoe u toegang tot AI Assistant voor uw organisaties en gebruikers kunt configureren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3436470/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3475925/?captions=dut&learn=on)
 
 ## Volgende stappen
 
