@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Account Qualification Agent is een door AI aangedreven assistent die is ontworpen voor accountvertegenwoordigers. Het stroomlijnt en automatiseert de werkschema&#39;s van de kernverkoopontwikkeling, beduidend verminderend manuele overheadkosten en het versnellen van pijpleidingsproductie.
 
-![ Account Qualification Agent ](assets/acc-qualification-agent.png)
+![&#x200B; Account Qualification Agent &#x200B;](assets/acc-qualification-agent.png)
 
 Deze oplossing is gebouwd naast Adobe Journey Optimizer B2B (AJO B2B) en het Adobe Agent Orchestrator-kader en integreert op intelligente wijze gegevens, orkest en generatieve AI-mogelijkheden om BDR&#39;s (Business Development Representatives) in staat te stellen de volgende vaardigheden te verwerven:
 
