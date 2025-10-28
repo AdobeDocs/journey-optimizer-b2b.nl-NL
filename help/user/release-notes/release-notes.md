@@ -14,9 +14,9 @@ ht-degree: 6%
 
 Adobe Journey Optimizer B2B edition biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en oplossingen voor problemen.
 
-Journey Optimizer B2B edition is native gebaseerd op [!DNL Adobe Experience Platform] en erft van de nieuwste innovaties en verbeteringen. Leer meer over deze veranderingen in [&#x200B; de Nota&#39;s van de Versie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest){target="_blank"}.
+Journey Optimizer B2B edition is native gebaseerd op [!DNL Adobe Experience Platform] en erft van de nieuwste innovaties en verbeteringen. Leer meer over deze veranderingen in [&#x200B; de Nota&#39;s van de Versie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Herzie de [&#x200B; productbeschrijving &#x200B;](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} voor informatie over rechten, prestatiegaranties, en beperkingen.
+Herzie de [&#x200B; productbeschrijving &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} voor informatie over rechten, prestatiegaranties, en beperkingen.
 
 ## Opmerkingen bij de release 2025.10
 
