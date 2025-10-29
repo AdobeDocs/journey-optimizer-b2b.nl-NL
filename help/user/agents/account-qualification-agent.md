@@ -3,7 +3,7 @@ title: Account Qualification Agent voor B2B
 description: Leer over de de verkoopteams van Account Qualification Agent for B2B van AI-Aangedreven om pijpleidingsgeneratie met geautomatiseerd perspectiefonderzoek, rekeningsinzichten, en e-mailconcepten te versnellen.
 feature: Account Journeys, AI Assistant
 role: User
-source-git-commit: 6df235bc73066463e5fcfa71dc994f34e13e3ac0
+source-git-commit: 79a4c897621c7af68c4c17382673124cdc14d8af
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 0%
@@ -13,13 +13,13 @@ ht-degree: 0%
 
 # Account Qualification Agent voor B2B
 
->[!NOTE]
->Deze functie is momenteel in Beperkte Beschikbaarheid en is niet beschikbaar voor alle gebruikers.
+>[!AVAILABILITY]
 >
+>Deze functie is momenteel in Beperkte Beschikbaarheid en is niet beschikbaar voor alle gebruikers.
 
 Account Qualification Agent is een door AI aangedreven assistent die is ontworpen voor accountvertegenwoordigers. Het stroomlijnt en automatiseert de werkschema&#39;s van de kernverkoopontwikkeling, beduidend verminderend manuele overheadkosten en het versnellen van pijpleidingsproductie.
 
-![&#x200B; Account Qualification Agent &#x200B;](assets/acc-qualification-agent.png)
+![ Account Qualification Agent ](assets/acc-qualification-agent.png)
 
 Deze oplossing is gebouwd naast Adobe Journey Optimizer B2B (AJO B2B) en het Adobe Agent Orchestrator-kader en integreert op intelligente wijze gegevens, orkest en generatieve AI-mogelijkheden om BDR&#39;s (Business Development Representatives) in staat te stellen de volgende vaardigheden te verwerven:
 
