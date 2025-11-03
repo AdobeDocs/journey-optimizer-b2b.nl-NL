@@ -19,7 +19,7 @@ U kunt ontwerpbestanden die zijn opgeslagen als afbeeldingen (PNG of JPEG) eenvo
 
 **Gebruikend een merkthema**
 
-Als uw organisatie [ merkthema&#39;s ](./brand-themes.md) heeft die in Journey Optimizer B2B edition worden bepaald, kunt u een merkthema als input selecteren zodat de geproduceerde output HTML volgens de parameters van het merkthema wordt gestileerd. Met deze invoer wordt opmaak zoals achtergrondkleur, knopkleur, lettertypen, regelafstand, marges en opvulling toegepast op de gegenereerde sjabloon.  Door een merkthema te gebruiken, kunt u extra ontwerpwerk voor opmaak en opmaak voorkomen en ontstaat een sjabloon die klaar is voor gebruik met minimale bewerkingen.
+Als uw organisatie [&#x200B; merkthema&#39;s &#x200B;](./brand-themes.md) heeft die in Journey Optimizer B2B edition worden bepaald, kunt u een merkthema als input selecteren zodat de geproduceerde output HTML volgens de parameters van het merkthema wordt gestileerd. Met deze invoer wordt opmaak zoals achtergrondkleur, knopkleur, lettertypen, regelafstand, marges en opvulling toegepast op de gegenereerde sjabloon.  Door een merkthema te gebruiken, kunt u extra ontwerpwerk voor opmaak en opmaak voorkomen en ontstaat een sjabloon die klaar is voor gebruik met minimale bewerkingen.
 
 >[!ENDSHADEBOX]
 
@@ -29,7 +29,7 @@ Als uw organisatie [ merkthema&#39;s ](./brand-themes.md) heeft die in Journey O
 
 1. Klik in de koptekst boven de lijst op **[!UICONTROL Convert Image to Template]** .
 
-   ![ heb toegang tot de bibliotheek van e-mailmalplaatjes en produceer een malplaatje van een beeld ](./assets/email-template-convert-image-select.png){width="800" zoomable="yes"}
+   ![&#x200B; heb toegang tot de bibliotheek van e-mailmalplaatjes en produceer een malplaatje van een beeld &#x200B;](./assets/email-template-convert-image-select.png){width="800" zoomable="yes"}
 
 1. Voer in het dialoogvenster een handige **[!UICONTROL Template name]** en **[!UICONTROL Description]** (optioneel) voor de gegenereerde e-mailsjabloon in.
 
@@ -44,7 +44,7 @@ Als uw organisatie [ merkthema&#39;s ](./brand-themes.md) heeft die in Journey O
 
    Klik op de koppeling **[!UICONTROL Adobe Experience Cloud Generative AI User Guidelines]** als u de hulplijnen wilt bekijken.
 
-   ![ Volledige parameters om een beelddossier in een e-mailmalplaatje om te zetten ](./assets/email-template-convert-image-dialog.png){width="400" zoomable="yes"}
+   ![&#x200B; Volledige parameters om een beelddossier in een e-mailmalplaatje om te zetten &#x200B;](./assets/email-template-convert-image-dialog.png){width="400" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Convert]**.
 
