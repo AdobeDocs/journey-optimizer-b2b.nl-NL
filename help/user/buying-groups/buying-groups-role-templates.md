@@ -182,4 +182,4 @@ U kunt een rolmalplaatje schrappen als het in de _status van het Ontwerp_ is.
 
 ## Video over overzicht
 
->[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3453307/?captions=dut&learn=on)

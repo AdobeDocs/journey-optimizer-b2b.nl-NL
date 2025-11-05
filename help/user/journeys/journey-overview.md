@@ -167,4 +167,4 @@ Wanneer u de knoop selecteert, klik het aantal om een lijst van rekeningen te be
 
 ## Video over overzicht
 
->[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443213/?captions=dut&learn=on)
