@@ -20,13 +20,13 @@ ht-degree: 2%
 
 Een volledigheidsscore is een percentage dat erop wijst hoe goed een het kopen groep met de vereiste leden over zijn bepaalde rollen bevolkt is. Deze scores zijn gebaseerd op de drempels van het rollid die u in het rolmalplaatje en het daadwerkelijke aantal leden vormt die aan elke rol in de het kopen groep worden toegewezen. De resulterende scores helpen marketers verkoopbereidheid evalueren en hiaten in het kopen van groepssamenstelling identificeren. De berekening van de score wordt automatisch uitgevoerd wanneer het gekochte groepslidmaatschap wordt gewijzigd.
 
-![ het Kopen de scores van de groepsvolledigheid ](./assets/buying-group-details-page-completeness-scores.png){width="800" zoomable="yes"}
+![&#x200B; het Kopen de scores van de groepsvolledigheid &#x200B;](./assets/buying-group-details-page-completeness-scores.png){width="800" zoomable="yes"}
 
 Er zijn twee typen volledigheidsscores:
 
 * **het Kopen de score van de groepsvolledigheid** - de het kopen groep volledigheidsscore is een percentage tussen 0% tot 100% en vertegenwoordigt de algemene volledigheid van de het kopen groep die op rol-niveau volledigheidsberekeningen wordt gebaseerd.
 
-  De het kopen score van de groepsvolledigheid wordt getoond in de [ Kopen pagina van groepsdetails ](./buying-group-details.md). Deze score geeft een overzicht van de vraag of de inkoopgroep over de vereiste belanghebbenden beschikt voor de verkoopbetrokkenheid.
+  De het kopen score van de groepsvolledigheid wordt getoond in de [&#x200B; Kopen pagina van groepsdetails &#x200B;](./buying-group-details.md). Deze score geeft een overzicht van de vraag of de inkoopgroep over de vereiste belanghebbenden beschikt voor de verkoopbetrokkenheid.
 
 * **de volledigheidsscore van de Rol** - de score van de rolvolledigheid is een percentage voor elke individuele rol binnen een het kopen groep, die op het aantal leden wordt gebaseerd aan die rol wordt toegewezen.
 
@@ -71,7 +71,7 @@ The buying group completeness score is available to use for filtering in [journe
 >title="Berekening van de rolvolledigheid"
 >abstract="De scores voor de volledigheid van de rol worden berekend als een percentage gebaseerd op het aantal leden dat aan een rol wordt toegewezen."
 
-Journey Optimizer B2B edition berekent de volledigheidsscore voor elke afzonderlijke rol van de inkoopgroep als een percentage. Baseer deze score op hoeveel leden aan de rol worden toegewezen, vergeleken met [ het aantal dat in het rolmalplaatje ](./buying-groups-role-templates.md#change-the-completeness-score-settings) voor voltooiing wordt vereist.
+Journey Optimizer B2B edition berekent de volledigheidsscore voor elke afzonderlijke rol van de inkoopgroep als een percentage. Baseer deze score op hoeveel leden aan de rol worden toegewezen, vergeleken met [&#x200B; het aantal dat in het rolmalplaatje &#x200B;](./buying-groups-role-templates.md#change-the-completeness-score-settings) voor voltooiing wordt vereist.
 
 De rolvolledigheidsberekening is een lineair percentage tussen nul en de gespecificeerde drempel (vereiste leden):
 

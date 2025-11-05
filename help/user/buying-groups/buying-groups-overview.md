@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Voor B2B-verkoop- en marketingactiviteiten zijn rekeningen van essentieel belang voor elke strategie. Elke account heeft een groep personen die erbij betrokken zijn, en deze personen kunnen werknemers van de account of contractanten zijn die met de account werken. Accounts zijn hiërarchisch en verschillende producten kunnen op verschillende niveaus in de hiërarchie worden verkocht. Adobe Experience Platform kan bijvoorbeeld op bedrijfsniveau worden verkocht aan een top-level account. En Adobe Photoshop kan worden verkocht aan een rekening die een afdeling of afdeling binnen een organisatie vertegenwoordigt, zoals een ontwerpafdeling binnen een grotere onderneming.
 
-![ diagram van de rollen van de Rekening ](assets/account-roles-diagram.png){width="800"}
+![&#x200B; diagram van de rollen van de Rekening &#x200B;](assets/account-roles-diagram.png){width="800"}
 
 Binnen de rekening, zou er een ondergroep van mensen kunnen zijn die uit de _het kopen groep_ bestaan. Deze mensen nemen uiteindelijk het aankoopbesluit, dus ze hebben speciale aandacht van de marketeer nodig en hebben mogelijk andere informatie nodig die ze ontvangen dan de andere personen die bij de rekening horen. Kopersgroepen kunnen een verschillende groep personen voor verschillende productlijnen of aanbiedingen omvatten. Een product voor cyberbeveiliging kan bijvoorbeeld gewoonlijk een Chief Information Officer of Chief Security Officer vereisen, en een vertegenwoordiger van de Juridische Dienst om een aankoop goed te keuren. Een insectenvolgend product zou typisch een VP van Techniek en een Directeur van IT als leden van de het kopen groep kunnen hebben.
 
-![ het pictogram van de Video ](../../assets/do-not-localize/icon-video.svg){width="30"} [ bekijk het videooverzicht ](#overview-video)
+![&#x200B; het pictogram van de Video &#x200B;](../../assets/do-not-localize/icon-video.svg){width="30"} [&#x200B; bekijk het videooverzicht &#x200B;](#overview-video)
 
 ## Belangrijkste componenten
 
@@ -38,8 +38,8 @@ U kunt de doeltreffendheid van de marketing verhogen door koopgroepen te vestige
 Er zijn drie manieren waarop leden worden toegewezen aan of verwijderd uit een inkoopgroep. In de volgende lijst worden deze methoden voor toevoegen en verwijderen in de volgorde van prioriteit beschreven. De bovenste methode heeft de hoogste prioriteit en een lagere methode kan deze niet overschrijven.
 
 1. **_Handmatige actie_** - een handboek voegt lid toe of verwijdert lidactie die door een verkoopgebruiker voor de het kopen groep wordt uitgevoerd
-2. **_actie van de Reis_** - Reis [ actieknooppunten voor het kopen van groepslidmaatschap ](../journeys/action-nodes.md#add-a-people-based-action) (_wijs aan het Kopen groep_ toe of _verwijder uit het Kopen groep_)
-3. **_de banen van het Systeem_** - het Kopen groep [ creatie ](../buying-groups/buying-groups-create.md#buying-group-creation-jobs) en onderhoudstaken.
+2. **_actie van de Reis_** - Reis [&#x200B; actieknooppunten voor het kopen van groepslidmaatschap &#x200B;](../journeys/action-nodes.md#add-a-people-based-action) (_wijs aan het Kopen groep_ toe of _verwijder uit het Kopen groep_)
+3. **_de banen van het Systeem_** - het Kopen groep [&#x200B; creatie &#x200B;](../buying-groups/buying-groups-create.md#buying-group-creation-jobs) en onderhoudstaken.
 
 Om te voorkomen dat een lidtoewijzing in een inkoopgroep onjuist wordt overschreven, heeft deze lijst de volgorde van prioriteit die in het systeem wordt gevolgd om ervoor te zorgen dat leden correct worden toegewezen. Wanneer een verkoopgebruiker bijvoorbeeld handmatig een lid aan de inkoopgroep toevoegt, wil hij niet dat een onderhoudstaak die toevoeging wijzigt. Gebruikend de belangrijkheidsorde, worden de volgende scenario&#39;s afgedwongen:
 
@@ -55,8 +55,8 @@ Om te voorkomen dat een lidtoewijzing in een inkoopgroep onjuist wordt overschre
 
 1. Maak koopgroepen.
 
-   * Bepaal [ oplossingsrente ](./solution-interests.md) en [ rolmalplaatje ](./buying-groups-role-templates.md)
-   * [ creeer de het kopen groep ](./buying-groups-create.md#create-buying-groups) en wijs [ het kopen groepsstadia ](./buying-group-stages.md) toe.
+   * Bepaal [&#x200B; oplossingsrente &#x200B;](./solution-interests.md) en [&#x200B; rolmalplaatje &#x200B;](./buying-groups-role-templates.md)
+   * [&#x200B; creeer de het kopen groep &#x200B;](./buying-groups-create.md#create-buying-groups) en wijs [&#x200B; het kopen groepsstadia &#x200B;](./buying-group-stages.md) toe.
 
 1. Ontbrekende personen volledig identificeren.
 
@@ -76,11 +76,11 @@ Om te voorkomen dat een lidtoewijzing in een inkoopgroep onjuist wordt overschre
 
 Vouw **[!UICONTROL Accounts]** uit in de linkernavigatie en klik op **[!UICONTROL Buying groups]** .
 
-De pagina _[!UICONTROL Buying groups]_is ingedeeld als tabbladen:
+De pagina _[!UICONTROL Buying groups]_&#x200B;is ingedeeld als tabbladen:
 
 | Tab | Beschrijving |
 | --- | ----------- |
-| [!UICONTROL Overview] | Dit lusje is het gebrek en toont [ het Kopen groepen dashboard ](../dashboards/buying-groups-dashboard.md). |
+| [!UICONTROL Overview] | Dit lusje is het gebrek en toont [&#x200B; het Kopen groepen dashboard &#x200B;](../dashboards/buying-groups-dashboard.md). |
 | [!UICONTROL Browse] | Dit tabblad biedt ondersteuning voor de volgende activiteiten: <ul><li>De lijst met bestaande inkoopgroepen weergeven. </li><li>Zoeken op de naam van de inkoopgroep. </li><li>Filteren op interesse van oplossing. </li><li>Meld u aan bij het kopen van groepsgegevens. </li><li>Maak een inkoopgroep. </li></ul> |
 | [!UICONTROL Solution interests] | Dit tabblad biedt ondersteuning voor de volgende activiteiten: <ul><li>De lijst met bestaande inkoopgroepen weergeven. </li><li>Zoeken op de naam van de inkoopgroep. </li><li>De toegang en geeft de eigenschappen van oplossingsbelang uit. </li><li>Creëer een oplossingsbelang. </li><li>Verwijder een belang voor de oplossing. </li><li>Groeptaken voor kopen weergeven en verwijderen. </li></ul> |
 | [!UICONTROL Roles Templates] | Dit tabblad biedt ondersteuning voor de volgende activiteiten: <ul><li>Bekijk de lijst met bestaande rolmalplaatjes. </li><li>Zoeken op naam van rolsjabloon. </li><li>Toegang tot en geef de eigenschappen en voorwaarden van het rolmalplaatje uit. </li><li>Een rolsjabloon maken. </li><li>Een rolsjabloon verwijderen. </li></ul> |
@@ -88,15 +88,15 @@ De pagina _[!UICONTROL Buying groups]_is ingedeeld als tabbladen:
 
 ## Zoeken en filteren van groepen
 
-Gebruik het tabblad _[!UICONTROL Browse]_om de lijst met inkoopgroepen weer te geven. U kunt op naam zoeken en de lijst door oplossingsbelang filtreren.
+Gebruik het tabblad _[!UICONTROL Browse]_&#x200B;om de lijst met inkoopgroepen weer te geven. U kunt op naam zoeken en de lijst door oplossingsbelang filtreren.
 
-![ Kopende groep doorbladert pagina ](assets/buying-groups-browse.png){width="800" zoomable="yes"}
+![&#x200B; Kopende groep doorbladert pagina &#x200B;](assets/buying-groups-browse.png){width="800" zoomable="yes"}
 
 ## Gegevens van groep kopen
 
-Klik op de naam van de inkoopgroep op het tabblad _[!UICONTROL Browse]_als u details voor een inkoopgroep wilt weergeven. [Meer informatie](./buying-group-details.md)
+Klik op de naam van de inkoopgroep op het tabblad _[!UICONTROL Browse]_&#x200B;als u details voor een inkoopgroep wilt weergeven. [Meer informatie](./buying-group-details.md)
 
-![ het Kopen groepdetails ](assets/buying-group-details.png){width="600" zoomable="yes"}
+![&#x200B; het Kopen groepdetails &#x200B;](assets/buying-group-details.png){width="600" zoomable="yes"}
 
 ### Volledige score van inkoopgroep
 
@@ -104,7 +104,7 @@ De volledigheidsscore wordt gebruikt om te bepalen als de het kopen groep het ju
 
 De eerste berekening voor de volledigheidsscore begint zodra u de koopgroep maakt en wordt elke keer dat een koopgroep wordt gemaakt of bijgewerkt, opnieuw berekend.
 
-Zie [ de scores van de Voltooiing ](./completeness-scores.md) voor gedetailleerde informatie over volledigheid het scoren en berekeningen.
+Zie [&#x200B; de scores van de Voltooiing &#x200B;](./completeness-scores.md) voor gedetailleerde informatie over volledigheid het scoren en berekeningen.
 
 ### Betrokkenheidsscore voor groep kopen {#engagement-score}
 
@@ -112,7 +112,7 @@ De betrokkenheidsscore is gebaseerd op de activiteiten van de inkoopgroepsleden,
 
 De initiële berekening van de betrokkenheidsscore begint zodra u de inkoopgroep maakt en dagelijks opnieuw wordt berekend.
 
-Zie [ de scores van de Betrokkenheid ](./engagement-scores.md) voor gedetailleerde informatie over de activiteiten en de berekeningen van de betrokkenheidsscore.
+Zie [&#x200B; de scores van de Betrokkenheid &#x200B;](./engagement-scores.md) voor gedetailleerde informatie over de activiteiten en de berekeningen van de betrokkenheidsscore.
 
 ## Video over overzicht
 
