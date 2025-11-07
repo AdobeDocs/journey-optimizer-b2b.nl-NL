@@ -1,9 +1,9 @@
 ---
 user-guide-title: Documentatie voor de B2B-editie van Journey Optimizer
 user-guide-description: Meer informatie over Adobe Journey Optimizer B2B Edition en hoe u deze kunt gebruiken om account- en inkoopgroeptrajecten te orkestreren met behulp van ingebouwde generatieve AI en toonaangevende automatisering.
-source-git-commit: 57f32068b69dfd4fbc4128ae2f5753a1086fd4ae
+source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '346'
 ht-degree: 17%
 
 ---
@@ -23,9 +23,12 @@ ht-degree: 17%
    + [Toegang tot AI-assistent inschakelen](./ai-assistant/enable-ai-assistant-access.md)
    + [Richtlijnen voor vragen](./ai-assistant/question-guidance.md)
    + [AI-assistent gebruiken](./ai-assistant/use-ai-assistant.md)
+   + Medewerkers {#ai-agents}
+      + [Audience-agent](./agents/audience-agent-b2b.md)
+      + [Journey Build Agent](./agents/journey-agent.md)
+      + [Verkoopkwalificatie](./agents/sales-qualifier.md)
 + Accountreizen {#account-journeys}
    + [Overzicht](./journeys/journey-overview.md)
-   + [Journey Build Agent](./agents/journey-agent.md)
    + [Een reis maken en publiceren](./journeys/create-publish-journey.md)
    + [Reisknooppunten](./journeys/journey-nodes.md)
    + Reisknooppunten {#journey-nodes}
@@ -48,8 +51,6 @@ ht-degree: 17%
    + [SMS-authoring](./content/sms-authoring.md)
 + Accounts {#accounts}
    + [Soorten publiek](./audiences/account-audience-overview.md)
-   + [Audience-agent](./agents/audience-agent-b2b.md)
-   + [Account Qualification Agent](agents/account-qualification-agent.md)
    + Koopgroepen {#buying-groups}
       + [Overzicht](./buying-groups/buying-groups-overview.md)
       + [Oplossingsbelangen](./buying-groups/solution-interests.md)
@@ -63,6 +64,7 @@ ht-degree: 17%
       + [Exportaccounts](./audiences/account-list-export.md)
       + [Gekoppeld publiek voor account gekoppeld](./data/linkedin-account-matched-audiences.md)
       + [Groepsfilters kopen in Marketo Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
+      + [In-CRM-inzichten](./buying-groups/incrm-insights.md)
    + Accountlijsten {#account-lists}
       + [Overzicht](./accounts/account-lists.md)
       + [Gebruik tijdens reizen en programma&#39;s](./accounts/account-lists-journeys.md)
