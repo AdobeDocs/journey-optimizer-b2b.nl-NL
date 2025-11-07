@@ -22,13 +22,13 @@ Gebruik de browser en e-mailplug-ins om direct toegang te krijgen tot bedrijfsin
 
 De Sales Qualifier is inbegrepen bij AJO B2B maar is een afzonderlijke app binnen de AEP Experience Cloud.
 
-![ het homepage van de Kwalificator van de Verkoop ](assets/home-screen.png)
+![&#x200B; het homepage van de Kwalificator van de Verkoop &#x200B;](assets/home-screen.png)
 
 ## Account Qualification Agent
 
 De Account Qualification Agent (AQA) is de kern van de Verkoopkwalificatie. De AQA gebruikt AI om uw rekeningen te lezen en te bepalen welke degenen voor de volgende stap klaar zijn.  Het helpt bij onderzoek, het opstellen van e-mail en CRM updates.
 
-![ Account Qualification Agent ](assets/acc-qualification-agent.png)
+![&#x200B; Account Qualification Agent &#x200B;](assets/acc-qualification-agent.png)
 
 * **Onderzoek van de Vooruitzichten**
 
@@ -68,15 +68,15 @@ Overleg uw reis door uw herinneringen te verfijnen om de resultaten te krijgen u
 
 In dit venster worden alle leads weergegeven waartoe u toegang hebt. Het is een snelle controle van zaken zoals de Status van de Lood en Laatste Activiteit.
 
-![ zie al uw lood in de lijst van Leads ](assets/prospects.png)
+![&#x200B; zie al uw lood in de lijst van Leads &#x200B;](assets/prospects.png)
 
-Klik het pictogram van de Filter ![ {](../assets/icon-filter.png) aan filter door loodstatus.
+Klik het pictogram van de Filter ![&#x200B; &lbrace;](../assets/icon-filter.png) aan filter door loodstatus.
 
 ## Betrokkenheid
 
 Dit venster bevat details over gedefinieerde betrokkenheidsplannen.
 
-![ De plannen van de Betrokkenheid ](assets/engagement-plans.png)
+![&#x200B; De plannen van de Betrokkenheid &#x200B;](assets/engagement-plans.png)
 
 Klik op **[!UICONTROL Create engagement plan]** om een nieuw betrokkenheidsplan te maken.
 
@@ -97,7 +97,7 @@ In dit deelvenster worden alle vergaderingen weergegeven die zijn ingesteld via 
 
 In dit deelvenster worden al uw tekenthreads weergegeven.
 
-![ Chat inbox ](assets/chat-inbox.png)
+![&#x200B; Chat inbox &#x200B;](assets/chat-inbox.png)
 
 Niet alleen kunt u met cliënten in wisselwerking staan, maar u kunt ook een samenvatting van het contact en een samenvatting van de draad zien, zodat kunt u snel weten waar u in de draad bent.
 
@@ -108,13 +108,13 @@ Met integratie, kan de Kwalificator van de Verkoop hefboomwerking CRMs en andere
 * Integreer uw e-mailpostvak om relevante inkomende e-mails bij te houden en reacties te genereren.
 * Lees en werk CRM-gegevens bij, zoals Salesforce of Microsoft® Dynamics, ZoomInfo of Buildwidth.
 
-![ de Integratie van de Vooruitzichten van de Kwalificatiekwestie van de Verkoop ](assets/outlook.png)
+![&#x200B; de Integratie van de Vooruitzichten van de Kwalificatiekwestie van de Verkoop &#x200B;](assets/outlook.png)
 
 ### Een nieuwe integratie instellen
 
 Als u een nieuwe integratie wilt starten, klikt u op **[!UICONTROL Create integration]** rechtsboven.
 
-![ de Details van de Integratie ](assets/integration-details.png)
+![&#x200B; de Details van de Integratie &#x200B;](assets/integration-details.png)
 
 Hier definiëren we de URL van de integratie en bepalen we de te verzenden lading.
 
@@ -164,13 +164,13 @@ Hier voert u gegevens in over uzelf: persoonlijke gegevens, e-mail- en kalenderi
 
 Op het tabblad Details voert u gegevens over uzelf in:
 
-![ de montages van de Details van de Kwalificatie van de Verkoop ](assets/details.png)
+![&#x200B; de montages van de Details van de Kwalificatie van de Verkoop &#x200B;](assets/details.png)
 
 ### E-mailinstellingen
 
 Stel op het tabblad E-mailinstellingen uw e-mailverbindingen in.
 
-![ E-mailmontages ](assets/email-settings.png)
+![&#x200B; E-mailmontages &#x200B;](assets/email-settings.png)
 
 #### E-mailverbindingen
 
@@ -184,7 +184,7 @@ Configureer uw e-mailhandtekening die wordt gebruikt in automatisch gegenereerde
 
 Stel op het tabblad Kalenderinstellingen de tijdzone en beschikbaarheid in.
 
-![ montages van de Kalender ](assets/calendar-settings.png)
+![&#x200B; montages van de Kalender &#x200B;](assets/calendar-settings.png)
 
 #### Kalenderverbinding
 
@@ -203,7 +203,7 @@ Plaats uw standaardvergaderingslengte, en de tijd u tussen rug-aan-rug vergaderi
 
 Stel op dit tabblad de beschikbaarheid van Live chatsessies in voor de tijdzone.
 
-![ montages van het Praatje ](assets/chat-settings.png)
+![&#x200B; montages van het Praatje &#x200B;](assets/chat-settings.png)
 
 ## Representatief beheer
 
@@ -215,7 +215,7 @@ In dit deelvenster vindt u analyses van voltooide vergaderingen.
 
 ## De Chrome-insteekmodule instellen
 
-De AI HulpChrome insteekmodule is beschikbaar op de [ Opslag van Google ](https://chromewebstore.google.com/detail/ai-assistant/hancbabllcmckehonngbdkhilocpdfji?authuser=0&hl=en).
+De AI HulpChrome insteekmodule is beschikbaar op de [&#x200B; Opslag van Google &#x200B;](https://chromewebstore.google.com/detail/ai-assistant/hancbabllcmckehonngbdkhilocpdfji?authuser=0&hl=en).
 
 Wanneer de plug-in in Chrome is geïnstalleerd, wordt het Adobe-logo rechtsom in het midden weergegeven wanneer u zich op een geïntegreerde site bevindt:
 
