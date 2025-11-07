@@ -233,4 +233,4 @@ Klik linksonder in de toepassing op **[!UICONTROL Edit]** om te bepalen welke pi
 
 De volgende video biedt een korte demonstratie van de Sales Qualifier en Account Qualification Agent.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476550)
+>[!VIDEO](https://video.tv.adobe.com/v/3476567?captions=dut)
