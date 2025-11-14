@@ -34,7 +34,7 @@ Waarbij:
 
   >[!NOTE]
   >
-  >De attributenstructuur wordt bepaald in een [&#x200B; Adobe Experience Platform XDM Schema &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}.
+  >De attributenstructuur wordt bepaald in een [&#x200B; Adobe Experience Platform XDM Schema &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/home){target="_blank"}.
 
 * Id&#39;s kunnen elk Unicode-teken zijn, behalve de volgende:
 
