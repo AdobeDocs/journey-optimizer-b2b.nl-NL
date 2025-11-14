@@ -15,9 +15,9 @@ ht-degree: 0%
 
 # Personalization-syntaxis {#personalization-syntax}
 
-De uitdrukkingen in de [!DNL Journey Optimizer B2B Edition] [ verpersoonlijkingsredacteur ](./personalization.md#personalization-editor) zijn gebaseerd op de _4} het malplaatjesyntaxis van Handelaren {._ Er worden een sjabloon en een invoerobject gebruikt om HTML of andere tekstopmaak te genereren. Handlebars de malplaatjes kijken als regelmatige teksten met ingebedde uitdrukkingen Handlebars.
+De uitdrukkingen in de [!DNL Journey Optimizer B2B Edition] [&#x200B; verpersoonlijkingsredacteur &#x200B;](./personalization.md#personalization-editor) zijn gebaseerd op de _4&rbrace; het malplaatjesyntaxis van Handelaren &lbrace;._ Er worden een sjabloon en een invoerobject gebruikt om HTML of andere tekstopmaak te genereren. Handlebars de malplaatjes kijken als regelmatige teksten met ingebedde uitdrukkingen Handlebars.
 
-Voor meer details over Handlebars en hoe het werkt, verwijs naar de [ documentatie HandlebarsJS ](https://handlebarsjs.com/){target="_blank"}.
+Voor meer details over Handlebars en hoe het werkt, verwijs naar de [&#x200B; documentatie HandlebarsJS &#x200B;](https://handlebarsjs.com/){target="_blank"}.
 
 ## Algemene bepalingen
 
@@ -34,7 +34,7 @@ Waarbij:
 
   >[!NOTE]
   >
-  >De attributenstructuur wordt bepaald in een [ Adobe Experience Platform XDM Schema ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}.
+  >De attributenstructuur wordt bepaald in een [&#x200B; Adobe Experience Platform XDM Schema &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}.
 
 * Id&#39;s kunnen elk Unicode-teken zijn, behalve de volgende:
 
@@ -72,7 +72,7 @@ Een hulpfunctie Handlebars is een eenvoudig herkenningsteken dat met parameters 
 
 Blocks are expressions that have a block opening ( {\{# }\} ) and closing ( {\{/} } ). -->
 
-Voor meer gedetailleerde informatie over deze functies, zie [ de functies van de Helper ](./personalization-helper-functions.md).
+Voor meer gedetailleerde informatie over deze functies, zie [&#x200B; de functies van de Helper &#x200B;](./personalization-helper-functions.md).
 
 ## Letterlijke typen {#literal-types}
 
