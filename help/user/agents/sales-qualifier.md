@@ -22,13 +22,13 @@ Gebruik de browser en e-mailplug-ins om direct toegang te krijgen tot bedrijfsin
 
 Verkoopkwalificatie wordt meegeleverd bij Journey Optimizer B2B edition, maar is een aparte toepassing in het Experence Platform Experience Cloud.
 
-![ het homepage van de Kwalificator van de Verkoop ](assets/home-screen.png)
+![&#x200B; het homepage van de Kwalificator van de Verkoop &#x200B;](assets/home-screen.png)
 
 ## Account Qualification Agent
 
 De Account Qualification Agent (AQA) is de kern van de Verkoopkwalificatie. De AQA gebruikt AI om uw rekeningen te lezen en te bepalen welke degenen voor de volgende stap klaar zijn. Het assisteert met onderzoek, het opstellen van e-mail, en de updates van CRM.
 
-![ Account Qualification Agent ](assets/acc-qualification-agent.png)
+![&#x200B; Account Qualification Agent &#x200B;](assets/acc-qualification-agent.png)
 
 * **Onderzoek van de Vooruitzichten**
 
@@ -68,15 +68,15 @@ Overleg uw reis door uw herinneringen te verfijnen om de resultaten te krijgen u
 
 In dit venster worden alle leads weergegeven waartoe u toegang hebt. Het is een snelle controle op dingen, zoals de status van de lead en de laatste activiteit.
 
-![ zie al uw lood in de lijst van Leads ](assets/prospects.png)
+![&#x200B; zie al uw lood in de lijst van Leads &#x200B;](assets/prospects.png)
 
-Klik het __ pictogram van de Filter ![ pictogram van de Filter ](../../assets/do-not-localize/icon_filter-outline.svg) {om de getoonde lijst door loodstatus te filtreren.
+Klik het __ pictogram van de Filter ![&#x200B; pictogram van de Filter &#x200B;](../../assets/do-not-localize/icon_filter-outline.svg) &lbrace;om de getoonde lijst door loodstatus te filtreren.
 
 ## Betrokkenheid
 
 Dit venster bevat details over gedefinieerde betrokkenheidsplannen.
 
-![ De plannen van de Betrokkenheid ](assets/engagement-plans.png)
+![&#x200B; De plannen van de Betrokkenheid &#x200B;](assets/engagement-plans.png)
 
 Klik op **[!UICONTROL Create engagement plan]** om een nieuw betrokkenheidsplan te maken.
 
@@ -97,7 +97,7 @@ In dit deelvenster worden alle vergaderingen weergegeven die zijn ingesteld via 
 
 In dit deelvenster worden al uw tekenthreads weergegeven.
 
-![ Chat inbox ](assets/chat-inbox.png)
+![&#x200B; Chat inbox &#x200B;](assets/chat-inbox.png)
 
 U kunt met cliënten in wisselwerking staan, en samenvattingen voor het contact en de draad zien zodat u kunt snel weten waar u in de draad bent.
 
@@ -108,13 +108,13 @@ Met integratie, kan de Kwalificator van de Verkoop hefboomwerking CRMs en andere
 * Integreer uw e-mailpostvak om relevante inkomende e-mails bij te houden en reacties te genereren.
 * Lees en werk CRM-gegevens bij, zoals Salesforce of Microsoft® Dynamics, ZoomInfo of Buildwidth.
 
-![ de Integratie van de Vooruitzichten van de Kwalificatiekwestie van de Verkoop ](assets/outlook.png)
+![&#x200B; de Integratie van de Vooruitzichten van de Kwalificatiekwestie van de Verkoop &#x200B;](assets/outlook.png)
 
 ### Een nieuwe integratie instellen
 
 Als u een nieuwe integratie wilt starten, klikt u op **[!UICONTROL Create integration]** rechtsboven.
 
-![ de Details van de Integratie ](assets/integration-details.png)
+![&#x200B; de Details van de Integratie &#x200B;](assets/integration-details.png)
 
 Bepaal URL van de integratie en bepaal de te verzenden lading:
 
@@ -132,7 +132,7 @@ Bepaal URL van de integratie en bepaal de te verzenden lading:
 
 1. Stel waarden voor vertragen en cachegeheugen in de sectie **[!UICONTROL Payload configuration]** in.
    * Klik op het potloodpictogram.
-   * In de _dialoog van de Payload van het 0} Deeg {, deeg of ga uw JSON nuttige ladingsvoorwerp in._
+   * In de _dialoog van de Payload van het 0&rbrace; Deeg &lbrace;, deeg of ga uw JSON nuttige ladingsvoorwerp in._
 
       * **[!UICONTROL Request payload]** - Een JSON-object met gegevens die naar de integratiesite moeten worden verzonden.
       * **[!UICONTROL Response payload]** - De gegevensstructuur die u verwacht te worden geretourneerd.
@@ -141,13 +141,13 @@ Bepaal URL van de integratie en bepaal de te verzenden lading:
 
 Klik op **[!UICONTROL Save as draft]** als de verbindingsinstellingen geldig zijn.
 
-Wanneer u weer op de hoofdtabel van _[!UICONTROL Integrations]_staat, selecteert u de integratie en klikt u op **[!UICONTROL Activate]**om de integratie actief te maken. Klik op **[!UICONTROL Save as draft]**als u het bestand niet kunt activeren.
+Wanneer u weer op de hoofdtabel van _[!UICONTROL Integrations]_&#x200B;staat, selecteert u de integratie en klikt u op **[!UICONTROL Activate]**&#x200B;om de integratie actief te maken. Klik op **[!UICONTROL Save as draft]**&#x200B;als u het bestand niet kunt activeren.
 
 #### Toegang beheren
 
 U kunt de toegang tot gebruikers en het soort gegevens beheren dat met verschillende gebruikersgroepen wordt gedeeld.
 
-Klik op **[!UICONTROL Manage access]** om het dialoogvenster _[!UICONTROL Manage Access]_te openen.
+Klik op **[!UICONTROL Manage access]** om het dialoogvenster _[!UICONTROL Manage Access]_&#x200B;te openen.
 
 Deze dialoog maakt een lijst van alle Etiketten die voor uw organisatie worden gevestigd. Selecteer de labels die u op deze integratie wilt toepassen.
 
@@ -165,13 +165,13 @@ De representatieve instellingen geven informatie over uzelf op, zoals persoonlij
 
 Op het tabblad **[!UICONTROL Details]** voert u informatie over uzelf in:
 
-![ de montages van de Details van de Kwalificatie van de Verkoop ](assets/details.png)
+![&#x200B; de montages van de Details van de Kwalificatie van de Verkoop &#x200B;](assets/details.png)
 
 ### E-mailinstellingen
 
 Stel op het tabblad **[!UICONTROL Email settings]** uw e-mailverbindingen in.
 
-![ E-mailmontages ](assets/email-settings.png)
+![&#x200B; E-mailmontages &#x200B;](assets/email-settings.png)
 
 * **[!UICONTROL Email connections]** - Klik **[!UICONTROL Connect]** en volg de Microsoft-aanmeldprocedure.
 
@@ -181,7 +181,7 @@ Stel op het tabblad **[!UICONTROL Email settings]** uw e-mailverbindingen in.
 
 Stel op het tabblad **[!UICONTROL Calendar settings]** uw tijdzone en beschikbaarheid in.
 
-![ montages van de Kalender ](assets/calendar-settings.png)
+![&#x200B; montages van de Kalender &#x200B;](assets/calendar-settings.png)
 
 * **[!UICONTROL Calendar connection]** - Klik **[!UICONTROL Connect]** en volg de Microsoft-aanmeldingsprocedure om uw kalender te integreren.
 
@@ -193,11 +193,11 @@ Stel op het tabblad **[!UICONTROL Calendar settings]** uw tijdzone en beschikbaa
 
 Stel op het tabblad **[!UICONTROL Chat settings]** de beschikbaarheid van Live chat in voor de tijdzone.
 
-![ montages van het Praatje ](assets/chat-settings.png)
+![&#x200B; montages van het Praatje &#x200B;](assets/chat-settings.png)
 
 ## Representatief beheer
 
-In het deelvenster _[!UICONTROL Representative management]_worden de gedefinieerde vertegenwoordigers en hun kalenderstatus weergegeven.
+In het deelvenster _[!UICONTROL Representative management]_&#x200B;worden de gedefinieerde vertegenwoordigers en hun kalenderstatus weergegeven.
 
 ## Vergaderprestaties
 
@@ -205,7 +205,7 @@ In dit deelvenster vindt u analyses van voltooide vergaderingen.
 
 ## De Chrome-insteekmodule instellen
 
-De AI HulpChrome insteekmodule is beschikbaar op de [ Opslag van Google ](https://chromewebstore.google.com/detail/ai-assistant/hancbabllcmckehonngbdkhilocpdfji?authuser=0&hl=en).
+De AI HulpChrome insteekmodule is beschikbaar op de [&#x200B; Opslag van Google &#x200B;](https://chromewebstore.google.com/detail/ai-assistant/hancbabllcmckehonngbdkhilocpdfji?authuser=0&hl=en).
 
 Wanneer de plug-in in Chrome is geïnstalleerd, wordt het Adobe-logo rechtsom in het midden weergegeven wanneer u zich op een geïntegreerde site bevindt:
 
