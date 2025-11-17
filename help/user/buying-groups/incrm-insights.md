@@ -15,7 +15,7 @@ ht-degree: 0%
 
 In-CRM Insights is een webtoepassing die in Salesforce wordt geïntegreerd, zodat u rechtstreeks toegang hebt tot uw Journey Optimizer B2B edition-inkoopgroepen binnen Salesforce. Hiermee kunt u mogelijkheden voor meer betrokkenheid en verkoopmogelijkheden identificeren.
 
-De toepassing van de Inzichten In-CRM is beschikbaar in het [&#x200B; pakket van de Inzichten van de Verkoop van Marketo &#x200B;](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/marketo-sales-insight/msi-for-salesforce/installation/install-marketo-sales-insight-package-in-salesforce-appexchange).
+De toepassing van de Inzichten In-CRM is beschikbaar in het [&#x200B; pakket van de Inzichten van de Verkoop van Marketo &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/marketo-sales-insight/msi-for-salesforce/installation/install-marketo-sales-insight-package-in-salesforce-appexchange).
 
 ## In-CRM-inzichten gebruiken
 
@@ -32,4 +32,4 @@ Je koopgroepen worden geladen en beschikbaar. Gegevens zijn alleen-lezen via In-
 >
 >Het lidmaatschap in de [&#x200B; productrol van de Gebruiker van de Verkoop 0&rbrace; B2B &lbrace;wordt vereist om tot Inzichten In-CRM toegang te hebben.](../admin/user-management.md#b2b-built-in-roles)
 
-Na het selecteren van een het kopen groep, kunt u de [&#x200B; groepsdetails &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#) doorbladeren, enkel zoals in Journey Optimizer B2B edition.
+Na het selecteren van een het kopen groep, kunt u de [&#x200B; groepsdetails &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#) doorbladeren, enkel zoals in Journey Optimizer B2B edition.

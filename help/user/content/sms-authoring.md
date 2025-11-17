@@ -94,7 +94,7 @@ U kunt een bericht van maximaal 1600 karakters tot stand brengen, met elke 160 k
      >[!NOTE]
      >
      >Wanneer u tekstspatiëring toestaat maar _[!UICONTROL Include mkt_tok]_&#x200B;uitschakelt, bevat de doel-URL na omleiding niet de parameter voor de `mkt_tok` querytekenreeks. Deze parameter wordt gebruikt door Marketo Engage landingspagina&#39;s en Munchkin om ervoor te zorgen dat het volgen van persoonactiviteiten (zoals wanneer een persoon van een e-mail afmeldt). Schakel deze optie alleen uit als de parameter problemen veroorzaakt op uw website.<br/>
-     >Voor meer informatie over het gebruiken van het volgen van Munchkin codes op uw website, verwijs naar de [&#x200B; documentatie van Marketo Engage &#x200B;](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
+     >Voor meer informatie over het gebruiken van het volgen van Munchkin codes op uw website, verwijs naar de [&#x200B; documentatie van Marketo Engage &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
 
    ![&#x200B; voeg verbindingsdialoog voor SMS bericht toe &#x200B;](./assets/sms-add-link-dialog.png){width="470"}
 
