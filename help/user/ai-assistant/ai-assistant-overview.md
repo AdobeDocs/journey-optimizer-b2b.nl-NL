@@ -5,32 +5,32 @@ feature: AI Assistant
 role: User, Admin
 level: Beginner
 exl-id: 52ff66d2-1969-4e2c-985a-c75e613368de
-source-git-commit: 4fdd89bf32cb9d68b4cdc347f1fd09df8eabe24d
+source-git-commit: dc6495a65b89cb3993c4b72706298181a3b555db
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1265'
 ht-degree: 2%
 
 ---
 
 # AI Assistant in Journey Optimizer B2B edition
 
-AI Medewerker in Journey Optimizer B2B edition wordt gecreeerd van de zelfde technologiestichting van [&#x200B; AI Medewerker in Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/home){target="_blank"}. Het is een conversatie-ervaring die u kunt gebruiken om uw workflows in Adobe Journey Optimizer B2B edition te versnellen. U kunt AI Assistant gebruiken om meer inzicht te krijgen in de productmogelijkheden, problemen op te lossen of informatie te doorzoeken en operationele inzichten voor Journey Optimizer B2B edition te zoeken.
+AI Medewerker in Journey Optimizer B2B edition wordt gecreeerd van de zelfde technologiestichting van [ AI Medewerker in Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}. Het is een conversatie-ervaring die u kunt gebruiken om uw workflows in Adobe Journey Optimizer B2B edition te versnellen. U kunt AI Assistant gebruiken om meer inzicht te krijgen in de productmogelijkheden, problemen op te lossen of informatie te doorzoeken en operationele inzichten voor Journey Optimizer B2B edition te zoeken.
 
 >[!IMPORTANT]
 >
->Een overeenkomst aan de [&#x200B; gebruikersrichtlijnen &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) wordt vereist alvorens u AI Medewerker in Journey Optimizer B2B edition kunt gebruiken. Deze overeenkomst bevat ook de openbare bètaovereenkomst, zodat u aanvullende AI Assistant-functies kunt gebruiken wanneer deze in bètacapaciteit worden geïmplementeerd.
+>Een overeenkomst aan de [ gebruikersrichtlijnen ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) wordt vereist alvorens u AI Medewerker in Journey Optimizer B2B edition kunt gebruiken. Deze overeenkomst bevat ook de openbare bètaovereenkomst, zodat u aanvullende AI Assistant-functies kunt gebruiken wanneer deze in bètacapaciteit worden geïmplementeerd.
 
 +++De interface van de gebruikersovereenkomst weergeven
 
-![&#x200B; de eerste pagina van de gebruikersovereenkomst.](./assets/user-agreement-1.png)
+![ de eerste pagina van de gebruikersovereenkomst.](./assets/user-agreement-1.png)
 
-![&#x200B; De laatste pagina van de gebruikersovereenkomst.](./assets/user-agreement-2.png)
+![ De laatste pagina van de gebruikersovereenkomst.](./assets/user-agreement-2.png)
 
 +++
 
 ## AI Assistant-mogelijkheden in Journey Optimizer B2B edition
 
-Om een antwoord op uw voorgelegde vragen te formuleren, vraagt de Medewerker van AI een gegevensbestand en vertaalt gegevens van het gegevensbestand in een leesbaar antwoord. Deze reactie is een interne vertegenwoordiging van onderliggende gegevens, en is ook genoemd geworden _&#x200B;**_Grafiek van de Kennis_**&#x200B;_ - een uitvoerig Web van concepten, gegevens, en meta-gegevens voor een bepaald antwoord. De Kennisgrafiek bestaat uit subgrafieken waarnaar wordt verwezen wanneer query&#39;s worden verzonden:
+Om een antwoord op uw voorgelegde vragen te formuleren, vraagt de Medewerker van AI een gegevensbestand en vertaalt gegevens van het gegevensbestand in een leesbaar antwoord. Deze reactie is een interne vertegenwoordiging van onderliggende gegevens, en is ook genoemd geworden _**_Grafiek van de Kennis_**_ - een uitvoerig Web van concepten, gegevens, en meta-gegevens voor een bepaald antwoord. De Kennisgrafiek bestaat uit subgrafieken waarnaar wordt verwezen wanneer query&#39;s worden verzonden:
 
 * Experience League-documentatie.
 * Operationele artefacten, zoals schema&#39;s, velden, publiek en reizen.
@@ -60,7 +60,7 @@ U kunt AI Assistant-vragen stellen over uw operationele inzichten in de volgende
 | Domein | Ondersteunde metagegevens | Niet-ondersteunde metagegevens |
 | --- | --- | --- |
 | Kenmerken/velden | <li>Zoeken naar kenmerknaam <li>Kenmerk - schemaverhouding <li>Kenmerk - gegevenssetrelatie <li>Kenmerk - publieksrelatie <li>Kenmerk - bestemmingsverhouding | <li>Kenmerkklasse <li>Audit <li>Vervalstatus <li>Labels <li>Waarde opgeslagen in kenmerken |
-| Accountsoorten <br><br>**_Opmerking:_** AJO B2B AI Assistant kan alleen publieksvragen beantwoorden voor accountsoorten, terwijl Experience Platform AI Assistant alleen vragen kan beantwoorden voor persoonlijke doelgroepen | <li>Aantal deelnemers <li>Type publiek (streaming of batch) <li>Aanmaakdatum/wijzigingsdatum <li>Activeringsstatus <li>Aantal leden <li>Soorten publiek dupliceren <li>Naam en id zoeken | <li>Overlap door publiek <li>Activering publiek <li>Audit <li>Maken/wijzigen <li>Labels <li>Kwalificatietrends van de lidstaten |
+| Accountsoorten <br><br>**_Note:_** In de Journey Optimizer B2B edition-context kan AI Assistant alleen publieksvragen beantwoorden voor accountsoorten. In de Experience Platform-context kan AI Assistant alleen vragen beantwoorden voor Person Audiences. | <li>Aantal deelnemers <li>Type publiek (streaming of batch) <li>Aanmaakdatum/wijzigingsdatum <li>Activeringsstatus <li>Aantal leden <li>Soorten publiek dupliceren <li>Naam en id zoeken | <li>Overlap door publiek <li>Activering publiek <li>Audit <li>Maken/wijzigen <li>Labels <li>Kwalificatietrends van de lidstaten |
 | Gegevensstromen | <li>Aantal gegevensstromen <li>Status DataFlow <li>Dataflow - relatie gegevensset <li>Dataflow - bronrelatie | <li>Maken/wijzigen <li>Dataflow-batch-relaties <li>Aantal hoogste profielen |
 | Gegevenssets | <li>Aantal gegevenssets <li>Status profiel inschakelen <li>Aanmaakdatum/wijzigingsdatum <li>Gegevensset - schema-relatie <li>Gegevensset - publieksrelatie <li>Gegevensset - kenmerkrelatie <li>Dataset - gegevensstroomrelatie <li>Naam zoeken <li>Naam en id zoeken | <li>Audit <li>Gemaakt door <li>Gegevensset - batch-relatie <li>Maken en wijzigen van gegevensset <li>Gegevensgrootte <li>Aantal profielen <li>Aantal rijen <li>Waardezoekopdracht |
 | Bestemmingen | <li>Gevormde doelaantallen <li>Doel - publieksrelatie <li>Relatie doelkenmerk | <li>Account instellen <li>Accountreferentie-informatie <li>Unieke profielen geactiveerd |
@@ -92,7 +92,7 @@ AI Assistant in Journey Optimizer B2B edition is gebouwd met privacy, beveiligin
 
 * U moet expliciete toestemming hebben om met AI Medewerker in wisselwerking te staan.
 
-   * Een beheerder kan toestemmingen plaatsen gebruikend [&#x200B; Toestemmingen UI &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} en [&#x200B; Admin Console &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/ui/browse){target="_blank"}.
+   * Een beheerder kan toestemmingen plaatsen gebruikend [ Toestemmingen UI ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} en [ Admin Console ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"}.
 
    * De toestemmingen zijn korrelig en uw zandbakbeheerder kan vormen welke gebruikers verschillende vraagcategorieën (product kennisgebaseerde vragen met AI Medewerker of vragen over operationele inzichten) kunnen stellen.
 

@@ -1,11 +1,11 @@
 ---
 title: In-CRM-inzichten
-description: Bekijk de gegevens van de kopersgroep rechtstreeks in Salesforce, zodat u de verkoopmogelijkheden optimaal kunt benutten
-feature: Buying Groups
+description: Open Journey Optimizer B2B edition-inkoopgroepen rechtstreeks in Salesforce. De leden van het verkoopteam kunnen betrokkenheidsgegevens bekijken en verkoopmogelijkheden identificeren met In-CRM Inzichten.
+feature: Sales Insights, Buying Groups
 role: User
-source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
+source-git-commit: fed4ffe06d645784dc3f2adc84c15906e9816507
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
@@ -13,23 +13,23 @@ ht-degree: 0%
 
 # In-CRM-inzichten
 
-De Marketo In-CRM Insights is een webtoepassing die in Salesforce wordt geïntegreerd en u rechtstreeks toegang geeft tot uw AJO B2B-inkoopgroepen in Salesforce. Hierdoor kunt u mogelijkheden voor meer betrokkenheid en verkoopmogelijkheden identificeren.
+In-CRM Insights is een webtoepassing die in Salesforce wordt geïntegreerd, zodat u rechtstreeks toegang hebt tot uw Journey Optimizer B2B edition-inkoopgroepen binnen Salesforce. Hiermee kunt u mogelijkheden voor meer betrokkenheid en verkoopmogelijkheden identificeren.
 
-De Inzichten In-CRM is beschikbaar in het [&#x200B; pakket van de Inzichten van de Verkoop van Marketo &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/marketo-sales-insight/msi-for-salesforce/installation/install-marketo-sales-insight-package-in-salesforce-appexchange).
+De toepassing van de Inzichten In-CRM is beschikbaar in het [ pakket van de Inzichten van de Verkoop van Marketo ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/marketo-sales-insight/msi-for-salesforce/installation/install-marketo-sales-insight-package-in-salesforce-appexchange).
 
 ## In-CRM-inzichten gebruiken
 
-In-CRM Insights is beschikbaar in Salesforce via de App Launcher.
+De toepassing In-CRM Insights is beschikbaar in Salesforce via de App Launcher.
 
-1. Klik op de App Launcher in Salesforce.
+1. Klik op App Launcher in Salesforce.
 1. Selecteer of zoek naar `Journey Optimizer B2B Edition` .
-1. Meld u aan met uw Adobe-gebruikersgegevens op het tabblad dat wordt geopend.
-1. Kies in het vervolgkeuzemenu een sandbox die als host fungeert voor uw accountreizen.
+1. Meld u aan met uw Adobe-gebruikersgegevens op het tabblad dat wordt weergegeven.
+1. Kies een sandbox die als host fungeert voor uw accountreizen.
 
-Je kopersgroepen worden geladen en beschikbaar. Gegevens zijn alleen-lezen via In-CRM Insights.
+Je koopgroepen worden geladen en beschikbaar. Gegevens zijn alleen-lezen via In-CRM Insights.
 
 >[!NOTE]
->De gebruikers moeten een lid van de [&#x200B; rol van de Gebruiker van de Verkoop zijn 0&rbrace; B2B &lbrace;aan toegang In-CRM Inzichten.](https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b/user/admin/user-management#add-users-to-a-role)
 >
+>Het lidmaatschap in de [ productrol van de Gebruiker van de Verkoop 0} B2B {wordt vereist om tot Inzichten In-CRM toegang te hebben.](../admin/user-management.md#b2b-built-in-roles)
 
-Door een het Kopen Groep te selecteren, kunt u de [&#x200B; groepsdetails &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#) nu doorbladeren, enkel zoals in Journey Optimizer B2B.
+Na het selecteren van een het kopen groep, kunt u de [ groepsdetails ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#) doorbladeren, enkel zoals in Journey Optimizer B2B edition.
