@@ -1,9 +1,9 @@
 ---
 user-guide-title: Documentatie voor de B2B-editie van Journey Optimizer
 user-guide-description: Meer informatie over Adobe Journey Optimizer B2B Edition en hoe u deze kunt gebruiken om account- en inkoopgroeptrajecten te orkestreren met behulp van ingebouwde generatieve AI en toonaangevende automatisering.
-source-git-commit: d7de2cb8383def7c2ed5e57c0c116ffb72424468
+source-git-commit: f80f0ac96f730833473e0a3e17035dac0fb5f3ce
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '354'
 ht-degree: 17%
 
 ---
@@ -85,8 +85,8 @@ ht-degree: 17%
       + [E-mailsamenwerking](./content/email-collaboration-tools.md)
    + Assets {#assets}
       + [Overzicht](./content/assets-overview.md)
-      + Marketo Engage-middelen {#marketo-engage-dam}
-         + [Werken met Marketo Engage-middelen](./content/marketo-engage-design-studio.md)
+      + Interne activa {#internal-dam}
+         + [Werken met interne middelen](./content/internal-image-assets.md)
          + [Afbeeldingen bewerken met Adobe Express](./content/image-edit-adobe-express.md)
       + [Experience Manager-afbeeldingselementen](./content/aem-assets.md)
    + Sjablonen {#templates}
