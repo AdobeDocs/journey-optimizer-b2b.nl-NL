@@ -3,9 +3,9 @@ title: Verkoopkwalificatie
 description: Automatiseer B2B perspectiefkwalificatie en outreach met de Kwalificator van de Verkoop. Het biedt door AI aangedreven onderzoek, het opstellen van e-mail, integratie van CRM, en betrokkenheidsplannen voor BDRs.
 feature: AI Assistant, Sales Insights, Account Journeys
 role: User
-source-git-commit: dc6495a65b89cb3993c4b72706298181a3b555db
+source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
 workflow-type: tm+mt
-source-wordcount: '1238'
+source-wordcount: '1324'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,13 @@ Gebruik de browser en e-mailplug-ins om direct toegang te krijgen tot bedrijfsin
 
 Verkoopkwalificatie wordt meegeleverd bij Journey Optimizer B2B edition, maar is een aparte toepassing in het Experence Platform Experience Cloud.
 
-![&#x200B; het homepage van de Kwalificator van de Verkoop &#x200B;](assets/home-screen.png)
+![ het dashboard van de Kwalificatie van de Verkoop automating BDR perspectiefkwalificatie en outreach voor onderneming B2B ](assets/home-screen.png)
 
 ## Account Qualification Agent
 
 De Account Qualification Agent (AQA) is de kern van de Verkoopkwalificatie. De AQA gebruikt AI om uw rekeningen te lezen en te bepalen welke degenen voor de volgende stap klaar zijn. Het assisteert met onderzoek, het opstellen van e-mail, en de updates van CRM.
 
-![&#x200B; Account Qualification Agent &#x200B;](assets/acc-qualification-agent.png)
+![ AI-Gerichte Account Qualification Agent dashboard voor verkoopvooruitzicht en rekeningsonderzoek ](assets/acc-qualification-agent.png)
 
 * **Onderzoek van de Vooruitzichten**
 
@@ -44,11 +44,11 @@ De Account Qualification Agent (AQA) is de kern van de Verkoopkwalificatie. De A
 
 * **e-mails van het Plan van de Betrokkenheid**
 
-  Maak e-mailconcepten van een serviceplan die gepersonaliseerd zijn voor elke stap van een door BDR gedefinieerde outreach-cadence, zodat de volledige reeks gepersonaliseerd is
+  Maak e-mailconcepten van een serviceplan die gepersonaliseerd zijn voor elke stap van een door BDR gedefinieerde outreach-cadence, zodat de volledige reeks gepersonaliseerd is.
 
 ### Standaardgebruik
 
-Adobe AI de agenten gebruiken _natuurlijke taalvragen_, zo betekent het dat zij de zelfde taal in de tekstherinnering gebruiken aangezien u in het spreken met een persoon zou spreken. Hoe gedetailleerder u bent, hoe beter de resultaten.
+Adobe AI de agenten gebruiken _natuurlijke taalvragen_, zo betekent het dat zij de zelfde taal in de tekstherinnering gebruiken zoals u wanneer het spreken met een persoon. Hoe gedetailleerder u bent, hoe beter de resultaten.
 
 Gebruikend natuurlijke taal, kunt u de agent vragen om:
 
@@ -68,15 +68,15 @@ Overleg uw reis door uw herinneringen te verfijnen om de resultaten te krijgen u
 
 In dit venster worden alle leads weergegeven waartoe u toegang hebt. Het is een snelle controle op dingen, zoals de status van de lead en de laatste activiteit.
 
-![&#x200B; zie al uw lood in de lijst van Leads &#x200B;](assets/prospects.png)
+![ leidt lijst die loodstatus en laatste activiteit voor perspectiefbeheer toont ](assets/prospects.png)
 
-Klik het __ pictogram van de Filter ![&#x200B; pictogram van de Filter &#x200B;](../../assets/do-not-localize/icon_filter-outline.svg) &lbrace;om de getoonde lijst door loodstatus te filtreren.
+Klik het __ pictogram van de Filter ![ pictogram van de Filter ](../../assets/do-not-localize/icon_filter-outline.svg) {om de getoonde lijst door loodstatus te filtreren.
 
 ## Betrokkenheid
 
 Dit venster bevat details over gedefinieerde betrokkenheidsplannen.
 
-![&#x200B; De plannen van de Betrokkenheid &#x200B;](assets/engagement-plans.png)
+![ het dashboard van het Plan van de Betrokkenheid die plandetails, geselecteerde lood, en planningsmontages tonen ](assets/engagement-plans.png)
 
 Klik op **[!UICONTROL Create engagement plan]** om een nieuw betrokkenheidsplan te maken.
 
@@ -95,9 +95,9 @@ In dit deelvenster worden alle vergaderingen weergegeven die zijn ingesteld via 
 
 ## Chat, inbox
 
-In dit deelvenster worden al uw tekenthreads weergegeven.
+In dit deelvenster worden al uw chatthreads weergegeven.
 
-![&#x200B; Chat inbox &#x200B;](assets/chat-inbox.png)
+![ Comité die praatjedraden met contact en draadsamenvattingen voor verkoopautomatisering tonen ](assets/chat-inbox.png)
 
 U kunt met cliënten in wisselwerking staan, en samenvattingen voor het contact en de draad zien zodat u kunt snel weten waar u in de draad bent.
 
@@ -106,15 +106,15 @@ U kunt met cliënten in wisselwerking staan, en samenvattingen voor het contact 
 Met integratie, kan de Kwalificator van de Verkoop hefboomwerking CRMs en andere gegevensbronnen om klantenprofielen te verrijken en zich op verkoopactiviteiten te onttrekken:
 
 * Integreer uw e-mailpostvak om relevante inkomende e-mails bij te houden en reacties te genereren.
-* Lees en werk CRM-gegevens bij, zoals Salesforce of Microsoft® Dynamics, ZoomInfo of Buildwidth.
+* Lees en werk CRM-gegevens bij, zoals Salesforce of Microsoft® Dynamics, ZoomInfo of BuiltWith.
 
-![&#x200B; de Integratie van de Vooruitzichten van de Kwalificatiekwestie van de Verkoop &#x200B;](assets/outlook.png)
+![ de integratie van de Kwalificator van de Verkoop met Microsoft Outlook die e-mail en contactsamenvattingen toont ](assets/outlook.png)
 
 ### Een nieuwe integratie instellen
 
 Als u een nieuwe integratie wilt starten, klikt u op **[!UICONTROL Create integration]** rechtsboven.
 
-![&#x200B; de Details van de Integratie &#x200B;](assets/integration-details.png)
+![ de opstellingsvorm van de Integratie die URL, methode van HTTP, kopballen, en authentificatieopties toont ](assets/integration-details.png)
 
 Bepaal URL van de integratie en bepaal de te verzenden lading:
 
@@ -132,7 +132,7 @@ Bepaal URL van de integratie en bepaal de te verzenden lading:
 
 1. Stel waarden voor vertragen en cachegeheugen in de sectie **[!UICONTROL Payload configuration]** in.
    * Klik op het potloodpictogram.
-   * In de _dialoog van de Payload van het 0&rbrace; Deeg &lbrace;, deeg of ga uw JSON nuttige ladingsvoorwerp in._
+   * In de _dialoog van de Payload van het 0} Deeg {, deeg of ga uw JSON nuttige ladingsvoorwerp in._
 
       * **[!UICONTROL Request payload]** - Een JSON-object met gegevens die naar de integratiesite moeten worden verzonden.
       * **[!UICONTROL Response payload]** - De gegevensstructuur die u verwacht te worden geretourneerd.
@@ -141,13 +141,13 @@ Bepaal URL van de integratie en bepaal de te verzenden lading:
 
 Klik op **[!UICONTROL Save as draft]** als de verbindingsinstellingen geldig zijn.
 
-Wanneer u weer op de hoofdtabel van _[!UICONTROL Integrations]_&#x200B;staat, selecteert u de integratie en klikt u op **[!UICONTROL Activate]**&#x200B;om de integratie actief te maken. Klik op **[!UICONTROL Save as draft]**&#x200B;als u het bestand niet kunt activeren.
+Wanneer u weer op de hoofdtabel van _[!UICONTROL Integrations]_staat, selecteert u de integratie en klikt u op **[!UICONTROL Activate]**om de integratie actief te maken. Klik op **[!UICONTROL Save as draft]**als u het bestand niet kunt activeren.
 
 #### Toegang beheren
 
 U kunt de toegang tot gebruikers en het soort gegevens beheren dat met verschillende gebruikersgroepen wordt gedeeld.
 
-Klik op **[!UICONTROL Manage access]** om het dialoogvenster _[!UICONTROL Manage Access]_&#x200B;te openen.
+Klik op **[!UICONTROL Manage access]** om het dialoogvenster _[!UICONTROL Manage Access]_te openen.
 
 Deze dialoog maakt een lijst van alle Etiketten die voor uw organisatie worden gevestigd. Selecteer de labels die u op deze integratie wilt toepassen.
 
@@ -165,13 +165,13 @@ De representatieve instellingen geven informatie over uzelf op, zoals persoonlij
 
 Op het tabblad **[!UICONTROL Details]** voert u informatie over uzelf in:
 
-![&#x200B; de montages van de Details van de Kwalificatie van de Verkoop &#x200B;](assets/details.png)
+![ het lusje van Details die persoonlijke informatie, e-mail, en de montages van de praatjebeschikbaarheid voor vertegenwoordigers tonen ](assets/details.png)
 
 ### E-mailinstellingen
 
 Stel op het tabblad **[!UICONTROL Email settings]** uw e-mailverbindingen in.
 
-![&#x200B; E-mailmontages &#x200B;](assets/email-settings.png)
+![ lusje dat van e-mailmontages toont de opties van de e-mailverbinding en de configuratie van de e-mailhandtekening ](assets/email-settings.png)
 
 * **[!UICONTROL Email connections]** - Klik **[!UICONTROL Connect]** en volg de Microsoft-aanmeldprocedure.
 
@@ -181,7 +181,7 @@ Stel op het tabblad **[!UICONTROL Email settings]** uw e-mailverbindingen in.
 
 Stel op het tabblad **[!UICONTROL Calendar settings]** uw tijdzone en beschikbaarheid in.
 
-![&#x200B; montages van de Kalender &#x200B;](assets/calendar-settings.png)
+![ lusje van de montages van de Kalender die tijdzone en beschikbaarheidsopties tonen ](assets/calendar-settings.png)
 
 * **[!UICONTROL Calendar connection]** - Klik **[!UICONTROL Connect]** en volg de Microsoft-aanmeldingsprocedure om uw kalender te integreren.
 
@@ -193,11 +193,11 @@ Stel op het tabblad **[!UICONTROL Calendar settings]** uw tijdzone en beschikbaa
 
 Stel op het tabblad **[!UICONTROL Chat settings]** de beschikbaarheid van Live chat in voor de tijdzone.
 
-![&#x200B; montages van het Praatje &#x200B;](assets/chat-settings.png)
+![ de montageslusje van het Praatje voor het vormen van timezone en levende praatjebeschikbaarheid ](assets/chat-settings.png)
 
 ## Representatief beheer
 
-In het deelvenster _[!UICONTROL Representative management]_&#x200B;worden de gedefinieerde vertegenwoordigers en hun kalenderstatus weergegeven.
+In het deelvenster _[!UICONTROL Representative management]_worden de gedefinieerde vertegenwoordigers en hun kalenderstatus weergegeven.
 
 ## Vergaderprestaties
 
@@ -205,7 +205,7 @@ In dit deelvenster vindt u analyses van voltooide vergaderingen.
 
 ## De Chrome-insteekmodule instellen
 
-De AI HulpChrome insteekmodule is beschikbaar op de [&#x200B; Opslag van Google &#x200B;](https://chromewebstore.google.com/detail/ai-assistant/hancbabllcmckehonngbdkhilocpdfji?authuser=0&hl=en).
+De AI HulpChrome insteekmodule is beschikbaar op de [ Opslag van Google ](https://chromewebstore.google.com/detail/ai-assistant/hancbabllcmckehonngbdkhilocpdfji?authuser=0&hl=en).
 
 Wanneer de plug-in in Chrome is geïnstalleerd, wordt het Adobe-logo rechtsom in het midden weergegeven wanneer u zich op een geïntegreerde site bevindt:
 
@@ -223,4 +223,4 @@ Klik linksonder in de toepassing op **[!UICONTROL Edit]** om te bepalen welke pi
 
 De volgende video biedt een korte demonstratie van de Sales Qualifier en Account Qualification Agent.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476567?captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
