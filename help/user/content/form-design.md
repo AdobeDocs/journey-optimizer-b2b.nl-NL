@@ -5,7 +5,7 @@ feature: Forms, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Deze functie bevindt zich momenteel in een beperkte bètaversie"
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
 workflow-type: tm+mt
 source-wordcount: '1933'
 ht-degree: 0%
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Formulierontwerp
 
-Nadat u [&#x200B; een vorm &#x200B;](./forms.md#create-forms) creeert, opent de visuele ontwerpruimte een ontwerp met een standaardbasisvormdefinitie. Klik in het deelvenster _[!UICONTROL Summary]_&#x200B;aan de rechterkant op **[!UICONTROL Edit form]**&#x200B;en gebruik de visuele ontwerpruimte om de formulieropmaak en veldcomponenten te definiëren.
+Nadat u [ een vorm ](./forms.md#create-forms) creeert, opent de visuele ontwerpruimte een ontwerp met een standaardbasisvormdefinitie. Klik in het deelvenster _[!UICONTROL Summary]_aan de rechterkant op **[!UICONTROL Edit form]**en gebruik de visuele ontwerpruimte om de formulieropmaak en veldcomponenten te definiëren.
 
-![&#x200B; heb toegang tot de vormenbibliotheek &#x200B;](./assets/form-new-design-space.png){width="700" zoomable="yes"}
+![ heb toegang tot de vormenbibliotheek ](./assets/form-new-design-space.png){width="700" zoomable="yes"}
 
 ## Velden
 
@@ -30,17 +30,17 @@ Gebruik de hulpmiddelen van het gebiedsontwerp om de reeks gebieden en lay-out t
 
 ### Veld toevoegen {#add-field}
 
-1. Sleep in het deelvenster _[!UICONTROL Components]_&#x200B;aan de linkerkant de inhoudcomponent **[!UICONTROL Field]**&#x200B;en zet deze neer op het canvas.
+1. Sleep in het deelvenster _[!UICONTROL Components]_aan de linkerkant de inhoudcomponent **[!UICONTROL Field]**en zet deze neer op het canvas.
 
-   ![&#x200B; voeg een gebiedscomponent aan de vorm &#x200B;](./assets/form-content-add-field.png){width="700" zoomable="yes"} toe
+   ![ voeg een gebiedscomponent aan de vorm ](./assets/form-content-add-field.png){width="700" zoomable="yes"} toe
 
 1. Klik op **[!UICONTROL Select field attribute]**.
 
-1. Selecteer in het dialoogvenster _[!UICONTROL Select field attribute]_&#x200B;het selectievakje voor het personenprofielkenmerk dat u voor het veld wilt gebruiken en klik op **[!UICONTROL Select]**.
+1. Selecteer in het dialoogvenster _[!UICONTROL Select field attribute]_het selectievakje voor het personenprofielkenmerk dat u voor het veld wilt gebruiken en klik op **[!UICONTROL Select]**.
 
-   De [&#x200B; XDM bedrijfsschema&#39;s &#x200B;](../data/field-mapping.md#xdm-business-person-attributes) bepalen de beschikbare attributen.  Alle aangepaste velden die zijn gedefinieerd voor uw Journey Optimizer B2B edition-exemplaar, zijn ook beschikbaar. Gebruik het tekstvak Zoeken om de lijst op naam te filteren of klik op het pictogram Filter om de lijst op schema/gegevenstype te filteren.
+   De [ XDM bedrijfsschema&#39;s ](../admin/field-mapping.md#xdm-business-person-attributes) bepalen de beschikbare attributen.  Alle aangepaste velden die zijn gedefinieerd voor uw Journey Optimizer B2B edition-exemplaar, zijn ook beschikbaar. Gebruik het tekstvak Zoeken om de lijst op naam te filteren of klik op het pictogram Filter om de lijst op schema/gegevenstype te filteren.
 
-   ![&#x200B; voeg een gebiedscomponent aan de vorm &#x200B;](./assets/form-field-select-attribute-filtered.png){width="700" zoomable="yes"} toe
+   ![ voeg een gebiedscomponent aan de vorm ](./assets/form-field-select-attribute-filtered.png){width="700" zoomable="yes"} toe
 
    Op het canvas wordt het standaardveldlabel voor het geselecteerde kenmerk gevuld op het canvas. De **[!UICONTROL Field details]** worden weergegeven in het deelvenster aan de rechterkant.
 
@@ -69,7 +69,7 @@ Gebruik de hulpmiddelen van het gebiedsontwerp om de reeks gebieden en lay-out t
 
 1. Afhankelijk van het geselecteerde veldtype stelt u de andere opties in voor het invoeren en valideren van velden:
 
-   ![&#x200B; vastgestelde opties voor het gebied volgens het geselecteerde gebiedstype &#x200B;](./assets//form-field-details-text-type.png){width="400" zoomable="yes"}
+   ![ vastgestelde opties voor het gebied volgens het geselecteerde gebiedstype ](./assets//form-field-details-text-type.png){width="400" zoomable="yes"}
 
    * **[!UICONTROL Placeholder]** - De plaatsaanduidingswaarde voor het veld die de bezoeker een voorbeeld geeft van wat er voor het veld wordt verwacht.
 
@@ -83,7 +83,7 @@ Gebruik de hulpmiddelen van het gebiedsontwerp om de reeks gebieden en lay-out t
 
    * **[!UICONTROL Default value]** - Gebruik deze optie om een standaardwaarde voor het veld op te geven.
 
-   * **[!UICONTROL Validation message]** - Gebruik deze optie om een validatiebericht voor het veld op te geven. Dit bericht wordt weergegeven als de bezoeker een ongeldige waarde voor het veld invoert. Het _[!UICONTROL Standard]_-bericht wordt standaard ingesteld. Kies **[!UICONTROL Custom]**&#x200B;en voer uw eigen bericht in.
+   * **[!UICONTROL Validation message]** - Gebruik deze optie om een validatiebericht voor het veld op te geven. Dit bericht wordt weergegeven als de bezoeker een ongeldige waarde voor het veld invoert. Het _[!UICONTROL Standard]_-bericht wordt standaard ingesteld. Kies **[!UICONTROL Custom]**en voer uw eigen bericht in.
 
    * **Max lengte** - ga het maximumaantal karakters in die in het gebied kunnen worden ingegaan.
 
@@ -93,7 +93,7 @@ Gebruik de hulpmiddelen van het gebiedsontwerp om de reeks gebieden en lay-out t
 
    * **laat inputmasker** toe - selecteer checkbox om input van uw bezoeker te beperken gebruikend een inputmasker. U wilt bezoekers bijvoorbeeld wellicht telefoonnummers invoeren in een specifieke notatie. Voer in het dialoogvenster het masker in met `9` voor een willekeurig getal, `a` voor een willekeurige letter en `*` voor een van beide. Klik op Opslaan om het opgegeven invoermasker in te schakelen.
 
-     ![&#x200B; bepaal een inputmasker voor het gebied &#x200B;](./assets/form-field-mask-input-dialog.png){width="500" zoomable="yes"}
+     ![ bepaal een inputmasker voor het gebied ](./assets/form-field-mask-input-dialog.png){width="500" zoomable="yes"}
 
 ### Veldstijl wijzigen {#field-styling}
 
@@ -101,15 +101,15 @@ Selecteer de tab **[!UICONTROL Styles]** in het rechterdeelvenster om de opmaak 
 
 * **[!UICONTROL Background]** - Schakel het selectievakje in om een achtergrondkleur voor het veld toe te passen. Wit is de standaardkleur. Klik op het vierkantje **[!UICONTROL Background color]** om de kleurkiezer voor de pop-upkleur te openen en een kleur voor de achtergrond van het veld te kiezen.
 
-  ![&#x200B; plaats de achtergrondstijlen voor het vormgebied &#x200B;](./assets/form-field-styles-background-color.png){width="600" zoomable="yes"}
+  ![ plaats de achtergrondstijlen voor het vormgebied ](./assets/form-field-styles-background-color.png){width="600" zoomable="yes"}
 
 * **[!UICONTROL Label]** - De labelopmaak bepaalt de visuele kenmerken van de tekst die naast het veld wordt weergegeven. Kies een boven- of zijlabelweergave ten opzichte van het veld. U kunt de tekengrootte, regelhoogte, tekststijl en tekstuitlijning instellen. Klik op het vierkantje **[!UICONTROL Font color]** om de kleurkiezer voor de pop-upkleur te openen en kies een kleur voor de labeltekst.
 
-  ![&#x200B; plaats de etiketstijlen voor het vormgebied &#x200B;](./assets/form-field-styles-label.png){width="600" zoomable="yes"}
+  ![ plaats de etiketstijlen voor het vormgebied ](./assets/form-field-styles-label.png){width="600" zoomable="yes"}
 
 * **[!UICONTROL Border]** - Klik op het vierkantje **[!UICONTROL Border color]** om de kleurkiezer voor de pop-upkleur te openen en een kleur voor de rand te kiezen. U kunt een rand voor het veld definiëren, inclusief de kleur en lijnbreedte. Schakel het selectievakje uit om de weergegeven veldrand te verwijderen. U kunt ook de randgrootte (pixelbreedte), stijl en straalinstelling voor de hoeken wijzigen.
 
-  ![&#x200B; plaats de grensstijlen voor het vormgebied &#x200B;](./assets/form-field-styles-border.png){width="600" zoomable="yes"}
+  ![ plaats de grensstijlen voor het vormgebied ](./assets/form-field-styles-border.png){width="600" zoomable="yes"}
 
 * **[!UICONTROL Size]** - Selecteer een formaatinstelling om de weergavebreedte voor het veld te bepalen. Kies _[!UICONTROL Full width]_,_[!UICONTROL Half width]_ of _[!UICONTROL Auto]_.
 
@@ -117,7 +117,7 @@ Selecteer de tab **[!UICONTROL Styles]** in het rechterdeelvenster om de opmaak 
 
 * **[!UICONTROL Padding]** - Stel opvulling (in pixels) in rond het veld. U kunt dezelfde marge op alle vier de zijden instellen of het selectievakje **[!UICONTROL Different padding for each side]** inschakelen om de horizontale en verticale marges afzonderlijk in te stellen.
 
-  ![&#x200B; plaats de grootte, de marge, en het opvullen stijlen voor het vormgebied &#x200B;](./assets/form-field-styles-size-margin-padding.png){width="600" zoomable="yes"}
+  ![ plaats de grootte, de marge, en het opvullen stijlen voor het vormgebied ](./assets/form-field-styles-size-margin-padding.png){width="600" zoomable="yes"}
 
 ### Velden opnieuw ordenen {#field-reorder}
 
@@ -125,15 +125,15 @@ U kunt formuliervelden rechtstreeks in de visuele werkruimte verplaatsen. Klik h
 
 Voeg structurele componenten aan het formulier toe en verplaats velden naar kolommen om ze te groeperen en de indeling te wijzigen. Klik het _hulpmiddel van de Beweging_ op de linkerrand van de geselecteerde kolomcomponent en sleep het aan een nieuwe plaats binnen de vorm.
 
-![&#x200B; de gebieden van de beweging in de vorm en gebruik structurele componenten voor groepering en lay-out &#x200B;](./assets/form-field-move-tool.png){width="500"}
+![ de gebieden van de beweging in de vorm en gebruik structurele componenten voor groepering en lay-out ](./assets/form-field-move-tool.png){width="500"}
 
 ### Een veld verwijderen of dupliceren {#field-delete-duplicate}
 
-Klik het _pictogram van de Schrapping_ ( ![&#x200B; pictogram van de Schrapping &#x200B;](../assets/do-not-localize/icon-delete.svg)) in de toolbar of het juiste paneel om een geselecteerd gebied te schrappen. Klik op **[!UICONTROL Delete]** in het bevestigingsdialoogvenster.
+Klik het _pictogram van de Schrapping_ ( ![ pictogram van de Schrapping ](../assets/do-not-localize/icon-delete.svg)) in de toolbar of het juiste paneel om een geselecteerd gebied te schrappen. Klik op **[!UICONTROL Delete]** in het bevestigingsdialoogvenster.
 
-Klik het _Dubbele_ pictogram ( ![&#x200B; Dupliceer pictogram &#x200B;](../assets/do-not-localize/icon-duplicate.svg)) in de toolbar of het juiste paneel om een geselecteerd gebied te dupliceren. Het nieuwe veld wordt net onder het oorspronkelijke veld weergegeven. Klik op **[!UICONTROL Select field attribute]** om het kenmerk voor het veld in te stellen. Stel het veldtype, de details en de stijlen naar wens in.
+Klik het _Dubbele_ pictogram ( ![ Dupliceer pictogram ](../assets/do-not-localize/icon-duplicate.svg)) in de toolbar of het juiste paneel om een geselecteerd gebied te dupliceren. Het nieuwe veld wordt net onder het oorspronkelijke veld weergegeven. Klik op **[!UICONTROL Select field attribute]** om het kenmerk voor het veld in te stellen. Stel het veldtype, de details en de stijlen naar wens in.
 
-![&#x200B; schrapt en dupliceert pictogrammen voor vormgebieden &#x200B;](./assets/form-field-delete-duplicate.png){width="600" zoomable="yes"}
+![ schrapt en dupliceert pictogrammen voor vormgebieden ](./assets/form-field-delete-duplicate.png){width="600" zoomable="yes"}
 
 ## Verzenden, knop
 
@@ -141,9 +141,9 @@ De verzendknop (voettekstveld) maakt standaard deel uit van het formulier en kan
 
 ### De knopinhoud bewerken {#button-content}
 
-Wijzig de tekst in het veld _[!UICONTROL Content]_&#x200B;terwijl de tab **[!UICONTROL Button text]**&#x200B;in het rechterdeelvenster wordt weergegeven. De knopgrootte wordt aangepast aan de lengte van de tekst.
+Wijzig de tekst in het veld _[!UICONTROL Content]_terwijl de tab **[!UICONTROL Button text]**in het rechterdeelvenster wordt weergegeven. De knopgrootte wordt aangepast aan de lengte van de tekst.
 
-![&#x200B; Verandering de knooptekst in de vorm &#x200B;](./assets//form-field-button-text.png){width="600" zoomable="yes"}
+![ Verandering de knooptekst in de vorm ](./assets//form-field-button-text.png){width="600" zoomable="yes"}
 
 ### De verzendknop opmaken {#button-styles}
 
@@ -151,7 +151,7 @@ Selecteer de tab **[!UICONTROL Styles]** in het rechterdeelvenster om de opmaak 
 
 * **[!UICONTROL Background]** - Schakel het selectievakje in om een achtergrondkleur voor de knop toe te passen. Blauw is de standaardkleur. Klik op het vierkantje **[!UICONTROL Background color]** om de kleurkiezer voor de pop-upkleur te openen en een kleur voor de achtergrond van de knop te kiezen.
 
-  ![&#x200B; plaats de achtergrondstijlen voor de vormknoop &#x200B;](./assets/form-button-styles-background-color.png){width="600" zoomable="yes"}
+  ![ plaats de achtergrondstijlen voor de vormknoop ](./assets/form-button-styles-background-color.png){width="600" zoomable="yes"}
 
 * **[!UICONTROL Label]** - De labelopmaak bepaalt de visuele kenmerken van de tekst in de knop. U kunt de tekengrootte, regelhoogte, tekststijl en tekstuitlijning instellen. Klik op het vierkantje **[!UICONTROL Font color]** om de kleurkiezer voor de pop-upkleur te openen en kies een kleur voor de labeltekst.
 
@@ -159,7 +159,7 @@ Selecteer de tab **[!UICONTROL Styles]** in het rechterdeelvenster om de opmaak 
 
 * **[!UICONTROL Size]** - Selecteer een grootte die de vertoningsbreedte voor de knoop plaatst te bepalen. Kies _[!UICONTROL Full width]_,_[!UICONTROL Half width]_ of _[!UICONTROL Auto]_. De opvulling wordt aangepast aan de instellingen voor grootte en uitlijning.
 
-  ![&#x200B; plaats het etiket, de grens, en de formaatstijlen voor de vormknoop &#x200B;](./assets/form-button-styles-label-border-size.png){width="600" zoomable="yes"}
+  ![ plaats het etiket, de grens, en de formaatstijlen voor de vormknoop ](./assets/form-button-styles-label-border-size.png){width="600" zoomable="yes"}
 
 * **[!UICONTROL Button Alignment]** - wanneer u a _Halve breedte_ of _Auto_ grootte voor de knoop kiest, plaats de groepering bij verlaten, recht, of centrum. De opvulling wordt aangepast aan de instellingen voor grootte en uitlijning.
 
@@ -167,13 +167,13 @@ Selecteer de tab **[!UICONTROL Styles]** in het rechterdeelvenster om de opmaak 
 
 * **[!UICONTROL Padding]** - Stel opvulling (in pixels) in rond het veld. U kunt dezelfde marge op alle vier de zijden instellen of het selectievakje **[!UICONTROL Different padding for each side]** inschakelen om de horizontale en verticale marges afzonderlijk in te stellen. De opvulling wordt aangepast als u de instellingen voor grootte en uitlijning wijzigt.
 
-  ![&#x200B; plaats de groepering, de marge, en het opvullen stijlen voor de vormknoop &#x200B;](./assets/form-button-styles-alignment-margin-padding.png){width="600" zoomable="yes"}
+  ![ plaats de groepering, de marge, en het opvullen stijlen voor de vormknoop ](./assets/form-button-styles-alignment-margin-padding.png){width="600" zoomable="yes"}
 
 ## Formulierstijl {#form-styling}
 
-U kunt stijlen voor het formuliergebied wijzigen wanneer u buiten de structuur- of formuliercomponenten klikt. De vormcomponenten (gebieden en knoop) erven de _1&rbrace; stijlen van het Lichaam &lbrace;bepaald de top-level stijlen, tenzij andere stijlen op het gebied of knoop/footer niveau worden bepaald._
+U kunt stijlen voor het formuliergebied wijzigen wanneer u buiten de structuur- of formuliercomponenten klikt. De vormcomponenten (gebieden en knoop) erven de _1} stijlen van het Lichaam {bepaald de top-level stijlen, tenzij andere stijlen op het gebied of knoop/footer niveau worden bepaald._
 
-![&#x200B; plaats de top-level stijlen voor het vormlichaam &#x200B;](./assets/form-body-styles.png){width="600" zoomable="yes"}
+![ plaats de top-level stijlen voor het vormlichaam ](./assets/form-body-styles.png){width="600" zoomable="yes"}
 
 ### CSS-stijlen
 
@@ -183,7 +183,7 @@ _Een aangepaste CSS voor het formulier definiëren :_
 
 1. Klik op **[!UICONTROL View CSS]** in het rechterdeelvenster om de CSS-code te bekijken.
 
-   ![&#x200B; plaats de achtergrondkleuren voor de vorm &#x200B;](./assets/form-body-styles-view-css.png){width="450" zoomable="yes"}
+   ![ plaats de achtergrondkleuren voor de vorm ](./assets/form-body-styles-view-css.png){width="450" zoomable="yes"}
 
 1. Selecteer de CSS-code in het schuifvenster en kopieer deze naar het klembord.
 
@@ -195,7 +195,7 @@ _Een aangepaste CSS voor het formulier definiëren :_
 
 1. Plak de CSS-code in het venster.
 
-   ![&#x200B; plaats de achtergrondkleuren voor de vorm &#x200B;](./assets/form-body-styles-custom-css.png){width="450" zoomable="yes"}
+   ![ plaats de achtergrondkleuren voor de vorm ](./assets/form-body-styles-custom-css.png){width="450" zoomable="yes"}
 
    U kunt de geplakte tekst in dit venster bewerken.
 
@@ -209,7 +209,7 @@ Wijzig de instellingen in het rechtervenster om de weergave voor het hele formul
 
 * **[!UICONTROL Viewport background]** - Schakel het selectievakje in om een achtergrondkleur toe te passen op alle formuliercomponenten. De standaardwaarde is geen kleur (overerven van de buitenste achtergrond). Klik op het kleurvakje om de kleurkiezer voor de pop-upkleur te openen en kies een kleur voor de structuurcomponenten van het formulier.
 
-  ![&#x200B; plaats de achtergrondkleuren voor de vorm &#x200B;](./assets/form-body-styles-background-colors.png){width="600" zoomable="yes"}
+  ![ plaats de achtergrondkleuren voor de vorm ](./assets/form-body-styles-background-colors.png){width="600" zoomable="yes"}
 
 * **[!UICONTROL Text]** - Kies een **[!UICONTROL Font family]** voor het formulier, dat invloed heeft op de labels, de tip en de plaatsaanduidingstekst voor formuliervelden. Het heeft ook invloed op de standaardtekst van de verzendknop.
 
@@ -217,4 +217,4 @@ Wijzig de instellingen in het rechtervenster om de weergave voor het hele formul
 
 * **[!UICONTROL Margin]** - Stel marges (in pixels) in rond de formuliercomponenten. U kunt dezelfde marge op alle vier de zijden instellen of het selectievakje **[!UICONTROL Different margin for each side]** inschakelen om de horizontale en verticale marges afzonderlijk in te stellen.
 
-  ![&#x200B; plaats de tekst, de grootte, en de marges voor de vorm &#x200B;](./assets/form-body-styles-text-size-margin.png){width="600" zoomable="yes"}
+  ![ plaats de tekst, de grootte, en de marges voor de vorm ](./assets/form-body-styles-text-size-margin.png){width="600" zoomable="yes"}
