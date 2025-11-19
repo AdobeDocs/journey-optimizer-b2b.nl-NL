@@ -4,16 +4,16 @@ description: 'Blader naar, beheer en gebruik Journey Optimizer B2B edition-midde
 feature: Assets, Content
 role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: ddc0c68c5d2fb3c1260100bb4686bcff16aafdff
+source-git-commit: 1c5a08b293db9287d03b103d794cc17a1c186af0
 workflow-type: tm+mt
-source-wordcount: '1662'
+source-wordcount: '1660'
 ht-degree: 0%
 
 ---
 
 # Werken met interne afbeeldingselementen
 
-De interne opslagplaats voor afbeeldingselementen is de standaardbron voor het ontwerpen van inhoud en u kunt de beschikbare middelen eenvoudig beheren en gebruiken om inhoud te ontwerpen die uw accountreizen ondersteunt.
+De interne opslagplaats voor afbeeldingselementen is de standaardbron voor afbeeldingselementen en u kunt de beschikbare middelen eenvoudig beheren en gebruiken om inhoud te ontwerpen die uw accountreizen ondersteunt.
 
 U hebt de volledige reeks functies voor middelenbeheer in Journey Optimizer B2B edition. Deze functies omvatten:
 
@@ -26,7 +26,7 @@ U hebt de volledige reeks functies voor middelenbeheer in Journey Optimizer B2B 
 
 Ga naar de linkernavigatie en klik op **[!UICONTROL Content Management]** > **[!UICONTROL Assets]** om interne elementen in Journey Optimizer B2B edition te openen. Met deze handeling wordt een aanbiedingspagina geopend met alle vermelde elementen.
 
-![&#x200B; doorblader beeldactiva &#x200B;](assets/assets-list-page.png){width="800" zoomable="yes"}
+![ doorblader beeldactiva ](assets/assets-list-page.png){width="800" zoomable="yes"}
 
 * Om de activa door omslag te bekijken, open de structuur door _te klikken toont Omslagen_ pictogram op de hoogste linkerzijde.
 
@@ -34,7 +34,7 @@ Ga naar de linkernavigatie en klik op **[!UICONTROL Content Management]** > **[!
 
 * Als u naar een afbeeldingselement in de geselecteerde map wilt zoeken, voert u een tekstreeks in de zoekbalk in.
 
-* Om de kolommen aan te passen die in de lijst worden getoond, klik _aanpassen lijst_ pictogram ( ![&#x200B; pas lijst &#x200B;](../assets/do-not-localize/icon-column-settings.svg)) op het hoogste recht aan.
+* Om de kolommen aan te passen die in de lijst worden getoond, klik _aanpassen lijst_ pictogram ( ![ pas lijst ](../assets/do-not-localize/icon-column-settings.svg)) op het hoogste recht aan.
 
   Selecteer de kolommen die u in de lijst wilt weergeven en klik op **[!UICONTROL Apply]** .
 
@@ -42,7 +42,7 @@ Ga naar de linkernavigatie en klik op **[!UICONTROL Content Management]** > **[!
 
 Klik op de naam van een element om de pagina met elementdetails te openen.
 
-![&#x200B; de activadetails van de Toegang &#x200B;](assets/assets-details.png){width="700" zoomable="yes"}
+![ de activadetails van de Toegang ](assets/assets-details.png){width="700" zoomable="yes"}
 
 ## Middel weergeven dat wordt gebruikt door verwijzingen
 
@@ -56,7 +56,7 @@ Het paneel toont de verwijzingen door categorie: _E-mail_, _E-mailmalplaatje_, o
 
 Als u op de koppeling klikt, wordt u naar het bijbehorende e-mailbericht, de bijbehorende e-mailsjabloon of het bijbehorende fragment geleid waar het element wordt gebruikt.
 
-![&#x200B; Mening de inhoudspunten die de activa &#x200B;](assets/assets-used-by.png){width="700" zoomable="yes"} gebruiken
+![ Mening de inhoudspunten die de activa ](assets/assets-used-by.png){width="700" zoomable="yes"} gebruiken
 
 ## Elementen toevoegen
 
@@ -64,11 +64,11 @@ Van de _Assets_ lijstpagina, kunt u beeldactiva aan de de activabewaarplaats van
 
 1. Klik op **[!UICONTROL Add Assets]** rechtsboven.
 
-1. Sleep in het dialoogvenster _[!UICONTROL Add assets]_&#x200B;een of meer bestanden van uw systeem naar het bestandsvak.
+1. Sleep in het dialoogvenster _[!UICONTROL Add assets]_een of meer bestanden van uw systeem naar het bestandsvak.
 
-   ![&#x200B; voegt activa aan een omslag &#x200B;](./assets/assets-add-dialog.png){width="500"} toe
+   ![ voegt activa aan een omslag ](./assets/assets-add-dialog.png){width="500"} toe
 
-   U kunt ook op de koppeling _[!UICONTROL Select a file from your computer]_&#x200B;klikken om bestanden te zoeken en te selecteren met uw lokale bestandssysteem.
+   U kunt ook op de koppeling _[!UICONTROL Select a file from your computer]_klikken om bestanden te zoeken en te selecteren met uw lokale bestandssysteem.
 
    U kunt elementen uploaden vanaf uw lokale systeem met maximaal 10 bestanden tegelijk. De maximale bestandsgrootte is 100 MB.
 
@@ -88,11 +88,11 @@ Gebruik een van de volgende methoden om een element te verwijderen:
 
 * Ga naar de elementdetails, klik op **[!UICONTROL ... More]** rechtsboven en kies **[!UICONTROL Delete]** uit de opties.
 
-  ![&#x200B; de acties van de Toegang voor de activa &#x200B;](./assets/assets-details-more-menu.png){width="450" zoomable="yes"}
+  ![ de acties van de Toegang voor de activa ](./assets/assets-details-more-menu.png){width="450" zoomable="yes"}
 
-* Voor de _[!UICONTROL Assets]_&#x200B;lijstpagina, klik het_ Meer _pictogram (**[!UICONTROL ...]**) naast het activa punt en kies **[!UICONTROL Delete]**&#x200B;van de opties.
+* Voor de _[!UICONTROL Assets]_lijstpagina, klik het_ Meer _pictogram (**[!UICONTROL ...]**) naast het activa punt en kies **[!UICONTROL Delete]**van de opties.
 
-  ![&#x200B; de acties van de Toegang voor de activa &#x200B;](./assets/assets-list-file-more-menu.png){width="600" zoomable="yes"}
+  ![ de acties van de Toegang voor de activa ](./assets/assets-list-file-more-menu.png){width="600" zoomable="yes"}
 
 Met deze handeling wordt een bevestigingsvenster geopend. U kunt het proces afbreken door op **[!UICONTROL Cancel]** te klikken of op **[!UICONTROL Delete]** te klikken om het verwijderen te bevestigen.
 
@@ -104,11 +104,11 @@ Gebruik een van de volgende methoden om een element dat zich bevindt in de _[!UI
 
 * Ga naar de elementdetails, klik op **[!UICONTROL ... More]** rechtsboven en kies **[!UICONTROL Replace]** uit de opties.
 
-* Voor de _[!UICONTROL Assets]_&#x200B;lijstpagina, klik het_ Meer _pictogram (**[!UICONTROL ...]**) naast het activa punt en kies **[!UICONTROL Replace]**&#x200B;van de opties.
+* Voor de _[!UICONTROL Assets]_lijstpagina, klik het_ Meer _pictogram (**[!UICONTROL ...]**) naast het activa punt en kies **[!UICONTROL Replace]**van de opties.
 
-Sleep het vervangende bestand van uw systeem naar het bestandsvak in het dialoogvenster _[!UICONTROL Replace asset]_. U kunt ook op de koppeling&#x200B;_[!UICONTROL Select a file from your computer]_ klikken om een bestand te selecteren met uw lokale bestandssysteem. (Als u meerdere bestanden op uw lokale systeem selecteert, wordt het eerste geselecteerde bestand gebruikt voor de vervanging.)
+Sleep het vervangende bestand van uw systeem naar het bestandsvak in het dialoogvenster _[!UICONTROL Replace asset]_. U kunt ook op de koppeling_[!UICONTROL Select a file from your computer]_ klikken om een bestand te selecteren met uw lokale bestandssysteem. (Als u meerdere bestanden op uw lokale systeem selecteert, wordt het eerste geselecteerde bestand gebruikt voor de vervanging.)
 
-![&#x200B; vervang activadialoog &#x200B;](./assets/assets-replace-dialog.png){width="500"}
+![ vervang activadialoog ](./assets/assets-replace-dialog.png){width="500"}
 
 Klik op **[!UICONTROL Replace]** om door te gaan. U kunt het proces afbreken door op **[!UICONTROL Cancel]** te klikken.
 
@@ -120,7 +120,7 @@ U kunt een element op een van de volgende manieren downloaden:
 
 * Ga naar de elementdetails en klik op **[!UICONTROL Download]** rechtsboven.
 
-* Voor de _[!UICONTROL Assets]_&#x200B;lijstpagina, klik de_ Ellipse _(**[!UICONTROL ...]**) naast het activa punt en kies **[!UICONTROL Download]**&#x200B;van de opties.
+* Voor de _[!UICONTROL Assets]_lijstpagina, klik de_ Ellipse _(**[!UICONTROL ...]**) naast het activa punt en kies **[!UICONTROL Download]**van de opties.
 
 Klik in het bevestigingsvenster op **[!UICONTROL Download]** om het element naar uw lokale systeem te downloaden. U kunt het proces afbreken door op **[!UICONTROL Cancel]** te klikken.
 
@@ -128,7 +128,7 @@ Klik in het bevestigingsvenster op **[!UICONTROL Download]** om het element naar
 
 Selecteer op de aanbiedingspagina (_[!UICONTROL Content Management]_>_[!UICONTROL Assets]_ ) meerdere elementen tegelijk door elk selectievakje links van elkaar te selecteren. Onderaan wordt een berichtenbanner weergegeven wanneer u meerdere elementen selecteert.
 
-![&#x200B; Geselecteerde activa &#x200B;](./assets/assets-list-selected.png){width="700" zoomable="yes"}
+![ Geselecteerde activa ](./assets/assets-list-selected.png){width="700" zoomable="yes"}
 
 U kunt de volgende acties bulksgewijs uitvoeren voor geselecteerde elementen die zich bevinden in de _[!UICONTROL Journey Optimizer B2B Edition]_-gegevensopslagruimte:
 
@@ -136,11 +136,11 @@ U kunt de volgende acties bulksgewijs uitvoeren voor geselecteerde elementen die
 
 1. Klik op **[!UICONTROL Move]** in de selectiebanner.
 
-   Deze actie opent de _[!UICONTROL Move Assets]_&#x200B;dialoog, die van de namen van de geselecteerde activa een lijst maakt en u toestaat om de_ doel _omslag te selecteren waar u deze activa wilt bewegen.
+   Deze actie opent de _[!UICONTROL Move Assets]_dialoog, die van de namen van de geselecteerde activa een lijst maakt en u toestaat om de_ doel _omslag te selecteren waar u deze activa wilt bewegen.
 
 1. Selecteer een map.
 
-   Het pad naast _[!UICONTROL Selected assets will move to:]_&#x200B;geeft de wijziging weer.
+   Het pad naast _[!UICONTROL Selected assets will move to:]_geeft de wijziging weer.
 
 1. Klik op **[!UICONTROL Move]**.
 
@@ -162,13 +162,13 @@ U kunt de volgende acties bulksgewijs uitvoeren voor geselecteerde elementen die
 
 ## Een map maken
 
-1. Klik in de aanbiedingspagina van _[!UICONTROL Assets]_&#x200B;op **[!UICONTROL Create Folder]**&#x200B;rechtsboven.
+1. Klik in de aanbiedingspagina van _[!UICONTROL Assets]_op **[!UICONTROL Create Folder]**rechtsboven.
 
 1. Voer in het dialoogvenster de mapnaam in en selecteer de doelmap (bovenliggende map) voor de nieuwe map.
 
    Mapnamen moeten uniek zijn, mogen maximaal 100 tekens bevatten en mogen geen speciale tekens bevatten, zoals `;` , `:` , `\` , `|` .
 
-   ![&#x200B; creeer omslagdialoog &#x200B;](./assets/assets-create-folder-dialog.png){width="500"}
+   ![ creeer omslagdialoog ](./assets/assets-create-folder-dialog.png){width="500"}
 
 1. Klik op **[!UICONTROL Add]**.
 
@@ -176,7 +176,7 @@ U kunt de volgende acties bulksgewijs uitvoeren voor geselecteerde elementen die
 
 U kunt acties toepassen op een map of middelen in de map. Klik het _Meer_ pictogram (**..**) naast de omslag om de acties te openbaren die u op het kunt toepassen.
 
-![&#x200B; pas acties op een omslag of activa binnen de omslag toe &#x200B;](./assets/assets-folder-menu-options.png){width="700" zoomable="yes"}
+![ pas acties op een omslag of activa binnen de omslag toe ](./assets/assets-folder-menu-options.png){width="700" zoomable="yes"}
 
 U kunt de volgende acties op mapniveau uitvoeren:
 
@@ -254,15 +254,15 @@ Als u een map archiveert, kunnen de bestanden in de map niet worden doorzocht. G
 
 Assets kan worden gebruikt in de e-mail-, e-mailsjabloon- of visuele fragmentauthoring van uw team vanuit de visuele inhoudeditor.
 
-Van de visuele ontwerpruimte, selecteer het _Assets_ pictogram ( ![&#x200B; het pictogram van Assets &#x200B;](../../assets/do-not-localize/icon-assets-me.svg)) op linkerzijbalk.
+Van de visuele ontwerpruimte, selecteer het _Assets_ pictogram ( ![ het pictogram van Assets ](../../assets/do-not-localize/icon-assets-me.svg)) op linkerzijbalk.
 
 Met deze actie wijzigt u het deelvenster Gereedschappen waarin een lijst met beschikbare elementen wordt weergegeven. Er zijn meerdere methoden om een afbeeldingselement toe te voegen aan het visuele canvas:
 
 * Sleep een afbeeldingsminiatuur vanuit de linkernavigatie en zet deze neer.
 
-* Voeg een afbeeldingscomponent toe aan het canvas en klik op **[!UICONTROL Select Asset]** in de component om het dialoogvenster _[!UICONTROL Select Asset]_&#x200B;te openen.
+* Voeg een afbeeldingscomponent toe aan het canvas en klik op **[!UICONTROL Select Asset]** in de component om het dialoogvenster _[!UICONTROL Select Asset]_te openen.
 
-  ![&#x200B; Gebruik de filters en het onderzoeksgebied om het middel te vinden dat u &#x200B;](./assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"} nodig hebt
+  ![ Gebruik de filters en het onderzoeksgebied om het middel te vinden dat u ](./assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"} nodig hebt
 
   In het dialoogvenster kunt u een afbeelding kiezen in de geselecteerde opslagplaats. Klik op **[!UICONTROL Select]** om het element toe te voegen.
 
@@ -272,4 +272,4 @@ Met deze actie wijzigt u het deelvenster Gereedschappen waarin een lijst met bes
 
    * Ga tekst op het _gebied van het Onderzoek_ in om de getoonde punten voor een gelijke van de activanaam te filtreren.
 
-  ![&#x200B; Gebruik de filters en het onderzoeksgebied om het middel te vinden dat u &#x200B;](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"} nodig hebt
+  ![ Gebruik de filters en het onderzoeksgebied om het middel te vinden dat u ](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"} nodig hebt
