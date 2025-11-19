@@ -4,7 +4,7 @@ description: Actieknooppunten voor account- en personenacties configureren - e-m
 feature: Account Journeys
 role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: 559725b4a1c789085fa241b9a19dc666a457c77b
+source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
 workflow-type: tm+mt
 source-wordcount: '1401'
 ht-degree: 0%
@@ -174,7 +174,7 @@ Gebruik deze actie om personenprofielen aan a [ toe te voegen die groep ](../buy
 
 +++[!UICONTROL Change Data Value]
 
-Gebruik deze actie om de waarde van de attributen van het a [ personenprofiel ](../data/field-mapping.md#xdm-business-person-attributes) te veranderen. Selecteer het kenmerk en stel de nieuwe waarde in.
+Gebruik deze actie om de waarde van de attributen van het a [ personenprofiel ](../admin/field-mapping.md#xdm-business-person-attributes) te veranderen. Selecteer het kenmerk en stel de nieuwe waarde in.
 
 ![ neem een actie - de Waarde van Gegevens van de Verandering ](./assets/node-action-change-data-value.png){width="300"}
 
