@@ -1,16 +1,16 @@
 ---
-title: Journey Build Agent for B2B
+title: Journey Build Agent B2B
 description: Leer hoe u de door AI aangedreven Journey Build Agent kunt gebruiken om snel robuuste reizen te maken
 feature: Account Journeys, AI Assistant
 role: User
-source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
+source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
 
-# Journey Build Agent for B2B
+# Journey Build Agent B2B
 
 De Agent B2B van de Bouwer van de reis is een agent AI die u bij reisontwerp/verwezenlijking, uitvoering, en optimalisering door automatisering en gegeven-gedreven aanbevelingen bijstaat. De agent van de Bouwer van de reis voor B2B automatiseert en vermindert de tijd die wordt vereist om verwezenlijking van nieuwe B2B reizen uit te voeren.
 
