@@ -1,9 +1,9 @@
 ---
 user-guide-title: Documentatie voor de B2B-editie van Journey Optimizer
 user-guide-description: Meer informatie over Adobe Journey Optimizer B2B Edition en hoe u deze kunt gebruiken om account- en inkoopgroeptrajecten te orkestreren met behulp van ingebouwde generatieve AI en toonaangevende automatisering.
-source-git-commit: f80f0ac96f730833473e0a3e17035dac0fb5f3ce
+source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '361'
 ht-degree: 17%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 17%
    + [AI-assistent gebruiken](./ai-assistant/use-ai-assistant.md)
    + Medewerkers {#ai-agents}
       + [Audience-agent](./agents/audience-agent-b2b.md)
-      + [Journey Build Agent](./agents/journey-agent.md)
+      + [Journey Build Agent B2B](./agents/journey-agent.md)
       + [Verkoopkwalificatie](./agents/sales-qualifier.md)
 + Accountreizen {#account-journeys}
    + [Overzicht](./journeys/journey-overview.md)
@@ -68,7 +68,6 @@ ht-degree: 17%
    + Accountlijsten {#account-lists}
       + [Overzicht](./accounts/account-lists.md)
       + [Gebruik tijdens reizen en programma&#39;s](./accounts/account-lists-journeys.md)
-   + [XDM-velden](./data/field-mapping.md)
    + Verkoopervaring {#sales-experience}
       + [Accountgegevens](./accounts/account-details.md)
       + [Gegevens van groep kopen](./buying-groups/buying-group-details.md)
@@ -128,8 +127,11 @@ ht-degree: 17%
    + [Overzicht van rekeningreizen](./dashboards/journeys-dashboard.md)
 + Beheer {#admin}
    + [Bestuur](./admin/governance.md)
+   + [Configuratie Marketo-handelingen](./admin/marketo-actions-connect.md)
    + [Persona-toewijzing](./admin/persona-mapping.md)
    + [Gebruikersbeheer](./admin/user-management.md)
+   + [XDM-velden](./admin/field-mapping.md)
+   + [XDM-veldselectie](admin/xdm-field-management.md)
    + Kanalen {#channels}
       + [E-mailconfiguraties](./admin/configure-channels-emails.md)
       + [SMS-configuraties](./admin/configure-channels-sms.md)
