@@ -4,8 +4,8 @@ description: 'Leer meer over Adobe Journey Optimizer B2B Edition: orkestreer acc
 exl-id: fdfbafdf-826f-44e9-bbb6-5e729d0e18ef
 source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '819'
+ht-degree: 6%
 
 ---
 
@@ -21,11 +21,11 @@ Bij het vergelijken van Adobe Journey Optimizer B2B edition met Marketo Engage e
 
 Adobe Journey Optimizer B2B edition gebruikt _Soorten van de Rekening_ en _Soorten publiek van Mensen_ van Adobe Experience Platform aan macht een rekeningsreis, die binnen van Marketo Engage loopt. Experience Platform is altijd de bron van de waarheid voor deze gegevens, maar alle uitvoering en verwerking van de rekeningreis gebeurt binnen de marketinginfrastructuur van Marketo Engage B2B. Het orchestration brengt gegevens terug naar Experience Platform in bijna real time door de bestaande Marketo Engage - Adobe Real-Time CDP B2B edition-bronconnector, die gegevenswijzigingen van Marketo Engage naar Experience Platform stroomt.
 
-![&#x200B; de architectuur van Gegevens op hoog niveau &#x200B;](./assets/high-level-data-architecture.png){width="500" zoomable="yes"}
+![ de architectuur van Gegevens op hoog niveau ](./assets/high-level-data-architecture.png){width="500" zoomable="yes"}
 
 >[!NOTE]
 >
->Controleer uw vergunningsrechten en de overeenkomstige [&#x200B; productbeschrijving &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} over prestatiesgaranties en statische beperkingen.
+>Controleer uw vergunningsrechten en de overeenkomstige [ productbeschrijving ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} over prestatiesgaranties en statische beperkingen.
 
 ### Abonnementsmodel
 
