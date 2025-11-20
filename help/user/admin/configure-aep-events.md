@@ -1,285 +1,130 @@
 ---
-title: Experience Platform-gebeurtenissen configureren
-description: Configureer Experience Platform-gebeurtenisdefinities om real-time accountreizen in Journey Optimizer B2B edition te activeren op basis van klantgedrag.
+title: Ervingsgebeurtenissen en velden selecteren
+description: Selecteer Experience Platform-gebeurtenissen en -velden om real-time beslissingen te activeren tijdens reizen op basis van klantgedrag.
 feature: Setup, Integrations
 role: Admin
+badgeBeta: label="Beta" type="informative" tooltip="Deze functie bevindt zich momenteel in een bètaversie"
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
+source-git-commit: 046d3648c5e482a69719d0095c297a766dd852ea
 workflow-type: tm+mt
-source-wordcount: '1708'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
 
-# Experience Platform-gebeurtenisdefinities configureren
+# Erviteitsgebeurtenissen en velden selecteren
 
-De beheerders kunnen op Adobe Experience Platform (AEP)-Gebaseerde gebeurtenisdefinities vormen, die Marketers toelaten om rekeningsreizen tot stand te brengen die aan [&#x200B; de Gebeurtenissen van de Ervaring van AEP &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} reageren.
+De beheerders kunnen specifieke [ Gebeurtenissen van de Ervaring van AEP ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} en hun bijbehorende gebieden binnen het de unieschema van de Gebeurtenis van de Ervaring selecteren. Na selectie, kunnen de gebruikers beslissingsregels vormen om aan die Gebeurtenissen van de Ervaring te luisteren om dynamische en gerichte campagneacties toe te laten die op dichtbij gebeurtenisgegevens in real time worden gebaseerd.
 
-![&#x200B; Video &#x200B;](../../assets/do-not-localize/icon-video.svg){width="30"} [&#x200B; bekijk het videooverzicht &#x200B;](#overview-video)
+<!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
+Het gebruik van ervaringen met AEP tijdens reizen is een proces in twee stappen:
 
-Het gebruik van AEP Experience Events voor reizen in rekening is een proces in twee stappen:
+1. Een beheerder [ voegt de ervaringsgebeurtenissen en gebieden van AEP ](#add-an-event) in de configuraties van B2B edition van Journey Optimizer toe.
 
-1. Een AEP-gebeurtenisdefinitie maken en publiceren.
+2. In een reis, voegt een teller a _toe luistert naar een gebeurtenis_ knoop en [ selecteert een Gebeurtenis van de Ervaring ](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
 
-2. In een rekeningsreis, voeg a _toe luistert naar een gebeurtenis_ knoop en [&#x200B; selecteert een de gebeurtenisdefinitie van AEP als personengebeurtenis &#x200B;](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
+   * Selecteert de gebeurtenis die in de knoop moet worden gebruikt.
+   * Hiermee selecteert u de velden die u als restricties wilt gebruiken.
 
-Voor elke gebeurtenisdefinitie zijn de volgende Experience Platform-invoer vereist:
+>[!BEGINSHADEBOX]
 
-* **_Schema_** - XDM schema dat de de gegevensstructuur van de Gebeurtenis van de Ervaring bepaalt. De functie moet zijn gebaseerd op een Experience Event en moet voor het profiel zijn ingeschakeld.
+## Richtlijnen en beperkingen
 
-  >[!NOTE]
-  >
-  >Om ervoor te zorgen dat de benodigde schema&#39;s worden bepaald, coördineer met uw team van de Techniek. [&#x200B; Creërend XDM- schema&#39;s &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/schema/composition){target="_blank"} is een complex proces dat door gegevensingenieurs wordt uitgevoerd die op gebruiksgevalvereisten over uw organisatie worden gebaseerd.
+Houd rekening met het volgende wanneer u gebeurtenissen selecteert om uw organisatorische doelen te bereiken:
 
-* **_de types van Gebeurtenis_** - XDM ExperienceEvent eventType (maximum van 20 per gebeurtenisdefinitie).
+* U kunt maximaal 50 gebeurtenissen en maximaal 100 velden per gebeurtenis selecteren.
 
-* **_Gebieden_** - XDM gebieden die in het schema (maximum van 20 per gebeurtenisdefinitie) aanwezig zijn
+* De reizen kunnen aan de Gebeurtenissen van de Ervaring luisteren die gebruikend Experience Platform het stromen mogelijkheden, zoals Web SDK of HTTP API worden opgenomen.
 
-* **_Naam_** - een unieke naam voor de gebeurtenisdefinitie.
+* U kunt de Gebeurtenissen van de Ervaring voor beslissingsdoeleinden binnen een reis gebruiken, maar zij worden niet behouden. Daarom kunt u geen historisch overzicht van Experience Events gebruiken binnen Journey Optimizer B2B edition.
 
-* **_Beschrijving_** - een beschrijving voor de gebeurtenisdefinitie.
+* Wanneer u een Experience Event gebruikt en de reis publiceert, kunt u meer velden toevoegen, maar u kunt geen velden verwijderen die eerder waren geselecteerd.
 
-## Beperkingen en geleiders
+* U kunt verwijzen naar een Experience Event tijdens meerdere reizen of één keer gebruiken binnen dezelfde reis.
 
-Houd rekening met het volgende wanneer u gebeurtenisdefinities maakt en beheert om aan uw organisatorische doelstellingen te voldoen:
+>[!ENDSHADEBOX]
 
-* Journey Optimizer B2B edition ondersteunt maximaal 50 gebeurtenisdefinities.
-
-* Accountreizen kunnen luisteren naar AEP Experience Events die worden ingeslikt met behulp van AEP-streamingmogelijkheden, zoals Web SDK of HTTP API.
-
-* Slechts één AEP-gebeurtenisdefinitie kan een gecombineerd schema en een set gebeurtenistypen gebruiken. Wanneer u een gebeurtenisdefinitie maakt met een schema (bijvoorbeeld `My Schema` ) en een gebeurtenistype (bijvoorbeeld `Web Webpagedetails Page Views` ), kan geen enkele andere gebeurtenisdefinitie de combinatie van `My Schema` en `Web Webpagedetails Page Views` gebruiken.
-
-* Een gebeurtenisdefinitie kan in meer dan één rekeningsreis worden gebruikt.
-
-* AEP Experience Events kunnen worden gebruikt voor beslissingsdoeleinden binnen een accountreis, maar worden niet bewaard. Daarom kan er in Journey Optimizer B2B edition geen gebruik worden gemaakt van de historische staat van dienst van AEP Experience Events.
-
-* De beperkingen voor _datum van activiteit_ en _minimumaantal tijden_ worden niet gesteund.
-
-* Nadat een gebeurtenisdefinitie is gepubliceerd, kunnen het schema en de naam niet meer worden gewijzigd. U kunt echter gebeurtenistypen en velden toevoegen door een conceptversie te maken en opnieuw te publiceren.
-
-* Definities van gebeurtenissen die worden gebruikt bij gepubliceerde reizen kunnen niet worden verwijderd.
-
-## Gebeurtenisdefinities openen en beheren
+## Experience Events beheren
 
 1. Kies in de linkernavigatie **[!UICONTROL Administration]** > **[!UICONTROL Configurations]** .
 
-1. Klik op **[!UICONTROL Events]** in het tussenliggende deelvenster om de lijst met gebeurtenisdefinities weer te geven.
+1. Klik op **[!UICONTROL XDM Classes]** in het tussenliggende deelvenster en klik vervolgens op de tab **[!UICONTROL Events]** om de lijst met beschikbare gebeurtenissen weer te geven.
 
-   Van deze pagina, kunt u [&#x200B; creëren &#x200B;](#create-an-event-definition) [&#x200B; publiceren, &#x200B;](#publish-an-event-defintion) uitgeven [, en &#x200B;](#edit-an-event-definition) schrappen [&#x200B; gebeurtenisdefinities.](#delete-an-event-definition)
+   ![ heb toegang tot de geselecteerde Gebeurtenissen van de Ervaring ](./assets/configurations-xdm-classes-events.png){width="800" zoomable="yes"}
 
-   ![&#x200B; heb toegang tot de gevormde gebeurtenisdefinities &#x200B;](./assets/configuration-events-defs-list.png){width="800" zoomable="yes"}
+   De tabel wordt gesorteerd op de kolom _[!UICONTROL Last update]_. De meest recente bijgewerkte gebeurtenissen worden standaard bovenaan weergegeven.
 
-   De lijst wordt gesorteerd door de _[!UICONTROL Modified]_&#x200B;kolom, met de onlangs bijgewerkte definities bij de bovenkant als gebrek.<!-- Click the column title to change between ascending and descending.-->
+   Van deze pagina, kunt u [ selecteren en ](#add-an-event) [ gebeurtenissen voor gebruik in reizen uitgeven.](#edit-an-event)
 
-1. Klik op de naam om de details voor een gebeurtenisdefinitie te openen.
+   Klik op de naam van een gebeurtenis om de gegevens voor een geselecteerde gebeurtenis te openen.
 
-### Status van gebeurtenisdefinitie en levenscyclus
+### De gebeurtenislijst filteren
 
-In de lijst _[!UICONTROL Event definitions]_&#x200B;geeft de kolom **[!UICONTROL Status]**&#x200B;de huidige status voor elke definitie aan. De status bepaalt de beschikbaarheid ervan voor gebruik in accountreizen en de wijzigingen die u daarin kunt aanbrengen.
+Typ tekst in het veld _[!UICONTROL Search]_om de weergegeven gebeurtenissen te filteren op een overeenkomst met de naam van de gebeurtenis.
 
-| Status | Beschrijving |
-| -------------------- | ----------- |
-| Concept | Wanneer u een gebeurtenisdefinitie maakt, bevindt deze zich in de conceptstatus. Het blijft in deze status totdat u het publiceert voor gebruik tijdens reizen op account. Beschikbare handelingen: <br/><li>Alle details bewerken<li>Publiceren<li>Verwijderen |
-| Gepubliceerd | Wanneer u een gebeurtenisdefinitie publiceert, wordt deze beschikbaar voor gebruik in accountreizen. De details kunnen niet worden gewijzigd. Beschikbare handelingen: <br/><li>Beschikbaar voor _luistert naar een gebeurtenis_ wegknooppunt<li>Conceptversie maken<li>Verwijderen (indien niet in gebruik) |
-| Gepubliceerd (met concept) | Wanneer u een concept maakt op basis van een gepubliceerde gebeurtenisdefinitie, blijft de gepubliceerde versie beschikbaar voor gebruik tijdens reizen van accounts en kan de conceptversie worden gewijzigd. Als u de conceptversie publiceert, vervangt deze de huidige gepubliceerde versie en wordt de gebeurtenisdefinitie bijgewerkt voor accountreizen waar deze nog niet is uitgevoerd. Beschikbare handelingen: <br/><li>Alle details bewerken<li>Conceptversie publiceren<li>Conceptversie negeren<li>Verwijderen (indien niet in gebruik) |
+![ filter de lijst van geselecteerde gebeurtenissen door naam ](./assets/configurations-xdm-classes-events-search.png){width="600" zoomable="yes"}
 
-![&#x200B; Levenscyclus van de fragmentstatus &#x200B;](../assets/status-lifecycle-diagram.png){zoomable="yes"}
+### Een gebeurtenis toevoegen
 
-### De lijst met gebeurtenisdefinities filteren
+Om een Gebeurtenis van de Ervaring beschikbaar te maken voor a _luistert naar een gebeurtenis_ knoop in een reis, selecteer de gebeurtenis en de gesteunde gebieden.
 
-Als u naar een gebeurtenisdefinitie op naam wilt zoeken, voert u een tekenreeks in op de zoekbalk voor een overeenkomst.
+>[!NOTE]
+>
+>In de bètaversie kunt u geen gebeurtenissen uit de lijst verwijderen. Zorg ervoor dat elke gebeurtenis die u toevoegt, bedoeld is voor gebruik door uw organisatie.
 
-![&#x200B; filter de getoonde gebeurtenisdefinities &#x200B;](./assets/configuration-events-defs-list-filtered.png){width="700" zoomable="yes"}
+1. Klik op **[!UICONTROL Select experience event]** rechtsboven.
 
-## Een gebeurtenisdefinitie maken
+   De pagina met gebeurtenisdetails wordt weergegeven. Op deze pagina kunt u het gebeurtenistype en de velden kiezen.
 
-1. Kies in de linkernavigatie **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** .
+   ![ de details van de Gebeurtenis voor een nieuwe gebeurtenis ](./assets/configurations-xdm-classes-events-select-new.png){width="700" zoomable="yes"}
 
-1. Klik op **[!UICONTROL Events]** in het tussenliggende deelvenster om de lijst met gebeurtenisdefinities weer te geven.
+1. Kies het gebeurtenistype.
 
-1. Klik op **[!UICONTROL Create event]** rechtsboven.
+   * Klik op **[!UICONTROL Select event type]**.
 
-1. Voer de waarden **[!UICONTROL Name]** (vereist) en **[!UICONTROL Description]** (optioneel) in.
+   * Kies het gebeurtenistype in het dialoogvenster.
 
-   ![&#x200B; creeer gebeurtenisdefinitie &#x200B;](./assets/configuration-events-create.png){width="600" zoomable="yes"}
+     Gebruik het veld _[!UICONTROL Search]_om de weergegeven lijst op naam te filteren. Gebruik de schuifregelaar **[!UICONTROL Only show selected fields]**om de huidige selecties te bekijken.
 
-1. Stel de **[!UICONTROL Schema]** in die u voor de gebeurtenisdefinitie wilt gebruiken.
+     ![ Uitgezochte dialoog van het gebeurtenistype ](./assets/configurations-xdm-classes-select-event-type-dialog.png){width="450" zoomable="yes"}
 
-   Het schema dat u selecteert, bepaalt welke velden beschikbaar zijn om aan de definitie toe te voegen. De gebieden die u toevoegt zijn dan beschikbaar als beperkingen voor a _luisteren naar een gebeurtenis_ knoop in een rekeningsreis.
-
-   * Klik op **[!UICONTROL Select schema]**.
-   * Selecteer in het dialoogvenster een schema in de lijst met op gebeurtenissen gebaseerde schema&#39;s voor Experience.
    * Klik op **[!UICONTROL Select]**.
 
-   ![&#x200B; selecteer het schema voor de gebeurtenisdefinitie &#x200B;](./assets/configuration-events-create-select-schema.png){width="600" zoomable="yes"}
-
-1. Selecteer de **[!UICONTROL Event types]** die u voor de gebeurtenisdefinitie wilt gebruiken.
-
-   De [&#x200B; gebeurtenistypen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"} die u selecteert bepalen de gebeurtenissen die als beperkingen voor a _beschikbaar zijn luisteren naar een gebeurtenis_ knoop in een rekeningsreis.
-
-   * Klik op **[!UICONTROL Select event types]**.
-   * Selecteer in het dialoogvenster een of meer gebeurtenistypen in de lijst (maximaal 20).
-   * Klik op **[!UICONTROL Select]**.
-
-   ![&#x200B; selecteer de gebeurtenistypes voor de gebeurtenisdefinitie &#x200B;](./assets/configuration-events-create-select-event-types.png){width="600" zoomable="yes"}
-
-1. Selecteer de **[!UICONTROL Fields]** die u voor de gebeurtenisdefinitie wilt gebruiken.
-
-   De gebieden die u selecteert bepalen de beperkingen die beschikbaar zijn wanneer de gebeurtenis voor a _wordt gebruikt luisteren naar een gebeurtenis_ knoop in een rekeningsreis.
-
-   >[!NOTE]
-   >
-   >Het veld `eventType` is vereist en wordt automatisch geselecteerd.
+1. Kies een of meer velden voor het gebeurtenistype.
 
    * Klik op **[!UICONTROL Select fields]**.
-   * Selecteer in het dialoogvenster een of meer velden in de lijst (maximaal 20).
+
+   * Selecteer in het dialoogvenster de velden die u wilt gebruiken als beperkingen voor overeenkomende gebeurtenissen.
+
+     Gebruik het veld _[!UICONTROL Search]_om de weergegeven lijst op naam te filteren. Gebruik de schuifregelaar **[!UICONTROL Only show selected fields]**om de huidige selecties te bekijken.
+
+     ![ Uitgezochte gebieden dialoog ](./assets/configurations-xdm-classes-select-fields-dialog.png){width="450" zoomable="yes"}
+
    * Klik op **[!UICONTROL Select]**.
 
-   ![&#x200B; selecteer de gebieden voor de gebeurtenisdefinitie &#x200B;](./assets/configuration-events-create-select-fields.png){width="600" zoomable="yes"}
+1. Klik op **[!UICONTROL Save]** op de pagina met gebeurtenisdetails.
 
-1. Klik op **[!UICONTROL Create]** wanneer het schema, de gebeurtenistypen en de velden zijn voltooid.
+De opgeslagen gebeurtenis wordt weergegeven in de lijst op het tabblad _[!UICONTROL Events]_.
 
-   Op verwezenlijking, wordt de lijstpagina getoond en de nieuwe gebeurtenis is bij de bovenkant van de lijst met de status van het a _Ontwerp_.
+### Een gebeurtenis bewerken
 
-   ![&#x200B; de nieuwe definitie van de ontwerpgebeurtenis is vermeld op de pagina &#x200B;](./assets/configuration-events-create-new-draft.png){width="700" zoomable="yes"}
+Bewerk de gebeurtenisdetails om de velden te wijzigen.
 
-## Een gebeurtenisdefinitie publiceren
+1. Klik de gebeurtenisnaam, of klik _Meer menu_ ( **..**) pictogram en kies **[!UICONTROL Edit]**.
 
-Wanneer u ervan overtuigd bent dat de definitie van de conceptgebeurtenis naar wens is, kunt u deze publiceren. De gepubliceerde gebeurtenisdefinitie is dan beschikbaar voor gebruik in rekeningreizen. Nadat de gebeurtenisdefinitie is gepubliceerd, kunt u een conceptversie maken als u er wijzigingen in wilt aanbrengen. U kunt het schema echter niet wijzigen en u kunt alleen gebeurtenistypen en velden toevoegen (u kunt deze niet verwijderen).
+   ![ klik het Meer menupictogram ](./assets/configurations-xdm-classes-events-more-menu.png){width="500" zoomable="yes"}
 
-1. Kies in de linkernavigatie **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** .
+1. Klik op **[!UICONTROL Edit fields]** om meer velden toe te voegen of bestaande selecties uit het dialoogvenster _[!UICONTROL Select fields]_te verwijderen.
 
-1. Klik op **[!UICONTROL Events]** in het tussenliggende deelvenster om de lijst met gebeurtenisdefinities weer te geven.
+1. Klik op **[!UICONTROL Select]** om de selecties op te slaan.
 
-1. Klik in de lijst _[!UICONTROL Event definitions]_&#x200B;op de naam van de definitie van de conceptgebeurtenis om de detailpagina te openen.
+### Een gebeurtenis verwijderen
 
-   ![&#x200B; open de definitie van de ontwerp gebeurtenis &#x200B;](./assets/configuration-events-publish-draft.png){width="600" zoomable="yes"}
-
-   Controleer indien nodig de instellingen voordat u publiceert. U kunt [&#x200B; het ontwerp &#x200B;](#edit-an-event-definition) uitgeven als het niet aan uw vereisten voldoet.
-
-1. Klik op **[!UICONTROL Publish]** rechtsboven.
-
-1. Klik op **[!UICONTROL Publish]** in het bevestigingsdialoogvenster.
-
-   ![&#x200B; publiceer gebeurtenisdialoog &#x200B;](./assets/configuration-events-publish-dialog.png){width="300"}
-
-   De status voor de gebeurtenisdefinitie verandert in _Gepubliceerd_ en het is nu [&#x200B; beschikbaar voor gebruik in rekeningsreizen &#x200B;](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
-
-   ![&#x200B; de status van de gebeurtenisdefinitie wordt bijgewerkt op de pagina &#x200B;](./assets/configuration-events-create-new-draft.png){width="700" zoomable="yes"}
-
-## Een gebeurtenisdefinitie bewerken
-
-1. Kies in de linkernavigatie **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** .
-
-1. Klik op **[!UICONTROL Events]** in het tussenliggende deelvenster om de lijst met gebeurtenisdefinities weer te geven.
-
-   Bewerkingen aan een gebeurtenisdefinitie zijn afhankelijk van de huidige status:
-
-   * Wanneer een gebeurtenisdefinitie in _Laag_ status is, kunt u om het even welk van zijn details uitgeven.
-   * Wanneer een gebeurtenisdefinitie in _Gepubliceerde_ status is, kunt u niet het uitgeven. U kunt een conceptversie maken die bewerkbaar is en vervolgens de gepubliceerde versie vervangen.
-   * Wanneer een gebeurtenisdefinitie in _Gepubliceerd (met ontwerp)_ status is, kunt u de ontwerp versie veranderen (geef de beschrijving uit, en voeg gebeurtenistypen en gebieden toe).
-
-   ![&#x200B; de nieuwe definitie van de ontwerpgebeurtenis is vermeld op de pagina &#x200B;](./assets/configuration-events-create-new-draft.png){width="700" zoomable="yes"}
-
-1. Klik op de aanbiedingspagina van _[!UICONTROL Event definitions]_&#x200B;op de naam van de gebeurtenisdefinitie om deze te openen.
-
-Voer de stappen uit op basis van de status:
-
->[!BEGINTABS]
-
->[!TAB  Ontwerp ]
-
-1. Wijzig desgewenst de definitiedetails van de gebeurtenis.
-
-   ![&#x200B; Details voor een gebeurtenisdefinitie met de status van het Ontwerp &#x200B;](./assets/configuration-events-publish-draft.png){width="600" zoomable="yes"}
-
-   Volg die zelfde richtlijnen die voor [&#x200B; worden gebruikt die een gebeurtenisdefinitie &#x200B;](#create-an-event-definition) creëren.
-
-   De wijzigingen worden automatisch opgeslagen in het concept.
-
-1. Wanneer de gebeurtenisdefinitie aan uw criteria voldoet en u deze beschikbaar wilt stellen voor gebruik van accountreizen, klikt u op **[!UICONTROL Publish]** .
-
-1. Klik op **[!UICONTROL Publish]** in het bevestigingsdialoogvenster.
-
-   De status voor de gebeurtenisdefinitie verandert in _Gepubliceerd_, en het is nu beschikbaar voor gebruik in rekeningsreizen.
-
->[!TAB  Gepubliceerd ]
-
-1. Als u de gebeurtenisdefinitie wilt bijwerken, klikt u op **[!UICONTROL Create draft version]** rechtsboven.
-
-   ![&#x200B; Gepubliceerde details van de gebeurtenisdefinitie &#x200B;](./assets/configuration-events-published-details.png){width="600" zoomable="yes"}
-
-1. Klik in het bevestigingsdialoogvenster op **[!UICONTROL Create draft]** om de conceptversie te openen.
-
-   ![&#x200B; creeer de dialoog van de ontwerp versie &#x200B;](./assets/configuration-events-published-create-draft-dialog.png){width="300"}
-
-   Deze actie leidt tot de ontwerp versie en keert aan de lijstpagina terug, waar de gebeurtenisdefinitie nu in _Gepubliceerd (met ontwerp)_ status is.
-
-1. Klik op de naam van de gebeurtenisdefinitie om deze te openen.
-
-   Voor a _Gepubliceerd (met ontwerp)_ gebeurtenisdefinitie, wordt het _[!UICONTROL Published]_&#x200B;versielusje geselecteerd als gebrek.
-
-1. Selecteer het tabblad **[!UICONTROL Draft]** Versie.
-
-   ![&#x200B; selecteer de ontwerp versie om de details uit te geven &#x200B;](./assets/configuration-events-published-draft-tab.png){width="600" zoomable="yes"}
-
-1. Wijzig desgewenst de bewerkbare details (**[!UICONTROL Description]**, **[!UICONTROL Event types]** en **[!UICONTROL Fields]** ).
-
-   Volg die zelfde richtlijnen die voor [&#x200B; worden gebruikt die een gebeurtenisdefinitie &#x200B;](#create-an-event-definition) creëren.
-
-   De wijzigingen worden automatisch opgeslagen in het concept.
-
-1. Klik op **[!UICONTROL Publish Draft]** als de definitie van de conceptgebeurtenis voldoet aan uw criteria en u de huidige gepubliceerde versie wilt vervangen voor gebruik tijdens een accountreis.
-
-1. Klik op **[!UICONTROL Publish]** in het bevestigingsdialoogvenster.
-
-   ![&#x200B; publiceer ontwerp dialoog &#x200B;](./assets/configuration-events-publish-draft-dialog.png){width="300"}
-
-   Wanneer u de conceptversie publiceert, vervangt deze de huidige gepubliceerde versie en wordt de gebeurtenisdefinitie bijgewerkt voor accountreizen waar deze al in gebruik is maar nog niet is uitgevoerd.
-
->[!TAB  Gepubliceerd (met ontwerp) ]
-
-Wanneer u a _Gepubliceerde (met ontwerp)_ gebeurtenisdefinitie opent, wordt het _[!UICONTROL Published]_&#x200B;versielusje geselecteerd als gebrek.
-
-1. Selecteer het tabblad **[!UICONTROL Draft]** Versie.
-
-   ![&#x200B; selecteer de ontwerp versie om de details uit te geven &#x200B;](./assets/configuration-events-published-draft-tab.png){width="600" zoomable="yes"}
-
-1. Wijzig desgewenst de bewerkbare details (**[!UICONTROL Description]**, **[!UICONTROL Event types]** en **[!UICONTROL Fields]** ).
-
-   Volg de zelfde richtlijnen die voor [&#x200B; worden gebruikt die een gebeurtenisdefinitie &#x200B;](#create-an-event-definition) creëren.
-
-   De wijzigingen worden automatisch opgeslagen in het concept.
-
-1. Klik op **[!UICONTROL Publish Draft]** als de definitie van de conceptgebeurtenis voldoet aan uw criteria en u de huidige gepubliceerde versie wilt vervangen voor gebruik tijdens een accountreis.
-
-1. Klik op **[!UICONTROL Publish]** in het bevestigingsdialoogvenster.
-
-   ![&#x200B; publiceer ontwerp dialoog &#x200B;](./assets/configuration-events-publish-draft-dialog.png){width="300"}
-
-   Wanneer u de conceptversie publiceert, vervangt deze de huidige gepubliceerde versie en wordt de gebeurtenisdefinitie bijgewerkt voor accountreizen waar deze al in gebruik is maar nog niet is uitgevoerd.
-
->[!ENDTABS]
-
-## Een gebeurtenisdefinitie verwijderen
-
-U kunt een gebeurtenisdefinitie verwijderen als deze niet wordt gebruikt door een gepubliceerde accountreis.
-
->[!CAUTION]
+>[!NOTE]
 >
->Wees voorzichtig met deze handeling. Het verwijderen van een gebeurtenisdefinitie kan niet ongedaan worden gemaakt.
+>Voor de Beta-versie van deze functie kunt u geen gebeurtenis verwijderen uit de lijst met geselecteerde gebeurtenissen. De gebeurtenis wordt verwijderd voor de GA-release.
 
-1. Kies in de linkernavigatie **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** .
+<!-- ## Overview video
 
-1. Klik op **[!UICONTROL Events]** in het tussenliggende deelvenster om de lijst met gebeurtenisdefinities weer te geven.
-
-1. Bepaal de plaats van de gebeurtenisdefinitie in lijst en klik _Schrapping_ ( ![&#x200B; pictogram van de Schrapping &#x200B;](../assets/do-not-localize/icon-delete.svg)) pictogram rechts van de naam.
-
-1. Klik op **[!UICONTROL Delete]** in het bevestigingsdialoogvenster.
-
-   ![&#x200B; Bevestig om de gebeurtenisdefinitie &#x200B;](./assets/configuration-events-delete-confirm-dialog.png){width="300"} te schrappen
-
-## Video over overzicht
-
->[!VIDEO](https://video.tv.adobe.com/v/3448689/?learn=on&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on) -->
