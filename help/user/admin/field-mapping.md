@@ -17,7 +17,7 @@ Accountpublieksgegevens worden opgeslagen als kenmerken in zowel de XDM Business
 
 >[!TIP]
 >
->U kunt de klassen van de Zakelijke Persoon XDM en van de Zakelijke Rekening XDM in een vele-aan-vele verhouding modelleren door de klasse van de Verhouding van de Person van de Onderneming XDM te gebruiken XDM zoals die in de [&#x200B; documentatie XDM van Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"} wordt beschreven.
+>U kunt de klassen van de Zakelijke Persoon XDM en van de Zakelijke Rekening XDM in een vele-aan-vele verhouding modelleren door de klasse van de Verhouding van de Person van de Onderneming XDM te gebruiken XDM zoals die in de [&#x200B; documentatie XDM van Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"} wordt beschreven.
 
 >[!NOTE]
 >Data Mirror en relationele schema&#39;s zijn beschikbaar voor houders van een door Adobe Journey Optimizer geordende licentie voor campagnes. Ze zijn ook beschikbaar als een beperkte release voor Customer Journey Analytics-gebruikers, afhankelijk van uw licentie en functionaliteit. Neem contact op met uw Adobe-vertegenwoordiger voor toegang. Relationele schema&#39;s zijn ook beschikbaar als een beperkte release voor Adobe Journey Optimizer B2B edition.
@@ -89,7 +89,7 @@ Accountpublieksgegevens worden opgeslagen als kenmerken in zowel de XDM Business
 
 <!-- ## XDM Business Opportunity attributes
 
-Additionally, opportunity data is stored as attributes in the XDM Business Opportunity class, which can be associated with the XDM Business Account class through a many-to-one relationship, as described in the [Exerience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
+Additionally, opportunity data is stored as attributes in the XDM Business Opportunity class, which can be associated with the XDM Business Account class through a many-to-one relationship, as described in the [Exerience Platform documentation](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
 
 |[Property](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md){target="_blank"} |Display name |Journey Optimizer B2B display name |Data type |Description |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
