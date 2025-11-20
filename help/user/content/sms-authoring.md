@@ -15,23 +15,23 @@ ht-degree: 0%
 
 Met Adobe Journey Optimizer B2B edition kunt u SMS-berichten (text messages) naar uw klanten verzenden op hun mobiele apparaten. U kunt berichten in tekstformaat van de redacteur van SMS tot stand brengen, personaliseren en voorproef.
 
-Alvorens de berichten van SMS voor rekeningsreizen te creëren, zorg ervoor dat de [ dienstverlener van SMS ](../admin/configure-channels-sms.md) van de _[!UICONTROL Administrator]_montages wordt gevormd.
+Alvorens de berichten van SMS voor rekeningsreizen te creëren, zorg ervoor dat de [&#x200B; dienstverlener van SMS &#x200B;](../admin/configure-channels-sms.md) van de _[!UICONTROL Administrator]_&#x200B;montages wordt gevormd.
 
 ## Een SMS-actie toevoegen aan een accountreis
 
-U kunt tekstberichtenleveringen instellen tijdens een accountreis wanneer u een knooppunt _[!UICONTROL Take an action]_toevoegt en het volgende doet:
+U kunt tekstberichtenleveringen instellen tijdens een accountreis wanneer u een knooppunt _[!UICONTROL Take an action]_&#x200B;toevoegt en het volgende doet:
 
-1. Kies _[!UICONTROL Action on]_voor het doel **[!UICONTROL People]**.
+1. Kies _[!UICONTROL Action on]_&#x200B;voor het doel **[!UICONTROL People]**.
 
-1. Kies _[!UICONTROL Action on people]_bij **[!UICONTROL Send SMS]**.
+1. Kies _[!UICONTROL Action on people]_&#x200B;bij **[!UICONTROL Send SMS]**.
 
-   ![ neem een actie - verzend sms ](assets/journey-node-send-sms.png){width="800" zoomable="yes"}
+   ![&#x200B; neem een actie - verzend sms &#x200B;](assets/journey-node-send-sms.png){width="800" zoomable="yes"}
 
-1. Klik onder aan het deelvenster _[!UICONTROL Take an action]_op **[!UICONTROL Create SMS]**.
+1. Klik onder aan het deelvenster _[!UICONTROL Take an action]_&#x200B;op **[!UICONTROL Create SMS]**.
 
 1. Voer in het dialoogvenster een unieke **[!UICONTROL Name]** voor het SMS-bericht in.
 
-   ![ creeer nieuwe dialoog van SMS ](assets/create-new-sms.png){width="400"}
+   ![&#x200B; creeer nieuwe dialoog van SMS &#x200B;](assets/create-new-sms.png){width="400"}
 
 1. Klik op **[!UICONTROL Create]**.
 
@@ -49,13 +49,13 @@ Voer in het veld **[!UICONTROL Message]** de tekst in die u wilt verzenden.
 
 U kunt een bericht van maximaal 1600 karakters tot stand brengen, met elke 160 karakters die als één enkel SMS-bericht worden beschouwd.
 
-![ stel het bericht van SMS samen ](./assets/sms-message-compose.png){width="800" zoomable="yes"}
+![&#x200B; stel het bericht van SMS samen &#x200B;](./assets/sms-message-compose.png){width="800" zoomable="yes"}
 
 #### Het tekstbericht aanpassen
 
 1. Plaats uw curseur bij de plaats in het bericht waar u het verpersoonlijkingstoken wilt toevoegen.
 
-1. Klik _personaliseren_ pictogram ( ![ Persoonlijk pictogram ](../assets/do-not-localize/icon-personalize.svg)) rechts van het tekstberichtvakje.
+1. Klik _personaliseren_ pictogram ( ![&#x200B; Persoonlijk pictogram &#x200B;](../assets/do-not-localize/icon-personalize.svg)) rechts van het tekstberichtvakje.
 
    Het dialoogvenster biedt toegang tot de accounttokens, persoonlijke tokens en systeemtokens. Zowel standaard als aangepaste tokens zijn inbegrepen. U kunt de _bar van het Onderzoek_ gebruiken om van het teken de plaats te bepalen u wenst, of door de omslagboom te navigeren om het even welke tokens te vinden en te selecteren.
 
@@ -63,11 +63,11 @@ U kunt een bericht van maximaal 1600 karakters tot stand brengen, met elke 160 k
 
    Als u het teken met een reserve (gebrek wilt toevoegen dat in het geval verschijnt dat het gebied niet beschikbaar voor een lood) is, klik het _Meer_ pictogram ( **..**) en kies **[!UICONTROL Insert with fallback text]**.
 
-   ![ klik de ellipsen om een reserve voor het teken ](./assets/sms-message-personalize-ellipsis-fallback.png){width="700" zoomable="yes"} te gebruiken
+   ![&#x200B; klik de ellipsen om een reserve voor het teken &#x200B;](./assets/sms-message-personalize-ellipsis-fallback.png){width="700" zoomable="yes"} te gebruiken
 
-1. Voer in het dialoogvenster _[!UICONTROL Enter fallback value]_de tekst in die als fallback wordt weergegeven en klik op **[!UICONTROL Add]**.
+1. Voer in het dialoogvenster _[!UICONTROL Enter fallback value]_&#x200B;de tekst in die als fallback wordt weergegeven en klik op **[!UICONTROL Add]**.
 
-   ![ ga de reservetekst voor het teken ](./assets/sms-message-personalize-fallback-text.png){width="450"} in
+   ![&#x200B; ga de reservetekst voor het teken &#x200B;](./assets/sms-message-personalize-fallback-text.png){width="450"} in
 
 1. Wanneer uw personalisatietokens worden geplaatst, klik **[!UICONTROL Save]** om veranderingen te bewaren en aan de belangrijkste het auteurswerkruimte van SMS terug te keren.
 
@@ -75,7 +75,7 @@ U kunt een bericht van maximaal 1600 karakters tot stand brengen, met elke 160 k
 
 #### Koppelingen (URL&#39;s) toevoegen aan het tekstbericht
 
-1. Na het ingaan van uw berichttekst, klik het _pictogram van de Verbinding_ ( ![ pictogram van de Verbinding ](../assets/do-not-localize/icon-link.svg)) rechts van het tekstberichtvakje.
+1. Na het ingaan van uw berichttekst, klik het _pictogram van de Verbinding_ ( ![&#x200B; pictogram van de Verbinding &#x200B;](../assets/do-not-localize/icon-link.svg)) rechts van het tekstberichtvakje.
 
 1. Voer de **[!UICONTROL URL]** in voor de koppeling.
 <!--    
@@ -93,16 +93,16 @@ U kunt een bericht van maximaal 1600 karakters tot stand brengen, met elke 160 k
 
      >[!NOTE]
      >
-     >Wanneer u tekstspatiëring toestaat maar _[!UICONTROL Include mkt_tok]_uitschakelt, bevat de doel-URL na omleiding niet de parameter voor de `mkt_tok` querytekenreeks. Deze parameter wordt gebruikt door Marketo Engage landingspagina&#39;s en Munchkin om ervoor te zorgen dat het volgen van persoonactiviteiten (zoals wanneer een persoon van een e-mail afmeldt). Schakel deze optie alleen uit als de parameter problemen veroorzaakt op uw website.<br/>
-     >Voor meer informatie over het gebruiken van het volgen van Munchkin codes op uw website, verwijs naar de [ documentatie van Marketo Engage ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
+     >Wanneer u tekstspatiëring toestaat maar _[!UICONTROL Include mkt_tok]_&#x200B;uitschakelt, bevat de doel-URL na omleiding niet de parameter voor de `mkt_tok` querytekenreeks. Deze parameter wordt gebruikt door Marketo Engage landingspagina&#39;s en Munchkin om ervoor te zorgen dat het volgen van persoonactiviteiten (zoals wanneer een persoon van een e-mail afmeldt). Schakel deze optie alleen uit als de parameter problemen veroorzaakt op uw website.<br/>
+     >Voor meer informatie over het gebruiken van het volgen van Munchkin codes op uw website, verwijs naar de [&#x200B; documentatie van Marketo Engage &#x200B;](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
 
-   ![ voeg verbindingsdialoog voor SMS bericht toe ](./assets/sms-add-link-dialog.png){width="470"}
+   ![&#x200B; voeg verbindingsdialoog voor SMS bericht toe &#x200B;](./assets/sms-add-link-dialog.png){width="470"}
 
 1. Wanneer de koppelingsopties zijn voltooid, klikt u op **[!UICONTROL Add]** om de wijzigingen op te slaan en de URL-koppeling toe te voegen aan het SMS-bericht.
 
 ### De SMS-eigenschappen instellen
 
-1. Voer in de sectie _[!UICONTROL SMS properties]_een **[!UICONTROL Name]**(vereist, maximaal 100 tekens) en **[!UICONTROL Description]**(optioneel, maximaal 300 tekens) voor uw bericht in.
+1. Voer in de sectie _[!UICONTROL SMS properties]_&#x200B;een **[!UICONTROL Name]**(vereist, maximaal 100 tekens) en **[!UICONTROL Description]**(optioneel, maximaal 300 tekens) voor uw bericht in.
 
    Alpha, numerieke, speciale tekens zijn toegestaan voor deze velden. De volgende gereserveerde tekens zijn **niet toegestaan** : `\` , `/` , `:` , `*`, `?` , `"` , `<` , `>` en `|` .
 
@@ -111,13 +111,13 @@ U kunt een bericht van maximaal 1600 karakters tot stand brengen, met elke 160 k
    * Gebruik `Marketing` voor promotietekstberichten waarvoor toestemming van de gebruiker is vereist.
    * Gebruik `Transactional` voor niet-commerciële berichten, zoals orderbevestiging, wachtwoordherstelmeldingen of leveringsgegevens.
 
-1. Voor **[!UICONTROL SMS configuration]**, kies één van de vooraf bepaalde [ configuraties van SMS API ](../admin/configure-channels-sms.md#create-new-api-credentials-for-an-sms-service-provider).
+1. Voor **[!UICONTROL SMS configuration]**, kies één van de vooraf bepaalde [&#x200B; configuraties van SMS API &#x200B;](../admin/configure-channels-sms.md#create-new-api-credentials-for-an-sms-service-provider).
 
    Dit het plaatsen bepaalt welke de gatewaydienstverlener en rekening van SMS wordt gebruikt om het bericht te leveren.
 
 1. Voer de **[!UICONTROL Sender number]** &#x200B; in die u voor uw communicatie wilt gebruiken.
 
-   ![ het berichteigenschappen van SMS ](./assets/sms-properties.png){width="500" zoomable="yes"}
+   ![&#x200B; het berichteigenschappen van SMS &#x200B;](./assets/sms-properties.png){width="500" zoomable="yes"}
 
    Het nummer van de ontvanger wordt altijd toegewezen aan het veld `profile.mobilePhone.number` in Experience Platform.
 
@@ -136,7 +136,7 @@ Wanneer de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken
 
 1. Klik op **[!UICONTROL Simulate Content]** boven aan de werkruimte voor het schrijven van SMS.
 
-1. Klik op _[!UICONTROL Simulate Content]_op de pagina **[!UICONTROL Add People]**.
+1. Klik op _[!UICONTROL Simulate Content]_&#x200B;op de pagina **[!UICONTROL Add People]**.
 
 1. Gebruik de _Simulate Inhoud_ pagina om de lood te beheren die voor uw testprofiel worden gebruikt.
 
@@ -156,7 +156,7 @@ Wanneer de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken
 
    U kunt ook een lead selecteren in de kiezer boven de voorvertoningsruimte om de SMS-voorvertoning op de pagina voor de bijbehorende lead bij te werken.
 
-1. Als u de pagina _[!UICONTROL Simulate Content]_wilt afsluiten en wilt terugkeren naar de werkruimte voor het schrijven van SMS, klikt u op **[!UICONTROL Close]**rechtsboven.
+1. Als u de pagina _[!UICONTROL Simulate Content]_&#x200B;wilt afsluiten en wilt terugkeren naar de werkruimte voor het schrijven van SMS, klikt u op **[!UICONTROL Close]**&#x200B;rechtsboven.
 
 ## Beheer van SMS-toestemmingen
 

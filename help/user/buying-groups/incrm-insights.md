@@ -15,7 +15,7 @@ ht-degree: 0%
 
 In-CRM Insights is een webtoepassing die in Salesforce wordt geïntegreerd, zodat u rechtstreeks toegang hebt tot uw Journey Optimizer B2B edition-inkoopgroepen binnen Salesforce. Hiermee kunt u mogelijkheden voor meer betrokkenheid en verkoopmogelijkheden identificeren.
 
-De toepassing van de Inzichten In-CRM is beschikbaar in het [ pakket van de Inzichten van de Verkoop van Marketo ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/marketo-sales-insight/msi-for-salesforce/installation/install-marketo-sales-insight-package-in-salesforce-appexchange).
+De toepassing van de Inzichten In-CRM is beschikbaar in het [&#x200B; pakket van de Inzichten van de Verkoop van Marketo &#x200B;](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/marketo-sales-insight/msi-for-salesforce/installation/install-marketo-sales-insight-package-in-salesforce-appexchange).
 
 ## Machtigingen
 
@@ -23,7 +23,7 @@ Om tot de toepassing toegang te hebben, moeten de gebruikers lidmaatschap in een
 
 Als u een groep gebruikers tot InCRM-Inzichten wilt beperken, gebruik de volgende richtlijnen om een douanerol specifiek voor InCRM-Inzichten tot stand te brengen:
 
-* Creeer een douanerol met slechts de **2} geplaatste toestemming van de Inzicht van de Verkoop van de Verkoop :View {.**
+* Creeer een douanerol met slechts de **2&rbrace; geplaatste toestemming van de Inzicht van de Verkoop van de Verkoop :View &lbrace;.**
 * Maak een nieuwe gebruikersgroep zonder productprofielen toe te voegen.
 * Maak een andere gebruikersgroep en voeg een AEP-productprofiel toe of voeg een bestaand AEP-profiel toe aan de gebruikersgroep die u zojuist hebt gemaakt.
 * Wijs de nieuwe gebruikersgroepen aan de nieuwe rol toe en voeg nieuwe gebruikers aan de nieuwe gebruikersgroepen toe.
@@ -41,6 +41,6 @@ Je koopgroepen worden geladen en beschikbaar. Gegevens zijn alleen-lezen via In-
 
 >[!NOTE]
 >
->Het lidmaatschap in de [ productrol van de Gebruiker van de Verkoop 0} B2B {wordt vereist om tot Inzichten In-CRM toegang te hebben.](../admin/user-management.md#b2b-built-in-roles)
+>Het lidmaatschap in de [&#x200B; productrol van de Gebruiker van de Verkoop 0&rbrace; B2B &lbrace;wordt vereist om tot Inzichten In-CRM toegang te hebben.](../admin/user-management.md#b2b-built-in-roles)
 
-Na het selecteren van een het kopen groep, kunt u de [ groepsdetails ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#) doorbladeren, enkel zoals in Journey Optimizer B2B edition.
+Na het selecteren van een het kopen groep, kunt u de [&#x200B; groepsdetails &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#) doorbladeren, enkel zoals in Journey Optimizer B2B edition.

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 De acties van Marketo Engage zijn _op mensen-gebaseerde_ acties die u toestaan om uw _op rekening-gebaseerde_ marketing organisatie tussen Journey Optimizer B2B edition en uw _op lood-gebaseerde_ marketing inspanningen in Marketo Engage te coördineren. Gebruik deze acties om het lidmaatschap van een statische lijst te ordenen en om mensen in campagnes te plaatsen.
 
-Om de acties van Marketo Engage te gebruiken, creeert een beheerder eerst de douanedienst van de a [ ](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services#) in Marketo Engage, die de geloofsbrieven nodig voor authentificatie verstrekt.
+Om de acties van Marketo Engage te gebruiken, creeert een beheerder eerst de douanedienst van de a [&#x200B; &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services#) in Marketo Engage, die de geloofsbrieven nodig voor authentificatie verstrekt.
 Vervolgens maakt een productbeheerder voor Journey Optimizer B2B edition een verbinding met Marketo Engage door de gegevens in te voeren.
 De gebruikers van Journey Optimizer B2B edition kunnen dan de verbinding van verwijzingen voorzien om de acties van Marketo Engage in <!-- Person and --> rekeningsreizen te vormen, zoals het toevoegen van of het verwijderen van mensen uit Marketo Engage lijsten of het toevoegen van hen aan verzoekcampagnes.
 
@@ -40,7 +40,7 @@ Configureer een Marketo Engage-instantie op afstand voor gebruik met Marketo Eng
 
 ### Integratie toevoegen
 
-![ voeg integratiedetails ](assets/integration-connection-details.png) toe
+![&#x200B; voeg integratiedetails &#x200B;](assets/integration-connection-details.png) toe
 
 1. In Journey Optimizer B2B edition, navigeer aan **Beleid** > **Configuraties**.
 1. Selecteer aan de **Integraties** tabel.
@@ -55,4 +55,4 @@ Wanneer een markeerteken een Marketo Engage-handeling tijdens een rit gebruikt, 
 
 Met de voltooide integratie, zijn de acties van Marketo Engage beschikbaar van **Acties op:** in de knoopeigenschappen.
 
-![ de actielijst van Marketo ](assets/marketo-actions-list.png)
+![&#x200B; de actielijst van Marketo &#x200B;](assets/marketo-actions-list.png)

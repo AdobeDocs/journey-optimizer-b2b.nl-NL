@@ -23,7 +23,7 @@ Adobe Experience Platform (AEP)-schema&#39;s bevatten gewoonlijk veel velden in 
 Beheerders die XDM begrijpen en samenwerken met gegevensengineers of CDP-betrokkenen (Customer Data Platform) voor gegevensmodellering volgen de procedures in deze handleiding.
 
 >[!NOTE]
->[ Relationele schema&#39;s ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) zijn beschikbaar voor [!DNL Journey Optimizer B2B Edition] als beperkte versie. Data Mirror en relationele schema&#39;s zijn beschikbaar voor houders van een door Journey Optimizer geordende licentie voor campagnes. Relationele schema&#39;s zijn ook beschikbaar als een beperkte release voor Customer Journey Analytics-gebruikers, afhankelijk van uw licentie en functionaliteit. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
+>[&#x200B; Relationele schema&#39;s &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) zijn beschikbaar voor [!DNL Journey Optimizer B2B Edition] als beperkte versie. Data Mirror en relationele schema&#39;s zijn beschikbaar voor houders van een door Journey Optimizer geordende licentie voor campagnes. Relationele schema&#39;s zijn ook beschikbaar als een beperkte release voor Customer Journey Analytics-gebruikers, afhankelijk van uw licentie en functionaliteit. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
 ## XDM-klassen openen
 
@@ -41,9 +41,9 @@ Om het XDM gebied van het gebiedsbeheer te openen, navigeer aan **Configuraties*
 In het Standaardklassenlusje, kunt u _Beheerde gebieden_ uitgeven en _Bijwerkbare gebieden_.
 
 * Beheerde velden worden weergegeven in reizen, inkoopgroepen en personalisatiefuncties.
-* De updatable gebieden dienen als beperkingen voor het _Profiel van de Rekening van de Update_ en _de 3} wegknopen van het Profiel van de Persoon van de Update {._
+* De updatable gebieden dienen als beperkingen voor het _Profiel van de Rekening van de Update_ en _de 3&rbrace; wegknopen van het Profiel van de Persoon van de Update &lbrace;._
 
-![ Standaard klassen tabel die beheerde en updatable gebieden voor XDM klassenconfiguratie tonen ](assets/xdm-standard.png){width="600" zoomable="yes"}
+![&#x200B; Standaard klassen tabel die beheerde en updatable gebieden voor XDM klassenconfiguratie tonen &#x200B;](assets/xdm-standard.png){width="600" zoomable="yes"}
 
 Ga als volgt te werk om velden in het vakschema voor standaard XDM-klassen te selecteren:
 
@@ -61,9 +61,9 @@ De tabel bevat informatie zoals:
 
 Klik de klassennaam om de _Beheerde gebieden_ selectiedialoog te openen.
 
-![ Beheerde dialoog van de gebiedsselectie voor standaardXDM klassen die configureerbare gebiedsopties tonen ](assets/xdm-standard-managed-fields.png){width="600" zoomable="yes"}
+![&#x200B; Beheerde dialoog van de gebiedsselectie voor standaardXDM klassen die configureerbare gebiedsopties tonen &#x200B;](assets/xdm-standard-managed-fields.png){width="600" zoomable="yes"}
 
-1. Klik op het menu **...** om te schakelen tussen _[!UICONTROL Managed fields]_en_[!UICONTROL Updatable fields]_ . In het dialoogvenster worden alle configureerbare velden weergegeven.
+1. Klik op het menu **...** om te schakelen tussen _[!UICONTROL Managed fields]_&#x200B;en&#x200B;_[!UICONTROL Updatable fields]_ . In het dialoogvenster worden alle configureerbare velden weergegeven.
 1. Selecteer maximaal 100 velden voor elke XDM-klasse.
 1. Klik op **[!UICONTROL Save]** om uw selecties te bevestigen.
 
@@ -75,7 +75,7 @@ Voor _Updatable gebieden_, hebt toegang u tot een afzonderlijke dialoog die u ge
 1. Bewerk de velden uit de geselecteerde dataset.
 1. Klik op **[!UICONTROL Save]** om wijzigingen toe te passen.
 
-![ Dialoog voor het selecteren van updatable gebieden van datasets in XDM schemaconfiguratie ](assets/xdm-select-updateable.png){width="600" zoomable="yes"}
+![&#x200B; Dialoog voor het selecteren van updatable gebieden van datasets in XDM schemaconfiguratie &#x200B;](assets/xdm-select-updateable.png){width="600" zoomable="yes"}
 
 Het gebied moet eerst _Beheerd_ zijn alvorens zij _Updatable_ kunnen zijn. De _Updatable gebieden_ die u selecteert moeten in uw user-provided schema bestaan.
 
@@ -84,7 +84,7 @@ Het gebied moet eerst _Beheerd_ zijn alvorens zij _Updatable_ kunnen zijn. De _U
 Met relationele schema&#39;s kunt u aangepaste gegevensklassen maken. Met toegang tot veelvoudige datasets, kunt u klassen tot stand brengen die specifiek aan uw gegevensbehoeften worden aangepast.
 Gebruik relationele schema&#39;s voor bedrijfsentiteiten zoals aankopen, licenties en registraties van gebeurtenissen bij reisbeslissingen en e-mailpersonalisatie. U kunt maximaal 50 schema&#39;s en maximaal 100 gebieden per schema selecteren.
 
-![ Relationele schema&#39;s lusje in de Redacteur van het Schema die bedrijfsentiteitgebieden voor Adobe Journey Optimizer tonen ](assets/xdm-relational.png)
+![&#x200B; Relationele schema&#39;s lusje in de Redacteur van het Schema die bedrijfsentiteitgebieden voor Adobe Journey Optimizer tonen &#x200B;](assets/xdm-relational.png)
 
 >[!NOTE]
 >Deze functie biedt momenteel ondersteuning voor gebruik van aangepaste objecten die betrekking hebben op accounts, met plannen om in de toekomst meer gebruiksgevallen voor objecten die buiten de box vallen, te ondersteunen.
@@ -118,7 +118,7 @@ Voer de volgende stappen uit om velden te selecteren voor gebruik in [!DNL Journ
 
    * U kunt de naamruimte slechts eenmaal instellen en deze handeling niet omkeren.
 
-1. Controleer de velden voor het relationele schema. Klik het ![ pictogram van Info ](../assets/do-not-localize/icon-info-light.svg) [!UICONTROL Info] pictogram om de gebiedsmeta-gegevens te bekijken.
+1. Controleer de velden voor het relationele schema. Klik het ![&#x200B; pictogram van Info &#x200B;](../assets/do-not-localize/icon-info-light.svg) [!UICONTROL Info] pictogram om de gebiedsmeta-gegevens te bekijken.
 1. Selecteer de velden die u wilt inschakelen voor reizen en personalisatie. Het platform selecteert automatisch de volgende vereiste velden:
 
    * Externe sleutel
@@ -133,7 +133,7 @@ Voer de volgende stappen uit om velden te selecteren voor gebruik in [!DNL Journ
 
 De Gebeurtenissen van de Ervaring van het gebruik en hun bijbehorende gebieden in reisbesluiten. U kunt maximaal 50 gebeurtenissen en maximaal 100 velden per gebeurtenis selecteren.
 
-![ het lusje van Gebeurtenissen die de selectie van de Gebeurtenissen van de Ervaring en schemagebieden voor reizen en verpersoonlijking tonen ](assets/xdm-events.png){width="700" zoomable="yes"}
+![&#x200B; het lusje van Gebeurtenissen die de selectie van de Gebeurtenissen van de Ervaring en schemagebieden voor reizen en verpersoonlijking tonen &#x200B;](assets/xdm-events.png){width="700" zoomable="yes"}
 
 Klik op de naam van een gebeurtenis om details weer te geven en de geconfigureerde velden te bewerken.
 
