@@ -23,7 +23,7 @@ Adobe Experience Platform (AEP)-schema&#39;s bevatten gewoonlijk veel velden in 
 Beheerders die XDM begrijpen en samenwerken met gegevensengineers of CDP-betrokkenen (Customer Data Platform) voor gegevensmodellering voor B2B, moeten de procedures op deze pagina gebruiken.
 
 >[!NOTE]
->[&#x200B; Relationele schema&#39;s &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) zijn beschikbaar voor [!DNL Journey Optimizer B2B Edition] als beperkte versie. Data Mirror en relationele schema&#39;s zijn beschikbaar voor houders van een door Journey Optimizer geordende licentie voor campagnes. Relationele schema&#39;s zijn ook beschikbaar als een beperkte release voor Customer Journey Analytics-gebruikers, afhankelijk van uw licentie en functionaliteit. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
+>[&#x200B; Relationele schema&#39;s &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/schema/relational#) zijn beschikbaar voor [!DNL Journey Optimizer B2B Edition] als beperkte versie. Data Mirror en relationele schema&#39;s zijn beschikbaar voor houders van een door Journey Optimizer geordende licentie voor campagnes. Relationele schema&#39;s zijn ook beschikbaar als een beperkte release voor Customer Journey Analytics-gebruikers, afhankelijk van uw licentie en functionaliteit. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
 ## Access XDM-klassen
 
