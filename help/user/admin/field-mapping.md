@@ -17,7 +17,7 @@ Accountpublieksgegevens worden opgeslagen als kenmerken in zowel de XDM Business
 
 >[!TIP]
 >
->U kunt de klassen van de Zakelijke Persoon XDM en van de Zakelijke Rekening XDM in een vele-aan-vele verhouding modelleren door de klasse van de Verhouding van de Person van de Onderneming XDM te gebruiken XDM zoals die in de [ documentatie XDM van Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"} wordt beschreven.
+>U kunt de klassen van de Zakelijke Persoon XDM en van de Zakelijke Rekening XDM in een vele-aan-vele verhouding modelleren door de klasse van de Verhouding van de Person van de Onderneming XDM te gebruiken XDM zoals die in de [&#x200B; documentatie XDM van Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"} wordt beschreven.
 
 >[!NOTE]
 >
@@ -25,7 +25,7 @@ Accountpublieksgegevens worden opgeslagen als kenmerken in zowel de XDM Business
 
 ## Kenmerken XDM Zakelijke account persoon relatie
 
-| [ Bezit ](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md){target="_blank"} | Weergavenaam | Journey Optimizer B2B-weergavenaam | Gegevenstype | Beschrijving |
+| [&#x200B; Bezit &#x200B;](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md){target="_blank"} | Weergavenaam | Journey Optimizer B2B-weergavenaam | Gegevenstype | Beschrijving |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
 | `personRoles` | Personrollen | Functie | Tekenreeksarray | Een array met rollen die aan de persoon op de account zijn gekoppeld, zoals `owner, accountant, designer` . |
 
@@ -38,7 +38,7 @@ Accountpublieksgegevens worden opgeslagen als kenmerken in zowel de XDM Business
 >Zorg ervoor dat het e-mailkenmerk niet null is, omdat dit van invloed kan zijn op gegevenssynchronisatie en downstreamprocessen.
 ><ul><li>Als het e-mailkenmerk null is in CDP B2B in realtime en de persoon bestaat in Journey Optimizer B2B edition, wordt het kenmerk in overschreven in Journey Optimizer B2B edition met de waarde null tijdens de synchronisatie. Vervolgens blijft de waarde null in Marketo Engage.<li>Als het e-mailkenmerk null is in CDP B2B in realtime en de persoon niet bestaat in Journey Optimizer B2B edition, wordt het persoonrecord niet gesynchroniseerd.<ul/>
 
-| [ Bezit ](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md){target="_blank"} | Weergavenaam | Journey Optimizer B2B-weergavenaam | Gegevenstype | Beschrijving |
+| [&#x200B; Bezit &#x200B;](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md){target="_blank"} | Weergavenaam | Journey Optimizer B2B-weergavenaam | Gegevenstype | Beschrijving |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
 | `b2b.isMarketingSuspended` | Indicator voor het in de handel brengen | Marketing opgeschort | Boolean | De waarde geeft aan of het op de markt brengen is opgeschort voor de persoon. |
 | `b2b.marketingSuspendedCause` | Handelsgewijze oorzaak | Handelsgewijze oorzaak | String | Als het op de markt brengen voor de persoon wordt opgeschort, verstrekt dit bezit de reden waarom. |
@@ -68,7 +68,7 @@ Accountpublieksgegevens worden opgeslagen als kenmerken in zowel de XDM Business
 >
 >Het attribuut `accountName` is vereist. Als de account voor een account in een accountpubliek leeg is, wordt dat account niet opgenomen en weggelaten voor reizen naar en het kopen van groepen die naar het publiek verwijzen.
 
-| [ Bezit ](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/account/account-details.schema.md){target="_blank"} | Weergavenaam | Journey Optimizer B2B-weergavenaam | Gegevenstype | Beschrijving |
+| [&#x200B; Bezit &#x200B;](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/account/account-details.schema.md){target="_blank"} | Weergavenaam | Journey Optimizer B2B-weergavenaam | Gegevenstype | Beschrijving |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
 | `accountBillingAddress.city` | Stad | Stad | String | De naam van de stad die in het factuuradres wordt gebruikt. |
 | `accountBillingAddress.country` | Land | Land | String | De naam van het door de overheid bestuurde gebied dat in het factuuradres wordt gebruikt. Met uitzondering van `xdm:countryCode` is het een veld met vrije vorm dat de naam van het land in elke taal kan hebben. |
