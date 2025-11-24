@@ -1,11 +1,11 @@
 ---
 title: In-CRM-inzichten
-description: Open Journey Optimizer B2B edition-inkoopgroepen rechtstreeks in Salesforce. De leden van het verkoopteam kunnen betrokkenheidsgegevens bekijken en verkoopmogelijkheden identificeren met In-CRM Inzichten.
+description: Open Journey Optimizer B2B edition-inkoopgroepen rechtstreeks in CRM's. De leden van het verkoopteam kunnen betrokkenheidsgegevens bekijken en verkoopmogelijkheden identificeren met In-CRM Inzichten.
 feature: Sales Insights, Buying Groups
 role: User
-source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
+source-git-commit: b5173345f5dfb879b36726ca27e164d9a267dac4
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -13,34 +13,64 @@ ht-degree: 0%
 
 # In-CRM-inzichten
 
-In-CRM Insights is een webtoepassing die in Salesforce wordt geïntegreerd, zodat u rechtstreeks toegang hebt tot uw Journey Optimizer B2B edition-inkoopgroepen binnen Salesforce. Hiermee kunt u mogelijkheden voor meer betrokkenheid en verkoopmogelijkheden identificeren.
+[!DNL In-CRM Insights] is een webtoepassing die is geïntegreerd in Salesforce en Microsoft Dynamics 365 en die u rechtstreeks toegang biedt tot [!DNL Journey Optimizer B2B Edition] -inkoopgroepen binnen uw CRM. Het verenigt verkoopgegevensbronnen, die het gemakkelijker maken om kansen voor verhoogde betrokkenheid en verkooppotentieel te identificeren.
 
-De toepassing van de Inzichten In-CRM is beschikbaar in het [&#x200B; pakket van de Inzichten van de Verkoop van Marketo &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/marketo-sales-insight/msi-for-salesforce/installation/install-marketo-sales-insight-package-in-salesforce-appexchange).
+De [!DNL In-CRM Insights] toepassing is beschikbaar in het [ pakket van de Inzichten van de Verkoop van Marketo ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/marketo-sales-insight/msi-for-salesforce/installation/install-marketo-sales-insight-package-in-salesforce-appexchange).
 
-## Machtigingen
+## Installatie
 
-Om tot de toepassing toegang te hebben, moeten de gebruikers lidmaatschap in een rol met de **toestemmingen van de Inzichten van de Verkoop :View van de Verkoop** hebben.
+Het installatieproces omvat:
 
-Als u een groep gebruikers tot InCRM-Inzichten wilt beperken, gebruik de volgende richtlijnen om een douanerol specifiek voor InCRM-Inzichten tot stand te brengen:
+* Gebruikersmachtigingen en groepen instellen
+* Het softwarepakket installeren
+* Aanmelden via uw CRM
 
-* Creeer een douanerol met slechts de **2&rbrace; geplaatste toestemming van de Inzicht van de Verkoop van de Verkoop :View &lbrace;.**
-* Maak een nieuwe gebruikersgroep zonder productprofielen toe te voegen.
-* Maak een andere gebruikersgroep en voeg een AEP-productprofiel toe of voeg een bestaand AEP-profiel toe aan de gebruikersgroep die u zojuist hebt gemaakt.
-* Wijs de nieuwe gebruikersgroepen aan de nieuwe rol toe en voeg nieuwe gebruikers aan de nieuwe gebruikersgroepen toe.
+### Machtigingen instellen
 
-## In-CRM-inzichten gebruiken
+Gebruikers die de software installeren, moeten machtigingen hebben om Salesforce-pakketten te installeren.
 
-De toepassing In-CRM Insights is beschikbaar in Salesforce via de App Launcher.
+Om tot de toepassing toegang te hebben, moeten de gebruikers lidmaatschap in een rol met de **2} toestemming van de Inzichten van de Verkoop van de Verkoop :View hebben.**
 
-1. Klik op App Launcher in Salesforce.
-1. Selecteer of zoek naar `Journey Optimizer B2B Edition` .
-1. Meld u aan met uw Adobe-gebruikersgegevens op het tabblad dat wordt weergegeven.
-1. Kies een sandbox die als host fungeert voor uw accountreizen.
+Als u gebruikers wilt beperken tot alleen [!DNL In-CRM Insights] :
 
-Je koopgroepen worden geladen en beschikbaar. Gegevens zijn alleen-lezen via In-CRM Insights.
+1. Creeer a [ douanerol ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/buying-groups/default-custom-roles#create-a-custom-role) en wijs het de **Inzichten van de Verkoop toe: De toestemming van de Inzichten van de Verkoop van de Mening**.
+1. Creeer een nieuwe [ gebruikersgroep ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management#create-user-group).
+1. Voeg een Experience Platform-productprofiel toe aan de groep.
 
->[!NOTE]
->
->Het lidmaatschap in de [&#x200B; productrol van de Gebruiker van de Verkoop 0&rbrace; B2B &lbrace;wordt vereist om tot Inzichten In-CRM toegang te hebben.](../admin/user-management.md#b2b-built-in-roles)
+### Het pakket installeren
 
-Na het selecteren van een het kopen groep, kunt u de [&#x200B; groepsdetails &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#) doorbladeren, enkel zoals in Journey Optimizer B2B edition.
+Volg de stappen voor Salesforce of Microsoft Dynamics om het In-CRM Insights-pakket te installeren.
+
+#### Salesforce
+
+1. Download het [ In-CRM het installerpakket van Inzichten ](https://experience.adobe.com/solutions/OneAdobe-sales-workflow-optimizer-sales-insight-ui/install/sales-insight?crm=salesforce).
+1. Nadat u zich hebt aangemeld, wordt u omgeleid naar de installatiepagina van het pakket.
+1. Selecteer de optie **[!UICONTROL Install for All Users]** en klik op **[!UICONTROL Install]** .
+
+   ![ installeer het pakket van Inzichten In-CRM ](assets/incrm-install-sf.png){width=500}
+
+1. Goedkeuren van toegang van derden in het dialoogvenster en klik vervolgens op **[!UICONTROL Continue]** .
+1. Klik op **[!UICONTROL Done]** wanneer de installatie is voltooid.
+
+   Het is nu vermeld op de **Geïnstalleerde pagina van Pakketten** en **Journey Optimizer B2B edition** is vermeld in de Lanceerinrichting van de App.
+
+   ![ Inzicht in-CRM opstelling binnen Salesforce ](assets/in-crm-install-sf-done.png){width=800 zoomable="yes"}
+
+#### MS Dynamics
+
+1. Download het [ In-CRM het installerpakket van Inzichten ](https://experience.adobe.com/solutions/OneAdobe-sales-workflow-optimizer-sales-insight-ui/install/sales-insight?crm=dynamics).
+1. Ga naar de [ haven van de Apps van de Macht ](https://make.powerapps.com/){target=_blank}.
+1. Nadat u zich hebt aangemeld, selecteert u de omgeving voor het pakket en navigeert u vanuit het linkermenu naar **[!UICONTROL Solutions]** .
+1. Klik op **[!UICONTROL Import solution]**.
+1. Blader naar en upload het installerpakket en klik vervolgens op **[!UICONTROL Next]** .
+1. Controleer de pakketgegevens en klik op **[!UICONTROL Next]** .
+1. Onder _variabelen van het Milieu_, verifieer dat de waarde aan `prod` wordt geplaatst (verander niet de waarde) en klik **[!UICONTROL Import]**.
+1. Wanneer de installatie is voltooid, wordt **[!UICONTROL Journey Optimizer B2B Edition]** > **[!UICONTROL Buying groups]** weergegeven op de linkernavigatiebalk.
+
+   ![ In-CRM Inzichten beschikbaar in Microsoft Dynamics ](assets/incrm-ms-install-done.png){width=800 zoomable="yes"}
+
+## Je koopgroepen bekijken
+
+Volg de aanwijzingen om u aan te melden bij uw Adobe-account. Je koopgroepen worden geladen en kunnen worden weergegeven.
+
+Na het selecteren van een het kopen groep, kunt u de [ groepsdetails ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#) doorbladeren. Dit is hetzelfde als de gegevens en inzichten die worden weergegeven in Journey Optimizer B2B edition, maar gegevens zijn alleen-lezen via [!DNL In-CRM Insights] .
