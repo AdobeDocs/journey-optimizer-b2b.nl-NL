@@ -1,9 +1,9 @@
 ---
 user-guide-title: Documentatie voor de B2B-editie van Journey Optimizer
 user-guide-description: Meer informatie over Adobe Journey Optimizer B2B Edition en hoe u deze kunt gebruiken om account- en inkoopgroeptrajecten te orkestreren met behulp van ingebouwde generatieve AI en toonaangevende automatisering.
-source-git-commit: 046d3648c5e482a69719d0095c297a766dd852ea
+source-git-commit: ab6445c36e6287e04015b2b1f7dd9dd8cb8d1287
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '371'
 ht-degree: 16%
 
 ---
@@ -49,8 +49,11 @@ ht-degree: 16%
       + [E-mail met verkoopwaarschuwing](./content/sales-alert-email.md)
    + [Aangepaste personalisatie-tokens](./content/personalization-my-tokens.md)
    + [SMS-authoring](./content/sms-authoring.md)
++ Soorten publiek {#audiences}
+   + [Experience Platform-publiek](./audiences/account-audience-overview.md)
+   + [Doel extern publiek](./audiences/target-external-audience.md)
+   + [Gekoppelde benaderingen voor account](./data/linkedin-account-matched-audiences.md)
 + Accounts {#accounts}
-   + [Soorten publiek](./audiences/account-audience-overview.md)
    + Koopgroepen {#buying-groups}
       + [Overzicht](./buying-groups/buying-groups-overview.md)
       + [Oplossingsbelangen](./buying-groups/solution-interests.md)
@@ -62,7 +65,6 @@ ht-degree: 16%
       + [Groepsfasen voor kopen](./buying-groups/buying-group-stages.md)
       + [Koopgroepen maken](./buying-groups/buying-groups-create.md)
       + [Exportaccounts](./audiences/account-list-export.md)
-      + [Gekoppeld publiek voor account gekoppeld](./data/linkedin-account-matched-audiences.md)
       + [Groepsfilters kopen in Marketo Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
       + [In-CRM-inzichten](./buying-groups/incrm-insights.md)
    + Accountlijsten {#account-lists}

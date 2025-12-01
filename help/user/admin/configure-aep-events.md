@@ -15,14 +15,14 @@ ht-degree: 0%
 
 # Erviteitsgebeurtenissen en velden selecteren
 
-De beheerders kunnen specifieke [&#x200B; Gebeurtenissen van de Ervaring van AEP &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} en hun bijbehorende gebieden binnen het de unieschema van de Gebeurtenis van de Ervaring selecteren. Na selectie, kunnen de gebruikers beslissingsregels vormen om aan die Gebeurtenissen van de Ervaring te luisteren om dynamische en gerichte campagneacties toe te laten die op dichtbij gebeurtenisgegevens in real time worden gebaseerd.
+De beheerders kunnen specifieke [ Gebeurtenissen van de Ervaring van AEP ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} en hun bijbehorende gebieden binnen het de unieschema van de Gebeurtenis van de Ervaring selecteren. Na selectie, kunnen de gebruikers beslissingsregels vormen om aan die Gebeurtenissen van de Ervaring te luisteren om dynamische en gerichte campagneacties toe te laten die op dichtbij gebeurtenisgegevens in real time worden gebaseerd.
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 Het gebruik van ervaringen met AEP tijdens reizen is een proces in twee stappen:
 
-1. Een beheerder [&#x200B; voegt de ervaringsgebeurtenissen en gebieden van AEP &#x200B;](#add-an-event) in de configuraties van B2B edition van Journey Optimizer toe.
+1. Een beheerder [ voegt de ervaringsgebeurtenissen en gebieden van AEP ](#add-an-event) in de configuraties van B2B edition van Journey Optimizer toe.
 
-2. In een reis, voegt een teller a _toe luistert naar een gebeurtenis_ knoop en [&#x200B; selecteert een Gebeurtenis van de Ervaring &#x200B;](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
+2. In een reis, voegt een teller a _toe luistert naar een gebeurtenis_ knoop en [ selecteert een Gebeurtenis van de Ervaring ](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
 
    * Selecteert de gebeurtenis die in de knoop moet worden gebruikt.
    * Hiermee selecteert u de velden die u als restricties wilt gebruiken.
@@ -51,19 +51,19 @@ Houd rekening met het volgende wanneer u gebeurtenissen selecteert om uw organis
 
 1. Klik op **[!UICONTROL XDM Classes]** in het tussenliggende deelvenster en klik vervolgens op de tab **[!UICONTROL Events]** om de lijst met beschikbare gebeurtenissen weer te geven.
 
-   ![&#x200B; heb toegang tot de geselecteerde Gebeurtenissen van de Ervaring &#x200B;](./assets/configurations-xdm-classes-events.png){width="800" zoomable="yes"}
+   ![ heb toegang tot de geselecteerde Gebeurtenissen van de Ervaring ](./assets/configurations-xdm-classes-events.png){width="800" zoomable="yes"}
 
    De tabel wordt gesorteerd op de kolom _[!UICONTROL Last update]_. De meest recente bijgewerkte gebeurtenissen worden standaard bovenaan weergegeven.
 
-   Van deze pagina, kunt u [&#x200B; selecteren en &#x200B;](#add-an-event) [&#x200B; gebeurtenissen voor gebruik in reizen uitgeven.](#edit-an-event)
+   Van deze pagina, kunt u [ selecteren en ](#add-an-event) [ gebeurtenissen voor gebruik in reizen uitgeven.](#edit-an-event)
 
    Klik op de naam van een gebeurtenis om de gegevens voor een geselecteerde gebeurtenis te openen.
 
 ### De gebeurtenislijst filteren
 
-Typ tekst in het veld _[!UICONTROL Search]_&#x200B;om de weergegeven gebeurtenissen te filteren op een overeenkomst met de naam van de gebeurtenis.
+Typ tekst in het veld _[!UICONTROL Search]_om de weergegeven gebeurtenissen te filteren op een overeenkomst met de naam van de gebeurtenis.
 
-![&#x200B; filter de lijst van geselecteerde gebeurtenissen door naam &#x200B;](./assets/configurations-xdm-classes-events-search.png){width="600" zoomable="yes"}
+![ filter de lijst van geselecteerde gebeurtenissen door naam ](./assets/configurations-xdm-classes-events-search.png){width="600" zoomable="yes"}
 
 ### Een gebeurtenis toevoegen
 
@@ -77,7 +77,7 @@ Om een Gebeurtenis van de Ervaring beschikbaar te maken voor a _luistert naar ee
 
    De pagina met gebeurtenisdetails wordt weergegeven. Op deze pagina kunt u het gebeurtenistype en de velden kiezen.
 
-   ![&#x200B; de details van de Gebeurtenis voor een nieuwe gebeurtenis &#x200B;](./assets/configurations-xdm-classes-events-select-new.png){width="700" zoomable="yes"}
+   ![ de details van de Gebeurtenis voor een nieuwe gebeurtenis ](./assets/configurations-xdm-classes-events-select-new.png){width="700" zoomable="yes"}
 
 1. Kies het gebeurtenistype.
 
@@ -85,9 +85,9 @@ Om een Gebeurtenis van de Ervaring beschikbaar te maken voor a _luistert naar ee
 
    * Kies het gebeurtenistype in het dialoogvenster.
 
-     Gebruik het veld _[!UICONTROL Search]_&#x200B;om de weergegeven lijst op naam te filteren. Gebruik de schuifregelaar **[!UICONTROL Only show selected fields]**&#x200B;om de huidige selecties te bekijken.
+     Gebruik het veld _[!UICONTROL Search]_om de weergegeven lijst op naam te filteren. Gebruik de schuifregelaar **[!UICONTROL Only show selected fields]**om de huidige selecties te bekijken.
 
-     ![&#x200B; Uitgezochte dialoog van het gebeurtenistype &#x200B;](./assets/configurations-xdm-classes-select-event-type-dialog.png){width="450" zoomable="yes"}
+     ![ Uitgezochte dialoog van het gebeurtenistype ](./assets/configurations-xdm-classes-select-event-type-dialog.png){width="450" zoomable="yes"}
 
    * Klik op **[!UICONTROL Select]**.
 
@@ -97,9 +97,9 @@ Om een Gebeurtenis van de Ervaring beschikbaar te maken voor a _luistert naar ee
 
    * Selecteer in het dialoogvenster de velden die u wilt gebruiken als beperkingen voor overeenkomende gebeurtenissen.
 
-     Gebruik het veld _[!UICONTROL Search]_&#x200B;om de weergegeven lijst op naam te filteren. Gebruik de schuifregelaar **[!UICONTROL Only show selected fields]**&#x200B;om de huidige selecties te bekijken.
+     Gebruik het veld _[!UICONTROL Search]_om de weergegeven lijst op naam te filteren. Gebruik de schuifregelaar **[!UICONTROL Only show selected fields]**om de huidige selecties te bekijken.
 
-     ![&#x200B; Uitgezochte gebieden dialoog &#x200B;](./assets/configurations-xdm-classes-select-fields-dialog.png){width="450" zoomable="yes"}
+     ![ Uitgezochte gebieden dialoog ](./assets/configurations-xdm-classes-select-fields-dialog.png){width="450" zoomable="yes"}
 
    * Klik op **[!UICONTROL Select]**.
 
@@ -113,9 +113,9 @@ Bewerk de gebeurtenisdetails om de velden te wijzigen.
 
 1. Klik de gebeurtenisnaam, of klik _Meer menu_ ( **..**) pictogram en kies **[!UICONTROL Edit]**.
 
-   ![&#x200B; klik het Meer menupictogram &#x200B;](./assets/configurations-xdm-classes-events-more-menu.png){width="500" zoomable="yes"}
+   ![ klik het Meer menupictogram ](./assets/configurations-xdm-classes-events-more-menu.png){width="500" zoomable="yes"}
 
-1. Klik op **[!UICONTROL Edit fields]** om meer velden toe te voegen of bestaande selecties uit het dialoogvenster _[!UICONTROL Select fields]_&#x200B;te verwijderen.
+1. Klik op **[!UICONTROL Edit fields]** om meer velden toe te voegen of bestaande selecties uit het dialoogvenster _[!UICONTROL Select fields]_te verwijderen.
 
 1. Klik op **[!UICONTROL Select]** om de selecties op te slaan.
 
@@ -464,4 +464,4 @@ Type gebeurtenis: `leadOperation.interestingMoment `
 
 <!-- ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3448689/?captions=dut&learn=on) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on) -->
