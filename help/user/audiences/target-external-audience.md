@@ -106,5 +106,5 @@ Voor het activeringsproces moet u [!DNL Adobe Target] toevoegen als extern publi
 
    ![&#x200B; Experience Platform - bestemmingen - activeer bestemming - overzicht &#x200B;](./assets/aep-destinations-activate-target-audience-review.png){width="700" zoomable="yes"}
 
-Op activering, kunt u het publiek in [&#x200B; publiek van Adobe Target &#x200B;](https://experienceleague.adobe.com/en/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"} zien en hen in de activiteiten van Adobe Target gebruiken.
+Op activering, kunt u het publiek in [&#x200B; publiek van Adobe Target &#x200B;](https://experienceleague.adobe.com/nl/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"} zien en hen in de activiteiten van Adobe Target gebruiken.
 

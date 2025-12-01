@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Deze functie gebruikt Experience Platform Destination om bepaalde aspecten van de integratie te beheren. Er geldt een limiet van tien gegevensstromen.
 
-Alvorens u een dataflow van Journey Optimizer B2B edition in werking stelt, moet u minstens één geval van [&#x200B; (Bedrijven) LinkedIn Gelijke de bestemmingsschakelaar van de Publiek &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"} met een rekening hebben LinkedIn de Manager van de Campagne die in uw toepassing van Experience Platform wordt gevormd.
+Alvorens u een dataflow van Journey Optimizer B2B edition in werking stelt, moet u minstens één geval van [&#x200B; (Bedrijven) LinkedIn Gelijke de bestemmingsschakelaar van de Publiek &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"} met een rekening hebben LinkedIn de Manager van de Campagne die in uw toepassing van Experience Platform wordt gevormd.
 
 ## Een nieuwe LinkedIn-accountverbinding configureren {#linkedin-destination-setup}
 
