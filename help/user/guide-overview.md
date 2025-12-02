@@ -2,10 +2,10 @@
 title: Documentatie voor Adobe Journey Optimizer B2B Edition
 description: Volledige documentatie voor Journey Optimizer B2B edition - verken de beschikbare bronnen voor het aan boord nemen, het creëren van inkoopgroepen, het bouwen van accountreizen, en het beheren van inhoud.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: b60efa2fb448b6c5542ad0d7894f762ca2372990
+source-git-commit: b794194191ea41d91402db643aafbeb0df5d9809
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 4%
+source-wordcount: '720'
+ht-degree: 8%
 
 ---
 
@@ -13,9 +13,35 @@ ht-degree: 4%
 
 ## Nieuwe functies
 
-Hier volgt een voorbeeld van de meest recente toevoegingen en verbeteringen in de Journey Optimizer B2B edition-toepassing en -documentatie.
+Hier volgt een voorbeeld van de meest recente toevoegingen en verbeteringen in de toepassing en documentatie van [!DNL Journey Optimizer B2B Edition] .
 
 >[!BEGINTABS]
+
+>[!TAB  AI agenten ]
+
+Met [ Experience Platform Agent Orchestrator ](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}, kan de AI Assitant interface op gespecialiseerde agenten automatisch roepen om u de juiste antwoorden en inzichten te krijgen. Agent Orchestrator herinnert zich uw gespreksgeschiedenis, zodat u op een natuurlijke manier kunt voortbouwen op eerdere vragen zonder de context te hoeven herhalen. Ook combineert Agent Orchestrator inzichten van meerdere agenten om u duidelijke, uniforme antwoorden te bieden. In de [!DNL Journey Optimizer B2B Edition] context, zijn er drie doel-gebouwde agenten voor specifieke B2B taken en domeinen:
+
+* [Audience Agent B2B](./agents/audience-agent-b2b.md)
+* [Journey Build Agent B2B](./agents/journey-agent.md)
+* [Account Qualification Agent](./agents/sales-qualifier.md#account-qualification-agent)
+
+>[!TAB  Merk thema&#39;s ]
+
+Met thema&#39;s kunnen niet-technische ontwerpers herbruikbare richtlijnen voor het ontwerpen van e-mailinhoud maken die zijn afgestemd op een specifiek merk en een specifieke stijl. Thema&#39;s stellen marketers in staat visueel aantrekkelijke, merkgebonden e-mails sneller en met minder moeite te gebruiken en bieden geavanceerde aanpassingsopties voor unieke ontwerpbehoeften.
+
+[!BADGE Meer informatie]{type=Informative url="/help/user/content/brand-themes.md" tooltip="Meer informatie over merkthema&#39;s"}
+
+>[!TAB  Persona afbeelding ]
+
+Marketers kunnen gedetailleerde profielen definiëren, zoals achtergrond, verantwoordelijkheden, pijnpunten en voorkeurscommunicatiekanalen. Met deze definities kunnen beheerders persona&#39;s configureren op basis van persoonlijke kenmerken in [!DNL Journey Optimizer B2B Edition] , zodat rolsjablonen gestroomlijnde en consistente rolvoorwaarden kunnen gebruiken die deze personen vastleggen.
+
+[!BADGE Meer informatie]{type=Informative url="/help/user/admin/persona-mapping.md" tooltip="Meer informatie over persoonlijke toewijzingen"}
+
+>[!TAB  In-CRM de Inzichten van de Verkoop ]
+
+De leden van het verkoopteam kunnen het rijpen van koopgroepen en verwante inzichten binnen een Salesforce of de integratie van de Dynamiek nu bekijken om nieuwe kansen te identificeren. De details van de inkoopgroep, zoals het werkgebied, de score en de verwante leden, zijn inbegrepen.
+
+[!BADGE Meer informatie]{type=Informative url="/help/user/buying-groups/incrm-insights.md" tooltip="Meer informatie over InCRM Sales Insights"}
 
 >[!TAB  Samenwerking voor e-mailinhoud ]
 
@@ -25,7 +51,7 @@ De ontwerpruimte voor e-mail bevat samenwerkingsgereedschappen voor het plaatsen
 
 >[!TAB  Donkere wijze e-mailontwerp ]
 
-De ruimte van het e-mailontwerp omvat nu _voorproef en montages van 0&rbrace; donkere wijze &lbrace;._ In de donkere modus kan een ondersteunende e-mailclient of app e-mails weergeven met donkere achtergronden en lichtere kleuren voor tekst, knoppen en andere visuele elementen. Geef een voorvertoning van de rendering weer, pas instellingen aan, zorg voor toegankelijkheid en test alle e-mailclients.
+De ruimte van het e-mailontwerp omvat nu _voorproef en montages van 0} donkere wijze {._ In de donkere modus kan een ondersteunende e-mailclient of app e-mails weergeven met donkere achtergronden en lichtere kleuren voor tekst, knoppen en andere visuele elementen. Geef een voorvertoning van de rendering weer, pas instellingen aan, zorg voor toegankelijkheid en test alle e-mailclients.
 
 [!BADGE Meer informatie]{type=Informative url="/help/user/content/email-dark-mode.md" tooltip="Meer informatie over het ontwerpen van e-mails in de donkere modus"}
 
@@ -35,33 +61,9 @@ B2B-marketers kunnen nu een persoonlijke betrokkenheidsscore gebruiken als filte
 
 [!BADGE Meer informatie]{type=Informative url="/help/user/buying-groups/engagement-scores.md" tooltip="Meer informatie over persoonlijke betrokkenheidsscores en filters"}
 
->[!TAB  Aangepast het kopen groepsrollen ]
-
-B2B-marketingstrategen kunnen nu de nauwkeurigheid van inkoopgroepen uitbreiden met aangepaste rollen voor inkoopgroepen. Creëer tot 20 douanerollen voorbij het gebrek zes, en hergebruik hen over het kopen groepen. Maak binnen de reizen binnen uw account berichten op maat van uw unieke rollen en verbeter de relevantie en betrokkenheid van verschillende inkoopgroepen. &#x200B;
-
-[!BADGE Meer informatie]{type=Informative url="/help/user/buying-groups/default-custom-roles.md" tooltip="Meer informatie over aangepaste inkoopgroeprollen"}
-
->[!TAB  weging van de betrokkenheidsscore van de Douane ]
-
-Wijs aangepaste gewichten toe aan betrokkenheidsactiviteiten, zodat de betrokkenheidsscores uw activiteiten met de hoogste waarde weerspiegelen. Door high-intent signalen te benadrukken, kan uw team beter rekeningen met het sterkste aankooppotentieel identificeren en prioriteren.
-
-[!BADGE Meer informatie]{type=Informative url="/help/user/admin/engagement-score-weighting.md" tooltip="Meer informatie over de weging van de aangepaste betrokkenheidsscore"}
-
->[!TAB  de Steun van CSS van de Douane ]
-
-U kunt nu uw eigen aangepaste CSS toevoegen wanneer u e-mail ontwerpt en pagina-inhoud in de ontwerpruimte plaatst.
-
-[!BADGE Meer informatie]{type=Informative url="/help/user/content/design-custom-css.md" tooltip="Meer informatie over het gebruik van aangepaste CSS"}
-
->[!TAB  de sleutelwoordafbeelding van de Intentie ]
-
-Als u het model Intentiedetectie wilt activeren en beheren, kunt u nu een spreadsheet uploaden om een categorie voor de toewijzing van intentiegegevens te definiëren.
-
-[!BADGE Meer informatie]{type=Informative url="/help/user/admin/intent-data.md" tooltip="Meer informatie over de configuratie voor het toewijzen van trefwoorden in Intentie"}
-
 >[!ENDTABS]
 
-Voor een volledige lijst van nieuwe eigenschappen en verbeteringen, zie de [&#x200B; versienota&#39;s &#x200B;](../user/release-notes/release-notes.md). <!-- Stay up-to-date with the latest changes in our documentation by visiting the [documentation updates page](using/rn/documentation-updates.md).-->
+Voor een volledige lijst van nieuwe eigenschappen en verbeteringen, zie de [ versienota&#39;s ](../user/release-notes/release-notes.md). <!-- Stay up-to-date with the latest changes in our documentation by visiting the [documentation updates page](using/rn/documentation-updates.md).-->
 
 ## Beginnen met de basisbeginselen
 
@@ -123,11 +125,11 @@ Ontdek de onderdelen van een inkoopgroep en begrijp de basisbeginselen van het m
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="Inhoudsbeheer"><br/>
-      <strong> Inhoudsbeheer </strong><br/> <a href="./content/assets-overview.md"> het overzicht van Assets </a><br/> <a href="./content/email-templates.md"> E-mailmalplaatjes </a><br/> <a href="./content/fragments.md"> Visuele fragmenten </a><br/> <a href="./content/conditional-content.md"> Voorwaardelijke inhoud </a>
+      <strong> het beheer van de Inhoud </strong><br/> <a href="./content/assets-overview.md"> overzicht van Assets </a><br/> <a href="./content/email-templates.md"> E-mailmalplaatjes </a><br/> <a href="./content/fragments.md"> Visuele fragmenten </a><br/> <a href="./content/conditional-content.md"> Voorwaardelijke inhoud </a><br/> <a href="./content/brand-themes.md"> de thema's van de Merk </a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px" alt="Inzichten en dashboards"><br/>
-      <strong> Inzichten </strong><br/> <a href="./dashboards/intelligent-dashboard.md"> Intelligent dashboard </a><br/> <a href="./dashboards/engagement-dashboard.md"> het dashboard van de Betrokkenheid </a><br/> <a href="./dashboards/buying-groups-dashboard.md"> Buying het dashboard van groepen </a><br/> <a href="./dashboards/journeys-dashboard.md"> het dashboard van de Reizen </a>
+      <strong> Inzichten </strong><br/> <a href="./dashboards/intelligent-dashboard.md"> Intelligent dashboard </a><br/> <a href="./dashboards/engagement-dashboard.md"> het dashboard van de Betrokkenheid </a><br/> <a href="./dashboards/buying-groups-dashboard.md"> Buying het dashboard van groepen </a><br/> <a href="./dashboards/journeys-dashboard.md"> het dashboard van de Rondjes 10} </a><br/> In-CRM Inzichten <a href="./buying-groups/incrm-insights.md"></a>
     </td>
 
 </tr>
@@ -137,15 +139,15 @@ Ontdek de onderdelen van een inkoopgroep en begrijp de basisbeginselen van het m
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong> Adobe Journey Optimizer B2B edition </strong><br/>
-<a href="https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank"> Video's en leerprogramma's </a> - <a href="https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank"> beschrijving van het Product </a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank"> Video's en leerprogramma's </a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank"> beschrijving van het Product </a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong> Adobe Experience Platform </strong><br/>
-<a href="https://experienceleague.adobe.com/nl/docs/experience-platform/landing/home" target="_blank"> Documentatie </a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank"> middelen van de Ontwikkelaar </a>
+<a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/home" target="_blank"> Documentatie </a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank"> middelen van de Ontwikkelaar </a>
 </td></tr>
 <tr><td><strong> Adobe Real-Time Customer Data Platform </strong><br/>
-<a href="https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/home" target="_blank"> Documentatie </a> - <a href="https://experienceleague.adobe.com/nl/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank"> zelfstudies van de Ontwikkelaar </a>
+<a href="https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home" target="_blank"> Documentatie </a> - <a href="https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank"> zelfstudies van de Ontwikkelaar </a>
 </td><td><strong> Adobe Marketo Engage </strong><br/>
-<a href="https://experienceleague.adobe.com/nl/docs/marketo/using/home" target="_blank"> documentatie van de Gebruiker </a> - <a href="https://experienceleague.adobe.com/nl/docs/marketo-developer/marketo/home" target="_blank"> documentatie van de Ontwikkelaar </a>
+<a href="https://experienceleague.adobe.com/en/docs/marketo/using/home" target="_blank"> documentatie van de Gebruiker </a> - <a href="https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/home" target="_blank"> documentatie van de Ontwikkelaar </a>
 </td>
 </tr></table>
 
