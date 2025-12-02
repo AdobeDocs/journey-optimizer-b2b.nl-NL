@@ -23,7 +23,7 @@ Bekijk deze sampling van de nieuwste toevoegingen en verbeteringen in de toepass
 
 >[!TAB  AI agenten ]
 
-Met [&#x200B; Experience Platform Agent Orchestrator &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}, kan de AI Hulp interface op gespecialiseerde agenten automatisch roepen om u de juiste antwoorden en inzichten te krijgen. Agent Orchestrator herinnert zich uw gespreksgeschiedenis, zodat u op een natuurlijke manier kunt voortbouwen op eerdere vragen zonder de context te hoeven herhalen. Ook combineert Agent Orchestrator inzichten van meerdere agenten om u duidelijke, uniforme antwoorden te bieden. In de [!DNL Journey Optimizer B2B Edition] context, zijn er drie doel-gebouwde agenten voor specifieke B2B taken en domeinen:
+Met [&#x200B; Experience Platform Agent Orchestrator &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}, kan de AI Hulp interface op gespecialiseerde agenten automatisch roepen om u de juiste antwoorden en inzichten te krijgen. Agent Orchestrator herinnert zich uw gespreksgeschiedenis, zodat u op een natuurlijke manier kunt voortbouwen op eerdere vragen zonder de context te hoeven herhalen. Ook combineert Agent Orchestrator inzichten van meerdere agenten om u duidelijke, uniforme antwoorden te bieden. In de [!DNL Journey Optimizer B2B Edition] context, zijn er drie doel-gebouwde agenten voor specifieke B2B taken en domeinen:
 
 * [Audience Agent B2B](./agents/audience-agent-b2b.md)
 * [Journey Build Agent B2B](./agents/journey-agent.md)
@@ -143,15 +143,15 @@ Ontdek de onderdelen van een inkoopgroep en begrijp de basisbeginselen van het m
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong> Adobe Journey Optimizer B2B edition </strong><br/>
-<a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank"> Video's en leerprogramma's </a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank"> beschrijving van het Product </a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank"> Video's en leerprogramma's </a> - <a href="https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank"> beschrijving van het Product </a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong> Adobe Experience Platform </strong><br/>
-<a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/home" target="_blank"> Documentatie </a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank"> middelen van de Ontwikkelaar </a>
+<a href="https://experienceleague.adobe.com/nl/docs/experience-platform/landing/home" target="_blank"> Documentatie </a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank"> middelen van de Ontwikkelaar </a>
 </td></tr>
 <tr><td><strong> Adobe Real-Time Customer Data Platform </strong><br/>
-<a href="https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home" target="_blank"> Documentatie </a> - <a href="https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank"> zelfstudies van de Ontwikkelaar </a>
+<a href="https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/home" target="_blank"> Documentatie </a> - <a href="https://experienceleague.adobe.com/nl/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank"> zelfstudies van de Ontwikkelaar </a>
 </td><td><strong> Adobe Marketo Engage </strong><br/>
-<a href="https://experienceleague.adobe.com/en/docs/marketo/using/home" target="_blank"> documentatie van de Gebruiker </a> - <a href="https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/home" target="_blank"> documentatie van de Ontwikkelaar </a>
+<a href="https://experienceleague.adobe.com/nl/docs/marketo/using/home" target="_blank"> documentatie van de Gebruiker </a> - <a href="https://experienceleague.adobe.com/nl/docs/marketo-developer/marketo/home" target="_blank"> documentatie van de Ontwikkelaar </a>
 </td>
 </tr></table>
 
