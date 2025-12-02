@@ -4,9 +4,9 @@ description: Gebruik XDM gebiedbeheer om de gegevens te controleren die aan Jour
 feature: Data Management, Integrations
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Deze functie bevindt zich momenteel in een beperkte bètaversie"
-source-git-commit: 046d3648c5e482a69719d0095c297a766dd852ea
+source-git-commit: 0497f44336cdd6bfed5bac9f6f579a97f6be585a
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '1023'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Adobe Experience Platform (AEP)-schema&#39;s bevatten gewoonlijk veel velden in 
 Beheerders die XDM begrijpen en samenwerken met gegevensengineers of CDP-betrokkenen (Customer Data Platform) voor gegevensmodellering voor B2B, moeten de procedures op deze pagina gebruiken.
 
 >[!NOTE]
->[&#x200B; Relationele schema&#39;s &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/schema/relational#) zijn beschikbaar voor [!DNL Journey Optimizer B2B Edition] als beperkte versie. Data Mirror en relationele schema&#39;s zijn beschikbaar voor houders van een door Journey Optimizer geordende licentie voor campagnes. Relationele schema&#39;s zijn ook beschikbaar als een beperkte release voor Customer Journey Analytics-gebruikers, afhankelijk van uw licentie en functionaliteit. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
+>[ Relationele schema&#39;s ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) zijn beschikbaar voor [!DNL Journey Optimizer B2B Edition] als beperkte beschikbaarheidsversie. Data Mirror en relationele schema&#39;s zijn beschikbaar voor houders van een door Journey Optimizer geordende licentie voor campagnes. Relationele schema&#39;s zijn ook beschikbaar als een beperkte release voor Customer Journey Analytics-gebruikers, afhankelijk van uw licentie en functionaliteit. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
 ## Access XDM-klassen
 
@@ -33,7 +33,7 @@ Beheerders die XDM begrijpen en samenwerken met gegevensengineers of CDP-betrokk
 
    * Gebruik de tabbladen **[!UICONTROL Standard]** en **[!UICONTROL Relational]** om nieuwe velden toe te voegen en beschikbaar te maken in Journey Optimizer B2B edition.
 
-   * Gebruik het **lusje van Gebeurtenissen** aan [&#x200B; uitgezochte specifieke Gebeurtenissen van de Ervaring van AEP en hun bijbehorende gebieden &#x200B;](./configure-aep-events.md) voor de knopen van de reisgebeurtenis te gebruiken.
+   * Gebruik het **lusje van Gebeurtenissen** aan [ uitgezochte specifieke Gebeurtenissen van de Ervaring van AEP en hun bijbehorende gebieden ](./configure-aep-events.md) voor de knopen van de reisgebeurtenis te gebruiken.
 
 ## Veldselecties
 
@@ -49,12 +49,12 @@ Gebruik de volgende richtlijn voor het maken van gebiedsselecties:
 
 ### Standaardklassen
 
-In het _[!UICONTROL Standard]_&#x200B;lusje, kunt u_ Beheerde gebieden _uitgeven en_ Updatable gebieden _voor de standaardklassen:
+In het _[!UICONTROL Standard]_lusje, kunt u_ Beheerde gebieden _uitgeven en_ Updatable gebieden _voor de standaardklassen:
 
 * Beheerde velden worden weergegeven in reizen, inkoopgroepen en personalisatiefuncties.
-* De updatable gebieden dienen als beperkingen voor het _Profiel van de Rekening van de Update_ en _de 3&rbrace; wegknopen van het Profiel van de Persoon van de Update &lbrace;._
+* De updatable gebieden dienen als beperkingen voor het _Profiel van de Rekening van de Update_ en _de 3} wegknopen van het Profiel van de Persoon van de Update {._
 
-![&#x200B; Standaard klassen tabel die XDM klassenconfiguratie &#x200B;](assets/xdm-standard.png){width="600" zoomable="yes"} tonen
+![ Standaard klassen tabel die XDM klassenconfiguratie ](assets/xdm-standard.png){width="600" zoomable="yes"} tonen
 
 De lijst bevat twee klassen:
 
@@ -67,13 +67,13 @@ De weergegeven klassengegevens omvatten:
 * Aantal velden voor bijwerken
 * Laatste updatetijd
 
-Om gebieden van het verenigingsschema voor standaardXDM klassen te selecteren, klik de klassennaam om de _Beheerde de selectiedialoog van gebieden_ te openen, of _te klikken Meer menu_ ( **..**) pictogram om tussen _[!UICONTROL Managed fields]_&#x200B;en&#x200B;_[!UICONTROL Updatable fields]_ te kiezen.
+Om gebieden van het verenigingsschema voor standaardXDM klassen te selecteren, klik de klassennaam om de _Beheerde de selectiedialoog van gebieden_ te openen, of _te klikken Meer menu_ ( **..**) pictogram om tussen _[!UICONTROL Managed fields]_en_[!UICONTROL Updatable fields]_ te kiezen.
 
-![&#x200B; klik het Meer menupictogram om tussen beheerde gebieden en updatable gebieden te kiezen &#x200B;](./assets/xdm-classes-standard-more-menu.png){width="550" zoomable="yes"}
+![ klik het Meer menupictogram om tussen beheerde gebieden en updatable gebieden te kiezen ](./assets/xdm-classes-standard-more-menu.png){width="550" zoomable="yes"}
 
 >[!NOTE]
 >
->Een gebied moet eerst _Beheerd_ zijn alvorens het _Updatable_ kan zijn. De _Updatable gebieden_ die u selecteert moeten in uw user-provided schema bestaan.
+>Een gebied moet eerst _Beheerd_ zijn alvorens het _Updatable_ kan zijn. De _Updatable gebieden_ die u selecteert moeten in uw user-provided schema bestaan. Uw schema bevat mogelijk geen vereiste velden, behalve velden die door het systeem zijn gedefinieerd.
 
 #### Beheerde velden
 
@@ -81,26 +81,30 @@ Wanneer u **[!UICONTROL Managed fields]** kiest, maakt de _Uitgezochte gebieden_
 
 1. Selecteer maximaal 100 velden voor elke XDM-klasse.
 
-   Gebruik het veld _[!UICONTROL Search]_&#x200B;om de weergegeven lijst op naam te filteren. Gebruik de schuifregelaar **[!UICONTROL Only show selected fields]**&#x200B;om de huidige selecties te bekijken.
+   Gebruik het veld _[!UICONTROL Search]_om de weergegeven lijst op naam te filteren. Gebruik de schuifregelaar **[!UICONTROL Only show selected fields]**om de huidige selecties te bekijken.
 
-   ![&#x200B; Beheerde dialoog van de gebiedsselectie voor standaardXDM klassen die configureerbare gebiedsopties tonen &#x200B;](assets/xdm-standard-managed-fields.png){width="450" zoomable="yes"}
+   ![ Beheerde dialoog van de gebiedsselectie voor standaardXDM klassen die configureerbare gebiedsopties tonen ](assets/xdm-standard-managed-fields.png){width="450" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save]** om uw selecties te bevestigen.
 
 #### Bijwerkbare velden
 
-Wanneer u **[!UICONTROL Updatable fields]** kiest, staat de _Uitgezochte gebieden_ dialoog u toe om gebieden van andere gegevensbronnen te kiezen.
+Alvorens u updatable gebieden vormt, moeten zij in een douane dataset verblijven. Voor een analyse van het werkschema van de douanedataset, zie [ datasets creëren en gegevens ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} invoeren, en de **[!UICONTROL Create dataset from schema]** optie gebruiken. Deze dataset wordt gebruikt om updatable gebieden te isoleren. Alle updatable gebieden moeten in deze dataset zijn.
 
-1. Selecteer voor **[!UICONTROL Datasets]** de gegevensbron die u wilt configureren.
-1. Bewerk de velden uit de geselecteerde dataset.
+Maak een gegevensset voor Individueel profiel en een andere voor Zakelijke account. Selecteer elke nieuwe dataset tijdens het configuratieproces:
 
-   ![&#x200B; Dialoog voor het selecteren van updatable gebieden van datasets in XDM schemaconfiguratie &#x200B;](./assets/xdm-select-updateable.png){width="450" zoomable="yes"}
+1. Selecteer bij **[!UICONTROL Datasets]** de nieuwe gegevensbron die u hebt gemaakt.
+1. Kies de gebieden van de geselecteerde dataset.
+
+   ![ Dialoog voor het selecteren van updatable gebieden van datasets in XDM schemaconfiguratie ](./assets/xdm-select-updateable.png){width="450" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save]** om de wijzigingen toe te passen.
 
 ### Relationele schema&#39;s
 
 Met relationele schema&#39;s kunt u aangepaste gegevensklassen maken. Met toegang tot veelvoudige datasets, kunt u klassen tot stand brengen die specifiek aan uw gegevensbehoeften worden aangepast. Gebruik relationele schema&#39;s voor bedrijfsentiteiten zoals aankopen, licenties en registraties van gebeurtenissen bij reisbeslissingen en e-mailpersonalisatie. U kunt maximaal 50 schema&#39;s en maximaal 100 gebieden per schema selecteren.
+
+Voor informatie over hoe de geselecteerde gebieden voor geavanceerde e-mailverpersoonlijking worden gebruikt, zie [ verpersoonlijking van de Inhoud ](../content/personalization.md#custom-datasets).
 
 >[!NOTE]
 >
@@ -121,7 +125,7 @@ Als u relationele schemavelden wilt selecteren voor gebruik in [!DNL Journey Opt
 
 1. Selecteer het tabblad **[!UICONTROL Relational]** om uw schema&#39;s weer te geven.
 
-   ![&#x200B; Relationele schema&#39;s lusje in de Redacteur van het Schema die bedrijfsentiteitgebieden voor Adobe Journey Optimizer B2B edition tonen &#x200B;](assets/xdm-relational.png){width="600" zoomable="yes"}
+   ![ Relationele schema&#39;s lusje in de Redacteur van het Schema die bedrijfsentiteitgebieden voor Adobe Journey Optimizer B2B edition tonen ](assets/xdm-relational.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Select relational XDM schema]**.
 
@@ -135,17 +139,17 @@ Als u relationele schemavelden wilt selecteren voor gebruik in [!DNL Journey Opt
    >
    >In deze bètafunctieversie kunt u geen schema uit de lijst verwijderen nadat u het hebt geselecteerd.
 
-   ![&#x200B; selecteer een relationeel schema in de dialoog &#x200B;](./assets/xdm-classes-relational-select-schema-dialog.png){width="500" zoomable="yes"}
+   ![ selecteer een relationeel schema in de dialoog ](./assets/xdm-classes-relational-select-schema-dialog.png){width="500" zoomable="yes"}
 
 1. Voer een naamruimte in of gebruik de standaardnaamruimte. Klik op **[!UICONTROL Next]**.
 
    U kunt de naamruimte slechts eenmaal instellen en deze handeling niet omkeren.
 
-   ![&#x200B; standaardnamespace in Create namespace dialoog &#x200B;](./assets/xdm-classes-relational-create-namespace.png){width="400" zoomable="yes"}
+   ![ standaardnamespace in Create namespace dialoog ](./assets/xdm-classes-relational-create-namespace.png){width="400" zoomable="yes"}
 
 1. Controleer de velden voor het relationele schema.
 
-   Klik het _pictogram van Info_ ![&#x200B; Info &#x200B;](../assets/do-not-localize/icon-info-light.svg) pictogram om de gebiedsmeta-gegevens te bekijken.
+   Klik het _pictogram van Info_ ![ Info ](../assets/do-not-localize/icon-info-light.svg) pictogram om de gebiedsmeta-gegevens te bekijken.
 
 1. Selecteer de velden die u wilt inschakelen voor reizen en personalisatie.
 
@@ -155,8 +159,8 @@ Als u relationele schemavelden wilt selecteren voor gebruik in [!DNL Journey Opt
    * Primaire sleutel
    * Versiebeschrijving
 
-   Gebruik het veld _[!UICONTROL Search]_&#x200B;om de weergegeven lijst op naam te filteren. Gebruik de schuifregelaar **[!UICONTROL Only show selected fields]**&#x200B;om de huidige selecties te bekijken.
+   Gebruik het veld _[!UICONTROL Search]_om de weergegeven lijst op naam te filteren. Gebruik de schuifregelaar **[!UICONTROL Only show selected fields]**om de huidige selecties te bekijken.
 
-   ![&#x200B; Uitgezochte gebieden voor het relationele schema in de dialoog &#x200B;](./assets/xdm-classes-relational-select-schema-fields.png){width="500" zoomable="yes"}
+   ![ Uitgezochte gebieden voor het relationele schema in de dialoog ](./assets/xdm-classes-relational-select-schema-fields.png){width="500" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save]**.
