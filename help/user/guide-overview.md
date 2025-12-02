@@ -2,24 +2,28 @@
 title: Documentatie voor Adobe Journey Optimizer B2B Edition
 description: Volledige documentatie voor Journey Optimizer B2B edition - verken de beschikbare bronnen voor het aan boord nemen, het creëren van inkoopgroepen, het bouwen van accountreizen, en het beheren van inhoud.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: b794194191ea41d91402db643aafbeb0df5d9809
+source-git-commit: ae903f25327d7ac9d7b47e4b5f736a164b2d2d4b
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 8%
+source-wordcount: '803'
+ht-degree: 7%
 
 ---
 
 # Documentatie voor Adobe Journey Optimizer B2B Edition
 
+[!DNL Adobe Journey Optimizer B2B Edition] is een eersteklas toepassing waarmee marketing- en verkoopteams ervaringen op basis van accounts kunnen sorteren en inkoopgroepen voor specifieke producten gedurende de gehele levenscyclus van de klant kunnen kwalificeren. Het gebruikt AI om het kopen van groepen binnen doelrekeningen in dienst te nemen en te kwalificeren, die uw teams helpen om een hogere kwaliteit pijpleiding te produceren, betere aanwinst, uitbreiding, en behoudstrategieën te ontwerpen. Het laat ook gedeelde inzichten over verkoop en marketing teams toe.
+
+Deze documentatie verstrekt informatie voor het beheersen van de toepassing. Het wordt ontworpen voor marketers, bedrijfsontwikkelingsvertegenwoordigers, gegevensanalisten, en operationele beheerders.
+
 ## Nieuwe functies
 
-Hier volgt een voorbeeld van de meest recente toevoegingen en verbeteringen in de toepassing en documentatie van [!DNL Journey Optimizer B2B Edition] .
+Bekijk deze sampling van de nieuwste toevoegingen en verbeteringen in de toepassing en documentatie van [!DNL Journey Optimizer B2B Edition] .
 
 >[!BEGINTABS]
 
 >[!TAB  AI agenten ]
 
-Met [&#x200B; Experience Platform Agent Orchestrator &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}, kan de AI Assitant interface op gespecialiseerde agenten automatisch roepen om u de juiste antwoorden en inzichten te krijgen. Agent Orchestrator herinnert zich uw gespreksgeschiedenis, zodat u op een natuurlijke manier kunt voortbouwen op eerdere vragen zonder de context te hoeven herhalen. Ook combineert Agent Orchestrator inzichten van meerdere agenten om u duidelijke, uniforme antwoorden te bieden. In de [!DNL Journey Optimizer B2B Edition] context, zijn er drie doel-gebouwde agenten voor specifieke B2B taken en domeinen:
+Met [ Experience Platform Agent Orchestrator ](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}, kan de AI Hulp interface op gespecialiseerde agenten automatisch roepen om u de juiste antwoorden en inzichten te krijgen. Agent Orchestrator herinnert zich uw gespreksgeschiedenis, zodat u op een natuurlijke manier kunt voortbouwen op eerdere vragen zonder de context te hoeven herhalen. Ook combineert Agent Orchestrator inzichten van meerdere agenten om u duidelijke, uniforme antwoorden te bieden. In de [!DNL Journey Optimizer B2B Edition] context, zijn er drie doel-gebouwde agenten voor specifieke B2B taken en domeinen:
 
 * [Audience Agent B2B](./agents/audience-agent-b2b.md)
 * [Journey Build Agent B2B](./agents/journey-agent.md)
@@ -45,13 +49,13 @@ De leden van het verkoopteam kunnen het rijpen van koopgroepen en verwante inzic
 
 >[!TAB  Samenwerking voor e-mailinhoud ]
 
-De ontwerpruimte voor e-mail bevat samenwerkingsgereedschappen voor het plaatsen van opmerkingen en het oplossen van problemen, zodat marketingteams e-mailmiddelen probleemloos kunnen reviseren, bespreken en voltooien in [!DNL Journey Optimizer B2B Edition] . In plaats van concepten te delen via externe tools (zoals chat, e-mailthreads of spreadsheets), kunnen gebruikers opmerkingen maken, wijzigingen voorstellen en feedback in de ontwerpruimte van de e-mail oplossen. U kunt tags toewijzen aan uw teamleden, zodat ze een e-mail- of pulsmelding ontvangen met de details van de opmerking.
+De ontwerpruimte voor e-mail bevat samenwerkingsgereedschappen voor feedback en oplossing, zodat marketingteams e-mailmiddelen probleemloos kunnen beoordelen, bespreken en voltooien in [!DNL Journey Optimizer B2B Edition] . In plaats van concepten te delen via externe tools (zoals chat, e-mailthreads of spreadsheets), kunnen gebruikers opmerkingen maken, wijzigingen voorstellen en feedback in de ontwerpruimte van de e-mail oplossen. U kunt tags toewijzen aan uw teamleden, zodat ze een e-mail- of pulsmelding ontvangen met de details van de opmerking.
 
 [!BADGE Meer informatie]{type=Informative url="/help/user/content/email-collaboration-tools.md" tooltip="Meer informatie over samenwerkingsgereedschappen voor e-mailinhoud"}
 
 >[!TAB  Donkere wijze e-mailontwerp ]
 
-De ruimte van het e-mailontwerp omvat nu _voorproef en montages van 0&rbrace; donkere wijze &lbrace;._ In de donkere modus kan een ondersteunende e-mailclient of app e-mails weergeven met donkere achtergronden en lichtere kleuren voor tekst, knoppen en andere visuele elementen. Geef een voorvertoning van de rendering weer, pas instellingen aan, zorg voor toegankelijkheid en test alle e-mailclients.
+De ruimte van het e-mailontwerp omvat nu _voorproef en montages van 0} donkere wijze {._ In de donkere modus kan een ondersteunende e-mailclient of app e-mails weergeven met donkere achtergronden en lichtere kleuren voor tekst, knoppen en andere visuele elementen. Geef een voorvertoning van de rendering weer, pas instellingen aan, zorg voor toegankelijkheid en test alle e-mailclients.
 
 [!BADGE Meer informatie]{type=Informative url="/help/user/content/email-dark-mode.md" tooltip="Meer informatie over het ontwerpen van e-mails in de donkere modus"}
 
@@ -63,7 +67,7 @@ B2B-marketers kunnen nu een persoonlijke betrokkenheidsscore gebruiken als filte
 
 >[!ENDTABS]
 
-Voor een volledige lijst van nieuwe eigenschappen en verbeteringen, zie de [&#x200B; versienota&#39;s &#x200B;](../user/release-notes/release-notes.md). <!-- Stay up-to-date with the latest changes in our documentation by visiting the [documentation updates page](using/rn/documentation-updates.md).-->
+Voor een volledige lijst van nieuwe eigenschappen en verbeteringen, zie de [ versienota&#39;s ](../user/release-notes/release-notes.md). <!-- Stay up-to-date with the latest changes in our documentation by visiting the [documentation updates page](using/rn/documentation-updates.md).-->
 
 ## Beginnen met de basisbeginselen
 
@@ -129,7 +133,7 @@ Ontdek de onderdelen van een inkoopgroep en begrijp de basisbeginselen van het m
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px" alt="Inzichten en dashboards"><br/>
-      <strong> Inzichten </strong><br/> <a href="./dashboards/intelligent-dashboard.md"> Intelligent dashboard </a><br/> <a href="./dashboards/engagement-dashboard.md"> het dashboard van de Betrokkenheid </a><br/> <a href="./dashboards/buying-groups-dashboard.md"> Buying het dashboard van groepen </a><br/> <a href="./dashboards/journeys-dashboard.md"> het dashboard van de Rondjes 10&rbrace; </a><br/> In-CRM Inzichten <a href="./buying-groups/incrm-insights.md"></a>
+      <strong> Inzichten </strong><br/> <a href="./dashboards/intelligent-dashboard.md"> Intelligent dashboard </a><br/> <a href="./dashboards/engagement-dashboard.md"> het dashboard van de Betrokkenheid </a><br/> <a href="./dashboards/buying-groups-dashboard.md"> Buying het dashboard van groepen </a><br/> <a href="./dashboards/journeys-dashboard.md"> het dashboard van de Rondjes 10} </a><br/> In-CRM Inzichten <a href="./buying-groups/incrm-insights.md"></a>
     </td>
 
 </tr>
@@ -139,15 +143,15 @@ Ontdek de onderdelen van een inkoopgroep en begrijp de basisbeginselen van het m
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong> Adobe Journey Optimizer B2B edition </strong><br/>
-<a href="https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank"> Video's en leerprogramma's </a> - <a href="https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank"> beschrijving van het Product </a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank"> Video's en leerprogramma's </a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank"> beschrijving van het Product </a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong> Adobe Experience Platform </strong><br/>
-<a href="https://experienceleague.adobe.com/nl/docs/experience-platform/landing/home" target="_blank"> Documentatie </a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank"> middelen van de Ontwikkelaar </a>
+<a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/home" target="_blank"> Documentatie </a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank"> middelen van de Ontwikkelaar </a>
 </td></tr>
 <tr><td><strong> Adobe Real-Time Customer Data Platform </strong><br/>
-<a href="https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/home" target="_blank"> Documentatie </a> - <a href="https://experienceleague.adobe.com/nl/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank"> zelfstudies van de Ontwikkelaar </a>
+<a href="https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home" target="_blank"> Documentatie </a> - <a href="https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank"> zelfstudies van de Ontwikkelaar </a>
 </td><td><strong> Adobe Marketo Engage </strong><br/>
-<a href="https://experienceleague.adobe.com/nl/docs/marketo/using/home" target="_blank"> documentatie van de Gebruiker </a> - <a href="https://experienceleague.adobe.com/nl/docs/marketo-developer/marketo/home" target="_blank"> documentatie van de Ontwikkelaar </a>
+<a href="https://experienceleague.adobe.com/en/docs/marketo/using/home" target="_blank"> documentatie van de Gebruiker </a> - <a href="https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/home" target="_blank"> documentatie van de Ontwikkelaar </a>
 </td>
 </tr></table>
 
