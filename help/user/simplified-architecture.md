@@ -5,9 +5,9 @@ feature: Setup, Administration
 role: Admin, Data Engineer
 hide: true
 hidefromtoc: true
-source-git-commit: 3f91b2cc92a1ce42d2c62dcfe7eb9de332116023
+source-git-commit: d2f33c30dba1ce44842f41bd2dbbfada24a8ff9c
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1292'
 ht-degree: 1%
 
 ---
@@ -30,19 +30,19 @@ Voor milieu&#39;s die voor deze architectuur provisioned zijn, gebruik de volgen
 
 ## Naamruimten en schema&#39;s
 
-Zie [&#x200B; B2B namespaces en schema&#39;s &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces) in de documentatie van Experience Platform voor een overzicht.
+Zie [ B2B namespaces en schema&#39;s ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces) in de documentatie van Experience Platform voor een overzicht.
 
 ### Omgevingsinstelling
 
 Stel een Postman-omgeving in ter ondersteuning van het hulpprogramma voor automatisch genereren van B2B-naamruimten en schema.
 
-* U kunt namespace en schema auto-generatie nutsinzameling en milieu van de [&#x200B; bewaarplaats GitHub &#x200B;](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility) downloaden.
+* U kunt namespace en schema auto-generatie nutsinzameling en milieu van de [ bewaarplaats GitHub ](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility) downloaden.
 
-* Voor informatie over het gebruiken van Experience Platform APIs, met inbegrip van details voor hoe te om waarden voor vereiste kopballen te verzamelen en steekproefAPI vraag te lezen, zie [&#x200B; begonnen worden met Experience Platform APIs &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/landing/platform-apis/api-guide) gids.
+* Voor informatie over het gebruiken van Experience Platform APIs, met inbegrip van details voor hoe te om waarden voor vereiste kopballen te verzamelen en steekproefAPI vraag te lezen, zie [ begonnen worden met Experience Platform APIs ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-guide) gids.
 
-* Voor informatie over hoe te om uw geloofsbrieven voor Experience Platform APIs te produceren, zie het leerprogramma op [&#x200B; voor authentiek verklaren en tot Experience Platform APIs toegang heeft &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/landing/platform-apis/api-authentication).
+* Voor informatie over hoe te om uw geloofsbrieven voor Experience Platform APIs te produceren, zie het leerprogramma op [ voor authentiek verklaren en tot Experience Platform APIs toegang heeft ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication).
 
-* Voor informatie over vestiging Postman voor Experience Platform APIs, zie de gedetailleerde stappen in [&#x200B; Postman in Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/landing/platform-apis/postman).
+* Voor informatie over vestiging Postman voor Experience Platform APIs, zie de gedetailleerde stappen in [ Postman in Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/postman).
 
 Met een Experience Platform-ontwikkelaarsconsole en Postman-configuratie kunt u nu de juiste omgevingswaarden toepassen op uw Postman-omgeving.
 
@@ -110,7 +110,7 @@ Kies welke velden kunnen worden gewijzigd via **[!UICONTROL Update Account Profi
 
 ### Relationele schema&#39;s
 
-Selecteer [&#x200B; relationele schema&#39;s &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/schema/relational) voor gebruik in **_reisbeslissing_** en **_verpersoonlijking_**. Deze schema&#39;s zijn momenteel bedoeld voor gebruik door aangepaste objecten. In de toekomst kunnen relationele schema&#39;s ook worden gebruikt voor andere gevallen van objectgebruik.
+Selecteer [ relationele schema&#39;s ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational) voor gebruik in **_reisbeslissing_** en **_verpersoonlijking_**. Deze schema&#39;s zijn momenteel bedoeld voor gebruik door aangepaste objecten. In de toekomst kunnen relationele schema&#39;s ook worden gebruikt voor andere gevallen van objectgebruik.
 
 1. Selecteer het tabblad **[!UICONTROL Relational]**. 
 
@@ -131,11 +131,11 @@ Selecteer [&#x200B; relationele schema&#39;s &#x200B;](https://experienceleague.
 >Merk op dat de relationele schema&#39;s de volgende configuraties moeten hebben:
 >
 ><li>Gedrag: Opnemen
->&gt; <li>Segmentatie: Ingeschakeld
->&gt; <li>Relatietype: veel-op-één
->&gt; <li>Referentieschema: <a href="https://experienceleague.adobe.com/nl/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data"> B2B-account - XDM Business Account-schema </a>
->&gt; <li>Vereiste velden: primaire sleutel, externe sleutel en versiebeschrijving
->&gt; <li>Gekoppelde gegevensset: gedefinieerd en toegewezen aan het schema
+&gt; <li>Segmentatie: Ingeschakeld
+&gt; <li>Relatietype: veel-op-één
+&gt; <li>Referentieschema: <a href="https://experienceleague.adobe.com/nl/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data"> B2B-account - XDM Business Account-schema </a>
+&gt; <li>Vereiste velden: primaire sleutel, externe sleutel en versiebeschrijving
+&gt; <li>Gekoppelde gegevensset: gedefinieerd en toegewezen aan het schema
 
 ### Gebeurtenissen
 
@@ -155,27 +155,29 @@ Selecteer de Gebeurtenissen van de Ervaring in **_reisbeslissing_** te gebruiken
 
 Het volgende moet zijn geconfigureerd voor het verzenden van e-mails vanuit Journey Optimizer B2B edition.  
 
-[&#x200B; https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b/user/get-started/email-protocols](https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b/user/get-started/email-protocols)
+[ https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols)
 
 ### Protocollen voor bijhouden en e-maillevering
 
-1. [&#x200B; creeer DNS verslagen voor e-mail &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b/user/get-started/email-protocols#create-dns-records-for-landing-pages-and-email)
+1. [ creeer DNS verslagen voor e-mail ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#create-dns-records-for-landing-pages-and-email)
 
-1. [&#x200B; Opstelling SPF en DKIM &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-spf-and-dkim)
+1. [ Opstelling SPF en DKIM ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-spf-and-dkim)
 
-1. [&#x200B; Opstelling DMARC &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-dmarc)
+1. [ Opstelling DMARC ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-dmarc)
 
-1. [&#x200B; de verslagen van de opstelling MX voor uw domein &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-mx-records-for-your-domain)
+1. [ de verslagen van de opstelling MX voor uw domein ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-mx-records-for-your-domain)
 
-1. [&#x200B; voeg Uitgaande IP adressen aan lijsten van gewenste personen &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b/user/get-started/email-protocols#outbound-ip-addresses) toe
+1. [ voeg Uitgaande IP adressen aan lijsten van gewenste personen ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#outbound-ip-addresses) toe
 
 1. Als u de specifieke IP pool moet delen, bereik aan het leveringsteam op de haalbaarheid en de gesteunde opstelling.
 
 ### E-mailkanaalconfiguraties
 
-In de vereenvoudigde architectuur worden e-mailinstellingen geconfigureerd via de gebruikersinterface van Marketo Engage. Voltooi de e-mail verwante opstellingsstappen: [&#x200B; https://experienceleague.adobe.com/nl/docs/marketo/using/getting-started/initial-setup/setup-steps](https://experienceleague.adobe.com/nl/docs/marketo/using/getting-started/initial-setup/setup-steps)
+In de vereenvoudigde architectuur worden e-mailinstellingen geconfigureerd vanuit de Marketo Engage-toepassing. Voer de instellingsstappen voor de e-mail uit:
 
-[&#x200B; https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-emails](https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-emails)
+* [ https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps)
+
+* [ https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-emails](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-emails)
 
 ### Communicatielimieten
 
@@ -187,30 +189,35 @@ In de vereenvoudigde architectuur worden e-mailinstellingen geconfigureerd via d
 
    Er is geen communicatielimiet als de algemene regelset niet wordt gemaakt.
 
-<!-- In the future, you can also add local communication limit rule sets (AJO B2C doc can be found here [https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/conflict-prioritization/capping-rules/rule-sets](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/conflict-prioritization/capping-rules/rule-sets). We may need a small update for our B2B version.) -->
+<!-- In the future, you can also add local communication limit rule sets (AJO B2C doc can be found here [https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/capping-rules/rule-sets](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/capping-rules/rule-sets). We may need a small update for our B2B version.) -->
 
 ### Limieten voor gedeelde communicatie
 
 Binnen de nieuwe architectuur hebben Journey Optimizer B2B edition en Marketo Engage standaard onafhankelijke communicatielimieten.
 
-Als u wilt dat de Marketo Engage-instantie de communicatielimiet deelt die in de Journey Optimizer B2B edition-instantie is ingesteld, neemt u contact op met Adobe Support voor hulp bij de configuratie of opent u een ondersteuningsticket. Op verzoek kan het team van de Techniek het delen van communicatie grenzen tussen Journey Optimizer B2B edition en één of meerdere instanties van Marketo Engage toelaten.
+Als u wilt dat de Marketo Engage-instantie de communicatielimiet deelt die in de Journey Optimizer B2B edition-instantie is ingesteld, neemt u contact op met de Adobe-ondersteuning voor hulp bij de configuratie of opent u een ondersteuningsticket. Op verzoek kan het team van de Techniek het delen van communicatie grenzen tussen Journey Optimizer B2B edition en één of meerdere instanties van Marketo Engage toelaten.
 
-Momenteel moet de gedeelde communicatielimiet in de Marketo Engage-instantie worden ingesteld via een API-aanroep.
+Wanneer de gedeelde communicatielimieten zijn ingeschakeld, kunt u de regels in Journey Optimizer B2B edition definiëren en het delen van deze limieten uitbreiden naar de Marketo Munchkin-codes. Voor meer informatie, zie [ Communicatie grenzen ](./admin/configure-channels-emails.md#communication-limits)
 
-Bijvoorbeeld wanneer:
+<!-- internal info only 
 
-* De munchkinId van de Journey Optimizer B2B edition-instantie is `JKL-567-MNO` .
-* De munchkinId van de Marketo Engage-instantie is `ABC-123-DEF` en bevindt zich in het SJ-datacenter
+Currently, the shared communication limit in the Marketo Engage instance must be set up through an API call.
 
-De API-aanvraag moet er ongeveer als volgt uitzien:
+For example, when:
+
+* The munchkinId of the Journey Optimizer B2B Edition instance is `JKL-567-MNO`.
+* The munchkinId of the Marketo Engage instance is `ABC-123-DEF` and it is in the SJ datacenter
+
+The API request should look similar to the following:
 
 ```
 curl --location --request POST 'http://sjrest2a.marketo.org/rest/v1/fm.json?_munchkinId=ABC-123-DEF&featureName=Mktmail%20Config&paramName=ajoB2bMappingMunchkinId&dataType=string&value=JKL-567-MNO'
 ```
+-->
 
 ## SMS-kanaalconfiguratie
 
-Zie {de configuraties van 0} SMS [__ voor gedetailleerde informatie.](https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-sms)
+Zie {de configuraties van 0} SMS [__ voor gedetailleerde informatie.](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-sms)
 
 ## Acties van Marketo Engage tijdens reizen
 
@@ -240,7 +247,7 @@ Voer de volgende stappen uit om deze verbindingen te configureren:
 
 ## Gebruiker aan boord
 
-Zie de [&#x200B; pagina van het Beheer van de Gebruiker &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b/user/admin/user-management) voor een overzicht.
+Zie de [ pagina van het Beheer van de Gebruiker ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management) voor een overzicht.
 
 ### Bestaande gebruikersgroepen
 
@@ -250,7 +257,7 @@ Als alle bestaande Journey Optimizer B2B edition-gebruikers toegang tot de nieuw
 
 1. Voeg een bestaande gebruikersgroep toe aan het gemaakte productprofiel.
 
-De profielen verlenen alle rollen en toestemmingen die reeds aan die gebruikersgroep worden toegewezen, die reeds voor de gebruikers zouden moeten worden gevormd om tot Journey Optimizer B2B edition toegang te hebben. Als alleen een subset gebruikers toegang moet krijgen tot de nieuwe architectuur, voert u de onderstaande stappen uit. Meer details in de [&#x200B; huidige documentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b/user/admin/user-management).
+De profielen verlenen alle rollen en toestemmingen die reeds aan die gebruikersgroep worden toegewezen, die reeds voor de gebruikers zouden moeten worden gevormd om tot Journey Optimizer B2B edition toegang te hebben. Als alleen een subset gebruikers toegang moet krijgen tot de nieuwe architectuur, voert u de onderstaande stappen uit. Meer details in de [ huidige documentatie ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management).
 
 ### Een nieuwe gebruikersgroep maken
 
