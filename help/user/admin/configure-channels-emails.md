@@ -51,11 +51,11 @@ Klik op de tab **[!UICONTROL Branding domains]** om de brandingdomeinen te bekij
 
 ![&#x200B; heb toegang tot de brandende domeinen montages &#x200B;](./assets/config-email-delivery-branding-domains.png){width="700" zoomable="yes"}
 
-Deze instelling definieert uw primaire domein voor een of meer werkruimten in de verbonden Marketo Engage-instantie. De nieuwe e-mails gebruiken dit domein als gebrek, maar de marketers kunnen [&#x200B; het op een per-e-mailbasis &#x200B;](../content/add-email.md#define-the-email-settings) met voeten treden. Voor meer informatie over het bepalen van het standaard brandende domein, verwijs naar de [&#x200B; documentatie van Marketo Engage &#x200B;](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}.
+Deze instelling definieert uw primaire domein voor een of meer werkruimten in de verbonden Marketo Engage-instantie. De nieuwe e-mails gebruiken dit domein als gebrek, maar de marketers kunnen [&#x200B; het op een per-e-mailbasis &#x200B;](../content/add-email.md#define-the-email-settings) met voeten treden. Voor meer informatie over het bepalen van het standaard brandende domein, verwijs naar de [&#x200B; documentatie van Marketo Engage &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}.
 
 >[!NOTE]
 >
->Als u meerdere merken op de markt brengt en u wilt dat elk merk een eigen merktraceringskoppeling heeft, kunt u een extra brandingdomein toevoegen. Voor meer informatie over het toevoegen van veelvoudige brandende domeinen, verwijs naar de [&#x200B; documentatie van Marketo Engage &#x200B;](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}.
+>Als u meerdere merken op de markt brengt en u wilt dat elk merk een eigen merktraceringskoppeling heeft, kunt u een extra brandingdomein toevoegen. Voor meer informatie over het toevoegen van veelvoudige brandende domeinen, verwijs naar de [&#x200B; documentatie van Marketo Engage &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}.
 
 ### [!UICONTROL Custom header options] {#custom-header-options}
 
@@ -75,7 +75,7 @@ Communicatie beperkt het aantal e-mails dat een contactpersoon van uw organisati
 
 Met een gedefinieerde limiet van vijf e-mails per dag zorgt het systeem ervoor dat één contactpersoon binnen een dag geen zesde e-mail ontvangt door het zesde e-mailbericht te onderdrukken. Met gedeelde communicatielimieten tussen Journey Optimizer B2B edition en Marketo Engage worden de regels voor communicatielimieten op één locatie gedefinieerd. Het zesde e-mailbericht wordt onderdrukt, ongeacht de verzendactie van Journey Optimizer B2B edition of Marketo Engage.
 
-Alle de productierexemplaren van Marketo Engage hebben communicatie grenzen die door gebrek worden bepaald (zie de [&#x200B; documentatie van Marketo Engage &#x200B;](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"} voor meer informatie). Als u gedeelde communicatielimieten wilt gebruiken, definieert u de regels in Journey Optimizer B2B edition en breidt u de verdeling van deze limieten uit tot de Marketo Munchkin-codes.
+Alle de productierexemplaren van Marketo Engage hebben communicatie grenzen die door gebrek worden bepaald (zie de [&#x200B; documentatie van Marketo Engage &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"} voor meer informatie). Als u gedeelde communicatielimieten wilt gebruiken, definieert u de regels in Journey Optimizer B2B edition en breidt u de verdeling van deze limieten uit tot de Marketo Munchkin-codes.
 
 >[!IMPORTANT]
 >
@@ -161,7 +161,7 @@ DKIM is een verificatieprotocol dat door e-mailontvangers wordt gebruikt om de a
 
 Wanneer u de openbare sleutel in uw DNS verslag en het verzendende domein in de verbonden instantie van Marketo Engage wordt geactiveerd, wordt het ondertekenen van douaneDKIM gebruikt voor uw uitgaande berichten. De aangepaste DKIM-ondertekening omvat een gecodeerde digitale handtekening bij elke e-mail die wordt verzonden. De ontvangers zijn dan in staat om de digitale handtekening te decrypteren door omhoog de _openbare sleutel_ in DNS van uw verzendend domein te kijken. Als de sleutel in de e-mail met de sleutel in het DNS verslag beantwoordt, is de ontvangende postserver waarschijnlijker om e-mail te aanvaarden die door Marketo Engage wordt verzonden.
 
-Voor meer informatie over het vormen van een handtekening van douaneDKIM voor e-maillevering, verwijs naar de [&#x200B; documentatie van Marketo Engage &#x200B;](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"}.
+Voor meer informatie over het vormen van een handtekening van douaneDKIM voor e-maillevering, verwijs naar de [&#x200B; documentatie van Marketo Engage &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"}.
 
 ## Bot-activiteit
 
@@ -194,4 +194,4 @@ De instellingen zijn alleen-lezen in Journey Optimizer B2B edition. Klik op **[!
 >
 >Voor toegang tot en het bewerken van deze instellingen in Adobe Marketo Engage hebt u productbeheerdersmachtigingen nodig.
 
-Voor meer informatie over het vormen van de opties van de beide activiteit, verwijs naar de [&#x200B; documentatie van Marketo Engage &#x200B;](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}.
+Voor meer informatie over het vormen van de opties van de beide activiteit, verwijs naar de [&#x200B; documentatie van Marketo Engage &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}.
