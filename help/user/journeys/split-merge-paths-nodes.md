@@ -2,11 +2,12 @@
 title: Paden splitsen en samenvoegen
 description: U kunt padknooppunten splitsen en samenvoegen om accounts en personen met voorwaardelijke logica te segmenteren, filteren door groepen te kopen en paden opnieuw te combineren in Journey Optimizer B2B edition.
 feature: Account Journeys
+solution: Journey Optimizer B2B Edition
 role: User
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-source-git-commit: 2bd5c21221da6b1e747bb133cd17c38225539ada
+source-git-commit: 1dbcdfd67e90a37774287d8d1a18aa5ba502befe
 workflow-type: tm+mt
-source-wordcount: '2271'
+source-wordcount: '2319'
 ht-degree: 0%
 
 ---
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 Gebruik padknooppunten splitsen en samenvoegen om personen of accounts te segmenteren volgens de voorwaarden die u definieert. Maak paden voor het publiek of de accountlijst volgens de voorwaarden, definieer elk pad met actie- en gebeurtenisknooppunten voor het segment en combineer vervolgens de paden en vervolg de reis.
 
-![&#x200B; Video &#x200B;](../../assets/do-not-localize/icon-video.svg){width="30"} [&#x200B; bekijk de overzichtsvideo &#x200B;](#overview-video)
+![ Video ](../../assets/do-not-localize/icon-video.svg){width="30"} [ bekijk de overzichtsvideo ](#overview-video)
 
 A _Gesplitste wegen_ knoop bepaalt één of meerdere gesegmenteerde wegen die op **_worden gebaseerd of_** rekening of personenfilters. Een splitsing op basis van een personenfilter wordt automatisch gesloten met een knooppunt voor samengevoegde paden, zodat alle personen naar de volgende stap kunnen gaan zonder hun accountcontext te verliezen.
 
@@ -27,7 +28,7 @@ A _Gesplitste wegen_ knoop bepaalt één of meerdere gesegmenteerde wegen die op
 
 Splitsen op basis van accounts kan zowel handelingen als gebeurtenissen voor account en personen bevatten. Deze paden kunnen verder worden gesplitst.
 
-_&#x200B;**hoe een gespleten weg door rekeningsknoop**&#x200B;_ werkt
+_**hoe een gespleten weg door rekeningsknoop**_ werkt
 
 * Elk pad dat u toevoegt, bevat een eindknooppunt met de mogelijkheid om knooppunten aan elke rand toe te voegen.
 * Splitsen op accountknooppunten kan worden genest (u kunt het pad herhaaldelijk splitsen op accounts).
@@ -35,19 +36,19 @@ _&#x200B;**hoe een gespleten weg door rekeningsknoop**&#x200B;_ werkt
 * Twee of meer paden kunnen worden gecombineerd met een samenvoegknooppunt.
 * Het knooppunt ondersteunt de definitie van een _[!UICONTROL Other accounts]_-pad, waar u handelingen of gebeurtenissen kunt toevoegen voor accounts die niet overeenkomen met een van de gedefinieerde segmenten/paden.
 
-![&#x200B; knoop van de Reis - gespleten wegen door rekening &#x200B;](./assets/node-split-paths-account.png){width="700" zoomable="yes"}
+![ knoop van de Reis - gespleten wegen door rekening ](./assets/node-split-paths-account.png){width="700" zoomable="yes"}
 
 ### Padvoorwaarden account
 
 | Padvoorwaarden | Beschrijving |
 | --------------- | ----------- |
-| Accountkenmerken | Attributen van het accountprofiel, waaronder: <li>Jaarlijkse ontvangsten <li>Stad <li>Land <li>Werknemersgrootte <li>Marktsegment <li>Naam <li>SIC-code <li>Staat |
+| Accountkenmerken | Attributen van het accountprofiel, waaronder: <li>Jaarlijkse ontvangsten <li>Stad <li>Land <li>Werknemersgrootte <li>Marktsegment <li>Naam <li>SIC-code <li>Staat <li>Heeft `<relational schema>` (zie [ Gegevens van de Douane filtreren ](#custom-data-filtering)) |
 | [!UICONTROL Special filters] > [!UICONTROL Account has matched buying group] | De account komt overeen met een of meer inkoopgroepen. Deze kan worden beoordeeld aan de hand van een of meer van de volgende beperkingen voor een overeenkomende koopgroep: <li>Belang van oplossing <li>Fase van kopersgroep <li>Status van kopersgroep <li>Engagement Score <li>Complete score <li> Aantal personen in groepsrol kopen |
 | [!UICONTROL Special filters] > [!UICONTROL Has Buying Group] | De account heeft al dan niet leden van kopersgroepen. Het kan ook worden beoordeeld aan de hand van een of meer van de volgende criteria: <li>Belang van oplossing <li>Fase van kopersgroep <li>Status van kopersgroep <li>Engagement Score <li>Complete score |
 
 >[!NOTE]
 >
->Het filter _[!UICONTROL Has Buying Group]_&#x200B;wordt gemarkeerd voor toekomstige veroudering. Gebruik voor nieuwe ritten het filter&#x200B;_[!UICONTROL Account has matched buying group]_ , dat alle zelfde beperkingen omvat.
+>Het filter _[!UICONTROL Has Buying Group]_wordt gemarkeerd voor toekomstige veroudering. Gebruik voor nieuwe ritten het filter_[!UICONTROL Account has matched buying group]_ , dat alle zelfde beperkingen omvat.
 
 ### Een gesplitst pad toevoegen per accountknooppunt
 
@@ -55,13 +56,13 @@ _&#x200B;**hoe een gespleten weg door rekeningsknoop**&#x200B;_ werkt
 
 1. Klik op de plusknop ( **+** ) op een pad en kies **[!UICONTROL Split paths]** .
 
-   ![&#x200B; voeg reisknoop toe - gespleten wegen &#x200B;](./assets/add-node-split.png){width="300"}
+   ![ voeg reisknoop toe - gespleten wegen ](./assets/add-node-split.png){width="300" zoomable="no"}
 
 1. In de knoopeigenschappen op het recht, kies **[!UICONTROL Accounts]** voor de spleet.
 
 1. Als u een voorwaarde wilt definiëren die van toepassing is op _[!UICONTROL Path 1]_, klikt u op **[!UICONTROL Apply condition]**.
 
-   ![&#x200B; Gesplitste wegknoop - voeg voorwaarde &#x200B;](./assets/node-split-properties-apply-condition.png){width="500"} toe
+   ![ Gesplitste wegknoop - voeg voorwaarde ](./assets/node-split-properties-apply-condition.png){width="500" zoomable="yes"} toe
 
 1. Voeg in de Conditions-editor een of meer filters toe om het gesplitste pad te definiëren.
 
@@ -69,7 +70,7 @@ _&#x200B;**hoe een gespleten weg door rekeningsknoop**&#x200B;_ werkt
 
    * Pas de condities aan door de **[!UICONTROL Filter logic]** aan de bovenkant toe te passen. U kiest ervoor om alle filters of een filter aan te passen.
 
-     ![&#x200B; Gesplitste wegknoop - de logica van de voorwaardenrekeningen &#x200B;](./assets/node-split-conditions-accounts.png){width="700" zoomable="yes"}
+     ![ Gesplitste wegknoop - de logica van de voorwaardenrekeningen ](./assets/node-split-conditions-accounts.png){width="700" zoomable="yes"}
 
    * Klik op **[!UICONTROL Done]**.
 
@@ -83,7 +84,7 @@ _&#x200B;**hoe een gespleten weg door rekeningsknoop**&#x200B;_ werkt
 
    Klik op de pijl-omhoog of -omlaag rechtsboven in elke padkaart om deze hoger of lager in de lijst met paden te plaatsen.
 
-   ![&#x200B; Gesplitste wegknoop - orde wegen &#x200B;](./assets/node-split-reorder-paths-accounts.png){width="500" zoomable="yes"} opnieuw
+   ![ Gesplitste wegknoop - orde wegen ](./assets/node-split-reorder-paths-accounts.png){width="500" zoomable="yes"} opnieuw
 
 1. Schakel de optie **[!UICONTROL Other accounts]** in om het standaardpad te definiëren voor accounts die niet overeenkomen met de gedefinieerde segmenten/paden.
 
@@ -97,7 +98,7 @@ U wilt bijvoorbeeld de gereedheid van de inkoopgroep evalueren op basis van de d
 
 1. Klik op **[!UICONTROL Add filter]** en kies het filter **[!UICONTROL Number of people in buying group role]** .
 
-   ![&#x200B; voeg filter voor Rekening toe heeft het kopen groep aangepast en kies Aantal mensen in het kopen van groepsrol &#x200B;](./assets/node-split-account-condition-matched-buying-group-number-people-role.png){width="700" zoomable="yes"}
+   ![ voeg filter voor Rekening toe heeft het kopen groep aangepast en kies Aantal mensen in het kopen van groepsrol ](./assets/node-split-account-condition-matched-buying-group-number-people-role.png){width="700" zoomable="yes"}
 
 1. Definieer de eerste rolparameter.
 
@@ -111,17 +112,32 @@ U wilt bijvoorbeeld de gereedheid van de inkoopgroep evalueren op basis van de d
    * Stel het aantal personen dat wordt geëvalueerd in op `at least` met de waarde `2` .
    * Stel de rolevaluatie in op `is` en kies `Influencer` in de lijst met rollen.
 
-   ![&#x200B; Voorwaarden voorbeeld voor roldiepte in het weerspiegelen het kopen groep voor een rekening &#x200B;](./assets/node-split-account-condition-matched-buying-group-role-depth-example.png){width="700" zoomable="yes"}
+   ![ Voorwaarden voorbeeld voor roldiepte in het weerspiegelen het kopen groep voor een rekening ](./assets/node-split-account-condition-matched-buying-group-role-depth-example.png){width="700" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Done]** als u alle voorwaarden voor het pad hebt gedefinieerd.
 
 Voor de geïdentificeerde accounts kunt u een actieknooppunt toevoegen aan het pad om de status van de inkoopgroep of het aankoopstadium bij te werken of een e-mail met een verkoopwaarschuwing te verzenden.
 
+### Aangepaste gegevensfiltering
+
+[!BADGE Bèta]{type=Informative url="/help/user/admin/engagement-score-weighting.md" tooltip="Beschikbaar als bètafunctie op de vereenvoudigde architectuur"}
+
+U kunt relationele schema&#39;s (op model-gebaseerde klassen) gebruiken om wegen door rekening te verdelen. De douanevoorwerpen worden bepaald binnen _relationele schema&#39;s_, en een productbeheerder kan [ relationele schemagebieden ](../admin/xdm-field-management.md#relational-schemas) in [!DNL Journey Optimizer B2B Edition] vormen. De geselecteerde schemavelden zijn beschikbaar in de voorwaardeseditor voor gebruik in gesplitst pad op accountknooppunten.
+
+![ Voorwaarden voorbeeld voor relationeel schema voor aanbieding ](./assets/node-split-paths-account-relational-schema.png){width="700" zoomable="yes"}
+
+<!-- SPHR-23746
+
+Note: These are currently going under Account Attributes folder, which is a bug (SPHR-21734). This will move to Special filters when resolved (January release).
+
+This will also be available for split paths by people (under special filters) for the M 1.5 GA release.
+-->
+
 ## Paden splitsen op personen
 
 Paden splitsen op basis van personen kunnen alleen acties voor personen bevatten. Deze paden kunnen niet opnieuw worden gesplitst en automatisch met elkaar worden verbonden.
 
-_&#x200B;**hoe een gespleten weg door de knoop van mensen**&#x200B;_ werkt
+_**hoe een gespleten weg door de knoop van mensen**_ werkt
 
 * Splitsen door de functie van personenknopen binnen a _gegroepeerde knoop_ spleet-fusie combinatie. De gesplitste paden worden automatisch samengevoegd, zodat alle mensen naar de volgende stap kunnen gaan zonder hun accountcontext te verliezen.
 * Splitsen op basis van knooppunten kan niet worden genest (u kunt geen gesplitst pad toevoegen voor personen op een pad dat zich in dit gegroepeerde knooppunt bevindt).
@@ -129,7 +145,7 @@ _&#x200B;**hoe een gespleten weg door de knoop van mensen**&#x200B;_ werkt
 * De knoop steunt het gebruik van _rekening-persoon verhoudingen_, die u toestaat om mensen te filtreren die op hun rol (zoals contractant of voltijdwerknemer) worden gebaseerd zoals die in de verhouding wordt bepaald.
 * Het knooppunt ondersteunt de definitie van een _[!UICONTROL Other people]_-pad, waar u handelingen of gebeurtenissen kunt toevoegen voor personen die niet overeenkomen met een van de gedefinieerde segmenten/paden.
 
-![&#x200B; knoop van de Reis - gespleten wegen door mensen &#x200B;](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
+![ knoop van de Reis - gespleten wegen door mensen ](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
 ### Padfilters voor personen
 
@@ -138,12 +154,12 @@ _&#x200B;**hoe een gespleten weg door de knoop van mensen**&#x200B;_ werkt
 | [!UICONTROL Activity history] > [!UICONTROL Email] | E-mailactiviteiten die zijn gebaseerd op voorwaarden die zijn geëvalueerd aan de hand van een of meer geselecteerde e-mailberichten van eerder in de reis: <li>[!UICONTROL Clicked link in email] <li>E-mail geopend <li>Is per e-mail verzonden <li>Is verzonden via e-mail <br>**[!UICONTROL Switch to inactivity filter]**- Gebruik deze optie om te filteren op basis van een gebrek aan activiteit (een persoon had de e-mailactiviteit niet). |
 | [!UICONTROL Activity history] > [!UICONTROL SMS Message] | De activiteiten van SMS die op voorwaarden worden gebaseerd die gebruikend één of meerdere geselecteerde SMS berichten van vroeger in de reis worden geëvalueerd: <li>[!UICONTROL Clicked link in SMS] <li>[!UICONTROL SMS Bounced] <br>**[!UICONTROL Switch to inactivity filter]**- Gebruik deze optie om te filteren op basis van een gebrek aan activiteit (een persoon had de SMS-activiteit niet). |
 | [!UICONTROL Activity history] > [!UICONTROL Data Value Changed] | Voor een geselecteerd persoonkenmerk is een waardewijziging opgetreden. Deze wijzigingstypen zijn onder meer: <li>Nieuwe waarde<li>Vorige waarde<li>Reden<li>Bron<li>Datum van activiteit<li>Min. aantal keren <br>**[!UICONTROL Switch to inactivity filter]**- Gebruik deze optie om te filteren op basis van een gebrek aan activiteit (een persoon had geen wijziging in de gegevenswaarde). |
-| [!UICONTROL Activity history] > [!UICONTROL Had Interesting Moment] | Interesserende momentactiviteit die in de bijbehorende instantie van Marketo Engage wordt bepaald. Beperkingen zijn: <li>Mijlsteen<li>E-mail<li>Web <br>**[!UICONTROL Switch to inactivity filter]**- Gebruik deze optie om te filteren op basis van een gebrek aan activiteit (een persoon had geen interessant moment). |
-| [!UICONTROL Activity history] > [!UICONTROL Visited web page] | Webpaginageactiviteit die voor een of meer webpagina&#39;s wordt beheerd door de bijbehorende Marketo Engage-instantie. Beperkingen zijn: <li>Webpagina (vereist)<li>Datum van activiteit<li>IP-adres client <li>Querystring <li>Referenter <li>Gebruikersagent <li>Zoekmachine <li>Zoekquery <li>Persoonlijke URL <li>Token <li>Browser <li>Platform <li>Apparaat <li>Min. Aantal keren <br>**[!UICONTROL Switch to inactivity filter]**- Gebruik deze optie om te filteren op basis van een gebrek aan activiteit (een persoon heeft de webpagina niet bezocht). |
+| [!UICONTROL Activity history] > [!UICONTROL Had Interesting Moment] | Interesserende tijdactiviteit die wordt gedefinieerd in de gekoppelde [!DNL Marketo Engage] -instantie. Beperkingen zijn: <li>Mijlsteen<li>E-mail<li>Web <br>**[!UICONTROL Switch to inactivity filter]**- Gebruik deze optie om te filteren op basis van een gebrek aan activiteit (een persoon had geen interessant moment). |
+| [!UICONTROL Activity history] > [!UICONTROL Visited web page] | Webpaginageactiviteit die voor een of meer webpagina&#39;s wordt beheerd door de gekoppelde [!DNL Marketo Engage] -instantie. Beperkingen zijn: <li>Webpagina (vereist)<li>Datum van activiteit<li>IP-adres client <li>Querystring <li>Referenter <li>Gebruikersagent <li>Zoekmachine <li>Zoekquery <li>Persoonlijke URL <li>Token <li>Browser <li>Platform <li>Apparaat <li>Min. Aantal keren <br>**[!UICONTROL Switch to inactivity filter]**- Gebruik deze optie om te filteren op basis van een gebrek aan activiteit (een persoon heeft de webpagina niet bezocht). |
 | [!UICONTROL Person Attributes] | Attributen van het profiel van de persoon, met inbegrip van: <li>Stad <li>Land <li>Geboortedatum <li>E-mailadres <li>E-mail is ongeldig <li>E-mail is geschorst <li>Voornaam <li>Overgenomen deelstaatgebied<li>Functie <li>Achternaam <li>Mobiel telefoonnummer <li>Persoonlijke betrokkenheidsscore <li>Telefoonnummer <li>Postcode <li>Staat <li>Niet geabonneerd <li>Reden waarop geen abonnement is genomen |
 | [!UICONTROL Special filters] > [!UICONTROL Member of Buying Group] | De persoon is al dan niet lid van de koopgroep, beoordeeld aan de hand van een of meer van de volgende criteria: <li>Belang van oplossing</li><li>Status van kopersgroep</li><li>Complete score</li><li>Engagement Score</li><li>Functie</li> |
-| [!UICONTROL Special filters] > [!UICONTROL Member of List] | De persoon is al dan niet lid van een of meer Marketo Engage-lijsten. |
-| [!UICONTROL Special filters] > [!UICONTROL Member of Program] | De persoon is al dan niet lid van een of meer Marketo Engage-programma&#39;s. |
+| [!UICONTROL Special filters] > [!UICONTROL Member of List] | De persoon is al dan niet lid van een of meer [!DNL Marketo Engage] lijsten. |
+| [!UICONTROL Special filters] > [!UICONTROL Member of Program] | De persoon is al dan niet lid van een of meer [!DNL Marketo Engage] -programma&#39;s. |
 
 ### Padvoorwaarden voor account-personen
 
@@ -161,7 +177,7 @@ _&#x200B;**hoe een gespleten weg door de knoop van mensen**&#x200B;_ werkt
 
 1. Klik op de plusknop ( **+** ) op een pad en kies **[!UICONTROL Split paths]** .
 
-   ![&#x200B; voeg reisknoop toe - gespleten wegen &#x200B;](./assets/add-node-split.png){width="300"}
+   ![ voeg reisknoop toe - gespleten wegen ](./assets/add-node-split.png){width="300" zoomable="no"}
 
 1. In de knoopeigenschappen op het recht, kies **[!UICONTROL People]** voor de spleet.
 
@@ -182,7 +198,7 @@ _&#x200B;**hoe een gespleten weg door de knoop van mensen**&#x200B;_ werkt
 
    * Pas de condities aan door de **[!UICONTROL Filter logic]** aan de bovenkant toe te passen. U kiest ervoor om alle kenmerkvoorwaarden of een voorwaarde aan te passen.
 
-     ![&#x200B; Gesplitste wegknoop - de logica van de voorwaardenfilter &#x200B;](./assets/node-split-conditions-people.png){width="700" zoomable="yes"}
+     ![ Gesplitste wegknoop - de logica van de voorwaardenfilter ](./assets/node-split-conditions-people.png){width="700" zoomable="yes"}
 
    * Klik op **[!UICONTROL Done]**.
 
@@ -196,11 +212,11 @@ _&#x200B;**hoe een gespleten weg door de knoop van mensen**&#x200B;_ werkt
 
    Klik op de pijl-omhoog of -omlaag rechtsboven in elke padkaart om deze hoger of lager in de lijst met paden te plaatsen.
 
-   ![&#x200B; Gesplitste wegknoop - orde wegen &#x200B;](./assets/node-split-reorder-paths-people.png){width="500" zoomable="yes"} opnieuw
+   ![ Gesplitste wegknoop - orde wegen ](./assets/node-split-reorder-paths-people.png){width="500" zoomable="yes"} opnieuw
 
 1. Schakel de optie **[!UICONTROL Other people]** in om een standaardpad toe te voegen voor mensen die niet overeenkomen met de gedefinieerde paden.
 
-   Als deze optie niet is ingeschakeld, worden personen die niet overeenkomen met een gedefinieerd segment/pad, verplaatst na de splitsing en gaan ze verder met de volgende stap in de rit.
+   Als deze optie niet is ingeschakeld, worden personen die niet overeenkomen met een bepaald segment/pad, verplaatst na de splitsing en gaan ze verder met de volgende stap in de rit.
 
    Wanneer u voorwaarden voor elk pad hebt gedefinieerd om uw publiek op personenniveau te splitsen, kunt u acties toevoegen die u aan personen wilt overnemen.
 
@@ -211,30 +227,30 @@ Voor een gesplitst pad naar personen kunt u een pad definiëren op basis van de 
 * E-mailberichten van eerdere reizen
 * SMS-berichten uit eerdere reizen
 * Verandering in gegevenswaarde in het persoonprofiel
-* Een interessant moment (bijgehouden in Marketo Engage) dat is gekoppeld aan een e-mail, webpagina of mijlpaal
-* Ga naar een webpagina die is bijgehouden in Marketo Engage
+* Een interessant moment (bijgehouden in [!DNL Marketo Engage] ) dat is gekoppeld aan een e-mail, webpagina of mijlpaal
+* Naar een webpagina gaan (bijgehouden in [!DNL Marketo Engage])
 
 >[!BEGINSHADEBOX  &quot;Inactiviteit het filtreren&quot;]
 
-Voor elk van de _[!UICONTROL Activity history]_-filters kunt u de optie **[!UICONTROL Switch to inactivity filter]**&#x200B;inschakelen. Met deze optie wijzigt u het filter in een evaluatie omdat dat type activiteit ontbreekt. Bijvoorbeeld, als u een weg voor mensen wilt tot stand brengen die _&#x200B;**&#x200B;**&#x200B;_geen e-mail van vroeger in de reis open, voeg&#x200B;_[!UICONTROL Email]_ > _[!UICONTROL Opened email]_&#x200B;filter toe. Schakel de optie Inactiviteit in en geef de e-mail op. U kunt het beste de&#x200B;_[!UICONTROL Date of activity]_ -beperking gebruiken om een tijdsperiode voor de inactiviteit te definiëren.
+Voor elk van de _[!UICONTROL Activity history]_-filters kunt u de optie **[!UICONTROL Switch to inactivity filter]**inschakelen. Met deze optie wijzigt u het filter in een evaluatie omdat dat type activiteit ontbreekt. Bijvoorbeeld, voeg_[!UICONTROL Email]_ > _[!UICONTROL Opened email]_filter toe om een weg voor mensen tot stand te brengen die _****_geen e-mail van vroeger in de reis open. Schakel de optie Inactiviteit in en geef de e-mail op. U kunt het beste de_[!UICONTROL Date of activity]_ -beperking gebruiken om een tijdsperiode voor de inactiviteit te definiëren.
 
-![&#x200B; Gesplitste weg door mensen voorwaarde voor het kopen van groepslidmaatschap &#x200B;](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
+![ Gesplitste weg door mensen voorwaarde voor het kopen van groepslidmaatschap ](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
 >[!ENDSHADEBOX]
 
 ### Deelnemerfiltering
 
-Binnen de sectie _[!UICONTROL Special Filters]_&#x200B;zijn er meerdere filters waarmee u het lidmaatschap van een persoon in een inkoopgroep of Marketo Engage-lijst kunt evalueren. Als u bijvoorbeeld een pad wilt maken voor mensen die lid zijn van een inkoopgroep en een bepaalde rol hebben toegewezen, voegt u het filter&#x200B;_[!UICONTROL Special filters]_ > _[!UICONTROL Member of Buying group]_&#x200B;toe. Voor de filter, plaats het lidmaatschap als_ waar _, selecteer a&#x200B;_[!UICONTROL Solution interest]_ dat met één of meerdere het kopen groepen wordt geassocieerd, en plaats _[!UICONTROL Role]_&#x200B;die u wilt aanpassen.
+Binnen de sectie _[!UICONTROL Special Filters]_zijn er meerdere filters die u kunt gebruiken om het lidmaatschap van een persoon in een inkoopgroep of [!DNL Marketo Engage] -lijst te evalueren. Als u bijvoorbeeld een pad wilt maken voor mensen die lid zijn van een inkoopgroep en een bepaalde rol hebben toegewezen, voegt u het filter_[!UICONTROL Special filters]_ > _[!UICONTROL Member of Buying group]_toe. Voor de filter, plaats het lidmaatschap als_ waar _, selecteer a_[!UICONTROL Solution interest]_ dat met één of meerdere het kopen groepen wordt geassocieerd, en plaats _[!UICONTROL Role]_die u wilt aanpassen.
 
-![&#x200B; Gesplitste weg door mensen voorwaarde voor het kopen van groepslidmaatschap &#x200B;](./assets/node-split-people-condition-buying-group-membership.png){width="700" zoomable="yes"}
+![ Gesplitste weg door mensen voorwaarde voor het kopen van groepslidmaatschap ](./assets/node-split-people-condition-buying-group-membership.png){width="700" zoomable="yes"}
 
 >[!BEGINSHADEBOX  &quot;Marketo Engage list membership&quot;]
 
-In Marketo Engage, _Slimme Campagnes_ controlelidmaatschap van programma&#39;s om ervoor te zorgen dat de leads geen dubbele e-mail ontvangen en niet leden van veelvoudige stromen van e-mails tezelfdertijd zijn. In Journey Optimizer B2B kunt u controleren op Marketo Engage-lidmaatschap als voorwaarde voor uw gesplitste pad door mensen om dubbel werk in reisactiviteiten te voorkomen.
+In [!DNL Marketo Engage], _Slimme Campagnes_ controlelidmaatschap van programma&#39;s om ervoor te zorgen dat de leads geen dubbele e-mail ontvangen en geen leden van veelvoudige stromen van e-mails tezelfdertijd zijn. In Journey Optimizer B2B kunt u controleren op [!DNL Marketo Engage] -lidmaatschap als voorwaarde voor uw gesplitste pad door mensen om dubbel werk in reisactiviteiten te voorkomen.
 
-Als u een lidmaatschap van een lijst wilt gebruiken in een gesplitste voorwaarde, vouwt u **[!UICONTROL Special Filters]** uit en sleept u de voorwaarde **[!UICONTROL Member of List]** naar de filterruimte. Voltooi de filterdefinitie om lidmaatschap in één of meerdere lijsten van Marketo Engage te evalueren.
+Als u een lidmaatschap van een lijst wilt gebruiken in een gesplitste voorwaarde, vouwt u **[!UICONTROL Special Filters]** uit en sleept u de voorwaarde **[!UICONTROL Member of List]** naar de filterruimte. Voltooi de filterdefinitie om het lidmaatschap in een of meer [!DNL Marketo Engage] lijsten te evalueren.
 
-![&#x200B; Gesplitste weg door personenvoorwaarde voor het lijstlidmaatschap van Marketo Engage &#x200B;](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
+![ Gesplitste weg door mensen voorwaarde voor [!DNL Marketo Engage] lijstlidmaatschap ](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
 
 >[!ENDSHADEBOX]
 
@@ -254,11 +270,11 @@ Voeg de wegen van de a _Fusie_ knoop toe om verschillende gespleten wegen door r
 
 1. Klik op de plusknop ( **+** ) voor een van deze paden en kies **[!UICONTROL Merge]** in de weergegeven opties.
 
-   ![&#x200B; knoop van de Reis - fusiepaden &#x200B;](./assets/node-plus-icon-merge-paths.png){width="400"}
+   ![ knoop van de Reis - fusiepaden ](./assets/node-plus-icon-merge-paths.png){width="400" zoomable="no"}
 
 1. Selecteer in de eigenschappen van de knooppunt Paden samenvoegen de paden die u wilt samenvoegen.
 
-   ![&#x200B; knoop van de Reis - fusiepaden &#x200B;](./assets/node-merge-select-paths.png){width="600" zoomable="yes"}
+   ![ knoop van de Reis - fusiepaden ](./assets/node-merge-select-paths.png){width="600" zoomable="yes"}
 
    Op dit punt worden de paden samengevoegd, zodat de accounts van de geselecteerde paden worden gecombineerd tot één pad dat door de rit kan gaan.
 
@@ -266,4 +282,4 @@ Voeg de wegen van de a _Fusie_ knoop toe om verschillende gespleten wegen door r
 
 ## Video over overzicht
 
->[!VIDEO](https://video.tv.adobe.com/v/3443262/?learn=on&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
