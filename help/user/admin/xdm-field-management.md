@@ -90,7 +90,7 @@ Wanneer u **[!UICONTROL Managed fields]** kiest, maakt de _Uitgezochte gebieden_
 
 #### Bijwerkbare velden
 
-Alvorens u updatable gebieden vormt, moeten zij in een douane dataset verblijven. Voor een analyse van het werkschema van de douanedataset, zie [&#x200B; datasets creëren en gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} invoeren, en de **[!UICONTROL Create dataset from schema]** optie gebruiken. Deze dataset wordt gebruikt om updatable gebieden te isoleren. Alle updatable gebieden moeten in deze dataset zijn.
+Alvorens u updatable gebieden vormt, moeten zij in een douane dataset verblijven. Voor een analyse van het werkschema van de douanedataset, zie [&#x200B; datasets creëren en gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} invoeren, en de **[!UICONTROL Create dataset from schema]** optie gebruiken. Deze dataset wordt gebruikt om updatable gebieden te isoleren. Alle updatable gebieden moeten in deze dataset zijn.
 
 Maak een gegevensset voor Individueel profiel en een andere voor Zakelijke account. Selecteer elke nieuwe dataset tijdens het configuratieproces:
 
@@ -109,7 +109,7 @@ Voor informatie over hoe u de geselecteerde gebieden voor geavanceerde e-mailver
 
 >[!NOTE]
 >
->De [&#x200B; Relationele schema&#39;s &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) zijn beschikbaar voor [!DNL Journey Optimizer B2B Edition] als beperkte beschikbaarheidsversie. Data Mirror- en relationele schema&#39;s zijn beschikbaar voor [!DNL Journey Optimizer Orchestrated Campaigns] -licentiehouders. Relationele schema&#39;s zijn ook beschikbaar als een beperkte release voor [!DNL Customer Journey Analytics] -gebruikers, afhankelijk van uw licentie en functionaliteit. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
+>De [&#x200B; Relationele schema&#39;s &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/schema/relational#) zijn beschikbaar voor [!DNL Journey Optimizer B2B Edition] als beperkte beschikbaarheidsversie. Data Mirror- en relationele schema&#39;s zijn beschikbaar voor [!DNL Journey Optimizer Orchestrated Campaigns] -licentiehouders. Relationele schema&#39;s zijn ook beschikbaar als een beperkte release voor [!DNL Customer Journey Analytics] -gebruikers, afhankelijk van uw licentie en functionaliteit. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
 >[!NOTE]
 >
