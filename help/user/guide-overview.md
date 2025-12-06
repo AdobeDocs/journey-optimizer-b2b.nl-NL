@@ -23,7 +23,7 @@ Bekijk deze sampling van de nieuwste toevoegingen en verbeteringen in de toepass
 
 >[!TAB  AI agenten ]
 
-Met [ Experience Platform Agent Orchestrator ](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}, kan de AI Hulp interface op gespecialiseerde agenten automatisch roepen om u de juiste antwoorden en inzichten te krijgen. Agent Orchestrator herinnert zich uw gespreksgeschiedenis, zodat u op een natuurlijke manier kunt voortbouwen op eerdere vragen zonder de context te hoeven herhalen. Ook combineert Agent Orchestrator inzichten van meerdere agenten om u duidelijke, uniforme antwoorden te bieden. In de [!DNL Journey Optimizer B2B Edition] context, zijn er drie doel-gebouwde agenten voor specifieke B2B taken en domeinen:
+Met [&#x200B; Experience Platform Agent Orchestrator &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}, kan de AI Hulp interface op gespecialiseerde agenten automatisch roepen om u de juiste antwoorden en inzichten te krijgen. Agent Orchestrator herinnert zich uw gespreksgeschiedenis, zodat u op een natuurlijke manier kunt voortbouwen op eerdere vragen zonder de context te hoeven herhalen. Ook combineert Agent Orchestrator inzichten van meerdere agenten om u duidelijke, uniforme antwoorden te bieden. In de [!DNL Journey Optimizer B2B Edition] context, zijn er drie doel-gebouwde agenten voor specifieke B2B taken en domeinen:
 
 * [Audience Agent B2B](./agents/audience-agent-b2b.md)
 * [Journey Build Agent B2B](./agents/journey-agent.md)
@@ -55,7 +55,7 @@ De ontwerpruimte voor e-mail bevat samenwerkingsgereedschappen voor feedback en 
 
 >[!TAB  Donkere wijze e-mailontwerp ]
 
-De ruimte van het e-mailontwerp omvat nu _voorproef en montages van 0} donkere wijze {._ In de donkere modus kan een ondersteunende e-mailclient of app e-mails weergeven met donkere achtergronden en lichtere kleuren voor tekst, knoppen en andere visuele elementen. Geef een voorvertoning van de rendering weer, pas instellingen aan, zorg voor toegankelijkheid en test alle e-mailclients.
+De ruimte van het e-mailontwerp omvat nu _voorproef en montages van 0&rbrace; donkere wijze &lbrace;._ In de donkere modus kan een ondersteunende e-mailclient of app e-mails weergeven met donkere achtergronden en lichtere kleuren voor tekst, knoppen en andere visuele elementen. Geef een voorvertoning van de rendering weer, pas instellingen aan, zorg voor toegankelijkheid en test alle e-mailclients.
 
 [!BADGE Meer informatie]{type=Informative url="/help/user/content/email-dark-mode.md" tooltip="Meer informatie over het ontwerpen van e-mails in de donkere modus"}
 
@@ -67,14 +67,14 @@ B2B-marketers kunnen nu een persoonlijke betrokkenheidsscore gebruiken als filte
 
 >[!ENDTABS]
 
-Voor een volledige lijst van nieuwe eigenschappen en verbeteringen, zie de [ versienota&#39;s ](../user/release-notes/release-notes.md).
+Voor een volledige lijst van nieuwe eigenschappen en verbeteringen, zie de [&#x200B; versienota&#39;s &#x200B;](../user/release-notes/release-notes.md).
 
 ## Verkennen starten {#section-explore}
 
 :::: landing-cards-container
 
 :::
-![ pictogram van de Lijst ](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![&#x200B; pictogram van de Lijst &#x200B;](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Opmerkingen bij de nieuwste release
 
@@ -84,7 +84,7 @@ Blijf up-to-date met de nieuwste opmerkingen over releases, nieuwe functies en v
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag
 
@@ -94,7 +94,7 @@ Raadpleeg de Journey Optimizer B2B edition-richtlijnen voor instapkaarten voor b
 :::
 
 :::
-![ vorm pictogram ](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![&#x200B; vorm pictogram &#x200B;](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Uw XDM-velden configureren
 
@@ -104,18 +104,18 @@ Implementeer de systeemconfiguraties om de XDM-schema&#39;s en -velden te active
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Communicatiekanalen
 
 Vorm en beheer e-mail, SMS, en andere kanalen voor gepersonaliseerde klanteninteractie.
 
-[ vorm e-mailkanaal ](./admin/configure-channels-emails.md)
-[ vorm het kanaal van SMS ](./admin/configure-channels-sms.md)
+[&#x200B; vorm e-mailkanaal &#x200B;](./admin/configure-channels-emails.md)
+[&#x200B; vorm het kanaal van SMS &#x200B;](./admin/configure-channels-sms.md)
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Een rekeningpad maken
 
@@ -125,7 +125,7 @@ Ontwerp, orkestreer, beheer en optimaliseer persoonlijke accountreizen.
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/users.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 Kopen groepen begrijpen
 
@@ -187,7 +187,7 @@ Ontdek de onderdelen van een inkoopgroep en begrijp de basisbeginselen van het m
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px" alt="Inzichten en dashboards"><br/>
-      <strong> Inzichten </strong><br/> <a href="./dashboards/intelligent-dashboard.md"> Intelligent dashboard </a><br/> <a href="./dashboards/engagement-dashboard.md"> het dashboard van de Betrokkenheid </a><br/> <a href="./dashboards/buying-groups-dashboard.md"> Buying het dashboard van groepen </a><br/> <a href="./dashboards/journeys-dashboard.md"> het dashboard van de Rondjes 10} </a><br/> In-CRM Inzichten <a href="./buying-groups/incrm-insights.md"></a>
+      <strong> Inzichten </strong><br/> <a href="./dashboards/intelligent-dashboard.md"> Intelligent dashboard </a><br/> <a href="./dashboards/engagement-dashboard.md"> het dashboard van de Betrokkenheid </a><br/> <a href="./dashboards/buying-groups-dashboard.md"> Buying het dashboard van groepen </a><br/> <a href="./dashboards/journeys-dashboard.md"> het dashboard van de Rondjes 10&rbrace; </a><br/> In-CRM Inzichten <a href="./buying-groups/incrm-insights.md"></a>
     </td>
 
 </tr>
