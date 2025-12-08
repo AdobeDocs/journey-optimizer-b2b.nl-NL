@@ -24,7 +24,7 @@ Gebruik de browser en e-mailplug-ins om direct toegang te krijgen tot bedrijfsin
 
 De volgende video biedt een korte demonstratie van de Sales Qualifier en Account Qualification Agent.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476550)
+>[!VIDEO](https://video.tv.adobe.com/v/3476567?captions=dut)
 
 Verkoopkwalificatie wordt meegeleverd bij [!UICONTROL Journey Optimizer B2B Edition] , maar is een aparte toepassing in het Experience Cloud-platform voor ervaring.
 
