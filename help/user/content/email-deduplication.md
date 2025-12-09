@@ -37,13 +37,13 @@ E-maildeduplicatie voor een accountreis mogelijk maken:
 
 1. Klik **[!UICONTROL More]** (**..**) in de hoger-juiste hoek van de reiswerkruimte.
 
-   ![ de werkruimte van de Reis met Meer uitgevouwen menu die optie van de Deduplicatie E-mail tonen ](./assets/email-deduplication-more-menu.png){width="450"}
+   ![&#x200B; de werkruimte van de Reis met Meer uitgevouwen menu die optie van de Deduplicatie E-mail tonen &#x200B;](./assets/email-deduplication-more-menu.png){width="450"}
 
 1. Kies **[!UICONTROL Email Deduplication]** .
 
 1. Selecteer in het dialoogvenster het selectievakje **[!UICONTROL Email Deduplication]** .
 
-   ![ de dialoog van de Deduplicatie E-mail met toegelaten knevel ](./assets/email-deduplication-dialog.png){width="400"}
+   ![&#x200B; de dialoog van de Deduplicatie E-mail met toegelaten knevel &#x200B;](./assets/email-deduplication-dialog.png){width="400"}
 
 1. Klik op **[!UICONTROL Save]**.
 
