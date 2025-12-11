@@ -3,9 +3,9 @@ title: Opmerkingen bij de release Journey Optimizer B2B edition
 description: Ontdek de nieuwste functies, verbeteringen en oplossingen voor problemen in Adobe Journey Optimizer B2B edition. Blijf up-to-date met nieuwe mogelijkheden en productverbeteringen.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: a0f9fc38b2c383dc92542bbeaf86c5a7d81bd25b
+source-git-commit: 8ccfe2f6ec21b4bdc409b8d709304f88292181c9
 workflow-type: tm+mt
-source-wordcount: '3783'
+source-wordcount: '3817'
 ht-degree: 5%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 5%
 
 Adobe Journey Optimizer B2B edition biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en oplossingen voor problemen.
 
-Journey Optimizer B2B edition is native gebaseerd op [!DNL Adobe Experience Platform] en erft van de nieuwste innovaties en verbeteringen. Leer meer over deze veranderingen in [&#x200B; de Nota&#39;s van de Versie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/latest){target="_blank"}.
+Journey Optimizer B2B edition is native gebaseerd op [!DNL Adobe Experience Platform] en erft van de nieuwste innovaties en verbeteringen. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Herzie de [&#x200B; productbeschrijving &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} voor informatie over rechten, prestatiegaranties, en beperkingen.
+Herzie de [ productbeschrijving ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} voor informatie over rechten, prestatiegaranties, en beperkingen.
 
 ## Agentic-AI-mogelijkheden
 
@@ -26,7 +26,7 @@ De volgende algemene AI-mogelijkheden zijn nu beschikbaar voor Journey Optimizer
 | ----- | ------ | ----------- |
 | Journey Build Agent | Nieuw | De Journey Build Agent analyseert, ideeert en maakt reizen in real time samen, toelatend marketers om sneller te lanceren, overeenkomst te verbeteren, en hogere omzettingspercentages te drijven. [Meer informatie](../agents/journey-agent.md) |
 | Audience-agent | Nieuw | De Audience Agent identificeert en bouwt automatisch koopgroepen die gestructureerde en ongestructureerde gegevens gebruiken. Het helpt marketers om de juiste mensen sneller en nauwkeuriger te richten. [Meer informatie](../agents/audience-agent-b2b.md) |
-| Verkoopkwalificatie | Nieuw | De kwalificatie van de Verkoop is een AI-gedreven toe:voegen-op toepassing aan Adobe Journey Optimizer B2B edition die Account Qualification Agent bevat en wordt ontworpen om werkschema&#39;s voor de Vertegenwoordigers van de BedrijfsOntwikkeling (BDRs) te stroomlijnen. Het automatiseert de werkschema&#39;s van de perspectiefkwalificatie, de outreach, en van de kopersovereenkomst over kanalen [&#x200B; Leer meer &#x200B;](../agents/sales-qualifier.md) |
+| Verkoopkwalificatie | Nieuw | De kwalificatie van de Verkoop is een AI-gedreven toe:voegen-op toepassing aan Adobe Journey Optimizer B2B edition die Account Qualification Agent bevat en wordt ontworpen om werkschema&#39;s voor de Vertegenwoordigers van de BedrijfsOntwikkeling (BDRs) te stroomlijnen. Het automatiseert de werkschema&#39;s van de perspectiefkwalificatie, de outreach, en van de kopersovereenkomst over kanalen [ Leer meer ](../agents/sales-qualifier.md) |
 
 ## Opmerkingen bij de release 2025.10
 
@@ -34,13 +34,14 @@ De volgende algemene AI-mogelijkheden zijn nu beschikbaar voor Journey Optimizer
 
 | Type | Item | Beschrijving |
 | ---- | ---- | ----------- |
-| Functie | Naar bestemming activeren voor reizen | Gebruik nieuw _activeer aan doel_ actie van de bedrijfrekening om direct aan bedrijven, eerder dan individuen te activeren. (Beperkt tot Bedrijven LinkedIn voor deze versie.) [&#x200B; Leer meer &#x200B;](../journeys/action-nodes.md#activate-to-a-linkedin-destination) |
+| Functie | Naar bestemming activeren voor reizen | Gebruik nieuw _activeer aan doel_ actie van de bedrijfrekening om direct aan bedrijven, eerder dan individuen te activeren. (Beperkt tot Bedrijven LinkedIn voor deze versie.) [ Leer meer ](../journeys/action-nodes.md#activate-to-a-linkedin-destination) |
 | Functie | Merkthema&#39;s | Met merkthema&#39;s kunnen niet-technische gebruikers nu herbruikbare inhoud maken die past bij een bepaald merk en een bepaalde ontwerptaal door aangepaste stijlen toe te voegen boven op de standaardsjablonen. [Meer informatie](../content/brand-themes.md) |
 | Functie | E-mailsjablonen - afbeelding converteren naar HTML | U kunt nu ontwerpbestanden gebruiken die zijn opgeslagen als JPG- of PNG-afbeeldingsbestanden en automatisch e-mailsjablonen genereren. [Meer informatie](../content/email-template-image-convert.md) |
 | Functie | Persona-toewijzing | Accountleden met gevestigde personen met kenmerktoewijzing afhandelen. [Meer informatie](../admin/persona-mapping.md) |
 | Functie | Verkoopinzicht voor Salesforce en Dynamics | De leden van het verkoopteam kunnen het rijpen van koopgroepen en verwante inzichten binnen een Salesforce of de integratie van de Dynamiek nu bekijken om nieuwe kansen te identificeren. De details van de inkoopgroep, zoals het werkgebied, de score en de verwante leden, zijn inbegrepen. [Meer informatie](../buying-groups/incrm-insights.md) |
 | Functie | Het publiek activeren naar [!DNL Adobe Target] | U kunt nu een publiek activeren van een accountreis naar een extern publiek en dit publiek naar een ander publiek sturen [!DNL Adobe Target] . Met deze integratie kunt u een publiek leveren dat gekwalificeerd is via een reisvolgorde voor een webervaring die is ontworpen in [!DNL Target] . [Meer informatie](../audiences/target-external-audience.md) |
-| Functie | Het dashboard met rolinzichten | Het nieuwe dashboard van _[!UICONTROL Role Insights]_&#x200B;biedt inzicht in hoe uw campagnes en reizen invloed hebben op het aanschaffen van groepsrollen en betrokkenheid. [Meer informatie](../buying-groups/buying-group-role-insights.md) |
+| Functie | Webbetrokkenheidsdashboard | Een nieuw dashboard dat inzichten verstrekt in hoe de Webbezoekers met zeer belangrijke inhoud interactie aangaan. Het segmenteert gegevens over de verschillende sectoren en regio&#39;s van uw account om u te helpen de trends in uw betrokkenheid te begrijpen. [Meer informatie](../dashboards/web-engagement-dashboard.md) |
+| Functie | Het dashboard met rolinzichten | Het nieuwe dashboard van _[!UICONTROL Role Insights]_biedt inzicht in hoe uw campagnes en reizen invloed hebben op het aanschaffen van groepsrollen en betrokkenheid. [Meer informatie](../buying-groups/buying-group-role-insights.md) |
 | Verbetering | Verbeterde score voor volledigheid van inkoopgroep | U kunt er nu voor zorgen dat inkoopgroepen een afspiegeling vormen van echte besluitvorming met aanpasbare rolliddrempels voor volledigheidscoring.  [Meer informatie](../buying-groups/completeness-scores.md) |
 | Verbetering | Groepsonderhoudstaken kopen | De onderhoudstaakfrequentie van de inkoopgroep wordt van week tot dag bijgewerkt. |
 | Verbetering | Voortgang van de reis van de rekening | Voor een gepubliceerde reis die in a _Levend_ is, _Gesloten aan nieuwe ingangen_, _Geaborteerd_, of _Voltooide_ status, kunt u de reiskaart openen om een lijst van rekeningen voor elke wegknoop te herzien. |
@@ -62,7 +63,7 @@ Deze bijgewerkte architectuur biedt meerdere voordelen:
 
 >[!NOTE]
 >
->Als uw milieu provisioned op deze architectuur is, herzie de [&#x200B; richtlijnen voor configuratie &#x200B;](../simplified-architecture.md).
+>Als uw milieu provisioned op deze architectuur is, herzie de [ richtlijnen voor configuratie ](../simplified-architecture.md).
 
 Met de vereenvoudigde architectuur zijn de volgende nieuwe functies en verbeteringen beschikbaar in de release 2025.10:
 
@@ -135,7 +136,7 @@ Deze release bevat de volgende nieuwe mogelijkheden en verbeteringen:
 | Functie | Aangepaste CSS-ondersteuning voor inhoudsontwerp | U kunt nu uw eigen aangepaste CSS toevoegen wanneer u e-mail ontwerpt en pagina-inhoud in de ontwerpruimte plaatst. [Meer informatie](../content/design-custom-css.md) |
 | Functie | Configuratie van trefwoordtoewijzing intent | Als u het model Intentiedetectie wilt activeren en beheren, kunt u nu een spreadsheet uploaden om een categorie voor de toewijzing van intentiegegevens te definiëren. [Meer informatie](../admin/intent-data.md) |
 | Verbetering | Inhoud uit e-mailoverzicht simuleren | U kunt tot de _toegang hebben simuleert Inhoud_ hulpmiddelen van de e-mailsamenvatting (details en eigenschappen) wanneer u een e-mail van de lijst E-mails opent. Deze toegang is een aanvulling op de ontwerpruimte voor e-mail. [Meer informatie](../content/email-simulate-content.md#display-the-email-preview) |
-| Verbetering | Weergave van het totale aantal rollen voor lijst met rolsjablonen | De lijstpagina _[!UICONTROL Roles templates]_&#x200B;wordt uitgebreid met de weergave van het totale aantal naast de zoekbalk. |
+| Verbetering | Weergave van het totale aantal rollen voor lijst met rolsjablonen | De lijstpagina _[!UICONTROL Roles templates]_wordt uitgebreid met de weergave van het totale aantal naast de zoekbalk. |
 
 <!-- The following capabilities are currently available only for a set of program participants (Beta):
 
@@ -149,10 +150,10 @@ Deze release bevat de volgende nieuwe mogelijkheden en verbeteringen:
 
 | Type | Item | Beschrijving |
 | ---- | ---- | ----------- |
-| Functie | E-mailtesten met Litmus | Met de rekening van de Onderneming van a [&#x200B; Litmus &#x200B;](https://www.litmus.com/email-testing){target="_blank"}, kunt u uw e-mail nu voorproef teruggevend in populaire e-mailcliënten van Journey Optimizer B2B edition. Dankzij deze integratie kunt u ervoor zorgen dat uw e-mailinhoud er goed uitziet en werkt zoals deze in elk Postvak IN is ontworpen. [Meer informatie](../content/email-test-rendering.md) |
+| Functie | E-mailtesten met Litmus | Met de rekening van de Onderneming van a [ Litmus ](https://www.litmus.com/email-testing){target="_blank"}, kunt u uw e-mail nu voorproef teruggevend in populaire e-mailcliënten van Journey Optimizer B2B edition. Dankzij deze integratie kunt u ervoor zorgen dat uw e-mailinhoud er goed uitziet en werkt zoals deze in elk Postvak IN is ontworpen. [Meer informatie](../content/email-test-rendering.md) |
 | Verbetering | E-mail dupliceren | Wanneer u een e-mailbericht toevoegt voor een knooppunt voor de rit, kunt u nu een bestaande e-mail dupliceren. Wijzig het plaatsen of de inhoud voor gedupliceerde e-mail, of verlaat het intact.  [Meer informatie](../content/add-email.md#add-an-email-to-your-journey) |
 | Verbetering | Opmaak voor token op de afspeelbalk voor e-mail | Personalization-tokens voor e-mailinhoud gebruiken nu een bijgewerkte indeling die volledig compatibel is met Handlebar-scripts. Dit formaat gebruikt _camel geval_ of onderstrepingen, die ruimten elimineren. [Meer informatie](../content/email-authoring.md#content-authoring---personalization) |
-| Verbetering | Totaal aantal weergeven voor lijsten | De lijstpagina&#39;s _[!UICONTROL Solution Interests]_&#x200B;en&#x200B;_[!UICONTROL Account Journeys]_ worden uitgebreid met de weergave van het totale aantal naast de zoekbalk. |
+| Verbetering | Totaal aantal weergeven voor lijsten | De lijstpagina&#39;s _[!UICONTROL Solution Interests]_en_[!UICONTROL Account Journeys]_ worden uitgebreid met de weergave van het totale aantal naast de zoekbalk. |
 
 ## Opmerkingen bij de release 2025.4
 
@@ -164,7 +165,7 @@ Deze release bevat de volgende nieuwe mogelijkheden en verbeteringen:
 | ---- | ---- | ----------- |
 | Functie | Accountlijsten | U kunt nu een statische of dynamische accountlijst maken om benoemde accounts als doel in te stellen op basis van uw gedefinieerde criteria, zoals de industrie, locatie of grootte van het bedrijf. <a href="../accounts/account-lists.md">Meer informatie</a> |
 | Functie | Reisorchestratie van rekeninglijsten | De knopen van de reisactie van het gebruik om rekeningen voor statische rekeningslijsten toe te voegen en te verwijderen. <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">Meer informatie</a> |
-| Verbetering | Reislidmaatschap filteren in Marketo Engage | De de rekeningslijsten van Adobe Journey Optimizer B2B edition van het gebruik voor het reispubliek en gebruiken dan het _Lid van een 1&rbrace; filter van de rekeningslijst in Marketo Engage slimme lijsten._ <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">Meer informatie</a> |
+| Verbetering | Reislidmaatschap filteren in Marketo Engage | De de rekeningslijsten van Adobe Journey Optimizer B2B edition van het gebruik voor het reispubliek en gebruiken dan het _Lid van een 1} filter van de rekeningslijst in Marketo Engage slimme lijsten._ <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">Meer informatie</a> |
 | Functie | Inactiviteitsfilters | Orchestreer reizen op basis van inactiviteit in Marketo Engage-campagnes en -programma&#39;s, waaronder inactiviteit via e-mail, interessante momenten, wijzigingen in gegevenswaarde en bezochte webpagina&#39;s. <a href="../journeys/split-merge-paths-nodes.md#activity-filtering">Meer informatie</a> |
 | Verbetering | Bezochte webpaginacilter | Reizen ordenen op basis van activiteiten voor bezochte webpagina&#39;s in verband met Marketo Engage-campagnes en -programma&#39;s. <a href="../journeys/split-merge-paths-nodes.md#people-path-filters">Meer informatie</a> |
 | Verbetering | Lijst met e-mails | Een algemene lijst met actieve en concept-e-mails weergeven die u wilt doorzoeken, controleren en bijwerken tijdens de bijbehorende accountreizen. <a href="../content/emails-list.md">Meer informatie</a> |
@@ -180,7 +181,7 @@ Deze release bevat de volgende nieuwe mogelijkheden en verbeteringen:
 | Functie | Accountreizen dupliceren | Er is nu een dubbele handeling beschikbaar voor reizen naar de account. U kunt de details voor de rekeningsreis dupliceren, of enkel een eenvoudig skelet van de stroom en wegstructuur. <a href="../journeys/journey-overview.md#duplicate-journey">Meer informatie</a> |
 | Functie | Mijn tokens voor reizen voor rekening | U kunt nu een set aangepaste tokens definiëren met waarden die specifiek zijn voor de accountreis. Deze reeks douanetokens wordt genoemd _Mijn Tokens_ en om het even welk van deze douanetokens zijn voor verpersoonlijking wanneer het ontwerpen van reis e-mails. <a href="../content/personalization-my-tokens.md">Meer informatie</a> |
 | Functie | Groepsfasen voor kopen verwijderen | U kunt het model voor de inkoopgroepfasen verwijderen wanneer dit zich in een concept of een gepubliceerde status bevindt. Als het (levend) wordt gepubliceerd, kunt u het schrappen slechts wanneer het niet met een oplossingsbelang wordt geassocieerd. <a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">Meer informatie</a> |
-| Verbetering | Aantal wegknooppunten | Verbeterde zichtbaarheid in gepubliceerde tellingen voor reisleden op knooppuntniveau. In de _kaart van de Reis_, tonen de knopen _[!UICONTROL Total accounts entered]_. Wanneer u een actieknooppunt selecteert, bevatten de gegevens aan de rechterkant ook&#x200B;_[!UICONTROL Accounts not yet actioned on]_ . En de details voor _luisteren naar een gebeurtenis_ knopen omvatten _[!UICONTROL Accounts at this step]_. Gebruik deze informatie om de voortgang van uw account in uw live, voltooide en afgebroken reizen te valideren. |
+| Verbetering | Aantal wegknooppunten | Verbeterde zichtbaarheid in gepubliceerde tellingen voor reisleden op knooppuntniveau. In de _kaart van de Reis_, tonen de knopen _[!UICONTROL Total accounts entered]_. Wanneer u een actieknooppunt selecteert, bevatten de gegevens aan de rechterkant ook_[!UICONTROL Accounts not yet actioned on]_ . En de details voor _luisteren naar een gebeurtenis_ knopen omvatten _[!UICONTROL Accounts at this step]_. Gebruik deze informatie om de voortgang van uw account in uw live, voltooide en afgebroken reizen te valideren. |
 
 ## Opmerkingen bij de release 2025.2
 
@@ -211,7 +212,7 @@ Deze release bevat de volgende nieuwe mogelijkheden en verbeteringen:
 | Functie | Overzicht van reizen | Wanneer u accountreizen opent, biedt het tabblad Overzicht een uitgebreide momentopname van uw actieve accountreizen, waarin de voortgang van uw account wordt beschreven aan de hand van cirkeldiagrammen en staafdiagrammen die voltooide accounts categoriseren en kwantificeren, en betrokkenheidsactiviteiten.  <a href="../dashboards/journeys-dashboard.md">Meer informatie</a> |
 | Functie | Adobe Express-beeldbewerking | Met Snelle acties van Adobe Express kunt u eenvoudige bewerkingen (zoals uitsnijden en vergroten of verkleinen) uitvoeren op afbeeldingen voor een gepolijder uiterlijk in uw inhoud. <a href="../content/image-edit-adobe-express.md#quick-actions-in-adobe-express">Meer informatie</a>  <p>Voor een uitgebreidere set ontwerpgereedschappen maakt deze integratie een volledige Adobe Express-licentie mogelijk in Journey Optimizer B2B edition. Met deze installatie wordt de volledige Adobe Express-gebruikersinterface toegankelijk in de werkruimte voor lokale middelen. <a href="../content/image-edit-adobe-express.md#adobe-express-enterprise-license">Meer informatie</a> |
 | Functie | Intentiefilters voor het kopen van groepsrollen | Wanneer u uw intentsleutelwoorden indient, voorspelt het model van de Detectie van de Intentie een oplossing/product van belang met hoog genoeg vertrouwen die op de activiteit van een lood wordt gebaseerd. <a href="../admin/intent-data.md">Meer informatie</a> <p>Deze intentgegevens zijn beschikbaar voor het bepalen van het kopen van de rolvoorwaarden van de groep <a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles"> Leer meer </a> |
-| Verbetering | Ondersteuning van Marketo Engage-gebeurtenissen tijdens reizen | _luistert naar de 1&rbrace; reisknoop van de Gebeurtenis &lbrace;nu steunt twee gebeurtenissen van Marketo Engage op het personenniveau:_ bezoekt Web-pagina _en_ Vult vorm _uit._ <a href="../journeys/listen-for-event-nodes.md#listen-for-marketo-engage-event">Meer informatie</a> |
+| Verbetering | Ondersteuning van Marketo Engage-gebeurtenissen tijdens reizen | _luistert naar de 1} reisknoop van de Gebeurtenis {nu steunt twee gebeurtenissen van Marketo Engage op het personenniveau:_ bezoekt Web-pagina _en_ Vult vorm _uit._ <a href="../journeys/listen-for-event-nodes.md#listen-for-marketo-engage-event">Meer informatie</a> |
 | Verbetering | Groepsfilters voor slimme Marketo Engage-lijsten kopen | Slimme lijsten weergeven en maken met groepsfilters kopen in Marketo Engage. Met deze toegevoegde filters kunt u de aanschaf van groepsleden in Marketo Engage-campagnes en -programma&#39;s onderdrukken en opnemen voor reizen van accounts binnen Journey Optimizer B2B edition. <a href="../buying-groups/marketo-engage-smart-list-buying-group-filters.md">Meer informatie</a> |
 | Verbetering | Marketo Engage-lijstlidmaatschapsfilter voor reizen en rollen | In Journey Optimizer B2B, controleer het de lijstlidmaatschap van Marketo Engage als voorwaarde voor a _gespleten weg door mensen_ knoop helpen duplicatie in reisactiviteiten elimineren. <a href="../journeys/split-merge-paths-nodes.md#add-a-split-path-by-people-node">Meer informatie</a> <p> Voor het kopen van de malplaatjes van groepsrollen, gebruik lijstlidmaatschap als rolvoorwaarde. <a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">Meer informatie</a> |
 | Verbetering | Dashboard met overzicht van betrokkenheid | Dit dashboard wordt bijgewerkt om een uitgebreide weergave van de betrokkenheid te bieden. Het toont metriek in real time van rekening en individuele interactie door grafieken van de momentopnamecirkel en trendonthullende lijngrafieken in tijd. <a href="../dashboards/engagement-dashboard.md">Meer informatie</a> |
@@ -234,7 +235,7 @@ Deze release bevat de volgende nieuwe mogelijkheden en verbeteringen:
 | Functie | Groepsfasen voor kopen | Wanneer u een model voor het opvoeren van een aangepaste inkoopgroep definieert en publiceert, kunt u de voortgang van de inkoopgroep bijhouden in de fasen van de levenscyclus van de inkoopgroep. Gebruik deze stappen om de volgende beste acties voor het kopen van groepsleden te identificeren. U vormt de overgangsregels en de wegknopen die de vooruitgang van het werkgebied bepalen en acties teweegbrengen die op veranderingen worden gebaseerd. <a href="../buying-groups/buying-group-stages.md">Meer informatie</a> |
 | Verbetering | Nieuwe e-mailsjablonen die buiten de box vallen | De voorbeeldsjabloonbibliotheek bevat nu aanvullende e-mailsjablonen die zijn ontworpen voor B2B-marketers. Gebruik deze steekproefmalplaatjes als uitgangspunt en voeg uw eigen branding en overseinen toe. <a href="../content/email-templates.md#select-a-design-template">Meer informatie</a> |
 | Verbetering | Aangepaste velden als persoonlijke kenmerken | Als u aangepaste persoonvelden hebt gedefinieerd in het accountpublieksschema in Experience Platform, zijn deze velden ook beschikbaar voor gebruik als persoonkenmerken in voorwaarden. Gebruik deze aangepaste kenmerken in: <li>De malplaatjes van rollen <a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles"> leren meer </a></li><li>Splitste wegen door de knopen van de personenreis <a href="../journeys/split-merge-paths-nodes.md#add-a-split-path-by-people-node"> leren meer </a></li> |
-| Verbetering | E-mailkanaalinstellingen | E-mailinstellingen zijn nu zichtbaar in de Journey Optimizer B2B edition-interface. U kunt snel de huidige configuraties controleren en beheerders kunnen op _[!UICONTROL Edit settings]_&#x200B;klikken om rechtstreeks naar de instellingen in Marketo Engage te gaan en deze bij te werken volgens de vereisten van uw organisatie. <a href="../admin/configure-channels-emails.md">Meer informatie</a> |
+| Verbetering | E-mailkanaalinstellingen | E-mailinstellingen zijn nu zichtbaar in de Journey Optimizer B2B edition-interface. U kunt snel de huidige configuraties controleren en beheerders kunnen op _[!UICONTROL Edit settings]_klikken om rechtstreeks naar de instellingen in Marketo Engage te gaan en deze bij te werken volgens de vereisten van uw organisatie. <a href="../admin/configure-channels-emails.md">Meer informatie</a> |
 
 +++
 

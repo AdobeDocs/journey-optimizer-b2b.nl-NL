@@ -1,9 +1,9 @@
 ---
 user-guide-title: Documentatie voor de B2B-editie van Journey Optimizer
 user-guide-description: Meer informatie over Adobe Journey Optimizer B2B Edition en hoe u deze kunt gebruiken om account- en inkoopgroeptrajecten te orkestreren met behulp van ingebouwde generatieve AI en toonaangevende automatisering.
-source-git-commit: a0f9fc38b2c383dc92542bbeaf86c5a7d81bd25b
+source-git-commit: 8ccfe2f6ec21b4bdc409b8d709304f88292181c9
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '378'
 ht-degree: 16%
 
 ---
@@ -124,11 +124,12 @@ ht-degree: 16%
       + [Overzicht](./content/personalization.md)
       + [Personalization-syntaxis](./content/personalization-syntax.md)
       + [Lijst met hulpfuncties](./content/personalization-helper-functions.md)
-+ Inhoudsdashboards {#dashboards}
-   + [Intelligent dashboard](./dashboards/intelligent-dashboard.md)
-   + [Overzicht van betrokkenheid](./dashboards/engagement-dashboard.md)
-   + [Overzicht van kopersgroepen](./dashboards/buying-groups-dashboard.md)
-   + [Overzicht van rekeningreizen](./dashboards/journeys-dashboard.md)
++ Intelligente dashboards {#dashboards}
+   + [Het dashboard met inzichten](./dashboards/intelligent-dashboard.md)
+   + [Betrokkenheidsdashboard](./dashboards/engagement-dashboard.md)
+   + [ de betrokkenheidsdashboard van het Web ](./dashboards/web-engagement-dashboard.md)
+   + [Het dashboard voor groepen kopen](./dashboards/buying-groups-dashboard.md)
+   + [Rekeningjournaal](./dashboards/journeys-dashboard.md)
 + Beheer {#admin}
    + [Bestuur](./admin/governance.md)
    + [Configuratie Marketo-handelingen](./admin/marketo-actions-connect.md)
