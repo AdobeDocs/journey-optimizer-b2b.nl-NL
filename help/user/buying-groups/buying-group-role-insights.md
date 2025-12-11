@@ -16,7 +16,7 @@ Het rollendashboard geeft inzicht in hoe het aanschaffen van groepsrollen zich o
 
 Als u dit dashboard wilt openen, vouwt u **[!UICONTROL Accounts]** uit in de linkernavigatie en selecteert u **[!UICONTROL Buying groups]** . Selecteer het tabblad **[!UICONTROL Role insights]**. 
 
-![ dashboard van de Inzichten van de Rol ](assets/roles-insights-dashboard.png){width="800" zoomable="yes"}
+![&#x200B; dashboard van de Inzichten van de Rol &#x200B;](assets/roles-insights-dashboard.png){width="800" zoomable="yes"}
 
 Het dashboard bevat drie weergaven:
 
@@ -28,13 +28,13 @@ Het dashboard bevat drie weergaven:
 
 ## De gegevens filteren
 
-Klik het _pictogram van de Filter_ ( ![ pictogram van de Filter ](../assets/do-not-localize/icon-filter.svg) ) bij de bovenkant verlaten om de getoonde gegevens te filtreren gebruikend om het even welk van deze attributen:
+Klik het _pictogram van de Filter_ ( ![&#x200B; pictogram van de Filter &#x200B;](../assets/do-not-localize/icon-filter.svg) ) bij de bovenkant verlaten om de getoonde gegevens te filtreren gebruikend om het even welk van deze attributen:
 
 * **[!UICONTROL Role]** - Filtert de gegevens door één of meerdere geselecteerde het kopen groepsrollen.
 * **[!UICONTROL Solution interest]** - Filtert de gegevens door één of meerdere geselecteerde oplossingsbelangen om zich op specifieke productlijnen of dienstenaanbod te concentreren.
 * **[!UICONTROL Date range]** - Beperkt de gegevens tot een specifieke tijdsperiode (standaard tot het afgelopen jaar).
 
-![ de dialoog van Filters voor de Inzichten van Rollen ](./assets/roles-insights-filter-dialog.png){width="400"}
+![&#x200B; de dialoog van Filters voor de Inzichten van Rollen &#x200B;](./assets/roles-insights-filter-dialog.png){width="400"}
 
 Selecteer voor elk kenmerk de waarden die u wilt gebruiken om de gegevens te filteren en klik op **[!UICONTROL Apply]** .
 
@@ -42,7 +42,7 @@ Selecteer voor elk kenmerk de waarden die u wilt gebruiken om de gegevens te fil
 
 Naarmate marketing- en verkoopteams nieuwe mensen aanschaffen, de betrokkenheid van bedrijven stimuleren en gegevens verrijken, worden nieuwe leden van de inkoopgroep gekwalificeerd. Dit verslag laat zien hoe deze inspanningen zich vertalen in nieuw gekwalificeerde inkoopgroepsleden, uitgesplitst naar rol. Telkens wanneer iemand aan een het kopen groep wordt toegevoegd, registreert het rapport die toevoeging onder de overeenkomstige rol.
 
-![ dashboard van de Inzichten van de Rol - de aanwinst van de Rol over tijdgrafiek ](assets/roles-insights-role-aquisition-over-time.png){width="600" zoomable="yes"}
+![&#x200B; dashboard van de Inzichten van de Rol - de aanwinst van de Rol over tijdgrafiek &#x200B;](assets/roles-insights-role-aquisition-over-time.png){width="600" zoomable="yes"}
 
 Elke lijn in de grafiek vertegenwoordigt een rol. Houd de muisaanwijzer boven een plotpunt op de lijn om de details te zien, waaronder:
 
@@ -55,7 +55,7 @@ Als u meer gedetailleerde informatie wilt weergeven, klikt u op het menupictogra
 
 Dit rapport geeft een overzicht van het totale volume van de betrokkenheidsactiviteit door de rol van de groep te kopen gedurende de geselecteerde tijdsperiode. Met dit rapport krijgt u meer inzicht in de manier waarop elke rol wordt gebruikt als reactie op uw marketinginspanningen.
 
-![ dashboard van de Inzichten van de Rol - Betrokkenheid door rolgrafiek ](assets/roles-insights-engagement-by-role.png){width="500" zoomable="yes"}
+![&#x200B; dashboard van de Inzichten van de Rol - Betrokkenheid door rolgrafiek &#x200B;](assets/roles-insights-engagement-by-role.png){width="500" zoomable="yes"}
 
 Elke balk in de grafiek vertegenwoordigt een rol. Houd de muisaanwijzer boven een balk om de details van de weergegeven tellingen te zien, zoals:
 
@@ -68,7 +68,7 @@ Als u meer gedetailleerde informatie wilt weergeven, klikt u op het menupictogra
 
 Dit rapport volgt de aanschaf van groepsactiviteiten in de loop van de tijd, zodat u begrijpt hoe recente campagnes betrokkenheid over verschillende rollen drijven. Gebruik deze informatie om uw marketingstrategieën te optimaliseren en specifieke rollen effectiever te richten.
 
-![ dashboard van de Inzichten van de Rol - Betrokkenheid door rol over tijdgrafiek ](assets/roles-insights-engagement-by-role-over-time.png){width="500" zoomable="yes"}
+![&#x200B; dashboard van de Inzichten van de Rol - Betrokkenheid door rol over tijdgrafiek &#x200B;](assets/roles-insights-engagement-by-role-over-time.png){width="500" zoomable="yes"}
 
 Elke lijn in de grafiek vertegenwoordigt een rol. Houd de muisaanwijzer boven een plotpunt op de lijn om de details te zien, waaronder:
 
@@ -83,9 +83,9 @@ Om met de gegevens in werking te stellen, gebruik _Meer_ (**..**) menu bij top-r
 
 ### [!UICONTROL Drill through]
 
-Kies bij _[!UICONTROL Engagement by role]_**[!UICONTROL Drill through]**voor een diepgaande analyse van de betrokkenheid op basis van rol en belang van de oplossing.
+Kies bij _[!UICONTROL Engagement by role]_&#x200B;**[!UICONTROL Drill through]**&#x200B;voor een diepgaande analyse van de betrokkenheid op basis van rol en belang van de oplossing.
 
-De algemene filters die op het dashboard worden toegepast, worden overgenomen. Klik het _pictogram van de Filter_ ( ![ pictogram van de Filter ](../assets/do-not-localize/icon-filter.svg) ) bij de bovenkant verlaten aan [ verandering de attributenfilters ](#filter-the-data) voor de boor-door mening.
+De algemene filters die op het dashboard worden toegepast, worden overgenomen. Klik het _pictogram van de Filter_ ( ![&#x200B; pictogram van de Filter &#x200B;](../assets/do-not-localize/icon-filter.svg) ) bij de bovenkant verlaten aan [&#x200B; verandering de attributenfilters &#x200B;](#filter-the-data) voor de boor-door mening.
 
 ### [!UICONTROL View more]
 
