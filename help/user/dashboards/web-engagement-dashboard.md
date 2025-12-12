@@ -17,17 +17,17 @@ Het webbetrokkenheidsdashboard biedt inzicht in de manier waarop webbezoekers me
 
 Om tot het _dashboard van de Betrokkenheid van het Web_ toegang te hebben, selecteer het **[!UICONTROL Dashboard]** punt in de linkernavigatie. Selecteer vervolgens de tab **[!UICONTROL Web engagement]** boven aan de pagina.
 
-![&#x200B; de betrokkenheidsdashboard van het Web &#x200B;](./assets/web-engagement-dashboard.png){width="700" zoomable="yes"}
+![ de betrokkenheidsdashboard van het Web ](./assets/web-engagement-dashboard.png){width="700" zoomable="yes"}
 
 ## De gegevens filteren
 
-Klik het _pictogram van de Filter_ ( ![&#x200B; pictogram van de Filter &#x200B;](../assets/do-not-localize/icon-filter.svg) ) bij de bovenkant verlaten om de getoonde gegevens te filtreren gebruikend om het even welke volgende attributen:
+Klik het _pictogram van de Filter_ ( ![ pictogram van de Filter ](../assets/do-not-localize/icon-filter.svg) ) bij de bovenkant verlaten om de getoonde gegevens te filtreren gebruikend om het even welke volgende attributen:
 
 * **[!UICONTROL Account Region]** - Filtert de gegevens door één of meerdere geselecteerde geografische gebieden die met rekeningen worden geassocieerd.
 * **[!UICONTROL Account Industry]** - Filtert de gegevens door één of meerdere geselecteerde industrieclassificaties die met rekeningen worden geassocieerd.
 * **[!UICONTROL Date Range]** - Filtert de gegevens op het geselecteerde datumbereik. Het standaardbereik is de huidige datum.
 
-![&#x200B; filter de getoonde gegevens door attributen &#x200B;](./assets/web-engagement-dashboard-filters-dialog.png){width="500"}
+![ filter de getoonde gegevens door attributen ](./assets/web-engagement-dashboard-filters-dialog.png){width="500"}
 
 Selecteer zoveel waarden voor elk kenmerk dat u wilt gebruiken om de gegevens te filteren en klik op **[!UICONTROL Apply]** .
 
@@ -47,7 +47,7 @@ In deze tabel worden de tien meest bekeken webpagina&#39;s weergegeven, zodat u 
 | Bekende bezoekers (%) | Het percentage paginaweergaven dat wordt toegewezen aan bekende (geïdentificeerde) bezoekers. |
 | Onbekende bezoekers (%) | Het percentage paginaweergaven dat wordt toegewezen aan onbekende (anonieme) bezoekers. |
 
-![&#x200B; Top page views lijst &#x200B;](./assets/web-engagement-dashboard-top-page-views.png){width="650" zoomable="yes"}
+![ Top page views lijst ](./assets/web-engagement-dashboard-top-page-views.png){width="650" zoomable="yes"}
 
 ## [!UICONTROL Page views by account region] {#page-views-by-region}
 
@@ -61,7 +61,7 @@ Bij deze visualisatie wordt het aantal bezoekers dat is gesegmenteerd door het a
 * Naam van het rekeninggebied
 * Aantal paginaweergaven
 
-![&#x200B; de meningen van de Pagina door rekeningsgebied &#x200B;](./assets/web-engagement-dashboard-page-views-by-account-region.png){width="500" zoomable="yes"}
+![ de meningen van de Pagina door rekeningsgebied ](./assets/web-engagement-dashboard-page-views-by-account-region.png){width="500" zoomable="yes"}
 
 ## [!UICONTROL Page views by account industry] {#page-views-by-industry}
 
@@ -75,7 +75,7 @@ Deze visualisatie toont bezoekers tellen gesegmenteerd door de rekeningsindustri
 * Naam van de accountsector
 * Aantal paginaweergaven
 
-![&#x200B; de meningen van de Pagina door rekeningsindustrie &#x200B;](./assets/web-engagement-dashboard-page-views-by-account-industry.png){width="500" zoomable="yes"}
+![ de meningen van de Pagina door rekeningsindustrie ](./assets/web-engagement-dashboard-page-views-by-account-industry.png){width="500" zoomable="yes"}
 
 ## Betrokkenheid bij de gegevens
 
@@ -85,4 +85,4 @@ Het weergegeven pop-upvenster bevat een diagram en een tabel met de indeling van
 
 Als u de gegevens wilt downloaden, klikt u op **[!UICONTROL Download CSV]** rechtsboven in de datatabel.
 
-![&#x200B; Top pagina bekijkt de lijstMening meer popup - klik Download CSV &#x200B;](./assets/web-engagement-dashboard-top-page-views-view-more.png){width="700" zoomable="yes"}
+![ Top pagina bekijkt de lijstMening meer popup - klik Download CSV ](./assets/web-engagement-dashboard-top-page-views-view-more.png){width="700" zoomable="yes"}
