@@ -6,56 +6,50 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: e-mail, ontwerp, toegankelijkheid
-source-git-commit: 68afc2a865a7640f4fd4d5a08ca2299bdc134887
+source-git-commit: 09391f6d7c3360d0624edd7dae6c25a8616046d9
 workflow-type: tm+mt
-source-wordcount: '1571'
+source-wordcount: '1636'
 ht-degree: 0%
 
 ---
 
 # Toegankelijke inhoud ontwerpen {#accessible-content}
 
-De [&#x200B; Europese toegankelijkheidswet &#x200B;](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} is een richtlijn die wordt ontworpen om de interne markt voor toegankelijke producten en diensten te verbeteren door barrières weg te nemen die door verschillende nationale regels in de lidstaten worden veroorzaakt.
+De [ Europese toegankelijkheidswet ](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} is een richtlijn die wordt ontworpen om de interne markt voor toegankelijke producten en diensten te verbeteren door barrières weg te nemen die door verschillende nationale regels in de lidstaten worden veroorzaakt.
 
 Deze verordening bepaalt dat alle digitale communicatie, inclusief e-mails, nieuwsbrieven, PDF&#39;s en downloadbare inhoud, toegankelijk moet zijn. Wanneer u inhoud maakt voor uw ontvangers, moet u daarom bepaalde richtlijnen volgen, zoals het gebruik van toegankelijke lettertypen, leesbare indelingen en het aanbieden van alternatieve tekst voor afbeeldingen.
 
-[!DNL Journey Optimizer B2B Edition] E-mail Designer, die marketers toelaat om inhoud zowel voor **e-mail** als **het landen pagina&#39;s** te bouwen, staat u toe om gemakkelijk aan deze richtlijn te voldoen, die op de Richtlijnen van de Toegankelijkheid van de Inhoud van het Web (WCAG) 2.1, niveauAA wordt gebaseerd.
+De [!DNL Journey Optimizer B2B Edition] ontwerphulpmiddelen laten marketers toe om inhoud zowel voor **e-mail** als **landende pagina&#39;s** te bouwen. Gebruik deze gereedschappen om te voldoen aan deze richtlijn, gebaseerd op Web Content Accessibility Guidelines (WCAG) 2.1, niveau AA.
 
-In lijn hiermee worden de aanbevolen procedures voor het ontwerpen van toegankelijke inhoud met [!DNL Journey Optimizer B2B Edition] hieronder weergegeven.
-
->[!NOTE]
->
->Deze pagina gaat over het toegankelijk maken van uw inhoud voor al uw ontvangers, zodat mensen met een handicap uw e-mails en landingspagina&#39;s die zijn ontworpen met [!DNL Journey Optimizer B2B Edition] kunnen lezen, begrijpen en ermee kunnen communiceren.
->
+In de volgende secties wordt een overzicht gegeven van de aanbevolen procedures voor het ontwerpen van toegankelijke inhoud met [!DNL Journey Optimizer B2B Edition] . Deze informatie richt zich op het ontwerpen van inhoud die toegankelijk is voor al uw ontvangers, zodat mensen met een handicap uw e-mails en landingspagina&#39;s kunnen lezen, begrijpen en ermee kunnen communiceren.
  
-
 ## Zorg ervoor dat de tekst leesbaar is {#text-readability}
 
-Gebruik de tab **[!UICONTROL Styles]** van de component **[!UICONTROL Text]** om ervoor te zorgen dat de tekst leesbaar is, bijvoorbeeld door een juist kleurcontrast en eenvoudige lettertypen te gebruiken. [Meer informatie](content-components.md#text)
+Gebruik de tab **[!UICONTROL Styles]** van de component **[!UICONTROL Text]** om ervoor te zorgen dat de tekst leesbaar is, bijvoorbeeld door een juist kleurcontrast en eenvoudige lettertypen te gebruiken. Voor meer informatie over de vormgeving van tekstcomponenten, zie [ componenten van de Inhoud ](content-components.md#text)
 
-![](assets/accessible-text-styles.png){width="80%"}
+{het lusje van de de componentenStijlen van de Tekst van 0} het tonen van doopvont, grootte, en kleurenopties ![](assets/accessible-text-styles.png){width="700" zoomable="yes"}
 
 Volg onderstaande richtlijnen voor lettertypen en tekst:
 
-**de selectie van de Doopvont**
+### Fontselectie
 
-* Gebruik sans-serif-lettertypen zoals Arial, Verdana, Tahoma, Helvetica of Open Sans.
+* Gebruik sans-serif-lettertypen, zoals Arial, Verdana, Tahoma, Helvetica of Open Sans.
 * Vermijd serif-, cursieve of decoratieve lettertypen in de inhoud van het lichaam.
 * Selecteer een beperkte lettertypeset voor consistentie en fallback (bijvoorbeeld: `font-family: Arial, Helvetica, sans-serif;`).
 
-**het rangschikken van doopvont**
+### Fontgrootte
 
 * Zorg voor een minimale tekengrootte van 16 px voor platte tekst.
-* Gebruik de juiste hiërarchie voor koppen.
+* Gebruik een juiste hiërarchie voor koppen.
 
-**Contrast van de Kleur**
+### Kleurcontrast
 
 * Houd een contrastverhouding van minstens 4.5 :1 tussen tekst en achtergrond.
 * Voor grote tekst (≥ 24px of gewaagd 18px), zorg minstens een 3 :1 contrast.
 * Vermijd lichtgrijze of pasteltekst op witte achtergronden.
 * Vertrouw niet op kleur alleen om betekenis over te brengen, maar gebruik in plaats daarvan onderstrepingen, pictogrammen, enzovoort.
 
-**de toegankelijkheid van de Tekst**
+### Toegankelijkheid van tekst
 
 * Vermijd tekst in afbeeldingen.
 * Gebruik niet alle uiteinden in lichaamstekst.
@@ -74,11 +68,11 @@ In [!DNL Journey Optimizer B2B Edition] kunt u de grootte en tussenruimte van de
 
 U kunt bijvoorbeeld de achtergrond bijwerken of de marges, opvulling en uitlijning wijzigen om de visuele toegankelijkheid van de inhoud te verbeteren.
 
-![](assets/accessible-styles.png){width="80%"}
+![ ruit van Stijlen met achtergrond, marges, het opvullen, en groeperingsmontages ](assets/accessible-styles.png){width="700" zoomable="yes"}
 
 Bovendien kunt u met de [!DNL Journey Optimizer B2B Edition] Email Designer een voorvertoning weergeven van het ontwerp van verschillende apparaten en schermgrootten en het ontwerp ervan optimaliseren. U kunt op elk gewenst moment **[!UICONTROL Switch to live view]** controleren hoe uw inhoud op verschillende apparaatgrootten wordt gerenderd.
 
-![](assets/accessible-live-view.png){width="80%"}
+![ Levende meningsknevel het tonen van Desktop, tablet, en mobiele voorproefopties ](assets/accessible-live-view.png){width="700" zoomable="yes"}
 
 >[!CAUTION]
 >
@@ -86,9 +80,9 @@ Bovendien kunt u met de [!DNL Journey Optimizer B2B Edition] Email Designer een 
 
 ## Alternatieve tekst gebruiken voor afbeeldingen {#alt-text}
 
-Gebruik de component **[!UICONTROL Image]** om alternatieve tekst voor afbeeldingen te bieden. [Meer informatie](content-components.md#image)
+Gebruik de component **[!UICONTROL Image]** om alternatieve tekst voor afbeeldingen te bieden. Voor meer informatie over de montages van de beeldcomponent, zie [ componenten van de Inhoud ](content-components.md#image)
 
-![](assets/accessible-alt-text.png){width="90%"}
+![ de componenteninstellingenpaneel van het Beeld met Afwisselend benadrukt tekstgebied ](assets/accessible-alt-text.png){width="700" zoomable="yes"}
 
 Volg onderstaande richtlijnen voor effectieve alternatieve tekst in digitale producten:
 
@@ -98,9 +92,9 @@ Volg onderstaande richtlijnen voor effectieve alternatieve tekst in digitale pro
 
 ## Leesbare indeling gebruiken {#readable-format}
 
-Gebruik de e-mail van Designer relevante structuur en [&#x200B; inhoudscomponenten &#x200B;](content-components.md), evenals de opties in de **[!UICONTROL Styles]** ruit, om uw inhoud op een duidelijke, logische en beknopte manier te organiseren die voor allen toegankelijk is.
+Gebruik de e-mail van Designer relevante structuur en [ inhoudscomponenten ](content-components.md), evenals de opties in de **[!UICONTROL Styles]** ruit, om uw inhoud op een duidelijke, logische en beknopte manier te organiseren die voor allen toegankelijk is.
 
-![](assets/accessible-components.png){width="100%"}
+![ E-mail Designer die structuur en inhoudscomponenten voor georganiseerde lay-outs tonen ](assets/accessible-components.png){width="800" zoomable="yes"}
 
 * Gebruik gestructureerde, semantische HTML met de juiste koppen, alinea&#39;s, lijsten en tabellen.
 * Zorg ervoor dat de inhoud een logische stroom volgt van links naar rechts en van boven naar beneden.
@@ -117,7 +111,7 @@ Om leesbaar te zijn, moet uw inhoud duidelijk zijn, goed gestructureerd, en brui
 * Gebruik actieve stem om de zinsstructuur eenvoudiger te houden.
 * Vermijd slang, jargon of regionale woorden die sommige mensen misschien niet kennen.
 
-Om uw e-mailleesbaarheid te evalueren, kunt u de populaire [&#x200B; test van de Versnelling van de Lezing van de Vlesch gebruiken &#x200B;](https://support.microsoft.com/en-us/office/get-your-document-s-readability-and-level-statistics-85b4969e-e80a-4777-8dd3-f7fc3c8b3fd2){target="_blank"}, die in Microsoft Word kan worden gevonden en berekent hoe gemakkelijk uw inhoud op een schaal van 0-100 moet lezen.
+Om uw e-mailleesbaarheid te evalueren, gebruik de populaire [ test van de Versnelling van de Lezing van de Vlesch ](https://support.microsoft.com/en-us/office/get-your-document-s-readability-and-level-statistics-85b4969e-e80a-4777-8dd3-f7fc3c8b3fd2){target="_blank"} in Microsoft Word. Het berekent hoe gemakkelijk uw inhoud is om op een schaal van 0-100 te lezen.
 
 ## Uw inhoud testen {#test}
 
@@ -125,27 +119,26 @@ Om de toegankelijkheid van uw inhoud te controleren, kunt u de testmogelijkheden
 
 * Geef een voorvertoning van de inhoud weer met testprofielen.
 
-* Gebruik de [&#x200B; E-mail die &#x200B;](email-test-rendering.md) optie teruggeeft die hefboomwerkingen Litmus om uw ontwerpen over belangrijke e-mailcliënten (de Post van Apple, Gmail, Vooruitzichten) te simuleren en te zien of maken de tekst, de kleuren en de beelden uw inhoud toegankelijk. <!--Litmus includes accessibility testing-->
+* Gebruik de [ E-mail die ](email-test-rendering.md) optie teruggeeft die hefboomwerkingen Litmus om uw ontwerpen over belangrijke e-mailcliënten (de Post van Apple, Gmail, Vooruitzichten) te simuleren en te zien of maken de tekst, de kleuren en de beelden uw inhoud toegankelijk. <!--Litmus includes accessibility testing-->
 
 * Verzend proefdrukken om de rendering van uw inhoud te testen voordat u deze naar uw echte publiek stuurt.
 
-![](assets/accessible-simulate.png){width="90%"}
+![ de simulatieinterface van de inhoud met de opties van de de voorproef van het testprofiel ](assets/accessible-simulate.png){width="800" zoomable="yes"}
 
 Als u op een meer consistente manier wilt controleren of uw inhoud betrouwbaar toegankelijk is, gaat u naar specifieke externe gereedschappen, zoals:
 
-* De [&#x200B; contrastcontrole WebAim &#x200B;](https://webaim.org/resources/contrastchecker/){target="_blank"} en het [&#x200B; hulpmiddel van de de evaluatie van de Webtoegankelijkheid van de WAVE &#x200B;](https://wave.webaim.org/){target="_blank"} om contrast en naleving te evalueren;
+* De [ contrastcontrole WebAim ](https://webaim.org/resources/contrastchecker/){target="_blank"} en het [ hulpmiddel van de de evaluatie van de Webtoegankelijkheid van de WAVE ](https://wave.webaim.org/){target="_blank"} om contrast en naleving te evalueren;
 
-* De technologieën van de hulp zoals het schermlezers (bijvoorbeeld: [&#x200B; NVDA &#x200B;](https://www.nvaccess.org/download/){target="_blank"}, of [&#x200B; VoiceOver &#x200B;](https://support.apple.com/en-ie/guide/iphone/iph3e2e415f/ios){target="_blank"} op iPhone) om e-mails van het perspectief van visueel gehandicapte gebruikers te ervaren.
+* De technologieën van de hulp zoals het schermlezers (bijvoorbeeld: [ NVDA ](https://www.nvaccess.org/download/){target="_blank"}, of [ VoiceOver ](https://support.apple.com/en-ie/guide/iphone/iph3e2e415f/ios){target="_blank"} op iPhone) om e-mails van het perspectief van visueel gehandicapte gebruikers te ervaren.
 
 ## Donkere modus gebruiken {#dark-mode}
 
-<!--TO PUBLISH WHEN DARK MODE IS RELEASED-->
 
 De donkere modus verbetert de visuele toegankelijkheid voor gebruikers met lichtgevoeligheid of een visuele handicap voor een betere kijkervaring.
 
-![](assets/accessible-dark-mode.png){width="90%"}
+![ E-mailvoorproef die lichte wijze en donkere wijzerenteruggeven vergelijkt ](assets/accessible-dark-mode.png){width="800" zoomable="yes"}
 
-U kunt onder andere het beste transparante PNG&#39;s of SVG&#39;s gebruiken bij het ontwerpen van inhoud in de donkere modus, de juiste metatags en CSS instellen en een toegankelijke fallback-stijl bieden als de donkere modus niet wordt ondersteund. Zorg er ten slotte voor dat uw e-mailberichten correct worden weergegeven in de donkere modus door alle e-mailinhoud en UI-elementen te testen in zowel de lichte als de donkere modus.
+Gebruik bij het ontwerpen voor de donkere modus transparante PNG- of SVG-afbeeldingen en stel de juiste metatags en CSS in. Maak toegankelijke fallback-stijlen als de donkere modus niet wordt ondersteund. Test ten slotte alle e-mailinhoud en UI-elementen in zowel de lichte als de donkere modus.
 
 ## Specifieke kenmerken voor toegankelijkheid gebruiken {#attributes}
 
@@ -189,7 +182,7 @@ Wanneer u ontwerpen maakt, neemt u de kenmerken `lang` (taal) en `dir` (tekstric
 
   +++
 
-Schermlezers vertrouwen op het kenmerk `lang` om de juiste uitspraakregels toe te passen, terwijl de tekstrichting ervoor zorgt dat de inhoud op natuurlijke wijze doorloopt voor talen die van links naar rechts of van rechts naar links worden geschreven. Zonder deze kenmerken kunnen gebruikers last krijgen van verwarrende leesvolgorde of verkeerde uitspraak. Plaats daarom altijd de juiste kenmerken voor `lang` en `dir` in de hoofdtekst van de e-mail.
+Schermlezers vertrouwen op het kenmerk `lang` om de juiste uitroepingsregels toe te passen. Met de tekstrichting zorgt u ervoor dat de inhoud op natuurlijke wijze doorloopt in talen die van links naar rechts of van rechts naar links worden geschreven. Zonder deze kenmerken kunnen gebruikers last krijgen van verwarrende leesvolgorde of verkeerde uitspraak. Plaats daarom altijd de juiste kenmerken voor `lang` en `dir` in de hoofdtekst van de e-mail.
 
 >[!TIP]
 >
@@ -197,7 +190,7 @@ Schermlezers vertrouwen op het kenmerk `lang` om de juiste uitspraakregels toe t
 
 ### Tabellen {#tables}
 
-In HTML-inhoud worden tabellen vaak gebruikt voor de lay-out. Standaard behandelen schermlezers elke `<table>` als een gegevenstabel, waarbij rijen, kolommen en structuur worden aangekondigd. Dit kan verwarrend zijn als de tabel alleen wordt gebruikt voor opmaak.
+In HTML-inhoud worden tabellen vaak gebruikt voor de lay-out. Standaard behandelen schermlezers elke `<table>` als een gegevenstabel, waarbij rijen, kolommen en structuur worden aangekondigd. Deze structuur kan verwarrend zijn als de tabel alleen wordt gebruikt voor opmaak.
 
 Voeg `role="presentation"` (of `role="none"` ) toe aan indelingstabellen om ervoor te zorgen dat ondersteunende hulpmiddelen hun structuur overslaan en alleen de werkelijke inhoud activeren.
 
@@ -215,7 +208,7 @@ Voeg `role="presentation"` (of `role="none"` ) toe aan indelingstabellen om ervo
 ```
 
 De schermlezers lezen:
-&quot;Hallo wereld. Welkom bij onze nieuwsbrief.&quot; *(Geen vermelding van rijen, kolommen of tabel)*
+&quot;Hallo wereld. Welkom bij deze nieuwsbrief.&quot; *(Geen vermelding van rijen, kolommen of tabel)*
 
 +++
 
@@ -253,11 +246,11 @@ De schermlezers lezen:
 
 ### Tekst voor koppelingen {#links}
 
-Schermlezers lezen koppelingen voor met behulp van hun tekst. Als een koppeling alleen &#39;Klik hier&#39; of &#39;Meer lezen&#39; heet, weten gebruikers van ondersteunende hulpmiddelen niet wat het doel is. Om toegankelijkheid te waarborgen, hebben ze beschrijvende tekst nodig die het doel of de actie duidelijk aangeeft.
+Schermlezers lezen koppelingen voor met behulp van hun tekst. Als een verbinding wordt geëtiketteerd slechts _hier_ klikt of _meer_ leest, kennen de gebruikers van hulptechnologieën niet de bestemming. Om toegankelijkheid te waarborgen, hebben ze beschrijvende tekst nodig die het doel of de actie duidelijk aangeeft.
 
-Gebruik de Designer-mailtoepassing om een koppeling naar uw inhoud toe te voegen en het label te bewerken, zodat deze herkenbaar (zichtbaar) en beschrijvend (duidelijk over het doel) is. Vermijd vage labels zoals &#39;here&#39; of &#39;more&#39;.
+Gebruik de Designer-mailtoepassing om een koppeling naar uw inhoud toe te voegen en het label te bewerken, zodat deze herkenbaar (zichtbaar) en beschrijvend (duidelijk over het doel) is. Vermijd vage etiketten zoals _hier_ of _meer_.
 
-![](assets/accessible-link.png){width="70%"}
+![ paneel dat van de montages van de Verbinding URL gebied en beschrijvende etiketopties toont ](assets/accessible-link.png){width="600" zoomable="yes"}
 
 +++Voorbeeld - Goede koppeling (beschrijvend): 
 
@@ -289,7 +282,7 @@ De schermlezers lezen:
 
 <!--for landing pages-->
 
-Dankzij toetsenbordnavigatie en focusondersteuning hebben mensen die geen muis kunnen gebruiken, volledige toegang tot en interactie met inhoud. Het verbetert ook de algemene bruikbaarheid door alle gebruikers een duidelijke en consistente manier te geven om door informatie te bewegen.
+Als u ondersteuning biedt voor toetsenbordnavigatie en focus, kunnen mensen die geen muis kunnen gebruiken, toegang krijgen tot en werken met inhoud. Het verbetert ook de algemene bruikbaarheid door alle gebruikers een duidelijke en consistente manier te geven om door informatie te bewegen.
 
 * Focus via toetsenbord
    * Zorg ervoor dat alle interactieve elementen (zoals knoppen, selectievakjes, koppelingen) `tabindex="0"` hebben, zodat ze in de natuurlijke tabvolgorde worden opgenomen.
