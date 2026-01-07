@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # Erviteitsgebeurtenissen en velden selecteren
 
-De beheerders kunnen specifieke [&#x200B; Gebeurtenissen van de Ervaring van AEP &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} en hun bijbehorende gebieden binnen het de unieschema van de Gebeurtenis van de Ervaring selecteren. Na selectie, kunnen de gebruikers beslissingsregels vormen om aan die Gebeurtenissen van de Ervaring te luisteren om dynamische en gerichte campagneacties toe te laten die op dichtbij gebeurtenisgegevens in real time worden gebaseerd.
+De beheerders kunnen specifieke [&#x200B; Gebeurtenissen van de Ervaring van AEP &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} en hun bijbehorende gebieden binnen het de unieschema van de Gebeurtenis van de Ervaring selecteren. Na selectie, kunnen de gebruikers beslissingsregels vormen om aan die Gebeurtenissen van de Ervaring te luisteren om dynamische en gerichte campagneacties toe te laten die op dichtbij gebeurtenisgegevens in real time worden gebaseerd.
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 Het gebruik van ervaringen met AEP tijdens reizen is een proces in twee stappen:
