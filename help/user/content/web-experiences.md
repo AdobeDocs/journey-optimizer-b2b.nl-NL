@@ -30,7 +30,7 @@ Voordat u webervaringen kunt maken, moet u controleren of aan de volgende vereis
 
 * Een productbeheerder heeft een of meer webkanalen geconfigureerd om de URL&#39;s (pagina&#39;s) te definiëren die moeten worden opgenomen voor een webervaring. Voor meer informatie, zie [&#x200B; het kanaalconfiguraties van het Web &#x200B;](../admin/configure-channels-web.md).
 
-* Uw website heeft [&#x200B; SDK van het Web van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) die voor bezoekersidentificatie en inhoudslevering wordt uitgevoerd. Zorg ervoor dat de Adobe Experience Platform Web SDK versie 2.16 of hoger is.
+* Uw website heeft [&#x200B; SDK van het Web van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/collection/js/js-overview) (`alloy.js`) die voor bezoekersidentificatie en inhoudslevering wordt uitgevoerd. Zorg ervoor dat de Adobe Experience Platform Web SDK versie 2.16 of hoger is.
 
 * U hebt de noodzakelijke [&#x200B; toestemmingen &#x200B;](../admin/user-management.md#b2b-product-permissions) om Webervaringen in een reis tot stand te brengen en te beheren:
    * _[!UICONTROL Campaigns]_>_[!UICONTROL Manage Campaigns]_ - Vereist om een actieknooppunt voor webpersonalisatie toe te voegen of bij te werken.
@@ -189,16 +189,16 @@ Voor het uitvoeren van een webbeleving moeten de volgende instellingen worden ge
 
 * Controleer in de Adobe Experience Platform-gegevensverzameling of u een gegevensstroom hebt gedefinieerd waarbij de Adobe Journey Optimizer B2B edition-optie is ingeschakeld onder de Adobe Experience Platform-service.
 
-  Deze configuratie zorgt ervoor dat de Adobe Experience Platform Edge de binnenkomende gebeurtenissen correct kan verwerken. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
+  Deze configuratie zorgt ervoor dat de Adobe Experience Platform Edge de binnenkomende gebeurtenissen correct kan verwerken. [Meer informatie](https://experienceleague.adobe.com/nl/docs/experience-platform/datastreams/configure)
 
 * Controleer in Adobe Experience Platform of u één samenvoegbeleid hebt met de optie _[!UICONTROL Active-On-Edge Merge Policy]_&#x200B;ingeschakeld.
 
-  Selecteer een beleid in het menu Klant > Profielen > Beleid voor samenvoegen in Experience Platform. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide#configure)
+  Selecteer een beleid in het menu Klant > Profielen > Beleid voor samenvoegen in Experience Platform. [Meer informatie](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/merge-policies/ui-guide#configure)
 
-  Dit samenvoegbeleid wordt door de binnenkomende kanalen van Journey Optimizer B2B edition gebruikt om binnenkomende Webervaringen op de rand correct te activeren en te publiceren. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide)
+  Dit samenvoegbeleid wordt door de binnenkomende kanalen van Journey Optimizer B2B edition gebruikt om binnenkomende Webervaringen op de rand correct te activeren en te publiceren. [Meer informatie](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/merge-policies/ui-guide)
 
 ### Problemen oplossen
 
 U kunt de Edge Delivery-weergave in Adobe Experience Platform Assurance gebruiken om problemen op te lossen met de levering van Journey Optimizer B2B edition Web-ervaringen. Met deze insteekmodule kunt u aanvraagaanroepen in detail controleren, de verwachte randaanroepen controleren en profielgegevens controleren. Deze profielgegevens omvatten identiteitskaarten, segmentlidmaatschap, en toestemmingsmontages. U kunt ook de gekwalificeerde en ongekwalificeerde activiteiten voor het verzoek controleren.
 
-Voor meer informatie over de mening van Edge Delivery in Assurance, zie de [&#x200B; documentatie van Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery).
+Voor meer informatie over de mening van Edge Delivery in Assurance, zie de [&#x200B; documentatie van Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/assurance/view/edge-delivery).

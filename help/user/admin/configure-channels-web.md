@@ -19,7 +19,7 @@ Een webconfiguratie is een webeigenschap die wordt geïdentificeerd door een URL
 
 **Eerste vereisten**
 
-Om Webkanalen te gebruiken, moet uw website [&#x200B; Adobe Experience Platform Web SDK &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) hebben die voor bezoekersidentificatie en inhoudslevering wordt uitgevoerd. Zorg ervoor dat de Adobe Experience Platform Web SDK versie 2.16 of hoger is.
+Om Webkanalen te gebruiken, moet uw website [&#x200B; Adobe Experience Platform Web SDK &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/collection/js/js-overview) (`alloy.js`) hebben die voor bezoekersidentificatie en inhoudslevering wordt uitgevoerd. Zorg ervoor dat de Adobe Experience Platform Web SDK versie 2.16 of hoger is.
 
 De kanaalconfiguratie van het Web in Journey Optimizer B2B edition vereist de volgende [&#x200B; toestemmingen &#x200B;](../admin/user-management.md#b2b-product-permissions):
 

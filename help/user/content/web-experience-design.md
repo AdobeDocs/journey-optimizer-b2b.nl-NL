@@ -23,7 +23,7 @@ Voordat u webervaringen kunt ontwerpen, moet u ervoor zorgen dat aan de volgende
 
 * Een productbeheerder heeft een of meer webkanalen geconfigureerd om de URL&#39;s (pagina&#39;s) te definiëren die moeten worden opgenomen voor een webervaring. Voor meer informatie, zie [&#x200B; het kanaalconfiguraties van het Web &#x200B;](../admin/configure-channels-web.md).
 
-* Uw website heeft [&#x200B; SDK van het Web van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) die voor bezoekersidentificatie en inhoudslevering wordt uitgevoerd. Adobe Experience Platform Web SDK versie 2.16 of hoger is vereist.
+* Uw website heeft [&#x200B; SDK van het Web van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/collection/js/js-overview) (`alloy.js`) die voor bezoekersidentificatie en inhoudslevering wordt uitgevoerd. Adobe Experience Platform Web SDK versie 2.16 of hoger is vereist.
 
 * U hebt de noodzakelijke [&#x200B; toestemmingen &#x200B;](../admin/user-management.md#b2b-product-permissions) om Webervaringen in een reis tot stand te brengen en te beheren:
    * _[!UICONTROL Campaigns]_>_[!UICONTROL Manage Campaigns]_ - Vereist om een actieknooppunt voor webpersonalisatie toe te voegen of bij te werken.
@@ -326,7 +326,7 @@ Houd gebruikersinteractie met elementen bij om betrokkenheid te meten en inzicht
 
 Wanneer uw webervaring wordt geactiveerd (live), kunt u ook rapporten samenstellen met de Adobe Customer Journey Analytics (waarvoor een productabonnement is vereist). Om uw webervaringscontrole te verbeteren, kunt u ook de klikken op elk specifiek element van uw website bijhouden. Met Volgen kunt u het aantal klikken voor dat element weergeven in de webrapporten.
 
-Voor meer informatie over Customer Journey Analytics en het bouwen van Webrapporten, zie de [&#x200B; documentatie van Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing).
+Voor meer informatie over Customer Journey Analytics en het bouwen van Webrapporten, zie de [&#x200B; documentatie van Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-landing).
 
 1. Selecteer een element in de webervaringseditor, zoals een afbeelding of koppeling.
 
