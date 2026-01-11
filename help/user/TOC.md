@@ -1,9 +1,9 @@
 ---
 user-guide-title: Documentatie voor de B2B-editie van Journey Optimizer
 user-guide-description: Meer informatie over Adobe Journey Optimizer B2B Edition en hoe u deze kunt gebruiken om account- en inkoopgroeptrajecten te orkestreren met behulp van ingebouwde generatieve AI en toonaangevende automatisering.
-source-git-commit: 8ccfe2f6ec21b4bdc409b8d709304f88292181c9
+source-git-commit: ef3c33a769bf8f794bbc1a61f77feabc9db961e7
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '392'
 ht-degree: 16%
 
 ---
@@ -39,6 +39,7 @@ ht-degree: 16%
       + [Wachten](./journeys/wait-nodes.md)
    + [Reisgegevens](./journeys/journey-details.md)
 + Reisinhoud {#journey-content}
+   + [SMS-kanaal](./content/sms-authoring.md)
    + Email channel {#email-channel}
       + [Een e-mail toevoegen](./content/add-email.md)
       + [E-mailontwerp](./content/email-authoring.md)
@@ -48,8 +49,11 @@ ht-degree: 16%
       + [Beheerde sjablonen](./content/email-authoring-governance.md)
       + [E-mail met verkoopwaarschuwing](./content/sales-alert-email.md)
       + [E-maildeduplicatie](./content/email-deduplication.md)
+   + Webkanaal (Beta) {#web-channel}
+      + [Overzicht](./content/web-experiences.md)
+      + [Webervaringsontwerp](./content/web-experience-design.md)
+      + [Toepassingen met één pagina](./content/web-single-page-applications.md)
    + [Aangepaste personalisatie-tokens](./content/personalization-my-tokens.md)
-   + [SMS-authoring](./content/sms-authoring.md)
 + Soorten publiek {#audiences}
    + [Experience Platform-publiek](./audiences/account-audience-overview.md)
    + [Doel extern publiek](./audiences/target-external-audience.md)
@@ -127,7 +131,7 @@ ht-degree: 16%
 + Intelligente dashboards {#dashboards}
    + [Het dashboard met inzichten](./dashboards/intelligent-dashboard.md)
    + [Betrokkenheidsdashboard](./dashboards/engagement-dashboard.md)
-   + [&#x200B; de betrokkenheidsdashboard van het Web &#x200B;](./dashboards/web-engagement-dashboard.md)
+   + [ de betrokkenheidsdashboard van het Web ](./dashboards/web-engagement-dashboard.md)
    + [Het dashboard voor groepen kopen](./dashboards/buying-groups-dashboard.md)
    + [Rekeningjournaal](./dashboards/journeys-dashboard.md)
 + Beheer {#admin}
@@ -142,7 +146,8 @@ ht-degree: 16%
    + Kanalen {#channels}
       + [E-mailconfiguraties](./admin/configure-channels-emails.md)
       + [SMS-configuraties](./admin/configure-channels-sms.md)
-      + [Instellingen voor bestemmingspagina](./admin/landing-page-settings.md)
+      + [Webkanaalconfiguraties (Beta)](./admin/configure-channels-web.md)
+      + [Instellingen voor openingspagina (Beta)](./admin/landing-page-settings.md)
       + [Gegevensstromen configureren voor gebeurtenisverzameling](./data/aep-event-collection.md)
    + Configuraties {#configurations}
       + [AEM Assets repositories](./admin/configure-aem-repositories.md)

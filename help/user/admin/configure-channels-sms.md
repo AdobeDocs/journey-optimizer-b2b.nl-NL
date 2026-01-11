@@ -1,17 +1,17 @@
 ---
-title: SMS-configuraties
+title: SMS-kanaalconfiguraties
 description: Verbind de leveranciers van SMS zoals Sinch, Twilio, en Infobip met API geloofsbrieven om tekstoverseinen in de reizen van Journey Optimizer B2B edition toe te laten.
 feature: Setup, Channels
 role: Admin
 exl-id: bd41a5ec-929f-489f-a757-0720c1b44ed2
-source-git-commit: 325ae8e8c1f3bbf25e0d96907ede6cb9f2e76e3d
+source-git-commit: ee6000d8527222a246f715de033ee99ea49f47fd
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
 
-# SMS-configuraties
+# SMS-kanaalconfiguraties
 
 Adobe Journey Optimizer B2B edition verzendt tekstberichten via SMS-serviceproviders (of SMS-gatewayproviders). Alvorens uw bericht van SMS te creëren, vorm uw dienstverlener van de _montages van de Beheerder_.
 
@@ -33,15 +33,15 @@ Voordat u een SMS-kanaal configureert in Adobe Journey Optimizer B2B edition, mo
 
 1. Vouw de sectie **[!UICONTROL Administrator]** in de linkernavigatie uit en klik op **[!UICONTROL Channels]** .
 
-   ![&#x200B; heb toegang tot de configuratie van de geloofsbrieven van SMS API &#x200B;](./assets/config-sms-api.png){width="800" zoomable="yes"}
+   ![ heb toegang tot de configuratie van de geloofsbrieven van SMS API ](./assets/config-sms-api.png){width="800" zoomable="yes"}
 
 1. Selecteer **[!UICONTROL API Credentials]** in het navigatievenster.
 
    De pagina bevat de beschikbare API-configuraties voor uw instantie.
 
-1. Indien nodig, klik het _pictogram van de Filter_ ( ![&#x200B; toon of verberg filterpictogram &#x200B;](../assets/do-not-localize/icon-filter.svg)) en selecteer opties om de lijst van gevormde API geloofsbrieven door de dienstverlener of de schepper van SMS te tonen.
+1. Indien nodig, klik het _pictogram van de Filter_ ( ![ toon of verberg filterpictogram ](../assets/do-not-localize/icon-filter.svg)) en selecteer opties om de lijst van gevormde API geloofsbrieven door de dienstverlener of de schepper van SMS te tonen.
 
-   ![&#x200B; klik het pictogram van de Filter om de lijst van API geloofsbrieven te verfijnen &#x200B;](./assets/config-sms-api-filter.png){width="600" zoomable="yes"}
+   ![ klik het pictogram van de Filter om de lijst van API geloofsbrieven te verfijnen ](./assets/config-sms-api-filter.png){width="600" zoomable="yes"}
 
 ## Nieuwe API-referenties maken voor een SMS-serviceprovider
 
@@ -57,7 +57,7 @@ _Om Sinch als uw leverancier van SMS met Adobe Journey Optimizer B2B edition te 
 
 1. Vorm uw geloofsbrieven van SMS API:
 
-   ![&#x200B; vorm de Sinch SMS API geloofsbrieven &#x200B;](./assets/config-sms-api-sinch.png){width="500"}
+   ![ vorm de Sinch SMS API geloofsbrieven ](./assets/config-sms-api-sinch.png){width="500"}
 
    * **[!UICONTROL SMS vendor]** - Kies `Sinch` als SMS-provider.
 
@@ -65,7 +65,7 @@ _Om Sinch als uw leverancier van SMS met Adobe Journey Optimizer B2B edition te 
 
    * **[!UICONTROL Service ID]** en **[!UICONTROL API Token]** - Ga naar de pagina met API&#39;s van uw Sinch-account (u vindt uw gegevens onder het tabblad SMS).
 
-   Voor meer informatie over het vinden van deze informatie voor uw rekening van Sinch, zie de [&#x200B; de ontwikkelaarsdocumentatie van Sinch &#x200B;](https://developers.sinch.com/docs/sms/getting-started)
+   Voor meer informatie over het vinden van deze informatie voor uw rekening van Sinch, zie de [ de ontwikkelaarsdocumentatie van Sinch ](https://developers.sinch.com/docs/sms/getting-started)
 
 1. Klik op **[!UICONTROL Submit]** wanneer de configuratiegegevens van de API-referenties zijn voltooid.
 
@@ -79,7 +79,7 @@ _To configure Twilio as your SMS provider with Adobe Journey Optimizer B2B editi
 
 1. Vorm uw geloofsbrieven van SMS API:
 
-   ![&#x200B; vorm de geloofsbrieven van TwilioSMS API &#x200B;](./assets/config-sms-api-twilio.png){width="500"}
+   ![ vorm de geloofsbrieven van TwilioSMS API ](./assets/config-sms-api-twilio.png){width="500"}
 
    * **[!UICONTROL SMS vendor]** - Kies `Twilio` als SMS-provider.
 
@@ -87,7 +87,7 @@ _To configure Twilio as your SMS provider with Adobe Journey Optimizer B2B editi
 
    * **[!UICONTROL Account SID]** en **[!UICONTROL Auth Token]** - toegang tot de _ruit van Info van de Rekening_ van uw pagina van het dashboard van de Console van Twilio om uw geloofsbrieven te vinden.
 
-   Voor meer informatie over het vinden van deze informatie voor uw rekening van Twilio, zie het [&#x200B; Centrum van de Hulp van Twilio &#x200B;](https://help.twilio.com/articles/14726256820123-What-is-a-Twilio-Account-SID-and-where-can-I-find-it-).
+   Voor meer informatie over het vinden van deze informatie voor uw rekening van Twilio, zie het [ Centrum van de Hulp van Twilio ](https://help.twilio.com/articles/14726256820123-What-is-a-Twilio-Account-SID-and-where-can-I-find-it-).
 
 1. Klik op **[!UICONTROL Submit]** rechtsboven op de pagina wanneer de configuratiegegevens van de API-referenties zijn voltooid.
 
@@ -101,7 +101,7 @@ _Om Infobip als uw leverancier van SMS met Adobe Journey Optimizer B2B edition t
 
 1. Vorm uw geloofsbrieven van SMS API:
 
-   ![&#x200B; vorm de Inkoopip API geloofsbrieven &#x200B;](./assets/config-sms-api-infobip.png){width="500"}
+   ![ vorm de Inkoopip API geloofsbrieven ](./assets/config-sms-api-infobip.png){width="500"}
 
    * **[!UICONTROL SMS vendor]** - Kies `Infobip` als SMS-provider.
 
@@ -109,10 +109,10 @@ _Om Infobip als uw leverancier van SMS met Adobe Journey Optimizer B2B edition t
 
    * **[!UICONTROL API base URL]** en **[!UICONTROL API key]** - Ga naar de webinterface-homepage of de API-sleutelbeheerpagina voor uw Infobip-account om uw referenties te vinden.
 
-   Voor meer informatie over het vinden van deze informatie voor uw Infobip rekening, zie de [&#x200B; documentatie Infobip &#x200B;](https://www.infobip.com/docs/api/_blank).
+   Voor meer informatie over het vinden van deze informatie voor uw Infobip rekening, zie de [ documentatie Infobip ](https://www.infobip.com/docs/api/_blank).
 
 1. Klik op **[!UICONTROL Submit]** rechtsboven op de pagina wanneer de configuratiegegevens van de API-referenties zijn voltooid.
 
 >[!ENDTABS]
 
-Wanneer u op _[!UICONTROL Submit]_&#x200B;klikt, worden de referenties direct gevalideerd en opgeslagen en wordt u omgeleid naar de pagina met&#x200B;_[!UICONTROL API credentials]_ -lijsten. Als de verzonden referenties ongeldig zijn, wordt een foutbericht weergegeven op de pagina met lijsten. In dit geval kunt u de configuratie annuleren of deze bijwerken en opnieuw verzenden.
+Wanneer u op _[!UICONTROL Submit]_klikt, worden de referenties direct gevalideerd en opgeslagen en wordt u omgeleid naar de pagina met_[!UICONTROL API credentials]_ -lijsten. Als de verzonden referenties ongeldig zijn, wordt een foutbericht weergegeven op de pagina met lijsten. In dit geval kunt u de configuratie annuleren of deze bijwerken en opnieuw verzenden.
