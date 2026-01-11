@@ -13,15 +13,15 @@ ht-degree: 0%
 
 # Webkanaalconfiguraties
 
-Een webconfiguratie is een webeigenschap die wordt geïdentificeerd door een URL waar de inhoud wordt geleverd. Deze kan overeenkomen met een URL of meerdere pagina&#39;s van één pagina, zodat webervaringen wijzigingen kunnen aanbrengen op een of meerdere webpagina&#39;s. Deze configuraties worden vereist voor marketers om [ de knopen van de de actiegeleiding van het Web in reizen ](../content/web-experiences.md#create-a-web-experience) toe te voegen en [ de ervaringsaanpassingen ](../content/web-experience-design.md) voor een campagne te ontwerpen.
+Een webconfiguratie is een webeigenschap die wordt geïdentificeerd door een URL waar de inhoud wordt geleverd. Deze kan overeenkomen met een URL of meerdere pagina&#39;s van één pagina, zodat webervaringen wijzigingen kunnen aanbrengen op een of meerdere webpagina&#39;s. Deze configuraties worden vereist voor marketers om [&#x200B; de knopen van de de actiegeleiding van het Web in reizen &#x200B;](../content/web-experiences.md#create-a-web-experience) toe te voegen en [&#x200B; de ervaringsaanpassingen &#x200B;](../content/web-experience-design.md) voor een campagne te ontwerpen.
 
 >[!BEGINSHADEBOX]
 
 **Eerste vereisten**
 
-Om Webkanalen te gebruiken, moet uw website [ Adobe Experience Platform Web SDK ](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) hebben die voor bezoekersidentificatie en inhoudslevering wordt uitgevoerd. Zorg ervoor dat de Adobe Experience Platform Web SDK versie 2.16 of hoger is.
+Om Webkanalen te gebruiken, moet uw website [&#x200B; Adobe Experience Platform Web SDK &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) hebben die voor bezoekersidentificatie en inhoudslevering wordt uitgevoerd. Zorg ervoor dat de Adobe Experience Platform Web SDK versie 2.16 of hoger is.
 
-De kanaalconfiguratie van het Web in Journey Optimizer B2B edition vereist de volgende [ toestemmingen ](../admin/user-management.md#b2b-product-permissions):
+De kanaalconfiguratie van het Web in Journey Optimizer B2B edition vereist de volgende [&#x200B; toestemmingen &#x200B;](../admin/user-management.md#b2b-product-permissions):
 
 * _[!UICONTROL Channel Configurations]_>_[!UICONTROL Manage Messages Presets]_ - Vereist voor het maken, bijwerken en verwijderen van webkanaalconfiguraties.
 * _[!UICONTROL Channel Configurations]_>_[!UICONTROL View Messages Presets]_ - Vereist om webkanaalconfiguraties weer te geven.
@@ -32,9 +32,9 @@ De kanaalconfiguratie van het Web in Journey Optimizer B2B edition vereist de vo
 
 1. Ga in de linkernavigatie naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** .
 
-1. Selecteer onder _[!UICONTROL Web]_in het navigatievenster de optie **[!UICONTROL Channel configurations]**.
+1. Selecteer onder _[!UICONTROL Web]_&#x200B;in het navigatievenster de optie **[!UICONTROL Channel configurations]**.
 
-   ![ heb toegang tot de configuraties van het Webkanaal ](./assets/config-web-channels.png){width="800" zoomable="yes"}
+   ![&#x200B; heb toegang tot de configuraties van het Webkanaal &#x200B;](./assets/config-web-channels.png){width="800" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Create channel configuration]** rechtsboven.
 
@@ -48,9 +48,9 @@ De kanaalconfiguratie van het Web in Journey Optimizer B2B edition vereist de vo
 
    * **[!UICONTROL Single page]** - Als u de wijzigingen alleen op één pagina wilt toepassen, voert u een **[!UICONTROL Page URL]** in of selecteert u deze.
 
-     ![ Selecterend een pagina URL voor een enig-pagina configuratie van het Webkanaal ](./assets/config-web-channel-create-single-page.png){width="600" zoomable="yes"}
+     ![&#x200B; Selecterend een pagina URL voor een enig-pagina configuratie van het Webkanaal &#x200B;](./assets/config-web-channel-create-single-page.png){width="600" zoomable="yes"}
 
-   * **[!UICONTROL Pages matching rule]** - om veelvoudige URLs te richten die de zelfde regel aanpassen, a [ pagina&#39;s die regel ](#build-a-pages-matching-rule) aanpassen en a **[!UICONTROL Default authoring and preview URL]** ingaan.
+   * **[!UICONTROL Pages matching rule]** - om veelvoudige URLs te richten die de zelfde regel aanpassen, a [&#x200B; pagina&#39;s die regel &#x200B;](#build-a-pages-matching-rule) aanpassen en a **[!UICONTROL Default authoring and preview URL]** ingaan.
 
 1. Klik op **[!UICONTROL Submit]** om de wijzigingen op te slaan.
 
@@ -60,13 +60,13 @@ Zodra het Webkanaal in een reis wordt gebruikt, beweegt het zich aan een _Actiev
 
 ## Regels voor overeenkomsten met pagina&#39;s {#pages-matching-rule}
 
-Wanneer u een webconfiguratie maakt, kunt u een _[!UICONTROL Pages matching rule]_maken om meerdere URL&#39;s met dezelfde regel als doel in te stellen. Met deze regels kunt u dezelfde inhoudswijzigingen op meerdere pagina&#39;s toepassen.
+Wanneer u een webconfiguratie maakt, kunt u een _[!UICONTROL Pages matching rule]_&#x200B;maken om meerdere URL&#39;s met dezelfde regel als doel in te stellen. Met deze regels kunt u dezelfde inhoudswijzigingen op meerdere pagina&#39;s toepassen.
 
 U kunt bijvoorbeeld wijzigingen aanbrengen in een hoofdbanner op een hele website of een bovenste afbeelding toevoegen die op alle productpagina&#39;s wordt weergegeven.
 
 ### Een regel maken
 
-1. Wanneer u [ creeert een configuratie van het Webkanaal ](#create-a-web-channel-configuration), kies **[!UICONTROL Page matching rule]**.
+1. Wanneer u [&#x200B; creeert een configuratie van het Webkanaal &#x200B;](#create-a-web-channel-configuration), kies **[!UICONTROL Page matching rule]**.
 
 1. Definieer de criteria voor de velden **[!UICONTROL Domain]** en **[!UICONTROL Page]** met de verschillende operatoren in elke sectie om de regel samen te stellen.
 
@@ -101,7 +101,7 @@ U kunt bijvoorbeeld wijzigingen aanbrengen in een hoofdbanner op een hele websit
 
    Bijvoorbeeld, om inhoudsveranderingen op alle _LumaSecure_ oplossingspagina&#39;s van uw _Bodea_ website te steunen, selecteer **[!UICONTROL Domain]** > **[!UICONTROL Starts with]** > `bodea` en **[!UICONTROL Page]** > **[!UICONTROL Contains]** > `lumasecure`.
 
-   ![ het bepalen van een pagina passende regel voor een configuratie van het Webkanaal ](./assets/config-web-channel-pages-matching-rules.png){width="600" zoomable="yes"}
+   ![&#x200B; het bepalen van een pagina passende regel voor een configuratie van het Webkanaal &#x200B;](./assets/config-web-channel-pages-matching-rules.png){width="600" zoomable="yes"}
 
 1. Als voor uw gebruik meerdere regels nodig zijn, klikt u op **[!UICONTROL Add another page rule]** en herhaalt u de vorige stap.
 
@@ -109,11 +109,11 @@ U kunt bijvoorbeeld wijzigingen aanbrengen in een hoofdbanner op een hele websit
 
    * Gebruik de operatoren **[!UICONTROL Or]** of **[!UICONTROL Exclude]** tussen de verschillende regels.
 
-     _[!UICONTROL Or]_is de standaardoperator voor het definiëren van meerdere regels en is handig voor het toevoegen van meerdere criteria aan definities die kunnen worden aangepast.
+     _[!UICONTROL Or]_&#x200B;is de standaardoperator voor het definiëren van meerdere regels en is handig voor het toevoegen van meerdere criteria aan definities die kunnen worden aangepast.
 
-     _[!UICONTROL Exclude]_is nuttig wanneer een van de pagina&#39;s die aan de gedefinieerde regel voldoen, niet als doelpagina mag worden gebruikt. U kunt bijvoorbeeld alle `bodea.com` -pagina&#39;s aanwijzen die `lumasecure` bevatten, maar geen blogpagina&#39;s (zoals `bodea.com/blogs/lumasecure/latest-release` ).
+     _[!UICONTROL Exclude]_&#x200B;is nuttig wanneer een van de pagina&#39;s die aan de gedefinieerde regel voldoen, niet als doelpagina mag worden gebruikt. U kunt bijvoorbeeld alle `bodea.com` -pagina&#39;s aanwijzen die `lumasecure` bevatten, maar geen blogpagina&#39;s (zoals `bodea.com/blogs/lumasecure/latest-release` ).
 
-   ![ Pagina&#39;s die regels met uitsluiting aanpassen ](./assets/config-web-channel-pages-matching-rules-exclude.png){width="600" zoomable="yes"}
+   ![&#x200B; Pagina&#39;s die regels met uitsluiting aanpassen &#x200B;](./assets/config-web-channel-pages-matching-rules-exclude.png){width="600" zoomable="yes"}
 
 1. Voer de **[!UICONTROL Default authoring and preview URL]** in.
 
@@ -125,7 +125,7 @@ U kunt een bestaande webkanaalconfiguratie dupliceren en deze wijzigen om een ni
 
 1. Klik het _Meer menu_ pictogram (**...**) voor de variant en kies **[!UICONTROL Duplicate]**.
 
-   ![ klik het meer nenupictogram om een bestaande configuratie van het Webkanaal te dupliceren ](./assets/config-web-channels-more-menu.png){width="450"}
+   ![&#x200B; klik het meer nenupictogram om een bestaande configuratie van het Webkanaal te dupliceren &#x200B;](./assets/config-web-channels-more-menu.png){width="450"}
 
    Met deze actie maakt u een gedupliceerd webkanaal waaraan `_Copy_nnn` is toegevoegd.
 

@@ -78,7 +78,7 @@ Wanneer het creëren van Webervaringen voor SPAs, overweeg de volgende beste pra
 
 ### Doelspecifieke weergaven
 
-* In de [ configuratie van het Webkanaal ](../admin/configure-channels-web.md), opstelling URL passende regels die zich met uw SPA richten die structuur verplettert.
+* In de [&#x200B; configuratie van het Webkanaal &#x200B;](../admin/configure-channels-web.md), opstelling URL passende regels die zich met uw SPA richten die structuur verplettert.
 
 * Geef bij het maken van wijzigingen de weergave op waar de wijziging moet worden toegepast.
 
