@@ -31,8 +31,8 @@ Om tot de toepassing toegang te hebben, moeten de gebruikers lidmaatschap in een
 
 Als u gebruikers wilt beperken tot alleen [!DNL In-CRM Insights] :
 
-1. Creeer a [&#x200B; douanerol &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/buying-groups/default-custom-roles#create-a-custom-role) en wijs het de **Inzichten van de Verkoop toe: De toestemming van de Inzichten van de Verkoop van de Mening**.
-1. Creeer een nieuwe [&#x200B; gebruikersgroep &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management#create-user-group).
+1. Creeer a [&#x200B; douanerol &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b/user/accounts/buying-groups/default-custom-roles#create-a-custom-role) en wijs het de **Inzichten van de Verkoop toe: De toestemming van de Inzichten van de Verkoop van de Mening**.
+1. Creeer een nieuwe [&#x200B; gebruikersgroep &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b/user/admin/user-management#create-user-group).
 1. Voeg een Experience Platform-productprofiel toe aan de groep.
 
 ### Het pakket installeren
@@ -71,4 +71,4 @@ Volg de stappen voor Salesforce of Microsoft Dynamics om het In-CRM Insights-pak
 
 Volg de aanwijzingen om u aan te melden bij uw Adobe-account. Je koopgroepen worden geladen en kunnen worden weergegeven.
 
-Na het selecteren van een het kopen groep, kunt u de [&#x200B; groepsdetails &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#) doorbladeren. Dit is hetzelfde als de gegevens en inzichten die worden weergegeven in Journey Optimizer B2B edition, maar gegevens zijn alleen-lezen via [!DNL In-CRM Insights] .
+Na het selecteren van een het kopen groep, kunt u de [&#x200B; groepsdetails &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#) doorbladeren. Dit is hetzelfde als de gegevens en inzichten die worden weergegeven in Journey Optimizer B2B edition, maar gegevens zijn alleen-lezen via [!DNL In-CRM Insights] .
