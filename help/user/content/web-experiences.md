@@ -4,7 +4,7 @@ description: Maak, ontwerp en publiceer gepersonaliseerde webervaringen voor acc
 feature: Content, Channels
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Deze functie bevindt zich momenteel in een beperkte bètaversie"
-source-git-commit: 30bb44f9c308cd144a53a60b4f420380df5528e4
+source-git-commit: 6eae855a1e20b3a4350353940cb3ea82fd84933b
 workflow-type: tm+mt
 source-wordcount: '1423'
 ht-degree: 0%
@@ -28,16 +28,16 @@ Dankzij webervaringen kunt u:
 
 Voordat u webervaringen kunt maken, moet u controleren of aan de volgende vereisten is voldaan:
 
-* Een productbeheerder heeft een of meer webkanalen geconfigureerd om de URL&#39;s (pagina&#39;s) te definiëren die moeten worden opgenomen voor een webervaring. Voor meer informatie, zie [&#x200B; het kanaalconfiguraties van het Web &#x200B;](../admin/configure-channels-web.md).
+* Een productbeheerder heeft een of meer webkanalen geconfigureerd om de URL&#39;s (pagina&#39;s) te definiëren die moeten worden opgenomen voor een webervaring. Voor meer informatie, zie [ het kanaalconfiguraties van het Web ](../admin/configure-channels-web.md).
 
-* Uw website heeft [&#x200B; SDK van het Web van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/collection/js/js-overview) (`alloy.js`) die voor bezoekersidentificatie en inhoudslevering wordt uitgevoerd. Zorg ervoor dat de Adobe Experience Platform Web SDK versie 2.16 of hoger is.
+* Uw website heeft [ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) die voor bezoekersidentificatie en inhoudslevering wordt uitgevoerd. Zorg ervoor dat de Adobe Experience Platform Web SDK versie 2.16 of hoger is.
 
-* U hebt de noodzakelijke [&#x200B; toestemmingen &#x200B;](../admin/user-management.md#b2b-product-permissions) om Webervaringen in een reis tot stand te brengen en te beheren:
+* U hebt de noodzakelijke [ toestemmingen ](../admin/user-management.md#b2b-product-permissions) om Webervaringen in een reis tot stand te brengen en te beheren:
    * _[!UICONTROL Campaigns]_>_[!UICONTROL Manage Campaigns]_ - Vereist om een actieknooppunt voor webpersonalisatie toe te voegen of bij te werken.
    * _[!UICONTROL Campaigns]_>_[!UICONTROL View Campaigns]_ - Vereist om details voor de actieknooppunten van een webpersonalisatie weer te geven.
    * _[!UICONTROL Campaigns]_>_[!UICONTROL Approve and Publish Campaigns]_ - Vereist om een reis te publiceren die één of meerdere knopen van de de verpersoonlijkingsactie van het Web heeft.
 
-* U hebt Adobe Experience Cloud [&#x200B; Visuele die Helper browser uitbreiding van de Uitgevende van de Helper &#x200B;](#install-the-visual-editing-helper-extension) voor uw Webbrowser wordt geïnstalleerd. U hebt deze extensie nodig als u uw webpagina&#39;s betrouwbaar wilt openen, ontwerpen en voorvertonen in de ontwerpruimte voor Journey Optimizer B2B edition-inhoud.
+* U hebt Adobe Experience Cloud [ Visuele die Helper browser uitbreiding van de Uitgevende van de Helper ](#install-the-visual-editing-helper-extension) voor uw Webbrowser wordt geïnstalleerd. U hebt deze extensie nodig als u uw webpagina&#39;s betrouwbaar wilt openen, ontwerpen en voorvertonen in de ontwerpruimte voor Journey Optimizer B2B edition-inhoud.
 
   >[!NOTE]
   >
@@ -49,13 +49,13 @@ Voordat u webervaringen kunt maken, moet u controleren of aan de volgende vereis
 
 1. Open een nieuw tabblad in uw browser ([!DNL Google Chrome] of [!DNL Microsoft Edge] ).
 
-1. Ga naar de [&#x200B; Opslag van het Web van Google Chrome &#x200B;](https://chromewebstore.google.com/category/extensions).
+1. Ga naar de [ Opslag van het Web van Google Chrome ](https://chromewebstore.google.com/category/extensions).
 
    Als u [!DNL Microsoft Edge] gebruikt, _uitgezochte uitbreidingen_ van andere opslag op de hoogste banner toestaat. Als u deze optie inschakelt, kunt u extensies toevoegen van de extensies [!DNL Chrome Web Store] t/m [!DNL Microsoft Edge] .
 
 1. Zoek en navigeer naar de browserextensie van _[!DNL Adobe Experience Cloud Visual Editing Helper]_.
 
-   ![&#x200B; Adobe Experience Cloud Visuele het Uitgeven de uitbreiding van de Helper voor Google Chrome &#x200B;](./assets/web-experience-google-chrome-adobe-visual-editing-extension.png){width="800" zoomable="yes"}
+   ![ Adobe Experience Cloud Visuele het Uitgeven de uitbreiding van de Helper voor Google Chrome ](./assets/web-experience-google-chrome-adobe-visual-editing-extension.png){width="800" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Add to Chrome]** en vervolgens op **[!UICONTROL Add Extension]** in het bevestigingsdialoogvenster.
 
@@ -63,7 +63,7 @@ Voordat u webervaringen kunt maken, moet u controleren of aan de volgende vereis
 
 1. Controleer of de browserextensie van [!DNL Visual Editing Helper] correct is ingeschakeld op de werkbalk van de browser.
 
-   ![&#x200B; Adobe Experience Cloud het Visuele Uitgeven de uitbreidingspictogram van de Helper in de toolbar van Chrome van Google &#x200B;](./assets/web-experience-google-chrome-adobe-visual-editing-extension-icon.png){width="450"}
+   ![ Adobe Experience Cloud het Visuele Uitgeven de uitbreidingspictogram van de Helper in de toolbar van Chrome van Google ](./assets/web-experience-google-chrome-adobe-visual-editing-extension-icon.png){width="450"}
 
 [!DNL Adobe Experience Cloud Visual Editing Helper] wordt nu automatisch ingeschakeld wanneer een website wordt geopend in de visuele editor van Journey Optimizer B2B edition voor webervaringen. De extensie heeft geen voorwaardelijke instellingen en verwerkt alle instellingen automatisch, inclusief de instellingen voor Cookies van SameSite.
 
@@ -77,17 +77,17 @@ Voordat u webervaringen kunt maken, moet u controleren of aan de volgende vereis
 
 ## Een webervaring maken
 
-U kunt opstellingsWeb ervaringen in een reis wanneer u [&#x200B; a _[!UICONTROL Take an action]_&#x200B;knoop &#x200B;](../journeys/action-nodes.md) toevoegt en het volgende doet:
+U kunt opstellingsWeb ervaringen in een reis wanneer u [ a _[!UICONTROL Take an action]_knoop ](../journeys/action-nodes.md) toevoegt en het volgende doet:
 
-1. Kies _[!UICONTROL Action on]_&#x200B;voor het doel **[!UICONTROL People]**.
+1. Kies _[!UICONTROL Action on]_voor het doel **[!UICONTROL People]**.
 
-1. Kies _[!UICONTROL Action on people]_&#x200B;bij **[!UICONTROL Personalize web experience]**.
+1. Kies _[!UICONTROL Action on people]_bij **[!UICONTROL Personalize web experience]**.
 
-![&#x200B; neem een actie - personaliseer Webervaring &#x200B;](./assets/web-experience-add-journey-node.png){width="500"}
+   ![ neem een actie - personaliseer Webervaring ](./assets/web-experience-add-journey-node.png){width="500"}
 
 1. Klik op **[!UICONTROL Create web experience]**.
 
-1. Voer in het dialoogvenster _[!UICONTROL Create web experience]_&#x200B;een handige **[!UICONTROL Name]**&#x200B;en **[!UICONTROL Description]**(optioneel) in.
+1. Voer in het dialoogvenster _[!UICONTROL Create web experience]_een handige **[!UICONTROL Name]**en **[!UICONTROL Description]**(optioneel) in.
 
    * Naam - maximaal 100 tekens, moet uniek en hoofdlettergevoelig zijn
 
@@ -97,7 +97,7 @@ U kunt opstellingsWeb ervaringen in een reis wanneer u [&#x200B; a _[!UICONTROL 
    >
    >Naam- en beschrijvingsvelden ondersteunen alfakanalen, numerieke en speciale tekens. Gereserveerde karakters (`\ / : * ? " < > |`) worden **_niet toegestaan_**.
 
-   ![&#x200B; creeer de dialoog van de Webervaring &#x200B;](./assets/web-experience-create-dialog.png){width="400"}
+   ![ creeer de dialoog van de Webervaring ](./assets/web-experience-create-dialog.png){width="400"}
 
 <!-- What is this for? 1. Properties? -->
 
@@ -105,22 +105,22 @@ U kunt opstellingsWeb ervaringen in een reis wanneer u [&#x200B; a _[!UICONTROL 
 
 1. Klik op het tabblad **[!UICONTROL Actions]** en selecteer de **[!UICONTROL Web channel]** die u voor een webervaring wilt gebruiken.
 
-   De configuratie van het Webkanaal bepaalt waar de inhoudwijzigingen worden toegepast gebaseerd op de gevormde pagina passende regels. Zie [&#x200B; de kanaalconfiguraties van het Web &#x200B;](../admin/configure-channels-web.md) voor meer informatie.
+   De configuratie van het Webkanaal bepaalt waar de inhoudwijzigingen worden toegepast gebaseerd op de gevormde pagina passende regels. Zie [ de kanaalconfiguraties van het Web ](../admin/configure-channels-web.md) voor meer informatie.
 
-   ![&#x200B; Geselecteerde configuratie van het Webkanaal &#x200B;](./assets/web-experience-journey-node-actions-tab.png){width="700" zoomable="yes"}
+   ![ Geselecteerde configuratie van het Webkanaal ](./assets/web-experience-journey-node-actions-tab.png){width="700" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Edit content]** om de webwijzigingen te definiëren.
 
-   De editor wordt geopend op het tabblad _[!UICONTROL Content]_, waar u de wijzigingen voor uw webervaring kunt definiëren. Zie [&#x200B; de ervaringsontwerp van het Web &#x200B;](./web-experience-design.md) voor gedetailleerde informatie over het gebruiken van de ontwerphulpmiddelen om de veranderingen van de Web ervaringsinhoud toe te voegen.
+   De editor wordt geopend op het tabblad _[!UICONTROL Content]_, waar u de wijzigingen voor uw webervaring kunt definiëren. Zie [ de ervaringsontwerp van het Web ](./web-experience-design.md) voor gedetailleerde informatie over het gebruiken van de ontwerphulpmiddelen om de veranderingen van de Web ervaringsinhoud toe te voegen.
 
 1. Stel in het rechterdeelvenster de eigenschappen voor de webervaring in op basis van de manier waarop u deze wilt definiëren en beheren.
 
-   * **[!UICONTROL Visual editor]** - knevel tussen de [&#x200B; visuele en niet-visuele redacteur &#x200B;](./web-experience-design.md#web-design-tools) voor het ontwerp van de Webervaringswijziging.
-   * **[!UICONTROL Visitor redirection]** - laat deze optie toe [&#x200B; bezoekers aan een andere bestaande URL &#x200B;](#redirect-to-url) eerder dan het ontwerpen van een nieuwe variatie in de inhoudstafel om te leiden.
+   * **[!UICONTROL Visual editor]** - knevel tussen de [ visuele en niet-visuele redacteur ](./web-experience-design.md#web-design-tools) voor het ontwerp van de Webervaringswijziging.
+   * **[!UICONTROL Visitor redirection]** - laat deze optie toe [ bezoekers aan een andere bestaande URL ](#redirect-to-url) eerder dan het ontwerpen van een nieuwe variatie in de inhoudstafel om te leiden.
 
-   ![&#x200B; knevel eigenschappen voor de visuele redacteur en richt URL &#x200B;](./assets/web-experience-journey-node-content-properties.png){width="700" zoomable="yes"} om
+   ![ knevel eigenschappen voor de visuele redacteur en richt URL ](./assets/web-experience-journey-node-content-properties.png){width="700" zoomable="yes"} om
 
-1. Klik **[!UICONTROL Edit web page]** aan [&#x200B; ontwerp uw Webwijzigingen &#x200B;](./web-experience-design.md).
+1. Klik **[!UICONTROL Edit web page]** aan [ ontwerp uw Webwijzigingen ](./web-experience-design.md).
 
 1. Wanneer de wijzigingen zijn voltooid, klikt u op de pijl naar links boven de editor om terug te keren naar het tabblad Inhoud en naar de eigenschappen van de knooppunt voor gepersonaliseerde webervaring.
 
@@ -139,7 +139,7 @@ U kunt opstellingsWeb ervaringen in een reis wanneer u [&#x200B; a _[!UICONTROL 
    * _Visuele redacteur_ - klik **[!UICONTROL Edit Content]**.
    * _niet-visuele redacteur_ - klik **[!UICONTROL Add a modification]**.
 
-   Zie [&#x200B; de ervaringsontwerp van het Web &#x200B;](./web-experience-design.md) voor gedetailleerde informatie.
+   Zie [ de ervaringsontwerp van het Web ](./web-experience-design.md) voor gedetailleerde informatie.
 
 1. Wanneer de wijzigingsdefinities zijn voltooid, klikt u op de pijl naar links boven de editor om terug te keren naar het tabblad Inhoud en de eigenschappen voor webbeleving.
 
@@ -153,19 +153,19 @@ Maak bijvoorbeeld een webcampagne met twee behandelingen:
 
 In Behandeling A ontwerpt u een webervaring met de inhoudeditor voor de helft van de doelpopulatie.
 
-Selecteer in Behandeling B de optie _[!UICONTROL Redirect to URL]_&#x200B;voor de andere helft van de doelpopulatie. Voer de URL in van een pagina met een ander ontwerp dat u buiten Journey Optimizer B2B edition hebt gemaakt.
+Selecteer in Behandeling B de optie _[!UICONTROL Redirect to URL]_voor de andere helft van de doelpopulatie. Voer de URL in van een pagina met een ander ontwerp dat u buiten Journey Optimizer B2B edition hebt gemaakt.
 
-![&#x200B; plaats de bezoekersomleiding om bezoekers aan specifieke URL &#x200B;](./assets/web-experience-journey-node-content-visitor-redirection.png){width="500" zoomable="yes"} om te leiden
+![ plaats de bezoekersomleiding om bezoekers aan specifieke URL ](./assets/web-experience-journey-node-content-visitor-redirection.png){width="500" zoomable="yes"} om te leiden
 
 >[!NOTE]
 >
->Als deze optie is geselecteerd, wordt de voorvertoning van de website niet weergegeven en wordt de schakeloptie _[!UICONTROL Visual editor]_&#x200B;uitgeschakeld.
+>Als deze optie is geselecteerd, wordt de voorvertoning van de website niet weergegeven en wordt de schakeloptie _[!UICONTROL Visual editor]_uitgeschakeld.
 
 Wanneer uw webcampagne live is, kunt u bijhouden hoe de webervaring die u in Journey Optimizer B2B edition hebt gedefinieerd, functioneert op basis van webervaringen die een omleiding naar de alternatieve pagina hebben gebruikt.
 
 ## De webervaring testen
 
-Nadat het inhoudsontwerp volledig voor de Webervaring is, kunt u _gebruiken de inhoud_ simuleren eigenschap om uw Webpagina wijzigingen voor te vertonen. Als u persoonlijke inhoud hebt ingevoegd, kunt u de gegevens van het testprofiel gebruiken om te controleren hoe de inhoud wordt gerenderd. De simulatiegereedschappen zijn beschikbaar op het tabblad _[!UICONTROL Content]_&#x200B;voor webervaring of in de visuele ontwerpeditor voor inhoud.
+Nadat het inhoudsontwerp volledig voor de Webervaring is, kunt u _gebruiken de inhoud_ simuleren eigenschap om uw Webpagina wijzigingen voor te vertonen. Als u persoonlijke inhoud hebt ingevoegd, kunt u de gegevens van het testprofiel gebruiken om te controleren hoe de inhoud wordt gerenderd. De simulatiegereedschappen zijn beschikbaar op het tabblad _[!UICONTROL Content]_voor webervaring of in de visuele ontwerpeditor voor inhoud.
 
 1. Klik op **[!UICONTROL Simulate content]** rechtsboven.
 
@@ -177,7 +177,7 @@ Nadat het inhoudsontwerp volledig voor de Webervaring is, kunt u _gebruiken de i
 
 ## Uw webervaring activeren
 
-Uw Webervaring wordt geactiveerd en zichtbaar gemaakt aan het publiek wanneer u [&#x200B; de reis &#x200B;](../journeys/create-publish-journey.md#publish-an-account-journey) publiceert. Overweeg het volgende voordat u een webervaring activeert tijdens een rit:
+Uw Webervaring wordt geactiveerd en zichtbaar gemaakt aan het publiek wanneer u [ de reis ](../journeys/create-publish-journey.md#publish-an-account-journey) publiceert. Overweeg het volgende voordat u een webervaring activeert tijdens een rit:
 
 * Als u een reis met een Webervaring publiceert die de zelfde pagina&#39;s zoals een andere reis beïnvloedt die reeds levend is, worden alle veranderingen toegepast op de Web-pagina&#39;s.
 
@@ -189,16 +189,16 @@ Voor het uitvoeren van een webbeleving moeten de volgende instellingen worden ge
 
 * Controleer in de Adobe Experience Platform-gegevensverzameling of u een gegevensstroom hebt gedefinieerd waarbij de Adobe Journey Optimizer B2B edition-optie is ingeschakeld onder de Adobe Experience Platform-service.
 
-  Deze configuratie zorgt ervoor dat de Adobe Experience Platform Edge de binnenkomende gebeurtenissen correct kan verwerken. [Meer informatie](https://experienceleague.adobe.com/nl/docs/experience-platform/datastreams/configure)
+  Deze configuratie zorgt ervoor dat de Adobe Experience Platform Edge de binnenkomende gebeurtenissen correct kan verwerken. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
 
-* Controleer in Adobe Experience Platform of u één samenvoegbeleid hebt met de optie _[!UICONTROL Active-On-Edge Merge Policy]_&#x200B;ingeschakeld.
+* Controleer in Adobe Experience Platform of u één samenvoegbeleid hebt met de optie _[!UICONTROL Active-On-Edge Merge Policy]_ingeschakeld.
 
-  Selecteer een beleid in het menu Klant > Profielen > Beleid voor samenvoegen in Experience Platform. [Meer informatie](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/merge-policies/ui-guide#configure)
+  Selecteer een beleid in het menu Klant > Profielen > Beleid voor samenvoegen in Experience Platform. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide#configure)
 
-  Dit samenvoegbeleid wordt door de binnenkomende kanalen van Journey Optimizer B2B edition gebruikt om binnenkomende Webervaringen op de rand correct te activeren en te publiceren. [Meer informatie](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/merge-policies/ui-guide)
+  Dit samenvoegbeleid wordt door de binnenkomende kanalen van Journey Optimizer B2B edition gebruikt om binnenkomende Webervaringen op de rand correct te activeren en te publiceren. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide)
 
 ### Problemen oplossen
 
 U kunt de Edge Delivery-weergave in Adobe Experience Platform Assurance gebruiken om problemen op te lossen met de levering van Journey Optimizer B2B edition Web-ervaringen. Met deze insteekmodule kunt u aanvraagaanroepen in detail controleren, de verwachte randaanroepen controleren en profielgegevens controleren. Deze profielgegevens omvatten identiteitskaarten, segmentlidmaatschap, en toestemmingsmontages. U kunt ook de gekwalificeerde en ongekwalificeerde activiteiten voor het verzoek controleren.
 
-Voor meer informatie over de mening van Edge Delivery in Assurance, zie de [&#x200B; documentatie van Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/assurance/view/edge-delivery).
+Voor meer informatie over de mening van Edge Delivery in Assurance, zie de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery).
