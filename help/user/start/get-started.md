@@ -17,7 +17,7 @@ De functies en gereedschappen die u in Adobe Journey Optimizer B2B edition wilt 
 
 >[!TIP]
 >
->Controleer ook uw vergunningsrechten en de overeenkomstige [ productbeschrijving ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} over prestatiesgaranties en statische beperkingen.
+>Controleer ook uw vergunningsrechten en de overeenkomstige [&#x200B; productbeschrijving &#x200B;](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} over prestatiesgaranties en statische beperkingen.
 
 >[!BEGINTABS]
 
@@ -25,7 +25,7 @@ De functies en gereedschappen die u in Adobe Journey Optimizer B2B edition wilt 
 
 Voordat uw team de Adobe Journey Optimizer B2B edition-functies kan gaan gebruiken, moet u verschillende stappen uitvoeren om uw omgeving voor te bereiden. Voer deze stappen uit zodat de gegevenstechnicus en de markeerfunctie kunnen gaan werken met Adobe Journey Optimizer B2B edition.
 
-Als systeembeheerder, moet u productprofielen begrijpen en toestemmingen voor zandbakbeleid en kanaalconfiguratie toewijzen. U moet ook sandboxen instellen en deze beheren voor de beschikbare productprofielen. U kunt vervolgens teamleden toewijzen aan de productprofielen. Productbeheerders die toegang hebben tot de Adobe Admin Console kunnen deze mogelijkheden beheren. [ leer meer over Adobe Admin Console ](https://helpx.adobe.com/nl/enterprise/using/admin-console.html).
+Als systeembeheerder, moet u productprofielen begrijpen en toestemmingen voor zandbakbeleid en kanaalconfiguratie toewijzen. U moet ook sandboxen instellen en deze beheren voor de beschikbare productprofielen. U kunt vervolgens teamleden toewijzen aan de productprofielen. Productbeheerders die toegang hebben tot de Adobe Admin Console kunnen deze mogelijkheden beheren. [&#x200B; leer meer over Adobe Admin Console &#x200B;](https://helpx.adobe.com/nl/enterprise/using/admin-console.html).
 
 Meer informatie over toegangsbeheer vindt u op de volgende pagina&#39;s:
 
