@@ -1,37 +1,61 @@
 ---
-title: Een accountreis maken en publiceren
-description: Maak accountreizen op het visuele canvas, voeg actie- en gebeurtenisknooppunten toe, configureer het plannen en publiceer voor live orchestratie in Journey Optimizer B2B edition.
+title: Een reis maken en publiceren
+description: Maak accounts en persoonlijke ritten op het visuele canvas, voeg actie- en gebeurtenisknooppunten toe, configureer het plannen en publiceer deze voor live orchestratie in Journey Optimizer B2B edition.
 feature: Account Journeys
 role: User
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
-source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
+source-git-commit: 433b08efbb24453f318bbce989ce18c9d96dea05
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 0%
+source-wordcount: '811'
+ht-degree: 1%
 
 ---
 
-# Een accountreis maken en publiceren
+# Een reis maken en publiceren
 
-Om met een rekeningreis te beginnen, creeer de reis en bouw dan de knopen en de reisstroom in de reiskaart.
+Om met een reis te beginnen, creeer de reis en bouw dan de knopen en de reisstroom in de reiskaart.
 
-![&#x200B; Video &#x200B;](../../assets/do-not-localize/icon-video.svg){width="30"} [&#x200B; bekijk de overzichtsvideo &#x200B;](#overview-video)
+![ Video ](../../assets/do-not-localize/icon-video.svg){width="30"} [ bekijk de overzichtsvideo ](#overview-video)
 
-## Een accountreis maken
+## Een journey maken
 
-1. Klik in de linkernavigatie op **[!UICONTROL Account journeys]** .
+Selecteer onder **[!UICONTROL Journey management]** in de linkernavigatie het type van reis dat u wilt creëren:
+
+* **[!UICONTROL Account journeys]**
+* **[!UICONTROL Person journeys]** (Beta)
+
+_Een nieuwe reis toevoegen :_
+
++++Rekeningoverzicht
 
 1. Klik op **[!UICONTROL Create Account Journey]** rechtsboven op de pagina.
 
 1. Voer in het dialoogvenster een uniek **[!UICONTROL Name]** (vereist) en **[!UICONTROL Description]** (optioneel) in.
 
-   ![&#x200B; creeer de dialoog van de Reis van de Rekening &#x200B;](./assets/account-journey-create-dialog.png){width="400"}
+   ![ creeer de dialoog van de Reis van de Rekening ](./assets/account-journey-create-dialog.png){width="400"}
 
 1. Klik op **[!UICONTROL Create]**.
 
-## Bouwstenen van een reis
++++
 
-De _reiskaart_ is de centrale streek in de reis werkruimte. Het is in deze streek dat u reisknopen kunt toevoegen en hen vormen. Klik op een knooppunt om het deelvenster met eigenschappen rechts van het canvas te openen en stel de eigenschappen in op basis van uw ontwerp. Een rekeningsreis begint altijd met een [&#x200B; knoop van het Publiek van de Rekening &#x200B;](./account-audience-nodes.md) waar u input aan uw reis kunt toevoegen.
++++Personenreis (Beta)
+
+1. Klik op **[!UICONTROL Create Journey]** rechtsboven op de pagina.
+
+1. Voer in het dialoogvenster een uniek **[!UICONTROL Name]** (vereist) en **[!UICONTROL Description]** (optioneel) in.
+
+   ![ creeer de dialoog van de Reis ](./assets/person-journey-create-dialog.png){width="400"}
+
+1. Klik op **[!UICONTROL Create]**.
+
++++
+
+## Bouwstenen voor reisontwerp
+
+De _reiskaart_ is de centrale streek in de reis werkruimte. Het is in deze streek dat u reisknopen kunt toevoegen en hen vormen. Klik op een knooppunt om het deelvenster met eigenschappen rechts van het canvas te openen en stel de eigenschappen in op basis van uw ontwerp. Een reis begint altijd met een publieksknoop, waar u de input voor uw reis kunt bepalen:
+
+* [Knop voor accountpubliek](./account-audience-nodes.md)
+* [Personen publieksknooppunt](./person-audience-nodes.md)
 
 Nadat u een reis van de rekening creeert en het publiek toevoegt, bouwt de reis uit gebruikend knopen. De reiskaart verstrekt een canvas, waar u uw multi-step B2B het marketing gebruiksgevallen kunt bouwen gebruikend de volgende knooptypes om een rekeningsreis te construeren:
 
@@ -61,7 +85,7 @@ Om u te helpen een reis bouwen zonder in fouten te lopen, zijn de volgende veili
 
 1. Navigeer naar de reiskaart.
 
-1. In de knoopeigenschappen op het recht, klik _Schrapping_ ( ![&#x200B; pictogram van de Schrapping &#x200B;](../assets/do-not-localize/icon-delete.svg)) pictogram.
+1. In de knoopeigenschappen op het recht, klik _Schrapping_ ( ![ pictogram van de Schrapping ](../assets/do-not-localize/icon-delete.svg)) pictogram.
 
 1. Klik op **[!UICONTROL Delete]** in het dialoogvenster Conformatie.
 
@@ -69,7 +93,7 @@ Om u te helpen een reis bouwen zonder in fouten te lopen, zijn de volgende veili
 
 1. Navigeer naar de reiskaart.
 
-1. Klik plus ( **+**) pictogram op de weg en voeg de [&#x200B; gespleten wegknoop &#x200B;](./split-merge-paths-nodes.md#split-paths) toe.
+1. Klik plus ( **+**) pictogram op de weg en voeg de [ gespleten wegknoop ](./split-merge-paths-nodes.md#split-paths) toe.
 
 1. Selecteer **[!UICONTROL Account]** in de knoopeigenschappen aan de rechterkant.
 
@@ -77,9 +101,9 @@ Om u te helpen een reis bouwen zonder in fouten te lopen, zijn de volgende veili
 
    Bij elk pad dat in de rit wordt gemaakt, wordt een nieuwe padkaart weergegeven in de eigenschappen.
 
-1. Navigeer aan één van de wegen in de reis en voeg [&#x200B; actie &#x200B;](./action-nodes.md) of [&#x200B; gebeurtenis &#x200B;](./listen-for-event-nodes.md) knopen aan deze weg toe gebruikend het plus pictogram.
+1. Navigeer aan één van de wegen in de reis en voeg [ actie ](./action-nodes.md) of [ gebeurtenis ](./listen-for-event-nodes.md) knopen aan deze weg toe gebruikend het plus pictogram.
 
-1. Selecteer de [&#x200B; gespleten weg &#x200B;](./split-merge-paths-nodes.md) knoop om de eigenschappen op het recht te openen.
+1. Selecteer de [ gespleten weg ](./split-merge-paths-nodes.md) knoop om de eigenschappen op het recht te openen.
 
    De paden met knooppunten kunnen niet worden verwijderd.
 
@@ -101,17 +125,17 @@ Wanneer u een reis publiceert, kan het onmiddellijk of op een geplande toekomsti
 
      Om de reis op een toekomstige datum te activeren, verkies **[!UICONTROL On a specific date]** en klik het _pictogram van de Kalender_ om de datum te selecteren.
 
-     ![&#x200B; de instellingendialoog van de Reis &#x200B;](./assets/account-journey-settings-dialog.png){width="400" zoomable="no"}
+     ![ de instellingendialoog van de Reis ](./assets/account-journey-settings-dialog.png){width="400" zoomable="no"}
 
    * Geef de **[!UICONTROL End date]** voor de rit op. Deze kan maximaal drie jaar na de begindatum zijn (dit veld moet worden gepubliceerd).
 
 1. Klik op **[!UICONTROL Save]**.
 
-   Wanneer u klaar bent om uw reis te publiceren, kunt u deze montages herzien wanneer u _[!UICONTROL Publish]_&#x200B;klikt.
+   Wanneer u klaar bent om uw reis te publiceren, kunt u deze montages herzien wanneer u _[!UICONTROL Publish]_klikt.
 
-## Een accountreis publiceren
+## Een journey publiceren
 
-U kunt een reis publiceren als er geen blocker fouten zijn. Wanneer gepubliceerd, verandert de reisstatus in _Levend_. Als de rit fouten bevat, wordt de knop _[!UICONTROL Publish]_&#x200B;grijs weergegeven met de inhoudsgegevens: `Resolve errors before publishing` .
+U kunt een reis publiceren als er geen blocker fouten zijn. Wanneer gepubliceerd, verandert de reisstatus in _Levend_. Als de rit fouten bevat, wordt de knop _[!UICONTROL Publish]_grijs weergegeven met de inhoudsgegevens: `Resolve errors before publishing` .
 
 >[!NOTE]
 >
@@ -119,7 +143,7 @@ U kunt een reis publiceren als er geen blocker fouten zijn. Wanneer gepubliceerd
 
 1. Klik in de rechterbovenhoek van het reisoverzicht op **[!UICONTROL Publish]** .
 
-1. Stel in het dialoogvenster _[!UICONTROL Review journey settings]_&#x200B;de startopties voor de rit in.
+1. Stel in het dialoogvenster _[!UICONTROL Review journey settings]_de startopties voor de rit in.
 
    Als u reeds de reismontages plaatst om een programma te bepalen, herzie de montages.
 
@@ -131,7 +155,7 @@ U kunt een reis publiceren als er geen blocker fouten zijn. Wanneer gepubliceerd
 
 1. Geef indien nodig de **[!UICONTROL End date]** voor de rit op.
 
-   ![&#x200B; de instellingendialoog van de Reis &#x200B;](./assets/journey-publish-dialog.png){width="400" zoomable="no"}
+   ![ de instellingendialoog van de Reis ](./assets/journey-publish-dialog.png){width="400" zoomable="no"}
 
    Deze kan maximaal drie jaar na de begindatum zijn (dit veld moet worden gepubliceerd).
 
@@ -141,4 +165,4 @@ U kunt een reis publiceren als er geen blocker fouten zijn. Wanneer gepubliceerd
 
 ## Video over overzicht
 
->[!VIDEO](https://video.tv.adobe.com/v/3443225/?learn=on&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)

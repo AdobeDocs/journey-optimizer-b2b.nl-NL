@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentatie voor de B2B-editie van Journey Optimizer
 user-guide-description: Meer informatie over Adobe Journey Optimizer B2B Edition en hoe u deze kunt gebruiken om account- en inkoopgroeptrajecten te orkestreren met behulp van ingebouwde generatieve AI en toonaangevende automatisering.
-source-git-commit: ef3c33a769bf8f794bbc1a61f77feabc9db961e7
+source-git-commit: 57b248667e9663fa9009eae4771dc97e1f5102a1
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 16%
+source-wordcount: '398'
+ht-degree: 15%
 
 ---
 
@@ -27,12 +27,13 @@ ht-degree: 16%
       + [Audience-agent](./agents/audience-agent-b2b.md)
       + [Journey Build Agent B2B](./agents/journey-agent.md)
       + [Verkoopkwalificatie](./agents/sales-qualifier.md)
-+ Accountreizen {#account-journeys}
-   + [Overzicht](./journeys/journey-overview.md)
++ Reisbeheer {#journeys}
+   + [Rekening en personenvervoer](./journeys/journeys-overview.md)
    + [Een reis maken en publiceren](./journeys/create-publish-journey.md)
    + [Reisknooppunten](./journeys/journey-nodes.md)
    + Reisknooppunten {#journey-nodes}
       + [Accountpubliek](./journeys/account-audience-nodes.md)
+      + [Personpubliek (Beta)](./journeys/person-audience-nodes.md)
       + [Handeling uitvoeren](./journeys/action-nodes.md)
       + [Luisteren naar een gebeurtenis](./journeys/listen-for-event-nodes.md)
       + [Paden splitsen en samenvoegen](./journeys/split-merge-paths-nodes.md)
@@ -131,7 +132,7 @@ ht-degree: 16%
 + Intelligente dashboards {#dashboards}
    + [Het dashboard met inzichten](./dashboards/intelligent-dashboard.md)
    + [Betrokkenheidsdashboard](./dashboards/engagement-dashboard.md)
-   + [&#x200B; de betrokkenheidsdashboard van het Web &#x200B;](./dashboards/web-engagement-dashboard.md)
+   + [ de betrokkenheidsdashboard van het Web ](./dashboards/web-engagement-dashboard.md)
    + [Het dashboard voor groepen kopen](./dashboards/buying-groups-dashboard.md)
    + [Rekeningjournaal](./dashboards/journeys-dashboard.md)
 + Beheer {#admin}

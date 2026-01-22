@@ -4,26 +4,26 @@ description: Configureer gebeurtenisknooppunten voor account en persoonlijke tri
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: 53875f5b1b61b5a4a87e3361eacae80a5c14d878
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
 workflow-type: tm+mt
-source-wordcount: '1616'
+source-wordcount: '1647'
 ht-degree: 1%
 
 ---
 
 # Luisteren naar een gebeurtenis
 
-Voeg _toe luistert naar een gebeurtenis_ knoop om uw publiek naar de volgende stap in de rekeningsreis vooruit te bewegen wanneer een gebeurtenis voorkomt.
+Voeg _toe luistert naar een gebeurtenis_ knoop om uw publiek naar de volgende stap in de reis vooruit te bewegen wanneer een gebeurtenis voorkomt.
 
-![&#x200B; Video &#x200B;](../../assets/do-not-localize/icon-video.svg) &lbrace;width= &quot;30&quot;, verticaal-richt= &quot;midden&quot; [&#x200B; bekijk de overzichtsvideo &#x200B;](#overview-video)
+![ Video ](../../assets/do-not-localize/icon-video.svg) {width= &quot;30&quot;, verticaal-richt= &quot;midden&quot; [ bekijk de overzichtsvideo ](#overview-video)
 
 >[!NOTE]
 >
->U kunt dit knooppunttype niet toevoegen op gesplitste weg door mensen.
+>Voor een rekeningreis, kunt u niet dit knooptype op gespleten weg door mensen toevoegen.
 
 ## Accountgebeurtenissen
 
-Luister naar een gebeurtenis op basis van de account wanneer u de account voorwaarts wilt laten gaan tijdens de reis volgens gebeurtenissen die worden geactiveerd door accountactiviteiten.
+In een accountreis kunt u luisteren naar een gebeurtenis op basis van de account wanneer u de account in de reis wilt doorsturen volgens gebeurtenissen die worden geactiveerd door accountactiviteiten.
 
 ### Gebeurtenissen en beperkingen
 
@@ -44,7 +44,7 @@ Luister naar een gebeurtenis op basis van de account wanneer u de account voorwa
 
 1. In de knoopeigenschappen op het recht, kies **[!UICONTROL Accounts]** voor het gebeurtenistype.
 
-   ![&#x200B; knoop van de Reis - luister aan gebeurtenissen op rekening &#x200B;](./assets/node-listen-events-account.png){width="700" zoomable="yes"}
+   ![ knoop van de Reis - luister aan gebeurtenissen op rekening ](./assets/node-listen-events-account.png){width="700" zoomable="yes"}
 
 1. Selecteer een gebeurtenis in de lijst.
 
@@ -52,7 +52,7 @@ Luister naar een gebeurtenis op basis van de account wanneer u de account voorwa
 
 ## Gebeurtenissen van Mensen
 
-Luister naar een gebeurtenis op basis van mensen wanneer u de account op de reis vooruit wilt laten gaan volgens gebeurtenissen die worden geactiveerd door activiteiten van personen. U kunt gebeurtenissen ook filteren op basis van kenmerken van personen,
+In een accountreis kunt u luisteren naar een gebeurtenis die op mensen is gebaseerd wanneer u de account op de reis vooruit wilt laten gaan volgens gebeurtenissen die worden geactiveerd door activiteiten van personen. U kunt gebeurtenissen ook filteren op basis van kenmerken van personen,
 
 ### Gebeurtenissen en beperkingen
 
@@ -92,7 +92,7 @@ Luister naar een gebeurtenis op basis van mensen wanneer u de account op de reis
 
 1. In de knoopeigenschappen op het recht, kies **[!UICONTROL People]** voor het gebeurtenistype.
 
-   ![&#x200B; knoop van de Reis - luister aan gebeurtenissen op mensen &#x200B;](./assets/node-listen-events-people.png){width="700" zoomable="yes"}
+   ![ knoop van de Reis - luister aan gebeurtenissen op mensen ](./assets/node-listen-events-people.png){width="700" zoomable="yes"}
 
 1. Selecteer een gebeurtenis in de lijst.
 
@@ -113,31 +113,31 @@ Als u webpagina&#39;s hebt in een Marketo Engage-exemplaar dat is verbonden, kun
    * **[!UICONTROL Visits Web Page]**.
    * **[!UICONTROL Fills Out Form]**
 
-   ![&#x200B; luistert naar een ervaringsgebeurtenis &#x200B;](./assets/node-listen-events-people-me-event.png){width="700" zoomable="yes"}
+   ![ luistert naar een ervaringsgebeurtenis ](./assets/node-listen-events-people-me-event.png){width="700" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Edit event]** en definieer een of meer webpagina&#39;s die moeten overeenkomen en eventuele extra beperkingen voor de gebeurtenis.
 
-   * (Vereist) Definieer in het dialoogvenster _[!UICONTROL Edit event]_&#x200B;de **[!UICONTROL Web page]**- of **[!UICONTROL Fills out form]**-beperking. Gebruik **[!UICONTROL is]**(standaardwaarde) om overeen te komen op een of meer geselecteerde pagina&#39;s of formulieren. Gebruik **[!UICONTROL is not]**&#x200B;om overeen te komen op alle paginabezoeken/formulieren, met uitzondering van een of meer geselecteerde pagina&#39;s/formulieren. U kunt ook de operator **[!UICONTROL is any]**&#x200B;gebruiken om een overeenkomst te maken met een bezoek aan of ingevuld formulier op een Marketo Engage-webpagina.
+   * (Vereist) Definieer in het dialoogvenster _[!UICONTROL Edit event]_de **[!UICONTROL Web page]**- of **[!UICONTROL Fills out form]**-beperking. Gebruik **[!UICONTROL is]**(standaardwaarde) om overeen te komen op een of meer geselecteerde pagina&#39;s of formulieren. Gebruik **[!UICONTROL is not]**om overeen te komen op alle paginabezoeken/formulieren, met uitzondering van een of meer geselecteerde pagina&#39;s/formulieren. U kunt ook de operator **[!UICONTROL is any]**gebruiken om een overeenkomst te maken met een bezoek aan of ingevuld formulier op een Marketo Engage-webpagina.
 
    * (Optioneel) Klik op **[!UICONTROL Add constraint]** en kies het veld dat u voor de restrictie wilt gebruiken. Stel de operator en de waarde voor het veld in.
 
-     ![&#x200B; luistert naar een ervaringsgebeurtenis &#x200B;](./assets/node-listen-events-people-me-event-edit-dialog.png){width="700" zoomable="yes"}
+     ![ luistert naar een ervaringsgebeurtenis ](./assets/node-listen-events-people-me-event-edit-dialog.png){width="700" zoomable="yes"}
 
      U kunt deze actie herhalen om extra gebiedsbeperkingen te omvatten zoals nodig.
 
-   * Indien nodig, selecteer het **[!UICONTROL Filters]** lusje aan [&#x200B; voegt filters voor de gebeurtenis &#x200B;](#add-a-filter-to-the-people-event) toe.
+   * Indien nodig, selecteer het **[!UICONTROL Filters]** lusje aan [ voegt filters voor de gebeurtenis ](#add-a-filter-to-the-people-event) toe.
 
    * Klik op **[!UICONTROL Done]** wanneer de beperkingen en filters zijn gedefinieerd.
 
-1. Indien nodig, plaats de **[!UICONTROL Timeout]** optie om de tijdspanne te beperken om op de gebeurtenis (zie [&#x200B; een onderbreking aan een gebeurtenisknoop &#x200B;](#add-a-timeout-to-an-event-node) toevoegen) te luisteren.
+1. Indien nodig, plaats de **[!UICONTROL Timeout]** optie om de tijdspanne te beperken om op de gebeurtenis (zie [ een onderbreking aan een gebeurtenisknoop ](#add-a-timeout-to-an-event-node) toevoegen) te luisteren.
 
 1. Voeg in het reisoverzicht het volgende knooppunt toe dat moet worden uitgevoerd wanneer de gebeurtenis plaatsvindt.
 
 ### Luisteren naar een Experience Event
 
-De beheerders kunnen {de Gebeurtenissen van de Ervaring van 0} Adobe Experience Platform (AEP) [&#x200B; selecteren, die marktleiders toelaten om reizen tot stand te brengen die op de gebeurtenissen in dichtbij real time reageren. &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} Het gebruik van ervaringsgebeurtenissen tijdens reizen is een proces dat uit twee stappen bestaat:
+De beheerders kunnen {de Gebeurtenissen van de Ervaring van 0} Adobe Experience Platform (AEP) [ selecteren, die marketers toelaten om rekening en persoonreizen tot stand te brengen die op de gebeurtenissen in dichtbij real time reageren. ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} Het gebruik van ervaringsgebeurtenissen tijdens reizen is een proces dat uit twee stappen bestaat:
 
-1. Een beheerder [&#x200B; selecteert de gebeurtenistypen en de gebieden van belang &#x200B;](../admin/configure-aep-events.md#select-an-event) om hen beschikbaar te maken in reizen.
+1. Een beheerder [ selecteert de gebeurtenistypen en de gebieden van belang ](../admin/configure-aep-events.md#select-an-event) om hen beschikbaar te maken in reizen.
 
 2. In een reis, voeg a _toe luistert naar een gebeurtenis_ knoop, en selecteer een de gebeurtenistype van Experience Platform voor een op mensen-gebaseerde gebeurtenis.
 
@@ -148,19 +148,19 @@ _Om een Gebeurtenis van de Ervaring in uw reis te omvatten :_
 
 1. Selecteer een knooppunt **[!UICONTROL Listen for an event]** in het reisoverzicht.
 
-1. In de knoopeigenschappen op het recht, kies **[!UICONTROL People]** voor het gebeurtenistype.
-
-1. Klik op de pijl voor de **[!UICONTROL Select people event]** -kiezer en schuif het menu naar de **[!UICONTROL Adobe Experience Platform]** -sectie.
-
-   ![&#x200B; luistert naar een ervaringsgebeurtenis &#x200B;](./assets/node-listen-events-people-aep-events.png){width="700" zoomable="yes"}
+1. (Alleen voor de rit van de account) Kies in de knoopeigenschappen aan de rechterkant **[!UICONTROL People]** voor het gebeurtenistype.
 
 1. Selecteer de gebeurtenis.
 
-   Het gebeurtenistype wordt als leeg weergegeven in de details van het knooppunt.
+   Voor een **_rekeningsreis_**, klik de pijl voor de **[!UICONTROL Select people event]** selecteur en rol het menu aan de **[!UICONTROL Adobe Experience Platform]** sectie.
 
-   ![&#x200B; geef de gebeurtenis &#x200B;](./assets/node-listen-events-people-aep-events-edit.png){width="400" zoomable="yes"} uit
+   ![ luistert naar een ervaringsgebeurtenis ](./assets/node-listen-events-people-aep-events.png){width="700" zoomable="yes"}
+
+   Voor een persoonlijke reis klikt u op de pijl voor de **[!UICONTROL Select event]** kiezer en kiest u de gebeurtenis.
 
 1. Klik op **[!UICONTROL Edit event]** en definieer een of meer beperkingen voor de gebeurtenis.
+
+   ![ geef de gebeurtenis ](./assets/node-listen-events-people-aep-events-edit.png){width="400" zoomable="yes"} uit
 
    De beschikbare beperkingen worden gedefinieerd als beheerde velden voor de gebeurtenisconfiguratie.
 
@@ -170,31 +170,33 @@ _Om een Gebeurtenis van de Ervaring in uw reis te omvatten :_
 
      U kunt de operator **[!UICONTROL is]** (standaard) gebruiken om een of meer veldwaarden aan te passen. U kunt ook de operator **[!UICONTROL is not]** gebruiken om op alle waarden overeen te komen, met uitzondering van een of meer opgegeven waarden.
 
-     ![&#x200B; luistert naar een ervaringsgebeurtenis &#x200B;](./assets/node-listen-events-people-aep-events-edit-dialog.png){width="700" zoomable="yes"}
+     ![ luistert naar een ervaringsgebeurtenis ](./assets/node-listen-events-people-aep-events-edit-dialog.png){width="700" zoomable="yes"}
 
-   * Indien nodig, selecteer het **[!UICONTROL Filters]** lusje aan [&#x200B; voegt filters voor de gebeurtenis &#x200B;](#add-a-filter-to-the-people-event) toe.
+   * Indien nodig, selecteer het **[!UICONTROL Filters]** lusje aan [ voegt filters voor de gebeurtenis ](#add-a-filter-to-the-people-event) toe.
 
    * (Optioneel) Klik op **[!UICONTROL Add constraint]** en herhaal deze stappen om zo nodig extra veldbeperkingen op te nemen.
 
    * Klik op **[!UICONTROL Done]** wanneer de beperkingen en filters zijn gedefinieerd.
 
-1. Indien nodig, plaats de **[!UICONTROL Timeout]** optie om de tijdspanne te beperken om op de gebeurtenis (zie [&#x200B; een onderbreking aan een gebeurtenisknoop &#x200B;](#add-a-timeout-to-an-event-node) toevoegen) te luisteren.
+1. Indien nodig, plaats de **[!UICONTROL Timeout]** optie om de tijdspanne te beperken om op de gebeurtenis (zie [ een onderbreking aan een gebeurtenisknoop ](#add-a-timeout-to-an-event-node) toevoegen) te luisteren.
 
 1. Voeg in het reisoverzicht het volgende knooppunt toe dat moet worden uitgevoerd wanneer de gebeurtenis plaatsvindt.
 
-1. Voltooi de resterende knopen voor uw reis en [&#x200B; publiceer het &#x200B;](./journey-overview.md).
+1. Voltooi de resterende knopen voor uw reis en [ publiceer het ](./journeys-overview.md).
 
    Wanneer de reis (gepubliceerd) levend is en _bereikt luistert naar een gebeurtenis_ knoop, begint het luisteren naar de Gebeurtenissen van de Ervaring van AEP.
 
 ### Filters toevoegen aan de gebeurtenis people
 
+(Alleen voor rekeningreizen)
+
 1. Nadat u de gebeurtenis hebt gedefinieerd, selecteert u de tab **[!UICONTROL Filters]** in het dialoogvenster _[!UICONTROL Edit Event]_.
 
-   ![&#x200B; luistert naar de knoop van de Gebeurtenis door mensen - Uitgezochte het lusje van Filters voor het uitgeven van de gebeurtenis &#x200B;](./assets/node-listen-event-people-edit-event-filters.png){width="700" zoomable="yes"}
+   ![ luistert naar de knoop van de Gebeurtenis door mensen - Uitgezochte het lusje van Filters voor het uitgeven van de gebeurtenis ](./assets/node-listen-event-people-edit-event-filters.png){width="700" zoomable="yes"}
 
 1. Voeg een of meer filters toe om de personen voor de gebeurtenis als doel in te stellen.
 
-   * De belemmering en laat vallen om het even welke [&#x200B; personenfilters &#x200B;](#people-event-filters) van de linkernavigatie en voltooien de gelijke definitie.
+   * De belemmering en laat vallen om het even welke [ personenfilters ](#people-event-filters) van de linkernavigatie en voltooien de gelijke definitie.
 
      >[!NOTE]
      >
@@ -202,7 +204,7 @@ _Om een Gebeurtenis van de Ervaring in uw reis te omvatten :_
 
    * Verfijn uw filter door **[!UICONTROL Filter logic]** bij de bovenkant toe te passen. U kiest ervoor om alle filters of een filter aan te passen.
 
-     ![&#x200B; de filters van de Persoon die in een gebeurtenisdefinitie &#x200B;](./assets/node-split-conditions-people.png){width="700" zoomable="yes"} worden gebruikt
+     ![ de filters van de Persoon die in een gebeurtenisdefinitie ](./assets/node-split-conditions-people.png){width="700" zoomable="yes"} worden gebruikt
 
    * Klik op **[!UICONTROL Done]**.
 
@@ -218,8 +220,8 @@ Indien nodig, bepaal de hoeveelheid tijd de reis op de gebeurtenis wacht. De rei
 
 1. Schakel het selectievakje **[!UICONTROL Set timeout path]** in als u een nieuw pad wilt maken in de reis waar u acties en gebeurtenissen kunt toevoegen die van toepassing zijn op accounts wanneer de gebeurtenis niet plaatsvindt.
 
-   ![&#x200B; de gebeurtenisknoop van de Reis - vastgestelde onderbrekingspad &#x200B;](./assets/node-event-timeout-set-path.png){width="700" zoomable="yes"}
+   ![ de gebeurtenisknoop van de Reis - vastgestelde onderbrekingspad ](./assets/node-event-timeout-set-path.png){width="700" zoomable="yes"}
 
 <!-- ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443240/?captions=dut&learn=on) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) -->
