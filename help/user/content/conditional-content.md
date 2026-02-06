@@ -4,9 +4,9 @@ description: Maak dynamische inhoudvarianten met voorwaardelijke regels op basis
 feature: Email Authoring, Fragments, Content
 role: User
 exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 204b293d3bc526b139f68766ed45ff549a74ed34
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1202'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Met voorwaardelijke inhoud kunt u e-mail- en fragmentinhoud aanpassen op basis van voorwaardelijke regels. Deze regels worden gedefinieerd met profielkenmerken of contextuele gebeurtenissen. U kunt voorwaardelijke regels maken in de builder van regels en deze opslaan voor hergebruik tijdens uw accountreizen.
 
-Om voorwaardelijke inhoud aan uw fragmenten en e-mailberichten toe te voegen, staat Adobe Journey Optimizer u toe om voorwaardelijke regels toe te passen die in de _Voorwaarden_ bibliotheek worden opgeslagen. Pas voorwaardelijke regels binnen de visuele ontwerpruimte toe aangezien u auteur [&#x200B; e-mailinhoud voor een rekeningsreis &#x200B;](./email-authoring.md) of a [&#x200B; visueel fragment &#x200B;](./fragment-authoring.md).
+Om voorwaardelijke inhoud aan uw fragmenten en e-mailberichten toe te voegen, staat Adobe Journey Optimizer u toe om voorwaardelijke regels toe te passen die in de _Voorwaarden_ bibliotheek worden opgeslagen. Pas voorwaardelijke regels binnen de visuele ontwerpruimte toe aangezien u auteur [ e-mailinhoud voor een rekeningsreis ](./email-authoring.md) of a [ visueel fragment ](./fragment-authoring.md).
 
 ## Voorwaardelijke inhoud toevoegen {#email-fragment-content}
 
@@ -35,45 +35,45 @@ Wanneer u een fragment of e-mail maakt in de visuele ontwerpruimte, gebruikt u v
 
    De component wordt oranje omlijnd om aan te geven dat deze wordt geactiveerd als een voorwaardelijke component. De **[!UICONTROL Conditional Content]** paneelvertoningen op de linkerzijde met de _Standaard variant_ en _Variant - 1_.
 
-   ![&#x200B; laat voorwaardelijke inhoud voor de tekstcomponent &#x200B;](./assets/conditions-enable.png){width="700" zoomable="yes"} toe
+   ![ laat voorwaardelijke inhoud voor de tekstcomponent ](./assets/conditions-enable.png){width="700" zoomable="yes"} toe
 
    De oorspronkelijke inhoud die u hebt geselecteerd en geactiveerd, is de standaardinstelling en wordt toegepast als aan geen van de voorwaardelijke regels wordt voldaan voor een van de varianten die u definieert.
 
    In dit deelvenster kunt u meerdere varianten voor de geselecteerde inhoudscomponent definiëren aan de hand van voorwaardelijke regels.
 
-1. Beweeg over de eerste variant (_Variant - 1_) en klik _Uitgezochte voorwaarde_ pictogram ( ![&#x200B; pictogram van de Voorwaarde &#x200B;](../assets/do-not-localize/icon-select-condition.svg)).
+1. Beweeg over de eerste variant (_Variant - 1_) en klik _Uitgezochte voorwaarde_ pictogram ( ![ pictogram van de Voorwaarde ](../assets/do-not-localize/icon-select-condition.svg)).
 
-   ![&#x200B; Uitgezochte voorwaarde voor variant &#x200B;](./assets/conditions-variant-select.png){width="700" zoomable="yes"}
+   ![ Uitgezochte voorwaarde voor variant ](./assets/conditions-variant-select.png){width="700" zoomable="yes"}
 
-   Het dialoogvenster _[!UICONTROL Select condition]_&#x200B;wordt geopend en de bibliotheek met voorwaarden wordt weergegeven.
+   Het dialoogvenster _[!UICONTROL Select condition]_wordt geopend en de bibliotheek met voorwaarden wordt weergegeven.
 
    Als u details voor een voorwaarde wilt bekijken om het te verzekeren is wat u wilt, klik het _Meer menu_ pictogram (**...**) en kies **[!UICONTROL View Info]**.
 
-   ![&#x200B; de details van de de bibliotheektoegang van Voorwaarden &#x200B;](assets/conditions-select-dialog.png){width="600" zoomable="yes"}
+   ![ de details van de de bibliotheektoegang van Voorwaarden ](assets/conditions-select-dialog.png){width="600" zoomable="yes"}
 
-   Als de voorwaarde die u nodig hebt niet bestaat, [&#x200B; creeer een voorwaardelijke regel &#x200B;](#create-condition) door **[!UICONTROL Create new]** te klikken.
+   Als de voorwaarde die u nodig hebt niet bestaat, [ creeer een voorwaardelijke regel ](#create-condition) door **[!UICONTROL Create new]** te klikken.
 
 1. Selecteer de voorwaardelijke regel en klik op **[!UICONTROL Select]** om deze aan de variant te koppelen.
 
    U kunt de bijbehorende voorwaarde herzien door het _Meer menu_ pictogram (**...**) voor de variant te klikken en **[!UICONTROL View condition]** te kiezen.
 
-   ![&#x200B; Mening de voorwaarde verbonden aan de variant &#x200B;](./assets/conditions-variant-view-condition.png){width="600" zoomable="yes"}
+   ![ Mening de voorwaarde verbonden aan de variant ](./assets/conditions-variant-view-condition.png){width="600" zoomable="yes"}
 
    Klik op X rechtsboven om het pop-upvenster te sluiten.
 
-   ![&#x200B; details van de Mening voor de bijbehorende voorwaarde &#x200B;](./assets/conditions-info-popup.png){width="500"}
+   ![ details van de Mening voor de bijbehorende voorwaarde ](./assets/conditions-info-popup.png){width="500"}
 
 1. Voor betere leesbaarheid, verander de naam van de variant door het _Meer menu_ pictogram (**...**) voor de variant te klikken en **[!UICONTROL Rename]** te kiezen.
 
    Voer een betekenisvolle naam in voor de variant waarmee u de variant en de intentie kunt identificeren.
 
-   ![&#x200B; noem de variant &#x200B;](./assets/conditions-variant-rename.png){width="600" zoomable="yes"} anders
+   ![ noem de variant ](./assets/conditions-variant-rename.png){width="600" zoomable="yes"} anders
 
 1. Selecteer de variant in het linkervenster en wijzig de component om aan te geven hoe deze in het e-mailbericht wordt weergegeven wanneer de voorwaarde true is.
 
    In dit voorbeeld gebruikt de variant voor de tekstcomponent een andere beschrijving op basis van het gebied van de ontvanger.
 
-   ![&#x200B; verander de component voor de variant &#x200B;](./assets/conditions-variant-component-edit.png){width="600" zoomable="yes"}
+   ![ verander de component voor de variant ](./assets/conditions-variant-component-edit.png){width="600" zoomable="yes"}
 
 1. Definieer zo nodig een andere variant door op **[!UICONTROL Add variant]** te klikken.
 
@@ -108,7 +108,7 @@ De regels worden opgeslagen in de voorwaardenbibliotheek, waar zij voor hergebru
 | | [!UICONTROL Special filters] > [!UICONTROL Has Buying Group] | De account heeft al dan niet leden van kopersgroepen. Het filter kan ook worden beoordeeld aan de hand van een of meer van de volgende criteria: <li>Belang van oplossing</li><li>Status van kopersgroep</li><li>Complete score</li><li>Engagement Score</li> |
 | **Persoon** | [!UICONTROL Activity history] > [!UICONTROL Email] | E-mailactiviteiten in verband met de reis: <li>[!UICONTROL Clicked link in email]</li><li>Geopende e-mail</li><li>Is per e-mail verzonden</li><li>Is per e-mail verzonden</li> Deze voorwaarden worden geëvalueerd aan de hand van een geselecteerd e-mailbericht uit een eerdere reis. |
 |  | [!UICONTROL Person Attributes] | Attributen van het profiel van de persoon, met inbegrip van: <li>Stad</li><li>Land</li><li>Geboortedatum</li><li>E-mailadres</li><li>E-mail is ongeldig</li><li>E-mail is geschorst</li><li>Voornaam</li><li>Overgenomen deelstaatgebied</li><li>Functie</li><li>Achternaam</li><li>Mobiel telefoonnummer</li><li>Telefoonnummer</li><li>Postcode</li><li>Staat</li><li>Niet geabonneerd</li><li>Reden waarop geen abonnement is genomen</li> |
-| | [!UICONTROL Special filters] > [!UICONTROL Member of Buying Group] | De persoon is al dan niet lid van de koopgroep, beoordeeld aan de hand van een of meer van de volgende criteria: <li>Belang van oplossing</li><li>Status van kopersgroep</li><li>Complete score</li><li>Engagement Score</li><li>Functie</li> |
+| | [!UICONTROL Special filters] > [!UICONTROL Member of Buying Group] | De persoon is al dan niet lid van de koopgroep, beoordeeld aan de hand van een of meer van de volgende criteria: <li>Belang van oplossing</li><li>Status van kopersgroep</li><li>Complete score</li><li>Engagement Score</li><li>Is verwijderd</li><li>Functie</li> |
 
 ### Een voorwaardelijke regel maken {#create-condition}
 
@@ -119,18 +119,18 @@ De regels worden opgeslagen in de voorwaardenbibliotheek, waar zij voor hergebru
 
 U kunt tot de voorwaardelijke regelbouwer van de e-mailontwerpruimte toegang hebben wanneer u een voorwaarde voor een componentenvariant selecteert.
 
-1. Klik in het dialoogvenster _[!UICONTROL Select condition]_&#x200B;op **[!UICONTROL Create new]**&#x200B;en kies het voorwaardetype:
+1. Klik in het dialoogvenster _[!UICONTROL Select condition]_op **[!UICONTROL Create new]**en kies het voorwaardetype:
 
    * **[!UICONTROL Person condition]** - Kies dit type om de voorwaardelijke regel te maken met behulp van personekenmerken en contextuele gebeurtenissen.
    * **[!UICONTROL Account condition]** - Kies dit type om de voorwaardelijke regel samen te stellen met accountkenmerken.
 
-   ![&#x200B; kies het voorwaardetype om te creëren &#x200B;](./assets/conditions-select-create-new.png){width="600" zoomable="yes"}
+   ![ kies het voorwaardetype om te creëren ](./assets/conditions-select-create-new.png){width="600" zoomable="yes"}
 
 1. Bouw de voorwaardelijke regel volgens uw behoeften.
 
    Voor elk attribuut of elke gebeurtenis die u in de regel wilt omvatten, sleep en laat vallen het punt op het regelcanvas. Vouw het filter uit en voltooi de expressie.
 
-   ![&#x200B; voltooi de te evalueren uitdrukking &#x200B;](./assets/conditions-rule-add-attribute.png){width="600" zoomable="yes"}
+   ![ voltooi de te evalueren uitdrukking ](./assets/conditions-rule-add-attribute.png){width="600" zoomable="yes"}
 
    Als u meerdere filters opneemt, stelt u de **[!UICONTROL Filter logic]** in:
 
@@ -141,7 +141,7 @@ U kunt tot de voorwaardelijke regelbouwer van de e-mailontwerpruimte toegang heb
 
    Gebruik een betekenisvolle naam en handige beschrijving om anderen in uw organisatie te helpen deze opnieuw te gebruiken in plaats van een andere dubbele voorwaarde te maken.
 
-   ![&#x200B; voeg een naam en een beschrijving voor de voorwaardelijke regel &#x200B;](./assets/conditions-rule-name-description.png){width="600" zoomable="yes"} toe
+   ![ voeg een naam en een beschrijving voor de voorwaardelijke regel ](./assets/conditions-rule-name-description.png){width="600" zoomable="yes"} toe
 
 1. Klik op **[!UICONTROL Save]** wanneer de voorwaardelijke regel is voltooid.
 
@@ -155,7 +155,7 @@ Voorwaardelijke regels die zijn opgeslagen in de bibliotheek kunnen niet worden 
 
    Een duplicaat van de regel wordt geopend in de regelbuilder. Gebruik het duplicaat als beginpunt voor de regel die u wilt maken.
 
-   ![&#x200B; Gebruik een dubbele regel om te creëren die u &#x200B;](./assets/conditions-rule-duplicate.png){width="600" zoomable="yes"} nodig hebt
+   ![ Gebruik een dubbele regel om te creëren die u ](./assets/conditions-rule-duplicate.png){width="600" zoomable="yes"} nodig hebt
 
 1. In de regelbouwer, verander, voeg, of schrap voorwaarden volgens wat u nodig hebt toe.
 
