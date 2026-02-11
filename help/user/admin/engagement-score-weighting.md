@@ -13,31 +13,31 @@ ht-degree: 0%
 
 # Aangepaste weging voor betrokkenheidsscore configureren
 
-A [ het kopen score van de groepsovereenkomst ](../buying-groups/engagement-scores.md) wijst op het niveau van overeenkomst door diverse activiteiten te evalueren die voor leden van de het kopen groep worden geregistreerd. Met aangepaste score weging, hebben de teams van de marketing verrichtingen de flexibiliteit om hun eigen modellen voor het wegen van de activiteiten te bepalen. Een model van het douaneonderzoek veroorzaakt een nauwkeurigere bezinning van uw pijpleiding door aan het gedrag voorrang te geven dat het nauwkeurigst het kopen intent in uw verkoopproces signaleert.
+A [&#x200B; het kopen score van de groepsovereenkomst &#x200B;](../buying-groups/engagement-scores.md) wijst op het niveau van overeenkomst door diverse activiteiten te evalueren die voor leden van de het kopen groep worden geregistreerd. Met aangepaste score weging, hebben de teams van de marketing verrichtingen de flexibiliteit om hun eigen modellen voor het wegen van de activiteiten te bepalen. Een model van het douaneonderzoek veroorzaakt een nauwkeurigere bezinning van uw pijpleiding door aan het gedrag voorrang te geven dat het nauwkeurigst het kopen intent in uw verkoopproces signaleert.
 
 Als beheerder kunt u meerdere betrokkenheidsscore-modellen definiëren voor uw organisatie, maar slechts één model kan op elk moment actief zijn. U definieert een scoremodel op basis van het gewicht dat wordt toegepast op elke activiteit in het kader van de betrokkenheidsscore.
 
 >[!PREREQUISITES]
 >
->Om een model van de betrokkenheidsscore te bepalen en te activeren, moet u de _[!UICONTROL Manage B2B Admin Configurations]_[ producttoestemming ](./user-management.md#b2b-product-permissions) hebben.
+>Om een model van de betrokkenheidsscore te bepalen en te activeren, moet u de _[!UICONTROL Manage B2B Admin Configurations]_[&#x200B; producttoestemming &#x200B;](./user-management.md#b2b-product-permissions) hebben.
 
 ## Toegang krijgen tot de modellen voor de weging van de betrokkenheidsscore
 
-Open de lijst van _[!UICONTROL Engagement score weighting]_om actieve, ontwerp, en gearchiveerde modellen te bekijken:
+Open de lijst van _[!UICONTROL Engagement score weighting]_&#x200B;om actieve, ontwerp, en gearchiveerde modellen te bekijken:
 
 1. Kies in de linkernavigatie **[!UICONTROL Administration]** > **[!UICONTROL Configurations]** .
 
 1. Klik op **[!UICONTROL Engagement score weighting]** in het tussenliggende deelvenster om de lijst met scoremodellen weer te geven.
 
-   Van deze pagina, kunt u [ tot stand brengen (dubbel) ](#create-an-engagement-score-model), [ activeren ](#activate-a-score-model), en [ ](#change-the-engagement-weighting-settings) modellen van de betrokkenheidsscore uitgeven.
+   Van deze pagina, kunt u [&#x200B; tot stand brengen (dubbel) &#x200B;](#create-an-engagement-score-model), [&#x200B; activeren &#x200B;](#activate-a-score-model), en [&#x200B; &#x200B;](#change-the-engagement-weighting-settings) modellen van de betrokkenheidsscore uitgeven.
 
-   ![ heb toegang tot de bepaalde modellen van de betrokkenheidsscore ](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
+   ![&#x200B; heb toegang tot de bepaalde modellen van de betrokkenheidsscore &#x200B;](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
 
-   In de lijst worden de laatst bijgewerkte modellen bovenaan weergegeven (gesorteerd op _[!UICONTROL Last updated]_) en kunt u zoeken op_[!UICONTROL Name]_ .
+   In de lijst worden de laatst bijgewerkte modellen bovenaan weergegeven (gesorteerd op _[!UICONTROL Last updated]_) en kunt u zoeken op&#x200B;_[!UICONTROL Name]_ .
 
-   U kunt de getoonde lijst aanpassen door de _montages van de Kolom_ te klikken ( ![ montages van de Kolom ](../assets/do-not-localize/icon-column-settings.svg)) pictogram in de hoger-juiste hoek en het selecteren of ontruimen van kolomcheckboxes.
+   U kunt de getoonde lijst aanpassen door de _montages van de Kolom_ te klikken ( ![&#x200B; montages van de Kolom &#x200B;](../assets/do-not-localize/icon-column-settings.svg)) pictogram in de hoger-juiste hoek en het selecteren of ontruimen van kolomcheckboxes.
 
-   ![ Kolommen aan vertoning in de lijst van de het wegingsfactor van de betrokkenheidsscore ](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
+   ![&#x200B; Kolommen aan vertoning in de lijst van de het wegingsfactor van de betrokkenheidsscore &#x200B;](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
 
 1. Klik op de naam voor toegang tot de details voor een betrokkenheidsscore-model.
 
@@ -45,13 +45,13 @@ Open de lijst van _[!UICONTROL Engagement score weighting]_om actieve, ontwerp, 
 
 Het systeem leidt tot een eerste model van de betrokkenheidsscore genoemd _het wegen van de Activiteit model 1_. De status van het model en de serviceactiviteiten zijn afhankelijk van de gegevensarchitectuur voor uw [!DNL Journey Optimizer B2B Edition] -omgeving:
 
-* **Vereenvoudigde architectuur** (Beta) - als uw milieu de [ vereenvoudigde architectuur ](../simplified-architecture.md) gebruikt, zijn de betrokkenheidsactiviteiten gebaseerd op standaard en de gebeurtenissen van douaneExperience Platform. De wegingen op alle activiteiten zijn standaard 0.
+* **Vereenvoudigde architectuur** (Beta) - als uw milieu de [&#x200B; vereenvoudigde architectuur &#x200B;](../simplified-architecture.md) gebruikt, zijn de betrokkenheidsactiviteiten gebaseerd op standaard en de gebeurtenissen van douaneExperience Platform. De wegingen op alle activiteiten zijn standaard 0.
 
-  ![ Standaard het wegen van de betrokkenheidsscore voor de vereenvoudigde architectuur ](./assets/configuration-engagement-scoring-model-default.png){width="600" zoomable="yes"}
+  ![&#x200B; Standaard het wegen van de betrokkenheidsscore voor de vereenvoudigde architectuur &#x200B;](./assets/configuration-engagement-scoring-model-default.png){width="600" zoomable="yes"}
 
 * **Standaard architectuur** - als uw milieu de standaardarchitectuur gebruikt, is de verbonden [!DNL Marketo Engage] instantie de bron voor de gegevens van de betrokkenheidsactiviteit. Het standaardmodel is actief totdat u een aangepaste versie maakt en activeert.
 
-  ![ Standaard het wegen van de betrokkenheidsscore voor de standaardarchitectuur ](./assets/configuration-engagement-scoring-model-default-me.png){width="600" zoomable="yes"}
+  ![&#x200B; Standaard het wegen van de betrokkenheidsscore voor de standaardarchitectuur &#x200B;](./assets/configuration-engagement-scoring-model-default-me.png){width="600" zoomable="yes"}
 
 Wanneer u een douanemodel activeert, verandert het actieve model in een _Gearchiveerde_ status. Als u besluit terug te keren naar het standaardbetrokkenheidsscore-model, kunt u het oorspronkelijke standaardmodel dupliceren en vervolgens activeren of gebruiken als beginpunt voor een ander aangepast model.
 
@@ -59,7 +59,7 @@ Wanneer u een douanemodel activeert, verandert het actieve model in een _Gearchi
 
 U kunt een conceptbetrokkenheidsscore-model verwijderen als u besluit dat u het in de toekomst niet wilt activeren. Klik het _Meer menu_ (**..***) pictogram naast de modelnaam van de ontwerpscore in de lijst en kies **[!UICONTROL Delete]**.
 
-![ Schrap het model van de ontwerpscore ](./assets/configuration-engagement-scoring-model-more-delete.png){width="350"}
+![&#x200B; Schrap het model van de ontwerpscore &#x200B;](./assets/configuration-engagement-scoring-model-more-delete.png){width="350"}
 
 Klik op **[!UICONTROL Delete]** in het bevestigingsdialoogvenster.
 
@@ -69,15 +69,15 @@ Als u een aangepast betrokkenheidsscore-model wilt maken, dupliceert u het stand
 
 1. Klik op de modelnaam om de pagina met modeldetails te openen en klik op **[!UICONTROL Duplicate]** rechtsboven.
 
-   ![ dupliceer het actieve model ](./assets/configuration-engagement-scoring-model-duplicate.png){width="600" zoomable="yes"}
+   ![&#x200B; dupliceer het actieve model &#x200B;](./assets/configuration-engagement-scoring-model-duplicate.png){width="600" zoomable="yes"}
 
    U kunt ook op het pictogram _Meer menu_ (**..***) naast de naam van het scoremodel in de lijst klikken en **[!UICONTROL Duplicate]** kiezen.
 
-   ![ Gebruik het Meer menu om het actieve model ](./assets/configuration-engagement-scoring-model-more-duplicate.png){width="325"} te dupliceren
+   ![&#x200B; Gebruik het Meer menu om het actieve model &#x200B;](./assets/configuration-engagement-scoring-model-more-duplicate.png){width="325"} te dupliceren
 
 1. In het _Dubbele_ dialoog, ga een unieke naam voor het gedupliceerde model in en klik **[!UICONTROL Duplicate]**.
 
-   ![ Bevestig om het scoremodel ](./assets/configuration-engagement-scoring-model-duplicate-dialog.png){width="500"} te dupliceren
+   ![&#x200B; Bevestig om het scoremodel &#x200B;](./assets/configuration-engagement-scoring-model-duplicate-dialog.png){width="500"} te dupliceren
 
    Het gedupliceerde model wordt getoond in de lijst met de status van het a _Ontwerp_. Klik op de naam om de details van het scoremodel te openen en wijzigingen aan te brengen.
 
@@ -87,14 +87,14 @@ De instellingen voor gewicht definiëren de banden die u aan elke activiteit in 
 
 1. Klik op de pagina met details van het scoremodel boven aan het scherm op **[!UICONTROL Engagement weight settings]** .
 
-   ![ de montages van het de betrokkenheidsgewicht van de Toegang ](./assets/configuration-engagement-scoring-model-weight-settings-button.png){width="600" zoomable="yes"}
+   ![&#x200B; de montages van het de betrokkenheidsgewicht van de Toegang &#x200B;](./assets/configuration-engagement-scoring-model-weight-settings-button.png){width="600" zoomable="yes"}
 
 1. Pas voor elke gewichtsklasse de naam of waarden aan uw wensen aan:
 
    * Wijzig de naam in het veld _[!UICONTROL Weighting band]_.
-   * Voer een nieuwe waarde in. U kunt ook op **&amp;plus;** of **-** klikken om de waarde te verhogen of te verlagen.
+   * Voer een nieuwe waarde in. U kunt ook op **&plus;** of **-** klikken om de waarde te verhogen of te verlagen.
 
-   ![ de montages van het Gewicht van de Betrokkenheid ](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
+   ![&#x200B; de montages van het Gewicht van de Betrokkenheid &#x200B;](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 
 1. Voeg zo nodig een andere wegingsband toe:
 
@@ -102,7 +102,7 @@ De instellingen voor gewicht definiëren de banden die u aan elke activiteit in 
 
    Voer de naam in en stel de waarde voor de band in. Gebruik een unieke naam en waarde.
 
-1. Om een wegingsband te verwijderen, klik _Schrapping_ ( ![ pictogram van de Schrapping ](../assets/do-not-localize/icon-delete-outline.svg)) pictogram voor de wegende bandrij.
+1. Om een wegingsband te verwijderen, klik _Schrapping_ ( ![&#x200B; pictogram van de Schrapping &#x200B;](../assets/do-not-localize/icon-delete-outline.svg)) pictogram voor de wegende bandrij.
 
 1. Klik op **[!UICONTROL Save]** wanneer de wijzigingen zijn voltooid.
 
@@ -141,7 +141,7 @@ Het standaardmodel voor de standaardarchitectuur omvat de [!DNL Marketo Engage] 
 
 Stel voor elke activiteit in de lijst de waarde in die u wilt toewijzen aan elke activiteit. Klik op de pijl-omlaag in het veld **[!UICONTROL Weighting]** en kies de wegingsband die is gedefinieerd in de instellingen voor de weging van de betrokkenheid.
 
-![ Vastgestelde activiteitenweging ](./assets/configuration-engagement-scoring-model-set-activity-weighting.png){width="600" zoomable="yes"}
+![&#x200B; Vastgestelde activiteitenweging &#x200B;](./assets/configuration-engagement-scoring-model-set-activity-weighting.png){width="600" zoomable="yes"}
 
 Als u niet wilt dat de berekening van de betrokkenheidsscore een activiteit gebruikt, stelt u de weging in op een nulwaarde (0).
 
@@ -157,4 +157,4 @@ Wanneer u een conceptscore activeert, vervangt dit het momenteel actieve model. 
 
 1. Klik op **[!UICONTROL Activate]** in het bevestigingsdialoogvenster.
 
-   ![ activeer de bevestigingsdialoog van de betrokkenheidsscore ](./assets/configuration-engagement-scoring-activate-dialog.png){width="400"}
+   ![&#x200B; activeer de bevestigingsdialoog van de betrokkenheidsscore &#x200B;](./assets/configuration-engagement-scoring-activate-dialog.png){width="400"}
