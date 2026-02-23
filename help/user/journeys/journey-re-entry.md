@@ -4,19 +4,19 @@ description: Bepaal wanneer en hoe vaak de rekeningen de zelfde rekeningsreis ku
 feature: Account Journeys
 role: User
 level: Intermediate
-source-git-commit: 696d3a57a1c086a25670ffb41cd095d4da011615
+exl-id: e5153125-6d5b-4835-bd19-c9b7ce67e46a
+source-git-commit: 5adf65f3c48c17f73e4897fb9ce027631bf196a7
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
-
 
 # Reisreis
 
 _slechts reizen van de Rekening_
 
-Wanneer u re-entry voor een rekeningsreis toelaat, kunt u controleren wanneer en hoe vaak een rekening de zelfde reis kan opnieuw ingaan. Gebruik de instellingen voor opnieuw invoeren om criteria, beperkingen en wachttijden in te stellen, zodat accounts op een gecontroleerde manier opnieuw worden samengesteld.
+Wanneer u re-entry voor een rekeningsreis toelaat, kunt u controleren wanneer en hoe vaak een rekening de zelfde reis kan opnieuw ingaan. Gebruik de instellingen voor opnieuw invoeren om criteria, beperkingen en wachttijden in te stellen, zodat accounts op een gecontroleerde manier herkwalificeren voor de reis.
 
 Een account kan zich kwalificeren voor een reis wanneer de volgende items waar zijn:
 
@@ -32,13 +32,13 @@ U kunt re-ingang toelaten en re-entry montages veranderen wanneer de reis in a _
 
 1. Klik op het menu **[!UICONTROL More...]** rechtsboven en kies **[!UICONTROL Re-entry]** .
 
-   ![&#x200B; klik meer bij het hoogste recht &#x200B;](./assets/account-journey-draft-more-menu.png){width="450"}
+   ![ klik meer bij het hoogste recht ](./assets/account-journey-draft-more-menu.png){width="450"}
 
-1. Schakel de optie _[!UICONTROL Journey re-entry]_&#x200B;in het dialoogvenster **[!UICONTROL Enable re-entry]**&#x200B;in.
+1. Schakel de optie _[!UICONTROL Journey re-entry]_in het dialoogvenster **[!UICONTROL Enable re-entry]**in.
 
    Wanneer de functie is ingeschakeld, worden de opties voor timing, vertraging en limieten weergegeven.
 
-   ![&#x200B; de re-ingangsdialoog van de Reis met toegelaten eigenschap &#x200B;](./assets/journey-re-entry-dialog-enabled.png){width="450"}
+   ![ de re-ingangsdialoog van de Reis met toegelaten eigenschap ](./assets/journey-re-entry-dialog-enabled.png){width="450"}
 
 1. Kies bij **[!UICONTROL Re-entry timing]** hoe de wachttijd wordt berekend:
 
@@ -60,7 +60,7 @@ U kunt re-ingang toelaten en re-entry montages veranderen wanneer de reis in a _
 
 ## Voortgang en activiteit van account
 
-Voor een gepubliceerde rekeningsreis, toont de de rekeningsvooruitgang [&#x200B; van de wegenkaart &#x200B;](./journeys-overview.md#review-account-progression) voor de wegknopen. Elk knooppunt op de kaart geeft het aantal accounts weer dat dat knooppunt moet bereiken en, voor live reizen, het aantal accounts dat zich momenteel op dat knooppunt bevindt. Telkens wanneer een rekening een reis opnieuw ingaat, telt het als een afzonderlijke ingang.
+Voor een gepubliceerde rekeningsreis, toont de de rekeningsvooruitgang [ van de wegenkaart ](./journeys-overview.md#review-account-progression) voor de wegknopen. Elk knooppunt op de kaart geeft het aantal accounts weer dat dat knooppunt moet bereiken en, voor live reizen, het aantal accounts dat zich momenteel op dat knooppunt bevindt. Telkens wanneer een rekening een reis opnieuw ingaat, telt het als een afzonderlijke ingang.
 <!-- You can see how many times accounts have entered the journey. ?? -->
 
-Wanneer u binnen aan [&#x200B; rekeningsdetails &#x200B;](../accounts/account-details.md) boor, toont de rekeningsactiviteit telkens als de rekening de reis inging. Het omvat expliciete activiteit en een herhalingstelling zodat u re-ingangen duidelijk kunt zien.
+Wanneer u binnen aan [ rekeningsdetails ](../accounts/account-details.md) boor, toont de rekeningsactiviteit telkens als de rekening de reis inging. Het omvat expliciete activiteit en een herhalingstelling zodat u re-ingangen duidelijk kunt zien.
