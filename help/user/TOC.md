@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentatie voor de B2B-editie van Journey Optimizer
 user-guide-description: Meer informatie over Adobe Journey Optimizer B2B Edition en hoe u deze kunt gebruiken om account- en inkoopgroeptrajecten te orkestreren met behulp van ingebouwde generatieve AI en toonaangevende automatisering.
-source-git-commit: 57b248667e9663fa9009eae4771dc97e1f5102a1
+source-git-commit: 696d3a57a1c086a25670ffb41cd095d4da011615
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 15%
+source-wordcount: '400'
+ht-degree: 16%
 
 ---
 
@@ -30,6 +30,7 @@ ht-degree: 15%
 + Reisbeheer {#journeys}
    + [Rekening en personenvervoer](./journeys/journeys-overview.md)
    + [Een reis maken en publiceren](./journeys/create-publish-journey.md)
+   + [Reisreis](./journeys/journey-re-entry.md)
    + [Reisknooppunten](./journeys/journey-nodes.md)
    + Reisknooppunten {#journey-nodes}
       + [Accountpubliek](./journeys/account-audience-nodes.md)
@@ -55,7 +56,7 @@ ht-degree: 15%
       + [Webervaringsontwerp](./content/web-experience-design.md)
       + [Toepassingen met één pagina](./content/web-single-page-applications.md)
    + [Aangepaste personalisatie-tokens](./content/personalization-my-tokens.md)
-+ Soorten publiek {#audiences}
++ Doelgroepen {#audiences}
    + [Experience Platform-publiek](./audiences/account-audience-overview.md)
    + [Doel extern publiek](./audiences/target-external-audience.md)
    + [Gekoppelde benaderingen voor account](./data/linkedin-account-matched-audiences.md)
@@ -124,7 +125,7 @@ ht-degree: 15%
       + [Beheren en maken](./content/brands-manage-create.md)
       + [Merk uitlijnen](./content/brand-alignment.md)
    + [Merkthema&#39;s](./content/brand-themes.md)
-   + [Voorwaardelijke inhoud](./content/conditional-content.md)
+   + [Voorwaardelijke content](./content/conditional-content.md)
    + Personalisatie {#personalization}
       + [Overzicht](./content/personalization.md)
       + [Personalization-syntaxis](./content/personalization-syntax.md)
@@ -132,7 +133,7 @@ ht-degree: 15%
 + Intelligente dashboards {#dashboards}
    + [Het dashboard met inzichten](./dashboards/intelligent-dashboard.md)
    + [Betrokkenheidsdashboard](./dashboards/engagement-dashboard.md)
-   + [&#x200B; de betrokkenheidsdashboard van het Web &#x200B;](./dashboards/web-engagement-dashboard.md)
+   + [ de betrokkenheidsdashboard van het Web ](./dashboards/web-engagement-dashboard.md)
    + [Het dashboard voor groepen kopen](./dashboards/buying-groups-dashboard.md)
    + [Rekeningjournaal](./dashboards/journeys-dashboard.md)
 + Beheer {#admin}
