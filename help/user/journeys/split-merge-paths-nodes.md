@@ -313,4 +313,4 @@ Voeg de wegen van de a _Fusie_ knoop toe om verschillende _gespleten wegen door 
 
 ## Video over overzicht
 
->[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443262/?captions=dut&learn=on)
