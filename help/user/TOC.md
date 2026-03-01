@@ -1,17 +1,17 @@
 ---
-user-guide-title: Documentatie voor de B2B-editie van Journey Optimizer
-user-guide-description: Meer informatie over Adobe Journey Optimizer B2B Edition en hoe u deze kunt gebruiken om account- en inkoopgroeptrajecten te orkestreren met behulp van ingebouwde generatieve AI en toonaangevende automatisering.
+user-guide-title: Journey Optimizer B2B edition-documentatie
+user-guide-description: Meer informatie over Adobe Journey Optimizer B2B edition en hoe u dit kunt gebruiken om accounts te ordenen en groepsreizen te kopen met behulp van ingebouwde generatieve AI en toonaangevende automatisering.
 source-git-commit: 696d3a57a1c086a25670ffb41cd095d4da011615
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 16%
+source-wordcount: '405'
+ht-degree: 2%
 
 ---
 
 
 # Journey Optimizer B2B edition Handboek {#user}
 
-+ [Documentatie voor Adobe Journey Optimizer B2B Edition](guide-overview.md)
++ [Adobe Journey Optimizer B2B edition-documentatie](guide-overview.md)
 + [Aanvullende informatie](./release-notes/release-notes.md)
 + Aan de slag {#get-started}
    + [Journey Optimizer B2B edition - overzicht](about-journey-optimizer-b2b-edition.md)
@@ -24,7 +24,7 @@ ht-degree: 16%
    + [Richtlijnen voor vragen](./ai-assistant/question-guidance.md)
    + [AI-assistent gebruiken](./ai-assistant/use-ai-assistant.md)
    + Medewerkers {#ai-agents}
-      + [Audience-agent](./agents/audience-agent-b2b.md)
+      + [Audience Agent](./agents/audience-agent-b2b.md)
       + [Journey Build Agent B2B](./agents/journey-agent.md)
       + [Verkoopkwalificatie](./agents/sales-qualifier.md)
 + Reisbeheer {#journeys}
@@ -114,7 +114,7 @@ ht-degree: 16%
       + [Overzicht](./content/forms.md)
       + [Formulierontwerp](./content/form-design.md)
    + Openingspagina&#39;s (Beta) {#landing-pages}
-      + [Overzicht](./content/landing-pages.md)
+      + [ Overzicht ](./content/landing-pages.md)
       + [Ontwerp bestemmingspagina](./content/landing-page-design.md)
    + Gereedschappen voor het ontwerpen van inhoud {#content-design}
       + [Structuurelementen](./content/structure-components.md)
@@ -133,10 +133,10 @@ ht-degree: 16%
 + Intelligente dashboards {#dashboards}
    + [Het dashboard met inzichten](./dashboards/intelligent-dashboard.md)
    + [Betrokkenheidsdashboard](./dashboards/engagement-dashboard.md)
-   + [&#x200B; de betrokkenheidsdashboard van het Web &#x200B;](./dashboards/web-engagement-dashboard.md)
+   + [ de betrokkenheidsdashboard van het Web ](./dashboards/web-engagement-dashboard.md)
    + [Het dashboard voor groepen kopen](./dashboards/buying-groups-dashboard.md)
    + [Rekeningjournaal](./dashboards/journeys-dashboard.md)
-+ Beheer {#admin}
++ Administratie {#admin}
    + [Bestuur](./admin/governance.md)
    + [Configuratie Marketo-handelingen](./admin/marketo-actions-connect.md)
    + [Persona-toewijzing](./admin/persona-mapping.md)
