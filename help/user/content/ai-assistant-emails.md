@@ -25,7 +25,7 @@ Deze nieuwe functie biedt een snelle verzameling van inhoud voor volledige e-mai
 
 Alvorens u begint dit vermogen te gebruiken, herzie de [&#x200B; richtlijnen en de beperkingen &#x200B;](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). [De aanvaarding van de gebruikersovereenkomst &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} wordt ook vereist alvorens u de mogelijkheden van AI in [!DNL Journey Optimizer B2B Edition] kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
-Met Adobe verplichting om transparantie in het gebruik van generatieve hulpmiddelen AI in media verwezenlijking te bevorderen, past Adobe [&#x200B; inhoudsgeloofsbrieven &#x200B;](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} voor om het even welke inhoud of project toe dat Firefly-Gegenereerde activa omvat wanneer het wordt gedownload of uitgevoerd.
+Met Adobe verplichting om transparantie in het gebruik van generatieve hulpmiddelen AI in media verwezenlijking te bevorderen, past Adobe [&#x200B; inhoudsgeloofsbrieven &#x200B;](https://helpx.adobe.com/nl/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} voor om het even welke inhoud of project toe dat Firefly-Gegenereerde activa omvat wanneer het wordt gedownload of uitgevoerd.
 
 De volgende beperkingen en richtlijnen gelden voor AI Assistant-functies die worden gebruikt voor het genereren van e-mailinhoud in [!DNL Journey Optimizer B2B Edition] :
 

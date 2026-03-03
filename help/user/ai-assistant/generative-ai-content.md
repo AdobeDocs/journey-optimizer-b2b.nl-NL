@@ -48,7 +48,7 @@ De Hulpmiddelen van AI voor inhoudsgeneratie worden gesteund met de volgende act
 
 ## Algemene richtsnoeren en beperkingen {#general-guidelines-and-limitations}
 
-Uw gebruik van generatieve AI eigenschappen is onderworpen aan de [&#x200B; Generatieve AI Richtlijnen van de Gebruiker van Adobe Experience Cloud &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Met Adobe verplichting aan transparantie in het gebruik van generatieve hulpmiddelen AI voor media verwezenlijking, past Adobe [&#x200B; inhoudsgeloofsbrieven &#x200B;](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} voor om het even welk inhoud of project toe dat a [!DNL Firefly] - geproduceerd activa omvat wanneer het wordt gedownload of uitgevoerd.
+Uw gebruik van generatieve AI eigenschappen is onderworpen aan de [&#x200B; Generatieve AI Richtlijnen van de Gebruiker van Adobe Experience Cloud &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Met Adobe verplichting aan transparantie in het gebruik van generatieve hulpmiddelen AI voor media verwezenlijking, past Adobe [&#x200B; inhoudsgeloofsbrieven &#x200B;](https://helpx.adobe.com/nl/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} voor om het even welk inhoud of project toe dat a [!DNL Firefly] - geproduceerd activa omvat wanneer het wordt gedownload of uitgevoerd.
 
 Lees de volgende algemene richtlijnen voor het gebruik van generatieve AI voor inhoud in [!DNL Journey Optimizer B2B Edition] :
 
