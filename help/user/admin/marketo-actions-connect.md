@@ -15,7 +15,7 @@ ht-degree: 0%
 
 De acties van Marketo Engage zijn _op mensen-gebaseerde_ acties die u toestaan om uw _op rekening-gebaseerde_ marketing organisatie tussen Journey Optimizer B2B edition en uw _op lood-gebaseerde_ marketing inspanningen in Marketo Engage te coördineren. Gebruik deze acties om het lidmaatschap van een statische lijst te ordenen en om mensen in campagnes te plaatsen.
 
-Om de reisacties van Marketo Engage te gebruiken, creeert een beheerder eerst de douanedienst van de a [&#x200B; &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services){target="_blank"} in Marketo Engage, die de geloofsbrieven nodig voor authentificatie verstrekt. Vervolgens gebruikt een productbeheerder voor Journey Optimizer B2B edition de referenties om een verbinding met Marketo Engage te maken. De gebruikers van Journey Optimizer B2B edition kunnen dan de verbinding van verwijzingen voorzien om de acties van Marketo Engage in <!-- person and --> rekeningsreizen te vormen, zoals het toevoegen van of het verwijderen van mensen uit Marketo Engage lijsten of het toevoegen van hen aan verzoekcampagnes.
+Om de reisacties van Marketo Engage te gebruiken, creeert een beheerder eerst de douanedienst van de a [&#x200B; &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo-developer/marketo/rest/custom-services){target="_blank"} in Marketo Engage, die de geloofsbrieven nodig voor authentificatie verstrekt. Vervolgens gebruikt een productbeheerder voor Journey Optimizer B2B edition de referenties om een verbinding met Marketo Engage te maken. De gebruikers van Journey Optimizer B2B edition kunnen dan de verbinding van verwijzingen voorzien om de acties van Marketo Engage in <!-- person and --> rekeningsreizen te vormen, zoals het toevoegen van of het verwijderen van mensen uit Marketo Engage lijsten of het toevoegen van hen aan verzoekcampagnes.
 
 ## Een Marketo Engage-verbinding configureren {#external-marketo-configure}
 
@@ -28,14 +28,14 @@ Voer de volgende taken uit om een externe Marketo Engage-instantie te configurer
 
 ### De aangepaste Marketo Engage-service maken
 
-1. Login aan Marketo Engage als beheerder en [&#x200B; creeer een douanedienst &#x200B;](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/create-a-custom-service-for-use-with-rest-api){target="_blank"}.
+1. Login aan Marketo Engage als beheerder en [&#x200B; creeer een douanedienst &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/administration/additional-integrations/create-a-custom-service-for-use-with-rest-api){target="_blank"}.
 1. Kopieer de volgende waarden voor de Journey Optimizer B2B edition-verbinding:
 
    * Munchkin-id
    * Client-id
    * Clientgeheim
 
-De werkruimtezicht van Marketo Engage voor activa, zoals lijsten en campagnes, wordt geregeerd door de [&#x200B; roltoestemmingen die in de douanedienst &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services#permission-list){target="_blank"} worden toegewezen. De verkopers kunnen de zelfde verbinding veelvoudige tijden binnen een reis gebruiken, en verschillende verbindingen van Marketo Engage binnen de zelfde reis gebruiken.
+De werkruimtezicht van Marketo Engage voor activa, zoals lijsten en campagnes, wordt geregeerd door de [&#x200B; roltoestemmingen die in de douanedienst &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo-developer/marketo/rest/custom-services#permission-list){target="_blank"} worden toegewezen. De verkopers kunnen de zelfde verbinding veelvoudige tijden binnen een reis gebruiken, en verschillende verbindingen van Marketo Engage binnen de zelfde reis gebruiken.
 
 ### Integratie toevoegen
 
