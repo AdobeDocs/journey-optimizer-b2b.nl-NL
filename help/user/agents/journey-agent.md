@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Journey Agent B2B is een door AI aangedreven assistent in Adobe Journey Optimizer B2B edition die u helpt bij het ontwerpen, uitvoeren, optimaliseren en bewaken van B2B-reizen in natuurlijke taal. Het vermindert de tijd en de ingewikkeldheid betrokken bij de bouw van en het beheer van klantenreizen door automatisering, gegeven-gedreven aanbevelingen, en real-time observability te combineren.
 
-![ Journey Agent B2B Vragen ](./assets/journey-agent-prompt.png)
+![&#x200B; Journey Agent B2B Vragen &#x200B;](./assets/journey-agent-prompt.png)
 
 De Journey Agent B2B biedt een reeks AI-vaardigheden, elk gericht op een ander aspect van de levenscyclus van de B2B-reis. De momenteel beschikbare vaardigheden zijn:
 
@@ -43,7 +43,7 @@ Als u de Journey Agent Build-vaardigheid wilt gebruiken, typt u in het venster m
 
 &quot;Maak een B2B-reis om besluitvormers uit te nodigen voor een routekaart voor een rekening in loondienst, die naar alle waarschijnlijkheid een nieuwe pijpleiding zal openen.&quot;
 
-![ agent B2B van de Reis herinnering voor de vaardigheid van de Bouwstijl ](./assets/journey-agent-tasks.png)
+![&#x200B; agent B2B van de Reis herinnering voor de vaardigheid van de Bouwstijl &#x200B;](./assets/journey-agent-tasks.png)
 
 Hoe meer details u kunt verstrekken, hoe beter het antwoord zal zijn. Als u bestaande marketing materialen hebt die de gebeurtenis, of uw product, enz. beschrijven, kleef dat in de herinnering, zodat heeft de Agent een beter gevoel van het doel.
 

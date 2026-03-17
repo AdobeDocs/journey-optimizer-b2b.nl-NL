@@ -23,7 +23,7 @@ Bekijk deze sampling van de nieuwste toevoegingen en verbeteringen in de toepass
 
 >[!TAB  AI agenten ]
 
-Met [ Experience Platform Agent Orchestrator ](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}, kan de AI Hulp interface op gespecialiseerde agenten automatisch roepen om u de juiste antwoorden en inzichten te krijgen. Agent Orchestrator herinnert uw gespreksgeschiedenis, toelatend u om op vorige vragen te bouwen natuurlijk zonder herhalende context, en combineert inzichten van veelvoudige agenten om u met duidelijke, verenigde reacties te presenteren. In de [!DNL Journey Optimizer B2B Edition] context, zijn er drie doel-gebouwde agenten voor specifieke B2B taken en domeinen:
+Met [&#x200B; Experience Platform Agent Orchestrator &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}, kan de AI Hulp interface op gespecialiseerde agenten automatisch roepen om u de juiste antwoorden en inzichten te krijgen. Agent Orchestrator herinnert uw gespreksgeschiedenis, toelatend u om op vorige vragen te bouwen natuurlijk zonder herhalende context, en combineert inzichten van veelvoudige agenten om u met duidelijke, verenigde reacties te presenteren. In de [!DNL Journey Optimizer B2B Edition] context, zijn er drie doel-gebouwde agenten voor specifieke B2B taken en domeinen:
 
 * [Audience Agent B2B](./agents/audience-agent-b2b.md)
 * [Journey Agent B2B](./agents/journey-agent.md)
@@ -33,37 +33,37 @@ Met [ Experience Platform Agent Orchestrator ](https://experienceleague.adobe.co
 
 U kunt nu accounts/personen meerdere keren verzenden via een workflow voor het maken van een account. Herbetreding heeft betrekking op meerdere scenario&#39;s, zoals herbeoordeling van kwalificatiecriteria en herbruikbare boomwerkstromen. Gebruik de instellingen voor opnieuw invoeren om criteria, beperkingen en wachttijden in te stellen, zodat accounts op een gecontroleerde manier herkwalificeren voor de reis.
 
-[!BADGE  Leer meer ]{type=Informative url="/help/user/journeys/journey-re-entry.md" tooltip="Meer informatie over het opnieuw betreden van een reis"}
+[!BADGE &#x200B; Leer meer &#x200B;]{type=Informative url="/help/user/journeys/journey-re-entry.md" tooltip="Meer informatie over het opnieuw betreden van een reis"}
 
 >[!TAB  Merk thema&#39;s ]
 
 Met thema&#39;s kunnen niet-technische ontwerpers herbruikbare richtlijnen voor het ontwerpen van e-mailinhoud maken die zijn afgestemd op een specifiek merk en een specifieke stijl. Thema&#39;s stellen marketers in staat visueel aantrekkelijke, merkgebonden e-mails sneller en met minder moeite te gebruiken en bieden geavanceerde aanpassingsopties voor unieke ontwerpbehoeften.
 
-[!BADGE  Leer meer ]{type=Informative url="/help/user/content/brand-themes.md" tooltip="Meer informatie over merkthema&#39;s"}
+[!BADGE &#x200B; Leer meer &#x200B;]{type=Informative url="/help/user/content/brand-themes.md" tooltip="Meer informatie over merkthema&#39;s"}
 
 >[!TAB  Persona afbeelding ]
 
 Marketers kunnen gedetailleerde profielen definiëren, zoals achtergrond, verantwoordelijkheden, pijnpunten en voorkeurscommunicatiekanalen. Met deze definities kunnen beheerders persona&#39;s configureren op basis van persoonlijke kenmerken in [!DNL Journey Optimizer B2B Edition] , zodat rolsjablonen gestroomlijnde en consistente rolvoorwaarden kunnen gebruiken die deze personen vastleggen.
 
-[!BADGE  Leer meer ]{type=Informative url="/help/user/admin/persona-mapping.md" tooltip="Meer informatie over persoonlijke toewijzingen"}
+[!BADGE &#x200B; Leer meer &#x200B;]{type=Informative url="/help/user/admin/persona-mapping.md" tooltip="Meer informatie over persoonlijke toewijzingen"}
 
 >[!TAB  In-CRM de Inzichten van de Verkoop ]
 
 De leden van het verkoopteam kunnen het rijpen van koopgroepen en verwante inzichten binnen een Salesforce of de integratie van de Dynamiek nu bekijken om nieuwe kansen te identificeren. De details van de inkoopgroep, zoals het werkgebied, de score en de verwante leden, zijn inbegrepen.
 
-[!BADGE  Leer meer ]{type=Informative url="/help/user/buying-groups/incrm-insights.md" tooltip="Meer informatie over InCRM Sales Insights"}
+[!BADGE &#x200B; Leer meer &#x200B;]{type=Informative url="/help/user/buying-groups/incrm-insights.md" tooltip="Meer informatie over InCRM Sales Insights"}
 
 >[!TAB  Samenwerking voor e-mailinhoud ]
 
 De ontwerpruimte voor e-mail bevat samenwerkingsgereedschappen voor feedback en oplossing, zodat marketingteams e-mailmiddelen probleemloos kunnen beoordelen, bespreken en voltooien in [!DNL Journey Optimizer B2B Edition] . In plaats van concepten te delen via externe tools (zoals chat, e-mailthreads of spreadsheets), kunnen gebruikers opmerkingen maken, wijzigingen voorstellen en feedback in de ontwerpruimte van de e-mail oplossen. U kunt tags toewijzen aan uw teamleden, zodat ze een e-mail- of pulsmelding ontvangen met de details van de opmerking.
 
-[!BADGE  Leer meer ]{type=Informative url="/help/user/content/email-collaboration-tools.md" tooltip="Meer informatie over samenwerkingsgereedschappen voor e-mailinhoud"}
+[!BADGE &#x200B; Leer meer &#x200B;]{type=Informative url="/help/user/content/email-collaboration-tools.md" tooltip="Meer informatie over samenwerkingsgereedschappen voor e-mailinhoud"}
 
 >[!TAB  Donkere wijze e-mailontwerp ]
 
-De ruimte van het e-mailontwerp omvat nu _voorproef en montages van 0} donkere wijze {._ In de donkere modus kan een ondersteunende e-mailclient of app e-mails weergeven met donkere achtergronden en lichtere kleuren voor tekst, knoppen en andere visuele elementen. Geef een voorvertoning van de rendering weer, pas instellingen aan, zorg voor toegankelijkheid en test alle e-mailclients.
+De ruimte van het e-mailontwerp omvat nu _voorproef en montages van 0&rbrace; donkere wijze &lbrace;._ In de donkere modus kan een ondersteunende e-mailclient of app e-mails weergeven met donkere achtergronden en lichtere kleuren voor tekst, knoppen en andere visuele elementen. Geef een voorvertoning van de rendering weer, pas instellingen aan, zorg voor toegankelijkheid en test alle e-mailclients.
 
-[!BADGE  Leer meer ]{type=Informative url="/help/user/content/email-dark-mode.md" tooltip="Meer informatie over het ontwerpen van e-mails in de donkere modus"}
+[!BADGE &#x200B; Leer meer &#x200B;]{type=Informative url="/help/user/content/email-dark-mode.md" tooltip="Meer informatie over het ontwerpen van e-mails in de donkere modus"}
 
 >[!ENDTABS]
 
@@ -71,7 +71,7 @@ De ruimte van het e-mailontwerp omvat nu _voorproef en montages van 0} donkere w
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Opmerkingen bij de nieuwste release
 
@@ -81,7 +81,7 @@ Blijf up-to-date met de nieuwste opmerkingen over releases, nieuwe functies en v
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag
 
@@ -91,7 +91,7 @@ Raadpleeg de Journey Optimizer B2B edition-richtlijnen voor instapkaarten voor b
 :::
 
 :::
-![ vorm pictogram ](https://cdn.experienceleague.adobe.com/icons/gear.svg){width="25"}
+![&#x200B; vorm pictogram &#x200B;](https://cdn.experienceleague.adobe.com/icons/gear.svg){width="25"}
 
 Uw XDM-velden configureren
 
@@ -101,18 +101,18 @@ Implementeer de systeemconfiguraties om de XDM-schema&#39;s en -velden te active
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Communicatiekanalen
 
 Vorm en beheer e-mail, SMS, en andere kanalen voor gepersonaliseerde klanteninteractie.
 
-[ vorm e-mailkanaal ](./admin/configure-channels-emails.md)
-[ vorm het kanaal van SMS ](./admin/configure-channels-sms.md)
+[&#x200B; vorm e-mailkanaal &#x200B;](./admin/configure-channels-emails.md)
+[&#x200B; vorm het kanaal van SMS &#x200B;](./admin/configure-channels-sms.md)
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Een rekeningpad maken
 
@@ -122,7 +122,7 @@ Ontwerp, orkestreer, beheer en optimaliseer persoonlijke accountreizen.
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/users.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 Kopen groepen begrijpen
 
@@ -184,7 +184,7 @@ Ontdek de onderdelen van een inkoopgroep en begrijp de basisbeginselen van het m
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px" alt="Inzichten en dashboards"><br/>
-      <strong> Inzichten </strong><br/> <a href="./dashboards/intelligent-dashboard.md"> Intelligent dashboard </a><br/> <a href="./dashboards/engagement-dashboard.md"> het dashboard van de Betrokkenheid </a><br/> <a href="./dashboards/buying-groups-dashboard.md"> Buying het dashboard van groepen </a><br/> <a href="./dashboards/journeys-dashboard.md"> het dashboard van de Rondjes 10} <a href="./buying-groups/incrm-insights.md"> In-CRM Inzichten </a>
+      <strong> Inzichten </strong><br/> <a href="./dashboards/intelligent-dashboard.md"> Intelligent dashboard </a><br/> <a href="./dashboards/engagement-dashboard.md"> het dashboard van de Betrokkenheid </a><br/> <a href="./dashboards/buying-groups-dashboard.md"> Buying het dashboard van groepen </a><br/> <a href="./dashboards/journeys-dashboard.md"> het dashboard van de Rondjes 10&rbrace; <a href="./buying-groups/incrm-insights.md"> In-CRM Inzichten </a>
     </a><br/></td>
 
 </tr>
