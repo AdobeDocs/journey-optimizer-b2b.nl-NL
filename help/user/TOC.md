@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B edition-documentatie
 user-guide-description: Meer informatie over Adobe Journey Optimizer B2B edition en hoe u dit kunt gebruiken om accounts te ordenen en groepsreizen te kopen met behulp van ingebouwde generatieve AI en toonaangevende automatisering.
-source-git-commit: b037049c75a83f427185c91dff3a3ffb066e7e20
+source-git-commit: 51bb47fe4f494095f1c598639f02f273b9a125ae
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -25,8 +25,8 @@ ht-degree: 2%
    + [AI-assistent gebruiken](./ai-assistant/use-ai-assistant.md)
    + [Generatieve AI voor inhoud](./ai-assistant/generative-ai-content.md)
    + Medewerkers {#ai-agents}
-      + [Audience Agent](./agents/audience-agent-b2b.md)
-      + [Journey Build Agent B2B](./agents/journey-agent.md)
+      + [Audience Agent B2B](./agents/audience-agent-b2b.md)
+      + [Journey Agent B2B](./agents/journey-agent.md)
       + [Verkoopkwalificatie](./agents/sales-qualifier.md)
 + Reisbeheer {#journeys}
    + [Rekening en personenvervoer](./journeys/journeys-overview.md)
@@ -115,7 +115,7 @@ ht-degree: 2%
       + [Overzicht](./content/forms.md)
       + [Formulierontwerp](./content/form-design.md)
    + Openingspagina&#39;s (Beta) {#landing-pages}
-      + [&#x200B; Overzicht &#x200B;](./content/landing-pages.md)
+      + [ Overzicht ](./content/landing-pages.md)
       + [Ontwerp bestemmingspagina](./content/landing-page-design.md)
       + [AI Assistant voor het plaatsen van pagina-inhoud](./content/ai-assistant-landing-pages.md)
    + Gereedschappen voor het ontwerpen van inhoud {#content-design}
@@ -135,11 +135,11 @@ ht-degree: 2%
 + Intelligente dashboards {#dashboards}
    + [Het dashboard met inzichten](./dashboards/intelligent-dashboard.md)
    + [Betrokkenheidsdashboard](./dashboards/engagement-dashboard.md)
-   + [&#x200B; de betrokkenheidsdashboard van het Web &#x200B;](./dashboards/web-engagement-dashboard.md)
+   + [ de betrokkenheidsdashboard van het Web ](./dashboards/web-engagement-dashboard.md)
    + [Het dashboard voor groepen kopen](./dashboards/buying-groups-dashboard.md)
    + [Rekeningjournaal](./dashboards/journeys-dashboard.md)
 + Administratie {#admin}
-   + [Bestuur](./admin/governance.md)
+   + [Beheer](./admin/governance.md)
    + [Configuratie Marketo-handelingen](./admin/marketo-actions-connect.md)
    + [Persona-toewijzing](./admin/persona-mapping.md)
    + [Gebruikersbeheer](./admin/user-management.md)
