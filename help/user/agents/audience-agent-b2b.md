@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Audience Agent B2B
 
-Aangedreven door [&#x200B; Adobe Experience Platform Agent Orchestrator &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator), is Audience Agent B2B beschikbaar in Journey Optimizer B2B edition. Het gebruik van deze agent verbetert de efficiëntie en effectiviteit bij het verkennen en schalen van doelgroepen, versnelt het aanschaffen van groepen en naadloze workflows voor het activeren van de reis:
+Aangedreven door [&#x200B; Adobe Experience Platform Agent Orchestrator &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator), is Audience Agent B2B beschikbaar in Journey Optimizer B2B edition. Het gebruik van deze agent verbetert de efficiëntie en effectiviteit bij het verkennen en schalen van doelgroepen, versnelt het aanschaffen van groepen en naadloze workflows voor het activeren van de reis:
 
 * **_geeft voorrang aan doelpubliek door intent_**: haal persona&#39;s binnen die op productintentie voor diverse publiek worden gebaseerd en stroomlijnt campagneplanning, die tijd die aan publieksbevestiging wordt doorgebracht.
 
