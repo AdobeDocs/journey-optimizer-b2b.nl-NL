@@ -2,9 +2,9 @@
 title: Adobe Journey Optimizer B2B edition - Overzicht
 description: Leer meer over Adobe Journey Optimizer B2B edition - orkestaccountreizen met inkoopgroepen, AI-inzichten en Experience Platform-integratie voor B2B-marketing.
 exl-id: fdfbafdf-826f-44e9-bbb6-5e729d0e18ef
-source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
+source-git-commit: 023e44e1ad2baed2a5586d95a26ef8693020667a
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '841'
 ht-degree: 0%
 
 ---
@@ -15,17 +15,17 @@ Met Adobe Journey Optimizer B2B edition kunt u met behulp van geïntegreerde gen
 
 ## Accountreizen met inkoopgroepen
 
-Bij het vergelijken van Adobe Journey Optimizer B2B edition met Marketo Engage en Adobe Journey Optimizer is het belangrijkste verschil dat reizen op een rekening door de Reis gaan, niet door mensen. Een persoon die met een account is geassocieerd, heeft doorgaans een niet-lineaire progressie die is gebaseerd op de voortgang van de rekening door de reis, en niet op hun individuele acties. Wanneer een account zich bijvoorbeeld in een vroeg stadium van de koopreis bevindt, kan de verzonden informatie over algemene mogelijkheden of functies van de oplossing gaan. Verder tijdens het aankoopproces kan de inhoud zich meer richten op bepaalde aanbiedingen of andere objecten die op het sluiten van een verkoop zijn gericht. Nadat de oplossing is aangeschaft, kan de informatie opnieuw veranderen om hoe te gidsen, beste praktijken, of informatie over aanstaande gebeurtenissen, of met inhoud over extra upsells te verstrekken. Zelfs als een individu niet met de inhoud van de vroege fase heeft gecommuniceerd, wilt u hen nog tot de huidige fase leiden die niet op hun eigen acties wordt gebaseerd, maar op de acties van de andere mensen binnen hun rekening of het kopen groep.
+Bij het vergelijken van de reizen van de rekening met de reismogelijkheden in Marketo Engage en Adobe Journey Optimizer, is het belangrijkste onderscheid dat de reizen van de rekening rekeningen door de reis bewegen, niet mensen. Een persoon die met een account is geassocieerd, heeft doorgaans een niet-lineaire progressie die is gebaseerd op de voortgang van de rekening door de reis, en niet op hun individuele acties. Wanneer een account zich bijvoorbeeld in een vroeg stadium van de koopreis bevindt, kan de verzonden informatie over algemene mogelijkheden of functies van de oplossing gaan. Verder tijdens het aankoopproces kan de inhoud zich meer richten op bepaalde aanbiedingen of andere objecten die op het sluiten van een verkoop zijn gericht. Nadat de oplossing is aangeschaft, kan de informatie opnieuw veranderen om hoe te gidsen, beste praktijken, of informatie over aanstaande gebeurtenissen, of met inhoud over extra upsells te verstrekken. Zelfs als een individu niet met de inhoud van de vroege fase heeft gecommuniceerd, wilt u hen nog tot de huidige fase leiden die niet op hun eigen acties wordt gebaseerd, maar op de acties van de andere mensen binnen hun rekening of het kopen groep.
 
 ## Architectuur op hoog niveau
 
 Adobe Journey Optimizer B2B edition gebruikt _Soorten van de Rekening_ en _Soorten publiek van Mensen_ van Adobe Experience Platform aan macht een rekeningsreis, die binnen van Marketo Engage loopt. Experience Platform is altijd de bron van de waarheid voor deze gegevens, maar alle uitvoering en verwerking van de rekeningreis gebeurt binnen de marketinginfrastructuur van Marketo Engage B2B. Het orchestration brengt gegevens terug naar Experience Platform in bijna real time door de bestaande Marketo Engage - Adobe Real-Time CDP B2B edition-bronconnector, die gegevenswijzigingen van Marketo Engage naar Experience Platform stroomt.
 
-![&#x200B; de architectuur van Gegevens op hoog niveau &#x200B;](./assets/high-level-data-architecture.png){width="500" zoomable="yes"}
+![ de architectuur van Gegevens op hoog niveau ](./assets/high-level-data-architecture.png){width="500" zoomable="yes"}
 
 >[!NOTE]
 >
->Controleer uw vergunningsrechten en de overeenkomstige [&#x200B; productbeschrijving &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} over prestatiesgaranties en statische beperkingen.
+>Controleer uw vergunningsrechten en de overeenkomstige [ productbeschrijving ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} over prestatiesgaranties en statische beperkingen.
 
 ### Abonnementsmodel
 

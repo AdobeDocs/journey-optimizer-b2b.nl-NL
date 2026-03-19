@@ -1,9 +1,9 @@
 ---
 user-guide-title: Journey Optimizer B2B edition-documentatie
 user-guide-description: Meer informatie over Adobe Journey Optimizer B2B edition en hoe u dit kunt gebruiken om accounts te ordenen en groepsreizen te kopen met behulp van ingebouwde generatieve AI en toonaangevende automatisering.
-source-git-commit: 51bb47fe4f494095f1c598639f02f273b9a125ae
+source-git-commit: 2e63606151c41a4fcdb632c367e3f41ca04c6ecb
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '423'
 ht-degree: 5%
 
 ---
@@ -15,9 +15,18 @@ ht-degree: 5%
 + [Aanvullende informatie](./release-notes/release-notes.md)
 + Aan de slag {#get-started}
    + [Journey Optimizer B2B edition - overzicht](about-journey-optimizer-b2b-edition.md)
+   + Vereenvoudigde architectuur {#simplified-architecture}
+      + [Controlelijst instellen](./simplified-architecture.md)
+      + [Naamruimten en schema&#39;s](./data/namespaces-schemas.md)
+      + [XDM-veldselectie](./admin/xdm-field-management.md)
+      + [Ervaar gebeurtenissen en velden](./admin/configure-aep-events.md)
+      + [Naamgevingsdomeinen](./start/branding-domains.md)
+      + [E-mailtracking en levering](./start/email-protocols.md)
+      + [E-mailinstelling](./start/email-setup.md)
+      + [Marketo Engage-reisacties](./admin/marketo-actions-connect.md)
+      + [Gebruikersbeheer](./admin/user-management.md)
+   + [Richtlijnen voor het aan boord nemen van gebruikers](./start/get-started.md)
    + [Aanmelden en homepage](home-page.md)
-   + [Richtlijnen voor onboarding](./start/get-started.md)
-   + [Bijhoud- en e-mailprotocollen](./start/email-protocols.md)
 + AI-assistent {#ai-assistant}
    + [Overzicht](./ai-assistant/ai-assistant-overview.md)
    + [Toegang tot AI-assistent inschakelen](./ai-assistant/enable-ai-assistant-access.md)
@@ -61,6 +70,7 @@ ht-degree: 5%
    + [Experience Platform-publiek](./audiences/account-audience-overview.md)
    + [Doel extern publiek](./audiences/target-external-audience.md)
    + [Gekoppelde benaderingen voor account](./data/linkedin-account-matched-audiences.md)
+   + [Standaard XDM-velden](./admin/field-mapping.md)
 + Accounts {#accounts}
    + Koopgroepen {#buying-groups}
       + [Overzicht](./buying-groups/buying-groups-overview.md)
@@ -115,7 +125,7 @@ ht-degree: 5%
       + [Overzicht](./content/forms.md)
       + [Formulierontwerp](./content/form-design.md)
    + Openingspagina&#39;s (Beta) {#landing-pages}
-      + [&#x200B; Overzicht &#x200B;](./content/landing-pages.md)
+      + [ Overzicht ](./content/landing-pages.md)
       + [Ontwerp bestemmingspagina](./content/landing-page-design.md)
       + [AI Assistant voor het plaatsen van pagina-inhoud](./content/ai-assistant-landing-pages.md)
    + Gereedschappen voor het ontwerpen van inhoud {#content-design}
@@ -135,18 +145,12 @@ ht-degree: 5%
 + Intelligente dashboards {#dashboards}
    + [Het dashboard met inzichten](./dashboards/intelligent-dashboard.md)
    + [Betrokkenheidsdashboard](./dashboards/engagement-dashboard.md)
-   + [&#x200B; de betrokkenheidsdashboard van het Web &#x200B;](./dashboards/web-engagement-dashboard.md)
+   + [ de betrokkenheidsdashboard van het Web ](./dashboards/web-engagement-dashboard.md)
    + [Het dashboard voor groepen kopen](./dashboards/buying-groups-dashboard.md)
    + [Rekeningjournaal](./dashboards/journeys-dashboard.md)
 + Administratie {#admin}
    + [Beheer](./admin/governance.md)
-   + [Configuratie Marketo-handelingen](./admin/marketo-actions-connect.md)
    + [Persona-toewijzing](./admin/persona-mapping.md)
-   + [Gebruikersbeheer](./admin/user-management.md)
-   + XDM-veldbeheer {#xdm-field-management}
-      + [XDM-klassen](admin/xdm-field-management.md)
-      + [Ervaar gebeurtenissen en velden](./admin/configure-aep-events.md)
-      + [Standaard XDM-velden](./admin/field-mapping.md)
    + Kanalen {#channels}
       + [E-mailconfiguraties](./admin/configure-channels-emails.md)
       + [SMS-configuraties](./admin/configure-channels-sms.md)
@@ -157,4 +161,3 @@ ht-degree: 5%
       + [AEM Assets repositories](./admin/configure-aem-repositories.md)
       + [Intentgegevens](./admin/intent-data.md)
       + [weging van de betrokkenheidsscore](./admin/engagement-score-weighting.md)
-   + [Vereenvoudigde architectuur instellen](simplified-architecture.md)
