@@ -249,7 +249,7 @@ Om marketers voor het opnemen van andere kanalen in hun reizen te steunen, vorm 
 </thead>
 <tbody>
 <tr>
-<td colspan="2"></strong> kanaalconfiguratie 0} van SMS {voor Journey Optimizer B2B edition.<strong></td>
+<td colspan="2"></strong> kanaalconfiguratie 0&rbrace; van SMS &lbrace;voor Journey Optimizer B2B edition.<strong></td>
 <td></td>
 </tr>
 <tr>

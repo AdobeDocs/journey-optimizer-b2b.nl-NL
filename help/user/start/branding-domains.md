@@ -30,7 +30,7 @@ U kunt domeinbranding via het retourpad delen tussen uw productie-Marketo Engage
 
 >[!PREREQUISITES]
 >
->Alvorens u uitgeeft of een domein in UI toevoegt, moet u a [ in kaart gebrachte NAAM aan een Adobe-Geleverd domein van Marketo Engage ](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"} hebben.
+>Alvorens u uitgeeft of een domein in UI toevoegt, moet u a [&#x200B; in kaart gebrachte NAAM aan een Adobe-Geleverd domein van Marketo Engage &#x200B;](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"} hebben.
 >
 >Bij het toevoegen van een domein, controleert het systeem op reeds bestaande SSLs, die manueel kan zijn gecreeerd vroeger. Als u deze validatie tegenkomt, maakt u uw domein zonder SSL te selecteren en sluit u deze aan als een aparte procedure.
 
@@ -40,7 +40,7 @@ U kunt domeinbranding via het retourpad delen tussen uw productie-Marketo Engage
 
 1. Schuif omlaag naar het deelvenster **[!UICONTROL Branding Domains]** .
 
-   ![ brandend paneel van Domeinen in Admin onder E-mail, die het standaarddomein ](./assets/me-admin-email-branding-domains.png){width="700" zoomable="yes"} tonen
+   ![&#x200B; brandend paneel van Domeinen in Admin onder E-mail, die het standaarddomein &#x200B;](./assets/me-admin-email-branding-domains.png){width="700" zoomable="yes"} tonen
 
    In de lijst wordt het standaarddomein voor de Marketo Engage-instantie weergegeven.
 
@@ -52,19 +52,19 @@ De eerste stap bij het werken met brandingdomeinen is het bewerken van het stand
 >
 >U kunt geen extra brandend domein bepalen tot u het generische standaarddomein hebt uitgegeven.
 
-1. Selecteer in het deelvenster _[!UICONTROL Branding Domains]_het algemene domein en klik op **[!UICONTROL Edit]**boven.
+1. Selecteer in het deelvenster _[!UICONTROL Branding Domains]_&#x200B;het algemene domein en klik op **[!UICONTROL Edit]**&#x200B;boven.
 
-   ![ Brandend paneel van Domeinen met het generische geselecteerde domein ](./assets/me-admin-email-branding-domains-edit-default.png){width="500"}
+   ![&#x200B; Brandend paneel van Domeinen met het generische geselecteerde domein &#x200B;](./assets/me-admin-email-branding-domains-edit-default.png){width="500"}
 
-1. Voer in het dialoogvenster _[!UICONTROL Edit Branding Domain]_de naam van uw standaarddomein in het veld **[!UICONTROL Domain]**in.
+1. Voer in het dialoogvenster _[!UICONTROL Edit Branding Domain]_&#x200B;de naam van uw standaarddomein in het veld **[!UICONTROL Domain]**&#x200B;in.
 
-   ![ geef het Brandmerken de dialoog van het Domein uit ](./assets/me-admin-email-branding-domains-edit-default-name.png){width="400"}
+   ![&#x200B; geef het Brandmerken de dialoog van het Domein uit &#x200B;](./assets/me-admin-email-branding-domains-edit-default-name.png){width="400"}
 
 1. Als er meerdere werkruimten zijn gedefinieerd voor uw Marketo Engage-instantie, klikt u op **[!UICONTROL Next]** .
 
    Selecteer elk van de werkruimten waar u het bijgewerkte primaire domein wilt toepassen.
 
-   ![ geef de Brandende dialoog van het Domein met werkruimteselectie voor primair domein uit ](./assets/me-admin-email-branding-domains-edit-default-workspaces.png){width="400"}
+   ![&#x200B; geef de Brandende dialoog van het Domein met werkruimteselectie voor primair domein uit &#x200B;](./assets/me-admin-email-branding-domains-edit-default-workspaces.png){width="400"}
 
 1. Klik op **[!UICONTROL Save]** .
 
@@ -78,27 +78,27 @@ Nadat u het standaarddomein hebt bewerkt, kunt u een ander brandingdomein toevoe
 
 _Het domein toevoegen :_
 
-1. Klik in het deelvenster _[!UICONTROL Branding Domains]_op **[!UICONTROL Add]**boven.
+1. Klik in het deelvenster _[!UICONTROL Branding Domains]_&#x200B;op **[!UICONTROL Add]**&#x200B;boven.
 
-   ![ Brandend paneel van Domeinen met Add knoop bij de bovenkant ](assets/me-admin-email-branding-domains-add.png){width="500"}
+   ![&#x200B; Brandend paneel van Domeinen met Add knoop bij de bovenkant &#x200B;](assets/me-admin-email-branding-domains-add.png){width="500"}
 
-1. Typ in het dialoogvenster _[!UICONTROL New Branding Domain]_de naam van het brandingdomein in het veld **[!UICONTROL Domain]**.
+1. Typ in het dialoogvenster _[!UICONTROL New Branding Domain]_&#x200B;de naam van het brandingdomein in het veld **[!UICONTROL Domain]**.
 
 1. (Optioneel) Schakel het selectievakje **[!UICONTROL Generate SSL Certificate]** in om automatisch een SSL voor het domein te genereren.
 
-   ![ Nieuwe brandende dialoog van het Domein ](assets/me-admin-email-branding-domains-add-name.png){width="400"}
+   ![&#x200B; Nieuwe brandende dialoog van het Domein &#x200B;](assets/me-admin-email-branding-domains-add-name.png){width="400"}
 
    Indien nodig en beschikbaar, kunt u ook selecteren _Primair Domein_ controlevakje maken.
 
    >[!NOTE]
    >
-   >**_Aangepaste SSLs_**: Als u douane SSL nodig hebt, kunt u a [ steunkaartje ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} voorleggen. Gebruik het selectievakje niet voor het maken van SSL.
+   >**_Aangepaste SSLs_**: Als u douane SSL nodig hebt, kunt u a [&#x200B; steunkaartje &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} voorleggen. Gebruik het selectievakje niet voor het maken van SSL.
 
 1. Als er meerdere werkruimten zijn gedefinieerd voor uw Marketo Engage-instantie, klikt u op **[!UICONTROL Next]** .
 
    Selecteer zo nodig elke werkruimte waarin u het nieuwe domein als primair domein wilt toepassen.
 
-   ![ Nieuwe brandende dialoog van het Domein met werkruimteselectie voor het toepassen van het primaire domein ](assets/me-admin-email-branding-domains-add-workspaces.png){width="400"}
+   ![&#x200B; Nieuwe brandende dialoog van het Domein met werkruimteselectie voor het toepassen van het primaire domein &#x200B;](assets/me-admin-email-branding-domains-add-workspaces.png){width="400"}
 
 1. Klik op **[!UICONTROL Save]** .
 
@@ -106,15 +106,15 @@ _Het domein toevoegen :_
 
 Ga als volgt te werk om SSL in te schakelen voor uw bestaande domeinen.
 
-1. Selecteer in het gebied _[!UICONTROL Admin]_de optie **[!UICONTROL Email]**.
+1. Selecteer in het gebied _[!UICONTROL Admin]_&#x200B;de optie **[!UICONTROL Email]**.
 
-1. Selecteer in het deelvenster _[!UICONTROL Branding Domains]_de domeinrij en klik op **[!UICONTROL Add SSL]**.
+1. Selecteer in het deelvenster _[!UICONTROL Branding Domains]_&#x200B;de domeinrij en klik op **[!UICONTROL Add SSL]**.
 
-   ![ Brandend paneel van Domeinen met Add SSL bij de bovenkant ](./assets/me-admin-email-branding-domain-add-ssl.png){width="500"}
+   ![&#x200B; Brandend paneel van Domeinen met Add SSL bij de bovenkant &#x200B;](./assets/me-admin-email-branding-domain-add-ssl.png){width="500"}
 
 1. Klik in het dialoogvenster op **[!UICONTROL Confirm]** .
 
-   ![ produceer SSL de bevestigingsdialoog van het Certificaat ](./assets/me-admin-email-branding-domain-generate-ssl-cert-confirm.png){width="400"}
+   ![&#x200B; produceer SSL de bevestigingsdialoog van het Certificaat &#x200B;](./assets/me-admin-email-branding-domain-generate-ssl-cert-confirm.png){width="400"}
 
 ## Foutberichten
 
@@ -135,4 +135,4 @@ Ga als volgt te werk om SSL in te schakelen voor uw bestaande domeinen.
 >
 >Het schrappen van een domein **_schrapt niet_** het SSL certificaat. Deze handleiding voorkomt gebruikersfouten die ertoe leiden dat een website geen SSL-certificaten heeft. Neem contact op met de ondersteuning van Adobe als u de SSL-certificaten wilt verwijderen.
 
-Selecteer in het deelvenster _[!UICONTROL Branding Domains]_het domein en klik op **[!UICONTROL Delete]**bovenaan.
+Selecteer in het deelvenster _[!UICONTROL Branding Domains]_&#x200B;het domein en klik op **[!UICONTROL Delete]**&#x200B;bovenaan.
