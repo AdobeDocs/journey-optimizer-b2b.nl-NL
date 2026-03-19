@@ -30,7 +30,7 @@ U kunt domeinbranding via het retourpad delen tussen uw productie-Marketo Engage
 
 >[!PREREQUISITES]
 >
->Alvorens u uitgeeft of een domein in UI toevoegt, moet u a [&#x200B; in kaart gebrachte NAAM aan een Adobe-Geleverd domein van Marketo Engage &#x200B;](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"} hebben.
+>Alvorens u uitgeeft of een domein in UI toevoegt, moet u a [&#x200B; in kaart gebrachte NAAM aan een Adobe-Geleverd domein van Marketo Engage &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"} hebben.
 >
 >Bij het toevoegen van een domein, controleert het systeem op reeds bestaande SSLs, die manueel kan zijn gecreeerd vroeger. Als u deze validatie tegenkomt, maakt u uw domein zonder SSL te selecteren en sluit u deze aan als een aparte procedure.
 

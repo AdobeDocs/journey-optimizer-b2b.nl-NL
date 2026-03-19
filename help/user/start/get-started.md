@@ -19,7 +19,7 @@ Nadat een beheerder de [&#x200B; opstellingstaken &#x200B;](../simplified-archit
 
 >[!TIP]
 >
->Controleer ook uw vergunningsrechten en de overeenkomstige [&#x200B; productbeschrijving &#x200B;](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} over prestatiesgaranties en statische beperkingen.
+>Controleer ook uw vergunningsrechten en de overeenkomstige [&#x200B; productbeschrijving &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} over prestatiesgaranties en statische beperkingen.
 
 Als marktleider, of een _Praktijk van de Reis van de Rekening_, bent u verantwoordelijk voor het ontwerpen van reizen en het creëren van inhoud. U kunt met Adobe Journey Optimizer B2B edition beginnen te werken nadat de systeembeheerder en de gegevensengineer uw omgeving hebben voorbereid en u toegang hebben verleend.
 
