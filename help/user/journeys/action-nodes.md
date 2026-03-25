@@ -294,4 +294,4 @@ Selecteer eerst een aangesloten Marketo Engage-instantie. Selecteer vervolgens d
 
 ## Video over overzicht
 
->[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443251/?captions=dut&learn=on)
