@@ -4,18 +4,18 @@ description: Actieknooppunten voor account- en personenacties configureren - e-m
 feature: Account Journeys
 role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
+source-git-commit: 0ac69d15c1fff9083b5a53454c83a9284f5c13e5
 workflow-type: tm+mt
-source-wordcount: '1633'
+source-wordcount: '1771'
 ht-degree: 0%
 
 ---
 
 # Handeling uitvoeren
 
-In uw reis, kunt u een _[!UICONTROL Take an action]_&#x200B;knoop toevoegen om een actie uit te voeren, zoals verzendt een e-mail, verandert een score, wijst aan een het kopen groep toe, etc. Handelingen zijn doorgaans de handelingen die u wilt uitvoeren als gevolg van een of andere trigger, zoals een gebeurtenis of een vorige handeling.
+In uw reis, kunt u een _[!UICONTROL Take an action]_knoop toevoegen om een actie uit te voeren, zoals verzendt een e-mail, verandert een score, wijst aan een het kopen groep toe, etc. Handelingen zijn doorgaans de handelingen die u wilt uitvoeren als gevolg van een of andere trigger, zoals een gebeurtenis of een vorige handeling.
 
-![&#x200B; Video &#x200B;](../../assets/do-not-localize/icon-video.svg){width="30"} [&#x200B; bekijk de overzichtsvideo &#x200B;](#overview-video)
+![ Video ](../../assets/do-not-localize/icon-video.svg){width="30"} [ bekijk de overzichtsvideo ](#overview-video)
 
 ## Accountacties
 
@@ -23,7 +23,7 @@ In een rekeningreis, gebruik een actie op rekeningen wanneer u een verandering o
 
 ### Handelingen en beperkingen {#account-action-constraints}
 
-| Handeling | Restricties |
+| Actie | Restricties |
 | ------ | ----------- |
 | [!UICONTROL Account Interesting Moment] | Het type (e-mail, mijlpaal, of Web) <br/> Beschrijving (facultatief) |
 | [!UICONTROL Activate to destination] | Een doel selecteren |
@@ -38,9 +38,9 @@ In een rekeningreis, gebruik een actie op rekeningen wanneer u een verandering o
 
 >[!NOTE]
 >
->De handeling _[!UICONTROL Account Change Data Value]_&#x200B;is vervangen voor de release 2025.10._[!UICONTROL Update account profile]_ vervangt deze actie voor de [&#x200B; vereenvoudigde architectuur &#x200B;](../simplified-architecture.md).<br/>
+>De handeling _[!UICONTROL Account Change Data Value]_is vervangen voor de release 2025.10._[!UICONTROL Update account profile]_ vervangt deze actie voor de [ vereenvoudigde architectuur ](../simplified-architecture.md).<br/>
 >
->Een beheerder kan de beschikbare kenmerken voor de XDM Business Account configureren door de velden in het dialoogvenster _[!UICONTROL XDM Classes]_>_[!UICONTROL Standard classes]_ bij te werken. Voor meer informatie, zie [&#x200B; Standaardklassen &#x200B;](../admin/xdm-field-management.md#standard-classes).
+>Een beheerder kan de beschikbare kenmerken voor de XDM Business Account configureren door de velden in het dialoogvenster _[!UICONTROL XDM Classes]_>_[!UICONTROL Standard classes]_ bij te werken. Voor meer informatie, zie [ Standaardklassen ](../admin/xdm-field-management.md#standard-classes).
 
 ### Een op een account gebaseerde actie toevoegen
 
@@ -48,13 +48,13 @@ In een rekeningreis, gebruik een actie op rekeningen wanneer u een verandering o
 
 1. Klik op de plusknop ( **+** ) op een pad en kies **[!UICONTROL Take an action]** .
 
-   ![&#x200B; voeg reisknoop toe - neem een actie &#x200B;](./assets/add-node-action.png){width="400"}
+   ![ voeg reisknoop toe - neem een actie ](./assets/add-node-action.png){width="400"}
 
 1. In de knoopeigenschappen op het recht, kies **[!UICONTROL Accounts]** voor de actie.
 
 1. Selecteer een actie in de lijst en stel de waarden voor de actie in.
 
-   ![&#x200B; knoop van de Reis - neem een actie op een rekening &#x200B;](./assets/node-take-action-account.png){width="700" zoomable="yes"}
+   ![ knoop van de Reis - neem een actie op een rekening ](./assets/node-take-action-account.png){width="700" zoomable="yes"}
 
 >[!BEGINSHADEBOX]
 
@@ -64,23 +64,23 @@ Gebruik _activeer aan bestemmings_ actie voor rekeningen om rekeningen aan de be
 
 Beginnend met de versie 2025.10, **_LinkedIn_** is het eerste gesteunde bestemmingstype. Gebruik de actie voor een bestemming LinkedIn om campagneuitvoering te stroomlijnen door multi-systeemhandschoeien te elimineren en latentie te verminderen. Bijvoorbeeld, als telleraar, kunt u high-intent rekeningen aan LinkedIn automatisch activeren voor het opnieuw richten wanneer de belangrijkste het kopen rollen ontbreken, of slapende rekeningen opnieuw aangaan die op inactiviteitsfilters worden gebaseerd.
 
-Voor meer informatie over het gebruiken van rekening overtroffen publiek voor een bestemming LinkedIn, zie [&#x200B; LinkedIn Rekening Gelijke Soorten publiek &#x200B;](../data/linkedin-account-matched-audiences.md).
+Voor meer informatie over het gebruiken van rekening overtroffen publiek voor een bestemming LinkedIn, zie [ LinkedIn Rekening Gelijke Soorten publiek ](../data/linkedin-account-matched-audiences.md).
 
 +++ Activering van accounts instellen op een LinkedIn-bestemming
 
 1. Met _neem een actie_ knoop die in het wegcanvas wordt geselecteerd, plaats **[!UICONTROL Action on accounts]** aan **[!UICONTROL Activate to destination]**.
 
-1. Klik op **[!UICONTROL Select destination]**.
+1. Klik op **[!UICONTROL Select destination]** .
 
-   ![&#x200B; knoop van de Reis - neem een actie op rekeningen - activeer aan bestemming &#x200B;](./assets/node-activate-destination-select-destination.png){width="600" zoomable="yes"}
+   ![ knoop van de Reis - neem een actie op rekeningen - activeer aan bestemming ](./assets/node-activate-destination-select-destination.png){width="600" zoomable="yes"}
 
 1. In de dialoog, selecteer de gevormde bestemming LinkedIn en klik **[!UICONTROL Save]**.
 
-![&#x200B; knoop van de Reis - neem een actie op rekeningen - activeer aan bestemming - selecteer bestemmingsdialoog &#x200B;](./assets/node-activate-destination-select-destination-dialog.png){width="700" zoomable="yes"}
+![ knoop van de Reis - neem een actie op rekeningen - activeer aan bestemming - selecteer bestemmingsdialoog ](./assets/node-activate-destination-select-destination-dialog.png){width="700" zoomable="yes"}
 
 1. Voer de **[!UICONTROL Audience name]** in die wordt gebruikt om het geactiveerde publiek in de bestemming te identificeren.
 
-   ![&#x200B; knoop van de Reis - neem een actie op rekeningen - activeer aan bestemming - voltooide montages &#x200B;](./assets/node-activate-destination-settings.png){width="550" zoomable="yes"}
+   ![ knoop van de Reis - neem een actie op rekeningen - activeer aan bestemming - voltooide montages ](./assets/node-activate-destination-settings.png){width="550" zoomable="yes"}
 
 +++
 
@@ -92,26 +92,26 @@ In een rekening of een persoonreis, gebruik een actie op mensen wanneer u een ve
 
 ### Handelingen en beperkingen {#people-action-constraints}
 
-| Context | Soort reis | Handeling | Restricties |
-| ------- | ------------ | ------ | ----------- |
-| [&#x200B; Journey Optimizer B2B &#x200B;](#journey-optimizer-b2b-actions) | <li>Rekeningoverzicht <li>Personenreis | [!UICONTROL Add to external customer audience] | <li>Externe klantgroep selecteren |
-| | <li>Rekeningoverzicht | [!UICONTROL Assign to Buying Group] | <li>Belang van oplossing selecteren <li>Rol selecteren |
-| | <li>Rekeningoverzicht | [!UICONTROL Change Score] | Score-naam <li>Score wijzigen |
-| | <li>Rekeningoverzicht <li>Personenreis | [!UICONTROL Person Interesting Moment] | <li>Type <li>Beschrijving |
-| | <li>Rekeningoverzicht | [!UICONTROL Personalize web experience] (Beta) | <li>Webervaring maken/bewerken |
-| | <li>Rekeningoverzicht | [!UICONTROL Remove from Buying Group] | <li>Belang van oplossing selecteren |
-| | <li>Rekeningoverzicht <li>Personenreis | [!UICONTROL Send email] | <li>E-mail maken |
-| | <li>Rekeningoverzicht | [!UICONTROL Send SMS] | <li>SMS maken |
-| | <li>Rekeningoverzicht <li>Personenreis | [!UICONTROL Update person profile] | <li>Persoonlijk kenmerk selecteren <li>Nieuwe waarde instellen |
-| [&#x200B; Marketo Engage &#x200B;](#marketo-engage-actions) | <li>Rekeningoverzicht <li>Personenreis | [!UICONTROL Add to Marketo Engage Request campaign] | <li>Marketo Engage-werkruimte selecteren <li>Aanvraagcampagne selecteren |
+| Context | Actie | Soort reis | Restricties |
+| ------- | ------ | ------------ | ----------- |
+| [ Journey Optimizer B2B ](#journey-optimizer-b2b-actions) | [!UICONTROL Add to external customer audience] | <li>Rekeningoverzicht <li>Personenreis | <li>Externe klantgroep selecteren |
+| | [!UICONTROL Assign to Buying Group] | <li>Rekeningoverzicht | <li>Belang van oplossing selecteren <li>Rol selecteren |
+| | [!UICONTROL Change Score] | <li>Rekeningoverzicht | <li>Score-naam <li>Score wijzigen |
+| | [!UICONTROL Person Interesting Moment] | <li>Rekeningoverzicht <li>Personenreis | <li>Type <li>Beschrijving |
+| | [!UICONTROL Personalize web experience] (Beta) | <li>Rekeningoverzicht | <li>Webervaring maken/bewerken |
+| | [!UICONTROL Remove from Buying Group] | <li>Rekeningoverzicht | <li>Belang van oplossing selecteren |
+| | [!UICONTROL Send email] | <li>Rekeningoverzicht <li>Personenreis | <li>E-mail maken |
+| | [!UICONTROL Send SMS] | <li>Rekeningoverzicht | <li>SMS maken |
+| | [!UICONTROL Update person profile] | <li>Rekeningoverzicht <li>Personenreis | <li>Persoonlijk kenmerk selecteren <li>Nieuwe waarde instellen |
+| [ Marketo Engage ](#marketo-engage-actions) | [!UICONTROL Add to Marketo request campaign] | <li>Rekeningoverzicht <li>Personenreis | <li>Marketo Engage-werkruimte selecteren <li>Aanvraagcampagne selecteren |
 | | [!UICONTROL Add to Marketo list] | <li>Rekeningoverzicht <li>Personenreis | <li>Naam van externe Marketo-verbinding <li>Lijstnaam |
-| | [!UICONTROL Remove from Marketo list] | Rekeningoverzicht <li>Personenreis | <li>Naam van externe Marketo-verbinding <li>Lijstnaam |
+| | [!UICONTROL Remove from Marketo list] | <li>Rekeningoverzicht <li>Personenreis | <li>Naam van externe Marketo-verbinding <li>Lijstnaam |
 
 >[!NOTE]
 >
->De _[!UICONTROL Change People Partition in Marketo Engage]_&#x200B;actie wordt afgekeurd voor de versie 2025.10 en is niet beschikbaar op de [&#x200B; vereenvoudigde architectuur &#x200B;](../simplified-architecture.md) voor Journey Optimizer B2B edition.<br/>
+>De _[!UICONTROL Change People Partition in Marketo Engage]_en_[!UICONTROL Change Score]_ acties zijn verouderd voor versie 2025.10 en zijn niet beschikbaar op de [ vereenvoudigde architectuur ](../simplified-architecture.md) voor Journey Optimizer B2B edition.<br/>
 >
->De handeling _[!UICONTROL Change Data Value]_&#x200B;is vervangen voor de release 2025.10. Deze wordt vervangen door&#x200B;_[!UICONTROL Update person profile]_ op de vereenvoudigde architectuur.
+>De handeling _[!UICONTROL Change Data Value]_is vervangen voor de release 2025.10. Deze wordt vervangen door_[!UICONTROL Update person profile]_ op de vereenvoudigde architectuur.
 
 ### Een op personen gebaseerde actie toevoegen
 
@@ -123,7 +123,7 @@ In een rekening of een persoonreis, gebruik een actie op mensen wanneer u een ve
 
 1. Selecteer een actie in de lijst en stel de waarden voor de actie in.
 
-![&#x200B; knoop van de Reis - neem een actie op mensen &#x200B;](./assets/node-take-action-people.png){width="700" zoomable="yes"}
+![ knoop van de Reis - neem een actie op mensen ](./assets/node-take-action-people.png){width="700" zoomable="yes"}
 
 ### Journey Optimizer B2B-acties
 
@@ -137,28 +137,28 @@ Met deze actie kunt u mensen naar een extern publiek duwen dat via een betaald m
 >
 >Wanneer een kwalificerende rekening met persoonprofielen _toevoegt aan de externe knoop van het klantenpubliek_ in een gepubliceerde reis, kan het tot 48 uren voor die profielen vergen om in het externe publiek te bevolken.
 
-![&#x200B; neem een actie - voeg aan extern klantenpubliek toe &#x200B;](./assets/node-action-add-to-external-audience-options.png){width="300"}
+![ neem een actie - voeg aan extern klantenpubliek toe ](./assets/node-action-add-to-external-audience-options.png){width="300"}
 
 Wanneer u deze op personen gebaseerde actie selecteert, kunt u een nieuw extern publiek maken of een selectie maken in de lijst met bestaande externe doelgroepen.
 
 * Voor bestaande doelgroepen kunt u kiezen uit externe klantsoorten die alleen in [!DNL Journey Optimizer B2B Edition] zijn gemaakt.
-* Wanneer u een publiek creeert en het voor deze reisactie gebruikt, zorg ervoor dat u de bestemming verbindt. Voor meer informatie, zie [&#x200B; een nieuwe bestemmingsverbinding &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} en [&#x200B; Overzicht van de Activering &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} in de [!DNL Experience Platform] documentatie creëren.
+* Wanneer u een publiek creeert en het voor deze reisactie gebruikt, zorg ervoor dat u de bestemming verbindt. Voor meer informatie, zie [ een nieuwe bestemmingsverbinding ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} en [ Overzicht van de Activering ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} in de [!DNL Experience Platform] documentatie creëren.
 
-![&#x200B; Video &#x200B;](../../assets/do-not-localize/icon-video.svg){width="30"} [&#x200B; bekijk een videooverzicht voor betaalde media orchestratie &#x200B;](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
+![ Video ](../../assets/do-not-localize/icon-video.svg){width="30"} [ bekijk een videooverzicht voor betaalde media orchestratie ](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
 
-Vanaf de release 2025.10 kunt u ook externe doelgroepen die zijn gemaakt in [!DNL Experience Platform] , zoals [!DNL Adobe Target] -doelen, ordenen. Voor meer gedetailleerde informatie over deze publieksintegratie, zie [&#x200B; Adobe Target extern publiek &#x200B;](../audiences/target-external-audience.md).
+Vanaf de release 2025.10 kunt u ook externe doelgroepen die zijn gemaakt in [!DNL Experience Platform] , zoals [!DNL Adobe Target] -doelen, ordenen. Voor meer gedetailleerde informatie over deze publieksintegratie, zie [ Adobe Target extern publiek ](../audiences/target-external-audience.md).
 
 _Om een extern publiek tot stand te brengen :_
 
 1. Kies **[!UICONTROL Create new]** .
 
-1. Klik op **[!UICONTROL Create external customer audience]**.
+1. Klik op **[!UICONTROL Create external customer audience]** .
 
 1. Voer een **[!UICONTROL Name]** (vereist) en **[!UICONTROL Description]** (optioneel) in voor het nieuwe externe publiek.
 
-   ![&#x200B; voeg aan extern klantenpubliek toe - creeer publiek &#x200B;](./assets/node-action-add-to-external-create-new.png){width="300"}
+   ![ voeg aan extern klantenpubliek toe - creeer publiek ](./assets/node-action-add-to-external-create-new.png){width="300"}
 
-1. Klik op **[!UICONTROL Create]**.
+1. Klik op **[!UICONTROL Create]** .
 
    Het systeem maakt het nieuwe publiek en geeft een bevestigingsbericht weer. Vervolgens kunt u doorgaan en het gebruiken als een bestaand publiek voor de actie node.
 
@@ -168,29 +168,29 @@ _Om een extern publiek tot stand te brengen :_
 
 _Een bestaand publiek gebruiken :_
 
-1. Klik op **[!UICONTROL Select external customer audience]**.
+1. Klik op **[!UICONTROL Select external customer audience]** .
 
 1. Selecteer in het dialoogvenster het publiek dat u wilt gebruiken.
 
-   ![&#x200B; voeg aan extern klantenpubliek toe - voeg publiek &#x200B;](./assets/node-action-add-to-external-audience-select.png){width="700" zoomable="yes"} toe
+   ![ voeg aan extern klantenpubliek toe - voeg publiek ](./assets/node-action-add-to-external-audience-select.png){width="700" zoomable="yes"} toe
 
-1. Klik op **[!UICONTROL Add audience]**.
+1. Klik op **[!UICONTROL Add audience]** .
 
 +++
 
 +++[!UICONTROL Assign to Buying Group]
 
-Gebruik deze actie om personenprofielen aan a [&#x200B; toe te voegen die groep &#x200B;](../buying-groups/buying-groups-overview.md) kopen op een geselecteerde oplossingsrente en een rol wordt gebaseerd.
+Gebruik deze actie om personenprofielen aan a [ toe te voegen die groep ](../buying-groups/buying-groups-overview.md) kopen op een geselecteerde oplossingsrente en een rol wordt gebaseerd.
 
-![&#x200B; neem een actie - voeg aan het Kopen Groep toe &#x200B;](./assets/node-action-add-to-buying-group.png){width="300"}
+![ neem een actie - voeg aan het Kopen Groep toe ](./assets/node-action-add-to-buying-group.png){width="300"}
 
 +++
 
 +++[!UICONTROL Change Score]
 
-Gebruik deze handeling om de score voor personen in Marketo Engage te wijzigen. [Meer informatie](https://experienceleague.adobe.com/nl/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
+Gebruik deze handeling om de score voor personen in Marketo Engage te wijzigen. [Meer informatie ](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
 
-![&#x200B; neem een actie - de score van de Verandering &#x200B;](./assets/node-action-change-score.png){width="300"}
+![ neem een actie - de score van de Verandering ](./assets/node-action-change-score.png){width="300"}
 
 +++
 
@@ -198,57 +198,57 @@ Gebruik deze handeling om de score voor personen in Marketo Engage te wijzigen. 
 
 Gebruik deze handeling om een interessant moment voor mensen vast te leggen. Kies een type (E-mail, Mijlpaal, of Web) en voeg een beschrijving (facultatief) toe.
 
-![&#x200B; neem een actie - Persoonlijk interessant moment &#x200B;](./assets/node-action-person-interesting-moment.png){width="300"}
+![ neem een actie - Persoonlijk interessant moment ](./assets/node-action-person-interesting-moment.png){width="300"}
 
 +++
 
 +++[!UICONTROL Personalize web experience] (Beta)
 
-Gebruik deze actie om [&#x200B; gepersonaliseerde ervaringen &#x200B;](../content/web-experiences.md) direct op uw website tot stand te brengen. De functie Webkanaal biedt een flexibele toolkit die u kunt gebruiken om de betrokkenheid met op maat gemaakte webinhoud te verbeteren.
+Gebruik deze actie om [ gepersonaliseerde ervaringen ](../content/web-experiences.md) direct op uw website tot stand te brengen. De functie Webkanaal biedt een flexibele toolkit die u kunt gebruiken om de betrokkenheid met op maat gemaakte webinhoud te verbeteren.
 
-![&#x200B; neem een actie - Personaliseer Webervaring &#x200B;](./assets/node-action-person-personalize-web-experience.png){width="300"}
+![ neem een actie - Personaliseer Webervaring ](./assets/node-action-person-personalize-web-experience.png){width="300"}
 
 +++
 
 +++[!UICONTROL Remove from Buying Group]
 
-Gebruik deze actie om personenprofielen uit a [&#x200B; te verwijderen die groep &#x200B;](../buying-groups/buying-groups-overview.md) kopen op een geselecteerde oplossingsrente wordt gebaseerd.
+Gebruik deze actie om personenprofielen uit a [ te verwijderen die groep ](../buying-groups/buying-groups-overview.md) kopen op een geselecteerde oplossingsrente wordt gebaseerd.
 
-![&#x200B; neem een actie - voeg aan het Kopen Groep toe &#x200B;](./assets/node-action-remove-from-buying-group.png){width="300"}
+![ neem een actie - voeg aan het Kopen Groep toe ](./assets/node-action-remove-from-buying-group.png){width="300"}
 
 +++
 
 +++[!UICONTROL Send email]
 
-Gebruik deze handeling om een e-mail te verzenden. Nadat u [&#x200B; e-mail &#x200B;](../content/add-email.md#add-an-email-to-your-journey) voor de knoop creeert, kunt u, e-mailberichten in de e-mailontwerpruimte ontwerpen personaliseren en voorproef (zie [&#x200B; E-mail authoring &#x200B;](../content/email-authoring.md)). U kunt ook een [&#x200B; e-mail van Marketo Engage &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"} verzenden. Selecteer de Marketo Engage-werkruimte en selecteer vervolgens het e-mailbericht dat u wilt verzenden.
+Gebruik deze handeling om een e-mail te verzenden. Nadat u [ e-mail ](../content/add-email.md#add-an-email-to-your-journey) voor de knoop creeert, kunt u, e-mailberichten in de e-mailontwerpruimte ontwerpen personaliseren en voorproef (zie [ E-mail authoring ](../content/email-authoring.md)). U kunt ook een [ e-mail van Marketo Engage ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"} verzenden. Selecteer de Marketo Engage-werkruimte en selecteer vervolgens het e-mailbericht dat u wilt verzenden.
 
-![&#x200B; neem een actie - verzend email &#x200B;](./assets/node-action-send-email-from-marketo.png){width="300"}
+![ neem een actie - verzend email ](./assets/node-action-send-email-from-marketo.png){width="300"}
 
 >[!NOTE]
 >
->U kunt deduplicatie via e-mail gebruiken voor reizen naar uw account om ervoor te zorgen dat hetzelfde e-mailadres niet meerdere keren naar hetzelfde e-mailadres wordt verzonden tijdens een rit. Voor meer informatie, zie [&#x200B; E-mail deduplicatie &#x200B;](../content/email-deduplication.md).
+>U kunt deduplicatie via e-mail gebruiken voor reizen naar uw account om ervoor te zorgen dat hetzelfde e-mailadres niet meerdere keren naar hetzelfde e-mailadres wordt verzonden tijdens een rit. Voor meer informatie, zie [ E-mail deduplicatie ](../content/email-deduplication.md).
 
 +++
 
 +++[!UICONTROL Send SMS]
 
-Gebruik deze actie om een SMS-bericht te verzenden. U kunt tot stand brengen, personaliseren, en voorproefSMS berichten in de visuele ontwerpruimte (zie [&#x200B; het auteursrecht van SMS &#x200B;](../content/sms-authoring.md)).
+Gebruik deze actie om een SMS-bericht te verzenden. U kunt tot stand brengen, personaliseren, en voorproefSMS berichten in de visuele ontwerpruimte (zie [ het auteursrecht van SMS ](../content/sms-authoring.md)).
 
-![&#x200B; neem een actie - verzend SMS &#x200B;](./assets/node-action-send-sms.png){width="300"}
+![ neem een actie - verzend SMS ](./assets/node-action-send-sms.png){width="300"}
 
 +++
 
 +++[!UICONTROL Update person profile]
 
-Gebruik deze actie om de waarde van de attributen van het a [&#x200B; personenprofiel &#x200B;](../admin/field-mapping.md#xdm-business-person-attributes) te veranderen. Selecteer het kenmerk en stel de nieuwe waarde in.
+Gebruik deze actie om de waarde van de attributen van het a [ personenprofiel ](../admin/field-mapping.md#xdm-business-person-attributes) te veranderen. Selecteer het kenmerk en stel de nieuwe waarde in.
 
-![&#x200B; neem een actie - de personenprofiel van de Update &#x200B;](./assets/node-action-update-person-profile.png){width="300"}
+![ neem een actie - de personenprofiel van de Update ](./assets/node-action-update-person-profile.png){width="300"}
 
 >[!NOTE]
 >
->_[!UICONTROL Update person profile]_&#x200B;vervangt de&#x200B;_[!UICONTROL Change Data Value]_ actie binnen de [&#x200B; vereenvoudigde architectuur &#x200B;](../simplified-architecture.md).<br/>
+>_[!UICONTROL Update person profile]_vervangt de_[!UICONTROL Change Data Value]_ actie binnen de [ vereenvoudigde architectuur ](../simplified-architecture.md).<br/>
 >
->Een beheerder kan de beschikbare kenmerken voor het afzonderlijke XDM-profiel configureren door de velden in het dialoogvenster _[!UICONTROL XDM Classes]_> [!UICONTROL Standard classes] bij te werken. Voor meer informatie, zie [&#x200B; Standaardklassen &#x200B;](../admin/xdm-field-management.md#standard-classes).
+>Een beheerder kan de beschikbare kenmerken voor het afzonderlijke XDM-profiel configureren door de velden in het dialoogvenster _[!UICONTROL XDM Classes]_> [!UICONTROL Standard classes] bij te werken. Voor meer informatie, zie [ Standaardklassen ](../admin/xdm-field-management.md#standard-classes).
 
 +++
 
@@ -258,40 +258,40 @@ De Marketo Engage-acties op basis van personen zijn ontworpen om uw marketingorg
 
 >[!NOTE]
 >
->Voor de Marketo Engage-acties is geconfigureerde integratie met een of meer externe Marketo Engage-instanties vereist. <!-- For detailed information about configuring these connections, see #. -->
+>Voor de Marketo Engage-acties is geconfigureerde integratie met een of meer externe Marketo Engage-instanties vereist. Voor gedetailleerde informatie over deze configuratie, zie [_de verbindingen van Marketo Engage activeren om acties_](../admin/marketo-actions-connect.md) te steunen.
 
 U kunt bijvoorbeeld campagnes in Marketo Engage onderdrukken voor mensen die deel uitmaken van het kopen van groepen in Journey Optimizer B2B edition. In dit geval, kunt u een statische lijst in Marketo Engage specifiek voor de oplossingsrente tot stand brengen. Dan, op een gespleten weg door groep te kopen, gebruik _toevoegen aan de lijst van Marketo_ actie van een vervoerknoop. Met deze handeling voegt u kopende groepsleden toe aan een bepaalde statische lijst in een verbonden Marketo Engage-instantie. Dan, gebruik de oplossing geconcentreerde statische lijst voor een slim lijstfilter in Marketo Engage.
 
-+++[!UICONTROL Add to Marketo Engage Request campaign]
++++[!UICONTROL Add to Marketo request campaign]
 
-Gebruik deze actie om personenprofielen aan de campagne van het a [&#x200B; verzoek &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} in Marketo Engage toe te voegen.
+Gebruik deze actie om personenprofielen aan de campagne van het a [ verzoek ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} in een verbonden instantie van Marketo Engage toe te voegen.
 
 Selecteer eerst een aangesloten Marketo Engage-instantie. Selecteer vervolgens de naam van de aanvraagcampagne.
 
-![&#x200B; neem een actie - voeg aan de campagne van het Verzoek van Marketo Engage toe &#x200B;](./assets/node-action-add-to-request-campaign-options.png){width="300"}
+![ neem een actie - voeg aan de campagne van het Verzoek van Marketo Engage toe ](./assets/node-action-add-to-request-campaign-options.png){width="300"}
 
 +++
 
 +++[!UICONTROL Add to Marketo list]
 
-Gebruik deze actie om mensen aan a [&#x200B; Statische Lijst &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} in Marketo Engage toe te voegen.
+Gebruik deze actie om mensen aan a [ Statische Lijst ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} in een verbonden instantie van Marketo Engage toe te voegen.
 
 Selecteer eerst een aangesloten Marketo Engage-instantie. Selecteer vervolgens de lijstnaam.
 
-![&#x200B; neem een actie - voeg aan de lijst van Marketo toe &#x200B;](./assets/node-action-add-to-list-options.png){width="300"}
+![ neem een actie - voeg aan de lijst van Marketo toe ](./assets/node-action-add-to-list-options.png){width="300"}
 
 +++
 
 +++[!UICONTROL Remove from Marketo list]
 
-Gebruik deze actie om mensen uit a [&#x200B; Statische Lijst &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} in Marketo Engage te verwijderen.
+Gebruik deze actie om mensen uit a [ Statische Lijst ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} in Marketo Engage te verwijderen.
 
 Selecteer eerst een aangesloten Marketo Engage-instantie. Selecteer vervolgens de lijstnaam.
 
-![&#x200B; neem een actie - verwijder uit de lijst van Marketo &#x200B;](./assets/node-action-remove-from-list-options.png){width="300"}
+![ neem een actie - verwijder uit de lijst van Marketo ](./assets/node-action-remove-from-list-options.png){width="300"}
 
 +++
 
 ## Video over overzicht
 
->[!VIDEO](https://video.tv.adobe.com/v/3443251/?captions=dut&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)
