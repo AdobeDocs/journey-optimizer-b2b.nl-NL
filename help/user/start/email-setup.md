@@ -1,18 +1,19 @@
 ---
 title: E-mailinstelling
-description: Plaatsaanduiding
+description: Configureer Marketo Engage-opties voor de verzending van Journey Optimizer B2B-e-mailberichten, zoals standaardinstellingen, afmelden, webweergave, limieten voor objecten Snelheid, kopteksten bijhouden en beide filteren.
 feature: Setup, Channels
 role: Admin
-source-git-commit: 55ffa7995a8d74d352a52f14bed5dd89d7d1c239
+exl-id: 5b28d8f2-a3a4-420a-ab03-d1115cf3ab61
+source-git-commit: 0a9cff812d0631a34a09cca059ffb8496248c2b4
 workflow-type: tm+mt
-source-wordcount: '1225'
-ht-degree: 0%
+source-wordcount: '1252'
+ht-degree: 82%
 
 ---
 
 # E-mailinstelling
 
-Stel de volgende e-mailopties in als ondersteuning voor de infrastructuur voor e-maillevering die wordt geleverd door het bijgevoegde Marketo Egage-exemplaar. Een Marketo Engage-productbeheerder kan deze instellingen configureren door naar het gebied **[!UICONTROL Admin]** in de Marketo Engage-instantie te navigeren en **[!UICONTROL Email]** te selecteren.
+Stel de volgende e-mailopties in om de infrastructuur voor het leveren van e-mail te ondersteunen die door het bijgevoegde Marketo Engage-exemplaar wordt geboden. Een Marketo Engage-productbeheerder kan deze instellingen configureren door naar het gebied **[!UICONTROL Admin]** in de Marketo Engage-instantie te navigeren en **[!UICONTROL Email]** te selecteren.
 
 ## E-mailinstellingen
 
@@ -28,9 +29,9 @@ Wijzig de waarden voor Van e-mail en label zodat nieuwe e-mails automatisch met 
 
 1. Ga naar het gebied **[!UICONTROL Admin]** in de bijgevoegde Marketo Engage-instantie en selecteer **[!UICONTROL Email]** .
 
-1. Voer in het deelvenster _[!UICONTROL Settings]_&#x200B;de gewenste standaardwaarden in voor **[!UICONTROL From Email]**&#x200B;en **[!UICONTROL From Label]**.
+1. Voer in het deelvenster _[!UICONTROL Settings]_de gewenste standaardwaarden in voor **[!UICONTROL From Email]**en **[!UICONTROL From Label]**.
 
-   ![&#x200B; E-mailmontages - van E-mail en van etiket standaardwaarden &#x200B;](./assets/me-admin-email-settings-from.png){width="500"}
+   ![ E-mailmontages - van E-mail en van etiket standaardwaarden ](./assets/me-admin-email-settings-from.png){width="500"}
 
 1. Klik op **[!UICONTROL Save Changes]** .
 
@@ -40,13 +41,13 @@ Voor niet-operationele marketinge-mails worden onderaan tekst en koppelingen toe
 
 1. Ga naar het gebied **[!UICONTROL Admin]** in de bijgevoegde Marketo Engage-instantie en selecteer **[!UICONTROL Email]** .
 
-1. Voer in het deelvenster _[!UICONTROL Settings]_&#x200B;de gewenste standaardwaarden in voor **[!UICONTROL Unsubscribe HTML]**&#x200B;en **[!UICONTROL Unsubscribe Text]**.
+1. Voer in het deelvenster _[!UICONTROL Settings]_de gewenste standaardwaarden in voor **[!UICONTROL Unsubscribe HTML]**en **[!UICONTROL Unsubscribe Text]**.
 
    >[!TIP]
    >
    >Marketers kunnen de positie van de HTML die zich afmeldt in hun e-mail wijzigen met behulp van systeemtokens.
 
-   ![&#x200B; E-mailmontages - Unsubscribe HTML en Unsubscribe de standaardwaarden van de Tekst &#x200B;](./assets/me-admin-email-settings-unsubscribe.png){width="500"}
+   ![ E-mailmontages - Unsubscribe HTML en Unsubscribe de standaardwaarden van de Tekst ](./assets/me-admin-email-settings-unsubscribe.png){width="500"}
 
    >[!CAUTION]
    >
@@ -57,7 +58,7 @@ Voor niet-operationele marketinge-mails worden onderaan tekst en koppelingen toe
 
 1. Klik op **[!UICONTROL Save Changes]** .
 
-Als u ooit de standaardsysteeminhoud moet herstellen, kopieert en plakt u het volgende:
+Als u ooit de standaardsysteeminhoud moet terugkeren, kopieert en plakt u het volgende:
 
 +++ Standaardtekst voor abonnement op systeem
 
@@ -70,13 +71,13 @@ Als u ooit de standaardsysteeminhoud moet herstellen, kopieert en plakt u het vo
 
 ### Weergeven als webpagina
 
-E-mailinhoud heeft beperkte weergavemogelijkheden (beperkte CSS en geen JavaScript of formulieren). De verkopers kunnen _Mening gebruiken als de optie van de Pagina van het Web_ een koekje voor de e-mailontvanger gebruikend Marketo Munchkin toepast. Als productbeheerder, zou u het gebrek HTML en de tekst moeten vormen die wordt bevolkt wanneer een teller deze optie kiest.
+E-mailinhoud heeft beperkte weergavemogelijkheden (beperkte CSS en geen JavaScript of formulieren). De verkopers kunnen de _Mening als Web-pagina_ optie gebruiken om een koekje voor de e-mailontvanger toe te passen gebruikend Marketo Munchkin. Als productbeheerder, zou u het gebrek HTML en de tekst moeten vormen die wordt bevolkt wanneer een teller deze optie kiest.
 
 1. Ga naar het gebied **[!UICONTROL Admin]** in de bijgevoegde Marketo Engage-instantie en selecteer **[!UICONTROL Email]** .
 
-1. Wijzig in het deelvenster _[!UICONTROL Settings]_&#x200B;de inhoud in de velden **[!UICONTROL View as Web Page HTML]**&#x200B;en **[!UICONTROL View as Web Page Text]**&#x200B;om de tint en het bericht weer te geven.
+1. Wijzig in het deelvenster _[!UICONTROL Settings]_de inhoud in de velden **[!UICONTROL View as Web Page HTML]**en **[!UICONTROL View as Web Page Text]**om de tint en het bericht weer te geven.
 
-   ![&#x200B; e-mailmontages - Mening als Web-pagina HTML en Mening als de standaardwaarden van de Tekst van de Web-pagina &#x200B;](./assets/me-admin-email-settings-view-as-web-page.png){width="500"}
+   ![ e-mailmontages - Mening als Web-pagina HTML en Mening als de standaardwaarden van de Tekst van de Web-pagina ](./assets/me-admin-email-settings-view-as-web-page.png){width="500"}
 
    >[!CAUTION]
    >
@@ -93,7 +94,7 @@ E-mailinhoud heeft beperkte weergavemogelijkheden (beperkte CSS en geen JavaScri
 
 1. Klik op **[!UICONTROL Save Changes]** .
 
-Als u ooit de standaardsysteeminhoud moet herstellen, kopieert en plakt u het volgende:
+Als u ooit de standaardsysteeminhoud moet terugkeren, kopieert en plakt u het volgende:
 
 +++ Standaardwebpagina van systeem HTML
 
@@ -116,7 +117,7 @@ To view this email as a web page, go to the following address:
 
 Als u [!DNL Velocity Script] gebruikt om aangepaste objectgegevens in e-mails weer te geven, past u de ophaallimiet van aangepaste bovenliggende objecten aan. Standaard biedt de limiet toegang tot 10 aangepaste bovenliggende objecten vanuit het snelheidsscript. U kunt deze limiet indien nodig verhogen.
 
-[[!DNL Apache Velocity] &#x200B;](https://velocity.apache.org/) is een taal die op [!DNL Java] wordt voortgebouwd die voor het malplaatjes en scripting van de inhoud van HTML wordt ontworpen. De e-mailinfrastructuur van Marketo Engage ondersteunt het gebruik ervan in e-mailberichten via scripttokens, die toegang bieden tot gegevens die zijn opgeslagen in aangepaste objecten.
+[[!DNL Apache Velocity] ](https://velocity.apache.org/) is een taal die op [!DNL Java] wordt voortgebouwd die voor het malplaatjes en scripting van de inhoud van HTML wordt ontworpen. De e-mailinfrastructuur van Marketo Engage ondersteunt het gebruik ervan in e-mailberichten via scripttokens, die toegang bieden tot gegevens die zijn opgeslagen in aangepaste objecten.
 
 U kunt naar bovenliggende en onderliggende aangepaste objecten verwijzen die rechtstreeks met de lead zijn verbonden, of naar contactpersonen, maar niet naar aangepaste objecten op het derde niveau. Voor elk aangepast object zijn de 10 meest recente bijgewerkte records per persoon/contactpersoon beschikbaar bij uitvoering en worden deze geordend van de meest recente update (op `0` ) tot de oudste update (op `9` ).
 
@@ -124,23 +125,23 @@ _De limiet wijzigen :_
 
 1. Ga naar het gebied **[!UICONTROL Admin]** in de bijgevoegde Marketo Engage-instantie en selecteer **[!UICONTROL Email]** .
 
-1. Blader naar het deelvenster _[!UICONTROL Custom Object Retrieval Limits]_&#x200B;en voer een nieuwe waarde in in het dialoogvenster **[!UICONTROL Parent Retrieval Limit]**&#x200B;veld.
+1. Blader naar het deelvenster _[!UICONTROL Custom Object Retrieval Limits]_en voer een nieuwe waarde in in het dialoogvenster **[!UICONTROL Parent Retrieval Limit]**veld.
 
-   ![&#x200B; Marketo Engage e-mailadmin - het Terugwinnen van Objecten van de Douane de standaardwaarden van Limieten &#x200B;](./assets/me-admin-email-custom-object-retrieval-limits.png){width="500"}
+   ![ Marketo Engage e-mailadmin - het Terugwinnen van Objecten van de Douane de standaardwaarden van Limieten ](./assets/me-admin-email-custom-object-retrieval-limits.png){width="500"}
 
-   Waarden tussen 10 en 100 worden ondersteund. _[!UICONTROL Child Retrieval Limit]_&#x200B;wordt automatisch geplaatst door 1000 door de oudergrens te verdelen. Als u bijvoorbeeld de bovenliggende limiet instelt op 50, wordt de onderliggende limiet berekend als 20 (1000:50 = 20).
+   Waarden tussen 10 en 100 worden ondersteund. _[!UICONTROL Child Retrieval Limit]_wordt automatisch geplaatst door 1000 door de oudergrens te verdelen. Als u bijvoorbeeld de bovenliggende limiet instelt op 50, wordt de onderliggende limiet berekend als 20 (1000:50 = 20).
 
 1. Klik op **[!UICONTROL Save Changes]** .
 
 ## Aangepaste koptekstopties
 
-Wijzig _[!UICONTROL Custom Header Options]_&#x200B;voor e-mail om koppelingkoppen voor het bijhouden van e-mail te configureren. Schakel deze opties in om veilige koppelingen voor tekstspatiëring te implementeren met behulp van HTTPS via Strikt vervoer.
+Wijzig _[!UICONTROL Custom Header Options]_voor e-mail om koppelingkoppen voor het bijhouden van e-mail te configureren. Schakel deze opties in om veilige koppelingen voor tekstspatiëring te implementeren met behulp van HTTPS via Strikt vervoer.
 
 1. Ga naar het gebied **[!UICONTROL Admin]** in de bijgevoegde Marketo Engage-instantie en selecteer **[!UICONTROL Email]** .
 
-1. Blader naar het deelvenster _[!UICONTROL Custom Header Options]_&#x200B;en wijzig de instelling volgens het beleid voor het bijhouden van koppelingen:
+1. Blader naar het deelvenster _[!UICONTROL Custom Header Options]_en wijzig de instelling volgens het beleid voor het bijhouden van koppelingen:
 
-   ![&#x200B; Marketo Engage e-mailadmin - de standaardmontages van de Opties van de Kopbal van de Douane &#x200B;](./assets/me-admin-email-custom-object-retrieval-limits.png){width="500"}
+   ![ Marketo Engage e-mailadmin - de standaardmontages van de Opties van de Kopbal van de Douane ](./assets/me-admin-email-custom-object-retrieval-limits.png){width="500"}
 
    * **[!UICONTROL Strict Transport Security]** - Stel deze optie in op Ingeschakeld om te garanderen dat koppelingen altijd via HTTPS worden verzonden (moet alleen worden ingesteld voor abonnementen met volgkoppelingen die zijn beveiligd door SSL).
    * **[!UICONTROL Max-age]** - Dit veld ondersteunt de verplichte instructie om in seconden de tijd op te geven die de browser moet onthouden om alleen via HTTPS toegang te krijgen tot het domein.
@@ -156,8 +157,8 @@ Wijzig _[!UICONTROL Custom Header Options]_&#x200B;voor e-mail om koppelingkoppe
 
 E-mail beide activiteit, die ook als niet-menselijke interactie (NHI) wordt bedoeld, kan uw e-mail _openen_ en _klikt_ gegevens, die uw betrokkenheidsmetriek vervormen en op gebeurtenis-gebaseerde reisvooruitgang teweegbrengen. Gebruik filtering van e-mailfilters om de integriteit van maatgegevens en inzichten voor betrokkenheid van klikken te behouden. Er zijn twee methoden om vermoedelijke beide activiteiten te identificeren:
 
-* _&#x200B;**[!UICONTROL Match with IAB Bot list]**&#x200B;_- De activiteiten die met om het even wat op de [&#x200B; Interactieve de bot van het Bureau van Advertising &#x200B;](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} (het adres van de Agent/IP van de Gebruiker) aanpassen zijn duidelijk als bots.
-* _&#x200B;**[!UICONTROL Match with Proximity Pattern]**&#x200B;_- Twee of meer activiteiten die tegelijkertijd (in minder dan een seconde) plaatsvinden, worden aangeduid als bots. Kenmerken die in aanmerking worden genomen tijdens de vergelijking zijn:
+* _**[!UICONTROL Match with IAB Bot list]**_- De activiteiten die met om het even wat op de [ Interactieve de bot van het Bureau van Advertising ](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} (het adres van de Agent/IP van de Gebruiker) aanpassen zijn duidelijk als bots.
+* _**[!UICONTROL Match with Proximity Pattern]**_- Twee of meer activiteiten die tegelijkertijd (in minder dan een seconde) plaatsvinden, worden aangeduid als bots. Kenmerken die in aanmerking worden genomen tijdens de vergelijking zijn:
    * ID lead (moet hetzelfde zijn)
    * E-mailmiddel (moet hetzelfde zijn)
    * Klik op Koppelen of e-mail openen
@@ -173,25 +174,25 @@ Voor e-mailkoppelingen klik en e-mail open activiteit, worden de attributen gevu
 
 1. Selecteer de tab **[!UICONTROL Bot Activity]** .
 
-   ![&#x200B; Marketo Engage e-mailadmin - de Bodemactiviteiten tabel &#x200B;](./assets/me-admin-email-bot-activity.png){width="700" zoomable="yes"}
+   ![ Marketo Engage e-mailadmin - de Bodemactiviteiten tabel ](./assets/me-admin-email-bot-activity.png){width="700" zoomable="yes"}
 
    In het paneel Bodemactiviteitidentificatie worden twee schuifregelaars weergegeven waarmee u beide activiteiten kunt identificeren.
 
 1. Schakel de schuifregelaar in of uit.
 
-   Kies _[!UICONTROL Log Bot Activity]_&#x200B;of&#x200B;_[!UICONTROL Filter Bot Activity]_ voor elke methode die u inschakelt.
+   Kies _[!UICONTROL Log Bot Activity]_of_[!UICONTROL Filter Bot Activity]_ voor elke methode die u inschakelt.
 
    >[!IMPORTANT]
    >
    >Als u [!UICONTROL Filter Bot Activity] kiest, wordt mogelijk een druppel in het e-mailbericht weergegeven en wordt op de knop geklikt omdat er geen onjuiste handelingen meer worden uitgevoerd.
 
-   ![&#x200B; Marketo Engage e-mailadmin - de opties van de Identificatie van de Activiteit van de Bot &#x200B;](./assets/me-admin-email-bot-activity-set-filters.png){width="500"}
+   ![ Marketo Engage e-mailadmin - de opties van de Identificatie van de Activiteit van de Bot ](./assets/me-admin-email-bot-activity-set-filters.png){width="500"}
 
-   Voor _[!UICONTROL Match with Proximity Pattern]_&#x200B;kunt u ook de hoeveelheid seconden voor **[!UICONTROL Duration Between Activities]**&#x200B;instellen (de standaardwaarde is `0` , het maximum is `3` ).
+   Voor _[!UICONTROL Match with Proximity Pattern]_kunt u ook het aantal seconden instellen voor **[!UICONTROL Duration Between Activities]**(de standaardwaarde is `0` , de maximale waarde is `3` ).
 
    >[!NOTE]
    >
-   >Met _Duur tussen Activiteiten_ die aan `0` seconden wordt geplaatst, identificeert Marketo Engage e-mailactiviteiten die bij de nauwkeurige zelfde seconde gebeuren. Als er meerdere e-mailactiviteiten plaatsvinden binnen de opgegeven hoeveelheid seconden, wordt deze geïdentificeerd als beide activiteiten.
+   >Met _Duur tussen Activiteiten_ die aan `0` seconden wordt geplaatst, identificeert Marketo Engage e-mailactiviteiten die bij die nauwkeurige seconde gebeuren. Als er meerdere e-mailactiviteiten plaatsvinden binnen het opgegeven aantal seconden, wordt dit aangegeven als beide activiteiten.
 
    Als u een van de filtermethoden wilt uitschakelen, schakelt u de schuifregelaar naar links. Als u dat wel doet, worden de gegevens niet opnieuw ingesteld.
 
@@ -255,7 +256,6 @@ Adobe heeft een lijst met IP-adressen geïdentificeerd die verantwoordelijk zijn
 
 >[!NOTE]
 >
->Elk IP adres wordt zorgvuldig geanalyseerd en onderzocht alvorens het in deze lijst wordt opgenomen, die ervoor zorgt slechts de meest kritieke en schadelijke IPs wordt geblokkeerd.
+>Elk IP adres wordt zorgvuldig geanalyseerd en onderzocht alvorens het in deze lijst wordt opgenomen, die ervoor zorgen dat slechts de meest kritieke en schadelijke IPs wordt geblokkeerd.
 
 +++
-

@@ -4,10 +4,10 @@ description: Stel Journey Optimizer B2B edition in op de vereenvoudigde architec
 feature: Setup, Administration
 role: Admin, Data Engineer
 exl-id: 81232976-09d6-4e10-a034-5c193a63b7df
-source-git-commit: 38d1794ed30a34dbb34dfaec2d3088bc3a4680ac
+source-git-commit: 53bf3ce685079df16752af49c3b61f583f0b72e7
 workflow-type: tm+mt
 source-wordcount: '884'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Gebruik deze controlelijst om de installatie van Journey Optimizer B2B edition o
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Selectievakje"/></td>
 <td>Verzamel Experience Platform API-referenties en vereiste headers.</td>
-<td><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/landing/platform-apis/api-guide">Meer informatie</a></td>
+<td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-guide">Meer informatie</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Selectievakje"/></td>
@@ -249,7 +249,7 @@ Om marketers voor het opnemen van andere kanalen in hun reizen te steunen, vorm 
 </thead>
 <tbody>
 <tr>
-<td colspan="2"></strong> kanaalconfiguratie 0&rbrace; van SMS &lbrace;voor Journey Optimizer B2B edition.<strong></td>
+<td colspan="2"></strong> kanaalconfiguratie 0} van SMS {voor Journey Optimizer B2B edition.<strong></td>
 <td></td>
 </tr>
 <tr>
@@ -273,7 +273,7 @@ Om marketers voor het opnemen van andere kanalen in hun reizen te steunen, vorm 
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Selectievakje"/></td>
 <td>Configureer uw bedrijfswebsite ter ondersteuning van de Adobe Experience Platform Web SDK.</td>
-<td><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/collection/js/js-overview">Meer informatie</a></td>
+<td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview">Meer informatie</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Selectievakje"/></td>
@@ -336,12 +336,12 @@ Wanneer de levering volledig is, zijn de zandbakken verbindend, en de aanvankeli
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Selectievakje"/></td>
 <td>Een Marketo Engage-productprofiel maken in de Adobe Admin Console (alleen nieuw Marketo Engage-exemplaar)</td>
-<td><a href="./admin/user-management.md#create-the-marketo-engage-product-profile">Meer informatie</a></td>
+<td><a href="./admin/user-management.md#marketo-engage-profile">Meer informatie</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Selectievakje"/></td>
 <td>Een gebruikersgroep toevoegen voor het profiel</td>
-<td><a href="./admin/user-management.md#add-a-user-group-for-the-profile">Meer informatie</a></td>
+<td><a href="./admin/user-management.md#add-user-group">Meer informatie</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Selectievakje"/></td>
