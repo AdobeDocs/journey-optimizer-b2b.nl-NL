@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B edition-documentatie
 user-guide-description: Meer informatie over Adobe Journey Optimizer B2B edition en hoe u dit kunt gebruiken om accounts te ordenen en groepsreizen te kopen met behulp van ingebouwde generatieve AI en toonaangevende automatisering.
-source-git-commit: 7ebf73a1cb34143d20a49f5d1ba82568718e0ca4
+source-git-commit: 8113b0a7e081a95b45e46060502fe24263e63364
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 99%
+source-wordcount: '425'
+ht-degree: 98%
 
 ---
 
@@ -47,13 +47,14 @@ ht-degree: 99%
       + [Personpubliek (Beta)](./journeys/person-audience-nodes.md)
       + [Handeling uitvoeren](./journeys/action-nodes.md)
       + [Luisteren naar een gebeurtenis](./journeys/listen-for-event-nodes.md)
-      + [Paden splitsen en samenvoegen](./journeys/split-merge-paths-nodes.md)
+      + [ Splits en voeg wegen ](./journeys/split-merge-paths-nodes.md) samen
       + [Wachten](./journeys/wait-nodes.md)
    + [Reisgegevens](./journeys/journey-details.md)
 + Reisinhoud {#journey-content}
    + [SMS-kanaal](./content/sms-authoring.md)
    + Email channel {#email-channel}
       + [Een e-mail toevoegen](./content/add-email.md)
+      + [Optimalisatie bij verzending](./content/email-send-time-optimization.md)
       + [E-mailontwerp](./content/email-authoring.md)
       + [AI Assistant voor het schrijven van e-mail](./content/ai-assistant-emails.md)
       + [GenStudio-workflows](./content/genstudio-email-workflow.md)
@@ -125,7 +126,7 @@ ht-degree: 99%
       + [Overzicht](./content/forms.md)
       + [Formulierontwerp](./content/form-design.md)
    + Openingspagina&#39;s (Beta) {#landing-pages}
-      + [&#x200B; Overzicht &#x200B;](./content/landing-pages.md)
+      + [ Overzicht ](./content/landing-pages.md)
       + [Ontwerp bestemmingspagina](./content/landing-page-design.md)
       + [AI Assistant voor het plaatsen van pagina-inhoud](./content/ai-assistant-landing-pages.md)
    + Gereedschappen voor het ontwerpen van inhoud {#content-design}
@@ -145,7 +146,7 @@ ht-degree: 99%
 + Intelligente dashboards {#dashboards}
    + [Het dashboard met inzichten](./dashboards/intelligent-dashboard.md)
    + [Betrokkenheidsdashboard](./dashboards/engagement-dashboard.md)
-   + [&#x200B; de betrokkenheidsdashboard van het Web &#x200B;](./dashboards/web-engagement-dashboard.md)
+   + [ de betrokkenheidsdashboard van het Web ](./dashboards/web-engagement-dashboard.md)
    + [Het dashboard voor groepen kopen](./dashboards/buying-groups-dashboard.md)
    + [Rekeningjournaal](./dashboards/journeys-dashboard.md)
 + Administratie {#admin}
