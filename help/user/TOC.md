@@ -47,7 +47,7 @@ ht-degree: 98%
       + [Personpubliek (Beta)](./journeys/person-audience-nodes.md)
       + [Handeling uitvoeren](./journeys/action-nodes.md)
       + [Luisteren naar een gebeurtenis](./journeys/listen-for-event-nodes.md)
-      + [ Splits en voeg wegen ](./journeys/split-merge-paths-nodes.md) samen
+      + [&#x200B; Splits en voeg wegen  samen](./journeys/split-merge-paths-nodes.md)
       + [Wachten](./journeys/wait-nodes.md)
    + [Reisgegevens](./journeys/journey-details.md)
 + Reisinhoud {#journey-content}
@@ -126,7 +126,7 @@ ht-degree: 98%
       + [Overzicht](./content/forms.md)
       + [Formulierontwerp](./content/form-design.md)
    + Openingspagina&#39;s (Beta) {#landing-pages}
-      + [ Overzicht ](./content/landing-pages.md)
+      + [&#x200B; Overzicht &#x200B;](./content/landing-pages.md)
       + [Ontwerp bestemmingspagina](./content/landing-page-design.md)
       + [AI Assistant voor het plaatsen van pagina-inhoud](./content/ai-assistant-landing-pages.md)
    + Gereedschappen voor het ontwerpen van inhoud {#content-design}
@@ -146,7 +146,7 @@ ht-degree: 98%
 + Intelligente dashboards {#dashboards}
    + [Het dashboard met inzichten](./dashboards/intelligent-dashboard.md)
    + [Betrokkenheidsdashboard](./dashboards/engagement-dashboard.md)
-   + [ de betrokkenheidsdashboard van het Web ](./dashboards/web-engagement-dashboard.md)
+   + [&#x200B; de betrokkenheidsdashboard van het Web &#x200B;](./dashboards/web-engagement-dashboard.md)
    + [Het dashboard voor groepen kopen](./dashboards/buying-groups-dashboard.md)
    + [Rekeningjournaal](./dashboards/journeys-dashboard.md)
 + Administratie {#admin}

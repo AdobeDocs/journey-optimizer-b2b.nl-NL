@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Optimalisatie van e-mailverzendtijd
 
-Gebruik de Send-Time optimalisering (STO) eigenschap om e-mailleveringstiming voor [ personenreizen ](../journeys/journeys-overview.md) te personaliseren door te voorspellen wanneer elk profiel het meest waarschijnlijk zal in dienst nemen. In plaats van een vaste verzendtijd gebruikt STO historische e-mailbetrokkenheidssignalen om de levering op het optimale tijdstip voor elke ontvanger te plannen, waardoor de totale betrokkenheid verbetert.
+Gebruik de Send-Time optimalisering (STO) eigenschap om e-mailleveringstiming voor [&#x200B; personenreizen &#x200B;](../journeys/journeys-overview.md) te personaliseren door te voorspellen wanneer elk profiel het meest waarschijnlijk zal in dienst nemen. In plaats van een vaste verzendtijd gebruikt STO historische e-mailbetrokkenheidssignalen om de levering op het optimale tijdstip voor elke ontvanger te plannen, waardoor de totale betrokkenheid verbetert.
 
 De STO analyseert de historische betrokkenheid van elk profiel met behulp van een groot taalmodel. Het voorspelt en rangschikt potentieel verzendt tijden, dan planning levering bij de hoogste-gerangschikte tijd binnen het optimaliseringsvenster.
 
@@ -41,7 +41,7 @@ Er zijn vele **_toekomstige verhogingen_** gepland voor STO:
 
 ## Configuratie
 
-U kunt send-time optimalisering vormen wanneer u [ a _[!UICONTROL Take an action]_knoop ](../journeys/action-nodes.md) aan een persoonreis toevoegt.
+U kunt send-time optimalisering vormen wanneer u [&#x200B; a _[!UICONTROL Take an action]_&#x200B;knoop &#x200B;](../journeys/action-nodes.md) aan een persoonreis toevoegt.
 
 1. Kies **[!UICONTROL Send email]** bij _[!UICONTROL Select action]_.
 
@@ -57,14 +57,14 @@ U kunt send-time optimalisering vormen wanneer u [ a _[!UICONTROL Take an action
    >
    >Profielen met een sterke betrokkenheidsgeschiedenis worden gelijkmatig verdeeld in controle- en testgroepen om de invloed van de STO te meten. Om statistisch betrouwbare resultaten te verzekeren, wordt de verdeling van de STO vs. niet-STO beperkt tussen 30% en 70%. Hierdoor wordt voorkomen dat kleinere cohorten de resultaten scheeftrekken en zijn zinvolle vergelijkingen mogelijk.
 
-   ![ verzend de knoop van de e-mailreis - de opties van de Optimalisering van de Send-tijd ](./assets/email-node-send-time-optimization.png){width="700" zoomable="no"}
+   ![&#x200B; verzend de knoop van de e-mailreis - de opties van de Optimalisering van de Send-tijd &#x200B;](./assets/email-node-send-time-optimization.png){width="700" zoomable="no"}
 
-1. Direct na de _[!UICONTROL Send email]_knoop, [ voeg a_ toe wacht _knoop ](../journeys/wait-nodes.md).
+1. Direct na de _[!UICONTROL Send email]_&#x200B;knoop, [&#x200B; voeg a_ toe wacht _knoop &#x200B;](../journeys/wait-nodes.md).
 
    Een wachttijdknooppunt moet onmiddellijk een e-mailactie met STO-functionaliteit volgen. Het toevoegen van deze knoop zorgt ervoor dat de profielen in de reis blijven tot het volledige optimaliseringsvenster wordt ontruimd en alle STO verzendt volledig is. Als u dit knooppunt weglaat, geeft het systeem aan dat de configuratie ongeldig is.
 
-1. Nadat u de rest van de persoonreis voltooit, ga [ te werk publiceren ](../journeys/create-publish-journey.md#publish-a-journey).
+1. Nadat u de rest van de persoonreis voltooit, ga [&#x200B; te werk publiceren &#x200B;](../journeys/create-publish-journey.md#publish-a-journey).
 
 ## STO-inzichten
 
-STO de inzichten worden geleverd door de _AI Medewerker_ gebruikend de 2} de vaardigheid van de Waarneming van Journey Agent _](../agents/journey-agent.md#journey-observability-skill).[_ U kunt vragen naar gebruik, betrokkenheidsmetriek, test-/besturingsresultaten, knooppuntprestaties en algemene invloed op de reis.
+STO de inzichten worden geleverd door de _AI Medewerker_ gebruikend de 2&rbrace; de vaardigheid van de Waarneming van Journey Agent _[&#128279;](../agents/journey-agent.md#journey-observability-skill)._ U kunt vragen naar gebruik, betrokkenheidsmetriek, test-/besturingsresultaten, knooppuntprestaties en algemene invloed op de reis.
