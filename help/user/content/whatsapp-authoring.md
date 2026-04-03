@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Met Adobe Journey Optimizer B2B edition kunt u WhatsApp-berichten verzenden naar accountleden op hun mobiele apparaten. U kunt berichten maken, personaliseren en voorvertonen met goedgekeurde Meta-berichtsjablonen in de WhatsApp-editor. <!-- Test your WhatsApp messages before publishing the account journey to ensure your intended rendering, accurate personalization, and proper configuration of all settings. -->
 
-Alvorens berichten WhatsApp voor rekeningsreizen te creëren, zorg ervoor dat u het nodig [ WhatsApp gevormde kanaal WhatsApp ](../admin/configure-channels-whatsapp.md) in de _[!UICONTROL Administrator]_montages hebt.
+Alvorens berichten WhatsApp voor rekeningsreizen te creëren, zorg ervoor dat u het nodig [&#x200B; WhatsApp gevormde kanaal WhatsApp &#x200B;](../admin/configure-channels-whatsapp.md) in de _[!UICONTROL Administrator]_&#x200B;montages hebt.
 
 >[!NOTE]
 >
@@ -47,21 +47,21 @@ De volgende call-to-action-opties zijn beschikbaar voor whatsApp-berichten:
 
 ## Een WhatsApp-actie toevoegen aan een accountreis
 
-U kunt opstelling whatsApp berichtleveringen in een rekeningsreis wanneer u [ a _[!UICONTROL Take an action]_knoop ](../journeys/action-nodes.md) toevoegt en het volgende doet:
+U kunt opstelling whatsApp berichtleveringen in een rekeningsreis wanneer u [&#x200B; a _[!UICONTROL Take an action]_&#x200B;knoop &#x200B;](../journeys/action-nodes.md) toevoegt en het volgende doet:
 
 1. Kies **[!UICONTROL People]** voor het doel _[!UICONTROL Action on]_.
 
 1. Kies **[!UICONTROL Send WhatsApp]** bij _[!UICONTROL Action on people]_.
 
-   ![ neem een actie - verzend WhatsApp ](./assets/whatsapp-journey-node.png){width="500" zoomable="yes"}
+   ![&#x200B; neem een actie - verzend WhatsApp &#x200B;](./assets/whatsapp-journey-node.png){width="500" zoomable="yes"}
 
 ## Het whatsApp-bericht maken
 
-1. Klik onder aan het deelvenster _[!UICONTROL Take an action]_op **[!UICONTROL Create WhatsApp]**.
+1. Klik onder aan het deelvenster _[!UICONTROL Take an action]_&#x200B;op **[!UICONTROL Create WhatsApp]**.
 
 1. Voer in het dialoogvenster een uniek **[!UICONTROL Name]** (vereist) en **[!UICONTROL Description]** (optioneel) voor het WhatsApp-bericht in.
 
-   ![ creeer nieuwe whatsApp berichtdialoog ](./assets/whatsapp-create-dialog.png){width="400"}
+   ![&#x200B; creeer nieuwe whatsApp berichtdialoog &#x200B;](./assets/whatsapp-create-dialog.png){width="400"}
 
 1. Klik op **[!UICONTROL Create]** .
 
@@ -71,9 +71,9 @@ U kunt opstelling whatsApp berichtleveringen in een rekeningsreis wanneer u [ a 
 
 1. In de _whatsApp ontwerpruimte_, selecteer het **[!UICONTROL Actions]** lusje.
 
-1. Voor **[!UICONTROL WhatsApp configuration]**, selecteer de [ configuratie ](../admin/configure-channels-whatsapp.md#create-channel-configuration) die de marketing acties en de montages van de berichtlevering voor uw behoeften steunt.
+1. Voor **[!UICONTROL WhatsApp configuration]**, selecteer de [&#x200B; configuratie &#x200B;](../admin/configure-channels-whatsapp.md#create-channel-configuration) die de marketing acties en de montages van de berichtlevering voor uw behoeften steunt.
 
-   ![ creeer WhatsApp - het lusje van Acties ](./assets/whatsapp-create-actions-tab.png){width="700" zoomable="yes"}
+   ![&#x200B; creeer WhatsApp - het lusje van Acties &#x200B;](./assets/whatsapp-create-actions-tab.png){width="700" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Edit content]** om naar de berichtparameters en tekst te gaan.
 
@@ -95,9 +95,9 @@ WhatsApp-berichten worden verzonden met vooraf goedgekeurde berichtsjablonen van
 
    De malplaatjeinhoud laadt in de berichtredacteur, tonend de malplaatjestructuur en om het even welke veranderlijke gebieden beschikbaar voor verpersoonlijking.
 
-   ![ Geselecteerde WhatsApp berichtmalplaatje met bericht dat in het voorproefvenster wordt geladen ](./assets/whatsapp-create-select-template.png){width="700" zoomable="yes"}
+   ![&#x200B; Geselecteerde WhatsApp berichtmalplaatje met bericht dat in het voorproefvenster wordt geladen &#x200B;](./assets/whatsapp-create-select-template.png){width="700" zoomable="yes"}
 
-   De malplaatjes worden georganiseerd door categorie (_Marketing_, _Nut_, en _Authentificatie_) en status. Slechts **_goedgekeurde_** malplaatjes zijn beschikbaar voor selectie. Voor meer informatie over het creëren van malplaatjes WhatsApp, zie [_berichtmalplaatjes voor uw Van Bedrijfs WhatsApp rekening_ ](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343) in de documentatie van Meta creëren.
+   De malplaatjes worden georganiseerd door categorie (_Marketing_, _Nut_, en _Authentificatie_) en status. Slechts **_goedgekeurde_** malplaatjes zijn beschikbaar voor selectie. Voor meer informatie over het creëren van malplaatjes WhatsApp, zie [_berichtmalplaatjes voor uw Van Bedrijfs WhatsApp rekening_ &#x200B;](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343) in de documentatie van Meta creëren.
 
 ### Afbeeldings-URL&#39;s
 
@@ -107,12 +107,12 @@ Als uw sjabloon afbeeldingen bevat, gebruikt u het veld **[!UICONTROL Image URL]
 
 Goedgekeurde WhatsApp-sjablonen kunnen plaatsaanduidingen voor variabelen bevatten die u definieert met behulp van profielgegevens of dynamische waarden.
 
-Voor elk veranderlijk gebied dat in het malplaatje wordt getoond, klik __ pictogram ![ personaliseren ](../assets/do-not-localize/icon-personalize.svg) ) naast het gebied.
+Voor elk veranderlijk gebied dat in het malplaatje wordt getoond, klik __ pictogram ![&#x200B; personaliseren &#x200B;](../assets/do-not-localize/icon-personalize.svg) ) naast het gebied.
 
-![ Variabelen in het malplaatje WhatsApp ](./assets/whatsapp-create-variables.png){width="700" zoomable="yes"}
+![&#x200B; Variabelen in het malplaatje WhatsApp &#x200B;](./assets/whatsapp-create-variables.png){width="700" zoomable="yes"}
 
 Het dialoogvenster biedt toegang tot de accounttokens, persoonlijke tokens en systeemtokens. Zowel standaard als aangepaste tokens zijn inbegrepen. U kunt de _bar van het Onderzoek_ gebruiken om van het teken de plaats te bepalen u wenst, of door de omslagboom te navigeren om het even welke tokens te vinden en te selecteren.
 
-Voor gedetailleerde informatie over het gebruiken van tekenen voor verpersoonlijking, zie [ verpersoonlijking van de Inhoud ](./personalization.md).
+Voor gedetailleerde informatie over het gebruiken van tekenen voor verpersoonlijking, zie [&#x200B; verpersoonlijking van de Inhoud &#x200B;](./personalization.md).
 
 Wanneer uw personalisatietokens worden bepaald, klik **[!UICONTROL Save]** om veranderingen te bewaren en aan de belangrijkste whatsApp berichtwerkruimte terug te keren.
