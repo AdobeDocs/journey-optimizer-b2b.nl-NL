@@ -20,7 +20,7 @@ Breid uw mogelijkheden voor het maken van AI-afbeeldingen uit met ingebouwde mod
 - **[!UICONTROL Partner model]**, aangedreven door Gemini 2.5 Flash, biedt gespecialiseerde mogelijkheden voor specifieke gebruiksgevallen.
 - **[!UICONTROL Custom models]** zijn merkspecifieke modellen die op uw eigen middelen zijn getraind en door uw organisatie zijn toegevoegd.
 
-Leer over douanemodellen in de [&#x200B; documentatie van Adobe Firefly &#x200B;](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}.
+Leer over douanemodellen in de [&#x200B; documentatie van Adobe Firefly &#x200B;](https://helpx.adobe.com/nl/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}.
 
 Marketers kunnen elk van de ingeschakelde generatieve modellen selecteren wanneer ze afbeeldingen genereren voor hun e-mail- of landingspagina-inhoud.
 
@@ -70,7 +70,7 @@ Maak aangepaste Firefly-modellen of verbind externe leveranciers van beeldgenera
 
 1. Voer de **[!UICONTROL Model ID]** in.
 
-   Ga naar de Firefly-website en navigeer naar uw getrainde modellen om uw model-id te zoeken. De unieke id is beschikbaar in de beheersectie van het model nadat deze is gepubliceerd. Voor meer informatie, verwijs naar de [&#x200B; documentatie van de douanemodellen van Firefly &#x200B;](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}.
+   Ga naar de Firefly-website en navigeer naar uw getrainde modellen om uw model-id te zoeken. De unieke id is beschikbaar in de beheersectie van het model nadat deze is gepubliceerd. Voor meer informatie, verwijs naar de [&#x200B; documentatie van de douanemodellen van Firefly &#x200B;](https://helpx.adobe.com/nl/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}.
 
 1. Voer desgewenst een **[!UICONTROL Description]** in om het model en het beoogde gebruik te identificeren.
 
