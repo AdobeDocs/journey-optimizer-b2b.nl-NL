@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Adobe Journey Optimizer B2B edition verzendt WhatsApp-berichten via de Meta Cloud-API. Voordat marketeers WhatsApp-berichten voor accountreizen kunnen maken, moet een productbeheerder een WhatsApp-kanaal configureren.
 
-![ whatsApp taakstroom voor Journey Optimizer B2B edition ](./assets/whatsapp-flow-diagram.png)
+![&#x200B; whatsApp taakstroom voor Journey Optimizer B2B edition &#x200B;](./assets/whatsapp-flow-diagram.png)
 
 ## Vereisten
 
@@ -28,7 +28,7 @@ Voordat u het WhatsApp-kanaal configureert, moet u het volgende doen:
 
 >[!IMPORTANT]
 >
->Voor uw gebruik van WhatsApp-communicatieservices gelden de bepalingen en voorwaarden van Meta. Door tot het overseinen WhatsApp door Journey Optimizer B2B edition toegang te hebben, erkent u dat u hebt herzien en ermee akkoord gegaan om aan [ Van Bedrijfs Meta te voldoen WhatsApp beleid ](https://www.whatsapp.com/legal/business-policy/).
+>Voor uw gebruik van WhatsApp-communicatieservices gelden de bepalingen en voorwaarden van Meta. Door tot het overseinen WhatsApp door Journey Optimizer B2B edition toegang te hebben, erkent u dat u hebt herzien en ermee akkoord gegaan om aan [&#x200B; Van Bedrijfs Meta te voldoen WhatsApp beleid &#x200B;](https://www.whatsapp.com/legal/business-policy/).
 
 ## Beperkingen {#limitations}
 
@@ -38,7 +38,7 @@ De volgende beperkingen gelden voor het WhatsApp-kanaal:
 
 * Geautomatiseerde of vooraf gedefinieerde antwoordberichten worden nog niet ondersteund.
 
-* Vanaf april 2025 heeft Meta de levering tijdelijk opgeschort van alle marketingsjabloonberichten aan WhatsApp-gebruikers die een Amerikaans telefoonnummer hebben (een nummer dat bestaat uit een +1-kiescode en een Amerikaanse netnummer). [ leer meer in de documentatie van Meta ](https://developers.facebook.com/documentation/business-messaging/whatsapp/templates/marketing-templates/per-user-limits/)
+* Vanaf april 2025 heeft Meta de levering tijdelijk opgeschort van alle marketingsjabloonberichten aan WhatsApp-gebruikers die een Amerikaans telefoonnummer hebben (een nummer dat bestaat uit een +1-kiescode en een Amerikaanse netnummer). [&#x200B; leer meer in de documentatie van Meta &#x200B;](https://developers.facebook.com/documentation/business-messaging/whatsapp/templates/marketing-templates/per-user-limits/)
 
 * De native integratiefunctionaliteit staat geen integratie met een externe Business Service Provider (BSP) toe.
 
@@ -62,23 +62,23 @@ Voer de volgende taken uit:
 
 1. Vouw **[!UICONTROL WhatsApp Settings]** uit in het deelvenster en selecteer **[!UICONTROL API Credentials]** .
 
-   ![ Beleid > Kanalen met de montages WhatsApp uitgevouwen ](./assets/config-whatsapp-channels.png){width="800" zoomable="yes"}
+   ![&#x200B; Beleid > Kanalen met de montages WhatsApp uitgevouwen &#x200B;](./assets/config-whatsapp-channels.png){width="800" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Create new API credentials]** rechtsboven.
 
 1. Configureer uw API-referenties, zoals hieronder wordt beschreven:
 
    * **[!UICONTROL Name]** - Voer een unieke naam in voor de referenties
-   * **[!UICONTROL API Token]** - Voer uw API-token in. Voor informatie, verwijs naar de [ Documentatie van Meta ](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/).
-   * **[!UICONTROL Business Account ID]** - Voer het unieke nummer in dat aan uw bedrijfsportefeuille is gekoppeld. Voor informatie, verwijs naar de [ Documentatie van Meta ](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
+   * **[!UICONTROL API Token]** - Voer uw API-token in. Voor informatie, verwijs naar de [&#x200B; Documentatie van Meta &#x200B;](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/).
+   * **[!UICONTROL Business Account ID]** - Voer het unieke nummer in dat aan uw bedrijfsportefeuille is gekoppeld. Voor informatie, verwijs naar de [&#x200B; Documentatie van Meta &#x200B;](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
 
-   ![ WhatsApp instellingen API-referenties ](./assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
+   ![&#x200B; WhatsApp instellingen API-referenties &#x200B;](./assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Continue]** .
 
 1. Kies de **[!UICONTROL WhatsApp Business Account]** die u wilt verbinden met uw whatsApp API-referenties.
 
-   ![ WhatsApp montages API geloofsbrieven selecteren bedrijfsrekening ](./assets/config-whatsapp-channels-api-credentials-details.png){width="500" zoomable="yes"}
+   ![&#x200B; WhatsApp montages API geloofsbrieven selecteren bedrijfsrekening &#x200B;](./assets/config-whatsapp-channels-api-credentials-details.png){width="500" zoomable="yes"}
 
 1. Selecteer de **[!UICONTROL Sender name]** die u wilt gebruiken voor het verzenden van WhatsApp-berichten.
 
@@ -89,13 +89,13 @@ Voer de volgende taken uit:
       * Geel: Medium-kwaliteit
       * Rood: lage kwaliteit
 
-     Voor meer informatie, zie {de classificatie van de Kwaliteit 0} _](https://www.facebook.com/business/help/766346674749731#) in de documentatie van Meta.[_
+     Voor meer informatie, zie {de classificatie van de Kwaliteit 0} _[&#128279;](https://www.facebook.com/business/help/766346674749731#) in de documentatie van Meta._
 
    * **Output** - wijst op het tarief waaraan uw telefoonaantal berichten kan verzenden.
 
 1. Klik op **[!UICONTROL Submit]** wanneer u de configuratie van uw API-referenties hebt voltooid.
 
-Wanneer u op _[!UICONTROL Submit]_klikt, worden de referenties direct gevalideerd en opgeslagen en wordt u omgeleid naar de pagina met_[!UICONTROL API credentials]_ -lijsten.
+Wanneer u op _[!UICONTROL Submit]_&#x200B;klikt, worden de referenties direct gevalideerd en opgeslagen en wordt u omgeleid naar de pagina met&#x200B;_[!UICONTROL API credentials]_ -lijsten.
 
 Als de ingediende referenties ongeldig zijn, geeft het systeem een HTTP 500-foutbericht weer. In dat geval kunt u de configuratie annuleren of bijwerken en opnieuw verzenden.
 
@@ -107,8 +107,8 @@ Als er een HTTP 500-fout optreedt bij het configureren van WhatsApp API-referent
 
 1. Valideer de velden voor uw zakelijke account - zorg ervoor dat alle verplichte velden juist zijn:
 
-   * API Token - moet een geldig [ toegangstoken van Meta met aangewezen toestemmingen ](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/) zijn.
-   * Bedrijfs identiteitskaart van de Rekening - moet uw [ Van Bedrijfs Meta identiteitskaart ](https://www.facebook.com/business/help/1181250022022158?id=180505742745347) precies aanpassen.
+   * API Token - moet een geldig [&#x200B; toegangstoken van Meta met aangewezen toestemmingen &#x200B;](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/) zijn.
+   * Bedrijfs identiteitskaart van de Rekening - moet uw [&#x200B; Van Bedrijfs Meta identiteitskaart &#x200B;](https://www.facebook.com/business/help/1181250022022158?id=180505742745347) precies aanpassen.
 
 1. Test de referenties extern - Controleer uw gegevens rechtstreeks met de Meta API om te controleren of het probleem met de referenties is of met de aanmeldingsgegevens van Journey Optimizer B2B edition.
 
@@ -176,7 +176,7 @@ Wanneer de whatsApp API-referenties zijn gemaakt, kunt u de webhooks configurere
 
 1. Voer de **[!UICONTROL Reply message]** in om automatisch te verzenden wanneer een ontvangen bericht overeenkomt met een trefwoord in deze categorie.
 
-   ![ whatsApp montageswebhooks met Opt-in sleutelwoorden en antwoordbericht ](./assets/config-whatsapp-channels-webhooks.png){width="500" zoomable="yes"}
+   ![&#x200B; whatsApp montageswebhooks met Opt-in sleutelwoorden en antwoordbericht &#x200B;](./assets/config-whatsapp-channels-webhooks.png){width="500" zoomable="yes"}
 
 1. Voor elke extra sleutelwoordcategorie wilt u vormen, _toevoegen_ (**+**) bij de hoogste juiste hoek en herhalen stappen 5-7.
 
@@ -186,21 +186,21 @@ Wanneer de whatsApp API-referenties zijn gemaakt, kunt u de webhooks configurere
 
 Nadat de website is verzonden, kunt u de token- en URL-waarden ophalen en deze vervolgens registreren in Meta.
 
-1. In de **[!UICONTROL WhatsApp Webhooks]** lijst, klik uitgeven ( ![ pictogram ](../assets/do-not-localize/icon-edit.svg) uitgeeft) pictogram voor de webhaak u creeerde.
+1. In de **[!UICONTROL WhatsApp Webhooks]** lijst, klik uitgeven ( ![&#x200B; pictogram &#x200B;](../assets/do-not-localize/icon-edit.svg) uitgeeft) pictogram voor de webhaak u creeerde.
 
 1. Kopieer de waarden **[!UICONTROL Verify Token]** en **[!UICONTROL Webhook URL]** .
 
-   ![ WhatsApp montages webhaak montages om URL te kopiëren en teken te verifiëren ](./assets/config-whatsapp-channels-webhooks-copy-token-url.png){width="500" zoomable="yes"}
+   ![&#x200B; WhatsApp montages webhaak montages om URL te kopiëren en teken te verifiëren &#x200B;](./assets/config-whatsapp-channels-webhooks-copy-token-url.png){width="500" zoomable="yes"}
 
-1. In [ Meta voor het portaal van Ontwikkelaars ](https://developers.facebook.com/), navigeer aan uw WhatsApp toepassingsmontages en vorm webhaak gebruikend de waarden die u kopieerde.
+1. In [&#x200B; Meta voor het portaal van Ontwikkelaars &#x200B;](https://developers.facebook.com/), navigeer aan uw WhatsApp toepassingsmontages en vorm webhaak gebruikend de waarden die u kopieerde.
 
 ### Kanaalconfiguratie maken {#create-channel-configuration}
 
 Een kanaalconfiguratie bepaalt de leveringsmontages die worden gebruikt wanneer het verzenden van berichten WhatsApp van een knoop van de reisactie.
 
-1. Selecteer **[!UICONTROL Channel configurations]** onder _[!UICONTROL General settings]_in het navigatievenster.
+1. Selecteer **[!UICONTROL Channel configurations]** onder _[!UICONTROL General settings]_&#x200B;in het navigatievenster.
 
-   ![ de configuratielijst van het Kanaal ](./assets/config-whatsapp-channels-general.png){width="600" zoomable="yes"}
+   ![&#x200B; de configuratielijst van het Kanaal &#x200B;](./assets/config-whatsapp-channels-general.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Create channel configuration]** rechtsboven.
 
@@ -218,11 +218,11 @@ Een kanaalconfiguratie bepaalt de leveringsmontages die worden gebruikt wanneer 
 
    All consent policies associated with a selected marketing action are automatically leveraged in order to respect the preferences of your customers. For example, any WhatsApp message using that configuration in a journey is only sent to the profiles who have consented to receive WhatsApp messages from you. Profiles who have not consented to receive these communications are excluded. -->
 
-1. Selecteer onder _[!UICONTROL WhatsApp Settings]_de **[!UICONTROL WhatsApp configuration]**(API-referenties) die u in de vorige taak hebt gemaakt.
+1. Selecteer onder _[!UICONTROL WhatsApp Settings]_&#x200B;de **[!UICONTROL WhatsApp configuration]**(API-referenties) die u in de vorige taak hebt gemaakt.
 
 1. Voer de **[!UICONTROL Sender phone number]** in die u wilt gebruiken voor het verzenden van berichten.
 
-   ![ WhatsApp details van de kanaalconfiguratie ](./assets/config-whatsapp-channels-general-create.png){width="500" zoomable="yes"}
+   ![&#x200B; WhatsApp details van de kanaalconfiguratie &#x200B;](./assets/config-whatsapp-channels-general-create.png){width="500" zoomable="yes"}
 
 1. (Momenteel niet van toepassing op Journey Optimizer B2B edition) Selecteer voor **[!UICONTROL WhatsApp Execution Field]** het profielkenmerk dat u als prioritair telefoonnummer wilt gebruiken wanneer meerdere telefoonnummers beschikbaar zijn voor een ontvanger.
 
