@@ -3,10 +3,11 @@ title: Persona-toewijzing
 description: Leer hoe u persoonlijke toewijzingen instelt voor B2B-marketing. Wijs persoonattributen in Journey Optimizer B2B edition toe om rolmalplaatjes tot stand te brengen en het kopen groepgericht te optimaliseren.
 feature: Setup, Buying Groups
 role: Admin
-source-git-commit: 278add74cc8d1aedd7809fd4675627f26501b0df
+exl-id: cb3a57fa-6fe0-4876-87f3-da440f1c6239
+source-git-commit: a6a5fefe75b675c0e0708f5a93be60cb032dc736
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 0%
+source-wordcount: '886'
+ht-degree: 1%
 
 ---
 
@@ -19,7 +20,7 @@ Personeelszaken zijn een belangrijk aspect in een op account gebaseerde marketin
 Then based on what agent informed, users can create a template with those personas. -->
 Definitie en gebruiksbeperkingen van personen:
 
-* U kunt maximaal 20 personen opgeven die in de lijst van _[!UICONTROL Persona mapping]_&#x200B;worden gedefinieerd.
+* U kunt maximaal 20 personen opgeven die in de lijst van _[!UICONTROL Persona mapping]_worden gedefinieerd.
 * Elke persoon kan maximaal vijf kenmerken in zijn definitie opnemen.
 * Voor alle gedefinieerde personen kunt u maximaal tien verschillende persoonkenmerken gebruiken.
 
@@ -29,7 +30,7 @@ Definitie en gebruiksbeperkingen van personen:
 
 Veel marketing- en verkoopteams gebruiken taaktitels om verschillende personen binnen een account te identificeren. Maar titels voor contacten kunnen inconsistent zijn en gebruiken talrijke variaties voor gelijkaardige rollen. Wanneer het bouwen van het kopen van de malplaatjes van groepsrollen, kan het vereisen dat u elke mogelijke verwante baantitel voor een bepaalde rol bepaalt. U kunt deze definities vereenvoudigen en mensen met vergelijkbare functies onder één afgeleid persoon brengen, die u vervolgens kunt gebruiken voor verschillende rolsjablonen voor het kopen van groepen.
 
-Bijvoorbeeld, zou u een persoon kunnen vormen genoemd _Beheer van het Product_ en het bepalen gebruikend de attributen van de baantitel voor waarden van _Manager van het Product_, _Sr. De Manager van het product_, _Hogere Manager van het Product_, _PM_, _Sr. PM_, _Belangrijkste PM_, en _Belangrijkste Manager van het Product_. Dan, gebruik dit persona in een malplaatje van Rollen waar de voorwaarde op _Persoonlijk het Beheer van het Product_ aanpast. Gebruikend gevormde persoonlijkheid, wordt het creëren van elke rolmalplaatje gestroomlijnd en vereist geen ingewikkelde voorwaarde die met elke mogelijke baantitel kan aanpassen.
+Bijvoorbeeld, zou u een persoon kunnen vormen genoemd _Beheer van het Product_ en het bepalen gebruikend de attributen van de baantitel voor waarden van _de Manager van het Product_, _Sr. de Manager van het Product_, _Hogere Manager van het Product_, _PM_, _Sr. PM_, _, en_ Belangrijkste Manager van het Product _._ Dan, gebruik dit persona in een malplaatje van Rollen waar de voorwaarde op _Persoonlijk het Beheer van het Product_ aanpast. Gebruikend gevormde persoonlijkheid, wordt het creëren van elke rolmalplaatje gestroomlijnd en vereist geen ingewikkelde voorwaarde die met elke mogelijke baantitel kan aanpassen.
 
 >[!ENDSHADEBOX]
 
@@ -39,19 +40,19 @@ Bijvoorbeeld, zou u een persoon kunnen vormen genoemd _Beheer van het Product_ e
 
 1. Klik op **[!UICONTROL Persona mapping]** in het tussenliggende deelvenster om de lijst met personen weer te geven.
 
-   ![&#x200B; heb toegang tot de gevormde persona&#39;s &#x200B;](./assets/configuration-persona-mapping.png){width="800" zoomable="yes"}
+   ![ heb toegang tot de gevormde persona&#39;s ](./assets/configuration-persona-mapping.png){width="800" zoomable="yes"}
 
-   Van deze pagina, kunt u [&#x200B; creëren &#x200B;](#create-a-persona) uitgeven [, of &#x200B;](#edit-a-persona) schrappen [&#x200B; personas.](#delete-a-persona)
+   Van deze pagina, kunt u ](#create-a-persona) creëren [ uitgeven ](#edit-a-persona), of [ schrappen ](#delete-a-persona) personas.[
 
-   De Persona-toewijzingslijst is ingedeeld als een tabel en geeft de meest recente bijgewerkte personen bovenaan weer (gesorteerd op _[!UICONTROL Last update]_). U kunt de getoonde lijst aanpassen door de_ montages van de Kolom _te klikken ( ![&#x200B; montages van de Kolom &#x200B;](../assets/do-not-localize/icon-column-settings.svg)) pictogram in de hoger-juiste hoek en het selecteren of ontruimen van kolomcheckboxes.
+   De Persona-toewijzingslijst is ingedeeld als een tabel en geeft de meest recente bijgewerkte personen bovenaan weer (gesorteerd op _[!UICONTROL Last update]_). U kunt de getoonde lijst aanpassen door de_ montages van de Kolom _te klikken ( ![ montages van de Kolom ](../assets/do-not-localize/icon-column-settings.svg)) pictogram in de hoger-juiste hoek en het selecteren of ontruimen van kolomcheckboxes.
 
-![&#x200B; Kolommen aan vertoning in de lijst van de persona afbeelding &#x200B;](./assets/configuration-persona-mapping-list-columns.png){width="300"}
+   ![ Kolommen aan vertoning in de lijst van de persona afbeelding ](./assets/configuration-persona-mapping-list-columns.png){width="300"}
 
 1. Klik op de naam om de gegevens van een persoon te openen.
 
 ### Standaardvoorkeuren
 
-De _lijst van de afbeelding van 0&rbrace; Persona omvat vijf standaardkarakters die volgens de attributen van de baantitel worden bepaald._ U kunt elk van deze standaardpersona&#39;s bewerken op basis van de behoeften van uw organisatie:
+De _lijst van de afbeelding van 0} Persona omvat vijf standaardkarakters die volgens de attributen van de baantitel worden bepaald._ U kunt elk van deze standaardpersona&#39;s bewerken op basis van de behoeften van uw organisatie:
 
 | Persona | Functies |
 | ------- | ---------- |
@@ -70,7 +71,7 @@ De _lijst van de afbeelding van 0&rbrace; Persona omvat vijf standaardkarakters 
 
 Als u de gewenste persoon wilt zoeken, typt u een tekstreeks in de zoekbalk die overeenkomt met de naam van de persoon,
 
-![&#x200B; Filter de getoonde persona afbeeldingen &#x200B;](./assets/configuration-persona-mapping-search.png){width="700" zoomable="yes"}
+![ Filter de getoonde persona afbeeldingen ](./assets/configuration-persona-mapping-search.png){width="700" zoomable="yes"}
 
 ## Een persona maken
 
@@ -78,25 +79,25 @@ Als u de gewenste persoon wilt zoeken, typt u een tekstreeks in de zoekbalk die 
 
 1. Klik op **[!UICONTROL Persona mapping]** in het middelste deelvenster.
 
-1. Klik op **[!UICONTROL Create persona]**.
+1. Klik op **[!UICONTROL Create persona]** .
 
 1. Voer een unieke eigenschap **[!UICONTROL Name]** en **[!UICONTROL Description]** (optioneel) in voor de persoon.
 
-   ![&#x200B; creeer een persona afbeelding &#x200B;](./assets/configuration-persona-mapping-new.png){width="700" zoomable="yes"}
+   ![ creeer een persona afbeelding ](./assets/configuration-persona-mapping-new.png){width="700" zoomable="yes"}
 
 1. Selecteer de kenmerken die u wilt gebruiken voor het afstemmen van de persoon.
 
-   * Klik op **[!UICONTROL Select person attributes]**.
+   * Klik op **[!UICONTROL Select person attributes]** .
 
    * Selecteer in het dialoogvenster het selectievakje voor elk kenmerk dat u wilt toewijzen (maximaal vijf).
 
-     U kunt de getoonde lijst aanpassen door de _montages van de Kolom_ ( ![&#x200B; montages van de Kolom &#x200B;](../assets/do-not-localize/icon-column-settings.svg)) te klikken pictogram in de hoger-juiste hoek.
+     U kunt de getoonde lijst aanpassen door de _montages van de Kolom_ ( ![ montages van de Kolom ](../assets/do-not-localize/icon-column-settings.svg)) te klikken pictogram in de hoger-juiste hoek.
 
-     Als u de kenmerkenlijst op naam wilt filteren, voert u een tekstreeks in op de zoekbalk. U kunt het _pictogram van de Filter_ ( ![&#x200B; pictogram van de Filter &#x200B;](../assets/do-not-localize/icon-filter.svg)) bij de bovenkant links ook klikken om de getoonde lijst door type, _Standaard_ of _Douane_ te filtreren.
+     Als u de kenmerkenlijst op naam wilt filteren, voert u een tekstreeks in op de zoekbalk. U kunt het _pictogram van de Filter_ ( ![ pictogram van de Filter ](../assets/do-not-localize/icon-filter.svg)) bij de bovenkant links ook klikken om de getoonde lijst door type, _Standaard_ of _Douane_ te filtreren.
 
-     ![&#x200B; Uitgezochte de dialoog van persona attributen &#x200B;](./assets/configuration-persona-mapping-select-attributes.png){width="700" zoomable="yes"}
+     ![ Uitgezochte de dialoog van persona attributen ](./assets/configuration-persona-mapping-select-attributes.png){width="700" zoomable="yes"}
 
-   * Klik op **[!UICONTROL Save]**.
+   * Klik op **[!UICONTROL Save]** .
 
      De geselecteerde kenmerken worden ingevuld in de sectie _[!UICONTROL Persona attributes]_.
 
@@ -104,7 +105,7 @@ Als u de gewenste persoon wilt zoeken, typt u een tekstreeks in de zoekbalk die 
 
    In plaats van een waarde kunt u ook een vraag toevoegen die kan worden gebruikt om een overeenkomst te identificeren. U kunt bijvoorbeeld
 
-1. Klik op **[!UICONTROL Submit]**.
+1. Klik op **[!UICONTROL Submit]** .
 
 ## Een persona bewerken
 
@@ -116,8 +117,8 @@ U kunt de naam of beschrijving wijzigen, kenmerken toevoegen of de kenmerkwaarde
 
 Het schrappen van een persona verwijdert het uit de _Persoonlijke afbeelding_ lijst en het is niet meer beschikbaar voor gebruik in rolmalplaatjes.
 
-1. Zoek op de pagina _[!UICONTROL Persona mapping]_&#x200B;de persoon die u wilt verwijderen.
+1. Zoek op de pagina _[!UICONTROL Persona mapping]_de persoon die u wilt verwijderen.
 
-1. Klik naast de naam op het pictogram voor ovalen (**...** ) en kies **[!UICONTROL Delete]** .
+1. Klik naast de naam op de ovalen (**...**) en kies **[!UICONTROL Delete]** .
 
 1. Klik op **[!UICONTROL Delete]** in het bevestigingsdialoogvenster.

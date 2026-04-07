@@ -4,9 +4,9 @@ description: Houd de voortgang van de inkoopgroep bij met voltooiingsscores, bet
 feature: Dashboards, Buying Groups
 role: User
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
+source-git-commit: a6a5fefe75b675c0e0708f5a93be60cb032dc736
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ De verkoopoverdracht bestaat uit:
 
 Als u dit dashboard wilt openen, vouwt u **[!UICONTROL Accounts]** uit in de linkernavigatie en selecteert u **[!UICONTROL Buying groups]** . Selecteer de tab **[!UICONTROL Overview]** als deze niet standaard wordt weergegeven.
 
-![&#x200B; het Kopen overzicht van Groepen &#x200B;](./assets/buying-groups-overview.png){width="800" zoomable="yes"}
+![ het Kopen overzicht van Groepen ](./assets/buying-groups-overview.png){width="800" zoomable="yes"}
 <!--
 ## Buying Group Status
 
@@ -41,7 +41,7 @@ Deze visualisatie illustreert de verdeling van koopgroepen op basis van de volto
 
 Als u meer gedetailleerde informatie wilt weergeven, klikt u op het menupictogram **..** rechtsboven.
 
-![&#x200B; het Kopen de score van de groepsvoltooiing visualisatie &#x200B;](./assets/buying-group-completion-score-chart.png){width="500"}
+![ het Kopen de score van de groepsvoltooiing visualisatie ](./assets/buying-group-completion-score-chart.png){width="500"}
 
 ## Distributie van betrokkenheidsscore voor groepen kopen
 
@@ -49,7 +49,7 @@ Deze visualisatie illustreert de verdeling van inkoopgroepen op basis van hun be
 
 Als u meer gedetailleerde informatie wilt weergeven, klikt u op het menupictogram **..** rechtsboven.
 
-![&#x200B; het Kopen de score van de groepsovereenkomst visualisatie &#x200B;](./assets/buying-group-completion-score-chart.png){width="500"}
+![ het Kopen de score van de groepsovereenkomst visualisatie ](./assets/buying-group-engagement-score-chart.png){width="500"}
 
 ## Groepen kopen op basis van interesse voor oplossing
 
@@ -57,40 +57,40 @@ Deze visualisatie illustreert de distributie van het kopen groepen door oplossin
 
 Als u meer gedetailleerde informatie wilt weergeven, klikt u op het menupictogram **..** rechtsboven. Kies **Boor door** of **Meer Mening**.
 
-![&#x200B; het Kopen de score van de groepsovereenkomst visualisatie &#x200B;](./assets/buying-group-by-solution-interest-chart.png){width="500"}
+![ het Kopen de score van de groepsovereenkomst visualisatie ](./assets/buying-group-by-solution-interest-chart.png){width="500"}
 
 ## De gegevens filteren
 
-Klik het _pictogram van de Filter_ ( ![&#x200B; pictogram van de Filter &#x200B;](../assets/do-not-localize/icon-filter.svg) ) bij de bovenkant verlaten om de getoonde gegevens te filtreren gebruikend om het even welk van deze attributen:
+Klik het _pictogram van de Filter_ ( ![ pictogram van de Filter ](../assets/do-not-localize/icon-filter.svg) ) bij de bovenkant verlaten om de getoonde gegevens te filtreren gebruikend om het even welk van deze attributen:
 
 * Huidige fase
 * Marktsegment
 * Regio
 * Oplossingsrente
 
-![&#x200B; filter de getoonde gegevens door attributen &#x200B;](./assets/buying-group-overview-filters.png){width="500"}
+![ filter de getoonde gegevens door attributen ](./assets/buying-group-overview-filters.png){width="500"}
 
 Selecteer zoveel waarden voor elk kenmerk dat u wilt gebruiken om de gegevens te filteren en klik op **[!UICONTROL Apply]** .
 
 ## Betrokkenheid bij de gegevens
 
-Om met de gegevens in werking te stellen, gebruik _Meer_ (**..**) menu bij top-right van elke grafiek.
+Om met de gegevens in werking te stellen, gebruik _Meer_ (**..**) in de rechterbovenhoek van elk diagram.
 
 ### [!UICONTROL Drill through]
 
 Kies **[!UICONTROL Drill through]** voor een diepgaande analyse van individuele groepsscores of distributies.
 
-![&#x200B; Boor door om tot de grafiekgegevens toegang te hebben &#x200B;](./assets/buying-group-completion-score-drill-through-view.png){width="700" zoomable="yes"}
+![ Boor door om tot de grafiekgegevens toegang te hebben ](./assets/buying-group-completion-score-drill-through-view.png){width="700" zoomable="yes"}
 
-De algemene filters die op het dashboard worden toegepast, worden overgenomen. Klik het _pictogram van de Filter_ ( ![&#x200B; pictogram van de Filter &#x200B;](../assets/do-not-localize/icon-filter.svg) ) bij de bovenkant verlaten aan [&#x200B; verandering de attributenfilters &#x200B;](#filter-the-data) voor de boor-door mening.
+De algemene filters die op het dashboard worden toegepast, worden overgenomen. Klik het _pictogram van de Filter_ ( ![ pictogram van de Filter ](../assets/do-not-localize/icon-filter.svg) ) bij de bovenkant verlaten aan [ verandering de attributenfilters ](#filter-the-data) voor de boor-door mening.
 
-U kunt _klikken Meer_ (**..**) menu bij top-right en kiezen **[!UICONTROL View more]** aan [&#x200B; mening uitgebreide gegevens &#x200B;](#view-more).
+U kunt _Meer_ klikken (**..**) menu bij top-right en kies **[!UICONTROL View more]** aan [ mening uitgebreide gegevens ](#view-more).
 
 ### [!UICONTROL View more]
 
 Kies **[!UICONTROL View more]** om uitgebreide gegevens en inzichten weer te geven.
 
-![&#x200B; Mening uitgebreide gegevens &#x200B;](./assets/buying-group-engagement-score-view-more.png){width="700" zoomable="yes"}
+![ Mening uitgebreide gegevens ](./assets/buying-group-engagement-score-view-more.png){width="700" zoomable="yes"}
 
 Het weergegeven pop-upvenster bevat een diagram en een tabel die de uitsplitsing van de distributie van de inkoopgroep weergeven.
 
