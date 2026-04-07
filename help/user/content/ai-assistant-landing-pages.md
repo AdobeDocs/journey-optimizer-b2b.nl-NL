@@ -7,7 +7,7 @@ topic: Artificial Intelligence
 role: User
 level: Beginner
 exl-id: d1e818fb-7450-4c13-bc6c-24da5fb71285
-source-git-commit: 859656dc4e355be0d9efe9414ad93404970d6e73
+source-git-commit: 59236e07cbdd7beb4c960db1a4b0cb63bb123727
 workflow-type: tm+mt
 source-wordcount: '2579'
 ht-degree: 0%
@@ -26,13 +26,13 @@ U kunt volledige inhoud voor uw openingspagina&#39;s, met inbegrip van zowel tek
 
 >[!IMPORTANT]
 >
->Als u toegang wilt krijgen tot deze functies in [!DNL Journey Optimizer B2B Edition] , hebt u de machtiging _[!UICONTROL AI Assistant]_>_[!UICONTROL Generate Content]_ nodig. Voor meer informatie over hoe een productbeheerder eigenschaptoestemmingen kan verlenen, zie [&#x200B; rollen voor producttoestemmingen &#x200B;](../admin/user-management.md#edit-roles-for-product-permissions) uitgeven.
+>Als u toegang wilt krijgen tot deze functies in [!DNL Journey Optimizer B2B Edition] , hebt u de machtiging _[!UICONTROL AI Assistant]_>_[!UICONTROL Generate Content]_ nodig. Voor meer informatie over hoe een productbeheerder eigenschaptoestemmingen kan verlenen, zie [ rollen voor producttoestemmingen ](../admin/user-management.md#edit-roles-for-product-permissions) uitgeven.
 
 ## Richtlijnen en beperkingen
 
-Alvorens u begint dit vermogen te gebruiken, herzie de [&#x200B; richtlijnen en de beperkingen &#x200B;](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). [&#128279;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} de aanvaarding van de 0&rbrace; overeenkomst van de Gebruiker wordt ook vereist alvorens u mogelijkheden AI in [!DNL Journey Optimizer B2B Edition] kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+Alvorens u begint dit vermogen te gebruiken, herzie de [ richtlijnen en de beperkingen ](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} de aanvaarding van de 0} overeenkomst van de Gebruiker wordt ook vereist alvorens u mogelijkheden AI in [!DNL Journey Optimizer B2B Edition] kunt gebruiken. [Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
-Met Adobe verplichting om transparantie in het gebruik van generatieve hulpmiddelen AI in media verwezenlijking te bevorderen, past Adobe [&#x200B; inhoudsgeloofsbrieven &#x200B;](https://helpx.adobe.com/nl/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} voor om het even welke inhoud of project toe dat Firefly-Gegenereerde activa omvat wanneer het wordt gedownload of uitgevoerd.
+Met Adobe verplichting om transparantie in het gebruik van generatieve hulpmiddelen AI in media verwezenlijking te bevorderen, past Adobe [ inhoudsgeloofsbrieven ](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} voor om het even welke inhoud of project toe dat Firefly-Gegenereerde activa omvat wanneer het wordt gedownload of uitgevoerd.
 
 De volgende beperkingen en richtlijnen gelden voor AI Assistant-functies die worden gebruikt voor het genereren van pagina-inhoud in [!DNL Journey Optimizer B2B Edition] :
 
@@ -50,7 +50,7 @@ U kunt volledige inhoud genereren voor een openingspagina of voor geselecteerde 
 
 Gebruik duidelijk gedefinieerde aanwijzingen voor een nauwkeurige interpretatie van het generatieve AI-model. Het marketingdoel of de marketingprompt die u opgeeft, heeft een sterke invloed op de kwaliteit van de gegenereerde inhoud.
 
-![&#x200B; Prompt gebied &#x200B;](./assets/gen-ai-prompt.png){width="320"}
+![ Prompt gebied ](./assets/gen-ai-prompt.png){width="320"}
 
 Voor meer informatie over het creëren van efficiënte herinneringen, zie _[Snelle beste praktijken](../ai-assistant/generative-ai-content.md#generative-ai-prompting-guide)_.
 
@@ -58,11 +58,11 @@ Voor meer informatie over het creëren van efficiënte herinneringen, zie _[Snel
 
 **Snelle Bibliotheek**
 
-Een effectieve prompt is essentieel voor het genereren van de best mogelijke inhoud. Als u hulp met het ontwerpen van uw herinnering wilt, klik het _![&#x200B; Prompt bibliotheekpictogram van de Prompt &#x200B;](../assets/do-not-localize/icon-library.svg) om tot een bibliotheek van snelle ideeën toegang te hebben die volgens doelstellingen worden georganiseerd._ Typ tekst in het zoekveld om een vraag te zoeken op basis van een trefwoordtekenreeks.
+Een effectieve prompt is essentieel voor het genereren van de best mogelijke inhoud. Als u hulp met het ontwerpen van uw herinnering wilt, klik het _![ Prompt bibliotheekpictogram van de Prompt ](../assets/do-not-localize/icon-library.svg) om tot een bibliotheek van snelle ideeën toegang te hebben die volgens doelstellingen worden georganiseerd._ Typ tekst in het zoekveld om een vraag te zoeken op basis van een trefwoordtekenreeks.
 
-![&#x200B; AI Medewerker - toegang tot de Snelle Bibliotheek &#x200B;](./assets/gen-ai-prompt-library.png){width="600" zoomable="no"}
+![ AI Medewerker - toegang tot de Snelle Bibliotheek ](./assets/gen-ai-prompt-library.png){width="600" zoomable="no"}
 
-Selecteer de vraag die uw beoogde doelen het beste weerspiegelt en klik op **[!UICONTROL Try this Prompt]** . Vervang in het veld _[!UICONTROL Prompt]_&#x200B;alle plaatsaanduidingen (zoals `[Key Feature/Information]` ) door de benodigde waarden voor het merk, de aanbieding, de campagne en het gebruik.
+Selecteer de vraag die uw beoogde doelen het beste weerspiegelt en klik op **[!UICONTROL Try this Prompt]** . Vervang in het veld _[!UICONTROL Prompt]_alle plaatsaanduidingen (zoals `[Key Feature/Information]` ) door de benodigde waarden voor het merk, de aanbieding, de campagne en het gebruik.
 
 >[!ENDSHADEBOX]
 
@@ -70,13 +70,13 @@ Selecteer de vraag die uw beoogde doelen het beste weerspiegelt en klik op **[!U
 
 Breid **[!UICONTROL Text settings]** in het juiste paneel uit en plaats de opties voor geproduceerde tekst.
 
-* **[!UICONTROL Buying group]** - kies de [&#x200B; het kopen rol van de groep &#x200B;](../buying-groups/buying-groups-role-templates.md) voor het richten van uw overseinen te gebruiken.
-* **[!UICONTROL Marketing journey stage]** - kies het [&#x200B; het kopen groepsstadium &#x200B;](../buying-groups/buying-group-stages.md) om voor het richten van het overseinen te gebruiken.
+* **[!UICONTROL Buying group]** - kies de [ het kopen rol van de groep ](../buying-groups/buying-groups-role-templates.md) voor het richten van uw overseinen te gebruiken.
+* **[!UICONTROL Marketing journey stage]** - kies het [ het kopen groepsstadium ](../buying-groups/buying-group-stages.md) om voor het richten van het overseinen te gebruiken.
 * **[!UICONTROL Communication strategy]** - Kies de meest geschikte communicatiestijl voor de gegenereerde tekst.
 * **[!UICONTROL Language]** - Kies de taal van de gegenereerde inhoud.
 * **[!UICONTROL Tone]** - De toon zou met uw publiek moeten resoneren. U kunt het bericht bijvoorbeeld aanpassen om geluid informatief, afspeelbaar of overtuigend te maken.
 
-![&#x200B; het instellingenpaneel van de Tekst die het kopen groep, marketing reisstadium, communicatie strategie, taal, en toonopties tonen &#x200B;](./assets/gen-ai-text-settings.png){width="350" zoomable="yes"}
+![ het instellingenpaneel van de Tekst die het kopen groep, marketing reisstadium, communicatie strategie, taal, en toonopties tonen ](./assets/gen-ai-text-settings.png){width="350" zoomable="yes"}
 
 Klik op de pijl naar links om terug te keren naar de hoofdmap _[!UICONTROL Settings]_.
 
@@ -94,7 +94,7 @@ De optie **[!UICONTROL Generate images using AI]** is standaard uitgeschakeld. S
 * **[!UICONTROL Lighting]**: De belichtingsstijl die voor de afbeelding wordt gebruikt. Deze stijl bepaalt de atmosfeer en markeert specifieke elementen.
 * **[!UICONTROL Composition]**: De rangschikking van elementen binnen het kader van een afbeelding.
 
-![&#x200B; het montagespaneel van het Beeld tonend Generatief model, Inhoudstype, Visuele intensiteit, Kleur en toon, Belichting, en de opties van de Samenstelling &#x200B;](./assets/gen-ai-image-settings.png){width="350" zoomable="yes"}
+![ het montagespaneel van het Beeld tonend Generatief model, Inhoudstype, Visuele intensiteit, Kleur en toon, Belichting, en de opties van de Samenstelling ](./assets/gen-ai-image-settings.png){width="350" zoomable="yes"}
 
 Klik op de pijl naar links om terug te keren naar de hoofdmap _[!UICONTROL Settings]_.
 
@@ -104,17 +104,17 @@ Upload referentie-inhoud om nauwkeurige, on-brand-inhoud te genereren. Anders is
 
 Klik in de instellingen van **[!UICONTROL Reference content]** op **[!UICONTROL Upload file]** om elementen toe te voegen die inhoud bevatten die u voor extra context wilt gebruiken.
 
-![&#x200B; Upload dossier aan gebruik voor verwijzingsinhoud &#x200B;](./assets/gen-ai-reference-content-upload.png){width="350" zoomable="yes"}
+![ Upload dossier aan gebruik voor verwijzingsinhoud ](./assets/gen-ai-reference-content-upload.png){width="350" zoomable="yes"}
 
 Het te uploaden bestand kan de volgende indelingen hebben: PDF-, JPEG-, PNG- of ZIP-bestanden (met ondersteunde bestandsindelingen). De maximale grootte voor een geüpload merk is 50 MB. Grotere bestanden of een groot aantal afbeeldingen kunnen werken, maar hierdoor neemt de verwerkingstijd toe.
 
 Als u een eerder geüpload bestand wilt selecteren, vouwt u de lijst **[!UICONTROL Uploaded reference content]** uit en schakelt u het element in dat u wilt gebruiken voor het genereren van inhoud.
 
-![&#x200B; laat bestaande verwijzingsinhoud toe om te gebruiken &#x200B;](./assets/gen-ai-reference-content-select.png){width="350" zoomable="yes"}
+![ laat bestaande verwijzingsinhoud toe om te gebruiken ](./assets/gen-ai-reference-content-select.png){width="350" zoomable="yes"}
 
 ## De generatieve AI-gereedschappen gebruiken {#gen-ai-tools}
 
-Als u wilt beginnen met het genereren van inhoud, opent u de inhoudeditor voor de bestemmingspagina en opent u de generatieve AI-gereedschappen op de buitenste track van het rechterdeelvenster. Selecteer de _Medewerker AI_ ( ![&#x200B; AI Medewerker voor inhoudsknevel &#x200B;](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"}) om de hulpmiddelen van de inhoudsgeneratie te tonen die voor de huidige inhoudselectie beschikbaar zijn.
+Als u wilt beginnen met het genereren van inhoud, opent u de inhoudeditor voor de bestemmingspagina en opent u de generatieve AI-gereedschappen op de buitenste track van het rechterdeelvenster. Selecteer de _Medewerker AI_ ( ![ AI Medewerker voor inhoudsknevel ](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"}) om de hulpmiddelen van de inhoudsgeneratie te tonen die voor de huidige inhoudselectie beschikbaar zijn.
 
 Gebruik de volgende stappen op basis van het type dat u wilt gebruiken voor het genereren van de inhoud van de bestemmingspagina:
 
@@ -124,29 +124,29 @@ Gebruik de volgende stappen op basis van het type dat u wilt gebruiken voor het 
 
 Ga als volgt te werk om AI Assistant te gebruiken voor het genereren van een volledige landingspagina door een bestaande sjabloon voor een bestemmingspagina te verfijnen:
 
-1. Na [&#x200B; creërend de het landen pagina &#x200B;](./landing-pages.md#create-a-landing-page), klik **[!UICONTROL Edit landing page]**.
+1. Na [ creërend de het landen pagina ](./landing-pages.md#create-a-landing-page), klik **[!UICONTROL Edit landing page]**.
 
 1. Selecteer een sjabloon.
 
-   Voor het genereren van volledige inhoud is een sjabloon vereist. Dit kan een standaardsjabloon zijn die door Adobe wordt aangeboden, of een opgeslagen sjabloon. U kunt de optie _[!UICONTROL Import HTML]_&#x200B;ook gebruiken om een sjabloon te importeren.
+   Voor het genereren van volledige inhoud is een sjabloon vereist. Dit kan een standaardsjabloon zijn die door Adobe wordt aangeboden, of een opgeslagen sjabloon. U kunt de optie _[!UICONTROL Import HTML]_ook gebruiken om een sjabloon te importeren.
 
    Voor meer informatie over het gebruiken van een het landen paginamalplaatje, zie _[Uitgezocht een bewaard of steekproefmalplaatje](./landing-pages.md#select-a-saved-or-sample-template)_.
 
-1. Op de buitenspoor van het juiste paneel, selecteer _AI Medewerker_ ( ![&#x200B; AI Medewerker voor inhoudsknevel &#x200B;](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"}) pictogram.
+1. Op de buitenspoor van het juiste paneel, selecteer _AI Medewerker_ ( ![ AI Medewerker voor inhoudsknevel ](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"}) pictogram.
 
-   ![&#x200B; AI Hulp knevel in de het ontwerpruimte van de landende pagina &#x200B;](./assets/gen-ai-full-landing-page-ai-panel.png){width="600" zoomable="yes"}
+   ![ AI Hulp knevel in de het ontwerpruimte van de landende pagina ](./assets/gen-ai-full-landing-page-ai-panel.png){width="600" zoomable="yes"}
 
    De instellingen voor AI Assistant aan de rechterkant weerspiegelen de instellingen voor het genereren van de volledige landingspagina.
 
 1. (Beta) Selecteer **[!UICONTROL Brand]** om ervoor te zorgen dat de door AI gegenereerde inhoud wordt afgestemd op uw merkspecificaties.
 
-   Als er geen gepubliceerde merken zijn, klik **[!UICONTROL Create a brand]** om uw [&#x200B; herbruikbare merkrichtlijnen &#x200B;](./brands-overview.md) te bepalen.
+   Als er geen gepubliceerde merken zijn, klik **[!UICONTROL Create a brand]** om uw [ herbruikbare merkrichtlijnen ](./brands-overview.md) te bepalen.
 
 1. Voer in het veld **[!UICONTROL Prompt]** een beschrijving in van wat u wilt genereren.
 
-   Gebruik de [&#x200B; Snelle Bibliotheek &#x200B;](#prompt-library) als u wat hulp met het ontwerpen van een efficiënte herinnering nodig hebt.
+   Gebruik de [ Snelle Bibliotheek ](#prompt-library) als u wat hulp met het ontwerpen van een efficiënte herinnering nodig hebt.
 
-   ![&#x200B; AI Medewerker - snelle bibliotheek voor het produceren van de inhoud van de landingspagina &#x200B;](./assets/email-designer-ai-assistant-full.png){width="600" zoomable="yes"}
+   ![ AI Medewerker - snelle bibliotheek voor het produceren van de inhoud van de landingspagina ](./assets/email-designer-ai-assistant-full.png){width="600" zoomable="yes"}
 
    >[!TIP]
    >
@@ -162,15 +162,15 @@ Ga als volgt te werk om AI Assistant te gebruiken voor het genereren van een vol
 
 1. Blader omlaag in het deelvenster AI-assistent en blader door de gegenereerde variaties om te bepalen welke het beste past.
 
-   * Klik het _Volledige scherm_ ( ![&#x200B; Volledige het schermpictogram &#x200B;](../assets/do-not-localize/icon-full-screen.svg)) pictogram om de _[!UICONTROL Generate Landing Page]_&#x200B;dialoog te openen
+   * Klik het _Volledige scherm_ ( ![ Volledige het schermpictogram ](../assets/do-not-localize/icon-full-screen.svg)) pictogram om de _[!UICONTROL Generate Landing Page]_dialoog te openen
 
-   * Indien nodig, gebruik de [&#x200B; raffinageacties &#x200B;](#refine-a-variation) om de variatie te verfijnen om ervoor te zorgen dat zij aan uw nauwkeurige vereisten voldoen.
+   * Indien nodig, gebruik de [ raffinageacties ](#refine-a-variation) om de variatie te verfijnen om ervoor te zorgen dat zij aan uw nauwkeurige vereisten voldoen.
 
-   * [&#x200B; voorlegt terugkoppelt &#x200B;](#submit-variation-feedback) voor de geproduceerde varianten door de _Duimen omhoog_, _duimen neer_, of _Vlag_ pictogram voor te klikken en de reden te kiezen die het best uw samenvat terugkoppelt.
+   * [ voorlegt terugkoppelt ](#submit-variation-feedback) voor de geproduceerde varianten door de _Duimen omhoog_, _duimen neer_, of _Vlag_ pictogram voor te klikken en de reden te kiezen die het best uw samenvat terugkoppelt.
 
 1. Klik op **[!UICONTROL Select]** om de sjablooninhoud te vervangen door de geselecteerde variant en terug te keren naar de ontwerpruimte van de bestemmingspagina.
 
-   U kunt de bewerkings- en opmaakgereedschappen op het canvas gebruiken om de gegenereerde inhoud te wijzigen, evenals de opties _[!UICONTROL Settings]_&#x200B;en&#x200B;_[!UICONTROL Style]_ aan de rechterkant.
+   U kunt de bewerkings- en opmaakgereedschappen op het canvas gebruiken om de gegenereerde inhoud te wijzigen, evenals de opties _[!UICONTROL Settings]_en_[!UICONTROL Style]_ aan de rechterkant.
 
 >[!TAB  slechts Tekst ]
 
@@ -178,21 +178,21 @@ Ga als volgt te werk om AI Assistant te gebruiken om de tekstinhoud voor een bes
 
 1. In de het landende ruimte van het paginaontwerp, selecteer de component van de Tekst van de a __ om de specifieke inhoud te richten.
 
-1. Op de buitenspoor van het juiste paneel, selecteer _AI Medewerker_ ( ![&#x200B; AI Medewerker voor inhoudsknevel &#x200B;](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"}) pictogram.
+1. Op de buitenspoor van het juiste paneel, selecteer _AI Medewerker_ ( ![ AI Medewerker voor inhoudsknevel ](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"}) pictogram.
 
-   ![&#x200B; AI Hulp knevel in de het ontwerpruimte van de landende pagina &#x200B;](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
+   ![ AI Hulp knevel in de het ontwerpruimte van de landende pagina ](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
    De instellingen aan de rechterkant weerspiegelen de instellingen voor het genereren van inhoud voor de tekstcomponent.
 
 1. (Beta) Selecteer **[!UICONTROL Brand]** om ervoor te zorgen dat de door AI gegenereerde inhoud wordt afgestemd op uw merkspecificaties.
 
-   Als er geen gepubliceerde merken zijn, klik **[!UICONTROL Create a brand]** om [&#x200B; uw herbruikbare merkrichtlijnen &#x200B;](./brands-overview.md) te bepalen.
+   Als er geen gepubliceerde merken zijn, klik **[!UICONTROL Create a brand]** om [ uw herbruikbare merkrichtlijnen ](./brands-overview.md) te bepalen.
 
 1. Voer in het veld **[!UICONTROL Prompt]** een beschrijving in van wat u wilt genereren.
 
-   ![&#x200B; AI Medewerker - tekstmontages &#x200B;](./assets/email-designer-ai-assistant-text.png){width="600" zoomable="yes"}
+   ![ AI Medewerker - tekstmontages ](./assets/email-designer-ai-assistant-text.png){width="600" zoomable="yes"}
 
-   Gebruik de [&#x200B; Snelle Bibliotheek &#x200B;](#prompt-library) als u wat hulp met het ontwerpen van een efficiënte herinnering nodig hebt.
+   Gebruik de [ Snelle Bibliotheek ](#prompt-library) als u wat hulp met het ontwerpen van een efficiënte herinnering nodig hebt.
 
 1. Voltooi de instellingen voor de inhoudshulp om de gegenereerde inhoud aan te passen:
 
@@ -204,15 +204,15 @@ Ga als volgt te werk om AI Assistant te gebruiken om de tekstinhoud voor een bes
 
 1. Blader omlaag in het deelvenster AI-assistent en blader door de gegenereerde variaties om te bepalen welke het beste past.
 
-   * Klik het _Volledige scherm_ ( ![&#x200B; Volledige het schermpictogram &#x200B;](../assets/do-not-localize/icon-full-screen.svg)) pictogram om de _[!UICONTROL Generate Text]_&#x200B;dialoog te openen
+   * Klik het _Volledige scherm_ ( ![ Volledige het schermpictogram ](../assets/do-not-localize/icon-full-screen.svg)) pictogram om de _[!UICONTROL Generate Text]_dialoog te openen
 
-   * Indien nodig, gebruik de [&#x200B; raffinageacties &#x200B;](#refine-a-variation) om de variatie te verfijnen om ervoor te zorgen dat zij aan uw nauwkeurige vereisten voldoen.
+   * Indien nodig, gebruik de [ raffinageacties ](#refine-a-variation) om de variatie te verfijnen om ervoor te zorgen dat zij aan uw nauwkeurige vereisten voldoen.
 
-   * [&#x200B; voorlegt terugkoppelt &#x200B;](#submit-variation-feedback) voor de geproduceerde varianten door de _Duimen omhoog_, _duimen neer_, of _Vlag_ pictogram voor te klikken en de reden te kiezen die het best uw samenvat terugkoppelt.
+   * [ voorlegt terugkoppelt ](#submit-variation-feedback) voor de geproduceerde varianten door de _Duimen omhoog_, _duimen neer_, of _Vlag_ pictogram voor te klikken en de reden te kiezen die het best uw samenvat terugkoppelt.
 
 1. Wanneer u de gewenste inhoud hebt, klikt u op **[!UICONTROL Select]** om de tekst te vervangen door de geselecteerde variant en terug te keren naar de ontwerpruimte van de bestemmingspagina.
 
-   U kunt de bewerkings- en opmaakgereedschappen op het canvas gebruiken om de tekst, maar ook de opties _[!UICONTROL Settings]_&#x200B;en&#x200B;_[!UICONTROL Style]_ aan de rechterkant te wijzigen.
+   U kunt de bewerkings- en opmaakgereedschappen op het canvas gebruiken om de tekst, maar ook de opties _[!UICONTROL Settings]_en_[!UICONTROL Style]_ aan de rechterkant te wijzigen.
 
 >[!TAB  Beeld slechts ]
 
@@ -220,21 +220,21 @@ Ga als volgt te werk om AI Assistant te gebruiken om de afbeeldingsinhoud voor e
 
 1. In de het landende ruimte van het paginaontwerp, selecteer een _component van het Beeld_ om de specifieke inhoud te richten.
 
-1. Op de buitenspoor van het juiste paneel, selecteer _AI Medewerker_ ( ![&#x200B; AI Medewerker voor inhoudsknevel &#x200B;](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"}) pictogram.
+1. Op de buitenspoor van het juiste paneel, selecteer _AI Medewerker_ ( ![ AI Medewerker voor inhoudsknevel ](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"}) pictogram.
 
-   ![&#x200B; AI Hulp knevel in de het ontwerpruimte van de landende pagina &#x200B;](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
+   ![ AI Hulp knevel in de het ontwerpruimte van de landende pagina ](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
    De instellingen van de AI-assistent aan de rechterkant weerspiegelen de instellingen voor het genereren van de afbeeldingscomponent.
 
 1. (Beta) Selecteer **[!UICONTROL Brand]** om ervoor te zorgen dat de door AI gegenereerde inhoud wordt afgestemd op uw merkspecificaties.
 
-   Als er geen gepubliceerde merken zijn, klik **[!UICONTROL Create a brand]** om [&#x200B; uw herbruikbare merkrichtlijnen &#x200B;](./brands-overview.md) te bepalen.
+   Als er geen gepubliceerde merken zijn, klik **[!UICONTROL Create a brand]** om [ uw herbruikbare merkrichtlijnen ](./brands-overview.md) te bepalen.
 
 1. Voer in het veld **[!UICONTROL Prompt]** een beschrijving in van wat u wilt.
 
-   ![&#x200B; AI Medewerker - tekstmontages &#x200B;](./assets/email-designer-ai-assistant-image.png){width="600" zoomable="yes"}
+   ![ AI Medewerker - tekstmontages ](./assets/email-designer-ai-assistant-image.png){width="600" zoomable="yes"}
 
-   Gebruik de [&#x200B; Snelle Bibliotheek &#x200B;](#prompt-library) als u wat hulp met het ontwerpen van een efficiënte herinnering nodig hebt.
+   Gebruik de [ Snelle Bibliotheek ](#prompt-library) als u wat hulp met het ontwerpen van een efficiënte herinnering nodig hebt.
 
 1. Voltooi de instellingen voor de inhoudshulp om de gegenereerde inhoud aan te passen:
 
@@ -250,19 +250,19 @@ Ga als volgt te werk om AI Assistant te gebruiken om de afbeeldingsinhoud voor e
    >
    >Als de referentie-inhoud geen afbeeldingen bevat of als er geen afbeeldingen zijn die relevant zijn voor de invoerprompt, is de uitvoer leeg.
 
-1. Doorblader door de geproduceerde variaties of klik het _Volledige scherm_ ( ![&#x200B; Volledige het schermpictogram &#x200B;](../assets/do-not-localize/icon-full-screen.svg)) pictogram om de _[!UICONTROL Generate Image]_&#x200B;dialoog te openen.
+1. Doorblader door de geproduceerde variaties of klik het _Volledige scherm_ ( ![ Volledige het schermpictogram ](../assets/do-not-localize/icon-full-screen.svg)) pictogram om de _[!UICONTROL Generate Image]_dialoog te openen.
 
    Het dialoogvenster biedt extra ruimte om de variaties te vergelijken, de instellingen voor de afbeelding en de referentie-inhoud aan te passen (indien nodig) en de variaties opnieuw te genereren.
 
-   U kunt een variatie selecteren en op **[!UICONTROL Generate Similar]** klikken om extra afbeeldingen te genereren die vergelijkbaar zijn met de geselecteerde variant. U kunt ook op **[!UICONTROL Edit in Adobe Express]** klikken om uw eigen wijzigingen in de afbeelding aan te brengen. Zie [&#x200B; Snelle acties in Adobe Express &#x200B;](./image-edit-adobe-express.md#quick-actions-in-adobe-express) voor meer informatie over het gebruiken van Adobe Express om uw beelden te verfijnen.
+   U kunt een variatie selecteren en op **[!UICONTROL Generate Similar]** klikken om extra afbeeldingen te genereren die vergelijkbaar zijn met de geselecteerde variant. U kunt ook op **[!UICONTROL Edit in Adobe Express]** klikken om uw eigen wijzigingen in de afbeelding aan te brengen. Zie [ Snelle acties in Adobe Express ](./image-edit-adobe-express.md#quick-actions-in-adobe-express) voor meer informatie over het gebruiken van Adobe Express om uw beelden te verfijnen.
 
-   ![&#x200B; AI Hulp voorproef van tekstvariatie en verfijningsopties &#x200B;](./assets/email-designer-ai-assistant-image-refine.png){width="700" zoomable="yes"}
+   ![ AI Hulp voorproef van tekstvariatie en verfijningsopties ](./assets/email-designer-ai-assistant-image-refine.png){width="700" zoomable="yes"}
 
-   U kunt ook [&#x200B; voorleggen terugkoppelt &#x200B;](#submit-variation-feedback) voor de geproduceerde variaties.
+   U kunt ook [ voorleggen terugkoppelt ](#submit-variation-feedback) voor de geproduceerde variaties.
 
 1. Markeer de gewenste afbeelding en klik op **[!UICONTROL Select]** om de afbeelding of plaatsaanduiding te vervangen door het geselecteerde item en terug te keren naar de ontwerpruimte van de bestemmingspagina.
 
-   U kunt de bewerkings- en opmaakgereedschappen op het canvas gebruiken om de afbeelding te wijzigen, maar ook de opties _[!UICONTROL Settings]_&#x200B;en&#x200B;_[!UICONTROL Style]_ aan de rechterkant.
+   U kunt de bewerkings- en opmaakgereedschappen op het canvas gebruiken om de afbeelding te wijzigen, maar ook de opties _[!UICONTROL Settings]_en_[!UICONTROL Style]_ aan de rechterkant.
 
 >[!ENDTABS]
 
@@ -274,9 +274,9 @@ Na het produceren van inhoudvariaties, kunt u de resultaten verfijnen om ervoor 
 
 1. Blader na het genereren van de inhoud door de **[!UICONTROL Variations]** .
 
-1. Identificeer de variatie die de beste gelijke voor uw doelstellingen is en klik het _Volledige scherm_ ( ![&#x200B; Volledige het schermpictogram &#x200B;](../assets/do-not-localize/icon-full-screen.svg)) pictogram om de dialoog te openen.
+1. Identificeer de variatie die de beste gelijke voor uw doelstellingen is en klik het _Volledige scherm_ ( ![ Volledige het schermpictogram ](../assets/do-not-localize/icon-full-screen.svg)) pictogram om de dialoog te openen.
 
-   ![&#x200B; toegang tot de Generate dialoog &#x200B;](./assets/gen-ai-preview-text-refine.png){width="700" zoomable="yes"}
+   ![ toegang tot de Generate dialoog ](./assets/gen-ai-preview-text-refine.png){width="700" zoomable="yes"}
 
 1. Als u tevreden bent met de geselecteerde variatie, klikt u op **[!UICONTROL Select]** om deze toe te passen op het canvas.
 
@@ -300,20 +300,20 @@ Klik op de optie **[!UICONTROL Refine]** voor aanvullende aanpassingsfuncties vo
 
 <!-- * **[!UICONTROL Use as reference content]** - Select this option to use the variant as the reference content for generating other results. -->
 
-![&#x200B; verfijnen menu tonend opties voor inhoudsverfijning &#x200B;](./assets/gen-ai-preview-text-refine.png){width="700" zoomable="yes"}
+![ verfijnen menu tonend opties voor inhoudsverfijning ](./assets/gen-ai-preview-text-refine.png){width="700" zoomable="yes"}
 
 ### Feedback verzenden
 
 Verstrek terugkoppel voor de geproduceerde varianten door de _Duimen omhoog_, _duimen neer_, of _Vlag_ te klikken pictogram en de reden te kiezen die het best uw samenvat terugkoppelt.
 
-![&#x200B; AI Medewerker - voorproef de geproduceerde variaties &#x200B;](./assets/gen-ai-preview-feedback-thumbs-up.png){width="700" zoomable="yes"}
+![ AI Medewerker - voorproef de geproduceerde variaties ](./assets/gen-ai-preview-feedback-thumbs-up.png){width="700" zoomable="yes"}
 
 ### Controleer of je merk is uitgelijnd (Beta)
 
 <!-- Are we surfacing scoring here in the future, or will it be a separate post-creation task? 1. Click the percentage icon to view your **[!UICONTROL Brand Alignment Score]** and identify any misalignments with your brand. -->
 
-De evaluatie en het scoren van de merkgroepering helpen u om consistentie in toon, overseinen, en visuele identiteit over uw campagnes te verzekeren, terwijl ook als kwaliteitscontrole dient alvorens uw inhoud live gaat. Wanneer de het landen pagina inhoud volledig is, klik de _groepering van het Merk_ ( ![&#x200B; pictogram van de groepering van het Merk &#x200B;](../assets/do-not-localize/icon-brand-compliance.svg) ) op het recht om het _Merk groeperings_ juiste paneel in de het ontwerpruimte van de landende pagina te openen.
+De evaluatie en het scoren van de merkgroepering helpen u om consistentie in toon, overseinen, en visuele identiteit over uw campagnes te verzekeren, terwijl ook als kwaliteitscontrole dient alvorens uw inhoud live gaat. Wanneer de het landen pagina inhoud volledig is, klik de _groepering van het Merk_ ( ![ pictogram van de groepering van het Merk ](../assets/do-not-localize/icon-brand-compliance.svg) ) op het recht om het _Merk groeperings_ juiste paneel in de het ontwerpruimte van de landende pagina te openen.
 
-![&#x200B; heb toegang tot de de groeperingshulpmiddelen van het Merk &#x200B;](./assets/brands-alignment-sidebar.png){width="600" zoomable="yes"}
+![ heb toegang tot de merkgroepering die tot hulpmiddelen ](./assets/brands-alignment-sidebar.png){width="600" zoomable="yes"} scoren
 
-Voor gedetailleerde informatie, zie [&#x200B; uw merkgroepering &#x200B;](./brand-alignment.md#validate-your-brand-alignment) bevestigen
+Voor gedetailleerde informatie, zie [_de groeperingsscore van de Merk_](./content-evaluation.md#brand-alignment-score)
