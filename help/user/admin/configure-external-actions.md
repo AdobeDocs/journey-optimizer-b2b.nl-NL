@@ -29,17 +29,17 @@ Voor het opzetten van externe acties is coördinatie nodig over drie opeenvolgen
 
 | | Functie | Taak |
 | ---- | ---- | ---- |
-| 1 | Ontwikkelaar | [ voert en publiceert de externe dienst ](#implement-service) uit |
-| 2 | Beheerder | [ vorm de actie in Journey Optimizer B2B edition ](#configure-action) |
-| 3 | Marketer | [ voeg een externe knoop aan een rekeningsreis ](#add-journey-node) toe |
+| 1 | Ontwikkelaar | [&#x200B; voert en publiceert de externe dienst &#x200B;](#implement-service) uit |
+| 2 | Beheerder | [&#x200B; vorm de actie in Journey Optimizer B2B edition &#x200B;](#configure-action) |
+| 3 | Marketer | [&#x200B; voeg een externe knoop aan een rekeningsreis &#x200B;](#add-journey-node) toe |
 
 ## De externe service implementeren {#implement-service}
 
-De ontwikkelaar moet tot stand brengen en publiceren de openbaar-onder ogen ziet Webdienst die aan de [ Interface van de Leverancier van de Dienst van de Actie van Adobe Journey Optimizer B2B edition ](https://developer.adobe.com/journey-optimizer-b2b-apis/) voldoet.
+De ontwikkelaar moet tot stand brengen en publiceren de openbaar-onder ogen ziet Webdienst die aan de [&#x200B; Interface van de Leverancier van de Dienst van de Actie van Adobe Journey Optimizer B2B edition &#x200B;](https://developer.adobe.com/journey-optimizer-b2b-apis/) voldoet.
 
 >[!NOTE]
 >
->De callback functie vereist een dragertoken. Haal dit door vestiging [ OAuth Server-aan-Server geloofsbrieven in Adobe Developer Console ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation) voor uw organisatie IMS op.
+>De callback functie vereist een dragertoken. Haal dit door vestiging [&#x200B; OAuth Server-aan-Server geloofsbrieven in Adobe Developer Console &#x200B;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation) voor uw organisatie IMS op.
 
 Nadat de service live is, geeft u de URL naar de OpenAPI-specificatie en de verificatiegegevens door aan de productbeheerder die verantwoordelijk is voor het configureren van de handeling.
 
@@ -51,19 +51,19 @@ Een actie moet worden gevormd en geactiveerd alvorens de verkopers het in een re
 >
 >Haal de URL naar de OpenAPI-specificatie en de verificatiereferenties op van de ontwikkelaar voordat u de configuratie toevoegt.
 >
->Om een externe actie te bepalen en te activeren, moet u de _[!UICONTROL Manage B2B Admin Configurations]_[ producttoestemming ](./user-management.md#b2b-product-permissions) hebben.
+>Om een externe actie te bepalen en te activeren, moet u de _[!UICONTROL Manage B2B Admin Configurations]_[&#x200B; producttoestemming &#x200B;](./user-management.md#b2b-product-permissions) hebben.
 
 1. Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Configurations]** .
 
 1. Klik op **[!UICONTROL External Actions]** in het middelste deelvenster.
 
-   ![ heb toegang tot de Externe de configuratieruimte van Acties ](./assets/configuration-external-actions-list.png){width="800" zoomable="yes"}
+   ![&#x200B; heb toegang tot de Externe de configuratieruimte van Acties &#x200B;](./assets/configuration-external-actions-list.png){width="800" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Create action]** rechtsboven.
 
 1. Voer de URL in naar de OpenAPI-specificatie voor uw externe service en klik op **[!UICONTROL Create]** .
 
-   ![ ga de dienst URL ](./assets/configuration-external-actions-create-url.png){width="500"} in
+   ![&#x200B; ga de dienst URL &#x200B;](./assets/configuration-external-actions-create-url.png){width="500"} in
 
    >[!NOTE]
    >
@@ -85,7 +85,7 @@ Een actie moet worden gevormd en geactiveerd alvorens de verkopers het in een re
    >
    >De weergegeven referentie-velden zijn afhankelijk van het verificatiemechanisme dat in de externe service is gedefinieerd. Ondersteunde typen zijn API-sleutel, OAuth2 en HTTP Basic-verificatie.
 
-   ![ voeg de authentificatiegeloofsbrieven toe ](./assets/configuration-external-actions-auth-credentials.png){width="600" zoomable="yes"}
+   ![&#x200B; voeg de authentificatiegeloofsbrieven toe &#x200B;](./assets/configuration-external-actions-auth-credentials.png){width="600" zoomable="yes"}
 
    U kunt de geloofsbrieven veranderen zoals nodig wanneer de gevormde actie in het _Ontwerp_ of _Actieve_ status is.
 
@@ -114,11 +114,11 @@ Een actie moet worden gevormd en geactiveerd alvorens de verkopers het in een re
 
       * [!UICONTROL People in Account] - Hiermee verzendt u accounts en personen die met een account te maken hebben
 
-   * **[!UICONTROL Outgoing Fields]** - kaart elk gebied in de lijst aan een [ XDM gebied ](../admin/xdm-field-management.md) in kaart. Deze velden worden in de aanvraaginstantie naar de externe service verzonden. Servicedefinitie-eigenschappen: `invocationPayloadDef.accountFields`, `invocationPayloadDef.fields` .
+   * **[!UICONTROL Outgoing Fields]** - kaart elk gebied in de lijst aan een [&#x200B; XDM gebied &#x200B;](../admin/xdm-field-management.md) in kaart. Deze velden worden in de aanvraaginstantie naar de externe service verzonden. Servicedefinitie-eigenschappen: `invocationPayloadDef.accountFields`, `invocationPayloadDef.fields` .
 
-   ![ de externe actie van de Kaart uitgaande gebieden ](./assets/configuration-external-actions-fields.png){width="600" zoomable="yes"}
+   ![&#x200B; de externe actie van de Kaart uitgaande gebieden &#x200B;](./assets/configuration-external-actions-fields.png){width="600" zoomable="yes"}
 
-   * **[!UICONTROL Incoming Fields]** - kaart elk gebied in de lijst aan een [ updatable XDM gebied ](../admin/xdm-field-management.md#updatable-fields) in kaart. Deze gebieden worden bevolkt van de externe de dienstreactie. Servicedefinitie-eigenschappen: `callbackPayloadDef.accountFields`, `callbackPayloadDef.fields` . Kan na het maken worden bijgewerkt.
+   * **[!UICONTROL Incoming Fields]** - kaart elk gebied in de lijst aan een [&#x200B; updatable XDM gebied &#x200B;](../admin/xdm-field-management.md#updatable-fields) in kaart. Deze gebieden worden bevolkt van de externe de dienstreactie. Servicedefinitie-eigenschappen: `callbackPayloadDef.accountFields`, `callbackPayloadDef.fields` . Kan na het maken worden bijgewerkt.
 
    * **[!UICONTROL Header parameters]** - Voer een waarde in voor elke rij die als HTTP-header in de aanvraag moet worden doorgegeven. Service definition property: `invocationPayloadDef.headers`.
 
@@ -126,7 +126,7 @@ Een actie moet worden gevormd en geactiveerd alvorens de verkopers het in een re
 
    * **[!UICONTROL Global attributes]** - ga een waarde voor elke rij in om als statisch gebied in het verzoeklichaam op te nemen. Service definition property: `invocationPayloadDef.globalAttributes`.
 
-   ![ Externe parameters van de actiekop, onderbreking, en globale attributen ](./assets/configuration-external-actions-header-timeout-global.png){width="600" zoomable="yes"}
+   ![&#x200B; Externe parameters van de actiekop, onderbreking, en globale attributen &#x200B;](./assets/configuration-external-actions-header-timeout-global.png){width="600" zoomable="yes"}
 
 1. Klik de _Achterpijl_ om aan de lijst terug te keren en de actie in de staat van het a _Ontwerp_ te houden.
 
@@ -134,4 +134,4 @@ Een actie moet worden gevormd en geactiveerd alvorens de verkopers het in een re
 
 ## Een extern knooppunt aan een reis toevoegen {#add-journey-node}
 
-Nadat een handeling is geactiveerd, kunnen marketers een knooppunt _[!UICONTROL External action]_of_[!UICONTROL External split path]_ toevoegen aan elke accountreis. Voor informatie over hoe te om deze knopen in het canvas van de rekeningsreis toe te voegen en te gebruiken, zie [ Externe knopen ](../journeys/external-nodes.md).
+Nadat een handeling is geactiveerd, kunnen marketers een knooppunt _[!UICONTROL External action]_&#x200B;of&#x200B;_[!UICONTROL External split path]_ toevoegen aan elke accountreis. Voor informatie over hoe te om deze knopen in het canvas van de rekeningsreis toe te voegen en te gebruiken, zie [&#x200B; Externe knopen &#x200B;](../journeys/external-nodes.md).

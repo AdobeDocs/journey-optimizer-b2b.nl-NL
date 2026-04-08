@@ -19,7 +19,7 @@ Nadat u een reis (rekeningreis of persoonlijke reis) creeert, voeg het publiek t
 De knopen van het publiek zijn automatisch de eerste knoop in de reis:
 
 * [Accountpubliek](./account-audience-nodes.md)
-* [ het publiek van de Persoon ](./person-audience-nodes.md) (Beta)
+* [&#x200B; het publiek van de Persoon &#x200B;](./person-audience-nodes.md) (Beta)
 
 Bouw uw reis door de verschillende actie, gebeurtenis, en orkestknopen als multi-step, dwars-kanaalscenario te combineren. Elke knoop van een reis vertegenwoordigt een stap langs een logische weg. Gebruik de volgende knooppunttypes om een rekeningsreis te construeren:
 

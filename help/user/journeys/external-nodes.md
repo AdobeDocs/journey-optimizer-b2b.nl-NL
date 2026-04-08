@@ -18,7 +18,7 @@ Gebruik externe knooppunten om de reis van uw account te verbinden met een exter
 >
 >Externe actieknooppunten zijn alleen beschikbaar tijdens reizen naar de account. Ze worden niet ondersteund op persoonlijke reizen.
 >
->Een beheerder moet [ vormen en de externe actie ](../admin/configure-external-actions.md) activeren alvorens de marketers deze knopen in een reis toevoegen en uitvoeren.
+>Een beheerder moet [&#x200B; vormen en de externe actie &#x200B;](../admin/configure-external-actions.md) activeren alvorens de marketers deze knopen in een reis toevoegen en uitvoeren.
 
 Er zijn twee typen externe actieknooppunten:
 
@@ -33,7 +33,7 @@ De _Externe actie_ knoop roept de externe dienst en gaat langs één enkele uitg
 
 1. Klik op de plusknop ( **+** ) op een pad en kies **[!UICONTROL External action]** .
 
-   ![ voeg een Externe actieknoop ](./assets/node-external-action.png){width="400"} toe
+   ![&#x200B; voeg een Externe actieknoop &#x200B;](./assets/node-external-action.png){width="400"} toe
 
 1. In de knoopeigenschappen op het recht, plaats de **[!UICONTROL Action on]** context voor de externe actie:
 
@@ -42,7 +42,7 @@ De _Externe actie_ knoop roept de externe dienst en gaat langs één enkele uitg
 
 1. Selecteer de externe **[!UICONTROL Service name]** .
 
-   ![ Externe actieknooppunt - de uitgezochte externe dienst ](./assets/node-external-action-service-name.png){width="600" zoomable="yes"}
+   ![&#x200B; Externe actieknooppunt - de uitgezochte externe dienst &#x200B;](./assets/node-external-action-service-name.png){width="600" zoomable="yes"}
 
    De lijst omvat alle gevormde externe acties die actief zijn en voor het _Externe actietype_ en de context worden aangewezen.
 
@@ -50,7 +50,7 @@ De _Externe actie_ knoop roept de externe dienst en gaat langs één enkele uitg
 
 1. Blijf de reis van de uitgaande wegen van de knoop bouwen.
 
-   Het pad _[!UICONTROL Timeout or error]_wordt automatisch gemaakt. Als de onderbrekingsperiode (zoals die in de dienst wordt gevormd) verstrijkt alvorens een reactie wordt ontvangen, vordert de rekening of de persoon onderaan deze weg. Het is hetzelfde als er een foutreactie wordt ontvangen. U kunt reisknopen aan deze weg toevoegen om deze scenario&#39;s, of de reiseinden voor het publiekslid te behandelen.
+   Het pad _[!UICONTROL Timeout or error]_&#x200B;wordt automatisch gemaakt. Als de onderbrekingsperiode (zoals die in de dienst wordt gevormd) verstrijkt alvorens een reactie wordt ontvangen, vordert de rekening of de persoon onderaan deze weg. Het is hetzelfde als er een foutreactie wordt ontvangen. U kunt reisknopen aan deze weg toevoegen om deze scenario&#39;s, of de reiseinden voor het publiekslid te behandelen.
 
 ## Knooppunt Externe gesplitste paden {#external-split-paths}
 
@@ -60,7 +60,7 @@ De Externe gespleten wegknoop roept de externe dienst en gebruikt de reactie om 
 
 1. Klik op de plusknop ( **+** ) op een pad en kies **[!UICONTROL External split paths]** .
 
-   ![ voeg een Externe gespleten wegknoop ](./assets/node-external-split-path.png){width="400"} toe
+   ![&#x200B; voeg een Externe gespleten wegknoop &#x200B;](./assets/node-external-split-path.png){width="400"} toe
 
 1. Kies een **[!UICONTROL Split paths by]** type in de knoopeigenschappen aan de rechterkant:
 
@@ -71,14 +71,14 @@ De Externe gespleten wegknoop roept de externe dienst en gebruikt de reactie om 
 
 1. Als de de dienstconfiguratie _globale attributen_ heeft, ga de vereiste waarden op de gebieden in die onder de de dienstnaam verschijnen.
 
-1. Definieer voor _[!UICONTROL Path 1]_de vertakkingsvoorwaarde:
+1. Definieer voor _[!UICONTROL Path 1]_&#x200B;de vertakkingsvoorwaarde:
 
    * Vervang voor **[!UICONTROL Label]** de standaardwaarde door een beschrijvend label.
    * Kies bij **[!UICONTROL Select variable]** een accessor. Accessors zijn waarden die door de externe service worden geretourneerd en worden gedefinieerd wanneer de handeling wordt geconfigureerd.
    * Kies bij **[!UICONTROL Select operator]** de operator.
    * Voer bij **[!UICONTROL Enter values]** de waarde in die moet worden vergeleken met.
 
-   ![ Externe gespleten wegknoop - vastgestelde wegvoorwaarde gebruikend een de dienstvariabele ](./assets/node-external-split-path-properties.png){width="600" zoomable="yes"}
+   ![&#x200B; Externe gespleten wegknoop - vastgestelde wegvoorwaarde gebruikend een de dienstvariabele &#x200B;](./assets/node-external-split-path-properties.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -88,6 +88,6 @@ De Externe gespleten wegknoop roept de externe dienst en gebruikt de reactie om 
 
 1. Ga door met het bouwen van de reis vanaf elk uitgaand pad van het knooppunt.
 
-   Het pad _[!UICONTROL Timeout or error]_wordt automatisch gemaakt. Als de onderbrekingsperiode (zoals die in de dienst wordt gevormd) verstrijkt alvorens een reactie wordt ontvangen, vordert de rekening of de persoon onderaan deze weg. Het is hetzelfde als er een foutreactie wordt ontvangen. U kunt reisknopen aan deze weg toevoegen om deze scenario&#39;s, of de reiseinden voor het publiekslid te behandelen.
+   Het pad _[!UICONTROL Timeout or error]_&#x200B;wordt automatisch gemaakt. Als de onderbrekingsperiode (zoals die in de dienst wordt gevormd) verstrijkt alvorens een reactie wordt ontvangen, vordert de rekening of de persoon onderaan deze weg. Het is hetzelfde als er een foutreactie wordt ontvangen. U kunt reisknopen aan deze weg toevoegen om deze scenario&#39;s, of de reiseinden voor het publiekslid te behandelen.
 
-1. Voor _Gesplitst door rekeningen_, kunt u de knoop van de wegen van de a [ Fusie ](./split-merge-paths-nodes.md#merge-paths) toevoegen om twee of meer wegen te combineren zoals nodig.
+1. Voor _Gesplitst door rekeningen_, kunt u de knoop van de wegen van de a [&#x200B; Fusie &#x200B;](./split-merge-paths-nodes.md#merge-paths) toevoegen om twee of meer wegen te combineren zoals nodig.
