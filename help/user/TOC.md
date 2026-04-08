@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B edition-documentatie
 user-guide-description: Meer informatie over Adobe Journey Optimizer B2B edition en hoe u dit kunt gebruiken om accounts te ordenen en groepsreizen te kopen met behulp van ingebouwde generatieve AI en toonaangevende automatisering.
-source-git-commit: c0770348a39a9041d3c96ed2b6f379865f3908f0
+source-git-commit: 36bcf61bd7188495e188e408e2faf9b9f24c7724
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 96%
+source-wordcount: '435'
+ht-degree: 95%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 96%
       + [Personpubliek (Beta)](./journeys/person-audience-nodes.md)
       + [Handeling uitvoeren](./journeys/action-nodes.md)
       + [Luisteren naar een gebeurtenis](./journeys/listen-for-event-nodes.md)
-      + [&#x200B; Splits en voeg wegen  samen](./journeys/split-merge-paths-nodes.md)
+      + [ Splits en voeg wegen ](./journeys/split-merge-paths-nodes.md) samen
       + [Wachten](./journeys/wait-nodes.md)
    + [Reisgegevens](./journeys/journey-details.md)
 + Reisinhoud {#journey-content}
@@ -116,6 +116,7 @@ ht-degree: 96%
       + E-mailsjablonen {#email-templates}
          + [Overzicht](./content/email-templates.md)
          + [E-mailsjabloonontwerp](./content/email-template-authoring.md)
+         + [Geavanceerde HTML-bewerkingen](./content/email-template-advanced-html.md)
          + [Afbeelding omzetten in sjabloon](./content/email-template-image-convert.md)
       + Sjablonen voor bestemmingspagina&#39;s (Beta) {#landing-page-templates}
          + [Overzicht](./content/landing-page-templates.md)
@@ -127,7 +128,7 @@ ht-degree: 96%
       + [Overzicht](./content/forms.md)
       + [Formulierontwerp](./content/form-design.md)
    + Openingspagina&#39;s (Beta) {#landing-pages}
-      + [&#x200B; Overzicht &#x200B;](./content/landing-pages.md)
+      + [ Overzicht ](./content/landing-pages.md)
       + [Ontwerp bestemmingspagina](./content/landing-page-design.md)
       + [AI Assistant voor het plaatsen van pagina-inhoud](./content/ai-assistant-landing-pages.md)
    + Gereedschappen voor het ontwerpen van inhoud {#content-design}
@@ -148,7 +149,7 @@ ht-degree: 96%
 + Intelligente dashboards {#dashboards}
    + [Het dashboard met inzichten](./dashboards/intelligent-dashboard.md)
    + [Betrokkenheidsdashboard](./dashboards/engagement-dashboard.md)
-   + [&#x200B; de betrokkenheidsdashboard van het Web &#x200B;](./dashboards/web-engagement-dashboard.md)
+   + [ de betrokkenheidsdashboard van het Web ](./dashboards/web-engagement-dashboard.md)
    + [Het dashboard voor groepen kopen](./dashboards/buying-groups-dashboard.md)
    + [Rekeningjournaal](./dashboards/journeys-dashboard.md)
 + Administratie {#admin}
