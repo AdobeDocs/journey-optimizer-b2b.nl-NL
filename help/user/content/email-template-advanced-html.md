@@ -26,7 +26,7 @@ _Geavanceerde wijze van HTML_ verstrekt een mening die ervaren gebruikers de ruw
 
 ## Belangrijke beperkingen
 
-Alvorens u geavanceerde wijze van HTML voor [ e-mailmalplaatje creatie ](./email-template-authoring.md) gebruikt, zorg ervoor dat u de volgende beperkingen begrijpt:
+Alvorens u geavanceerde wijze van HTML voor [&#x200B; e-mailmalplaatje creatie &#x200B;](./email-template-authoring.md) gebruikt, zorg ervoor dat u de volgende beperkingen begrijpt:
 
 * **Geen bevestiging** — De redacteur van HTML voert syntaxiscontrole of lay-outcontrole niet uit. Controleer de code zorgvuldig voordat u deze opslaat.
 
@@ -40,15 +40,15 @@ Alvorens u geavanceerde wijze van HTML voor [ e-mailmalplaatje creatie ](./email
 
 De geavanceerde HTML-modus is toegankelijk vanaf de werkbalk boven aan de ruimte voor visueel ontwerp wanneer u een e-mailsjabloon op het canvas hebt geladen.
 
-1. Open of [ creeer een e-mailmalplaatje ](./email-templates.md#create-an-email-template) en open de ontwerpruimte om de inhoud uit te geven.
+1. Open of [&#x200B; creeer een e-mailmalplaatje &#x200B;](./email-templates.md#create-an-email-template) en open de ontwerpruimte om de inhoud uit te geven.
 
-1. In de ontwerpruimte, klik het _[!UICONTROL HTML]_( ![ pictogram van HTML ](../assets/do-not-localize/icon-code.svg)) pictogram in de toolbar.
+1. In de ontwerpruimte, klik het _[!UICONTROL HTML]_( ![&#x200B; pictogram van HTML &#x200B;](../assets/do-not-localize/icon-code.svg)) pictogram in de toolbar.
 
-   ![ klik het pictogram van HTML in de werkbalk van de het ontwerpruimte van het e-mailmalplaatje ](./assets/email-template-advanced-html-mode-toolbar.png){width="750" zoomable="yes"}
+   ![&#x200B; klik het pictogram van HTML in de werkbalk van de het ontwerpruimte van het e-mailmalplaatje &#x200B;](./assets/email-template-advanced-html-mode-toolbar.png){width="750" zoomable="yes"}
 
    Als dit de eerste keer is dat de geavanceerde HTML-modus wordt geopend (of als een maand of meer is verstreken), wordt een waarschuwingsbericht weergegeven. Controleer de gegevens en klik op **[!UICONTROL OK]** om door te gaan.
 
-   ![ herzie de Geavanceerde de wijzewaarschuwing van HTML en klik O.K. om ](./assets/email-template-html-mode-warning.png){width="500"} verder te gaan
+   ![&#x200B; herzie de Geavanceerde de wijzewaarschuwing van HTML en klik O.K. om &#x200B;](./assets/email-template-html-mode-warning.png){width="500"} verder te gaan
 
    Het ontwerpcanvas schakelt over naar de onbewerkte HTML-bronweergave.
 
@@ -57,11 +57,11 @@ De geavanceerde HTML-modus is toegankelijk vanaf de werkbalk boven aan de ruimte
    Op _Geavanceerde wijze van HTML_, hebt u directe toegang tot de volledige bron van HTML van uw e-mailmalplaatjeinhoud:
 
    * Een deel van de onbewerkte HTML-markeringen weergeven en wijzigen.
-   * Tussenvoegsel geavanceerde [ verpersoonlijkingsuitdrukkingen ](./personalization.md) direct in de bron.
-   * Voeg [ voorwaardelijke inhoud ](./conditional-content.md) logica toe gebruikend uitdrukkingssyntaxis.
+   * Tussenvoegsel geavanceerde [&#x200B; verpersoonlijkingsuitdrukkingen &#x200B;](./personalization.md) direct in de bron.
+   * Voeg [&#x200B; voorwaardelijke inhoud &#x200B;](./conditional-content.md) logica toe gebruikend uitdrukkingssyntaxis.
    * Voeg aangepaste HTML-kenmerken, trackingtags of andere markeringen toe die niet beschikbaar zijn via de besturingselementen voor visuele editors.
 
-   ![ Geavanceerde wijze van HTML met ruwe bron van HTML van de e-mailinhoud ](./assets/email-template-advanced-html-mode.png){width="800" zoomable="yes"}
+   ![&#x200B; Geavanceerde wijze van HTML met ruwe bron van HTML van de e-mailinhoud &#x200B;](./assets/email-template-advanced-html-mode.png){width="800" zoomable="yes"}
 
    >[!IMPORTANT]
    >
@@ -71,8 +71,8 @@ De geavanceerde HTML-modus is toegankelijk vanaf de werkbalk boven aan de ruimte
 
    Als u in de geavanceerde HTML-modus op **[!UICONTROL Save]** of **[!UICONTROL Save & close]** rechtsboven klikt, verschijnt er een waarschuwingsvenster waarin u wordt gewaarschuwd dat u de geavanceerde HTML-modus moet verlaten voordat u de sjabloon opslaat en de ontwerpruimte verlaat.
 
-   ![ Alert dialoog die sparen wordt onbruikbaar gemaakt op geavanceerde wijze van HTML ](./assets/email-template-advanced-html-save-disabled-alert.png){width="500"}
+   ![&#x200B; Alert dialoog die sparen wordt onbruikbaar gemaakt op geavanceerde wijze van HTML &#x200B;](./assets/email-template-advanced-html-save-disabled-alert.png){width="500"}
 
-1. Klik het _[!UICONTROL Desktop]_( ![ pictogram van de Desktop ](../assets/do-not-localize/icon-desktop-spectrum-1.svg)) pictogram in de toolbar om van geavanceerde wijze van HTML (de HTML bronmening) aan het visuele ontwerpcanvas over te schakelen.
+1. Klik het _[!UICONTROL Desktop]_( ![&#x200B; pictogram van de Desktop &#x200B;](../assets/do-not-localize/icon-desktop-spectrum-1.svg)) pictogram in de toolbar om van geavanceerde wijze van HTML (de HTML bronmening) aan het visuele ontwerpcanvas over te schakelen.
 
    Uw bewerkingen blijven behouden wanneer u van weergave verandert.
