@@ -5,10 +5,10 @@ feature: Account Journeys
 hide: true
 hidefromtoc: true
 exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
-source-git-commit: f5170767a6df14874fab5de203264a5a5e3e245a
+source-git-commit: 6d3967babc1bc868fde0c76ac9068e63156070cd
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 0%
+source-wordcount: '131'
+ht-degree: 9%
 
 ---
 
@@ -19,7 +19,7 @@ Nadat u een reis (rekeningreis of persoonlijke reis) creeert, voeg het publiek t
 De knopen van het publiek zijn automatisch de eerste knoop in de reis:
 
 * [Accountpubliek](./account-audience-nodes.md)
-* [&#x200B; het publiek van de Persoon &#x200B;](./person-audience-nodes.md) (Beta)
+* [ het publiek van de Persoon ](./person-audience-nodes.md) (Beta)
 
 Bouw uw reis door de verschillende actie, gebeurtenis, en orkestknopen als multi-step, dwars-kanaalscenario te combineren. Elke knoop van een reis vertegenwoordigt een stap langs een logische weg. Gebruik de volgende knooppunttypes om een rekeningsreis te construeren:
 
@@ -28,3 +28,4 @@ Bouw uw reis door de verschillende actie, gebeurtenis, en orkestknopen als multi
 * [Paden splitsen](./split-merge-paths-nodes.md)
 * [Wachten](./wait-nodes.md)
 * [Paden samenvoegen](./split-merge-paths-nodes.md)
+* [Extern](./external-nodes.md)
