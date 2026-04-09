@@ -13,13 +13,13 @@ ht-degree: 0%
 
 # Reisgegevens
 
-Wanneer u op de naam van een actieve accountreis klikt, worden de reisgegevens weergegeven. Het tabblad _[!UICONTROL Overview]_bevat nuttige informatie over de rit, waaronder algemene AI-overzichten.
+Wanneer u op de naam van een actieve accountreis klikt, worden de reisgegevens weergegeven. Het tabblad _[!UICONTROL Overview]_&#x200B;bevat nuttige informatie over de rit, waaronder algemene AI-overzichten.
 
 Dit dashboard biedt een uitgebreid overzicht van een geselecteerde accountreis, met een gedetailleerd overzicht van de voortgang van de account aan de hand van cirkel- en lijndiagrammen die voltooide accounts categoriseren en kwantificeren, lopende activiteiten en afbrekingen in de loop van de tijd. Het helpt Marketers de doeltreffendheid van e-mail en de kanalen van SMS door zeer belangrijke levering en betrokkenheidsmetriek evalueren.
 
 Dit overzicht is beschikbaar voor gepubliceerde accountreizen en het duurt ongeveer vier uur voordat gegevens de diagrammen en tabellen invullen.
 
-![ heb toegang tot de actieve reisdetails ](./assets/journey-detail-overview.png){width="700" zoomable="yes"}
+![&#x200B; heb toegang tot de actieve reisdetails &#x200B;](./assets/journey-detail-overview.png){width="700" zoomable="yes"}
 
 ## Reisvoltooiing
 
@@ -70,9 +70,9 @@ Moedig verder met de gegevens aan door het actiepictogram (**te gebruiken...**) 
 
 ### Doorboor
 
-Kies voor het _[!UICONTROL Journey status]_-diagram **[!UICONTROL Drill through]**voor een diepgaande analyse van de status van afzonderlijke accounts.
+Kies voor het _[!UICONTROL Journey status]_-diagram **[!UICONTROL Drill through]**&#x200B;voor een diepgaande analyse van de status van afzonderlijke accounts.
 
-![ de boor door voor de grafiekgegevens ](./assets/journey-status-drill-through.png){width="600" zoomable="yes"}
+![&#x200B; de boor door voor de grafiekgegevens &#x200B;](./assets/journey-status-drill-through.png){width="600" zoomable="yes"}
 <!--
 The applied global filters are carried over to the view and displayed at the top. Click the _Filter_ icon at the top left to filter the data display by journey.
 -->
@@ -81,6 +81,6 @@ The applied global filters are carried over to the view and displayed at the top
 
 Kies **[!UICONTROL View more]** voor toegang tot uitgebreide gegevens. Het weergegeven pop-upvenster bevat een uitsplitsing van de gegevens.
 
-![ Mening uitgebreide gegevens ](./assets/journey-completion-over-time-view-more.png){width="600" zoomable="yes"}
+![&#x200B; Mening uitgebreide gegevens &#x200B;](./assets/journey-completion-over-time-view-more.png){width="600" zoomable="yes"}
 
 Als u de gegevens wilt downloaden, klikt u op **[!UICONTROL Download CSV]** rechtsboven in de datatabel. Om aan het _Overzicht_ dashboard terug te keren, klik **[!UICONTROL Close]**.

@@ -19,25 +19,25 @@ U kunt bijvoorbeeld de kop- en voettekst vergrendelen die is ontworpen voor de c
 
 ## Inhoudsbeheer voor de sjabloon activeren
 
-Nadat u de visuele ontwerpruimte aan [ auteur de structurele en inhoudcomponenten ](./email-template-authoring.md) voor uw e-mailmalplaatje gebruikt, laat bestuur toe en pas specifieke inhoudsafscherping zonodig toe.
+Nadat u de visuele ontwerpruimte aan [&#x200B; auteur de structurele en inhoudcomponenten &#x200B;](./email-template-authoring.md) voor uw e-mailmalplaatje gebruikt, laat bestuur toe en pas specifieke inhoudsafscherping zonodig toe.
 
 1. In de visuele ontwerpruimte, heb toegang tot de lagen/de containers en de elementen gebruikend de _boom van de Navigatie_.
 
-   Klik het _pictogram van de Navigatieboom_ ( ![ pictogram van de Verbinding ](../assets/do-not-localize/icon-navigation-tree.svg)) links van het canvas om de boom te tonen.
+   Klik het _pictogram van de Navigatieboom_ ( ![&#x200B; pictogram van de Verbinding &#x200B;](../assets/do-not-localize/icon-navigation-tree.svg)) links van het canvas om de boom te tonen.
 
 1. Selecteer de basiscomponent **[!UICONTROL Body]** in de structuur.
 
-   In het deelvenster Eigenschappen rechts van het canvas wordt standaard de tab _[!UICONTROL Settings]_weergegeven.
+   In het deelvenster Eigenschappen rechts van het canvas wordt standaard de tab _[!UICONTROL Settings]_&#x200B;weergegeven.
 
 1. Schakel de optie **[!UICONTROL Governance]** in.
 
-   ![ laat bestuur voor een e-mailmalplaatje ](./assets/governance-template-enable.png){width="800" zoomable="yes"} toe
+   ![&#x200B; laat bestuur voor een e-mailmalplaatje &#x200B;](./assets/governance-template-enable.png){width="800" zoomable="yes"} toe
 
-   Als deze optie is ingeschakeld, is de standaardwaarde _[!UICONTROL Mode]_**[!UICONTROL Read only]**. Als deze modus is ingesteld op het hoofdniveau, worden alle elementen in de sjabloon vergrendeld. De boomstructuur op de linkerzijde toont_ slechts Lees _pictogram ( ![ leest slechts pictogram ](../assets/do-not-localize/icon-tree-lock.svg)) naast de wortel en alle kindelementen.
+   Als deze optie is ingeschakeld, is de standaardwaarde _[!UICONTROL Mode]_&#x200B;**[!UICONTROL Read only]**. Als deze modus is ingesteld op het hoofdniveau, worden alle elementen in de sjabloon vergrendeld. De boomstructuur op de linkerzijde toont_ slechts Lees _pictogram ( ![&#x200B; leest slechts pictogram &#x200B;](../assets/do-not-localize/icon-tree-lock.svg)) naast de wortel en alle kindelementen.
 
 1. Wijzig **[!UICONTROL Mode]** in **[!UICONTROL Content locking]** als u specifieke inhoudsafsluiting in de sjabloon wilt inschakelen.
 
-   Als deze modus is ingesteld op het hoofdniveau, worden alle elementen in de sjabloon ontgrendeld. De boomstructuur op de linkerzijde toont het _pictogram van de 2} Vergrendeling van de Inhoud_ {naast het wortelelement. ![](../assets/do-not-localize/icon-tree-content-lock.svg)Pas indien nodig inhoudvergrendeling toe op omvattende (structurele) en afzonderlijke inhoudcomponenten.
+   Als deze modus is ingesteld op het hoofdniveau, worden alle elementen in de sjabloon ontgrendeld. De boomstructuur op de linkerzijde toont het _pictogram van de 2&rbrace; Vergrendeling van de Inhoud_ &lbrace;naast het wortelelement. ![](../assets/do-not-localize/icon-tree-content-lock.svg)Pas indien nodig inhoudvergrendeling toe op omvattende (structurele) en afzonderlijke inhoudcomponenten.
 
    Schakel **[!UICONTROL Enable content addition]** in als u wilt dat e-mailauteurs structuur- of inhoudselementen kunnen toevoegen. Kies het type toevoegingen dat u wilt toestaan:
 
@@ -45,9 +45,9 @@ Nadat u de visuele ontwerpruimte aan [ auteur de structurele en inhoudcomponente
 
    * **[!UICONTROL Allow content addition only]** - Kies deze optie als u wilt dat auteurs alleen inhoudselementen kunnen toevoegen.
 
-   ![ laat inhoudstoevoegingen ](./assets/governance-template-content-additions.png){width="600" zoomable="yes"} toe
+   ![&#x200B; laat inhoudstoevoegingen &#x200B;](./assets/governance-template-content-additions.png){width="600" zoomable="yes"} toe
 
-   Als deze modus is ingesteld op het hoofdniveau, worden alle elementen in de sjabloon vergrendeld. De boomstructuur op de linkerzijde toont _slechts Lees_ pictogram ( ![ leest slechts pictogram ](../assets/do-not-localize/icon-tree-lock.svg)) naast de wortel en alle kindelementen.
+   Als deze modus is ingesteld op het hoofdniveau, worden alle elementen in de sjabloon vergrendeld. De boomstructuur op de linkerzijde toont _slechts Lees_ pictogram ( ![&#x200B; leest slechts pictogram &#x200B;](../assets/do-not-localize/icon-tree-lock.svg)) naast de wortel en alle kindelementen.
 <!--
 
    
@@ -64,25 +64,25 @@ Met behulp van het structuuroverervingsmodel plant u de indeling en structuur va
 
 Wanneer u een vergrendelingstype op structuurniveau toepast, wordt een standaardinstelling voor de onderliggende componenten toegepast. Vervolgens kunt u desgewenst een specifieke instelling voor vergrendelen op het niveau van de kolom of het inhoudselement toepassen.
 
-1. Klik het _pictogram van de Navigatieboom_ ( ![ pictogram van de Verbinding ](../assets/do-not-localize/icon-navigation-tree.svg)) links van het canvas om de boom te tonen.
+1. Klik het _pictogram van de Navigatieboom_ ( ![&#x200B; pictogram van de Verbinding &#x200B;](../assets/do-not-localize/icon-navigation-tree.svg)) links van het canvas om de boom te tonen.
 
 1. Selecteer de structuur in de structuur.
 
-   In het deelvenster Eigenschappen rechts van het canvas wordt standaard de tab _[!UICONTROL Settings]_weergegeven.
+   In het deelvenster Eigenschappen rechts van het canvas wordt standaard de tab _[!UICONTROL Settings]_&#x200B;weergegeven.
 
 1. Stel de **[!UICONTROL Lock type]** in:
 
-   * **[!UICONTROL Locked]** - Met deze instelling zijn alle onderliggende componenten standaard vergrendeld. De boomstructuur op de linkerzijde toont _slechts Lees_ pictogram ( ![ leest slechts pictogram ](../assets/do-not-localize/icon-tree-lock.svg)) naast alle kindcomponenten.
+   * **[!UICONTROL Locked]** - Met deze instelling zijn alle onderliggende componenten standaard vergrendeld. De boomstructuur op de linkerzijde toont _slechts Lees_ pictogram ( ![&#x200B; leest slechts pictogram &#x200B;](../assets/do-not-localize/icon-tree-lock.svg)) naast alle kindcomponenten.
 
    * **[!UICONTROL Editable]** - Met deze instelling zijn alle onderliggende componenten standaard bewerkbaar. In de boomstructuur aan de linkerkant worden geen pictogrammen weergegeven naast de onderliggende componenten.
 
-   ![ pas inhoud het sluiten op een structurele component ](./assets/governance-template-structure-locking.png){width="800" zoomable="yes"} toe
+   ![&#x200B; pas inhoud het sluiten op een structurele component &#x200B;](./assets/governance-template-structure-locking.png){width="800" zoomable="yes"} toe
 
 ## Vergrendeling instellen voor een onderliggende component
 
 1. Selecteer de component in de structuur.
 
-   In het deelvenster Eigenschappen rechts van het canvas wordt standaard de tab _[!UICONTROL Settings]_weergegeven.
+   In het deelvenster Eigenschappen rechts van het canvas wordt standaard de tab _[!UICONTROL Settings]_&#x200B;weergegeven.
 
 1. Schakel de optie **[!UICONTROL Use specific locking]** in.
 
@@ -94,4 +94,4 @@ Wanneer u een vergrendelingstype op structuurniveau toepast, wordt een standaard
 
      Voor een vergrendelde component kunt u het verwijderen van de component tijdens het ontwerpen van e-mail toestaan door de optie **[!UICONTROL Allow delete]** in te schakelen.
 
-   ![ pas inhoud het sluiten op een kindcomponent ](./assets/governance-template-component-locking.png){width="800" zoomable="yes"} toe
+   ![&#x200B; pas inhoud het sluiten op een kindcomponent &#x200B;](./assets/governance-template-component-locking.png){width="800" zoomable="yes"} toe

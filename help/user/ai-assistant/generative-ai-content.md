@@ -41,16 +41,16 @@ Generate multiple variants and build an experiment to compare them. Leveraging J
 
 >[!IMPORTANT]
 >
->Als u toegang wilt krijgen tot deze functies in [!DNL Journey Optimizer B2B Edition] , hebt u de machtiging _[!UICONTROL AI Assistant]_>_[!UICONTROL Generate Content]_ nodig. Voor meer informatie over hoe een productbeheerder eigenschaptoestemmingen kan verlenen, zie [ rollen voor producttoestemmingen ](../admin/user-management.md#edit-roles-for-product-permissions) uitgeven.
+>Als u toegang wilt krijgen tot deze functies in [!DNL Journey Optimizer B2B Edition] , hebt u de machtiging _[!UICONTROL AI Assistant]_>_[!UICONTROL Generate Content]_ nodig. Voor meer informatie over hoe een productbeheerder eigenschaptoestemmingen kan verlenen, zie [&#x200B; rollen voor producttoestemmingen &#x200B;](../admin/user-management.md#edit-roles-for-product-permissions) uitgeven.
 
 De Hulpmiddelen van AI voor inhoudsgeneratie worden gesteund met de volgende activa:
 
 * [E-mails](../content/ai-assistant-emails.md)
-* [!BADGE  Beta ] [ het Bestaan pagina&#39;s ](../content/ai-assistant-landing-pages.md)
+* [!BADGE &#x200B; Beta &#x200B;] [&#x200B; het Bestaan pagina&#39;s &#x200B;](../content/ai-assistant-landing-pages.md)
 
 ## Algemene richtsnoeren en beperkingen {#general-guidelines-and-limitations}
 
-Uw gebruik van generatieve AI eigenschappen is onderworpen aan de [ Generatieve AI Richtlijnen van de Gebruiker van Adobe Experience Cloud ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Met Adobe verplichting aan transparantie in het gebruik van generatieve hulpmiddelen AI voor media verwezenlijking, past Adobe [ inhoudsgeloofsbrieven ](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} voor om het even welk inhoud of project toe dat a [!DNL Firefly] - geproduceerd activa omvat wanneer het wordt gedownload of uitgevoerd.
+Uw gebruik van generatieve AI eigenschappen is onderworpen aan de [&#x200B; Generatieve AI Richtlijnen van de Gebruiker van Adobe Experience Cloud &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Met Adobe verplichting aan transparantie in het gebruik van generatieve hulpmiddelen AI voor media verwezenlijking, past Adobe [&#x200B; inhoudsgeloofsbrieven &#x200B;](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} voor om het even welk inhoud of project toe dat a [!DNL Firefly] - geproduceerd activa omvat wanneer het wordt gedownload of uitgevoerd.
 
 Lees de volgende algemene richtlijnen voor het gebruik van generatieve AI voor inhoud in [!DNL Journey Optimizer B2B Edition] :
 
@@ -169,19 +169,19 @@ De volgende verzoeken worden **_niet gesteund_** en zouden door andere hulpmidde
 
 Controleer voordat u inhoud genereert het volgende:
 
-![ Groen vinkje ](../../assets/do-not-localize/check-box-green.svg){width="20"} **Duidelijke doelstelling**: verklaart duidelijk de actie, het product/de dienst, de waarde, en de context.
+![&#x200B; Groen vinkje &#x200B;](../../assets/do-not-localize/check-box-green.svg){width="20"} **Duidelijke doelstelling**: verklaart duidelijk de actie, het product/de dienst, de waarde, en de context.
 
-![ Groen vinkje ](../../assets/do-not-localize/check-box-green.svg){width="20"} **Gedefinieerd doelpubliek**: Specificeert de demografisch, de rol, of het segment.
+![&#x200B; Groen vinkje &#x200B;](../../assets/do-not-localize/check-box-green.svg){width="20"} **Gedefinieerd doelpubliek**: Specificeert de demografisch, de rol, of het segment.
 
-![ Groen vinkje ](../../assets/do-not-localize/check-box-green.svg){width="20"} **het type van Inhoud groepering**: De doelstelling past het geselecteerde kanaal of het formaat aan.
+![&#x200B; Groen vinkje &#x200B;](../../assets/do-not-localize/check-box-green.svg){width="20"} **het type van Inhoud groepering**: De doelstelling past het geselecteerde kanaal of het formaat aan.
 
-![ Groen vinkje ](../../assets/do-not-localize/check-box-green.svg){width="20"} **selecties van het Overzicht**: De toon, de strategie, en de scène worden gekozen, omvatten hen niet in de herinnering.
+![&#x200B; Groen vinkje &#x200B;](../../assets/do-not-localize/check-box-green.svg){width="20"} **selecties van het Overzicht**: De toon, de strategie, en de scène worden gekozen, omvatten hen niet in de herinnering.
 
-![ Groen vinkje ](../../assets/do-not-localize/check-box-green.svg){width="20"} **de nadruk van het Document wordt gespecificeerd**: Hoogtepunten die inhoud of secties aan verwijzing.
+![&#x200B; Groen vinkje &#x200B;](../../assets/do-not-localize/check-box-green.svg){width="20"} **de nadruk van het Document wordt gespecificeerd**: Hoogtepunten die inhoud of secties aan verwijzing.
 
-![ Groen vinkje ](../../assets/do-not-localize/check-box-green.svg){width="20"} **toegepaste Merk**: De aangewezen merkrichtlijnen worden geselecteerd.
+![&#x200B; Groen vinkje &#x200B;](../../assets/do-not-localize/check-box-green.svg){width="20"} **toegepaste Merk**: De aangewezen merkrichtlijnen worden geselecteerd.
 
-![ Groen vinkje ](../../assets/do-not-localize/check-box-green.svg){width="20"} **Realistisch werkingsgebied**: Vermijd verzoeken om lay-outveranderingen, het stileren, of structurele geeft uit.
+![&#x200B; Groen vinkje &#x200B;](../../assets/do-not-localize/check-box-green.svg){width="20"} **Realistisch werkingsgebied**: Vermijd verzoeken om lay-outveranderingen, het stileren, of structurele geeft uit.
 
 ### Effectieve marketingdoelstellingen {#marketing-objectives}
 
@@ -189,19 +189,19 @@ Zorg er bij het ontwerpen van marketingdoelstellingen voor dat deze duidelijk, h
 
 **Voorbeelden van goede doelstellingen:**
 
-![ Groen vinkje ](../../assets/do-not-localize/check-box-green.svg){width="20"} &quot;de teken-ups van de Aandrijving voor de vrije 30 dagproef van het nieuwe AI-Aangedreven analysedashboard&quot;
+![&#x200B; Groen vinkje &#x200B;](../../assets/do-not-localize/check-box-green.svg){width="20"} &quot;de teken-ups van de Aandrijving voor de vrije 30 dagproef van het nieuwe AI-Aangedreven analysedashboard&quot;
 
-![ Groen vinkje ](../../assets/do-not-localize/check-box-green.svg){width="20"} &quot;produceer lood voor B2B webinar op het &quot;Vermindering van de Kosten van de Wolk met 40%&quot;die Maart 15&quot;gebeuren
+![&#x200B; Groen vinkje &#x200B;](../../assets/do-not-localize/check-box-green.svg){width="20"} &quot;produceer lood voor B2B webinar op het &quot;Vermindering van de Kosten van de Wolk met 40%&quot;die Maart 15&quot;gebeuren
 
-![ Groen vinkje ](../../assets/do-not-localize/check-box-green.svg){width="20"} &quot;promoeer de beperkte tijd 25% korting op premieabonnementen, die December 25&quot;beëindigen
+![&#x200B; Groen vinkje &#x200B;](../../assets/do-not-localize/check-box-green.svg){width="20"} &quot;promoeer de beperkte tijd 25% korting op premieabonnementen, die December 25&quot;beëindigen
 
 **Voorbeelden om te vermijden:**
 
-![ rode kruis uit ](../../assets/do-not-localize/check-box-red.svg){width="20"} &quot;promoot het product&quot;(te vaag)
+![&#x200B; rode kruis uit &#x200B;](../../assets/do-not-localize/check-box-red.svg){width="20"} &quot;promoot het product&quot;(te vaag)
 
-![ rood kruis uit ](../../assets/do-not-localize/check-box-red.svg){width="20"} &quot;maakt mensen ondertekent overeenkomsten&quot;(onduidelijke waarde)
+![&#x200B; rood kruis uit &#x200B;](../../assets/do-not-localize/check-box-red.svg){width="20"} &quot;maakt mensen ondertekent overeenkomsten&quot;(onduidelijke waarde)
 
-![ rode kruis uit ](../../assets/do-not-localize/check-box-red.svg){width="20"} &quot;E-mail over nieuwe eigenschappen&quot;(gebrek doel)
+![&#x200B; rode kruis uit &#x200B;](../../assets/do-not-localize/check-box-red.svg){width="20"} &quot;E-mail over nieuwe eigenschappen&quot;(gebrek doel)
 
 #### Uw doel structureren
 
@@ -209,19 +209,19 @@ Geef altijd context en waardevoorstel op voor het produceren van relevante inhou
 
 **Voorbeelden van goede doelstellingen:**
 
-![ Groen vinkje ](../../assets/do-not-localize/check-box-green.svg){width="20"} &quot;Moedig downloads van nieuwe mobiele app aan die gebruikers helpt duurzame levende gewoonten met gepersonaliseerde eco-vriendelijke aanbevelingen volgen&quot;
+![&#x200B; Groen vinkje &#x200B;](../../assets/do-not-localize/check-box-green.svg){width="20"} &quot;Moedig downloads van nieuwe mobiele app aan die gebruikers helpt duurzame levende gewoonten met gepersonaliseerde eco-vriendelijke aanbevelingen volgen&quot;
 
-![ Groen vinkje ](../../assets/do-not-localize/check-box-green.svg){width="20"} &quot;bevordert registratie voor de exclusieve workshop over geavanceerde technieken voor gegevensvisualisatie voor marketing beroeps&quot;
+![&#x200B; Groen vinkje &#x200B;](../../assets/do-not-localize/check-box-green.svg){width="20"} &quot;bevordert registratie voor de exclusieve workshop over geavanceerde technieken voor gegevensvisualisatie voor marketing beroeps&quot;
 
-![ Groen vinkje ](../../assets/do-not-localize/check-box-green.svg){width="20"} &quot;Aanwezigheid van de Aandrijving aan de gebeurtenis van de productlancering tonen tonend de revolutionaire AI schrijvend medewerker die 5+ uren per week bespaart&quot;
+![&#x200B; Groen vinkje &#x200B;](../../assets/do-not-localize/check-box-green.svg){width="20"} &quot;Aanwezigheid van de Aandrijving aan de gebeurtenis van de productlancering tonen tonend de revolutionaire AI schrijvend medewerker die 5+ uren per week bespaart&quot;
 
 **Voorbeelden om te vermijden:**
 
-![ rode kruis uit ](../../assets/do-not-localize/check-box-red.svg){width="20"} &quot;kondigt nieuwe app&quot;(het missen waardevoorstel en context) aan
+![&#x200B; rode kruis uit &#x200B;](../../assets/do-not-localize/check-box-red.svg){width="20"} &quot;kondigt nieuwe app&quot;(het missen waardevoorstel en context) aan
 
-![ rood kruis uit ](../../assets/do-not-localize/check-box-red.svg){width="20"} &quot;krijgt mensen om zich voor workshop&quot;aan te melden&quot; (mist specificiteit over publiek en voordeel)
+![&#x200B; rood kruis uit &#x200B;](../../assets/do-not-localize/check-box-red.svg){width="20"} &quot;krijgt mensen om zich voor workshop&quot;aan te melden&quot; (mist specificiteit over publiek en voordeel)
 
-![ rode kruis uit ](../../assets/do-not-localize/check-box-red.svg){width="20"} &quot;bevordert gebeurtenis&quot;(geen duidelijke actie, waarde, of urgentie)
+![&#x200B; rode kruis uit &#x200B;](../../assets/do-not-localize/check-box-red.svg){width="20"} &quot;bevordert gebeurtenis&quot;(geen duidelijke actie, waarde, of urgentie)
 
 #### Voorbeelden worden per kanaaltype gevraagd {#channel-type-practices}
 
@@ -340,7 +340,7 @@ Naast het gebruik van een duidelijke en goed gevormde herinnering, omvatten de t
 
 >[!TIP]
 >
->Gebruik de opties _[!UICONTROL Communication strategy]_en_[!UICONTROL Tone]_ in _[!UICONTROL Text settings]_in plaats van deze kenmerken in de vraag te vermelden.
+>Gebruik de opties _[!UICONTROL Communication strategy]_&#x200B;en&#x200B;_[!UICONTROL Tone]_ in _[!UICONTROL Text settings]_&#x200B;in plaats van deze kenmerken in de vraag te vermelden.
 
 ### Typen communicatiestrategie
 

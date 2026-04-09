@@ -20,7 +20,7 @@ Met de Helper-functies in de verpersoonlijkingseditor kunt u nauwkeurig en effic
 
 >[!AVAILABILITY]
 >
->De functies van de hulp zijn beschikbaar voor [!DNL Journey Optimizer B2B Edition] milieu&#39;s die provisioned op de [ vereenvoudigde architectuur ](../simplified-architecture.md) zijn.
+>De functies van de hulp zijn beschikbaar voor [!DNL Journey Optimizer B2B Edition] milieu&#39;s die provisioned op de [&#x200B; vereenvoudigde architectuur &#x200B;](../simplified-architecture.md) zijn.
 
 ## Samenvoegingsfuncties
 
@@ -326,7 +326,7 @@ Gebruik de functie `head` om het eerste item in een array of lijst te retournere
 
 **Voorbeeld**
 
-De volgende bewerking retourneert de eerste van de bovenste vijf bestellingen met de hoogste prijs. Meer informatie over de `topN` functie kan in [ eerst `n` in serie ](#first-n) sectie worden gevonden.
+De volgende bewerking retourneert de eerste van de bovenste vijf bestellingen met de hoogste prijs. Meer informatie over de `topN` functie kan in [&#x200B; eerst `n` in serie &#x200B;](#first-n) sectie worden gevonden.
 
 ```sql
 {%= head(topN(orders,price, 5)) %}
@@ -937,7 +937,7 @@ Waar de eerste tekenreeks het datumkenmerk is en de tweede waarde hoe u de datum
 >
 > Als een datumpatroon ongeldig is, wordt de datum teruggezet naar de ISO-standaardindeling.
 >
-> U kunt de datum die functies gebruiken Java zoals samengevat in [ documentatie van Oracle ](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
+> U kunt de datum die functies gebruiken Java zoals samengevat in [&#x200B; documentatie van Oracle &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
 
 **Voorbeeld**
 
@@ -978,9 +978,9 @@ Waar de eerste tekenreeks het datumkenmerk is, is de tweede waarde hoe u de datu
 >
 > Als een datumpatroon ongeldig is, wordt de datum teruggezet naar de ISO-standaardindeling.
 >
-> U kunt de datum het formatteren functies van Java zoals samengevat in de [ documentatie van Oracle ](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html) gebruiken.
+> U kunt de datum het formatteren functies van Java zoals samengevat in de [&#x200B; documentatie van Oracle &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html) gebruiken.
 >
-> U kunt het formatteren en geldige scènes gebruiken zoals samengevat in de [ documentatie van Oracle ](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) en [ Gesteunde scènes ](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
+> U kunt het formatteren en geldige scènes gebruiken zoals samengevat in de [&#x200B; documentatie van Oracle &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) en [&#x200B; Gesteunde scènes &#x200B;](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
 
 **Voorbeeld**
 
@@ -1337,7 +1337,7 @@ De volgende operatie controleert of het thuisadresland Frankrijk is.
 
 ### niet gelijk aan {#notequal}
 
-De `!=` (niet gelijk aan) functie controleert of één waarde of uitdrukking **** niet gelijk aan een andere waarde of een uitdrukking is.
+De `!=` (niet gelijk aan) functie controleert of één waarde of uitdrukking **&#x200B;**&#x200B;niet gelijk aan een andere waarde of een uitdrukking is.
 
 +++Syntaxis
 
@@ -1806,7 +1806,7 @@ Het accepteert een getal en een tekenreeks die de landinstelling vertegenwoordig
 {%= formatNumber(number/double,string) %}: string
 ```
 
-U kunt het formatteren en geldige scènes gebruiken zoals samengevat in de [ documentatie van Oracle ](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) en [ Gesteunde scènes ](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
+U kunt het formatteren en geldige scènes gebruiken zoals samengevat in de [&#x200B; documentatie van Oracle &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) en [&#x200B; Gesteunde scènes &#x200B;](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
 
 **Voorbeeld**
 
@@ -2513,7 +2513,7 @@ Deze functie converteert de voornaam van het profiel naar kleine letters.
 
 ### overeenkomsten {#matches}
 
-Gebruik de functie `matches` om te bepalen of een tekenreeks overeenkomt met een specifieke reguliere expressie. Voor meer informatie over passende patronen in regelmatige uitdrukkingen, verwijs naar [ de documentatie van Oracle ](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html).
+Gebruik de functie `matches` om te bepalen of een tekenreeks overeenkomt met een specifieke reguliere expressie. Voor meer informatie over passende patronen in regelmatige uitdrukkingen, verwijs naar [&#x200B; de documentatie van Oracle &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html).
 
 +++Syntaxis
 
@@ -2689,7 +2689,7 @@ Gebruik de functie `replaceAll` om alle subtekenreeksen van een tekst te vervang
 >
 > Wanneer de uitdrukking die als tweede argument wordt genomen een speciaal regex karakter is, gebruik dubbele backslash (`//`).  Speciale regex-tekens zijn: [., +, *, ?, ^, $, (, ), [, ], {, }, |, \.]
 > 
-> Leer meer in [ documentatie van Oracle ](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
+> Leer meer in [&#x200B; documentatie van Oracle &#x200B;](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
 >
 
 +++

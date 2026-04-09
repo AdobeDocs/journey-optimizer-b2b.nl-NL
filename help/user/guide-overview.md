@@ -23,7 +23,7 @@ Bekijk deze sampling van de nieuwste toevoegingen en verbeteringen in de toepass
 
 >[!TAB  AI agenten ]
 
-Met [ Experience Platform Agent Orchestrator ](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}, kan de AI Hulp interface op gespecialiseerde agenten automatisch roepen om u de juiste antwoorden en inzichten te krijgen. Agent Orchestrator herinnert uw gespreksgeschiedenis, toelatend u om op vorige vragen te bouwen natuurlijk zonder herhalende context, en combineert inzichten van veelvoudige agenten om u met duidelijke, verenigde reacties te presenteren. In de [!DNL Journey Optimizer B2B Edition] context, zijn er drie doel-gebouwde agenten voor specifieke B2B taken en domeinen:
+Met [&#x200B; Experience Platform Agent Orchestrator &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}, kan de AI Hulp interface op gespecialiseerde agenten automatisch roepen om u de juiste antwoorden en inzichten te krijgen. Agent Orchestrator herinnert uw gespreksgeschiedenis, toelatend u om op vorige vragen te bouwen natuurlijk zonder herhalende context, en combineert inzichten van veelvoudige agenten om u met duidelijke, verenigde reacties te presenteren. In de [!DNL Journey Optimizer B2B Edition] context, zijn er drie doel-gebouwde agenten voor specifieke B2B taken en domeinen:
 
 * [Audience Agent B2B](./agents/audience-agent-b2b.md)
 * [Journey Agent B2B](./agents/journey-agent.md)
@@ -33,37 +33,37 @@ Met [ Experience Platform Agent Orchestrator ](https://experienceleague.adobe.co
 
 Wanneer ontwikkelaars en productbeheerders een integratie met een Meta Business Manager-account configureren, kunnen marketers WhatsApp-berichten als een contentkanaal opnemen in accountreizen met de Meta Cloud-API. WhatsApp maakt deel uit van e-mail en sms als een beschikbaar kanaal voor het rechtstreeks leveren van reisinhoud aan accountleden.
 
-[!BADGE  Leer meer ]{type=Informative url="/help/user/admin/configure-channels-whatsapp.md" tooltip="Meer informatie over het WhatsApp-kanaal"}
+[!BADGE &#x200B; Leer meer &#x200B;]{type=Informative url="/help/user/admin/configure-channels-whatsapp.md" tooltip="Meer informatie over het WhatsApp-kanaal"}
 
 >[!TAB  Generatieve AI modellen ]
 
 E-mailontwerpers kunnen nu standaardmodellen van [!DNL Firefly] selecteren, aangepaste [!DNL Firefly] -modellen die zijn opgeleid voor merkspecifieke elementen en goedgekeurde afbeeldingsmodellen van derden wanneer ze afbeeldingen voor e-mailinhoud genereren. Deze selectie geeft teams controle over welk model hun specifiek ontwerpscenario past, van algemene inhoudsbehoeften aan branded of gespecialiseerde gebruiksgevallen.
 
-[!BADGE  Leer meer ]{type=Informative url="/help/user/content/generative-ai-models.md" tooltip="Meer informatie over algemene selectie van AI-modellen"}
+[!BADGE &#x200B; Leer meer &#x200B;]{type=Informative url="/help/user/content/generative-ai-models.md" tooltip="Meer informatie over algemene selectie van AI-modellen"}
 
 >[!TAB  Send-time optimalisering ]
 
 Voor _verzend e-mail_ actieknooppunten in persoonlijke reizen, kunt u send-time optimalisering nu gebruiken om de timing van de e-maillevering te personaliseren. Het systeem voorspelt wanneer elke persoon het meest waarschijnlijk zal in dienst nemen en dienovereenkomstig levering plant, eerder dan het verzenden naar alle ontvangers tezelfdertijd.
 
-[!BADGE  Leer meer ]{type=Informative url="/help/user/content/email-send-time-optimization.md" tooltip="Meer informatie over het optimaliseren van verzendtijden"}
+[!BADGE &#x200B; Leer meer &#x200B;]{type=Informative url="/help/user/content/email-send-time-optimization.md" tooltip="Meer informatie over het optimaliseren van verzendtijden"}
 
 >[!TAB  Reis re-ingang van de Reis ]
 
 U kunt nu accounts/personen meerdere keren verzenden via een workflow voor het maken van een account. Herbetreding heeft betrekking op meerdere scenario&#39;s, zoals herbeoordeling van kwalificatiecriteria en herbruikbare boomwerkstromen. Gebruik de instellingen voor opnieuw invoeren om criteria, beperkingen en wachttijden in te stellen, zodat accounts op een gecontroleerde manier herkwalificeren voor de reis.
 
-[!BADGE  Leer meer ]{type=Informative url="/help/user/journeys/journey-re-entry.md" tooltip="Meer informatie over het opnieuw betreden van een reis"}
+[!BADGE &#x200B; Leer meer &#x200B;]{type=Informative url="/help/user/journeys/journey-re-entry.md" tooltip="Meer informatie over het opnieuw betreden van een reis"}
 
 >[!TAB  Merk thema&#39;s ]
 
 Met thema&#39;s kunnen niet-technische ontwerpers herbruikbare richtlijnen voor het ontwerpen van e-mailinhoud maken die zijn afgestemd op een specifiek merk en een specifieke stijl. Thema&#39;s stellen marketers in staat visueel aantrekkelijke, merkgebonden e-mails sneller en met minder moeite te gebruiken en bieden geavanceerde aanpassingsopties voor unieke ontwerpbehoeften.
 
-[!BADGE  Leer meer ]{type=Informative url="/help/user/content/brand-themes.md" tooltip="Meer informatie over merkthema&#39;s"}
+[!BADGE &#x200B; Leer meer &#x200B;]{type=Informative url="/help/user/content/brand-themes.md" tooltip="Meer informatie over merkthema&#39;s"}
 
 >[!TAB  Persona afbeelding ]
 
 Marketers kunnen gedetailleerde profielen definiëren, zoals achtergrond, verantwoordelijkheden, pijnpunten en voorkeurscommunicatiekanalen. Met deze definities kunnen beheerders persona&#39;s configureren op basis van persoonlijke kenmerken in [!DNL Journey Optimizer B2B Edition] zodat rolsjablonen gestroomlijnde en consistente rolvoorwaarden kunnen gebruiken die deze personen vastleggen.
 
-[!BADGE  Leer meer ]{type=Informative url="/help/user/admin/persona-mapping.md" tooltip="Meer informatie over persoonlijke toewijzingen"}
+[!BADGE &#x200B; Leer meer &#x200B;]{type=Informative url="/help/user/admin/persona-mapping.md" tooltip="Meer informatie over persoonlijke toewijzingen"}
 
 >[!ENDTABS]
 
@@ -71,7 +71,7 @@ Marketers kunnen gedetailleerde profielen definiëren, zoals achtergrond, verant
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Opmerkingen bij de nieuwste release
 
@@ -81,7 +81,7 @@ Blijf up-to-date met de nieuwste opmerkingen over releases, nieuwe functies en v
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag
 
@@ -91,7 +91,7 @@ Raadpleeg de Journey Optimizer B2B edition-richtlijnen voor instapkaarten voor b
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Uw XDM-velden configureren
 
@@ -101,19 +101,19 @@ Implementeer de systeemconfiguraties om de XDM-schema&#39;s en -velden te active
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Communicatiekanalen
 
 Vorm en beheer e-mail, SMS, WhatsApp, en andere kanalen voor gepersonaliseerde klanteninteractie.
 
-[ E-mailkanaal configureren](./admin/configure-channels-emails.md)
-[ Vorm het kanaal van SMS](./admin/configure-channels-sms.md)
-[ vorm het kanaal WhatsApp ](./admin/configure-channels-whatsapp.md)
+[&#x200B; E-mailkanaal configureren](./admin/configure-channels-emails.md)
+[&#x200B; Vorm het kanaal van SMS](./admin/configure-channels-sms.md)
+[&#x200B; vorm het kanaal WhatsApp &#x200B;](./admin/configure-channels-whatsapp.md)
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Een rekeningpad maken
 
@@ -123,7 +123,7 @@ Ontwerp, orkestreer, beheer en optimaliseer persoonlijke accountreizen.
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/users.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 Kopen groepen begrijpen
 
@@ -186,7 +186,7 @@ Ontdek de onderdelen van een inkoopgroep en begrijp de basisbeginselen van het m
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px" alt="Inzichten en dashboards"><br/>
-      <strong> Inzichten </strong><br/> <a href="./dashboards/intelligent-dashboard.md"> Intelligent dashboard </a><br/> <a href="./dashboards/engagement-dashboard.md"> het dashboard van de Betrokkenheid </a><br/> <a href="./dashboards/buying-groups-dashboard.md"> Buying het dashboard van groepen </a><br/> <a href="./dashboards/journeys-dashboard.md"> het dashboard van de Rondjes 10} <a href="./buying-groups/incrm-insights.md"> In-CRM Inzichten </a></a><br/>
+      <strong> Inzichten </strong><br/> <a href="./dashboards/intelligent-dashboard.md"> Intelligent dashboard </a><br/> <a href="./dashboards/engagement-dashboard.md"> het dashboard van de Betrokkenheid </a><br/> <a href="./dashboards/buying-groups-dashboard.md"> Buying het dashboard van groepen </a><br/> <a href="./dashboards/journeys-dashboard.md"> het dashboard van de Rondjes 10&rbrace; <a href="./buying-groups/incrm-insights.md"> In-CRM Inzichten </a></a><br/>
     </td>
 
 </tr>
