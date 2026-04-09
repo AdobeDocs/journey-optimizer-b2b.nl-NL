@@ -367,4 +367,4 @@ Gebruik het optreden van een wijziging in de inkoopgroep om de account naar de v
 
 ## Video over overzicht
 
->[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448700/?captions=dut&learn=on)
