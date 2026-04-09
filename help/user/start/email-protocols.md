@@ -4,10 +4,10 @@ description: Vorm e-mailleveringsprotocollen - opstelling DNS, SPF, DKIM, DMARC,
 feature: Setup, Channels
 role: Admin
 exl-id: 3d56f147-ad0a-4686-b14e-375c2eca8806
-source-git-commit: 023e44e1ad2baed2a5586d95a26ef8693020667a
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '2389'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -65,11 +65,11 @@ Bijvoorbeeld:
 
 >[!NOTE]
 >
->De `[MktoTrackingLink]` waarde moet het standaard [&#x200B; brandend domein &#x200B;](../admin/configure-channels-emails.md#branding-domains) zijn.
+>De `[MktoTrackingLink]` waarde moet het standaard [ brandend domein ](../admin/configure-channels-emails.md#branding-domains) zijn.
 
 ### Het SSL-certificaat leveren
 
-De Steun van Adobe van het contact [&#128279;](https://experienceleague.adobe.com/home?lang=nl-NL&support-tab=home#support){target="_blank"}  om het proces te beginnen van levering een SSL Certificaat.
+De Steun van Adobe van het contact ](https://experienceleague.adobe.com/home?lang=en&support-tab=home#support){target="_blank"} [ om het proces te beginnen van levering een SSL Certificaat.
 
 Dit proces kan maximaal drie werkdagen duren.
 
@@ -102,7 +102,7 @@ U kunt dezelfde DKIM-configuratie gebruiken voor uw productie-Marketo Engage-ins
 
    `[DKIMDomain2]`: Hostrecord is `[HostRecord2]` en de TXT-waarde is `[TXTValue2]` .
 
-   Kopieer `HostRecord` en `TXTValue` voor elk domein van DKIM na het volgen van de [&#x200B; instructies &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"} in de documentatie van Marketo Engage. U kunt de domeinen in Journey Optimizer B2B edition (zie [&#x200B; SPF/DKIM &#x200B;](../admin/configure-channels-emails.md#spfdkim)) verifiëren.
+   Kopieer `HostRecord` en `TXTValue` voor elk domein van DKIM na het volgen van de [ instructies ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"} in de documentatie van Marketo Engage. U kunt de domeinen in Journey Optimizer B2B edition (zie [ SPF/DKIM ](../admin/configure-channels-emails.md#spfdkim)) verifiëren.
 
 ## DMARC instellen
 
@@ -175,17 +175,17 @@ De verslagen van DMARC hebben veelvoudige componenten genoemd _markeringen van D
 | `adkim` | Optioneel | Specificeert of een strikte (`s`) of ontspannen (`r`) groepering. De verbrekende groepering betekent dat het domein in de handtekening van DKIM wordt gebruikt en een subdomein van het `From:` adres kan zijn. Strikte uitlijning houdt in dat het domein wordt gebruikt in de DKIM-handtekening en exact moet overeenkomen met het domein dat wordt gebruikt in het `From:` -adres. | `adkim=r` | `r` |
 | `aspf` | Optioneel | Kan strikt zijn (`s`) of ontspannen (`r`). De ontspannen wijze betekent dat het terugkeer-weg domein een subdomein van het `From:` adres kan zijn. De strikte wijze betekent dat het terugkeer-weg domein een nauwkeurige gelijke met het `From:` adres moet zijn. | `aspf=r` | `r` |
 
-Voor gedetailleerde informatie over DMARC en elk van zijn opties, verwijs naar [&#x200B; https://dmarc.org/ &#x200B;](https://dmarc.org/){target="_blank"}.
+Voor gedetailleerde informatie over DMARC en elk van zijn opties, verwijs naar [ https://dmarc.org/ ](https://dmarc.org/){target="_blank"}.
 
 ### DMARC-implementatie voor Marketo Engage
 
 Er zijn twee typen uitlijning voor DMARC:
 
-* **DKIM** (Domain Keys Identified Mail) groepering: Het domein dat in 2&rbrace; kopbal van e-mail &lbrace;met de DKIM-Handtekening wordt gespecificeerd past aan. `From:`De DKIM-handtekening bevat een `d=` -waarde waarbij het domein is opgegeven voor overeenkomst met het `From:` -headerdomein.
+* **DKIM** (Domain Keys Identified Mail) groepering: Het domein dat in 2} kopbal van e-mail {met de DKIM-Handtekening wordt gespecificeerd past aan. `From:` De DKIM-handtekening bevat een `d=` -waarde waarbij het domein is opgegeven voor overeenkomst met het `From:` -headerdomein.
 
   DKIM-uitlijning valideert als de afzender e-mailberichten van het domein mag verzenden en controleert of er geen inhoud is gewijzigd tijdens de e-maildoorvoer. DKIM-uitgelijnde DMARC implementeren:
 
-   * Stel DKIM in voor het MAIL FROM-domein van uw bericht. Gebruik de [&#x200B; instructies &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"} in de documentatie van Marketo Engage.
+   * Stel DKIM in voor het MAIL FROM-domein van uw bericht. Gebruik de [ instructies ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"} in de documentatie van Marketo Engage.
 
    * Configureer DMARC for the DKIM MAIL FROM domain.
 
@@ -208,13 +208,13 @@ Er zijn twee typen uitlijning voor DMARC:
 
 ### Specifieke IP&#39;s en gedeelde pool
 
-Als u post door Marketo Engage over specifieke IP verzendt en geen branded terugkeer-weg (of niet zeker bent als u) hebt uitgevoerd, open een kaartje met [&#x200B; Steun van Adobe &#x200B;](https://experienceleague.adobe.com/home?lang=nl-NL&support-tab=home#support){target="_blank"}.
+Als u post door Marketo Engage over specifieke IP verzendt en geen branded terugkeer-weg (of niet zeker bent als u) hebt uitgevoerd, open een kaartje met [ Steun van Adobe ](https://experienceleague.adobe.com/home?lang=en&support-tab=home#support){target="_blank"}.
 
 >[!BEGINSHADEBOX]
 
 **Migratie aan de vereenvoudigde architectuur**
 
-Als u IP&#39;s hebt toegewezen, moet u de nieuwe Journey Optimizer B2B edition-instantie hebben gemaakt in hetzelfde gebied als uw bestaande Marketo Engage-instantie. Als de nieuwe instantie zich in een ander gebied bevindt, is het niet mogelijk om het bestaande IP te delen. Als het gebied aanpast, open een kaartje met [&#x200B; Steun van Adobe &#x200B;](https://experienceleague.adobe.com/home?lang=nl-NL&support-tab=home#support){target="_blank"} om te verzoeken dat uw bestaande IP en bindende groepen met de nieuwe instantie worden gedeeld. Geef het Marketo Engage-voorvoegsel (Munchkin-id) en het nieuwe Journey Optimizer B2B edition-voorvoegsel (Munchkin-id) op.
+Als u IP&#39;s hebt toegewezen, moet u de nieuwe Journey Optimizer B2B edition-instantie hebben gemaakt in hetzelfde gebied als uw bestaande Marketo Engage-instantie. Als de nieuwe instantie zich in een ander gebied bevindt, is het niet mogelijk om het bestaande IP te delen. Als het gebied aanpast, open een kaartje met [ Steun van Adobe ](https://experienceleague.adobe.com/home?lang=en&support-tab=home#support){target="_blank"} om te verzoeken dat uw bestaande IP en bindende groepen met de nieuwe instantie worden gedeeld. Geef het Marketo Engage-voorvoegsel (Munchkin-id) en het nieuwe Journey Optimizer B2B edition-voorvoegsel (Munchkin-id) op.
 
 Met dit verzoek, repliceert Adobe zelfde IPs, bindt groepen, en gevormde terugkeer-weg domeinen zoals uw bestaande instantie van Marketo Engage. Wanneer IPs tussen uw Marketo Engage instantie en Journey Optimizer B2B edition wordt gedeeld, allebei gebruiken zij tezelfdertijd (verzendt van Marketo Engage en verzendt van Journey Optimizer B2B edition gebruikt de zelfde IPs).
 
@@ -222,7 +222,7 @@ Met dit verzoek, repliceert Adobe zelfde IPs, bindt groepen, en gevormde terugke
 
 Vertrouwde IPs is een gedeelde pool van IPs die voor lagere volumegebruikers gereserveerd zijn die minder dan 75k per maand verzenden en niet voor specifieke IP kwalificeren. Deze gebruikers moeten ook aan beste praktijkvereisten voldoen.
 
-* Als u post door Marketo Engage verzendt gebruikend een gedeelde pool van IPs, kunt u controleren als u voor Vertrouwde IPs door [&#x200B; van toepassing zijnde voor Vertrouwde IP die waaierprogramma &#x200B;](https://na-sjg.marketo.com/lp/marketoprivacydemo/Trusted-IP-Sending-Range-Program.html){target="_blank"} verzendt. Het branded terugkeer-weg is inbegrepen wanneer het verzenden van Marketo Engage Vertrouwde IPs. Als dit programma is goedgekeurd, vraagt u Adobe Support om het retourpad van het merk in te stellen.
+* Als u post door Marketo Engage verzendt gebruikend een gedeelde pool van IPs, kunt u controleren als u voor Vertrouwde IPs door [ van toepassing zijnde voor Vertrouwde IP die waaierprogramma ](https://na-sjg.marketo.com/lp/marketoprivacydemo/Trusted-IP-Sending-Range-Program.html){target="_blank"} verzendt. Het branded terugkeer-weg is inbegrepen wanneer het verzenden van Marketo Engage Vertrouwde IPs. Als dit programma is goedgekeurd, vraagt u Adobe Support om het retourpad van het merk in te stellen.
 
 * Als u meer dan 100.000 berichten per maand verzendt en via Marketo Engage e-mail wilt verzenden via gedeelde IP&#39;s, neemt u contact op met het Adobe-accountteam (uw accountmanager) om een toegewezen IP aan te schaffen.
 
@@ -238,13 +238,15 @@ Met een MX-record kunt u e-mail ontvangen naar het domein waarvan u e-mail verze
 
 Een uitgaande verbinding wordt gemaakt door Marketo Engage met een server op internet namens u. Uw organisatie van IT en sommige partners/verkopers kunnen lijsten van gewenste personen gebruiken om toegang tot servers te beperken. Als zo, moet u hen van uitgaande IP van Marketo Engage adresblokken verstrekken om aan hun lijsten van gewenste personen toe te voegen.
 
-<!-- ### Webhooks
+<!--
+ ### Webhooks
 
-Marketo Engage webhooks are an outbound integration mechanism. When a Smart Campaign executes a _Call Webhook_ flow action, it makes an HTTP request to an external web service. If the web service publisher uses an allowlist on the firewall of the network where the external web service is located, the publisher must add the IP address blocks listed below to their allowlist. For more information, see [Create a webhook](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/administration/additional-integrations/create-a-webhook){target="_blank"} and [Call Webhook](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/call-webhook){target="_blank"} in the Marketo Engage documentation.
+Marketo Engage webhooks are an outbound integration mechanism. When a Smart Campaign executes a _Call Webhook_ flow action, it makes an HTTP request to an external web service. If the web service publisher uses an allowlist on the firewall of the network where the external web service is located, the publisher must add the IP address blocks listed below to their allowlist. For more information, see [Create a webhook](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/create-a-webhook){target="_blank"} and [Call Webhook](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/call-webhook){target="_blank"} in the Marketo Engage documentation.
 
 ### CRM sync
 
-Marketo Engage Salesforce CRM Sync and Microsoft Dynamics Sync are integration mechanisms that make outbound HTTP requests to APIs published by your CRM vendor. Ensure that your IT organization does not block any of the IP address blocks below from accessing your CRM vendor APIs. For more information, see [Add an Existing Salesforce Field to the Marketo Sync](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/crm-sync/salesforce-sync/sfdc-sync-details/add-an-existing-salesforce-field-to-the-marketo-sync){target="_blank"} and [Understanding the Microsoft Dynamics Sync](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/understanding-the-microsoft-dynamics-sync){target="_blank"} in the Marketo Engage documentation. -->
+Marketo Engage Salesforce CRM Sync and Microsoft Dynamics Sync are integration mechanisms that make outbound HTTP requests to APIs published by your CRM vendor. Ensure that your IT organization does not block any of the IP address blocks below from accessing your CRM vendor APIs. For more information, see [Add an Existing Salesforce Field to the Marketo Sync](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/salesforce-sync/sfdc-sync-details/add-an-existing-salesforce-field-to-the-marketo-sync){target="_blank"} and [Understanding the Microsoft Dynamics Sync](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/understanding-the-microsoft-dynamics-sync){target="_blank"} in the Marketo Engage documentation. 
+-->
 
 ## Uitgaande IP adresblokken
 

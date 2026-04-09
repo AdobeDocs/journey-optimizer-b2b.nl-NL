@@ -4,10 +4,10 @@ description: Bereken de scores voor inkoopgroep en persoonlijke betrokkenheid me
 feature: Buying Groups, Engagement
 role: User
 exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
-source-git-commit: 859e96ce0d450b52a8216f767c595938c23a9d50
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '1245'
-ht-degree: 5%
+source-wordcount: '1289'
+ht-degree: 8%
 
 ---
 
@@ -24,21 +24,21 @@ Er zijn twee soorten betrokkenheidsscores:
 
 * **het Kopen de score van de groepsovereenkomst** - de het kopen score van de groepsovereenkomst is een genormaliseerde score tussen 0 tot 100 en is gebaseerd op de betrokkenheidsscore die op het persoonniveau wordt berekend.
 
-  De het kopen score van de groepsovereenkomst wordt getoond in de [&#x200B; Kopen pagina van groepsdetails &#x200B;](./buying-group-details.md). U kunt ook de meest betrokken inkoopgroepen bekijken op het intelligente dashboard.
+  De het kopen score van de groepsovereenkomst wordt getoond in de [ Kopen pagina van groepsdetails ](./buying-group-details.md). U kunt ook de meest betrokken inkoopgroepen bekijken op het intelligente dashboard.
 
-  ![&#x200B; het meest betrokken kopen groepen &#x200B;](./assets/person-engagement-score-attribute-filtering.png){width="700" zoomable="yes"}
+  ![ het meest betrokken kopen groepen ](./assets/person-engagement-score-attribute-filtering.png){width="700" zoomable="yes"}
 
 * **de betrokkenheidsscore van de Persoon** - de score van de personenbetrokkenheid is gebaseerd op de activiteiten van een individueel het kopen groepslid.
 
-  De score van de personenovereenkomst voor elk het kopen groepslid wordt getoond in de het kopen pagina van de details van de groep [_[!UICONTROL Members]_&#x200B;tabel &#x200B;](./buying-group-details.md#buying-group-members). Deze scores worden ook weergegeven in pagina&#39;s en dashboards die leden van het hoogste niveau en overlappende contactinformatie bevatten.
+  De score van de personenovereenkomst voor elk het kopen groepslid wordt getoond in de het kopen pagina van de details van de groep [_[!UICONTROL Members]_tabel ](./buying-group-details.md#buying-group-members). Deze scores worden ook weergegeven in pagina&#39;s en dashboards die leden van het hoogste niveau en overlappende contactinformatie bevatten.
 
-  ![&#x200B; het meest betrokken kopen groepsleden &#x200B;](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
+  ![ het meest betrokken kopen groepsleden ](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 
 >[!BEGINSHADEBOX]
 
-De score van de personenovereenkomst is een attribuut dat voor het filtreren in [&#x200B; rolmalplaatjes &#x200B;](./buying-groups-role-templates.md#add-the-template-roles) en [&#x200B; reis versplintering-weg-door-mensen knopen &#x200B;](../journeys/split-merge-paths-nodes.md#people-path-filters) beschikbaar is.
+De score van de personenovereenkomst is een attribuut dat voor het filtreren in [ rolmalplaatjes ](./buying-groups-role-templates.md#add-the-template-roles) en [ reis versplintering-weg-door-mensen knopen ](../journeys/split-merge-paths-nodes.md#people-path-filters) beschikbaar is.
 
-![&#x200B; heb toegang tot de gevormde gebeurtenisdefinities &#x200B;](./assets/most-engaged-buying-groups.png){width="550" zoomable="yes"}
+![ heb toegang tot de gevormde gebeurtenisdefinities ](./assets/most-engaged-buying-groups.png){width="550" zoomable="yes"}
 
 >[!ENDSHADEBOX]
 
@@ -61,7 +61,8 @@ Voor elke activiteit geldt een dagelijkse maximale frequentie van 20. Als een li
 | Paginaweergaven | Een lid bekijkt een webpagina | Web | 20 | 40 |
 | Registreren voor gebeurtenis | Een lid dat is geregistreerd voor een gebeurtenis | Gebeurtenis | 20 | 60 |
 
-<!-- old list
+<!--
+ old list
 
 | Activity name | Description | Engagement type | Max daily frequency count | Activity weight |
 | --- | --- | --- | --- | --- |
@@ -99,11 +100,12 @@ Voor elke activiteit geldt een dagelijkse maximale frequentie van 20. Als een li
 | [!UICONTROL Interacted with Document in Conversational Flow] | A member interacts with a document in a Dynamic Chat conversational flow | Chat | 20 | 90 |
 | [!UICONTROL Engaged with an Agent in Conversational Flow] | A member engages with an Agent in a Dynamic Chat conversational flow | Chat | 20 | 90 |
 | [!UICONTROL Clicked Link in Chat in Conversational Flow] | A member clicks a link in a Dynamic Chat conversational flow | Chat | 20 | 90 |
-| [!UICONTROL Click Link in SMS V2] | A member clicks a link in an SMS message | SMS | 20 | 90 | -->
+| [!UICONTROL Click Link in SMS V2] | A member clicks a link in an SMS message | SMS | 20 | 90 |
+-->
 
 >[!NOTE]
 >
->Activiteiten met betrekking tot de betrokkenheidsscore worden vastgelegd in het Marketo Engage-activiteitenlogboek voor een persoon. U hebt toegang tot dit logbestand in de verbonden Marketo Engage-instantie. Voor meer informatie, zie [&#x200B; plaats van het Logboek van de Activiteit voor een Persoon &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"} in de documentatie van Marketo Engage.
+>Activiteiten met betrekking tot de betrokkenheidsscore worden vastgelegd in het Marketo Engage-activiteitenlogboek voor een persoon. U hebt toegang tot dit logbestand in de verbonden Marketo Engage-instantie. Voor meer informatie, zie [ plaats van het Logboek van de Activiteit voor een Persoon ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"} in de documentatie van Marketo Engage.
 
 ## weging rolsjabloon {#engagement-score-weighting}
 
@@ -112,9 +114,9 @@ Voor elke activiteit geldt een dagelijkse maximale frequentie van 20. Als een li
 >title="weging van de betrokkenheidsscore"
 >abstract="Gebruik rolweging om de berekening van de betrokkenheidsscore aan te passen."
 
-De gebruikers kunnen _weging_ aan elke rol in het [&#x200B; rolmalplaatje &#x200B;](./buying-groups-role-templates.md) toewijzen om verschillende gewichten voor een rol toe te wijzen.
+De gebruikers kunnen _weging_ aan elke rol in het [ rolmalplaatje ](./buying-groups-role-templates.md) toewijzen om verschillende gewichten voor een rol toe te wijzen.
 
-![&#x200B; plaats weging aan elke rol in het rolmalplaatje &#x200B;](./assets/roles-templates-weighting.png){width="700" zoomable="yes"}
+![ plaats weging aan elke rol in het rolmalplaatje ](./assets/roles-templates-weighting.png){width="700" zoomable="yes"}
 
 Elk wegingsniveau wordt omgezet in een waarde die wordt gebruikt voor het berekenen van de betrokkenheidsscore:
 
@@ -124,14 +126,14 @@ Elk wegingsniveau wordt omgezet in een waarde die wordt gebruikt voor het bereke
 * [!UICONTROL Important] = 80
 * [!UICONTROL Vital] = 100
 
-Een rolmalplaatje met drie rollen gewogen zoals _[!UICONTROL Vital]_,_[!UICONTROL Important]_, en _[!UICONTROL Normal]_&#x200B;zet in de volgende gewogen percentages om:
+Een rolmalplaatje met drie rollen gewogen zoals _[!UICONTROL Vital]_,_[!UICONTROL Important]_, en _[!UICONTROL Normal]_zet in de volgende gewogen percentages om:
 
 | Functie | Weging | Systeemwaarde | Waarde berekenen | Percentage |
 |-------------- |--------- |------------- |------------------ |---------- |
 |               |          |              |                   |           |
-| Beslissingsmaker | Vital | 100 | 240-100 | 41,67% |
-| Influencer | Belangrijk | 80 | 240-80 | 33,33% |
-| Praktijkster | Normaal | 60 | 240-60 | 25% |
+| Beslissingsmaker | Vital | 100 | 100/240 | 41.67% |
+| Influencer | Belangrijk | 80 | 80/240 | 33.33% |
+| Praktijkster | Normaal | 60 | 60/240 | 25% |
 |               | Totaal | 240 |                   |           |
 
 ## Voorbeeld van score-berekening
@@ -165,9 +167,9 @@ De uiteindelijke betrokkenheidsscore wordt berekend door de weging toe te passen
 
 | Functie | Rol totale score | Rolgewicht % | Score X-gewicht % |
 |-------------- |---------------- |------------- |---------------- |
-| Beslissingsmakers | 52 | 41,67% | 21,67 |
-| Influencers | 28 | 33,33% | 9,33 |
-| Praktijken | 17 | 25% | 4,25 |
+| Beslissingsmakers | 52 | 41.67% | 21.67 |
+| Influencers | 28 | 33.33% | 9.33 |
+| Praktijken | 17 | 25% | 4.25 |
 | **Definitieve betrokkenheidsscore** |                |             | **35.25** |
 
 ## Scorelogica

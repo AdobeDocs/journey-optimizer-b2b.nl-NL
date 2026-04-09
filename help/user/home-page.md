@@ -4,39 +4,42 @@ description: Open Journey Optimizer B2B edition en navigeer naar persoonlijke ho
 feature: Home Page
 role: Admin, User
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
-source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 7%
+source-wordcount: '419'
+ht-degree: 8%
 
 ---
 
 # Aanmelden en homepage
 
-Met Adobe Journey Optimizer B2B Edition kunt u account- en inkoopgroepentrajecten orkestreren met behulp van ingebouwde generatieve AI en toonaangevende automatisering om de vraag naar specifieke aanbiedingen te maximaliseren met behulp van marketinggekwalificeerde inkoopgroepen.
+Met Adobe Journey Optimizer B2B edition kunt u met behulp van geïntegreerde generatieve AI en toonaangevende automatisering accounts organiseren en groepsreizen kopen om de vraag naar specifieke aanbiedingen te maximaliseren met marketinggekwalificeerde inkoopgroepen.
 
-<!-- Requirements?
+<!--
+ Requirements?
 -->
+
 Als u toegang wilt tot [!DNL Adobe Journey Optimizer B2B Edition] , maakt u verbinding met Adobe Experience Cloud met uw Adobe ID en selecteert u [!DNL Journey Optimizer B2B Edition] .
 
-![&#x200B; Adobe Experience Platform apps &#x200B;](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}
+![ Adobe Experience Platform apps ](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}
 
-Wanneer u zich aanmeldt bij de Adobe Experience Platform en de Adobe Journey Optimizer B2B edition-app selecteert, wordt de startpagina weergegeven. Deze pagina biedt een overzicht van de huidige status van uw Journey Optimizer B2B-initiatieven in de vorm van <!-- refined insights and--> snelle toegangskoppelingen naar de relevante bronnen. <!-- It also provides information about the ideal next action to take and where to find the comprehensive set of tutorials and documentation. -->
+Wanneer u zich aanmeldt bij de Adobe Experience Platform en de Adobe Journey Optimizer B2B edition-app selecteert, wordt de startpagina weergegeven. Deze pagina biedt een overzicht van de huidige status van uw Journey Optimizer B2B-initiatieven in de vorm van <!-- refined insights and--> snelle toegangskoppelingen naar de relevante bronnen.
+<!-- It also provides information about the ideal next action to take and where to find the comprehensive set of tutorials and documentation. -->
 
-![&#x200B; Journey Optimizer B2B edition homepage &#x200B;](./assets/home-page.png){width="800" zoomable="yes"}
+![ Journey Optimizer B2B edition homepage ](./assets/home-page.png){width="800" zoomable="yes"}
 
-Journey Optimizer B2B edition heeft twee primaire gebruikerspersoonlijkheden: a _&#x200B;**telleraar**&#x200B;_ en een _&#x200B;**beheerder**&#x200B;_. Elke persoon heeft een specifieke homepage voor verschillende (nieuwe of geavanceerde) looptijdstadia. De pagina-inhoud is gebaseerd op wat elk individu nodig heeft op het gebied van informatie en de volgende acties die moeten worden ondernomen.
+Journey Optimizer B2B edition heeft twee primaire gebruikerspersoonlijkheden: a _**telleraar**_ en een _**beheerder**_. Elke persoon heeft een specifieke homepage voor verschillende (nieuwe of geavanceerde) looptijdstadia. De pagina-inhoud is gebaseerd op wat elk individu nodig heeft op het gebied van informatie en de volgende acties die moeten worden ondernomen.
 
 * **Markering - nieuwe gebruiker** - de _de homepage van de Markering_ voor een nieuwe gebruiker helpt hen om gewend aan Journey Optimizer B2B en zijn mogelijkheden te worden. Het omvat een geleide analyse voor de nieuwe marktleider om een onboarding analyse te verkrijgen zodat zij de nuances van het systeem kunnen begrijpen en efficiënt in het ontwikkelen van B2B marketing strategieën en initiatieven kunnen worden.
 * **Markering - Geavanceerde gebruiker** - de _de homepage van de Markering_ voor een geavanceerde marktspeler toont huidige initiatiefvooruitgang, geadviseerde volgende acties, en verleent snelle toegang tot relevante secties.
 * **Beheerder - nieuwe gebruiker** - de _Admin_ homepage voor een nieuwe beheerder helpt hen om gewend aan Journey Optimizer B2B edition en zijn mogelijkheden te worden. Het omvat een geleide analyse voor de nieuwe beheerder om een stap-voor-stap reis op instapreis te verkrijgen om de nuances van het systeem te begrijpen en efficiënt te worden in het ontwikkelen van B2B marketing strategieën en initiatieven.
 * **Beheerder - gevorderde gebruiker** - de _Admin_ homepage voor een geavanceerde beheerder toont de huidige instantiestatus en actionable stappen om efficiency en doeltreffendheid voor beheerders te verbeteren.
 
-De sectie _[!UICONTROL Recently accessed]_&#x200B;bevat een lijst met de laatst geopende elementen voor de Marketer of Beheerder. Gebruik deze lijst om rechtstreeks naar het element te gaan waaraan u onlangs hebt gewerkt, zonder door een reeks elementpagina&#39;s te navigeren en te zoeken.
+De sectie _[!UICONTROL Recently accessed]_bevat een lijst met de laatst geopende elementen voor de Marketer of Beheerder. Gebruik deze lijst om rechtstreeks naar het element te gaan waaraan u onlangs hebt gewerkt, zonder door een reeks elementpagina&#39;s te navigeren en te zoeken.
 
-De pagina omvat ook toegang tot [&#x200B; AI Medewerker &#x200B;](./ai-assistant/ai-assistant-overview.md), die gebruikers helpt om snelle informatie over om het even welke specifieke vragen of onderwerpen te krijgen die zij nodig hebben.<!-- and to obtain specific recommendations for their challenges or objectives-->
+De pagina omvat ook toegang tot [ AI Medewerker ](./ai-assistant/ai-assistant-overview.md), die gebruikers helpt om snelle informatie over om het even welke specifieke vragen of onderwerpen te krijgen die zij nodig hebben.<!-- and to obtain specific recommendations for their challenges or objectives-->
 
-<!-- 
+<!--
 
 ## Marketer - new user
 
@@ -81,5 +84,4 @@ The second row consists of the recent assets used by the B2B marketers in a sing
 The third row consists of the Key Performance Indicators that would help the administrators gauge the progress of the instance in terms of operational parameters such as users and usage.
 
 The fourth row consists of the learning resources that would help the administrator gain more information on a specific topic.
-
 -->

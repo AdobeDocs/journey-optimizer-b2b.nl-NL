@@ -4,22 +4,22 @@ description: De prestaties van een account bewaken met voltooiingstarieven, serv
 feature: Dashboards, Account Journeys
 role: User
 exl-id: 09a0e06a-1fd3-44da-9774-23f125f2823d
-source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
 
 # Reisgegevens
 
-Wanneer u op de naam van een actieve accountreis klikt, worden de reisgegevens weergegeven. Het tabblad _[!UICONTROL Overview]_&#x200B;bevat nuttige informatie over de rit, waaronder algemene AI-overzichten.
+Wanneer u op de naam van een actieve accountreis klikt, worden de reisgegevens weergegeven. Het tabblad _[!UICONTROL Overview]_bevat nuttige informatie over de rit, waaronder algemene AI-overzichten.
 
 Dit dashboard biedt een uitgebreid overzicht van een geselecteerde accountreis, met een gedetailleerd overzicht van de voortgang van de account aan de hand van cirkel- en lijndiagrammen die voltooide accounts categoriseren en kwantificeren, lopende activiteiten en afbrekingen in de loop van de tijd. Het helpt Marketers de doeltreffendheid van e-mail en de kanalen van SMS door zeer belangrijke levering en betrokkenheidsmetriek evalueren.
 
 Dit overzicht is beschikbaar voor gepubliceerde accountreizen en het duurt ongeveer vier uur voordat gegevens de diagrammen en tabellen invullen.
 
-![&#x200B; heb toegang tot de actieve reisdetails &#x200B;](./assets/journey-detail-overview.png){width="700" zoomable="yes"}
+![ heb toegang tot de actieve reisdetails ](./assets/journey-detail-overview.png){width="700" zoomable="yes"}
 
 ## Reisvoltooiing
 
@@ -60,25 +60,27 @@ De prestatietabellen verstrekken een gedetailleerd overzicht van de doeltreffend
 * _[!UICONTROL Sent]_- aantal verzonden SMS-berichten
 * _[!UICONTROL Delivery rate]_- aantal geleverde SMS-berichten gedeeld door het verzonden nummer
 * _[!UICONTROL Click-through rate]_- aantal aangeklikte SMS-berichten gedeeld door het geleverde aantal
-<!-- 
-To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top right of the page. -->
+<!--
+To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top right of the page. 
+-->
 
 ## Verbeterde interactie
 
-Bouw verder met de gegevens door het actiepictogram (**...**) in het hoogste recht van elke grafiek of lijst te gebruiken.
+Moedig verder met de gegevens aan door het actiepictogram (**te gebruiken...**) in de rechterbovenhoek van elke grafiek of tabel.
 
 ### Doorboor
 
-Kies voor het _[!UICONTROL Journey status]_-diagram **[!UICONTROL Drill through]**&#x200B;voor een diepgaande analyse van de status van afzonderlijke accounts.
+Kies voor het _[!UICONTROL Journey status]_-diagram **[!UICONTROL Drill through]**voor een diepgaande analyse van de status van afzonderlijke accounts.
 
-![&#x200B; de boor door voor de grafiekgegevens &#x200B;](./assets/journey-status-drill-through.png){width="600" zoomable="yes"}
+![ de boor door voor de grafiekgegevens ](./assets/journey-status-drill-through.png){width="600" zoomable="yes"}
 <!--
-The applied global filters are carried over to the view and displayed at the top. Click the _Filter_ icon at the top left to filter the data display by journey.-->
+The applied global filters are carried over to the view and displayed at the top. Click the _Filter_ icon at the top left to filter the data display by journey.
+-->
 
 ### Meer weergeven
 
 Kies **[!UICONTROL View more]** voor toegang tot uitgebreide gegevens. Het weergegeven pop-upvenster bevat een uitsplitsing van de gegevens.
 
-![&#x200B; Mening uitgebreide gegevens &#x200B;](./assets/journey-completion-over-time-view-more.png){width="600" zoomable="yes"}
+![ Mening uitgebreide gegevens ](./assets/journey-completion-over-time-view-more.png){width="600" zoomable="yes"}
 
 Als u de gegevens wilt downloaden, klikt u op **[!UICONTROL Download CSV]** rechtsboven in de datatabel. Om aan het _Overzicht_ dashboard terug te keren, klik **[!UICONTROL Close]**.

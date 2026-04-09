@@ -2,7 +2,7 @@
 title: Adobe Journey Optimizer B2B edition-documentatie
 description: Volledige documentatie voor Journey Optimizer B2B edition - verken de beschikbare bronnen voor het aan boord nemen, het creëren van inkoopgroepen, het bouwen van accountreizen, en het beheren van inhoud.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 0e79785bd8baf3914127cc650b8e503a8d461a3d
+source-git-commit: 80716587f797d3009e6a57f8a20f72f2f982bb37
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 5%
@@ -23,7 +23,7 @@ Bekijk deze sampling van de nieuwste toevoegingen en verbeteringen in de toepass
 
 >[!TAB  AI agenten ]
 
-Met [&#x200B; Experience Platform Agent Orchestrator &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}, kan de AI Hulp interface op gespecialiseerde agenten automatisch roepen om u de juiste antwoorden en inzichten te krijgen. Agent Orchestrator herinnert uw gespreksgeschiedenis, toelatend u om op vorige vragen te bouwen natuurlijk zonder herhalende context, en combineert inzichten van veelvoudige agenten om u met duidelijke, verenigde reacties te presenteren. In de [!DNL Journey Optimizer B2B Edition] context, zijn er drie doel-gebouwde agenten voor specifieke B2B taken en domeinen:
+Met [ Experience Platform Agent Orchestrator ](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}, kan de AI Hulp interface op gespecialiseerde agenten automatisch roepen om u de juiste antwoorden en inzichten te krijgen. Agent Orchestrator herinnert uw gespreksgeschiedenis, toelatend u om op vorige vragen te bouwen natuurlijk zonder herhalende context, en combineert inzichten van veelvoudige agenten om u met duidelijke, verenigde reacties te presenteren. In de [!DNL Journey Optimizer B2B Edition] context, zijn er drie doel-gebouwde agenten voor specifieke B2B taken en domeinen:
 
 * [Audience Agent B2B](./agents/audience-agent-b2b.md)
 * [Journey Agent B2B](./agents/journey-agent.md)
@@ -33,37 +33,37 @@ Met [&#x200B; Experience Platform Agent Orchestrator &#x200B;](https://experienc
 
 Wanneer ontwikkelaars en productbeheerders een integratie met een Meta Business Manager-account configureren, kunnen marketers WhatsApp-berichten als een contentkanaal opnemen in accountreizen met de Meta Cloud-API. WhatsApp maakt deel uit van e-mail en sms als een beschikbaar kanaal voor het rechtstreeks leveren van reisinhoud aan accountleden.
 
-[!BADGE &#x200B; Leer meer &#x200B;]{type=Informative url="/help/user/admin/configure-channels-whatsapp.md" tooltip="Meer informatie over het WhatsApp-kanaal"}
+[!BADGE  Leer meer ]{type=Informative url="/help/user/admin/configure-channels-whatsapp.md" tooltip="Meer informatie over het WhatsApp-kanaal"}
 
 >[!TAB  Generatieve AI modellen ]
 
 E-mailontwerpers kunnen nu standaardmodellen van [!DNL Firefly] selecteren, aangepaste [!DNL Firefly] -modellen die zijn opgeleid voor merkspecifieke elementen en goedgekeurde afbeeldingsmodellen van derden wanneer ze afbeeldingen voor e-mailinhoud genereren. Deze selectie geeft teams controle over welk model hun specifiek ontwerpscenario past, van algemene inhoudsbehoeften aan branded of gespecialiseerde gebruiksgevallen.
 
-[!BADGE &#x200B; Leer meer &#x200B;]{type=Informative url="/help/user/content/generative-ai-models.md" tooltip="Meer informatie over algemene selectie van AI-modellen"}
+[!BADGE  Leer meer ]{type=Informative url="/help/user/content/generative-ai-models.md" tooltip="Meer informatie over algemene selectie van AI-modellen"}
 
 >[!TAB  Send-time optimalisering ]
 
 Voor _verzend e-mail_ actieknooppunten in persoonlijke reizen, kunt u send-time optimalisering nu gebruiken om de timing van de e-maillevering te personaliseren. Het systeem voorspelt wanneer elke persoon het meest waarschijnlijk zal in dienst nemen en dienovereenkomstig levering plant, eerder dan het verzenden naar alle ontvangers tezelfdertijd.
 
-[!BADGE &#x200B; Leer meer &#x200B;]{type=Informative url="/help/user/content/email-send-time-optimization.md" tooltip="Meer informatie over het optimaliseren van verzendtijden"}
+[!BADGE  Leer meer ]{type=Informative url="/help/user/content/email-send-time-optimization.md" tooltip="Meer informatie over het optimaliseren van verzendtijden"}
 
 >[!TAB  Reis re-ingang van de Reis ]
 
 U kunt nu accounts/personen meerdere keren verzenden via een workflow voor het maken van een account. Herbetreding heeft betrekking op meerdere scenario&#39;s, zoals herbeoordeling van kwalificatiecriteria en herbruikbare boomwerkstromen. Gebruik de instellingen voor opnieuw invoeren om criteria, beperkingen en wachttijden in te stellen, zodat accounts op een gecontroleerde manier herkwalificeren voor de reis.
 
-[!BADGE &#x200B; Leer meer &#x200B;]{type=Informative url="/help/user/journeys/journey-re-entry.md" tooltip="Meer informatie over het opnieuw betreden van een reis"}
+[!BADGE  Leer meer ]{type=Informative url="/help/user/journeys/journey-re-entry.md" tooltip="Meer informatie over het opnieuw betreden van een reis"}
 
 >[!TAB  Merk thema&#39;s ]
 
 Met thema&#39;s kunnen niet-technische ontwerpers herbruikbare richtlijnen voor het ontwerpen van e-mailinhoud maken die zijn afgestemd op een specifiek merk en een specifieke stijl. Thema&#39;s stellen marketers in staat visueel aantrekkelijke, merkgebonden e-mails sneller en met minder moeite te gebruiken en bieden geavanceerde aanpassingsopties voor unieke ontwerpbehoeften.
 
-[!BADGE &#x200B; Leer meer &#x200B;]{type=Informative url="/help/user/content/brand-themes.md" tooltip="Meer informatie over merkthema&#39;s"}
+[!BADGE  Leer meer ]{type=Informative url="/help/user/content/brand-themes.md" tooltip="Meer informatie over merkthema&#39;s"}
 
 >[!TAB  Persona afbeelding ]
 
 Marketers kunnen gedetailleerde profielen definiëren, zoals achtergrond, verantwoordelijkheden, pijnpunten en voorkeurscommunicatiekanalen. Met deze definities kunnen beheerders persona&#39;s configureren op basis van persoonlijke kenmerken in [!DNL Journey Optimizer B2B Edition] zodat rolsjablonen gestroomlijnde en consistente rolvoorwaarden kunnen gebruiken die deze personen vastleggen.
 
-[!BADGE &#x200B; Leer meer &#x200B;]{type=Informative url="/help/user/admin/persona-mapping.md" tooltip="Meer informatie over persoonlijke toewijzingen"}
+[!BADGE  Leer meer ]{type=Informative url="/help/user/admin/persona-mapping.md" tooltip="Meer informatie over persoonlijke toewijzingen"}
 
 >[!ENDTABS]
 
@@ -71,7 +71,7 @@ Marketers kunnen gedetailleerde profielen definiëren, zoals achtergrond, verant
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Opmerkingen bij de nieuwste release
 
@@ -81,7 +81,7 @@ Blijf up-to-date met de nieuwste opmerkingen over releases, nieuwe functies en v
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag
 
@@ -91,7 +91,7 @@ Raadpleeg de Journey Optimizer B2B edition-richtlijnen voor instapkaarten voor b
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Uw XDM-velden configureren
 
@@ -101,19 +101,19 @@ Implementeer de systeemconfiguraties om de XDM-schema&#39;s en -velden te active
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Communicatiekanalen
 
 Vorm en beheer e-mail, SMS, WhatsApp, en andere kanalen voor gepersonaliseerde klanteninteractie.
 
-[&#x200B; E-mailkanaal configureren](./admin/configure-channels-emails.md)
-[&#x200B; Vorm het kanaal van SMS](./admin/configure-channels-sms.md)
-[&#x200B; vorm het kanaal WhatsApp &#x200B;](./admin/configure-channels-whatsapp.md)
+[ E-mailkanaal configureren](./admin/configure-channels-emails.md)
+[ Vorm het kanaal van SMS](./admin/configure-channels-sms.md)
+[ vorm het kanaal WhatsApp ](./admin/configure-channels-whatsapp.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Een rekeningpad maken
 
@@ -123,7 +123,7 @@ Ontwerp, orkestreer, beheer en optimaliseer persoonlijke accountreizen.
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 Kopen groepen begrijpen
 
@@ -134,9 +134,9 @@ Gedetailleerde richtlijnen voor het maken, beheren en optimaliseren van inkoopgr
 
 ::::
 
-<!-- 
+<!--
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=nl-NL)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
 Design Content
 
@@ -164,7 +164,8 @@ Ontdek de onderdelen van een inkoopgroep en begrijp de basisbeginselen van het m
     <td>
       <img src="../assets/do-not-localize/icon-configure.svg" width="35px"><br/>
       <strong>Configuration<br/>administration</strong><br/><a href="using/configuration/channel-surfaces.md">Channel surfaces</a> - <a href="using/configuration/about-data-sources-events-actions.md">Configure journeys</a>  - <a href="using/administration/permissions-overview.md">Access control</a> - <a href="using/administration/sandboxes.md">Sandboxes management</a>
-    </td> -->
+    </td>
+    -->
     <td>
       <img src="../assets/do-not-localize/icon_audience.svg" width="35px" alt="Koopgroepen"><br/>
       <strong> het Kopen groepen </strong><br/> <a href="./buying-groups/buying-groups-overview.md"> het Kopen groepen overzicht </a><br/> <a href="./buying-groups/buying-groups-role-templates.md"> de malplaatjes van de Rol </a><br/> <a href="./buying-groups/solution-interests.md"> de belangen van de Oplossing </a><br/> <a href="./buying-groups/buying-groups-create.md"> creeer het kopen groepen </a>
@@ -185,7 +186,7 @@ Ontdek de onderdelen van een inkoopgroep en begrijp de basisbeginselen van het m
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px" alt="Inzichten en dashboards"><br/>
-      <strong> Inzichten </strong><br/> <a href="./dashboards/intelligent-dashboard.md"> Intelligent dashboard </a><br/> <a href="./dashboards/engagement-dashboard.md"> het dashboard van de Betrokkenheid </a><br/> <a href="./dashboards/buying-groups-dashboard.md"> Buying het dashboard van groepen </a><br/> <a href="./dashboards/journeys-dashboard.md"> het dashboard van de Rondjes 10&rbrace; <a href="./buying-groups/incrm-insights.md"> In-CRM Inzichten </a></a><br/>
+      <strong> Inzichten </strong><br/> <a href="./dashboards/intelligent-dashboard.md"> Intelligent dashboard </a><br/> <a href="./dashboards/engagement-dashboard.md"> het dashboard van de Betrokkenheid </a><br/> <a href="./dashboards/buying-groups-dashboard.md"> Buying het dashboard van groepen </a><br/> <a href="./dashboards/journeys-dashboard.md"> het dashboard van de Rondjes 10} <a href="./buying-groups/incrm-insights.md"> In-CRM Inzichten </a></a><br/>
     </td>
 
 </tr>
@@ -195,15 +196,15 @@ Ontdek de onderdelen van een inkoopgroep en begrijp de basisbeginselen van het m
 
 <table style="table-layout:fixed">
 <tr><td><strong> Adobe Journey Optimizer B2B edition </strong><br/>
-<a href="https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank"> Video's en leerprogramma's </a> - <a href="https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank"> Beschrijving van het Product </a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank"> Video's en leerprogramma's </a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank"> Beschrijving van het Product </a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong> Adobe Experience Platform </strong><br/>
-<a href="https://experienceleague.adobe.com/nl/docs/experience-platform/landing/home" target="_blank"> Documentatie </a> - <a href="https://business.adobe.com/nl/products/experience-platform/documentation-and-developer-resources.html" target="_blank"> middelen van de Ontwikkelaar </a>
+<a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/home" target="_blank"> Documentatie </a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank"> middelen van de Ontwikkelaar </a>
 </td></tr>
 <tr><td><strong> Adobe Real-Time Customer Data Platform </strong><br/>
-<a href="https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/home" target="_blank"> Documentatie </a> - <a href="https://experienceleague.adobe.com/nl/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank"> zelfstudies van de Ontwikkelaar </a>
+<a href="https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home" target="_blank"> Documentatie </a> - <a href="https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank"> zelfstudies van de Ontwikkelaar </a>
 </td><td><strong> Adobe Marketo Engage </strong><br/>
-<a href="https://experienceleague.adobe.com/nl/docs/marketo/using/home" target="_blank"> documentatie van de Gebruiker </a> - <a href="https://experienceleague.adobe.com/nl/docs/marketo-developer/marketo/home" target="_blank"> documentatie van de Ontwikkelaar </a>
+<a href="https://experienceleague.adobe.com/en/docs/marketo/using/home" target="_blank"> documentatie van de Gebruiker </a> - <a href="https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/home" target="_blank"> documentatie van de Ontwikkelaar </a>
 </td>
 </tr></table>
 

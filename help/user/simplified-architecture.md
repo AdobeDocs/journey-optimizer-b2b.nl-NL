@@ -2,9 +2,9 @@
 title: Vereenvoudigde architectuur instellen
 description: Stel Journey Optimizer B2B edition in op de vereenvoudigde architectuur. Configureer XDM-schema's, e-mail-/sms-kanalen, Marketo Engage-reishandelingen en gebruikers.
 feature: Setup, Administration
-role: Admin, Data Engineer
+role: Admin, Developer
 exl-id: 81232976-09d6-4e10-a034-5c193a63b7df
-source-git-commit: 53bf3ce685079df16752af49c3b61f583f0b72e7
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '884'
 ht-degree: 100%
@@ -51,7 +51,7 @@ Gebruik deze controlelijst om de installatie van Journey Optimizer B2B edition o
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Selectievakje"/></td>
 <td>Verzamel Experience Platform API-referenties en vereiste headers.</td>
-<td><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/landing/platform-apis/api-guide">Meer informatie</a></td>
+<td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-guide">Meer informatie</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Selectievakje"/></td>
@@ -207,7 +207,8 @@ Als u e-mailberichten wilt verzenden vanuit [!DNL Journey Optimizer B2B Edition]
 </tbody>
 </table>
 
-<!-- TBD for later 
+<!--
+ TBD for later
 
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
@@ -273,7 +274,7 @@ Om marketers voor het opnemen van andere kanalen in hun reizen te steunen, vorm 
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Selectievakje"/></td>
 <td>Configureer uw bedrijfswebsite ter ondersteuning van de Adobe Experience Platform Web SDK.</td>
-<td><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/collection/js/js-overview">Meer informatie</a></td>
+<td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview">Meer informatie</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Selectievakje"/></td>

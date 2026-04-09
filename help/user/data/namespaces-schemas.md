@@ -3,10 +3,11 @@ title: B2B-naamruimten en -schema's
 description: Configureer Experience Platform B2B-naamruimten en -schema's voor Journey Optimizer B2B edition met behulp van het Postman-hulpprogramma voor automatisch genereren.
 feature: Setup, Data Management
 role: Admin
-source-git-commit: 023e44e1ad2baed2a5586d95a26ef8693020667a
+exl-id: 40d01027-7cf2-4189-8a49-7a0783c00721
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '1010'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -16,9 +17,9 @@ De installatie van Journey Optimizer B2B edition op de vereenvoudigde architectu
 
 >[!AVAILABILITY]
 >
->- U moet toegang tot [&#x200B; Adobe Real-Time Customer Data Platform B2B edition &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview){target="_blank"} voor uw B2B- schema&#39;s hebben om in [&#x200B; in real time het Profiel van de Klant &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/home){target="_blank"} te kwalificeren.
+>- U moet toegang tot [ Adobe Real-Time Customer Data Platform B2B edition ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview){target="_blank"} voor uw B2B- schema&#39;s hebben om in [ in real time het Profiel van de Klant ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home){target="_blank"} te kwalificeren.
 >
->- Uw Experience Platform B2B entiteiten moeten de standaardverhoudingen gebruiken die in [&#x200B; worden geschetst B2B namespaces en schemagids &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/schemas/b2b){target="_blank"}.
+>- Uw Experience Platform B2B entiteiten moeten de standaardverhoudingen gebruiken die in [ worden geschetst B2B namespaces en schemagids ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b){target="_blank"}.
 
 Controleer de volgende informatie over de onderliggende opstelling voor namespaces en schema&#39;s die met B2B bronnen moeten worden gebruikt. Het biedt ook informatie voor het instellen van het Postman-automatiseringshulpprogramma, dat vereist is voor het genereren van B2B-naamruimten en -schema&#39;s.
 
@@ -26,10 +27,10 @@ Controleer de volgende informatie over de onderliggende opstelling voor namespac
 
 Raadpleeg de volgende bronnen voor voorwaarden en gedetailleerde informatie over hoe u de [!DNL Postman] -omgeving zo kunt instellen dat deze ondersteuning biedt voor de naamruimte B2B en het automatisch genereren van schema.
 
-- Download de namespace en het schema auto-generatienutsinzameling en het milieu van de [&#x200B; bewaarplaats GitHub &#x200B;](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility){target="_blank"}.
-- Voor informatie over het gebruiken van Experience Platform APIs met inbegrip van details over het verzamelen van waarden voor vereiste kopballen en het lezen van steekproefAPI vraag, zie [_Begonnen het worden met Adobe Experience Platform APIs_ &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/landing/platform-apis/api-guide){target="_blank"}.
-- Voor informatie over het produceren van uw geloofsbrieven voor Experience Platform APIs, zie [_voor authentiek verklaren en toegang Experience Platform APIs_ &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/landing/platform-apis/api-authentication){target="_blank"}.
-- Voor informatie over vestiging [!DNL Postman] voor Experience Platform APIs, zie [_[!DNL Postman] in Adobe Experience Platform _](https://experienceleague.adobe.com/nl/docs/experience-platform/landing/platform-apis/postman){target="_blank"}.
+- Download de namespace en het schema auto-generatienutsinzameling en het milieu van de [ bewaarplaats GitHub ](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility){target="_blank"}.
+- Voor informatie over het gebruiken van Experience Platform APIs met inbegrip van details over het verzamelen van waarden voor vereiste kopballen en het lezen van steekproefAPI vraag, zie [_Begonnen het worden met Adobe Experience Platform APIs_ ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-guide){target="_blank"}.
+- Voor informatie over het produceren van uw geloofsbrieven voor Experience Platform APIs, zie [_voor authentiek verklaren en toegang Experience Platform APIs_ ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication){target="_blank"}.
+- Voor informatie over vestiging [!DNL Postman] voor Experience Platform APIs, zie [_[!DNL Postman] in Adobe Experience Platform _](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/postman){target="_blank"}.
 
 ### Omgevingswaarden
 
@@ -55,17 +56,17 @@ Met een Experience Platform-ontwikkelaarsconsole en [!DNL Postman] -configuratie
 
 Nadat de omgevingswaarden zijn ingesteld, gebruikt u de [!DNL Postman] -interface om het script uit te voeren voor het maken van de naamruimten en schema&#39;s. Selecteer de hoofdmap van het hulpprogramma voor automatische generator en selecteer vervolgens **[!DNL Run]** in de bovenste koptekst.
 
-![&#x200B; omslag van de Wortel van Namespaces en de generator van Schema in Postman UI &#x200B;](./assets/namespaces-schemas-postman-root-folder.png){width="500" zoomable="yes"}
+![ omslag van de Wortel van Namespaces en de generator van Schema in Postman UI ](./assets/namespaces-schemas-postman-root-folder.png){width="500" zoomable="yes"}
 
 De interface [!DNL Runner] wordt weergegeven. Controleer van hieruit of alle selectievakjes zijn ingeschakeld en selecteer vervolgens **[!DNL Run Namespaces and Schemas Autogeneration Utility]** .
 
-![&#x200B; Postman UI met verscheidene verzoeken in de geselecteerde inzameling Namespaces en Schemas.](./assets/namespaces-schemas-postman-run-generator.png){width="800" zoomable="yes"}
+![ Postman UI met verscheidene verzoeken in de geselecteerde inzameling Namespaces en Schemas.](./assets/namespaces-schemas-postman-run-generator.png){width="800" zoomable="yes"}
 
 Een succesvol verzoek leidt tot vereiste B2B namespaces en schema&#39;s.
 
 ## B2B-naamruimten
 
-Identiteitsnaamruimten zijn een component van Experience Platform [[!DNL Identity Service] &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/home){target="_blank"} die dienen om de context van een identiteit te onderscheiden. Een volledig gekwalificeerde identiteit omvat een identiteitswaarde en een namespace. Zie [&#x200B; namespaces overzicht &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/features/namespaces){target="_blank"} voor meer informatie.
+Identiteitsnaamruimten zijn een component van Experience Platform [[!DNL Identity Service] ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home){target="_blank"} die dienen om de context van een identiteit te onderscheiden. Een volledig gekwalificeerde identiteit omvat een identiteitswaarde en een namespace. Zie [ namespaces overzicht ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces){target="_blank"} voor meer informatie.
 
 B2B-naamruimten worden gebruikt in de primaire identiteit van de entiteit.
 
@@ -89,14 +90,14 @@ Experience Platform gebruikt schema&#39;s om de gegevensstructuur op een consist
 
 Voordat Experience Platform gegevens kan invoeren, moet er een schema zijn dat de gegevensstructuur beschrijft en beperkingen biedt aan het type gegevens dat binnen elk veld kan worden opgenomen. De schema&#39;s bestaan uit een basisklasse en nul of meer groepen van het schemagebied.
 
-Voor meer informatie over het model van de schemacompositie, met inbegrip van ontwerpprincipes en beste praktijken, zie [_Grondbeginselen van schemacompositie_ &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/schema/composition){target="_blank"}.
+Voor meer informatie over het model van de schemacompositie, met inbegrip van ontwerpprincipes en beste praktijken, zie [_Grondbeginselen van schemacompositie_ ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"}.
 
 +++ B2B-account
 
 <table>
     <tr>
         <td style="width: 30%;">Basisklasse</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/classes/b2b/business-account" target="_blank">XDM Business Account</a></td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-account" target="_blank">XDM Business Account</a></td>
     </tr>
     <tr>
         <td>Veldgroepen</td>
@@ -135,7 +136,7 @@ Voor meer informatie over het model van de schemacompositie, met inbegrip van on
 <table>
     <tr>
         <td style="width: 30%;">Basisklasse</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/classes/individual-profile"> XDM Individueel Profiel </a> {target= "_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/individual-profile"> XDM Individueel Profiel </a> {target= "_blank"}</td>
     </tr>
     <tr>
         <td>Veldgroepen</td>
@@ -176,7 +177,7 @@ Voor meer informatie over het model van de schemacompositie, met inbegrip van on
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/classes/b2b/business-opportunity">XDM Business Opportunity</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-opportunity">XDM Business Opportunity</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>
@@ -216,7 +217,7 @@ Voor meer informatie over het model van de schemacompositie, met inbegrip van on
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation">XDM Business Opportunity Person Relation</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation">XDM Business Opportunity Person Relation</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>
@@ -257,7 +258,7 @@ Voor meer informatie over het model van de schemacompositie, met inbegrip van on
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/classes/b2b/business-campaign">XDM Business Campaign</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-campaign">XDM Business Campaign</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>
@@ -297,7 +298,7 @@ Voor meer informatie over het model van de schemacompositie, met inbegrip van on
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/classes/b2b/business-campaign-members">XDM Business Campaign Members</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-campaign-members">XDM Business Campaign Members</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>
@@ -335,7 +336,7 @@ Voor meer informatie over het model van de schemacompositie, met inbegrip van on
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/classes/b2b/business-marketing-list">XDM Business Marketing List</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-marketing-list">XDM Business Marketing List</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>
@@ -379,7 +380,7 @@ Voor meer informatie over het model van de schemacompositie, met inbegrip van on
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members">XDM Business Marketing List Members</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members">XDM Business Marketing List Members</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>
@@ -423,7 +424,7 @@ Voor meer informatie over het model van de schemacompositie, met inbegrip van on
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/classes/b2b/business-account-person-relation">XDM Business Account Person Relation</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-account-person-relation">XDM Business Account Person Relation</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>
@@ -457,5 +458,4 @@ Voor meer informatie over het model van de schemacompositie, met inbegrip van on
 </table>
 
 +++
-
 -->

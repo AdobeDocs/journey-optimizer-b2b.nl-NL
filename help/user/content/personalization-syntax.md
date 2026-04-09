@@ -6,18 +6,19 @@ topic: Personalization
 role: Developer
 level: Intermediate
 keywords: expressie, editor, syntaxis, personalisatie
-source-git-commit: fee5bddcce11b3035da6ab93b18bcc7006b4b554
+exl-id: 91bbead6-aca0-4f39-9ab5-798b26ab81ee
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 0%
+source-wordcount: '361'
+ht-degree: 1%
 
 ---
 
 # Personalization-syntaxis {#personalization-syntax}
 
-De uitdrukkingen in de [!DNL Journey Optimizer B2B Edition] [&#x200B; verpersoonlijkingsredacteur &#x200B;](./personalization.md#personalization-editor) zijn gebaseerd op de _4&rbrace; het malplaatjesyntaxis van Handelaren &lbrace;._ Er worden een sjabloon en een invoerobject gebruikt om HTML of andere tekstopmaak te genereren. Handlebars de malplaatjes kijken als regelmatige teksten met ingebedde uitdrukkingen Handlebars.
+De uitdrukkingen in de [!DNL Journey Optimizer B2B Edition] [ verpersoonlijkingsredacteur ](./personalization.md#personalization-editor) zijn gebaseerd op de _4} het malplaatjesyntaxis van Handelaren {._ Er worden een sjabloon en een invoerobject gebruikt om HTML of andere tekstopmaak te genereren. Handlebars de malplaatjes kijken als regelmatige teksten met ingebedde uitdrukkingen Handlebars.
 
-Voor meer details over Handlebars en hoe het werkt, verwijs naar de [&#x200B; documentatie HandlebarsJS &#x200B;](https://handlebarsjs.com/){target="_blank"}.
+Voor meer details over Handlebars en hoe het werkt, verwijs naar de [ documentatie HandlebarsJS ](https://handlebarsjs.com/){target="_blank"}.
 
 ## Algemene bepalingen
 
@@ -34,7 +35,7 @@ Waarbij:
 
   >[!NOTE]
   >
-  >De attributenstructuur wordt bepaald in een [&#x200B; Adobe Experience Platform XDM Schema &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/home){target="_blank"}.
+  >De attributenstructuur wordt bepaald in een [ Adobe Experience Platform XDM Schema ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}.
 
 * Id&#39;s kunnen elk Unicode-teken zijn, behalve de volgende:
 
@@ -48,9 +49,11 @@ Waarbij:
 
 * In Handlebars, zijn de waarden die door {\ {expression} \} zijn teruggekeerd _HTML-ontsnapte_. Als de expressie `&` bevat, wordt de geretourneerde uitvoer met escape-teken van HTML gegenereerd als `&amp;` . Als u geen waarde wilt laten ontsnappen aan Handgrepen, gebruikt u de +-driestash_.
 
-<!-- For example:
+<!--
+ For example:
 
-    If the value of the field `profile.person.name` is _Mark & Mary_, the `{\{profile.person.name}\}` value generates as `Mark &amp; Mary` and `{\{\{profile.person.name}}}` renders as `Mark & Mary`. -->
+    If the value of the field `profile.person.name` is _Mark & Mary_, the `{\{profile.person.name}\}` value generates as `Mark &amp; Mary` and `{\{\{profile.person.name}}}` renders as `Mark & Mary`. 
+-->
 
 * Voor argumenten voor letterlijke functies ondersteunt de sjabloontaalparser geen enkel unescaped backslash-symbool (`\`). Aan dit teken moet een extra backslash (`\`) worden toegevoegd. Bijvoorbeeld:
 
@@ -68,11 +71,13 @@ Een hulpfunctie Handlebars is een eenvoudig herkenningsteken dat met parameters 
 {{/each }}
 ```
 
-<!-- These block helpers are identified with a `#` preceding the helper name and require a matching closing `/`, of the same name. 
+<!--
+ These block helpers are identified with a `#` preceding the helper name and require a matching closing `/`, of the same name.
 
-Blocks are expressions that have a block opening ( {\{# }\} ) and closing ( {\{/} } ). -->
+Blocks are expressions that have a block opening ( {\{# }\} ) and closing ( {\{/} } ). 
+-->
 
-Voor meer gedetailleerde informatie over deze functies, zie [&#x200B; de functies van de Helper &#x200B;](./personalization-helper-functions.md).
+Voor meer gedetailleerde informatie over deze functies, zie [ de functies van de Helper ](./personalization-helper-functions.md).
 
 ## Letterlijke typen {#literal-types}
 
