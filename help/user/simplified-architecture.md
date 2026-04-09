@@ -51,7 +51,7 @@ Gebruik deze controlelijst om de installatie van Journey Optimizer B2B edition o
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Selectievakje"/></td>
 <td>Verzamel Experience Platform API-referenties en vereiste headers.</td>
-<td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-guide">Meer informatie</a></td>
+<td><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/landing/platform-apis/api-guide">Meer informatie</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Selectievakje"/></td>
@@ -274,7 +274,7 @@ Om marketers voor het opnemen van andere kanalen in hun reizen te steunen, vorm 
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Selectievakje"/></td>
 <td>Configureer uw bedrijfswebsite ter ondersteuning van de Adobe Experience Platform Web SDK.</td>
-<td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview">Meer informatie</a></td>
+<td><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/collection/js/js-overview">Meer informatie</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Selectievakje"/></td>

@@ -43,7 +43,7 @@ In [!DNL Journey Optimizer B2B Edition] kunt u dynamische e-mailinhoud maken met
 
 >[!NOTE]
 >
->Leer meer over de schema&#39;s XDM in de [&#x200B; documentatie van het Gegevensmodel van Adobe Experience Platform (XDM) &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}.
+>Leer meer over de schema&#39;s XDM in de [&#x200B; documentatie van het Gegevensmodel van Adobe Experience Platform (XDM) &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/home){target="_blank"}.
 
 ## Personalization Editor
 
