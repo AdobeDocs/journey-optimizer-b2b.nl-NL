@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B edition-documentatie
 user-guide-description: Meer informatie over Adobe Journey Optimizer B2B edition en hoe u dit kunt gebruiken om accounts te ordenen en groepsreizen te kopen met behulp van ingebouwde generatieve AI en toonaangevende automatisering.
-source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 94%
 + [Aanvullende informatie](./release-notes/release-notes.md)
 + Aan de slag {#get-started}
    + [Journey Optimizer B2B edition - overzicht](about-journey-optimizer-b2b-edition.md)
-   + Vereenvoudigde architectuur {#simplified-architecture}
-      + [Controlelijst instellen](./simplified-architecture.md)
+   + Omgevingsinstelling {#admin-setup}
+      + [Controlelijst instellen](./setup-ultimate.md)
       + [Naamruimten en schema&#39;s](./data/namespaces-schemas.md)
       + [XDM-veldselectie](./admin/xdm-field-management.md)
       + [Ervaar gebeurtenissen en velden](./admin/configure-aep-events.md)
@@ -47,7 +47,7 @@ ht-degree: 94%
       + [Personpubliek (Beta)](./journeys/person-audience-nodes.md)
       + [Handeling uitvoeren](./journeys/action-nodes.md)
       + [Luisteren naar een gebeurtenis](./journeys/listen-for-event-nodes.md)
-      + [&#x200B; Splits en voeg wegen  samen](./journeys/split-merge-paths-nodes.md)
+      + [ Splits en voeg wegen ](./journeys/split-merge-paths-nodes.md) samen
       + [Wachten](./journeys/wait-nodes.md)
       + [Externe knooppunten](./journeys/external-nodes.md)
    + [Reisgegevens](./journeys/journey-details.md)
@@ -128,7 +128,7 @@ ht-degree: 94%
       + [Overzicht](./content/forms.md)
       + [Formulierontwerp](./content/form-design.md)
    + Openingspagina&#39;s (Beta) {#landing-pages}
-      + [&#x200B; Overzicht &#x200B;](./content/landing-pages.md)
+      + [ Overzicht ](./content/landing-pages.md)
       + [Ontwerp bestemmingspagina](./content/landing-page-design.md)
       + [AI Assistant voor het plaatsen van pagina-inhoud](./content/ai-assistant-landing-pages.md)
    + Gereedschappen voor het ontwerpen van inhoud {#content-design}
@@ -150,7 +150,7 @@ ht-degree: 94%
 + Intelligente dashboards {#dashboards}
    + [Het dashboard met inzichten](./dashboards/intelligent-dashboard.md)
    + [Betrokkenheidsdashboard](./dashboards/engagement-dashboard.md)
-   + [&#x200B; de betrokkenheidsdashboard van het Web &#x200B;](./dashboards/web-engagement-dashboard.md)
+   + [ de betrokkenheidsdashboard van het Web ](./dashboards/web-engagement-dashboard.md)
    + [Het dashboard voor groepen kopen](./dashboards/buying-groups-dashboard.md)
    + [Rekeningjournaal](./dashboards/journeys-dashboard.md)
 + Administratie {#admin}

@@ -4,9 +4,9 @@ description: Gebruik wachtknooppunten om de voortgang van de reis te pauzeren en
 feature: Account Journeys, Person Journeys
 role: User
 exl-id: fecab788-4e8e-490a-bcca-bc3ab43411d9
-source-git-commit: 7a05e6aed76d15aa6d0d0a7dd244bf299d549782
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -26,14 +26,14 @@ U kunt de wachttijd op twee manieren definiëren:
 
 1. Klik op de plusknop ( **+** ) op een pad en kies **[!UICONTROL Wait]** .
 
-   ![&#x200B; voeg reisknoop toe - wacht &#x200B;](./assets/add-node-wait.png){width="440"}
+   ![ voeg reisknoop toe - wacht ](./assets/add-node-wait.png){width="440"}
 
 1. In de knoopeigenschappen op het recht, plaats **[!UICONTROL Type]** van tijd te wachten alvorens de reis aan de volgende knoop in de weg te werk gaat.
 
    * **[!UICONTROL Duration]** - Bepaal een specifiek aantal dagen, uren, of notulen om tussen ingang en uitgang van de wachttijdknoop te verstrijken.
    * **[!UICONTROL Date]** - Geef een specifieke datum en tijd op voor het afsluiten.
 
-   ![&#x200B; knoop van de Reis - wacht &#x200B;](./assets/node-wait.png){width="500"}
+   ![ knoop van de Reis - wacht ](./assets/node-wait.png){width="500"}
 
 ## Geavanceerde wachtinstellingen
 
@@ -41,11 +41,7 @@ Laat de **[!UICONTROL Must end on]** optie toe om een _geavanceerde wachtstap_ t
 
 Met een _geavanceerd wacht stap_, bepaalt u **_wanneer_** de persoon of de rekening zou moeten weggaan, niet alleen hoe lang zij zouden moeten wachten.
 
-![&#x200B; knoop van de Reis - geavanceerd wacht stap &#x200B;](./assets/node-wait-advanced.png){width="500"}
-
->[!AVAILABILITY]
->
->De geavanceerde wachttijdmontages zijn beschikbaar voor [!DNL Journey Optimizer B2B Edition] milieu&#39;s die provisioned op de [&#x200B; vereenvoudigde architectuur &#x200B;](../simplified-architecture.md) zijn.
+![ knoop van de Reis - geavanceerd wacht stap ](./assets/node-wait-advanced.png){width="500"}
 
 ### Wacht types
 
