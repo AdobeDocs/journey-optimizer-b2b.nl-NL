@@ -26,14 +26,14 @@ U kunt de wachttijd op twee manieren definiëren:
 
 1. Klik op de plusknop ( **+** ) op een pad en kies **[!UICONTROL Wait]** .
 
-   ![ voeg reisknoop toe - wacht ](./assets/add-node-wait.png){width="440"}
+   ![&#x200B; voeg reisknoop toe - wacht &#x200B;](./assets/add-node-wait.png){width="440"}
 
 1. In de knoopeigenschappen op het recht, plaats **[!UICONTROL Type]** van tijd te wachten alvorens de reis aan de volgende knoop in de weg te werk gaat.
 
    * **[!UICONTROL Duration]** - Bepaal een specifiek aantal dagen, uren, of notulen om tussen ingang en uitgang van de wachttijdknoop te verstrijken.
    * **[!UICONTROL Date]** - Geef een specifieke datum en tijd op voor het afsluiten.
 
-   ![ knoop van de Reis - wacht ](./assets/node-wait.png){width="500"}
+   ![&#x200B; knoop van de Reis - wacht &#x200B;](./assets/node-wait.png){width="500"}
 
 ## Geavanceerde wachtinstellingen
 
@@ -41,7 +41,7 @@ Laat de **[!UICONTROL Must end on]** optie toe om een _geavanceerde wachtstap_ t
 
 Met een _geavanceerd wacht stap_, bepaalt u **_wanneer_** de persoon of de rekening zou moeten weggaan, niet alleen hoe lang zij zouden moeten wachten.
 
-![ knoop van de Reis - geavanceerd wacht stap ](./assets/node-wait-advanced.png){width="500"}
+![&#x200B; knoop van de Reis - geavanceerd wacht stap &#x200B;](./assets/node-wait-advanced.png){width="500"}
 
 ### Wacht types
 
