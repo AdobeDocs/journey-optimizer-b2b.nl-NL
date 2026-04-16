@@ -19,13 +19,13 @@ Deze nieuwe functie biedt een snelle verzameling van inhoud voor volledige e-mai
 
 >[!IMPORTANT]
 >
->Als u toegang wilt tot deze functies in Adobe Journey Optimizer B2B edition, moet u beschikken over _[!UICONTROL AI Assistant]_>_[!UICONTROL Generate Content]_ machtiging. Voor meer informatie over hoe een productbeheerder eigenschaptoestemmingen kan verlenen, zie [ rollen voor producttoestemmingen ](../admin/user-management.md#edit-roles-for-product-permissions) uitgeven.
+>Als u toegang wilt tot deze functies in Adobe Journey Optimizer B2B edition, moet u beschikken over _[!UICONTROL AI Assistant]_>_[!UICONTROL Generate Content]_ machtiging. Voor meer informatie over hoe een productbeheerder eigenschaptoestemmingen kan verlenen, zie [&#x200B; rollen voor producttoestemmingen &#x200B;](../admin/user-management.md#edit-roles-for-product-permissions) uitgeven.
 
 ## Richtlijnen en beperkingen
 
-Alvorens u begint dit vermogen te gebruiken, herzie de [ richtlijnen en de beperkingen ](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} de aanvaarding van de 0} overeenkomst van de Gebruiker wordt ook vereist alvorens u mogelijkheden AI in [!DNL Journey Optimizer B2B Edition] kunt gebruiken. [Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+Alvorens u begint dit vermogen te gebruiken, herzie de [&#x200B; richtlijnen en de beperkingen &#x200B;](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). [&#128279;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} de aanvaarding van de 0&rbrace; overeenkomst van de Gebruiker wordt ook vereist alvorens u mogelijkheden AI in [!DNL Journey Optimizer B2B Edition] kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
-Met Adobe verplichting om transparantie in het gebruik van generatieve hulpmiddelen AI in media verwezenlijking te bevorderen, past Adobe [ inhoudsgeloofsbrieven ](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} voor om het even welke inhoud of project toe dat Firefly-Gegenereerde activa omvat wanneer het wordt gedownload of uitgevoerd.
+Met Adobe verplichting om transparantie in het gebruik van generatieve hulpmiddelen AI in media verwezenlijking te bevorderen, past Adobe [&#x200B; inhoudsgeloofsbrieven &#x200B;](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} voor om het even welke inhoud of project toe dat Firefly-Gegenereerde activa omvat wanneer het wordt gedownload of uitgevoerd.
 
 De volgende beperkingen en richtlijnen gelden voor AI Assistant-functies die worden gebruikt voor het genereren van e-mailinhoud in [!DNL Journey Optimizer B2B Edition] :
 
@@ -43,7 +43,7 @@ U kunt volledige inhoud voor een e-mail, of voor geselecteerde componenten in e-
 
 Gebruik duidelijk gedefinieerde aanwijzingen voor een nauwkeurige interpretatie van het generatieve AI-model. Het marketingdoel of de marketingprompt die u opgeeft, heeft een sterke invloed op de kwaliteit van de gegenereerde inhoud.
 
-![ Prompt gebied ](./assets/gen-ai-prompt.png){width="320"}
+![&#x200B; Prompt gebied &#x200B;](./assets/gen-ai-prompt.png){width="320"}
 
 Voor meer informatie over het creëren van efficiënte herinneringen, zie _[Snelle beste praktijken](../ai-assistant/generative-ai-content.md#generative-ai-prompting-guide)_.
 
@@ -51,11 +51,11 @@ Voor meer informatie over het creëren van efficiënte herinneringen, zie _[Snel
 
 #### Promptbibliotheek
 
-Een effectieve prompt is essentieel voor het genereren van de best mogelijke inhoud. Als u hulp met het ontwerpen van uw herinnering wilt, klik het _![ Prompt bibliotheekpictogram van de Prompt ](../assets/do-not-localize/icon-library.svg) om tot een bibliotheek van snelle ideeën toegang te hebben die volgens doelstellingen worden georganiseerd._ Typ tekst in het zoekveld om een vraag te zoeken op basis van een trefwoordtekenreeks.
+Een effectieve prompt is essentieel voor het genereren van de best mogelijke inhoud. Als u hulp met het ontwerpen van uw herinnering wilt, klik het _![&#x200B; Prompt bibliotheekpictogram van de Prompt &#x200B;](../assets/do-not-localize/icon-library.svg) om tot een bibliotheek van snelle ideeën toegang te hebben die volgens doelstellingen worden georganiseerd._ Typ tekst in het zoekveld om een vraag te zoeken op basis van een trefwoordtekenreeks.
 
-![ AI Medewerker - toegang tot de Snelle Bibliotheek ](./assets/gen-ai-prompt-library.png){width="600" zoomable="no"}
+![&#x200B; AI Medewerker - toegang tot de Snelle Bibliotheek &#x200B;](./assets/gen-ai-prompt-library.png){width="600" zoomable="no"}
 
-Selecteer de vraag die uw beoogde doelen het beste weerspiegelt en klik op **[!UICONTROL Try this Prompt]** . Vervang in het veld _[!UICONTROL Prompt]_alle plaatsaanduidingen (zoals `[Key Feature/Information]` ) door de benodigde waarden voor het merk, de aanbieding, de campagne en het gebruik.
+Selecteer de vraag die uw beoogde doelen het beste weerspiegelt en klik op **[!UICONTROL Try this Prompt]** . Vervang in het veld _[!UICONTROL Prompt]_&#x200B;alle plaatsaanduidingen (zoals `[Key Feature/Information]` ) door de benodigde waarden voor het merk, de aanbieding, de campagne en het gebruik.
 
 >[!ENDSHADEBOX]
 
@@ -63,7 +63,7 @@ Selecteer de vraag die uw beoogde doelen het beste weerspiegelt en klik op **[!U
 
 Breid **[!UICONTROL Text settings]** in het juiste paneel uit en plaats de opties voor geproduceerde tekst.
 
-* **[!UICONTROL Buying group]** - kies de [ het kopen rol van de groep ](../buying-groups/buying-groups-role-templates.md) voor het richten van uw overseinen te gebruiken. [!DNL Journey Optimizer B2B Edition] biedt vijf standaard B2B-rollen voor inkoopgroepen buiten de box. Elke het kopen groepsrol heeft een duidelijke overseinennadruk:
+* **[!UICONTROL Buying group]** - kies de [&#x200B; het kopen rol van de groep &#x200B;](../buying-groups/buying-groups-role-templates.md) voor het richten van uw overseinen te gebruiken. [!DNL Journey Optimizer B2B Edition] biedt vijf standaard B2B-rollen voor inkoopgroepen buiten de box. Elke het kopen groepsrol heeft een duidelijke overseinennadruk:
 
   | Functie | Berichtenfocus |
   | ---- | --------------- |
@@ -73,12 +73,12 @@ Breid **[!UICONTROL Text settings]** in het juiste paneel uit en plaats de optie
   | Praktijkster | Versnelling van gebruiksgemak {de eigenschappen van het 0} Product en functionaliteit <br/> de verenigbaarheid van het Product <br/> Versnelling van productintegratie<br/> |
   | Champion | Onderwijsmateriaal <br/> Gedachte leiderschapsinhoud <br/> de verhalen van de Klant |
 
-* **[!UICONTROL Marketing journey stage]** - kies het [ het kopen groepsstadium ](../buying-groups/buying-group-stages.md) om voor het richten van het overseinen te gebruiken.
+* **[!UICONTROL Marketing journey stage]** - kies het [&#x200B; het kopen groepsstadium &#x200B;](../buying-groups/buying-group-stages.md) om voor het richten van het overseinen te gebruiken.
 * **[!UICONTROL Communication strategy]** - Kies de meest geschikte communicatiestijl voor de gegenereerde tekst.
 * **[!UICONTROL Language]** - Kies de taal van de gegenereerde inhoud.
 * **[!UICONTROL Tone]** - De toon zou met uw publiek moeten resoneren. U kunt het bericht bijvoorbeeld aanpassen om geluid informatief, afspeelbaar of overtuigend te maken.
 
-![ het instellingenpaneel van de Tekst die het kopen groep, marketing reisstadium, communicatie strategie, taal, en toonopties tonen ](./assets/gen-ai-text-settings.png){width="350" zoomable="yes"}
+![&#x200B; het instellingenpaneel van de Tekst die het kopen groep, marketing reisstadium, communicatie strategie, taal, en toonopties tonen &#x200B;](./assets/gen-ai-text-settings.png){width="350" zoomable="yes"}
 
 Klik op de pijl naar links om terug te keren naar de hoofdmap _[!UICONTROL Settings]_.
 
@@ -96,7 +96,7 @@ De optie **[!UICONTROL Generate images using AI]** is standaard uitgeschakeld. S
 * **[!UICONTROL Lighting]**: De belichtingsstijl die voor de afbeelding wordt gebruikt. Deze stijl bepaalt de atmosfeer en markeert specifieke elementen.
 * **[!UICONTROL Composition]**: De rangschikking van elementen binnen het kader van een afbeelding.
 
-![ het montagespaneel van het Beeld tonend Generatief model, Inhoudstype, Visuele intensiteit, Kleur en toon, Belichting, en de opties van de Samenstelling ](./assets/gen-ai-image-settings.png){width="350" zoomable="yes"}
+![&#x200B; het montagespaneel van het Beeld tonend Generatief model, Inhoudstype, Visuele intensiteit, Kleur en toon, Belichting, en de opties van de Samenstelling &#x200B;](./assets/gen-ai-image-settings.png){width="350" zoomable="yes"}
 
 Klik op de pijl naar links om terug te keren naar de hoofdmap _[!UICONTROL Settings]_.
 
@@ -106,19 +106,19 @@ Upload referentie-inhoud om nauwkeurige, on-brand-inhoud te genereren. Anders is
 
 Klik in de instellingen van **[!UICONTROL Reference content]** op **[!UICONTROL Upload file]** om elementen toe te voegen die inhoud bevatten die u voor extra context wilt gebruiken.
 
-![ Upload dossier aan gebruik voor verwijzingsinhoud ](./assets/gen-ai-reference-content-upload.png){width="350" zoomable="yes"}
+![&#x200B; Upload dossier aan gebruik voor verwijzingsinhoud &#x200B;](./assets/gen-ai-reference-content-upload.png){width="350" zoomable="yes"}
 
 Het te uploaden bestand kan de volgende indelingen hebben: PDF-, JPEG-, PNG- of ZIP-bestanden (met ondersteunde bestandsindelingen). De maximale grootte voor een geüpload merk is 50 MB. Grotere bestanden of een groot aantal afbeeldingen kunnen werken, maar hierdoor neemt de verwerkingstijd toe.
 
 Als u een eerder geüpload bestand wilt selecteren, vouwt u de lijst **[!UICONTROL Uploaded reference content]** uit en schakelt u het element in dat u wilt gebruiken voor het genereren van inhoud.
 
-![ laat bestaande verwijzingsinhoud toe om te gebruiken ](./assets/gen-ai-reference-content-select.png){width="350" zoomable="yes"}
+![&#x200B; laat bestaande verwijzingsinhoud toe om te gebruiken &#x200B;](./assets/gen-ai-reference-content-select.png){width="350" zoomable="yes"}
 
 ## E-maileigenschappen genereren met AI Assistant
 
-Wanneer u [ een e-mailactie ](./add-email.md#add-an-email-action-node-in-a-journey) aan een rekeningsreis toevoegt, bepaalt u een reeks e-maileigenschappen die voor het verzenden van e-mail worden gebruikt. De Medewerker van AI kan helpen betere e-mailovereenkomst bereiken door geadviseerde inhoud voor de e-mail **_onderwerpregel_** en **_preheader_** te produceren.
+Wanneer u [&#x200B; een e-mailactie &#x200B;](./add-email.md#add-an-email-action-node-in-a-journey) aan een rekeningsreis toevoegt, bepaalt u een reeks e-maileigenschappen die voor het verzenden van e-mail worden gebruikt. De Medewerker van AI kan helpen betere e-mailovereenkomst bereiken door geadviseerde inhoud voor de e-mail **_onderwerpregel_** en **_preheader_** te produceren.
 
-Wanneer u een e-mail maakt op basis van een rit of een bestaande e-mail opent via een knooppunt voor de rit, wordt de pagina met de voorvertoning van de e-mail weergegeven met de _[!UICONTROL Email properties]_aan de rechterkant. Op het tabblad_[!UICONTROL Summary]_ kunt u met de gereedschappen voor het genereren van inhoud voor AI Assistant een onderwerpregel, voorkop of beide genereren.
+Wanneer u een e-mail maakt op basis van een rit of een bestaande e-mail opent via een knooppunt voor de rit, wordt de pagina met de voorvertoning van de e-mail weergegeven met de _[!UICONTROL Email properties]_&#x200B;aan de rechterkant. Op het tabblad&#x200B;_[!UICONTROL Summary]_ kunt u met de gereedschappen voor het genereren van inhoud voor AI Assistant een onderwerpregel, voorkop of beide genereren.
 
 >[!BEGINTABS]
 
@@ -128,15 +128,15 @@ De volgende stappen beschrijven de taakopeenvolging voor het gebruiken van AI Me
 
 1. In het _Summiere_ paneel met het _geselecteerde lusje van Details_, scrol neer aan het **[!UICONTROL Subject line]** gebied.
 
-1. Klik het AI Hulp pictogram ( ![ AI Hulptoegangspictogram ](../../assets/do-not-localize/icon-gen-ai-email-properties.svg){width="30"}) rechts van het gebied.
+1. Klik het AI Hulp pictogram ( ![&#x200B; AI Hulptoegangspictogram &#x200B;](../../assets/do-not-localize/icon-gen-ai-email-properties.svg){width="30"}) rechts van het gebied.
 
-   ![ AI Hulp toegang voor e-mail onderwerpregel ](./assets/email-properties-ai-assistant-subject-line-icon.png){width="600" zoomable="yes"}
+   ![&#x200B; AI Hulp toegang voor e-mail onderwerpregel &#x200B;](./assets/email-properties-ai-assistant-subject-line-icon.png){width="600" zoomable="yes"}
 
-   Het dialoogvenster _[!UICONTROL Generate Subject Line]_wordt geopend met de instellingen voor het genereren van de onderwerpregel van de e-mail.
+   Het dialoogvenster _[!UICONTROL Generate Subject Line]_&#x200B;wordt geopend met de instellingen voor het genereren van de onderwerpregel van de e-mail.
 
 1. (Vereist) Voer in het veld **[!UICONTROL Prompt]** een beschrijving in van wat u wilt genereren.
 
-   Gebruik de [ Snelle Bibliotheek ](#prompt-library) als u wat hulp met het ontwerpen van een efficiënte herinnering nodig hebt.
+   Gebruik de [&#x200B; Snelle Bibliotheek &#x200B;](#prompt-library) als u wat hulp met het ontwerpen van een efficiënte herinnering nodig hebt.
 
 1. (Optioneel) Vul de instellingen voor de inhoudshulp in om extra gegevens op te geven voor het genereren van de preheader:
 
@@ -147,11 +147,11 @@ De volgende stappen beschrijven de taakopeenvolging voor het gebruiken van AI Me
 
    De gegenereerde varianten worden weergegeven in het dialoogvenster.
 
-   ![ AI Medewerker - e-mail onderwerpregel produceerde varianten ](./assets/email-properties-ai-assistant-subject-line.png){width="600" zoomable="yes"}
+   ![&#x200B; AI Medewerker - e-mail onderwerpregel produceerde varianten &#x200B;](./assets/email-properties-ai-assistant-subject-line.png){width="600" zoomable="yes"}
 
 1. Blader in het deelvenster AI-assistent en blader door de gegenereerde variaties om te bepalen welke variatie het beste past.
 
-   U kunt [ voorleggen terugkoppelt ](#submit-variation-feedback) voor een geproduceerde variant door de _Duimen omhoog_, _duimen neer_, of _Vlag_ pictogram voor te klikken en de reden te kiezen die het best uw samenvat terugkoppelt.
+   U kunt [&#x200B; voorleggen terugkoppelt &#x200B;](#submit-variation-feedback) voor een geproduceerde variant door de _Duimen omhoog_, _duimen neer_, of _Vlag_ pictogram voor te klikken en de reden te kiezen die het best uw samenvat terugkoppelt.
 
 1. Klik op de optie **[!UICONTROL Refine]** voor meer aanpassingsfuncties:
 
@@ -165,7 +165,7 @@ De volgende stappen beschrijven de taakopeenvolging voor het gebruiken van AI Me
 
    * **[!UICONTROL Change Communication strategy]** - Wijzig de berichtenbenadering op basis van uw doelstellingen, zoals het creëren van urgentie, of het benadrukken van opwindende aantrekkingskracht.
 
-   ![ AI Medewerker - de verfijning van de onderwerpregel ](./assets/email-properties-ai-assistant-subject-line-refine.png){width="600" zoomable="yes"}
+   ![&#x200B; AI Medewerker - de verfijning van de onderwerpregel &#x200B;](./assets/email-properties-ai-assistant-subject-line-refine.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Select]** om de tekst van de onderwerpregel te vervangen door de geselecteerde variant en terug te keren naar de e-maileigenschappen.
 
@@ -175,13 +175,13 @@ Een e-mailpreheader is de korte samenvattingstekst die volgt op de onderwerprege
 
 1. In het _Summiere_ paneel met het _Geselecteerde lusje van Details_, scrol neer en selecteer **[!UICONTROL Preheader]** checkbox.
 
-   ![ AI Hulp toegang voor e-mailpreheader ](./assets/email-properties-ai-assistant-preheader-icon.png){width="600" zoomable="yes"}
+   ![&#x200B; AI Hulp toegang voor e-mailpreheader &#x200B;](./assets/email-properties-ai-assistant-preheader-icon.png){width="600" zoomable="yes"}
 
-   Het dialoogvenster _[!UICONTROL Generate Preheader]_wordt geopend met de instellingen voor het genereren van de e-mailpreheader.
+   Het dialoogvenster _[!UICONTROL Generate Preheader]_&#x200B;wordt geopend met de instellingen voor het genereren van de e-mailpreheader.
 
 1. (Vereist) Voer in het veld **[!UICONTROL Prompt]** een beschrijving in van wat u wilt genereren.
 
-   Gebruik de [ Snelle Bibliotheek ](#prompt-library) als u wat hulp met het ontwerpen van een efficiënte herinnering nodig hebt.
+   Gebruik de [&#x200B; Snelle Bibliotheek &#x200B;](#prompt-library) als u wat hulp met het ontwerpen van een efficiënte herinnering nodig hebt.
 
 1. (Optioneel) Vul de instellingen voor de inhoudshulp in om extra gegevens op te geven voor het genereren van de preheader:
 
@@ -192,11 +192,11 @@ Een e-mailpreheader is de korte samenvattingstekst die volgt op de onderwerprege
 
    De gegenereerde varianten worden weergegeven in het dialoogvenster.
 
-   ![ AI Medewerker - e-mail preheader geproduceerde varianten ](./assets/email-properties-ai-assistant-preheader.png){width="600" zoomable="yes"}
+   ![&#x200B; AI Medewerker - e-mail preheader geproduceerde varianten &#x200B;](./assets/email-properties-ai-assistant-preheader.png){width="600" zoomable="yes"}
 
 1. Blader in het deelvenster AI-assistent en blader door de gegenereerde variaties om te bepalen welke variatie het beste past.
 
-   U kunt [ voorleggen terugkoppelt ](#submit-variation-feedback) voor een geproduceerde variant door de _Duimen omhoog_, _duimen neer_, of _Vlag_ pictogram voor te klikken en de reden te kiezen die het best uw samenvat terugkoppelt.
+   U kunt [&#x200B; voorleggen terugkoppelt &#x200B;](#submit-variation-feedback) voor een geproduceerde variant door de _Duimen omhoog_, _duimen neer_, of _Vlag_ pictogram voor te klikken en de reden te kiezen die het best uw samenvat terugkoppelt.
 
 1. Klik op de optie **[!UICONTROL Refine]** voor meer aanpassingsfuncties:
 
@@ -210,7 +210,7 @@ Een e-mailpreheader is de korte samenvattingstekst die volgt op de onderwerprege
 
    * **[!UICONTROL Change Communication strategy]** - Wijzig de berichtenbenadering op basis van uw doelstellingen, zoals het creëren van urgentie, of het benadrukken van opwindende aantrekkingskracht.
 
-   ![ AI Medewerker - preheader verfijning ](./assets/email-properties-ai-assistant-preheader-refine.png){width="500" zoomable="yes"}
+   ![&#x200B; AI Medewerker - preheader verfijning &#x200B;](./assets/email-properties-ai-assistant-preheader-refine.png){width="500" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Select]** om de voorheader te vervangen door de geselecteerde variant en terug te keren naar de e-maileigenschappen.
 
@@ -218,11 +218,11 @@ Een e-mailpreheader is de korte samenvattingstekst die volgt op de onderwerprege
 
 ## E-mailinhoud genereren met AI Assistant {#generative-ai-email-design}
 
-Nadat u [ creeert en uw e-mail ](./email-authoring.md) personaliseert, gebruik AI Medewerker in [!DNL Journey Optimizer B2B Edition], aangedreven door generatieve AI om uw e-maillichaamsinhoud tot het volgende niveau op te heffen.
+Nadat u [&#x200B; creeert en uw e-mail &#x200B;](./email-authoring.md) personaliseert, gebruik AI Medewerker in [!DNL Journey Optimizer B2B Edition], aangedreven door generatieve AI om uw e-maillichaamsinhoud tot het volgende niveau op te heffen.
 
-In de ontwerpruimte van e-mail, kan AI Medewerker u helpen de invloed van uw leveringen optimaliseren door het volledige e-maillichaam, gerichte tekstinhoud, en beelden te produceren die met uw publiek resoneren. Deze optimalisatie van uw e-mailcampagnes is ontworpen om een betere betrokkenheid te creëren. Selecteer de _AI Medewerker_ ( ![ AI Hulp menuknevel ](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"}) om de hulpmiddelen van de inhoudsgeneratie te tonen die voor de huidige inhoudselectie beschikbaar zijn.
+In de ontwerpruimte van e-mail, kan AI Medewerker u helpen de invloed van uw leveringen optimaliseren door het volledige e-maillichaam, gerichte tekstinhoud, en beelden te produceren die met uw publiek resoneren. Deze optimalisatie van uw e-mailcampagnes is ontworpen om een betere betrokkenheid te creëren. Selecteer de _AI Medewerker_ ( ![&#x200B; AI Hulp menuknevel &#x200B;](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"}) om de hulpmiddelen van de inhoudsgeneratie te tonen die voor de huidige inhoudselectie beschikbaar zijn.
 
-![ AI Hulp knevel in de ruimte van het e-mailontwerp ](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
+![&#x200B; AI Hulp knevel in de ruimte van het e-mailontwerp &#x200B;](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
 Voer de volgende stappen uit op basis van het type e-mailinhoud dat u wilt genereren:
 
@@ -232,27 +232,27 @@ Voer de volgende stappen uit op basis van het type e-mailinhoud dat u wilt gener
 
 Voer de volgende stappen uit om AI Assistant te gebruiken voor het genereren van volledige e-mail door een bestaande e-mailsjabloon te verfijnen:
 
-1. Na [ creërend e-mail ](./add-email.md), klik **[!UICONTROL Edit email content]**.
+1. Na [&#x200B; creërend e-mail &#x200B;](./add-email.md), klik **[!UICONTROL Edit email content]**.
 
 1. Selecteer een sjabloon.
 
-   Voor het genereren van volledige inhoud is een sjabloon vereist. Dit kan een standaardsjabloon zijn die door Adobe wordt aangeboden, of een opgeslagen sjabloon. U kunt de optie _[!UICONTROL Import HTML]_ook gebruiken om een sjabloon te importeren.
+   Voor het genereren van volledige inhoud is een sjabloon vereist. Dit kan een standaardsjabloon zijn die door Adobe wordt aangeboden, of een opgeslagen sjabloon. U kunt de optie _[!UICONTROL Import HTML]_&#x200B;ook gebruiken om een sjabloon te importeren.
 
    Voor meer informatie over het gebruiken van een e-mailmalplaatje, zie _[een malplaatje](./email-authoring.md#select-a-template)_ selecteren.
 
-1. In de ruimte van het e-mailontwerp, heb toegang tot het AI Hulpmenu door het pictogram ( ![ AI Hulp menuknevel ](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25"}) bij het recht te klikken.
+1. In de ruimte van het e-mailontwerp, heb toegang tot het AI Hulpmenu door het pictogram ( ![&#x200B; AI Hulp menuknevel &#x200B;](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25"}) bij het recht te klikken.
 
    De AI Hulp montages op het recht wijzen op _E-mail_ produceren.
 
-   ![ AI Medewerker - snelle bibliotheek voor het produceren van e-mailinhoud ](./assets/email-designer-ai-assistant-full.png){width="600" zoomable="yes"}
+   ![&#x200B; AI Medewerker - snelle bibliotheek voor het produceren van e-mailinhoud &#x200B;](./assets/email-designer-ai-assistant-full.png){width="600" zoomable="yes"}
 
 1. Selecteer **[!UICONTROL Brand]** om ervoor te zorgen dat de door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk.
 
-   Als er geen gepubliceerde merken zijn, klik **[!UICONTROL Create a brand]** om uw [ herbruikbare merkrichtlijnen ](./brands-overview.md) te bepalen.
+   Als er geen gepubliceerde merken zijn, klik **[!UICONTROL Create a brand]** om uw [&#x200B; herbruikbare merkrichtlijnen &#x200B;](./brands-overview.md) te bepalen.
 
 1. Voer in het veld **[!UICONTROL Prompt]** een beschrijving in van wat u wilt genereren.
 
-   Gebruik de [ Snelle Bibliotheek ](#prompt-library) als u wat hulp met het ontwerpen van een efficiënte herinnering nodig hebt.
+   Gebruik de [&#x200B; Snelle Bibliotheek &#x200B;](#prompt-library) als u wat hulp met het ontwerpen van een efficiënte herinnering nodig hebt.
 
    >[!TIP]
    >
@@ -268,17 +268,17 @@ Voer de volgende stappen uit om AI Assistant te gebruiken voor het genereren van
 
    De gegenereerde variaties worden weergegeven in het rechterdeelvenster.
 
-1. Doorblader door de geproduceerde variaties of klik het _Volledige scherm_ ( ![ Volledige het schermpictogram ](../assets/do-not-localize/icon-full-screen.svg)) pictogram om de _[!UICONTROL Generate Email]_dialoog te openen.
+1. Doorblader door de geproduceerde variaties of klik het _Volledige scherm_ ( ![&#x200B; Volledige het schermpictogram &#x200B;](../assets/do-not-localize/icon-full-screen.svg)) pictogram om de _[!UICONTROL Generate Email]_&#x200B;dialoog te openen.
 
    Het dialoogvenster bevat extra ruimte voor het vergelijken van de variaties, het aanpassen van de instellingen voor tekst en de referentie-inhoud (indien nodig) en het opnieuw genereren van de variaties.
 
    U kunt een variatie ook verfijnen door verfijningsacties toe te passen en feedback voor de gegenereerde variaties te verzenden. Zie _[Voorproef en inhoudsverfijning](#preview-and-content-refinement)_ voor meer details over variatieverfijning en terugkoppelt.
 
-   ![ AI Hulp voorproef van e-mailvariatie en verfijningsopties ](./assets/email-designer-ai-assistant-full-refine.png){width="700" zoomable="yes"}
+   ![&#x200B; AI Hulp voorproef van e-mailvariatie en verfijningsopties &#x200B;](./assets/email-designer-ai-assistant-full-refine.png){width="700" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Select]** om de inhoud van de sjabloon te vervangen door de geselecteerde variant en terug te keren naar de ontwerpruimte van de e-mail.
 
-   U kunt de bewerkings- en opmaakgereedschappen op het canvas gebruiken om de gegenereerde inhoud te wijzigen, evenals de opties _[!UICONTROL Settings]_en_[!UICONTROL Style]_ aan de rechterkant.
+   U kunt de bewerkings- en opmaakgereedschappen op het canvas gebruiken om de gegenereerde inhoud te wijzigen, evenals de opties _[!UICONTROL Settings]_&#x200B;en&#x200B;_[!UICONTROL Style]_ aan de rechterkant.
 
 >[!TAB  slechts Tekst ]
 
@@ -286,19 +286,19 @@ Ga als volgt te werk om AI Assistant te gebruiken om de tekstinhoud voor een bes
 
 1. In de e-mailontwerpruimte, selecteer de component van de Tekst van de a __ om de specifieke inhoud te richten.
 
-1. Op de buitenspoor van het juiste paneel, selecteer het _AI Medewerker_ ( ![ AI Hulp menuknevel ](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25"}) pictogram.
+1. Op de buitenspoor van het juiste paneel, selecteer het _AI Medewerker_ ( ![&#x200B; AI Hulp menuknevel &#x200B;](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25"}) pictogram.
 
    De instellingen aan de rechterkant weerspiegelen de instellingen voor het genereren van inhoud voor de tekstcomponent.
 
 1. Selecteer **[!UICONTROL Brand]** om ervoor te zorgen dat de door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk.
 
-   Als er geen gepubliceerde merken zijn, klik **[!UICONTROL Create a brand]** om [ uw herbruikbare merkrichtlijnen ](./brands-overview.md) te bepalen.
+   Als er geen gepubliceerde merken zijn, klik **[!UICONTROL Create a brand]** om [&#x200B; uw herbruikbare merkrichtlijnen &#x200B;](./brands-overview.md) te bepalen.
 
 1. Voer in het veld **[!UICONTROL Prompt]** een beschrijving in van wat u wilt genereren.
 
-   ![ AI Medewerker - tekstmontages ](./assets/email-designer-ai-assistant-text.png){width="600" zoomable="yes"}
+   ![&#x200B; AI Medewerker - tekstmontages &#x200B;](./assets/email-designer-ai-assistant-text.png){width="600" zoomable="yes"}
 
-   Gebruik de [ Snelle Bibliotheek ](#prompt-library) als u wat hulp met het ontwerpen van een efficiënte herinnering nodig hebt.
+   Gebruik de [&#x200B; Snelle Bibliotheek &#x200B;](#prompt-library) als u wat hulp met het ontwerpen van een efficiënte herinnering nodig hebt.
 
 1. Voltooi de instellingen voor de inhoudshulp om de gegenereerde inhoud aan te passen:
 
@@ -308,17 +308,17 @@ Ga als volgt te werk om AI Assistant te gebruiken om de tekstinhoud voor een bes
 
 1. Klik op **[!UICONTROL Generate]** wanneer de vraag en de instellingen gereed zijn.
 
-1. Doorblader door de geproduceerde variaties of klik het _Volledige scherm_ ( ![ Volledige het schermpictogram ](../assets/do-not-localize/icon-full-screen.svg)) pictogram om de _[!UICONTROL Generate Text]_dialoog te openen.
+1. Doorblader door de geproduceerde variaties of klik het _Volledige scherm_ ( ![&#x200B; Volledige het schermpictogram &#x200B;](../assets/do-not-localize/icon-full-screen.svg)) pictogram om de _[!UICONTROL Generate Text]_&#x200B;dialoog te openen.
 
    Het dialoogvenster bevat extra ruimte voor het vergelijken van de variaties, het aanpassen van de instellingen voor tekst en de referentie-inhoud (indien nodig) en het opnieuw genereren van de variaties.
 
    U kunt een variatie ook verfijnen door verfijningsacties toe te passen en feedback voor de gegenereerde variaties te verzenden. Zie _[Voorproef en inhoudsverfijning](#preview-and-refine-the-content)_ voor meer details over variatieverfijning en terugkoppelt.
 
-   ![ AI Hulp voorproef van tekstvariatie en verfijningsopties ](./assets/email-designer-ai-assistant-text-refine.png){width="700" zoomable="yes"}
+   ![&#x200B; AI Hulp voorproef van tekstvariatie en verfijningsopties &#x200B;](./assets/email-designer-ai-assistant-text-refine.png){width="700" zoomable="yes"}
 
 1. Als u de gewenste inhoud hebt, klikt u op **[!UICONTROL Select]** om de tekst te vervangen door de geselecteerde variant en terug te keren naar de ontwerpruimte van de e-mail.
 
-   U kunt de bewerkings- en opmaakgereedschappen op het canvas gebruiken om de tekst, maar ook de opties _[!UICONTROL Settings]_en_[!UICONTROL Style]_ aan de rechterkant te wijzigen.
+   U kunt de bewerkings- en opmaakgereedschappen op het canvas gebruiken om de tekst, maar ook de opties _[!UICONTROL Settings]_&#x200B;en&#x200B;_[!UICONTROL Style]_ aan de rechterkant te wijzigen.
 
 >[!TAB  Beeld slechts ]
 
@@ -326,19 +326,19 @@ Ga als volgt te werk om AI Assistant te gebruiken om de afbeeldingsinhoud voor e
 
 1. In de e-mailontwerpruimte, selecteer een _component van het Beeld_ om de specifieke inhoud te richten.
 
-1. Op de buitenspoor van het juiste paneel, selecteer het _AI Medewerker_ ( ![ AI Hulp menuknevel ](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25"}) pictogram.
+1. Op de buitenspoor van het juiste paneel, selecteer het _AI Medewerker_ ( ![&#x200B; AI Hulp menuknevel &#x200B;](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25"}) pictogram.
 
    De instellingen van de AI-assistent aan de rechterkant weerspiegelen de instellingen voor het genereren van de afbeeldingscomponent.
 
 1. Selecteer **[!UICONTROL Brand]** om ervoor te zorgen dat de door AI gegenereerde inhoud wordt uitgelijnd op de specificaties van uw merk.
 
-   Als er geen gepubliceerde merken zijn, klik **[!UICONTROL Create a brand]** om [ uw herbruikbare merkrichtlijnen ](./brands-overview.md) te bepalen.
+   Als er geen gepubliceerde merken zijn, klik **[!UICONTROL Create a brand]** om [&#x200B; uw herbruikbare merkrichtlijnen &#x200B;](./brands-overview.md) te bepalen.
 
 1. Voer in het veld **[!UICONTROL Prompt]** een beschrijving in van wat u wilt.
 
-   ![ AI Medewerker - ga een herinnering voor de beeldcomponent ](./assets/email-designer-ai-assistant-image.png){width="600" zoomable="yes"} in
+   ![&#x200B; AI Medewerker - ga een herinnering voor de beeldcomponent &#x200B;](./assets/email-designer-ai-assistant-image.png){width="600" zoomable="yes"} in
 
-   Gebruik de [ Snelle Bibliotheek ](#prompt-library) als u wat hulp met het ontwerpen van een efficiënte herinnering nodig hebt.
+   Gebruik de [&#x200B; Snelle Bibliotheek &#x200B;](#prompt-library) als u wat hulp met het ontwerpen van een efficiënte herinnering nodig hebt.
 
 1. Voltooi de instellingen voor de inhoudshulp om de gegenereerde inhoud aan te passen:
 
@@ -354,19 +354,19 @@ Ga als volgt te werk om AI Assistant te gebruiken om de afbeeldingsinhoud voor e
    >
    >Als de referentie-inhoud geen afbeeldingen bevat of als er geen afbeeldingen zijn die relevant zijn voor de invoerprompt, is de uitvoer leeg.
 
-1. Doorblader door de geproduceerde variaties of klik het _Volledige scherm_ ( ![ Volledige het schermpictogram ](../assets/do-not-localize/icon-full-screen.svg)) pictogram om de _[!UICONTROL Generate Image]_dialoog te openen.
+1. Doorblader door de geproduceerde variaties of klik het _Volledige scherm_ ( ![&#x200B; Volledige het schermpictogram &#x200B;](../assets/do-not-localize/icon-full-screen.svg)) pictogram om de _[!UICONTROL Generate Image]_&#x200B;dialoog te openen.
 
    Het dialoogvenster biedt extra ruimte om de variaties te vergelijken, de instellingen voor de afbeelding en de referentie-inhoud aan te passen (indien nodig) en de variaties opnieuw te genereren.
 
-   U kunt een variatie selecteren en op **[!UICONTROL Generate Similar]** klikken om extra afbeeldingen te genereren die vergelijkbaar zijn met de geselecteerde variant. U kunt ook op **[!UICONTROL Edit in Adobe Express]** klikken om uw eigen wijzigingen in de afbeelding aan te brengen. Zie [ Snelle acties in Adobe Express ](./image-edit-adobe-express.md#quick-actions-in-adobe-express) voor meer informatie over het gebruiken van Adobe Express om uw beelden te verfijnen.
+   U kunt een variatie selecteren en op **[!UICONTROL Generate Similar]** klikken om extra afbeeldingen te genereren die vergelijkbaar zijn met de geselecteerde variant. U kunt ook op **[!UICONTROL Edit in Adobe Express]** klikken om uw eigen wijzigingen in de afbeelding aan te brengen. Zie [&#x200B; Snelle acties in Adobe Express &#x200B;](./image-edit-adobe-express.md#quick-actions-in-adobe-express) voor meer informatie over het gebruiken van Adobe Express om uw beelden te verfijnen.
 
-   ![ AI Hulp voorproef van tekstvariatie en verfijningsopties ](./assets/email-designer-ai-assistant-image-refine.png){width="700" zoomable="yes"}
+   ![&#x200B; AI Hulp voorproef van tekstvariatie en verfijningsopties &#x200B;](./assets/email-designer-ai-assistant-image-refine.png){width="700" zoomable="yes"}
 
-   U kunt ook [ voorleggen terugkoppelt ](#submit-variation-feedback) voor de geproduceerde variaties.
+   U kunt ook [&#x200B; voorleggen terugkoppelt &#x200B;](#submit-variation-feedback) voor de geproduceerde variaties.
 
 1. Markeer de gewenste afbeelding en klik op **[!UICONTROL Select]** om de afbeelding of tijdelijke aanduiding te vervangen door het geselecteerde item en terug te keren naar de ontwerpruimte van de e-mail.
 
-   U kunt de bewerkings- en opmaakgereedschappen op het canvas gebruiken om de afbeelding te wijzigen, maar ook de opties _[!UICONTROL Settings]_en_[!UICONTROL Style]_ aan de rechterkant.
+   U kunt de bewerkings- en opmaakgereedschappen op het canvas gebruiken om de afbeelding te wijzigen, maar ook de opties _[!UICONTROL Settings]_&#x200B;en&#x200B;_[!UICONTROL Style]_ aan de rechterkant.
 
 >[!ENDTABS]
 
@@ -378,9 +378,9 @@ Na het produceren van inhoudvariaties, kunt u de resultaten verfijnen om ervoor 
 
 1. Blader na het genereren van de inhoud door de **[!UICONTROL Variations]** .
 
-1. Identificeer de variatie die de beste gelijke voor uw doelstellingen is en klik het _Volledige scherm_ ( ![ Volledige het schermpictogram ](../assets/do-not-localize/icon-full-screen.svg)) pictogram om de geselecteerde variatie in meer diepte te bekijken.
+1. Identificeer de variatie die de beste gelijke voor uw doelstellingen is en klik het _Volledige scherm_ ( ![&#x200B; Volledige het schermpictogram &#x200B;](../assets/do-not-localize/icon-full-screen.svg)) pictogram om de geselecteerde variatie in meer diepte te bekijken.
 
-   ![ heb toegang tot de voorproefdialoog ](./assets/gen-ai-preview-text-refine.png){width="700" zoomable="yes"}
+   ![&#x200B; heb toegang tot de voorproefdialoog &#x200B;](./assets/gen-ai-preview-text-refine.png){width="700" zoomable="yes"}
 
 1. Als u tevreden bent met de geselecteerde variatie, klikt u op **[!UICONTROL Select]** om deze toe te passen op het canvas.
 
@@ -404,20 +404,20 @@ Klik op de optie **[!UICONTROL Refine]** voor aanvullende aanpassingsfuncties vo
 
 <!-- is this option coming back? * **[!UICONTROL Use as reference content]** - Select this option to use the variant as the reference content for generating other results. -->
 
-![ verfijnen menu tonend opties voor inhoudsverfijning ](./assets/gen-ai-preview-text-refine.png){width="700" zoomable="yes"}
+![&#x200B; verfijnen menu tonend opties voor inhoudsverfijning &#x200B;](./assets/gen-ai-preview-text-refine.png){width="700" zoomable="yes"}
 
 ### Feedback verzenden
 
 Verstrek terugkoppel voor de geproduceerde varianten door de _Duimen omhoog_, _duimen neer_, of _Vlag_ te klikken pictogram en de reden te kiezen die het best uw samenvat terugkoppelt.
 
-![ AI Medewerker - voorproef de geproduceerde variaties ](./assets/gen-ai-preview-feedback-thumbs-up.png){width="700" zoomable="yes"}
+![&#x200B; AI Medewerker - voorproef de geproduceerde variaties &#x200B;](./assets/gen-ai-preview-feedback-thumbs-up.png){width="700" zoomable="yes"}
 
 ### Controleer of je merk is uitgelijnd (Beta)
 
 <!-- Are we surfacing scoring here in the future, or will it be a separate post-creation task? 1. Click the percentage icon to view your **[!UICONTROL Brand Alignment Score]** and identify any misalignments with your brand. -->
 
-De evaluatie en het scoren van de merkgroepering helpen u om consistentie in toon, overseinen, en visuele identiteit over uw e-mailcampagnes te verzekeren, terwijl ook als kwaliteitscontrole dient alvorens uw inhoud live gaat. Wanneer de e-mailinhoud volledig is, klik de _groepering van het Merk_ ( ![ pictogram van de groepering van het Merk ](../assets/do-not-localize/icon-brand-compliance.svg) ) op het recht om het _Merk groeperings_ juiste paneel in de e-mailontwerpruimte te openen.
+De evaluatie en het scoren van de merkgroepering helpen u om consistentie in toon, overseinen, en visuele identiteit over uw e-mailcampagnes te verzekeren, terwijl ook als kwaliteitscontrole dient alvorens uw inhoud live gaat. Wanneer de e-mailinhoud volledig is, klik de _groepering van het Merk_ ( ![&#x200B; pictogram van de groepering van het Merk &#x200B;](../assets/do-not-localize/icon-brand-compliance.svg) ) op het recht om het _Merk groeperings_ juiste paneel in de e-mailontwerpruimte te openen.
 
-![ heb toegang tot de merkgroepering die tot hulpmiddelen ](./assets/brands-alignment-sidebar.png){width="600" zoomable="yes"} scoren
+![&#x200B; heb toegang tot de merkgroepering die tot hulpmiddelen &#x200B;](./assets/brands-alignment-sidebar.png){width="600" zoomable="yes"} scoren
 
 Voor gedetailleerde informatie, zie [_de groeperingsscore van de Merk_](./content-evaluation.md#brand-alignment-score)
