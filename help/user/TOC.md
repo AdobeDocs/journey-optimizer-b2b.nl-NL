@@ -1,9 +1,9 @@
 ---
 user-guide-title: Journey Optimizer B2B edition-documentatie
 user-guide-description: Meer informatie over Adobe Journey Optimizer B2B edition en hoe u dit kunt gebruiken om accounts te ordenen en groepsreizen te kopen met behulp van ingebouwde generatieve AI en toonaangevende automatisering.
-source-git-commit: e770b40ebe15a9fe8addd2876d34a0f7800affd2
+source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '438'
 ht-degree: 94%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 94%
       + [Personpubliek (Beta)](./journeys/person-audience-nodes.md)
       + [Handeling uitvoeren](./journeys/action-nodes.md)
       + [Luisteren naar een gebeurtenis](./journeys/listen-for-event-nodes.md)
-      + [&#x200B; Splits en voeg wegen  samen](./journeys/split-merge-paths-nodes.md)
+      + [ Splits en voeg wegen ](./journeys/split-merge-paths-nodes.md) samen
       + [Wachten](./journeys/wait-nodes.md)
       + [Externe knooppunten](./journeys/external-nodes.md)
    + [Reisgegevens](./journeys/journey-details.md)
@@ -100,7 +100,6 @@ ht-degree: 94%
 + Inhoudsbeheer {#content-management}
    + E-mails {#emails}
       + [Werken met e-mailinhoud](./content/emails-list.md)
-      + [Toegankelijke inhoud ontwerpen](./content/email-accessible-content.md)
       + Voorvertoning en validatie {#preview}
          + [Inhoud simuleren](./content/email-simulate-content.md)
          + [E-mailrendering testen](./content/email-test-rendering.md)
@@ -129,7 +128,7 @@ ht-degree: 94%
       + [Overzicht](./content/forms.md)
       + [Formulierontwerp](./content/form-design.md)
    + Openingspagina&#39;s (Beta) {#landing-pages}
-      + [&#x200B; Overzicht &#x200B;](./content/landing-pages.md)
+      + [ Overzicht ](./content/landing-pages.md)
       + [Ontwerp bestemmingspagina](./content/landing-page-design.md)
       + [AI Assistant voor het plaatsen van pagina-inhoud](./content/ai-assistant-landing-pages.md)
    + Gereedschappen voor het ontwerpen van inhoud {#content-design}
@@ -143,6 +142,7 @@ ht-degree: 94%
    + [Merkthema&#39;s](./content/brand-themes.md)
    + [Inhoudsevaluatie](./content/content-evaluation.md)
    + [Voorwaardelijke content](./content/conditional-content.md)
+   + [Toegankelijkheid van inhoud](./content/accessible-content.md)
    + Personalisatie {#personalization}
       + [Overzicht](./content/personalization.md)
       + [Personalization-syntaxis](./content/personalization-syntax.md)
@@ -150,7 +150,7 @@ ht-degree: 94%
 + Intelligente dashboards {#dashboards}
    + [Het dashboard met inzichten](./dashboards/intelligent-dashboard.md)
    + [Betrokkenheidsdashboard](./dashboards/engagement-dashboard.md)
-   + [&#x200B; de betrokkenheidsdashboard van het Web &#x200B;](./dashboards/web-engagement-dashboard.md)
+   + [ de betrokkenheidsdashboard van het Web ](./dashboards/web-engagement-dashboard.md)
    + [Het dashboard voor groepen kopen](./dashboards/buying-groups-dashboard.md)
    + [Rekeningjournaal](./dashboards/journeys-dashboard.md)
 + Administratie {#admin}
